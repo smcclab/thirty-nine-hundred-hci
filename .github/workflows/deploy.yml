@@ -1,0 +1,63 @@
+name: Build and Deploy Lectures
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    container:
+      image: pandoc/latex:3.7.0.1
+      options: --user root
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Python and Dependencies
+        run: |
+          apk add --no-cache python3 py3-pip py3-yaml make 
+          # python3 -m venv /venv
+          # . /venv/bin/activate
+          # pip install pyyaml
+          tlmgr install libertine \
+                  sourcecodepro \
+                  ly1 \
+                  sectsty \
+                  lastpage \
+                  hanging \
+                  beamer \
+                  beamertheme-metropolis \
+                  pgfopts \
+                  beamercolorthemeowl
+
+      - name: Build Lectures
+        run: |
+          # . /venv/bin/activate
+          make all
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './output'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
