@@ -84,7 +84,7 @@ workshops: $(WORKSHOPS_OUT) $(WORKSHOPS_HTMLS)
 
 # Default target
 .PHONY: all
-all: reveal beamer index
+all: reveal beamer assessments resources workshops index
 
 # Create output directories including images
 .PHONY: directories
