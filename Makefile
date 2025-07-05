@@ -2,11 +2,17 @@
 
 # Directories
 LECTURES_DIR = lectures
+RESOURCES_DIR = resources
+ASSESSMENTS_DIR = assessments
+WORKSHOPS_DIR = workshops
 TEMPLATES_DIR = templates
 IMAGES_DIR = img
 OUTPUT_DIR = build
 REVEAL_DIR = $(OUTPUT_DIR)/reveal
 BEAMER_DIR = $(OUTPUT_DIR)/beamer
+ASSESSMENTS_OUT = $(OUTPUT_DIR)/assessments
+WORKSHOPS_OUT = $(OUTPUT_DIR)/workshops
+RESOURCES_OUT = $(OUTPUT_DIR)/resources
 OUTPUT_IMAGES_DIR = $(REVEAL_DIR)/$(IMAGES_DIR)
 # DZ_DIR = output/dz
 
@@ -43,16 +49,46 @@ REVEAL_HTMLS = $(patsubst $(LECTURES_DIR)/%.md,$(REVEAL_DIR)/%.html,$(LECTURE_MD
 BEAMER_PDFS = $(patsubst $(LECTURES_DIR)/%.md,$(BEAMER_DIR)/%.pdf,$(LECTURE_MDS))
 DZ_HTMLS = $(patsubst $(LECTURES_DIR)/%.md,$(DZ_DIR)/%.html,$(LECTURE_MDS))
 
+# Find all markdown resources
+RESOURCES_MDS = $(wildcard $(RESOURCES_DIR)/*.md)
+RESOURCES_HTMLS = $(patsubst $(RESOURCES_DIR)/%.md,$(RESOURCES_OUT)/%.html,$(RESOURCES_MDS))
+
+$(RESOURCES_OUT)/%.html: $(RESOURCES_DIR)/%.md
+	$(PANDOC) $(PANDOC_COMMON_OPTS) $< -o $@
+
+# Generate resources
+.PHONY: resources
+resources: $(RESOURCES_OUT) $(RESOURCES_HTMLS)
+
+# Find all markdown assessments
+ASSESSMENTS_MDS = $(wildcard $(ASSESSMENTS_DIR)/*.md)
+ASSESSMENTS_HTMLS = $(patsubst $(ASSESSMENTS_DIR)/%.md,$(ASSESSMENTS_OUT)/%.html,$(ASSESSMENTS_MDS))
+
+$(ASSESSMENTS_OUT)/%.html: $(ASSESSMENTS_DIR)/%.md
+	$(PANDOC) $(PANDOC_COMMON_OPTS) $< -o $@
+
+# Generate assessments
+.PHONY: assessments
+assessments: $(ASSESSMENTS_OUT) $(ASSESSMENTS_HTMLS)
+
+# Find all markdown workshops
+WORKSHOPS_MDS = $(wildcard $(WORKSHOPS_DIR)/*.md)
+WORKSHOPS_HTMLS = $(patsubst $(WORKSHOPS_DIR)/%.md,$(WORKSHOPS_OUT)/%.html,$(WORKSHOPS_MDS))
+
+$(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.md
+	$(PANDOC) $(PANDOC_COMMON_OPTS) $< -o $@
+
+# Generate workshops
+.PHONY: workshops
+workshops: $(WORKSHOPS_OUT) $(WORKSHOPS_HTMLS)
+
 # Default target
 .PHONY: all
 all: reveal beamer index
 
 # Create output directories including images
 .PHONY: directories
-directories:
-	mkdir -p $(REVEAL_DIR)
-	mkdir -p $(BEAMER_DIR)
-	mkdir -p $(OUTPUT_IMAGES_DIR)
+directories: $(REVEAL_DIR) $(BEAMER_DIR) $(WORKSHOPS_OUT) $(ASSESSMENTS_OUT) $(RESOURCES_OUT) $(OUTPUT_IMAGES_DIR)
 
 # Copy images to output directory
 .PHONY: images
@@ -60,7 +96,7 @@ images: directories
 	cp -r $(IMAGES_DIR)/* $(OUTPUT_IMAGES_DIR)/
 
 # Create output directories
-$(REVEAL_DIR) $(BEAMER_DIR):
+$(REVEAL_DIR) $(BEAMER_DIR) $(WORKSHOPS_OUT) $(ASSESSMENTS_OUT) $(RESOURCES_OUT) $(OUTPUT_IMAGES_DIR):
 	mkdir -p $@
 
 # Generate Reveal.js presentations
