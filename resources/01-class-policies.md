@@ -65,30 +65,30 @@ learning activities (lectures, workshops, concerts).
 
 If you have any reason that you cannot attend a certain activity, you must
 [communicate](#communication) this with your tutor well in advance. If you cannot attend campus
-due to illness but are able to work from home, you may be able to have limited participation in workshops and collaborate
-with your group using the [course forum]({{ page.course_forum }}).
+due to illness but are able to work from home, you may be able to have limited participation in workshops and collaborate  using the [course forum](#communication).
 
 If you have accessibility issues that impact your attendance or ability to access the learning activities, you **must** discuss this with the course convenor at the start of the course or as soon as these issues are known.
+
 
 ## Communication {#communication}
 
 Any communication in this course will happen over one of two channels:
 
 1. your student email account
-2. the [course forum]({{ page.course_forum }}) (you will be added to this in this in week 1)
+2. the [course forum](https://edstem.org/au/courses/24905/discussion) (you will be added to this in this in week 1)
 
 If you need to ask a question about the course, here's how to do it:
 
-- Ask on the [forum](({{ page.course_forum }})), and any of the course staff or students will be able to help you.
+- Ask on the forum, and any of the course staff or students will be able to help you.
 - Use public posts, not direct messages. If you need to get a particular person's attention, `@` them in the main chat.
-- If you need help with a software problem, any assessment item, or just want to vent about writing loops in Pd, [post on the forum](({{ page.course_forum }}))
+- If you need help with a software problem, any assessment item, or just want to vent about writing loops in Pd, post on the forum.
 - Extensions are handled through a special website, see below.
 - If you need to get in touch with the course convenor directly to discuss a private matter (and it really is private): firstname.lastname@anu.edu.au
 - Disrespectful, harassing, or discriminatory posting or messaging this course is **not acceptable** and will not be tolerated (see the code of conduct).
 
 Please not that the course staff are not likely to respond to messages or
 emails outside of ANU working hours or if they are on leave. Posting on the
-[forum](({{ page.course_forum }})) is the best way to get an answer from any available staff member.
+[forum](#communication) is the best way to get an answer from any available staff member.
 
 ## Late Submissions {#late-submission}
 
@@ -96,14 +96,14 @@ Late submissions for assessment tasks are not accepted without an extension.
 
 ## Extensions {#extensions}
 
-<a class="button--outline" href="{{page.ext_app_link}}">Link to the Assessment Adjustment Form</a>
+<a class="button--outline" href="https://quicklink.anu.edu.au/101o">Link to the Assessment Adjustment Form</a>
 
 If you have any issues that would prevent you handing in work on time, please
-use the [Assessment Adjustment Form]({{page.ext_app_link}}).
+use the [Assessment Adjustment Form](https://quicklink.anu.edu.au/101o).
 
 - **In most cases it is easy to arrange a short extension**.
 
-The [Assessment Adjustment Form]({{page.ext_app_link}}) has built in instructions to help you provide correct information.
+The [Assessment Adjustment Form](https://quicklink.anu.edu.au/101o) has built in instructions to help you provide correct information.
 You will be asked to include your student number (UID), a short statement of
 your situation and when you think you can get the work completed.
 
@@ -128,13 +128,13 @@ until you exceed a word limit by more than 10%
 If you have any unexpected and unavoidable issues that has affected your
 performance in the course (e.g., sickness, hardship or essential duties during assessment tasks), please think about applying for
 adjustment due to [extenuating circumstances
-(link)]({{page.ext_app_link}}) to document your issue.
+(link)](https://quicklink.anu.edu.au/101o) to document your issue.
 
-- The [Assessment Adjustment form]({{page.ext_app_link}}) can help you figure out whether to apply for an **extension** or **extenuating circumstances**. For short extensions on non-exams, it's almost always better to apply for an extension.
+- The [Assessment Adjustment form](https://quicklink.anu.edu.au/101o) can help you figure out whether to apply for an **extension** or **extenuating circumstances**. For short extensions on non-exams, it's almost always better to apply for an extension.
 
 If you have a serious, unexpected, and unavoidable issue on the day of an exam
 which means you can't do the exam on that day, please apply for [Extenuating
-Circumstances (link)]({{page.ext_app_link}}).
+Circumstances (link)](https://quicklink.anu.edu.au/101o).
 
 ## Appeals {#appeals}
 
