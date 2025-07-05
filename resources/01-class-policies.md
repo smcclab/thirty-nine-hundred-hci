@@ -94,6 +94,12 @@ emails outside of ANU working hours or if they are on leave. Posting on the
 
 Late submissions for assessment tasks are not accepted without an extension.
 
+## Word limits {#word-limits}
+
+Max word count limits are provided for the written assessment tasks in this
+course and we expect you to stay within those limits. You won't lose marks
+until you exceed a word limit by more than 10%
+
 ## Extensions {#extensions}
 
 <a class="button--outline" href="https://quicklink.anu.edu.au/101o">Link to the Assessment Adjustment Form</a>
@@ -117,24 +123,20 @@ Note that:
 - We do not process extensions every day, but will attend to your request within a few days. Do not send multiple messages.
 - Extensions of more than two weeks are not generally granted except in exceptional circumstances.
 
-## Word limits {#word-limits}
-
-Max word count limits are provided for the written assessment tasks in this
-course and we expect you to stay within those limits. You won't lose marks
-until you exceed a word limit by more than 10%
-
 ## Extenuating Circumstances Application {#eca}
 
-If you have any unexpected and unavoidable issues that has affected your
-performance in the course (e.g., sickness, hardship or essential duties during assessment tasks), please think about applying for
-adjustment due to [extenuating circumstances
-(link)](https://quicklink.anu.edu.au/101o) to document your issue.
+<a class="button--outline" href="https://quicklink.anu.edu.au/101o">Link to the Assessment Adjustment Form</a>
 
-- The [Assessment Adjustment form](https://quicklink.anu.edu.au/101o) can help you figure out whether to apply for an **extension** or **extenuating circumstances**. For short extensions on non-exams, it's almost always better to apply for an extension.
+If you have any unexpected and unavoidable issues that has affected your
+performance in the course (e.g., sickness, hardship or essential duties during assessment tasks), please think about applying for 
+adjustment due to [extenuating circumstances
+(use the Assessment Adjustment Form)](#eca) to document your issue.
+
+- The [Assessment Adjustment form](#eca) can help you figure out whether to apply for an **extension** or **extenuating circumstances**. For short extensions on non-exams, it's almost always better to apply for an extension.
 
 If you have a serious, unexpected, and unavoidable issue on the day of an exam
 which means you can't do the exam on that day, please apply for [Extenuating
-Circumstances (link)](https://quicklink.anu.edu.au/101o).
+Circumstances (link)](#eca).
 
 ## Appeals {#appeals}
 
@@ -143,7 +145,7 @@ electronically you have a period of 10 working days in which to make an **inform
 appeal** of your mark to the course convenor.
 
 An **informal appeal** requires some explanation about why the original mark was
-not correct (e.g., the marker accidentally missed a particular aspect of your
+not correct (e.g., the marker accidentally missed a section of your
 assignment).
 
 You should submit an informal appeal in a private message to the course convenor by email. Please include your student number (UID), a short statement
