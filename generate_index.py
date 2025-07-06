@@ -49,8 +49,8 @@ def generate_index(info, md_files):
         basename = os.path.basename(md_file)[:-3]  # Remove .md extension
         title = extract_title(md_file)
         html += f'        <li>{title} '
-        html += f'[<a href="reveal/{basename}.html">HTML</a>] '
-        html += f'[<a href="beamer/{basename}.pdf">PDF</a>]'
+        html += f'[<a href="lectures/{basename}.html">HTML</a>] '
+        html += f'[<a href="lectures/{basename}.pdf">PDF</a>]'
         html += '</li>\n'
     
     html += """    </ol>
