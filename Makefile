@@ -122,3 +122,12 @@ index: $(INDEX_HTML)
 .PHONY: clean
 clean:
 	rm -rf $(OUTPUT_DIR)
+
+# For compressed output
+$(OUTPUT_DIR)/charles_reveal_dark.css: css/charles_reveal_dark.scss
+	sass css/charles_reveal_dark.scss $(OUTPUT_DIR)/charles_reveal_dark.css
+	
+# --style=compressed 
+
+.PHONY: styles
+styles: $(OUTPUT_DIR)/charles_reveal_dark.css
