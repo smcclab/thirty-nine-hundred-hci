@@ -8,12 +8,11 @@ WORKSHOPS_DIR = workshops
 TEMPLATES_DIR = templates
 IMAGES_DIR = img
 OUTPUT_DIR = build
-REVEAL_DIR = $(OUTPUT_DIR)/reveal
-BEAMER_DIR = $(OUTPUT_DIR)/beamer
+LECTURES_OUT = $(OUTPUT_DIR)/lectures
 ASSESSMENTS_OUT = $(OUTPUT_DIR)/assessments
 WORKSHOPS_OUT = $(OUTPUT_DIR)/workshops
 RESOURCES_OUT = $(OUTPUT_DIR)/resources
-OUTPUT_IMAGES_DIR = $(REVEAL_DIR)/$(IMAGES_DIR)
+OUTPUT_IMAGES_DIR = $(LECTURES_OUT)/$(IMAGES_DIR)
 # DZ_DIR = output/dz
 
 # Index generation
@@ -45,8 +44,8 @@ BEAMER_OPTS = -t beamer \
 
 # Find all markdown lecture files
 LECTURE_MDS = $(wildcard $(LECTURES_DIR)/*.md)
-REVEAL_HTMLS = $(patsubst $(LECTURES_DIR)/%.md,$(REVEAL_DIR)/%.html,$(LECTURE_MDS))
-BEAMER_PDFS = $(patsubst $(LECTURES_DIR)/%.md,$(BEAMER_DIR)/%.pdf,$(LECTURE_MDS))
+REVEAL_HTMLS = $(patsubst $(LECTURES_DIR)/%.md,$(LECTURES_OUT)/%.html,$(LECTURE_MDS))
+BEAMER_PDFS = $(patsubst $(LECTURES_DIR)/%.md,$(LECTURES_OUT)/%.pdf,$(LECTURE_MDS))
 DZ_HTMLS = $(patsubst $(LECTURES_DIR)/%.md,$(DZ_DIR)/%.html,$(LECTURE_MDS))
 
 # Find all markdown resources
@@ -88,7 +87,7 @@ all: reveal beamer assessments resources workshops index
 
 # Create output directories including images
 .PHONY: directories
-directories: $(REVEAL_DIR) $(BEAMER_DIR) $(WORKSHOPS_OUT) $(ASSESSMENTS_OUT) $(RESOURCES_OUT) $(OUTPUT_IMAGES_DIR)
+directories: $(LECTURES_OUT) $(WORKSHOPS_OUT) $(ASSESSMENTS_OUT) $(RESOURCES_OUT) $(OUTPUT_IMAGES_DIR)
 
 # Copy images to output directory
 .PHONY: images
@@ -96,21 +95,21 @@ images: directories
 	cp -r $(IMAGES_DIR)/* $(OUTPUT_IMAGES_DIR)/
 
 # Create output directories
-$(REVEAL_DIR) $(BEAMER_DIR) $(WORKSHOPS_OUT) $(ASSESSMENTS_OUT) $(RESOURCES_OUT) $(OUTPUT_IMAGES_DIR):
+$(LECTURES_OUT) $(WORKSHOPS_OUT) $(ASSESSMENTS_OUT) $(RESOURCES_OUT) $(OUTPUT_IMAGES_DIR):
 	mkdir -p $@
 
 # Generate Reveal.js presentations
 .PHONY: reveal
-reveal: $(REVEAL_DIR) $(REVEAL_HTMLS) images
+reveal: $(LECTURES_OUT) $(REVEAL_HTMLS) images
 
-$(REVEAL_DIR)/%.html: $(LECTURES_DIR)/%.md
+$(LECTURES_OUT)/%.html: $(LECTURES_DIR)/%.md
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(REVEAL_OPTS) $< -o $@
 
 # Generate Beamer PDFs
 .PHONY: beamer
-beamer: $(BEAMER_DIR) $(BEAMER_PDFS)
+beamer: $(LECTURES_OUT) $(BEAMER_PDFS)
 
-$(BEAMER_DIR)/%.pdf: $(LECTURES_DIR)/%.md
+$(LECTURES_OUT)/%.pdf: $(LECTURES_DIR)/%.md
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(BEAMER_OPTS) $< -o $@
 
 $(INDEX_HTML): $(LECTURE_MDS) $(REVEAL_HTMLS) $(BEAMER_PDFS) $(INDEX_GENERATOR)
@@ -122,4 +121,4 @@ index: $(INDEX_HTML)
 # Clean up generated files
 .PHONY: clean
 clean:
-	rm -rf $(REVEAL_DIR) $(BEAMER_DIR) $(OUTPUT_IMAGES_DIR) $(INDEX_HTML)
+	rm -rf $(OUTPUT_DIR)
