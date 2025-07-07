@@ -125,7 +125,7 @@ index: $(INDEX_HTML)
 all: reveal beamer assessments resources workshops index
 
 .PHONY: public
-public: reveal beamer index
+public: reveal index
 
 .PHONY: html
 html: reveal assessments resources workshops index
