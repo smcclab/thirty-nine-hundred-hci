@@ -29,9 +29,14 @@ REVEAL_OPTS = -t revealjs \
 							-V width=1920 \
 							-V height=1080 \
 							-V margin=0.1 \
-							--include-in-header css/slides.css \
+							-V transition=fade \
+							-V backgroundTransition=fade \
+							-V hash=true \
+							-V history=false \
+							-V slideNumber=true \
 							--css charles_reveal_dark.css
 
+# --include-in-header css/slides.css \
 # -V theme=night
  
 BEAMER_OPTS = -t beamer \
