@@ -13,7 +13,6 @@ ASSESSMENTS_OUT = $(OUTPUT_DIR)/assessments
 WORKSHOPS_OUT = $(OUTPUT_DIR)/workshops
 RESOURCES_OUT = $(OUTPUT_DIR)/resources
 OUTPUT_IMAGES_DIR = $(LECTURES_OUT)/$(IMAGES_DIR)
-# DZ_DIR = output/dz
 
 # Index generation
 INDEX_HTML = $(OUTPUT_DIR)/index.html
@@ -31,10 +30,9 @@ REVEAL_OPTS = -t revealjs \
 							-V height=1080 \
 							-V margin=0.1 \
 							--include-in-header css/slides.css \
-              -V theme=night
+							--css charles_reveal_dark.css
 
-DZ_OPTS = -t dzslides
-# -V colortheme=nord \
+# -V theme=night
  
 BEAMER_OPTS = -t beamer \
               -V aspectratio=169 \
@@ -46,7 +44,6 @@ BEAMER_OPTS = -t beamer \
 LECTURE_MDS = $(wildcard $(LECTURES_DIR)/*.md)
 REVEAL_HTMLS = $(patsubst $(LECTURES_DIR)/%.md,$(LECTURES_OUT)/%.html,$(LECTURE_MDS))
 BEAMER_PDFS = $(patsubst $(LECTURES_DIR)/%.md,$(LECTURES_OUT)/%.pdf,$(LECTURE_MDS))
-DZ_HTMLS = $(patsubst $(LECTURES_DIR)/%.md,$(DZ_DIR)/%.html,$(LECTURE_MDS))
 
 # Find all markdown resources
 RESOURCES_MDS = $(wildcard $(RESOURCES_DIR)/*.md)
@@ -124,10 +121,10 @@ clean:
 	rm -rf $(OUTPUT_DIR)
 
 # For compressed output
-$(OUTPUT_DIR)/charles_reveal_dark.css: css/charles_reveal_dark.scss
-	sass css/charles_reveal_dark.scss $(OUTPUT_DIR)/charles_reveal_dark.css
+$(LECTURES_OUT)/charles_reveal_dark.css: css/charles_reveal_dark.scss
+	sass css/charles_reveal_dark.scss $(LECTURES_OUT)/charles_reveal_dark.css
 	
 # --style=compressed 
 
 .PHONY: styles
-styles: $(OUTPUT_DIR)/charles_reveal_dark.css
+styles: $(LECTURES_OUT)/charles_reveal_dark.css
