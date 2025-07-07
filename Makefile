@@ -45,6 +45,9 @@ BEAMER_OPTS = -t beamer \
 							-V colortheme=owl \
               --pdf-engine=xelatex
 
+# options for the pandoc HTML writer
+HTML_OPTS = -V mainfont="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+
 # Find all markdown lecture files
 LECTURE_MDS = $(wildcard $(LECTURES_DIR)/*.md)
 REVEAL_HTMLS = $(patsubst $(LECTURES_DIR)/%.md,$(LECTURES_OUT)/%.html,$(LECTURE_MDS))
@@ -55,7 +58,7 @@ RESOURCES_MDS = $(wildcard $(RESOURCES_DIR)/*.md)
 RESOURCES_HTMLS = $(patsubst $(RESOURCES_DIR)/%.md,$(RESOURCES_OUT)/%.html,$(RESOURCES_MDS))
 
 $(RESOURCES_OUT)/%.html: $(RESOURCES_DIR)/%.md
-	$(PANDOC) $(PANDOC_COMMON_OPTS) $< -o $@
+	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
 
 # Generate resources
 .PHONY: resources
@@ -66,7 +69,7 @@ ASSESSMENTS_MDS = $(wildcard $(ASSESSMENTS_DIR)/*.md)
 ASSESSMENTS_HTMLS = $(patsubst $(ASSESSMENTS_DIR)/%.md,$(ASSESSMENTS_OUT)/%.html,$(ASSESSMENTS_MDS))
 
 $(ASSESSMENTS_OUT)/%.html: $(ASSESSMENTS_DIR)/%.md
-	$(PANDOC) $(PANDOC_COMMON_OPTS) $< -o $@
+	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
 
 # Generate assessments
 .PHONY: assessments
@@ -77,7 +80,7 @@ WORKSHOPS_MDS = $(wildcard $(WORKSHOPS_DIR)/*.md)
 WORKSHOPS_HTMLS = $(patsubst $(WORKSHOPS_DIR)/%.md,$(WORKSHOPS_OUT)/%.html,$(WORKSHOPS_MDS))
 
 $(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.md
-	$(PANDOC) $(PANDOC_COMMON_OPTS) $< -o $@
+	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
 
 # Generate workshops
 .PHONY: workshops
