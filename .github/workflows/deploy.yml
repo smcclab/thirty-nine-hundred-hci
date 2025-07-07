@@ -32,7 +32,7 @@ jobs:
         run: |
           apk add --no-cache python3 py3-pip py3-yaml make 
           apk add icu-libs dart-sass --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing/
-          apk add --no-cache dart-sass
+          # apk add --no-cache dart-sass
           # python3 -m venv /venv
           # . /venv/bin/activate
           # pip install pyyaml
