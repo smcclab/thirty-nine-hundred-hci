@@ -51,10 +51,9 @@ jobs:
           rm dart-sass.tar.gz
           /usr/local/dart-sass/sass --version
 
-      - name: Build Lectures
+      - name: Build public documents for website
         run: |
-          # . /venv/bin/activate
-          make all
+          make public
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

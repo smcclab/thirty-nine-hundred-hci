@@ -38,7 +38,7 @@ REVEAL_OPTS = -t revealjs \
 
 # --include-in-header css/slides.css \
 # -V theme=night
- 
+
 BEAMER_OPTS = -t beamer \
               -V aspectratio=169 \
 							-V theme=metropolis \
