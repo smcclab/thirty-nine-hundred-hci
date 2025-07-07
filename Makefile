@@ -78,10 +78,6 @@ $(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.md
 .PHONY: workshops
 workshops: $(WORKSHOPS_OUT) $(WORKSHOPS_HTMLS)
 
-# Default target
-.PHONY: all
-all: reveal beamer assessments resources workshops index
-
 # Create output directories including images
 .PHONY: directories
 directories: $(LECTURES_OUT) $(WORKSHOPS_OUT) $(ASSESSMENTS_OUT) $(RESOURCES_OUT) $(OUTPUT_IMAGES_DIR)
@@ -89,7 +85,7 @@ directories: $(LECTURES_OUT) $(WORKSHOPS_OUT) $(ASSESSMENTS_OUT) $(RESOURCES_OUT
 # Copy images to output directory
 .PHONY: images
 images: directories
-	cp -r $(IMAGES_DIR)/* $(OUTPUT_IMAGES_DIR)/
+	cp -r $(LECTURES_DIR)/$(IMAGES_DIR)/* $(OUTPUT_IMAGES_DIR)/
 
 # Create output directories
 $(LECTURES_OUT) $(WORKSHOPS_OUT) $(ASSESSMENTS_OUT) $(RESOURCES_OUT) $(OUTPUT_IMAGES_DIR):
@@ -115,13 +111,20 @@ $(INDEX_HTML): $(LECTURE_MDS) $(REVEAL_HTMLS) $(BEAMER_PDFS) $(INDEX_GENERATOR)
 .PHONY: index
 index: $(INDEX_HTML)
 
-# Clean up generated files
+# Styles
+%/charles_reveal_dark.css: css/charles_reveal_dark.scss
+	sass --style=compressed css/charles_reveal_dark.scss $@
+
+# phony targets
+.PHONY: all
+all: reveal beamer assessments resources workshops index
+
+.PHONY: public
+public: reveal beamer index
+
+.PHONY: html
+html: reveal assessments resources workshops index
+
 .PHONY: clean
 clean:
 	rm -rf $(OUTPUT_DIR)
-
-# Styles
-%/charles_reveal_dark.css: css/charles_reveal_dark.scss
-	sass css/charles_reveal_dark.scss $@
-	
-# --style=compressed 
