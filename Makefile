@@ -80,7 +80,7 @@ workshops: $(WORKSHOPS_OUT) $(WORKSHOPS_HTMLS)
 
 # Default target
 .PHONY: all
-all: reveal beamer assessments resources workshops index styles
+all: reveal beamer assessments resources workshops index
 
 # Create output directories including images
 .PHONY: directories
@@ -97,7 +97,7 @@ $(LECTURES_OUT) $(WORKSHOPS_OUT) $(ASSESSMENTS_OUT) $(RESOURCES_OUT) $(OUTPUT_IM
 
 # Generate Reveal.js presentations
 .PHONY: reveal
-reveal: $(LECTURES_OUT) $(REVEAL_HTMLS) images
+reveal: $(LECTURES_OUT) $(REVEAL_HTMLS) images $(LECTURES_OUT)/charles_reveal_dark.css
 
 $(LECTURES_OUT)/%.html: $(LECTURES_DIR)/%.md
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(REVEAL_OPTS) $< -o $@
@@ -125,6 +125,3 @@ clean:
 	sass css/charles_reveal_dark.scss $@
 	
 # --style=compressed 
-
-.PHONY: styles
-styles: $(LECTURES_OUT)/charles_reveal_dark.css css/charles_reveal_dark.css
