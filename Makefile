@@ -120,11 +120,11 @@ index: $(INDEX_HTML)
 clean:
 	rm -rf $(OUTPUT_DIR)
 
-# For compressed output
-$(LECTURES_OUT)/charles_reveal_dark.css: css/charles_reveal_dark.scss
-	sass css/charles_reveal_dark.scss $(LECTURES_OUT)/charles_reveal_dark.css
+# Styles
+%/charles_reveal_dark.css: css/charles_reveal_dark.scss
+	sass css/charles_reveal_dark.scss $@
 	
 # --style=compressed 
 
 .PHONY: styles
-styles: $(LECTURES_OUT)/charles_reveal_dark.css
+styles: $(LECTURES_OUT)/charles_reveal_dark.css css/charles_reveal_dark.css
