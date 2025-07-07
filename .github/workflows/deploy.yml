@@ -45,7 +45,7 @@ jobs:
 
       - name: Install Dart Sass
         run: |
-          wget -O dart-sass.tar.gz https://github.com/sass/dart-sass/releases/download/1.89.2/dart-sass-1.89.2-linux-arm64-musl.tar.gz
+          wget -O dart-sass.tar.gz https://github.com/sass/dart-sass/releases/download/1.89.2/dart-sass-1.89.2-linux-x64-musl.tar.gz
           tar -xzf dart-sass.tar.gz -C /usr/local/
           echo "/usr/local/dart-sass" >> $GITHUB_PATH
           rm dart-sass.tar.gz
