@@ -34,11 +34,11 @@ def generate_index(info: dict, base_path: Path) -> str:
 <head>
     <title>{title}</title>
     <style>
-        body {{ font-family: Arial, sans-serif; max-width: 800px; margin: 2em auto; padding: 0 1em; }}
-        h1 {{ color: #333; }}
+        body {{ font-family: Arial, sans-serif; max-width: 800px; margin: 2em auto; padding: 0 1em; background-color: #1a1a1a; color: #e0e0e0;}}
+        h1 {{ color: #ffffff; }}
         ol {{ line-height: 1.6; }}
-        a {{ color: #0066cc; text-decoration: none;}}
-        a:hover {{ text-decoration: underline; }}
+        a {{ color: #66b3ff; text-decoration: none;}}
+        a:hover {{ text-decoration: underline; color: #99ccff;}}
     </style>
 </head>
 <body>
