@@ -14,19 +14,16 @@ track.
 You should complete the following activities prior to attending your
 tutorial:
 
-1.  Read the revised version of the **Course Syllabus** (version 1.3 --
-    Released 28 August 2022), noting changes in yellow.
+1.  Review the lecture content for Week 3: Design Approaches and Methods
 
-2.  Review the lecture content for Week 3: Design Approaches and Methods
-
-3.  Attend the Week 6 lecture or watch the lecture recording (the slides
+2.  Attend the Week 6 lecture or watch the lecture recording (the slides
     PDF is supplementary only- you need to watch the lectures as well as
     reading the slides).\
     \
     Have a go at answering the quiz questions (in real-time or by
     pausing the recording if you are watching asynchronously)
 
-4.  Review the recent Wattle Announcements information posts relating to
+3.  Review the recent Wattle Announcements information posts relating to
     the Project Work
 
 ## Structure

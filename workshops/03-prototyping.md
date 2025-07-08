@@ -13,9 +13,7 @@ your project group.
 The intended learning outcomes of this tutorial are to:
 
 - Develop scenarios and storyboards based on user research;
-
 - Prototype through storyboarding; and
-
 - Critically analyse design decisions.
 
 ## Preparation
