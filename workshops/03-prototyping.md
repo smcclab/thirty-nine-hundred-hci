@@ -22,12 +22,12 @@ You should complete the following activities prior to attending your
 tutorial:
 
 1.  Review the lecture content for Week 6 on **Ideation** and Week 7 on
-    **Prototyping.\**
+    **Prototyping.**
 
 2.  Read **Chapter 12 Design, Prototyping, and Construction** in Sharp
     et al. 2019 *Interaction Design: Beyond Human-Computer Interaction*
     (Sharp, Preece & Rogers 2019) -- Available as an e-book through ANU
-    Library website.**\**
+    Library website.
 
 3.  Make sure that your group has completed you ideation activities for
     6.2.3 Ideation and Low-Fidelity Prototype (for Peer Feedback) (0% -
@@ -47,8 +47,7 @@ The tutorial will follow this structure:
 
 ### Develop a set of scenarios (15 mins)
 
-1.  Your Tutor will place you in a breakout room with your Project
-    Team members.
+1.  Your Tutor will place you in group.
 
 2.  Choose your three best design ideas.
 
@@ -61,7 +60,7 @@ The tutorial will follow this structure:
 
 ### Sketch out storyboards based on scenarios (15 mins)
 
-Stay in the breakout rooms but work individually to develop each
+Stay in groups but work individually to develop each
 scenario into a storyboard. Think through the steps that might
 be involved in the scenario and the personas involved, and draw
 up rough sketches to illustrate each step.
