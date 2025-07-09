@@ -43,6 +43,7 @@ BEAMER_OPTS = -t beamer \
               -V aspectratio=169 \
 							-V theme=metropolis \
 							-V colortheme=owl \
+							--resource-path=$(LECTURES_DIR) \
               --pdf-engine=xelatex
 
 # options for the pandoc HTML writer
