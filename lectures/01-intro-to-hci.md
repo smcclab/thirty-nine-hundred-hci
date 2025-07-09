@@ -129,3 +129,53 @@ Now:
 :::
 ::::::::::::::
 
+# COMP3900/6390 Course Structure
+
+- 12 lectures: every week, Kambri Cinema, here with **me!**
+  - theory, content, explanation of skills, discussion, questions, comfy chairs!
+- 10 tutorials: weeks 2--11, with your **tutor!**
+  - activities, practice, discussion, _making_, _researching_, _doing_.
+  - Pre-class and in-class tasks! (worth 1% of course mark for each tutorial, 10% total)
+- 3 assignments/projects: by **yourself**
+  - Prototype: _create a prototype that solves a problem_ (20%, due Monday week 5)
+  - User Research: _conduct a small-scale user study_ (30%, due Monday week 9)
+  - Final Project: _design a prototype and evaluate it with users_ (40%, due Monday week 13)
+
+## Pre-class and in-class tasks
+
+There are 10 tutorials in this course and one set of **marked** pre- and in-class tasks associated with each one. Worth 1% each week = 10% total over the semester.
+
+- Pre-class task: a weekly post on the course forum (100-200 words) which will be discussed and developed during class
+  - see the weekly tutorial description for the task specification
+- In-class tasks: main content of the tutorials which includes 
+  - conceptualising and discussing HCI topics, 
+  - experimenting with prototyping and research methods, 
+  - collaborating with other students,
+  - **developing and evaluating interactive system designs**
+- **In-person assessment.** If you don't attend your tutorial you will not get a mark without an extension.
+
+## Assignments
+
+- individual tasks, but require some collaboration
+  - that is: you need to _study people_ in User Research and the Final Project, you will find people in your tutorial to study! (they will also find you!)
+- assignments will involve 
+  - _making_ (prototyping, sketching, coding, building, constructing, **designing**, soldering?)
+  - _researching_ (reading, asking, analysing, measuring, discovering, finding, concluding)
+  - _communicating_ (reflecting, discussing, referencing, writing, **presenting**)
+- no late submissions permitted without an extension
+- all submission is through [Gitlab](https://gitlab.cecs.anu.edu.au/comp3900/)
+
+## last thing: referencing
+
+Every assessment submission has a place for references.
+
+You **must** provide at least two references
+
+You **must** reference any code/ideas taken from other places (internet, books, classmates)
+
+You **must** use ACM referencing format, look on the assessment pages for examples.
+
+This is about integrity: **respect** for your **sources** and your **classmates**.
+
+## who has a question?
+
