@@ -384,3 +384,98 @@ Processes
 ![](img/01_01_usability_20.png)
 
 Images from the paper “Never Too Old: Engaging Retired People Inventing the Future with MaKey MaKey” (Rogers et al 2014)
+
+# Conceptualising Interaction
+
+---
+
+## Video: What is a conceptual model?
+
+![[What is a mental model? (NNGroup)](https://www.youtube.com/watch?v=nAgXISssAws)
+](img/01_02_conceptualising_interaction_0.png)
+
+---
+
+## Conceptual Models
+
+- Model – “a simplified description of a system or process” (Sharp et al. 2019, p.74)
+- Conceptual model - “a high-level description of how a system is organized and operates” (Johnson & Henderson, 2002)
+- Comprise of:
+      - Metaphors, analogies
+      - Concepts and their relationships
+      - Mappings (Sharp et al. 2019)
+- These elements inform the interaction design and user experiences
+
+![[Understanding conceptual models](https://uxdesign.cc/understanding-mental-and-conceptual-models-in-product-design-7d69de3cae26)](img/01_02_conceptualising_interaction_1.png)
+
+---
+
+## Interface Metaphors
+
+Exploit similarities to user's knowledge of other domains.
+
+- **Search engine:** (early 1990s) index and retrieve remote files to match terms
+- **Cards:**  Familiar, strong associations (playing, business, credit), flick through, sort, themed, structured
+- **Desktop** and **Recycle bin**
+- **Shopping trolley** and **checkout**
+- **‘Surfing the web’**
+
+---
+
+
+## Interaction Types
+
+Five types of interaction:
+
+- Instructing
+- Conversing
+- Manipulating
+- Exploring
+- Responding
+
+![Image source: [Uriel Soberanes](https://unsplash.com/@soberanes)](img/01_02_conceptualising_interaction_7.jpg)
+![Image source: [Fikri Rasyid](https://unsplash.com/@fikrirasyid)](img/01_02_conceptualising_interaction_8.jpg)
+![Image source: [Szabo Viktor](https://unsplash.com/@vmxhu)](img/01_02_conceptualising_interaction_9.jpg)
+
+---
+
+## Activity: Interfaces and interaction types
+
+Choose a design product that you commonly use.  Post a photo of it an annotate it with:
+
+- Interface metaphors that it uses
+- Interaction types that it provides
+
+---
+
+## Further Readings
+
+- Jack Carroll. 2004. Beyond Fun, Interactions 11 (5), 38–40.
+
+- John M. Carroll. 2014. Chapter 2: Human Computer Interaction - brief intro. The Encyclopedia of Human-Computer Interaction, 2nd Ed. https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed
+
+- Kate Finn and Jeff Johnson. 2016. Designing for an Aging Population: Toward Universal Design. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '16), 1011–1012. DOI: [https://doi.org/10.1145/2851581.2856669](https://doi.org/10.1145/2851581.2856669)
+
+- Marc Hassenzahl. 2014. Chapter 3: User Experience and Experience Design. The Encyclopedia of Human-Computer Interaction, 2nd Ed. https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed
+
+- John McCarthy and Peter Wright. 2004. Technology as Experience. Interactions 11, 5. https://interactions.acm.org/archive/view/september-october-2004/technology-as-experience1
+
+- Don Norman. 2013. The design of everyday things: Revised and expanded edition. Basic books.
+
+- Lillian Xiao. 2017. A Brief History of Human-Computer Interaction (HCI). [https://blog.prototypr.io/the-rise-of-human-computer-interaction-hci-823dd6286e1d](https://blog.prototypr.io/the-rise-of-human-computer-interaction-hci-823dd6286e1d)
+
+---
+
+## References Again
+
+- Min Zhen Chai, Alessandro Soro, Paul Roe, and Margot Brereton. 2017. Cooking Together at a Distance: Sustain Connectedness for Long Distance Families. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '17). Association for Computing Machinery, New York, NY, USA, 2437–2444. https://doi-org.virtual.anu.edu.au/10.1145/3027063.3053183
+
+- Bill Gaver, Tony Dunne, and Elena Pacenti. 1999. Design: Cultural probes. interactions 6, 1 (Jan./Feb. 1999), 21–29. https://doi-org.virtual.anu.edu.au/10.1145/291224.291235
+
+- Raffaele, R., Carvalho, B., Lins, A., Marques, L., Soares, M.M. (2016). Digital Game for Teaching and Learning: An Analysis of Usability and Experience of Educational Games. In: Marcus, A. (eds) Design, User Experience, and Usability: Novel User Experiences . DUXU 2016. Lecture Notes in Computer Science(), vol 9747. Springer, Cham. [https://doi.org/10.1007/978-3-319-40355-7_29](https://doi.org/10.1007/978-3-319-40355-7_29)
+
+- Yvonne Rogers, Jeni Paay, Margot Brereton, Kate L. Vaisutis, Gary Marsden, and Frank Vetere. 2014. Never too old: engaging retired people inventing the future with MaKey MaKey. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '14). Association for Computing Machinery, New York, NY, USA, 3913–3922. https://doi-org.virtual.anu.edu.au/10.1145/2556288.2557184
+
+- Helen Sharp, Jenny Preece, and Yvonne Rogers. 2019. Interaction Design: Beyond Human-Computer Interaction. West Sussex: Wiley. (Chapter 3)
+
+- Wobbrock, J.O. and Kientz, J.A., 2016. Research contributions in human-computer interaction. interactions, 23(3), pp.38-44.
