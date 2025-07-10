@@ -179,3 +179,208 @@ This is about integrity: **respect** for your **sources** and your **classmates*
 
 ## who has a question?
 
+> ????
+
+# Usability And User Experience
+
+---
+
+## Activity: Positive and Negative Experiences with Technology
+
+Can you talk about: 
+
+> An example of a technology you find easy/interesting /enjoyable to use (and why)
+
+and:
+
+> An example of a technology you find difficult/annoying/ frustrating to use (and why)
+
+---
+
+## Two designs for a voicemail system
+
+![[The marble answering machine](https://vimeo.com/19930744). Image Source: Sharp, Preece, and Rogers 2019, p.3](img/01_01_usability_1.png)
+
+![A desk phone. Image Source: Photo by [Dan Dennis](https://unsplash.com/@cameramandan83) on [Unsplash](https://unsplash.com/s/photos/landline)](img/01_01_usability_2.jpg)
+
+---
+
+## Poll Time!
+
+> Is the marble answering machine a good design?
+
+- Yes?
+- No?
+- Maybe?
+
+---
+
+## How do we design with users in mind?
+
+* Not a simple yes or no question:
+* Depends on the users, settings, contexts, and activities in which it is used
+* Thinking about:
+  * The  __people __ who are going to use our design
+  * The ways in which people  __think, work, play, interact__
+  * The  __places and settings __ in which the design is used
+  * The  __tasks or activities __ for which the design will be used
+  * The  __interfaces and devices __ that people already use
+  * People’s  __needs, values, and aspirations__
+
+---
+
+## What is interaction design?
+
+> “Designing interactive products to support the way people communicate and interact in their everyday and working lives”
+
+(Sharp, Preece, and Rogers 2019, p.9)
+
+---
+
+## User experience
+
+> “How people feel about a product and their pleasure and satisfaction when using it, looking at it, holding it, and opening and closing it” (Sharp et al. 2019, p.13).
+
+![Image source: (Sharp et al. 2019, p.22)](img/01_01_usability_4.jpg)
+
+---
+
+## The Experience of using an interactive system
+
+> “It is not enough that we build products that function, that are understandable and usable, we also need to build joy and excitement, pleasure and fun, and yes, beauty into people’s lives" (Norman, 2004)
+
+![Photo by [jeshoots](https://unsplash.com/@jeshoots) on [Unsplash](https://unsplash.com/s/photos/user-experience)](img/01_01_usability_5.jpg)
+
+---
+
+## Technology as Experience Framework 
+
+Source: [Technology as experience (McCarthy and Wright, 2004)](https://dl.acm.org/doi/10.1145/1015530.1015549)
+
+![Four Threads of Experience](img/01_01_usability_6.gif)
+
+![Six Sense-Making Processes](img/01_01_usability_7.gif)
+
+::: notes
+Threads of experience
+
+- Compositional: How do the elements of an experience fit together to form a coherent whole?
+- Sensual: What does the design and texture and the overall atmosphere make us feel?
+- Emotional: What emotions color the experience for us?
+- Spatio-temporal: What effects do place and time have on our experience?
+
+Processes
+
+- Anticipating: We never come to technology unprejudiced.
+- Connecting: We make a judgment in an instant and without much thought.
+- Interpreting: We work out what's going on and how we feel about it.
+- Reflecting: We examine and evaluate what is happening in an interaction.
+- Appropriating: We work out how a new experience fits with other experiences we have had and with our sense of self.
+- Recounting: We enjoy storytelling and make sense of experience in stories.
+:::
+
+---
+
+## Usability and Usability Goals
+
+- Effective to use (effectiveness)
+- Efficient to use (efficiency)
+- Safe to use (safety)
+- Having good utility (utility)
+- Easy to learn (learnability)
+- Easy to remember how to use (memorability)
+
+![(Preece in Raffaele et al. 2016)](img/01_01_usability_8.png)
+
+---
+
+## Usability Goal 1: Effectiveness
+
+> “How good a product is at doing what it is supposed to do” (Sharp et al. 2019, p.19)
+
+> “Is the product capable of allowing people to learn, carry out their work efficiently, access the information that they need, or buy the goods that they want?” (ibid)
+
+![Image: Source: ANU Service Desk Website](img/01_01_usability_9.png)
+
+---
+
+## Usability Goal 2: Efficiency
+
+> “The way a product support users in carrying out their tasks” (Sharp et al. 2019, p.20)
+> “Once users have learned how to use a product to carry out their tasks, can they sustain a high level of productivity?” (ibid)
+
+![Image: Source: Amazon.com, Wikipedia, Photo by [TheRegisti](https://unsplash.com/@theregisti) on [Unsplash](https://unsplash.com/s/photos/touch-id)](img/01_01_usability_10.png)
+
+![Amazon 1-Click Technology](img/01_01_usability_11.png)
+
+---
+
+## Usability Goal 3: Safety
+
+
+> “Protecting users from dangerous conditions and undesirable situations” (Sharp et al. 2019, p.20)
+> “What is the range of errors that are possible using the product, and what measures are there to permit users to recover easily from them?” (ibid)
+
+![Are you sure you want to delete everything?](img/01_01_usability_12.png)
+
+---
+
+## Usability Goal 4: Utility
+
+> “The extent to which a product provides the right kind of functionality so users can do what they want to do” (Sharp et al. 2019, p.20)
+> “Does the product provide an appropriate set of functions that will enable users to carry out all of their tasks in the way they want to do them?” (ibid)
+
+![Tablet vs mouse for drawing? Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema) on [Unsplash](https://unsplash.com/s/photos/graphic-design)](img/01_01_usability_14.jpg)
+
+---
+
+## Usability Goal 5: Learnability
+
+> “How easy a system is to learn to use” (Sharp et al. 2019, p.20)
+> “Is it possible for the user to work out how to use the product by exploring the interface and trying certain actions? How hard will it be to learn the whole set of functions in this way?” (ibid)
+
+![Keyboard with shortcuts marked. Photo by [Girl with red hat](https://unsplash.com/@girlwithredhat)](img/01_01_usability_15.jpg)
+
+![High functionality software. Photo by [Emily Bernal](https://unsplash.com/@emilybernal)](img/01_01_usability_16.jpg)
+
+---
+
+## Usability Goal 6: Memorability
+
+> “How easy a product is to remember how to use, once learned” (Sharp et al. 2019, p.21)
+> “What types of interface support have been provided to help users remember how to carry out tasks, especially for products and operations they use infrequently?” (ibid)
+
+![Annual tax return filing Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema)](img/01_01_usability_17.png)
+
+---
+
+## Video: Usefulness, Utility, Usability
+
+![[Usefulness, Utility, Usability: 3 Goals of UX Design (Jakob Nielsen)](https://youtu.be/VwgZtqTQzg8)](img/01_01_usability_18.png)
+
+---
+
+## Design Principles
+
+- Visibility
+- Feedback
+- Constraints
+- Consistency
+- Affordances
+
+(Sharp, Preece, and Rogers 2019, pp.26-32)
+
+---
+
+## Understanding Users
+
+- Users are not all the same
+- Different ages, cultures, backgrounds, abilities, interests
+- Various qualitative design research methods available for understanding users and their contexts
+- Don’t assume; research and find out.
+- Accessibility and inclusivity are important
+
+![](img/01_01_usability_19.png)
+![](img/01_01_usability_20.png)
+
+Images from the paper “Never Too Old: Engaging Retired People Inventing the Future with MaKey MaKey” (Rogers et al 2014)
