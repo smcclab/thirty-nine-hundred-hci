@@ -14,18 +14,49 @@ author: Dr Charles Martin
 ## Description {#description}
 
 Assignment 1 involves creating a prototype that solves a problem. 
-Your prototype should engage with an interaction design challenge and consider multiple perspectives.
-Your submission will include your prototype materials and documentation as well as a written design rationale.
+Your prototype must engage with an interaction design challenge and consider multiple perspectives.
 
-See the course website for detailed specification and submission details. Your work should include at least two references. Late submission is not permitted. This is an individual assessment.
+The interaction design challenge is as follows:
+
+> **Animal-Computer Interaction:** On 1st June 2025, a burst of precisely tuned neutrinos affecting the brains, and dramatically increasing the intelligence, of all animal life on earth. Mammals, birds, fish, reptiles, amphibians and even insects now have near- or above- human intelligence. After weeks of diplomatic negotiation (and worldwide adoption of new _vegan_ diets) animals now seek to participate in our new pan-species society on earth. The only problem is that _they can't use any of our computer systems!_ Your challenge is choose an interactive computer system (software and hardware) to accomplish **one everyday task**, and produce a **prototype design** that is accessible to **one kind of animal** as well as a human.
+
+To accomplish this task, you will need to have a strong understanding of _usability_, _design_, and _prototyping_ as discussed in the first four weeks of this course. Your submission must demonstrate sophisticated engagement with these concepts.
+
+Your submission will include documentation of your prototype and design process as well as a written design rationale. Your written rationale should have the following sections:
+
+- Task, problem, and users: explain the task, the users you are targeting (i.e., the animal), and the problems that these users will encounter at present
+- Design process: explain the process you have followed to come up with a prototype including documentation of your sketching and ideation
+- Prototype features: explain your prototype and how it meets the needs of the users (animal and human) in this context of use
+- References: include at least two references in ACM format
 
 ## Specification {#specification}
 
+Your submission must:
+
+- include three sketches
+- include visual documentation of a prototype (any level of fidelity)
+- include at least two references to external sources in ACM format
+- be written in markdown format
+- be a maximum of 1500 words + 10% acceptable buffer (i.e., no more than 1650 words)
+- must be uploaded to _your fork_ of the `comp3900-2025-prototype` repository on Gitlab by the due date
+
 ## Submission Process {#submission-process}
+
+1. Fork the template repository.
+2. Follow a design process of ideation, sketching, and prototyping to address the design challenge.
+3. Document your design process (e.g., with photos, screenshots, other media) and upload the documentation to _your fork_ of the template repository.
+4. Write a design rationale and reflection following the template in the design repository.
+5. Don't forget to include at least two references to external sources in ACM format in your documentation.
 
 ## Notes {#notes}
 
 - Don't forget to ask for help or advice on the course forum: [Edstem discussions](https://edstem.org/au/courses/24905/discussion)
+- Generative AI is not banned in this course, but sketches, prototypes and written work is expected to be primarily your own work. Any use of generative AI must be cited including the scope to which it is applied. Use of generative AI without appropriate explanation and referencing comes under the _N_ category in the marking rubric.
+
 
 ## Marking Rubric {#rubric}
 
+| CRITERIA | HD | D | CR | P | N |
+|---|---|---|---|---|---|
+| Sophistication and clarity of the design rationale in terms of key aspects of HCI. (50%) | Excellent to outstanding design rationale with consideration of HCI concepts that go beyond learning materials. Level of communication and referencing is excellent. | Very good design rationale with consideration of HCI concepts that follows specification, but not beyond learning materials. Level of communication and referencing is excellent. | A design rationale that follows specification with HCI concepts at level of learning materials. Level of communication and referencing is good. | Some effort to follow the specification for a design rationale. May have touch on some HCI concepts. Level of communication and referencing may have some errors. | A design rationale that with little connection to HCI concepts or one that is below acceptable standards. May not follow the specification or contain serious errors in communication and referencing. |
+| Sophistication as a prototype of a new design idea. (50%) | Excellent to outstanding prototype demonstrating in-depth understanding of perspectives, theories, ethical and inclusive considerations. Excellent adherence to the assessment format. | Very good prototype demonstrating in-depth understanding of perspectives, theories, ethical and inclusive considerations. Excellent adherence to the assessment format. | A good prototype that may not show sophisticated understanding of perspectives, theories, ethical and inclusive considerations.. Good adherence to the assessment format. | A satisfactory prototype that may have limited incorporation of multiple perspectives. The adherence to the submission format may be poor. | Below acceptable standards as a prototype. May have very poor adherence to submission format. |
