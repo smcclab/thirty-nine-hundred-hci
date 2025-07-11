@@ -44,8 +44,11 @@ BEAMER_OPTS = -t beamer \
 							-V theme=metropolis \
 							-V colortheme=owl \
 							--resource-path=$(LECTURES_DIR) \
-              --pdf-engine=xelatex
+							--pdf-engine=lualatex \
+							-V mainfont="Noto Sans" \
+							-V mainfontfallback="NotoColorEmoji:mode=harf"
 
+# --pdf-engine=xelatex
 # options for the pandoc HTML writer
 HTML_OPTS = -V mainfont="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
 
