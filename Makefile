@@ -26,7 +26,7 @@ PANDOC_COMMON_OPTS = --standalone \
 										 --slide-level 2 \
 										 --citeproc \
 										 --bibliography=$(REFERENCES) \
-										 --csl=acm-sig-proceedings.csl
+										 --csl=apa.csl
 
 REVEAL_OPTS = -t revealjs \
 							-V controls=true \
