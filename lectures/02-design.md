@@ -310,7 +310,7 @@ Bill Buxton sez! So do it!
 
 # Prototyping
 
----
+
 
 ## Double Diamond
 
@@ -321,7 +321,7 @@ Bill Buxton sez! So do it!
 - Develop
 - Deliver
 
----
+
 
 ## Introduction
 
@@ -330,7 +330,7 @@ Bill Buxton sez! So do it!
 - Repeated design-evaluation-redesign cycles with users
 - Two aspects to design - conceptual and concrete
 
----
+
 
 ## Prototyping - What
 
@@ -341,13 +341,13 @@ Bill Buxton sez! So do it!
 
 ![Sharp et al. 2019 Figure 12.2: (a) model jet engine, (b) Spider Dress 2.0 by Anouk Wipprecht: embedded with sensors, the arms of the ‘spider’ will extend to defend the wearer if her breath becomes heavier, and (c) a teddy bear “printed” from a wireframe design](img/07_prototyping_1.png)
 
----
+
 
 ## Prototyping – Why?
 
 > Discussion question: Why do we prototype?
 
----
+
 
 ## Prototyping - Why
 
@@ -359,7 +359,7 @@ Bill Buxton sez! So do it!
 - Product prototype versus service prototype (Saffer, 2010)
 - Move on from ‘bad ideas’
 
----
+
 
 ## Prototyping - Example
 
@@ -371,7 +371,7 @@ Bill Buxton sez! So do it!
 - Shape of the device
 - No actual functionality
 
----
+
 
 ## Prototyping - Filters & Manifestations
 
@@ -381,7 +381,7 @@ Youn-Kyung Lim et al. (2008)
 ![Sharp et al. Table 12.1 Filtering](img/07_prototyping_3.png)
 ![Sharp et al. Table 12.2 Manifestation](img/07_prototyping_4.png)
 
----
+
 
 ## Prototyping - Spectrum
 
@@ -401,7 +401,7 @@ Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsp
 [https://www.youtube.com/watch?v=k_9Q-KDSb9o](https://www.youtube.com/watch?v=k_9Q-KDSb9o)
 
 
----
+
 
 ## Prototyping - Low-Fidelity
 
@@ -414,7 +414,7 @@ Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsp
 - Not meant to be kept and used for the final product
 - Storyboarding, Sketching, Index Cards, Wizard of Oz
 
----
+
 
 ## Low-Fidelity Prototyping: Storyboards
 
@@ -426,7 +426,7 @@ Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsp
 ![](img/07_prototyping_10.png)
 ![Sharp et al. 2019 Figure 12.4: example storyboard for mobile device to explore ancient sites](img/07_prototyping_11.png)
 
----
+
 
 ## Low-Fidelity Prototyping: Generating Storyboards
 
@@ -439,7 +439,7 @@ Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsp
 - Thinking through process
 - Think about design issues
 
----
+
 
 ## Low-Fidelity Prototyping: The Role of Sketching
 
@@ -450,7 +450,7 @@ Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsp
 - Sketching vocabulary, required elements
 - BUT a sketch itself is not a prototype
 
----
+
 
 ## Low-Fidelity Prototyping: Card-Based Prototypes
 
@@ -460,7 +460,7 @@ Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsp
 - User can step through the cards
 - Pretending to perform the task while interacting
 
----
+
 
 ## Low-Fidelity Prototyping: Card-Based Prototypes
 
@@ -473,7 +473,7 @@ Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsp
 - Elaborate concrete design
 - Explore user experience
 
----
+
 
 ## Low-Fidelity Prototyping: Paper and Cardboard Prototypes
 
@@ -481,13 +481,13 @@ Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsp
 
 ![[Cardboard Prototypes](https://www.youtube.com/watch?v=k_9Q-KDSb9o)](img/07_prototyping_17.jpg)
 
----
+
 
 ## Paper Prototyping: It’s not just the prototypes, but how you use them!
 
 ![[Paper Prototyping 101](https://www.youtube.com/watch?v=fw42BYQmuJ4)](img/07_prototyping_18.png)
 
----
+
 
 ## Low-Fi Prototyping: Wireframes
 
@@ -495,13 +495,13 @@ Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsp
 
 ![Wireframes in a sketchbook](img/07_prototyping_20.jpg)
 
----
+
 
 ## Prototypes vs Wireframes
 
 ![[Prototypes vs Wireframes](https://www.youtube.com/watch?v=miVcrftnhzM)](img/07_prototyping_21.png)
 
----
+
 
 ## Wizard of Oz
 
@@ -512,7 +512,7 @@ Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsp
 
 ![[Testing a system that doesn't exist.](https://www.simpleusability.com/inspiration/2018/08/wizard-of-oz-testing-a-method-of-testing-a-system-that-does-not-yet-exist/)](img/07_prototyping_23.jpg)
 
----
+
 
 ## Making Hardware Prototypes
 
@@ -522,7 +522,7 @@ Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsp
 - [raspberry pi](https://www.raspberrypi.com), cheap way to get Linux into a prototype
 - [Bela](https://bela.io) (charles' friends!), pricey but hard realtime OS is good for audio interactions.
 
----
+
 
 ## Makey Makey
 
@@ -532,7 +532,7 @@ Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsp
 
 ![The Makey Makey](img/07_prototyping_24.jpg)
 
----
+
 
 ## Prototyping - High-Fidelity
 
@@ -543,13 +543,13 @@ Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsp
 - design-evaluate-redesign cycles
 - Modify/integrate existing components / tools / kits
 
----
+
 
 ## A High-fidelity prototype
 
 ![[What could this be?](https://www.sciencemuseum.org.uk/objects-and-stories/lisa-windows-story-home-computers)](img/07_prototyping_34.jpg)
 
----
+
 
 ## Concrete Design
 
@@ -560,13 +560,13 @@ Accessibility and inclusivity
 
 ![Guest Lecture by Pia Van Gelder on these topics (???)](img/07_prototyping_37.png)
 
----
+
 
 ## Prototyping - Filters & Manifestations
 
 ![Sharp et al. Table 12.3 advantages and disadvantages of low- and high-fidelity prototypes](img/07_prototyping_38.png)
 
----
+
 
 ## Prototyping - Compromises
 
@@ -576,7 +576,7 @@ Accessibility and inclusivity
 - Horizontal vs vertical prototyping
 - Robustness vs changeability
 
----
+
 
 ## Prototyping Tools and Resources
 
@@ -588,7 +588,7 @@ Accessibility and inclusivity
 
 ![Image: Figma](img/07_prototyping_39.jpg)
 
----
+
 
 ## Conceptual Design
 
@@ -598,7 +598,7 @@ Accessibility and inclusivity
 - Generate ideas based on understanding
 - Explore ideas with tutorial groups
 
----
+
 
 ## Conceptual Model
 
@@ -607,7 +607,7 @@ Accessibility and inclusivity
 - Which  __interaction types__ would best support the users’ activities?
 - Do different  __interface types__ suggest alternative design insights or options?
 
----
+
 
 ## Interface Metaphors
 
@@ -619,7 +619,7 @@ Choosing metaphors (Erikson, 1990)
 
 Evaluate metaphors: Structure, Relevance, Representation, Understandable, Extensible (Sharp et al., p. 440-441 for example)
 
----
+
 
 ## Interaction Types
 
@@ -631,7 +631,7 @@ Instructing, conversing, manipulating, exploring, responding
 
 ![](img/07_prototyping_40.png)
 
----
+
 
 ## Interface Types
 
@@ -642,7 +642,7 @@ Instructing, conversing, manipulating, exploring, responding
 
 ![](img/07_prototyping_45.jpg)
 
----
+
 
 ## Take away messages
 
@@ -651,7 +651,7 @@ Instructing, conversing, manipulating, exploring, responding
 - Prototypes help you  __to learn __ about your users’ interactions and experiences with your design artifact
 - Your choice of prototyping approach depends on what you are trying to learn and why
 
----
+
 
 ## Readings/ References
 
