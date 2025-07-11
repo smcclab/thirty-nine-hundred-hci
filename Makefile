@@ -13,6 +13,7 @@ ASSESSMENTS_OUT = $(OUTPUT_DIR)/assessments
 WORKSHOPS_OUT = $(OUTPUT_DIR)/workshops
 RESOURCES_OUT = $(OUTPUT_DIR)/resources
 OUTPUT_IMAGES_DIR = $(LECTURES_OUT)/$(IMAGES_DIR)
+REFERENCES = references.bib
 
 # Index generation
 INDEX_HTML = $(OUTPUT_DIR)/index.html
@@ -21,7 +22,12 @@ INDEX_GENERATOR = generate_index.py
 # Pandoc settings
 # -V revealjs-url=https://unpkg.com/reveal.js@4.5.0
 PANDOC = pandoc
-PANDOC_COMMON_OPTS = --standalone --slide-level 2
+PANDOC_COMMON_OPTS = --standalone \
+										 --slide-level 2 \
+										 --citeproc \
+										 --bibliography=$(REFERENCES) \
+										 --csl=acm-sig-proceedings.csl
+
 REVEAL_OPTS = -t revealjs \
 							-V controls=true \
 							-V progress=true \
