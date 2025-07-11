@@ -24,16 +24,16 @@ To accomplish this task, you will need to have a strong understanding of _usabil
 
 Your submission will include documentation of your prototype and design process as well as a written design rationale. Your written rationale should have the following sections:
 
-- Task, problem, and users: explain the task, the users you are targeting (i.e., the animal), and the problems that these users will encounter at present
-- Design process: explain the process you have followed to come up with a prototype including documentation of your sketching and ideation
-- Prototype features: explain your prototype and how it meets the needs of the users (animal and human) in this context of use
-- References: include at least two references in ACM format
+- **Task, problem, and users:** explain the task, the users you are targeting (i.e., the animal), and the problems that these users will encounter at present
+- **Design process:** explain the process you have followed to come up with a prototype including documentation of your sketching and ideation
+- **Prototype features:** explain your prototype and how it meets the needs of the users (animal and human) in this context of use
+- **References:** include at least two references in ACM format
 
 ## Specification {#specification}
 
 Your submission must:
 
-- include three sketches
+- include at least three sketches
 - include visual documentation of a prototype (any level of fidelity)
 - include at least two references to external sources in ACM format
 - be written in markdown format
