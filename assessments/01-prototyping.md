@@ -20,7 +20,7 @@ Your prototype must engage with an interaction design challenge and consider mul
 
 The interaction design challenge is as follows:
 
-> **Animal-Computer Interaction:**[^aci] On 1st June 2025, a burst of precisely tuned neutrinos struck the earth dramatically increasing the intelligence, of all non-human animal life. Mammals, birds, fish, reptiles, amphibians and even insects now have near- or above- human intelligence[^int]. After weeks of diplomatic negotiation (and worldwide adoption of new _vegan_ diets) animals now seek to participate in our new pan-species society on earth. The only problem is that _they can't use any of our computer systems!_ Your challenge is choose an interactive computer system (software and hardware) to accomplish **one everyday task**, and produce a **prototype design** that is accessible to **one kind of animal** as well as a human.
+> **Animal-Computer Interaction:**[^aci] On 1st June 2025, a burst of precisely tuned neutrinos struck the earth dramatically increasing the intelligence of all non-human animal life. Mammals, birds, fish, reptiles, amphibians and even insects now have near- or above- human intelligence[^int]. After weeks of diplomatic negotiation (and worldwide adoption of vegan diets) animals now seek to participate in pan-species society on earth. The only problem is that _they can't use any of our computer systems!_ Your challenge is choose an interactive computer system (software and hardware) to accomplish **one everyday task**, and produce a **prototype design** that is accessible to **one kind of non-human animal** as well as a human.
 
 [^aci]: Animal-Computer Interaction is actually a [real field](https://dl.acm.org/conference/aci)! See proceedings from the 2024 conference [@aci-conference:2024].
 
