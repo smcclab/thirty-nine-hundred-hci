@@ -3,13 +3,15 @@ title: Prototyping
 author: Dr Charles Martin
 ---
 
+![Photo by [Alison Pang](https://unsplash.com/@alisonpang) on [Unsplash](https://unsplash.com/photos/brown-poodle-puppy-on-white-bed-linen-YJVD4Ddczjo)](img/alison-pang-YJVD4Ddczjo-unsplash.jpg)
+
 ## Outline {#outline}
 
 - **Due date**: 2025-08-18 23:59 AEST
 - **Mark weighting**: 20%
 - **Submission**: submit your assignment according to the [instructions below](#submission-process)
 - **Policies**: Late submission is not permitted for this assessment. This is an individual assessment task.
-- **Gitlab Template Repository**: [TBA](https://gitlab.cecs.anu.edu.au/comp3900/)
+- **Gitlab Template Repository**: [comp3900-2025-prototyping repo (link)](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-prototyping)
 
 ## Description {#description}
 
@@ -18,7 +20,11 @@ Your prototype must engage with an interaction design challenge and consider mul
 
 The interaction design challenge is as follows:
 
-> **Animal-Computer Interaction:** On 1st June 2025, a burst of precisely tuned neutrinos affecting the brains, and dramatically increasing the intelligence, of all animal life on earth. Mammals, birds, fish, reptiles, amphibians and even insects now have near- or above- human intelligence. After weeks of diplomatic negotiation (and worldwide adoption of new _vegan_ diets) animals now seek to participate in our new pan-species society on earth. The only problem is that _they can't use any of our computer systems!_ Your challenge is choose an interactive computer system (software and hardware) to accomplish **one everyday task**, and produce a **prototype design** that is accessible to **one kind of animal** as well as a human.
+> **Animal-Computer Interaction:**[^aci] On 1st June 2025, a burst of precisely tuned neutrinos affecting the brains, and dramatically increasing the intelligence, of all animal life on earth. Mammals, birds, fish, reptiles, amphibians and even insects now have near- or above- human intelligence[^int]. After weeks of diplomatic negotiation (and worldwide adoption of new _vegan_ diets) animals now seek to participate in our new pan-species society on earth. The only problem is that _they can't use any of our computer systems!_ Your challenge is choose an interactive computer system (software and hardware) to accomplish **one everyday task**, and produce a **prototype design** that is accessible to **one kind of animal** as well as a human.
+
+[^aci]: Animal-Computer Interaction is actually a [real field](https://dl.acm.org/conference/aci)! See proceedings from the 2024 conference [@aci-conference:2024].
+
+[^int]: This bit is not real. I made this bit up.
 
 To accomplish this task, you will need to have a strong understanding of _usability_, _design_, and _prototyping_ as discussed in the first four weeks of this course. Your submission must demonstrate sophisticated engagement with these concepts.
 
