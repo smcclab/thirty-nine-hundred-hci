@@ -20,7 +20,7 @@ Your prototype must engage with an interaction design challenge and consider mul
 
 The interaction design challenge is as follows:
 
-> **Animal-Computer Interaction:**[^aci] On 1st June 2025, a burst of precisely tuned neutrinos affecting the brains, and dramatically increasing the intelligence, of all animal life on earth. Mammals, birds, fish, reptiles, amphibians and even insects now have near- or above- human intelligence[^int]. After weeks of diplomatic negotiation (and worldwide adoption of new _vegan_ diets) animals now seek to participate in our new pan-species society on earth. The only problem is that _they can't use any of our computer systems!_ Your challenge is choose an interactive computer system (software and hardware) to accomplish **one everyday task**, and produce a **prototype design** that is accessible to **one kind of animal** as well as a human.
+> **Animal-Computer Interaction:**[^aci] On 1st June 2025, a burst of precisely tuned neutrinos struck the earth dramatically increasing the intelligence, of all non-human animal life. Mammals, birds, fish, reptiles, amphibians and even insects now have near- or above- human intelligence[^int]. After weeks of diplomatic negotiation (and worldwide adoption of new _vegan_ diets) animals now seek to participate in our new pan-species society on earth. The only problem is that _they can't use any of our computer systems!_ Your challenge is choose an interactive computer system (software and hardware) to accomplish **one everyday task**, and produce a **prototype design** that is accessible to **one kind of animal** as well as a human.
 
 [^aci]: Animal-Computer Interaction is actually a [real field](https://dl.acm.org/conference/aci)! See proceedings from the 2024 conference [@aci-conference:2024].
 
@@ -68,3 +68,4 @@ Your submission must:
 | Sophistication as a prototype of a new design idea. (50%) | Excellent to outstanding prototype demonstrating in-depth understanding of perspectives, theories, ethical and inclusive considerations. Excellent adherence to the assessment format. | Very good prototype demonstrating in-depth understanding of perspectives, theories, ethical and inclusive considerations. Excellent adherence to the assessment format. | A good prototype that may not show sophisticated understanding of perspectives, theories, ethical and inclusive considerations.. Good adherence to the assessment format. | A satisfactory prototype that may have limited incorporation of multiple perspectives. The adherence to the submission format may be poor. | Below acceptable standards as a prototype. May have very poor adherence to submission format. |
 
 ## References
+
