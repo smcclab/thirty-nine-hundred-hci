@@ -1,5 +1,5 @@
 ---
-title: Prototyping
+title: Prototyping Animal-Computer Interaction
 author: Dr Charles Martin
 ---
 
@@ -11,7 +11,7 @@ author: Dr Charles Martin
 - **Mark weighting**: 20%
 - **Submission**: submit your assignment according to the [instructions below](#submission-process)
 - **Policies**: Late submission is not permitted for this assessment. This is an individual assessment task.
-- **Gitlab Template Repository**: [comp3900-2025-prototyping repo (link)](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-prototyping)
+- **Gitlab Template Repository**: [`comp3900-2025-prototyping` repo (link)](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-prototyping)
 
 ## Description {#description}
 
@@ -44,7 +44,7 @@ Your submission must:
 - include at least two references to external sources in ACM format
 - be written in markdown format
 - be a maximum of 1500 words + 10% acceptable buffer (i.e., no more than 1650 words)
-- must be uploaded to _your fork_ of the `comp3900-2025-prototype` repository on Gitlab by the due date
+- must be uploaded to _your fork_ of the [`comp3900-2025-prototyping`](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-prototyping) repository on Gitlab by the due date
 
 ## Submission Process {#submission-process}
 
