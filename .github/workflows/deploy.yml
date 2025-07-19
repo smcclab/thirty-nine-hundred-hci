@@ -41,7 +41,9 @@ jobs:
                   beamer \
                   beamertheme-metropolis \
                   pgfopts \
-                  beamercolorthemeowl
+                  beamercolorthemeowl \
+                  noto \
+                  noto-emoji
 
       - name: Install Dart Sass
         run: |
