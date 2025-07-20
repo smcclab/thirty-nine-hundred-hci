@@ -129,7 +129,7 @@ Now:
 :::
 ::::::::::::::
 
-## HCI again and simpler this time...
+## HCI again in fewer words...
 
 _In short, this is what we will do in this course._
 
@@ -246,18 +246,16 @@ We'll chat for 3 minutes and then share a few with the room.
 - No?
 - Maybe?
 
-## How do we design with users in mind?
+## How do we create computing systems for people?
 
-Depends on the users, settings, contexts, and activities in which it is used
+Depends on the users, settings, contexts, and activities. Need to consider:
 
-Need to consider:
-
-- The  __people__ who are going to use our design
-- The ways in which people  __think, work, play, interact__
-- The  __places and settings__ in which the design is used
-- The  __tasks or activities__ for which the design will be used
-- The  __interfaces and devices__ that people already use
-- People’s  __needs, values, and aspirations__
+- __people__ who are going to use our system
+- how they __think, work, play, interact__
+- __places and settings__ in which the system is used
+- __tasks or activities__ for which the system will be used
+- __interfaces and devices__ that people already use
+- people's __needs, values, and aspirations__
 
 <!-- ## What is interaction design?
 
@@ -281,7 +279,7 @@ Some practical goals that can be tested:
 4. Retention over time
 5. Subjective satisfaction
 
-[@shneiderman-hci:2018]
+[@shneiderman-hci:2018] (one version, look at some more later).
 
 ## Usability vs Joy
 
@@ -338,7 +336,7 @@ Processes
 - Recounting: We enjoy storytelling and make sense of experience in stories.
 :::
 
-## Usability and Usability Goals
+# Usability Goals and User Experience
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
@@ -348,6 +346,8 @@ Processes
 - Having good utility (utility)
 - Easy to learn (learnability)
 - Easy to remember how to use (memorability)
+
+This version from: [@rogers-beyond-hci:2023]
 :::
 ::: {.column width="40%"}
 ![@Raffaele:2016, illustrating @rogers-beyond-hci:2023](img/01_01_usability_8.png){width=100%}
@@ -358,71 +358,78 @@ Processes
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Does the system do what it is supposed to do?
-
-- Do people learn it quickly, 
-> “Is the product capable of allowing people to learn, carry out their work efficiently, access the information that they need, or buy the goods that they want?” (ibid)
-
+- That it _works_, the task can be completed.
+- How well can the task be completed?
+- Think quality of the output.
 :::
 ::: {.column width="50%"}
-![Image: Source: ANU Service Desk Website](img/01_01_usability_9.png)
+![A desk phone. Image Source: Photo by [Dan Dennis](https://unsplash.com/@cameramandan83) on [Unsplash](https://unsplash.com/s/photos/landline)](img/01_01_usability_2.jpg){width=80%}
 :::
 ::::::::::::::
 
-
-
 ## Usability Goal 2: Efficiency
 
-> “The way a product support users in carrying out their tasks” (Sharp et al. 2019, p.20)
-> “Once users have learned how to use a product to carry out their tasks, can they sustain a high level of productivity?” (ibid)
-
-![Image: Source: Amazon.com, Wikipedia, Photo by [TheRegisti](https://unsplash.com/@theregisti) on [Unsplash](https://unsplash.com/s/photos/touch-id)](img/01_01_usability_10.png)
-
-![Amazon 1-Click Technology](img/01_01_usability_11.png)
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+- The _way_ the product supports the task.
+- Support high productivity?
+- Use less energy?
+:::
+::: {.column width="60%"}
+![Image: Source: Amazon.com, Wikipedia](img/01_01_usability_10.png){width=80%}
+:::
+::::::::::::::
 
 ## Usability Goal 3: Safety
 
-
-> “Protecting users from dangerous conditions and undesirable situations” (Sharp et al. 2019, p.20)
-> “What is the range of errors that are possible using the product, and what measures are there to permit users to recover easily from them?” (ibid)
-
-![Are you sure you want to delete everything?](img/01_01_usability_12.png)
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+- Protecting users from errors
+- Preventing undesirable outcomes
+- Recovering when mistakes are made (if not when!)
+:::
+::: {.column width="60%"}
+![Are you sure you want to delete everything?](img/01_01_usability_12.png){width=80%}
+:::
+::::::::::::::
 
 ## Usability Goal 4: Utility
 
-
-
-> “The extent to which a product provides the right kind of functionality so users can do what they want to do” (Sharp et al. 2019, p.20)
-> “Does the product provide an appropriate set of functions that will enable users to carry out all of their tasks in the way they want to do them?” (ibid)
-
-![Tablet vs mouse for drawing? Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema) on [Unsplash](https://unsplash.com/s/photos/graphic-design)](img/01_01_usability_14.jpg)
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+- The right kind of functionality for the user's needs.
+- Appropriate functions to carry out tasks
+- The tasks can be completed in the right way.
+:::
+::: {.column width="60%"}
+![Tablet vs mouse for drawing? [Unsplash](https://unsplash.com/s/photos/graphic-design)](img/01_01_usability_14.jpg)
+:::
+::::::::::::::
 
 ## Usability Goal 5: Learnability
 
-> “How easy a system is to learn to use” (Sharp et al. 2019, p.20)
-> “Is it possible for the user to work out how to use the product by exploring the interface and trying certain actions? How hard will it be to learn the whole set of functions in this way?” (ibid)
-
-![Keyboard with shortcuts marked. Photo by [Girl with red hat](https://unsplash.com/@girlwithredhat)](img/01_01_usability_15.jpg)
-
-![High functionality software. Photo by [Emily Bernal](https://unsplash.com/@emilybernal)](img/01_01_usability_16.jpg)
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+- How easy is it to learn the system?
+- Is it _intuitive_?
+- Does it take time/training?
+:::
+::: {.column width="60%"}
+![Keyboard with shortcuts marked. Photo by [Girl with red hat](https://unsplash.com/@girlwithredhat)](img/01_01_usability_15.jpg){width=40%}
+:::
+::::::::::::::
 
 ## Usability Goal 6: Memorability
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
-contents...
+- Will users remember how to use it later?
+- Are there supports for infrequent functions?
 :::
 ::: {.column width="60%"}
-contents...
+![Annual tax return filing Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema)](img/01_01_usability_17.png)
 :::
 ::::::::::::::
-
-- Will users remember how to use it later?
-
-> “How easy a product is to remember how to use, once learned” (Sharp et al. 2019, p.21)
-> “What types of interface support have been provided to help users remember how to carry out tasks, especially for products and operations they use infrequently?” (ibid)
-
-![Annual tax return filing Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema)](img/01_01_usability_17.png)
 
 ## Video: Usefulness, Utility, Usability
 
