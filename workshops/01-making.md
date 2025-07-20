@@ -3,21 +3,34 @@ title: Making
 author: Dr Charles Martin
 ---
 
+This week we are going to start thinking about user experience and the meaning that computer systems have for us. Your pre-class task is going to start the process of reflecting on our own interests and patterns of computer use. In-class we will discuss and express our personal computing journeys through making.
 
 ## Pre-Class Tasks
 
+Choose a computer or digital technology that played an important role in your early life. It could be a device, an application, or a website. Upload an image of this technology on the forum. You can upload a photo, sketch, or an image found online (remember to provide a reference).
 
+Write a reflective post (100-200 words) about this technology using these prompts:
+
+- What is this device and when did you first encounter it?
+- What specific memories do you associate with it?
+- How did it shape your relationship with computing?
+- What emotions does thinking about it bring up now?
 
 ## Plan for the Class
 
 In this class you will:
 
-
-1. think about usability and user experience
-2. talk about an interactive technology that is meaningful to you
-2. do some arts and crafts to reflect on this and start off the semester
+1. talk about an interactive technology that is meaningful to you
+2. think and talk about usability and user experience
+3. do some arts and crafts to reflect on this and start off the semester
 
 ## In-Class Tasks
+
+### 1. Talking about Meaningful Technologies
+
+### 2. Thinking about User Experience
+
+### 3. Making to Express Experience and our Journeys
 
 As this term comes to a close, I thought it'd be good to turn away from our screens for a week and do some hands on artmaking together. Going beyond the technicalities of how we may facilitate human-computer interaction, let's consider how computers have already interacted with us in our lives. Today's lab is all about reflecting on our relationship with computers, how that impacts the work we do with computers, and critically considering how our creative code practices may have changed our relationship with computers. 
 

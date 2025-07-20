@@ -67,7 +67,7 @@ Starting with **ergonomics & human factors**.
 - Ergonomics or human factors coined in 1950s to describe the human requirements for designing machines and systems.
 :::
 ::: {.column width="50%"}
-![An aircraft cockpit interior](img/photo-1586099748114-357e9a67e30c.jpg)
+![An aircraft cockpit interior](img/photo-1586099748114-357e9a67e30c.jpg){width=40%}
 :::
 ::::::::::::::
 
@@ -100,7 +100,7 @@ Now:
 - SIGCHI publishes [~5000 publications per year](https://medium.com/sigchi/sigchi-annual-report-a147d5f98eeb) (more than 2x any other ACM SIG) across 26 conferences including _CHI_ (the big one).
 :::
 ::: {.column width="50%"}
-![A computer for users](img/photo-1554921027-b91f0beeb07d.jpg)
+![A computer for users](img/photo-1554921027-b91f0beeb07d.jpg){width=50%}
 :::
 ::::::::::::::
 
@@ -129,6 +129,16 @@ Now:
 :::
 ::::::::::::::
 
+## HCI again and simpler this time...
+
+_In short, this is what we will do in this course._
+
+1. Understanding people
+
+2. Designing interfaces
+
+3. Evaluating interfaces
+
 # COMP3900/6390 Course Structure
 
 - 12 lectures: every week, Kambri Cinema, here with **me!**
@@ -154,6 +164,18 @@ There are 10 tutorials in this course and one set of **marked** pre- and in-clas
   - **developing and evaluating interactive system designs**
 - **In-person assessment.** If you don't attend your tutorial you will not get a mark without an extension.
 
+## Week 2 Tutorial: Making
+
+### Pre-class task: 
+
+Choose a computer or digital technology that played an important role in your early life. It could be a device, an application, or a website. Upload an image of this technology on the forum. You can upload a photo, sketch, or an image found online (remember to provide a reference). Write a reflective post (100-200 words) about this technology (see prompts on canvas)
+
+### In-class tasks:
+
+1. talk about an interactive technology that is meaningful to you
+2. think and talk about usability and user experience
+3. do some arts and crafts (make zines) to reflect on this to start off the semester
+
 ## Assignments
 
 - individual tasks, but require some collaboration
@@ -165,6 +187,12 @@ There are 10 tutorials in this course and one set of **marked** pre- and in-clas
 - no late submissions permitted without an extension
 - all submission is through [Gitlab](https://gitlab.cecs.anu.edu.au/comp3900/)
 
+## Assignment 1: Prototype an Animal Computer Interaction
+
+TL;DR: Animals are smart now. Sketch and prototype a computer system for an everyday task that works for one kind of animal as well as humans. More details on Canvas.
+
+![How can this dog play the GBA SP? (Alison Pan, Unsplash)](img/alison-pang-YJVD4Ddczjo-unsplash.jpg){width=40%}
+
 ## last thing: referencing
 
 Every assessment submission has a place for references.
@@ -173,7 +201,9 @@ You **must** provide at least two references
 
 You **must** reference any code/ideas taken from other places (internet, books, classmates)
 
-You **must** use ACM referencing format, look on the assessment pages for examples.
+You **must** use ACM referencing format, look on the assessment pages for examples
+
+You **must** reference any text/code/ideas drawn from generative AI systems
 
 This is about integrity: **respect** for your **sources** and your **classmates**.
 
@@ -183,27 +213,30 @@ This is about integrity: **respect** for your **sources** and your **classmates*
 
 # Usability And User Experience
 
----
+![A technology Charles likes. Why?](img/charles-synthesiser.jpg){width=50%}
 
 ## Activity: Positive and Negative Experiences with Technology
 
-Can you talk about: 
+Turn to the person next to you, find out their name, and then discuss:
 
-> An example of a technology you find easy/interesting /enjoyable to use (and why)
+> An example of a technology you find easy/interesting/enjoyable to use (and why)
 
 and:
 
-> An example of a technology you find difficult/annoying/ frustrating to use (and why)
+> An example of a technology you find difficult/annoying/frustrating to use (and why)
 
----
+We'll chat for 3 minutes and then share a few with the room.
 
 ## Two designs for a voicemail system
 
-![[The marble answering machine](https://vimeo.com/19930744). Image Source: Sharp, Preece, and Rogers 2019, p.3](img/01_01_usability_1.png)
-
-![A desk phone. Image Source: Photo by [Dan Dennis](https://unsplash.com/@cameramandan83) on [Unsplash](https://unsplash.com/s/photos/landline)](img/01_01_usability_2.jpg)
-
----
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![[The marble answering machine](https://vimeo.com/19930744). (Durrell Bishop, 1992)](img/01_01_usability_1.png){width=100%}
+:::
+::: {.column width="50%"}
+![A desk phone. Image Source: Photo by [Dan Dennis](https://unsplash.com/@cameramandan83) on [Unsplash](https://unsplash.com/s/photos/landline)](img/01_01_usability_2.jpg){width=100%}
+:::
+::::::::::::::
 
 ## Poll Time!
 
@@ -213,53 +246,79 @@ and:
 - No?
 - Maybe?
 
----
-
 ## How do we design with users in mind?
 
-* Not a simple yes or no question:
-* Depends on the users, settings, contexts, and activities in which it is used
-* Thinking about:
-  * The  __people __ who are going to use our design
-  * The ways in which people  __think, work, play, interact__
-  * The  __places and settings __ in which the design is used
-  * The  __tasks or activities __ for which the design will be used
-  * The  __interfaces and devices __ that people already use
-  * People’s  __needs, values, and aspirations__
+Depends on the users, settings, contexts, and activities in which it is used
 
----
+Need to consider:
 
-## What is interaction design?
+- The  __people__ who are going to use our design
+- The ways in which people  __think, work, play, interact__
+- The  __places and settings__ in which the design is used
+- The  __tasks or activities__ for which the design will be used
+- The  __interfaces and devices__ that people already use
+- People’s  __needs, values, and aspirations__
 
-> “Designing interactive products to support the way people communicate and interact in their everyday and working lives”
+<!-- ## What is interaction design?
 
-(Sharp, Preece, and Rogers 2019, p.9)
-
----
+> “Designing interactive products to support the way people communicate and interact in their everyday and working lives” [@rogers-beyond-hci:2023, p.9] -->
 
 ## User experience
 
-> “How people feel about a product and their pleasure and satisfaction when using it, looking at it, holding it, and opening and closing it” (Sharp et al. 2019, p.13).
+> “How people feel about a product and their pleasure and satisfaction when using it, looking at it, holding it, and opening and closing it” [@rogers-beyond-hci:2023, p.13]
 
-![Image source: (Sharp et al. 2019, p.22)](img/01_01_usability_4.jpg)
+**Desirable aspects:** Satisfying, Helpful, Fun, Enjoyable, Motivating, Provocative, Engaging, Challenging, Surprising, Pleasurable, Enhances Socialibility, Rewarding, Exciting, Supporting creativity, Emotionally fulfilling, Cognitively stimulating, Experiencing flow.
 
----
+**Undesirable aspects:** Boring, Unpleasant, Frustrating, Patronising, Makes you feel guilty, Annoying, Cutesy, Childish, Gimmicky.
 
-## The Experience of using an interactive system
+## Usability Goals
 
-> “It is not enough that we build products that function, that are understandable and usable, we also need to build joy and excitement, pleasure and fun, and yes, beauty into people’s lives" (Norman, 2004)
+Some practical goals that can be tested:
 
-![Photo by [jeshoots](https://unsplash.com/@jeshoots) on [Unsplash](https://unsplash.com/s/photos/user-experience)](img/01_01_usability_5.jpg)
+1. Time to learn
+2. Speed of performance
+3. Rate of errors
+4. Retention over time
+5. Subjective satisfaction
 
----
+[@shneiderman-hci:2018]
 
-## Technology as Experience Framework 
+## Usability vs Joy
 
-Source: [Technology as experience (McCarthy and Wright, 2004)](https://dl.acm.org/doi/10.1145/1015530.1015549)
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+> “It is not enough that we build products that function, that are understandable and usable, we also need to build joy and excitement, pleasure and fun, and yes, beauty into people’s lives" [@Norman:2013]
 
-![Four Threads of Experience](img/01_01_usability_6.gif)
+How can we test for joy? Is this compatible with the usability goals?
+:::
+::: {.column width="60%"}
+![A technology Charles likes. Why?](img/charles-synthesiser.jpg){width=100%}
+<!-- ![Photo by [jeshoots](https://unsplash.com/@jeshoots) on [Unsplash](https://unsplash.com/s/photos/user-experience)](img/01_01_usability_5.jpg){width=100%} -->
+:::
+::::::::::::::
 
-![Six Sense-Making Processes](img/01_01_usability_7.gif)
+## Another example...
+
+![Charles editing a lecture in neovim (`:w`)](img/charles-neovim.png){width=60%}
+
+## Thinking about Technology as Experience
+
+Can we unpack how we [experience technology?](https://dl.acm.org/doi/10.1145/1015530.1015549) [@mccarthy-wright:2004] 
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
+![Four Threads of Experience](img/mccarthy-four-threads.png){width=50%}
+
+Compositional, Sensual, Emotional, Spatio-temporal.
+:::
+::: {.column width="50%"}
+
+![Six Sense-Making Processes](img/mccarthy-six-sensemaking.png){width=50%}
+
+Anticipating, Connecting, Interpreting, Reflecting, Appropriating, Recounting.
+:::
+::::::::::::::
 
 ::: notes
 Threads of experience
@@ -279,30 +338,38 @@ Processes
 - Recounting: We enjoy storytelling and make sense of experience in stories.
 :::
 
----
-
 ## Usability and Usability Goals
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 - Effective to use (effectiveness)
 - Efficient to use (efficiency)
 - Safe to use (safety)
 - Having good utility (utility)
 - Easy to learn (learnability)
 - Easy to remember how to use (memorability)
-
-![(Preece in Raffaele et al. 2016)](img/01_01_usability_8.png)
-
----
+:::
+::: {.column width="40%"}
+![@Raffaele:2016, illustrating @rogers-beyond-hci:2023](img/01_01_usability_8.png){width=100%}
+:::
+::::::::::::::
 
 ## Usability Goal 1: Effectiveness
 
-> “How good a product is at doing what it is supposed to do” (Sharp et al. 2019, p.19)
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Does the system do what it is supposed to do?
 
+- Do people learn it quickly, 
 > “Is the product capable of allowing people to learn, carry out their work efficiently, access the information that they need, or buy the goods that they want?” (ibid)
 
+:::
+::: {.column width="50%"}
 ![Image: Source: ANU Service Desk Website](img/01_01_usability_9.png)
+:::
+::::::::::::::
 
----
+
 
 ## Usability Goal 2: Efficiency
 
@@ -313,8 +380,6 @@ Processes
 
 ![Amazon 1-Click Technology](img/01_01_usability_11.png)
 
----
-
 ## Usability Goal 3: Safety
 
 
@@ -323,16 +388,14 @@ Processes
 
 ![Are you sure you want to delete everything?](img/01_01_usability_12.png)
 
----
-
 ## Usability Goal 4: Utility
+
+
 
 > “The extent to which a product provides the right kind of functionality so users can do what they want to do” (Sharp et al. 2019, p.20)
 > “Does the product provide an appropriate set of functions that will enable users to carry out all of their tasks in the way they want to do them?” (ibid)
 
 ![Tablet vs mouse for drawing? Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema) on [Unsplash](https://unsplash.com/s/photos/graphic-design)](img/01_01_usability_14.jpg)
-
----
 
 ## Usability Goal 5: Learnability
 
@@ -343,139 +406,114 @@ Processes
 
 ![High functionality software. Photo by [Emily Bernal](https://unsplash.com/@emilybernal)](img/01_01_usability_16.jpg)
 
----
-
 ## Usability Goal 6: Memorability
+
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+contents...
+:::
+::: {.column width="60%"}
+contents...
+:::
+::::::::::::::
+
+- Will users remember how to use it later?
 
 > “How easy a product is to remember how to use, once learned” (Sharp et al. 2019, p.21)
 > “What types of interface support have been provided to help users remember how to carry out tasks, especially for products and operations they use infrequently?” (ibid)
 
 ![Annual tax return filing Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema)](img/01_01_usability_17.png)
 
----
-
 ## Video: Usefulness, Utility, Usability
 
-![[Usefulness, Utility, Usability: 3 Goals of UX Design (Jakob Nielsen)](https://youtu.be/VwgZtqTQzg8)](img/01_01_usability_18.png)
-
----
+![[Usefulness, Utility, Usability: 3 Goals of UX Design (Jakob Nielsen)](https://youtu.be/VwgZtqTQzg8)](img/01_01_usability_18.png){width=60%}
 
 ## Design Principles
 
 - Visibility
 - Feedback
 - Constraints
+- Mapping
 - Consistency
 - Affordances
 
-(Sharp, Preece, and Rogers 2019, pp.26-32)
-
----
+From Design of Everyday things [@Norman:2013]
 
 ## Understanding Users
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 - Users are not all the same
 - Different ages, cultures, backgrounds, abilities, interests
-- Various qualitative design research methods available for understanding users and their contexts
+- Various research methods available for understanding users and their contexts
 - Don’t assume; research and find out.
 - Accessibility and inclusivity are important
-
+:::
+::: {.column width="50%"}
 ![](img/01_01_usability_19.png)
 ![](img/01_01_usability_20.png)
 
-Images from the paper “Never Too Old: Engaging Retired People Inventing the Future with MaKey MaKey” (Rogers et al 2014)
+Images from the paper “Never Too Old: Engaging Retired People Inventing the Future with MaKey MaKey” [@rogers-never-old:2014]
+:::
+::::::::::::::
 
 # Conceptualising Interaction
-
----
 
 ## Video: What is a conceptual model?
 
 ![[What is a mental model? (NNGroup)](https://www.youtube.com/watch?v=nAgXISssAws)
 ](img/01_02_conceptualising_interaction_0.png)
 
----
-
 ## Conceptual Models
 
-- Model – “a simplified description of a system or process” (Sharp et al. 2019, p.74)
-- Conceptual model - “a high-level description of how a system is organized and operates” (Johnson & Henderson, 2002)
-- Comprise of:
-      - Metaphors, analogies
-      - Concepts and their relationships
-      - Mappings (Sharp et al. 2019)
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+- **Model:** a simplified description of a system or process
+- **Conceptual model:** high-level description of how a system is organized and operates
+- Includes:
+  - Metaphors, analogies
+  - Concepts and their relationships
+  - Mappings
 - These elements inform the interaction design and user experiences
-
+:::
+::: {.column width="60%"}
 ![[Understanding conceptual models](https://uxdesign.cc/understanding-mental-and-conceptual-models-in-product-design-7d69de3cae26)](img/01_02_conceptualising_interaction_1.png)
-
----
+:::
+::::::::::::::
 
 ## Interface Metaphors
 
-Exploit similarities to user's knowledge of other domains.
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+Exploit similarities to user's knowledge of other domains. E.g., 
 
-- **Search engine:** (early 1990s) index and retrieve remote files to match terms
 - **Cards:**  Familiar, strong associations (playing, business, credit), flick through, sort, themed, structured
 - **Desktop** and **Recycle bin**
 - **Shopping trolley** and **checkout**
-- **‘Surfing the web’**
-
----
-
+- **_Surfing the web_**
+:::
+::: {.column width="60%"}
+![A highly metaphorical interface. [@gentner-anti-mac:1996]](img/gentner-anti-mac-interface.jpg){width=100%}
+:::
+::::::::::::::
 
 ## Interaction Types
 
-Five types of interaction:
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+Five types of interaction models:
 
 - Instructing
 - Conversing
 - Manipulating
 - Exploring
 - Responding
+:::
+::: {.column width="60%"}
+![Image source: [Uriel Soberanes](https://unsplash.com/@soberanes)](img/01_02_conceptualising_interaction_7.jpg){width=30%}
+![Image source: [Fikri Rasyid](https://unsplash.com/@fikrirasyid)](img/01_02_conceptualising_interaction_8.jpg){width=30%}
+![Image source: [Szabo Viktor](https://unsplash.com/@vmxhu)](img/01_02_conceptualising_interaction_9.jpg){width=30%}
+:::
+::::::::::::::
 
-![Image source: [Uriel Soberanes](https://unsplash.com/@soberanes)](img/01_02_conceptualising_interaction_7.jpg)
-![Image source: [Fikri Rasyid](https://unsplash.com/@fikrirasyid)](img/01_02_conceptualising_interaction_8.jpg)
-![Image source: [Szabo Viktor](https://unsplash.com/@vmxhu)](img/01_02_conceptualising_interaction_9.jpg)
-
----
-
-## Activity: Interfaces and interaction types
-
-Choose a design product that you commonly use.  Post a photo of it an annotate it with:
-
-- Interface metaphors that it uses
-- Interaction types that it provides
-
----
-
-## Further Readings
-
-- Jack Carroll. 2004. Beyond Fun, Interactions 11 (5), 38–40.
-
-- John M. Carroll. 2014. Chapter 2: Human Computer Interaction - brief intro. The Encyclopedia of Human-Computer Interaction, 2nd Ed. https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed
-
-- Kate Finn and Jeff Johnson. 2016. Designing for an Aging Population: Toward Universal Design. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '16), 1011–1012. DOI: [https://doi.org/10.1145/2851581.2856669](https://doi.org/10.1145/2851581.2856669)
-
-- Marc Hassenzahl. 2014. Chapter 3: User Experience and Experience Design. The Encyclopedia of Human-Computer Interaction, 2nd Ed. https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed
-
-- John McCarthy and Peter Wright. 2004. Technology as Experience. Interactions 11, 5. https://interactions.acm.org/archive/view/september-october-2004/technology-as-experience1
-
-- Don Norman. 2013. The design of everyday things: Revised and expanded edition. Basic books.
-
-- Lillian Xiao. 2017. A Brief History of Human-Computer Interaction (HCI). [https://blog.prototypr.io/the-rise-of-human-computer-interaction-hci-823dd6286e1d](https://blog.prototypr.io/the-rise-of-human-computer-interaction-hci-823dd6286e1d)
-
----
-
-## References Again
-
-- Min Zhen Chai, Alessandro Soro, Paul Roe, and Margot Brereton. 2017. Cooking Together at a Distance: Sustain Connectedness for Long Distance Families. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '17). Association for Computing Machinery, New York, NY, USA, 2437–2444. https://doi-org.virtual.anu.edu.au/10.1145/3027063.3053183
-
-- Bill Gaver, Tony Dunne, and Elena Pacenti. 1999. Design: Cultural probes. interactions 6, 1 (Jan./Feb. 1999), 21–29. https://doi-org.virtual.anu.edu.au/10.1145/291224.291235
-
-- Raffaele, R., Carvalho, B., Lins, A., Marques, L., Soares, M.M. (2016). Digital Game for Teaching and Learning: An Analysis of Usability and Experience of Educational Games. In: Marcus, A. (eds) Design, User Experience, and Usability: Novel User Experiences . DUXU 2016. Lecture Notes in Computer Science(), vol 9747. Springer, Cham. [https://doi.org/10.1007/978-3-319-40355-7_29](https://doi.org/10.1007/978-3-319-40355-7_29)
-
-- Yvonne Rogers, Jeni Paay, Margot Brereton, Kate L. Vaisutis, Gary Marsden, and Frank Vetere. 2014. Never too old: engaging retired people inventing the future with MaKey MaKey. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '14). Association for Computing Machinery, New York, NY, USA, 3913–3922. https://doi-org.virtual.anu.edu.au/10.1145/2556288.2557184
-
-- Helen Sharp, Jenny Preece, and Yvonne Rogers. 2019. Interaction Design: Beyond Human-Computer Interaction. West Sussex: Wiley. (Chapter 3)
-
-- Wobbrock, J.O. and Kientz, J.A., 2016. Research contributions in human-computer interaction. interactions, 23(3), pp.38-44.
+## References
