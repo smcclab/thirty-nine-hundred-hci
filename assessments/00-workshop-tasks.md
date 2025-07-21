@@ -1,5 +1,5 @@
 ---
-title: Pre- and Post-Class Tasks
+title: Pre- and In-Class Tasks
 author: Dr Charles Martin
 ---
 
