@@ -211,9 +211,21 @@ This is about integrity: **respect** for your **sources** and your **classmates*
 
 > ????
 
-# Usability And User Experience
+# Usability
 
-![A technology Charles likes. Why?](img/charles-synthesiser.jpg){width=50%}
+![A familiar interface. (Image: Leon Seibert on Unsplash)](img/leon-seibert-LJypKPEBt4I-unsplash.jpg){width=60%}
+
+## Another interface
+
+![Another familiar interface.](img/anuhub.png){width=60%}
+
+## A Week 1 favourite for ANU lecturers...
+
+![Oh boy.](img/mytimetable.png){width=60%}
+
+## More interfaces...
+
+![A technology Charles likes. Why?](img/charles-synthesiser.jpg){width=60%}
 
 ## Activity: Positive and Negative Experiences with Technology
 
@@ -226,25 +238,6 @@ and:
 > An example of a technology you find difficult/annoying/frustrating to use (and why)
 
 We'll chat for 3 minutes and then share a few with the room.
-
-## Two designs for a voicemail system
-
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-![[The marble answering machine](https://vimeo.com/19930744). (Durrell Bishop, 1992)](img/01_01_usability_1.png){width=100%}
-:::
-::: {.column width="50%"}
-![A desk phone. Image Source: Photo by [Dan Dennis](https://unsplash.com/@cameramandan83) on [Unsplash](https://unsplash.com/s/photos/landline)](img/01_01_usability_2.jpg){width=100%}
-:::
-::::::::::::::
-
-## Poll Time!
-
-> Is the marble answering machine a good design?
-
-- Yes?
-- No?
-- Maybe?
 
 ## How do we create computing systems for people?
 
@@ -261,15 +254,7 @@ Depends on the users, settings, contexts, and activities. Need to consider:
 
 > “Designing interactive products to support the way people communicate and interact in their everyday and working lives” [@rogers-beyond-hci:2023, p.9] -->
 
-## User experience
-
-> “How people feel about a product and their pleasure and satisfaction when using it, looking at it, holding it, and opening and closing it” [@rogers-beyond-hci:2023, p.13]
-
-**Desirable aspects:** Satisfying, Helpful, Fun, Enjoyable, Motivating, Provocative, Engaging, Challenging, Surprising, Pleasurable, Enhances Socialibility, Rewarding, Exciting, Supporting creativity, Emotionally fulfilling, Cognitively stimulating, Experiencing flow.
-
-**Undesirable aspects:** Boring, Unpleasant, Frustrating, Patronising, Makes you feel guilty, Annoying, Cutesy, Childish, Gimmicky.
-
-## Usability Goals
+## Usability Goals (Designing User Interfaces)
 
 Some practical goals that can be tested:
 
@@ -279,64 +264,9 @@ Some practical goals that can be tested:
 4. Retention over time
 5. Subjective satisfaction
 
-[@shneiderman-hci:2018] (one version, look at some more later).
+[@shneiderman-hci:2018] (one version, another coming right up...)
 
-## Usability vs Joy
-
-:::::::::::::: {.columns}
-::: {.column width="40%"}
-> “It is not enough that we build products that function, that are understandable and usable, we also need to build joy and excitement, pleasure and fun, and yes, beauty into people’s lives" [@Norman:2013]
-
-How can we test for joy? Is this compatible with the usability goals?
-:::
-::: {.column width="60%"}
-![A technology Charles likes. Why?](img/charles-synthesiser.jpg){width=100%}
-<!-- ![Photo by [jeshoots](https://unsplash.com/@jeshoots) on [Unsplash](https://unsplash.com/s/photos/user-experience)](img/01_01_usability_5.jpg){width=100%} -->
-:::
-::::::::::::::
-
-## Another example...
-
-![Charles editing a lecture in neovim (`:w`)](img/charles-neovim.png){width=60%}
-
-## Thinking about Technology as Experience
-
-Can we unpack how we [experience technology?](https://dl.acm.org/doi/10.1145/1015530.1015549) [@mccarthy-wright:2004] 
-
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-
-![Four Threads of Experience](img/mccarthy-four-threads.png){width=50%}
-
-Compositional, Sensual, Emotional, Spatio-temporal.
-:::
-::: {.column width="50%"}
-
-![Six Sense-Making Processes](img/mccarthy-six-sensemaking.png){width=50%}
-
-Anticipating, Connecting, Interpreting, Reflecting, Appropriating, Recounting.
-:::
-::::::::::::::
-
-::: notes
-Threads of experience
-
-- Compositional: How do the elements of an experience fit together to form a coherent whole?
-- Sensual: What does the design and texture and the overall atmosphere make us feel?
-- Emotional: What emotions color the experience for us?
-- Spatio-temporal: What effects do place and time have on our experience?
-
-Processes
-
-- Anticipating: We never come to technology unprejudiced.
-- Connecting: We make a judgment in an instant and without much thought.
-- Interpreting: We work out what's going on and how we feel about it.
-- Reflecting: We examine and evaluate what is happening in an interaction.
-- Appropriating: We work out how a new experience fits with other experiences we have had and with our sense of self.
-- Recounting: We enjoy storytelling and make sense of experience in stories.
-:::
-
-# Usability Goals and User Experience
+## Usability Goals (Interaction Design, Beyond HCI)
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
@@ -376,7 +306,7 @@ This version from: [@rogers-beyond-hci:2023]
 - Use less energy?
 :::
 ::: {.column width="60%"}
-![Image: Source: Amazon.com, Wikipedia](img/01_01_usability_10.png){width=80%}
+![Which interface is more efficient?](img/01_01_usability_10.png){width=100%}
 :::
 ::::::::::::::
 
@@ -389,7 +319,7 @@ This version from: [@rogers-beyond-hci:2023]
 - Recovering when mistakes are made (if not when!)
 :::
 ::: {.column width="60%"}
-![Are you sure you want to delete everything?](img/01_01_usability_12.png){width=80%}
+![Are you sure you want to delete everything?](img/01_01_usability_12.png){width=100%}
 :::
 ::::::::::::::
 
@@ -402,7 +332,7 @@ This version from: [@rogers-beyond-hci:2023]
 - The tasks can be completed in the right way.
 :::
 ::: {.column width="60%"}
-![Tablet vs mouse for drawing? [Unsplash](https://unsplash.com/s/photos/graphic-design)](img/01_01_usability_14.jpg)
+![Tablet vs mouse for drawing? [Unsplash](https://unsplash.com/s/photos/graphic-design)](img/01_01_usability_14.jpg){width=100%}
 :::
 ::::::::::::::
 
@@ -415,7 +345,7 @@ This version from: [@rogers-beyond-hci:2023]
 - Does it take time/training?
 :::
 ::: {.column width="60%"}
-![Keyboard with shortcuts marked. Photo by [Girl with red hat](https://unsplash.com/@girlwithredhat)](img/01_01_usability_15.jpg){width=40%}
+![Some complicated software. Photo by Nejc Soklič on Unsplash](img/nejc-soklic-2jTu7H9l6JA-unsplash.jpg){width=100%}
 :::
 ::::::::::::::
 
@@ -427,16 +357,134 @@ This version from: [@rogers-beyond-hci:2023]
 - Are there supports for infrequent functions?
 :::
 ::: {.column width="60%"}
-![Annual tax return filing Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema)](img/01_01_usability_17.png)
+![Annual tax return filing Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema)](img/01_01_usability_17.png){width=100%}
 :::
 ::::::::::::::
+
+# User Experience
+
+![Charles finds this technology joyful.](img/charles-synthesiser.jpg){width=60%}
+
+## Usability vs Joy
+
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+> “It is not enough that we build products that function, that are understandable and usable, we also need to build joy and excitement, pleasure and fun, and yes, beauty into people’s lives" [@Norman:2013]
+
+How can we test for joy? Is this compatible with the usability goals?
+:::
+::: {.column width="60%"}
+![Charles finds this technology joyful.](img/charles-synthesiser.jpg){width=100%}
+
+<!-- ![Photo by [jeshoots](https://unsplash.com/@jeshoots) on [Unsplash](https://unsplash.com/s/photos/user-experience)](img/01_01_usability_5.jpg){width=100%} -->
+:::
+::::::::::::::
+
+## Another example...
+
+![Charles editing a lecture in neovim (`:w`)](img/charles-neovim.png){width=60%}
+
+## User experience
+
+> “How people feel about a product and their pleasure and satisfaction when using it, looking at it, holding it, and opening and closing it” [@rogers-beyond-hci:2023, p.13]
+
+**Desirable aspects:** Satisfying, Helpful, Fun, Enjoyable, Motivating, Provocative, Engaging, Challenging, Surprising, Pleasurable, Enhances Socialibility, Rewarding, Exciting, Supporting creativity, Emotionally fulfilling, Cognitively stimulating, Experiencing flow.
+
+**Undesirable aspects:** Boring, Unpleasant, Frustrating, Patronising, Makes you feel guilty, Annoying, Cutesy, Childish, Gimmicky.
+
+## Usability vs User Experience
+
+Rogers/Sharpe/Preece illustrate user experience as surrounding usability.
+
+![@Raffaele:2016, illustrating @rogers-beyond-hci:2023](img/01_01_usability_8.png){width=35%}
+
+## Thinking about Technology as Experience
+
+Can we unpack how we [experience technology?](https://dl.acm.org/doi/10.1145/1015530.1015549) [@mccarthy-wright:2004] 
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
+![Four Threads of Experience](img/mccarthy-four-threads.png){width=50%}
+
+Compositional, Sensual, Emotional, Spatio-temporal.
+:::
+::: {.column width="50%"}
+
+![Six Sense-Making Processes](img/mccarthy-six-sensemaking.png){width=50%}
+
+Anticipating, Connecting, Interpreting, Reflecting, Appropriating, Recounting.
+:::
+::::::::::::::
+
+::: notes
+Threads of experience
+
+- Compositional: How do the elements of an experience fit together to form a coherent whole?
+- Sensual: What does the design and texture and the overall atmosphere make us feel?
+- Emotional: What emotions color the experience for us?
+- Spatio-temporal: What effects do place and time have on our experience?
+
+Processes
+
+- Anticipating: We never come to technology unprejudiced.
+- Connecting: We make a judgment in an instant and without much thought.
+- Interpreting: We work out what's going on and how we feel about it.
+- Reflecting: We examine and evaluate what is happening in an interaction.
+- Appropriating: We work out how a new experience fits with other experiences we have had and with our sense of self.
+- Recounting: We enjoy storytelling and make sense of experience in stories.
+:::
+
+## Threads of Experience:
+
+- Compositional: How do the elements of an experience fit together to form a coherent whole?
+- Sensual: What does the design and texture and the overall atmosphere make us feel?
+- Emotional: What emotions color the experience for us?
+- Spatio-temporal: What effects do place and time have on our experience?
+
+## Experience Processes
+
+- Anticipating: We never come to technology unprejudiced.
+- Connecting: We make a judgment in an instant and without much thought.
+- Interpreting: We work out what's going on and how we feel about it.
+- Reflecting: We examine and evaluate what is happening in an interaction.
+- Appropriating: We work out how a new experience fits with other experiences we have had and with our sense of self.
+- Recounting: We enjoy storytelling and make sense of experience in stories.
+
+
+## Two designs for a voicemail system
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![[The marble answering machine](https://vimeo.com/19930744). (Durrell Bishop, 1992)](img/01_01_usability_1.png){width=100%}
+:::
+::: {.column width="50%"}
+![A desk phone. Image Source: Photo by [Dan Dennis](https://unsplash.com/@cameramandan83) on [Unsplash](https://unsplash.com/s/photos/landline)](img/01_01_usability_2.jpg){width=100%}
+:::
+::::::::::::::
+
+## Poll Time!
+
+> Is the marble answering machine a good design?
+
+- Yes?
+- No?
+- Maybe?
+
+> Why?
 
 ## Video: Usefulness, Utility, Usability
 
 ![[Usefulness, Utility, Usability: 3 Goals of UX Design (Jakob Nielsen)](https://youtu.be/VwgZtqTQzg8)](img/01_01_usability_18.png){width=60%}
 
+# Improving Usability and Experience
+
+What can we do to ensure good usability **and** good user experience?
+
 ## Design Principles
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 - Visibility
 - Feedback
 - Constraints
@@ -445,6 +493,15 @@ This version from: [@rogers-beyond-hci:2023]
 - Affordances
 
 From Design of Everyday things [@Norman:2013]
+:::
+::: {.column width="50%"}
+
+![](img/mapping-stove-row.jpg)
+![](img/mapping-stove-square.jpg)
+
+Which mapping is _natural_? (Source: Wikimedia)
+:::
+::::::::::::::
 
 ## Understanding Users
 
@@ -457,19 +514,12 @@ From Design of Everyday things [@Norman:2013]
 - Accessibility and inclusivity are important
 :::
 ::: {.column width="50%"}
-![](img/01_01_usability_19.png)
-![](img/01_01_usability_20.png)
+![](img/01_01_usability_19.png){width=40%}
+![](img/01_01_usability_20.png){width=40%}
 
 Images from the paper “Never Too Old: Engaging Retired People Inventing the Future with MaKey MaKey” [@rogers-never-old:2014]
 :::
 ::::::::::::::
-
-# Conceptualising Interaction
-
-## Video: What is a conceptual model?
-
-![[What is a mental model? (NNGroup)](https://www.youtube.com/watch?v=nAgXISssAws)
-](img/01_02_conceptualising_interaction_0.png)
 
 ## Conceptual Models
 
@@ -487,6 +537,11 @@ Images from the paper “Never Too Old: Engaging Retired People Inventing the Fu
 ![[Understanding conceptual models](https://uxdesign.cc/understanding-mental-and-conceptual-models-in-product-design-7d69de3cae26)](img/01_02_conceptualising_interaction_1.png)
 :::
 ::::::::::::::
+
+## Video: What is a conceptual model?
+
+![[What is a mental model? (NNGroup)](https://www.youtube.com/watch?v=nAgXISssAws)
+](img/01_02_conceptualising_interaction_0.png)
 
 ## Interface Metaphors
 
@@ -522,5 +577,9 @@ Five types of interaction models:
 ![Image source: [Szabo Viktor](https://unsplash.com/@vmxhu)](img/01_02_conceptualising_interaction_9.jpg){width=30%}
 :::
 ::::::::::::::
+
+## Who has a question?
+
+> ???
 
 ## References
