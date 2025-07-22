@@ -3,6 +3,8 @@ title: Making
 author: Dr Charles Martin
 ---
 
+![Using arts and crafts to develop ideas.](img/making.jpg)
+
 This week we are going to start thinking about user experience and the meaning that computer systems have for us. Your pre-class task is going to start the process of reflecting on our own interests and patterns of computer use. In-class we will discuss and express our personal computing journeys through making.
 
 While doing arts-and-crafts in a 3000-level computing course has been called _"a choice"_, it's a good way to slow down out thinking and start to consider what _experience_ means in computing.
@@ -28,11 +30,17 @@ In this class you will:
 
 ## In-Class Tasks
 
+Your tutor will guide you through the three tasks over the tutorial. You need to be prepared to participate in group discussions and to speak to the class when asked by your tutor. Remember that completing the in-class tasks well (including participating in discussions) is how we decide on your mark for the week.
+
+### 0. Introductions and pre-class tasks
+
+Your tutor will introduce themselves and start to look through pre-class tasks on the forum. If your pre-class task is in the wrong category, change it now so the tutor can find it easily.
+
 ### 1. Reflecting on Meaningful Technologies
 
 Going beyond the technicalities of how we may facilitate human-computer interaction, let's consider how computers have already interacted with us in our lives. Today's lab is all about reflecting on our experiences with computers and how that impacts the work we do with computers and what we may create in future. 
 
-Reflection is a cyclic and integral part of the creative process. There are many different frameworks of reflection for different use cases. [Driscoll’s “What?” Model](https://reflection.ed.ac.uk/reflectors-toolkit/reflecting-on-experience/what-so-what-now-what) was developed in the mid-1990s, creating a cycle of the following three questions:
+Reflection is a cyclic and integral part of the creative process. There are many different frameworks of reflection for different use cases. [Driscoll’s “What?” Model](https://reflection.ed.ac.uk/reflectors-toolkit/reflecting-on-experience/what-so-what-now-what) was developed in the mid-1990s [@reflection-toolkit-driscoll], creating a cycle of the following three questions:
 
 - What?
 - So what?
@@ -62,6 +70,8 @@ Once you've finished your drawing, take a few minutes to write about:
 - What role did it play?
 - How do _you_ feel about it?
 
+How do your answers align with the user experience goals from the textbook ([Interaction Design Beyond HCI](https://quicklink.anu.edu.au/kv9b)) [@rogers-beyond-hci:2023, section 1.9.2] as discussed in the lecture? Do some of the "desirable and undesirable aspects of user experience" appear?
+
 ### 3. Making to Express Experience and our Journeys
 
 For the second half of the tutorial, we’ll make a small reflective zine.
@@ -72,12 +82,15 @@ Your zine might include:
 
 - A title page
 - Drawings, diagrams, or comics
-- Your reflection from earlier
+- Your reflections from earlier in the class
 - A page about your coding process
 - A page about interactive systems you have made
+- Thoughts on usability vs user experience
 - A short piece about how your relationship with computers has changed
 - Anything else you want to add!
 
 You can make this by folding and cutting a single A3 sheet (We'll show you how), or by stapling pages together if you prefer. 
 
 Take your time with this — it's not about making something perfect, but something meaningful. I've brought in different materials you're welcome to use to create your responses. 
+
+## References
