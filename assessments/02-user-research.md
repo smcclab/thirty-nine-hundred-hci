@@ -9,7 +9,7 @@ author: Dr Charles Martin
 - **Mark weighting**: 30%
 - **Submission**: submit your assignment according to the [instructions below](#submission-process)
 - **Policies**: Late submission is not permitted for this assessment. This is an individual assessment task.
-- **Gitlab Template Repository**: [TBA](https://gitlab.cecs.anu.edu.au/comp3900/)
+- **Gitlab Template Repository**: <https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-user-research>
 
 ## Description {#description}
 
@@ -18,13 +18,23 @@ You will formulate a research question, collect and analyse data, and present re
 Your study should involve  at least one form of quantitative and one form of qualitative data analysis.
 Your submission will include your research question, research plan, collected data, analysis,  results, and conclusions.
 
+**Note: This assignment specification hasn't been released yet. More details will be available after the due date of the previous assignment.**
+
 ## Specification {#specification}
+
+TBA.
 
 ## Submission Process {#submission-process}
 
+TBA.
+
 ## Notes {#notes}
+
+TBA.
 
 - Don't forget to ask for help or advice on the course forum: [Edstem discussions](https://edstem.org/au/courses/24905/discussion)
 
 ## Marking Rubric {#rubric}
+
+TBA.
 

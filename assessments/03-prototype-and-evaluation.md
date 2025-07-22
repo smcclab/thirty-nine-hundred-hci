@@ -9,7 +9,7 @@ author: Dr Charles Martin
 - **Mark weighting**: 40%
 - **Submission**: submit your assignment according to the [instructions below](#submission-process)
 - **Policies**: Late submission is not permitted for this assessment. This is an individual assessment task.
-- **Gitlab Template Repository**: [TBA](https://gitlab.cecs.anu.edu.au/comp3900/)
+- **Gitlab Template Repository**: <https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-research-project>
 
 ## Description {#description}
 
@@ -21,13 +21,22 @@ The presentation should cover problem identification, design rationale, prototyp
 
 PG: You must reflect critically on your presence within the design process.
 
+**Note: This assignment specification hasn't been released yet. More details will be available after the due date of the previous assignment.**
+
 ## Specification {#specification}
+
+TBA.
 
 ## Submission Process {#submission-process}
 
+TBA.
+
 ## Notes {#notes}
+
+TBA.
 
 - Don't forget to ask for help or advice on the course forum: [Edstem discussions](https://edstem.org/au/courses/24905/discussion)
 
 ## Marking Rubric {#rubric}
 
+TBA.

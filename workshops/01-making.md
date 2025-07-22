@@ -11,6 +11,8 @@ While doing arts-and-crafts in a 3000-level computing course has been called _"a
 
 ## Pre-Class Tasks
 
+**You must complete this task before the start of your tutorial.**
+
 Choose a computer or digital technology that played an important role in your early life. It could be a device, an application, or a website. Upload an image of this technology on the forum. You can upload a photo, sketch, or an image found online (remember to provide a reference).
 
 Write a reflective post (100-200 words) about this technology using these prompts:
