@@ -8,23 +8,7 @@ need to know:
 - personas
 - scenarios
 
-## About the Tutorials
-
-This is the first tutorial for the semester. This document outlines the
-plan for this tutorial. Your Tutor may vary this plan as needed during
-the tutorial. Each tutorial will be broken down into activities that you
-will do: (1) before the tutorial (preparation), and (2) during the
-tutorial (activities).
-
-## Aims and Purpose
-
-The intended learning outcomes of this tutorial is to:
-
-- Apply key concepts of human-computer interaction such as interaction design, the user experience, and usability to analyse existing designs
-- Evaluate the applicability to, and usefulness of, technology designs in diverse use situations and contexts
-- Reflect on your own experiences of technology use and identify the position and assumptions that you bring to design analysis
-
-## Preparation
+## Pre-Class Tasks
 
 You should complete the following activities prior to attending your
 tutorial:
@@ -38,17 +22,15 @@ tutorial:
 3.  Make notes about your own experiences of using the design products
     that are addressed in the tutorial activities.
 
-## Structure
+## Plan for the Class
 
 The tutorial will follow this structure:
 
-1. Introduction and announcements + Make your name card (5 minutes)
 2. Design product analysis (25 minutes)
 3. Reporting back and discussion (15 minutes)
 4. Questions and tutorial close (5 minutes)
 
-## Activities
-
+## In-Class Tasks
 
 ### Make your name card
 
@@ -90,9 +72,9 @@ Consider the following design product categories, and identify which design prod
 
 - The people and context that the scenario relates to (see Lectures Week 1 slide 52). Think about what information is **not provided** and what assumptions you therefore need to make about the scenario.
 
-## Design Product Categories And Scenarios
+### Design Product Categories And Scenarios
 
-### Video Calling or Conferencing Platforms (e.g., Skype, Microsoft Teams, Zoom, Facetime, WeChat Video)
+#### Video Calling or Conferencing Platforms (e.g., Skype, Microsoft Teams, Zoom, Facetime, WeChat Video)
 
 Which video calling or conferencing platform listed above, or that you are familiar with, would provide the best user experience in the following scenarios?
 
@@ -102,7 +84,7 @@ Which video calling or conferencing platform listed above, or that you are famil
 - Scenario B: Grandparents communicating regularly with their young
   grandchildren (aged 3-5) who live far away from them
 
-### Navigation Apps (e.g., Apple Maps, Google Maps, Waze)
+#### Navigation Apps (e.g., Apple Maps, Google Maps, Waze)
 
 Which navigation app listed above, or that you are familiar with, would
 provide the best user experience in the following scenarios?
@@ -114,7 +96,7 @@ provide the best user experience in the following scenarios?
   another in your hometown/city (without a mobile phone mount on your
   bike)
 
-### Music Playing Platforms (e.g., iTunes, Spotify, YouTube Music)
+#### Music Playing Platforms (e.g., iTunes, Spotify, YouTube Music)
 
 (use only if there is time remaining in your group discussion...)
 
@@ -142,3 +124,11 @@ Make sure that you succinctly present your main argument and key examples that s
 approx.).
 
 Your tutor will facilitate discussion about your responses, and address scenarios E-F if you have time.
+
+
+## Resources
+
+
+
+## References
+

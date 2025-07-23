@@ -3,8 +3,6 @@ title: Interviews
 author: Dr Jennyfer Lawrence Taylor
 ---
 
-## Aims and Purpose
-
 The purpose of this tutorial is to give you hands-on experience with
 designing and conducting semi-structured interviews. This is one of the
 most common data collection methods in HCI research.
@@ -17,7 +15,7 @@ The intended learning outcomes of this tutorial are to:
 - Reflect on the interview interactions and questions to refine your
   interview approach
 
-## Preparation
+## Pre-Class Tasks
 
 You should complete the following activities prior to attending your
 tutorial:
@@ -40,7 +38,7 @@ tutorial:
     Machinery, New York, NY, USA, Article 159, 1--16.
     <https://doi-org.virtual.anu.edu.au/10.1145/3411764.3445737>*
 
-## Structure
+## Plan for the Class
 
 The tutorial will follow this structure:
 
@@ -49,23 +47,7 @@ The tutorial will follow this structure:
 3.  Conducting an interview in pairs (20 mins)
 4.  Reporting back and reflecting, and close (10 mins)
 
-## Activities
-
-### Project group formation (10 mins)
-
-
-a.  Your Tutor will advise you how many project groups need to be
-    formed within your tutorial session (based on student enrolment
-    numbers)
-
-b.  Form a project group with the right number of students as
-    advised by your Tutor
-
-    i.  If you are having difficulties in finding a project group to
-        join, please speak to your Tutor.
-
-c.  Please register your group on Wattle using the project
-    registration sign up link for your tutorial session
+## In-Class Tasks
 
 ### Designing an interview guide individually (10 mins)
 
@@ -118,3 +100,10 @@ about the following questions:
 2. What was your experience of designing your interview guide? How did you think of ideas for interview questions? Can you share some of your questions with the rest of the class?
 3. What did you learn about conducting interviews when working in your pairs? What kinds of feedback did you receive from your interview partner?
 4. How might you refine and improve your interview questions based on your experiences and the feedback that you received?
+
+
+## Resources
+
+
+
+## References

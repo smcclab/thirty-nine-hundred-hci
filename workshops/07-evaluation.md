@@ -1,12 +1,9 @@
 ---
-title: Evaluation
+title: Planning Evaluations
 author: Dr Jennyfer Lawrence Taylor
 ---
 
-## Aims and Purpose
-
-The purpose of this tutorial is to help you to design and conduct an
-evaluation activity.
+The purpose of this tutorial is to help you to design and conduct an evaluation activity.
 
 The intended learning outcomes for this tutorial are to:
 
@@ -16,7 +13,7 @@ The intended learning outcomes for this tutorial are to:
 - Critically reflect on which evaluation methods can address particular
   kinds of evaluation goals and research questions
 
-## Preparation
+## Pre-Class Tasks
 
 You should complete the following activities prior to attending your
 tutorial:
@@ -55,13 +52,14 @@ tutorial:
 
     - **Jobs portal:** <https://www.anu.edu.au/jobs>
 
-## Structure
+
+## Plan for the Class
 
 1.  Plan your evaluation activity - individually (10 mins)
 2.  Conduct your evaluation activity in pairs (30 mins)
 3.  Report back and close (10 mins)
 
-## Activities
+## In-Class Tasks
 
 ### Plan your evaluation activity - individually (10 mins)
 
@@ -136,3 +134,10 @@ tutorial:
 
 - The Tutor will answer questions if there is time and close the
   tutorial session.
+
+
+## Resources
+
+
+
+## References

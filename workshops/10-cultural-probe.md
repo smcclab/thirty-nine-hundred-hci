@@ -3,8 +3,6 @@ title: Cultural Probes
 author: Dr Jennyfer Lawrence Taylor
 ---
 
-## Aims and Purpose
-
 The purpose of this tutorial is to give you hands-on experience in designing and working with cultural probes, which is the design research method that you will be engaging with for Project 1.
 
 The intended learning outcomes of this workshop are to:
@@ -16,7 +14,7 @@ The intended learning outcomes of this workshop are to:
   members
 - Reflect on designing a meaningful set of cultural probe activities.
 
-## Preparation
+## Pre-Class Tasks
 
 You should complete the following activities prior to attending your
 tutorial:
@@ -35,7 +33,7 @@ tutorial:
         *Interactions*, vol. 6, no. 1, pp. 21--29, accessed from
         <https://doi-org.virtual.anu.edu.au/10.1145/291224.291235>
 
-## Structure
+## Plan for the Class
 
 The tutorial will follow this structure:
 
@@ -46,7 +44,8 @@ The tutorial will follow this structure:
 3.  Presentation and discussion of the cultural probe activities, and
     close (20 mins)
 
-## Activities
+## In-Class Tasks
+
 
 ### Reviewing Cultural Probe Examples in ACM Digital Library (15 mins)
 
@@ -123,3 +122,10 @@ The tutorial will follow this structure:
 
     d.  Whether there are ethical issues or considerations relating to
         the cultural probe activities that you have designed.
+
+
+## Resources
+
+
+
+## References

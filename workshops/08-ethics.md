@@ -3,8 +3,6 @@ title: Human Ethics in HCI Research
 author: Dr Jennyfer Lawrence Taylor
 ---
 
-## Aims and Purpose
-
 The purpose of this tutorial is to introduce you to the *ANU Responsible
 Conduct of Research Policy* and NHMRC *National Statement on Ethical
 Conduct in Human Research.* You will learn how to apply these principles
@@ -17,7 +15,7 @@ The intended learning outcomes for this tutorial are:
   conduct of qualitative HCI projects
 - Identify ethical issues in HCI research involving people
 
-## Preparation
+## Pre-Class Tasks
 
 You should complete the following activities prior to attending your
 tutorial:
@@ -31,7 +29,7 @@ tutorial:
       (<https://www.nhmrc.gov.au/about-us/publications/national-statement-ethical-conduct-human-research-2007-updated-2018>)
       (NHRMC 2018)
 
-## Structure
+## Plan for the Class
 
 The tutorial will follow this structure:
 
@@ -41,7 +39,8 @@ The tutorial will follow this structure:
     confidentiality with respect to HCI projects (20 mins)
 3.  Report back to the tutorial group and close (10 mins)
 
-## Activities
+## In-Class Tasks
+
 
 ### Group assignments
 
@@ -96,7 +95,9 @@ b.  Share your thoughts on how these values, principles, and concepts
 c.  Your Tutor will bring the tutorial to a close and answer any
     questions if time.
 
-## Readings and References
+
+## Resources
+
 
 - Aggarwal, D, Hoang, T, Ploderer, B, Vetere, F, Khot, RA & Bradford, M
   2020, 'Lessons Learnt from Designing a Smart Clothing Telehealth System
@@ -135,3 +136,5 @@ c.  Your Tutor will bring the tutorial to a close and answer any
 - NHRMC 2018, *National Statement on Ethical Conduct in Human Research*,
   Canberra, accessed from
   <https://www.nhmrc.gov.au/about-us/publications/national-statement-ethical-conduct-human-research-2007-updated-2018>.
+
+## References

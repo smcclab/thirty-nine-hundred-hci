@@ -5,6 +5,8 @@ author: Dr Charles Martin
 
 This is the template for tutorial specifications for thirty nine hundred. All the tutorials should follow the same procedure and formatting so that there is consistent and clear instructions for students and tutors who will deliver them. There should be a short paragraph of text in this area to introduce the tutorial topic. This text should contextualise the tutorial in terms of the lectures (past) and assessment tasks (future) that this tutorial is related to. Tell students clearly why this tutorial is necessary in terms of fundamental aspects of HCI and what assessments it prepares them to complete.
 
+A tutorial page should probably be 800-1500 words. If it's more than that it is probably going to confused rather than elucidate students. If it's less it is probably not a sufficiently detailed specification of the activity or doesn't have clear connection to lecture/research content.
+
 ## Pre-Class Tasks
 
 The pre-class task(s) need to be _ultra clear_ so that students can complete them before the tutorial without assistance from staff.

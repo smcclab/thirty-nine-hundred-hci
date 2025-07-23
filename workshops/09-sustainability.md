@@ -3,13 +3,12 @@ title: Design Sustainability
 author: Dr Jennyfer Lawrence Taylor
 ---
 
-## Aims and Purpose
 
 The purpose of this tutorial is to help you think through the
 environmental dimensions of technology design and use, and how to
 prototype new technology designs in sustainable ways.
 
-## Preparation
+## Pre-Class Tasks
 
 You should complete the following activities prior to attending your
 tutorial:
@@ -20,7 +19,9 @@ tutorial:
 - Develop a plan for how you are going to construct your high-fidelity
   prototype.
 
-## Structure
+
+## Plan for the Class
+
 
 The tutorial will follow this structure:
 
@@ -28,9 +29,7 @@ The tutorial will follow this structure:
 2.  Materials and tools analysis of your design process (25 mins)
 3.  Reporting back and discussion (10 mins)
 
-## Activities
-
-Your tutor will put you into groups to complete the following activities.
+## In-Class Tasks
 
 ### Materials and tools analysis of your design process (25 mins)
 
@@ -73,6 +72,7 @@ Create a shared document for your group with the following table:
 > You may need to do some internet research as part of this activity.
 > Try to include specifics and examples as much as possible e.g., amount
 > of emissions, resources used etc.
+
 
 ### Add the following additional columns to your table:
 
@@ -128,10 +128,9 @@ Create a shared document for your group with the following table:
     as alternatives to the materials and tools you have identified
     above.
 
-## Reporting back and discussion (10 mins)
 
-Your Tutor(s) will bring you back together for a whole group
-discussion to reflect on what you learnt and observed.
+## Resources
 
-Your Tutor(s) will bring the workshop to a close and answer any
-questions if there is time.
+
+
+## References

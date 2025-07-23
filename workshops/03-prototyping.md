@@ -3,8 +3,6 @@ title: Prototyping
 author: Dr Jennyfer Lawrence Taylor
 ---
 
-## Aims and Purpose
-
 The purpose of this tutorial is to give you hands-on experience in
 low-fidelity prototyping, which is a key task in the Prototype Design
 and Presentation Assessment. You will work with your team members in
@@ -16,7 +14,7 @@ The intended learning outcomes of this tutorial are to:
 - Prototype through storyboarding; and
 - Critically analyse design decisions.
 
-## Preparation
+## Pre-Class Tasks
 
 You should complete the following activities prior to attending your
 tutorial:
@@ -34,7 +32,8 @@ tutorial:
     ungraded) (p.35) for both methods (10 ideas total). Bring your list
     of ideas to the tutorial.
 
-## Structure
+
+## Plan for the Class
 
 The tutorial will follow this structure:
 
@@ -43,7 +42,8 @@ The tutorial will follow this structure:
 3.  Present and discuss storyboards in groups (15 mins)
 4.  Report back and close (5 mins)
 
-## Activities
+## In-Class Tasks
+
 
 ### Develop a set of scenarios (15 mins)
 
@@ -90,3 +90,10 @@ design.
 
 Your Tutor will bring everyone back together.
 The Tutor will bring the tutorial to a close and answer any questions if time.
+
+
+## Resources
+
+
+
+## References
