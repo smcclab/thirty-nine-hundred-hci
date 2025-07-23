@@ -41,7 +41,7 @@ author: Dr Charles Martin
 | 5. Worst Possible Idea | 12.  __Provocation__ |  |
 | 6. Challenge Assumptions | 13.  __SCAMPER__ | __19. Prototype__ |
 | 7.  __Mindmap__ | 14.  __Movement__ | 20. Creative Pause |
-
+loo
 ## How Ideation Techniques Can Help with Creative Blocks
 
 ![[Beating Creative Blocks in UX Design Through Reframing](https://www.youtube.com/watch?v=-GC8a5sRfC0&list=PLJOFJ3Ok_idsd431mj7czplN1PNEaJbHE&index=2)](img/06_ideation_2.png)
