@@ -24,35 +24,9 @@ The tutorial will follow this structure:
 
 ## In-Class Tasks
 
-### Make your name card
-
-- You will be asked to create a name tag for yourself with the name that
-  you would like others to call you, your pronouns, and a
-  (**workplace-appropriate**) emoji, symbol, or Zoom background that
-  reflects your interests or identity.
-
-- For in-person tutorials, you will be handed a sheet of card to fold
-  and write your name on. For online tutorials, you will be asked to
-  rename yourself in Zoom interface.
-
-- Your Tutor(s) and other students will use the name cards to get to
-  know you and refer to you correctly in the course. The Tutor(s) will
-  also use the name card information to take attendance. **Please ensure
-  that you return you name card to your Tutor(s) at the end of each
-  tutorial.**
-
-- If you preferred name is different to the name that you have used to enrol in the course, please write your actual name on the bottom of your name card, or for Zoom participants, put it in brackets or tell your Tutors (to help them take attendance).
-
-Example name card: Jennyfer (she/her/hers) 
-![Take Off with solid fill](img/image2.svg){width="25%"}
-
-For further information about what pronouns are, and why we ask you to write your pronouns on your name card, please see the ANU webpage on [Gender Inclusive Language](https://services.anu.edu.au/human-resources/respect-inclusion/gender-inclusive-language).
-
 ### Design product analysis (25 minutes)
 
-Your Tutor(s) will randomly allocate you into 3-4 groups.
-
-Introduce yourself to the other students in your group.
+Your tutor will randomly allocate you into groups of 5-6 students.
 
 Consider the following design product categories, and identify which design product you think would provide the best user experience in the scenarios provided. There is no right or wrong answer, but the skill you are practicing is how to convincingly make your case with reference to specifics. You should analyse user experiences in relation to the following criteria:
 
