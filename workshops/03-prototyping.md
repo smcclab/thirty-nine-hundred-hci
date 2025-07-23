@@ -94,6 +94,6 @@ The Tutor will bring the tutorial to a close and answer any questions if time.
 
 ## Resources
 
-
+Low vs High-fidelity: <https://www.nngroup.com/articles/ux-prototype-hi-lo-fidelity/>
 
 ## References
