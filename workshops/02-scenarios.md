@@ -10,17 +10,7 @@ need to know:
 
 ## Pre-Class Tasks
 
-You should complete the following activities prior to attending your
-tutorial:
-
-1.  Review the lecture recordings and slides for Week 1 (and Week 2 if
-    possible) and associated textbook chapters.
-
-2.  Choose your making activity for Project 1 so that you can discuss
-    this with your Tutor.
-
-3.  Make notes about your own experiences of using the design products
-    that are addressed in the tutorial activities.
+<!-- TODO: need a relevant pre-class task with clear output 100-200 word post on forum, should require reading the textbook or a resource on personas and scenarios -->
 
 ## Plan for the Class
 
