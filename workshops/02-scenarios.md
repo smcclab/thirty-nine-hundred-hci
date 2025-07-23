@@ -1,7 +1,12 @@
 ---
-title: Design Product Analysis
+title: Scenarios
 author: Dr Jennyfer Lawrence Taylor
 ---
+
+need to know:
+
+- personas
+- scenarios
 
 ## About the Tutorials
 
@@ -15,14 +20,9 @@ tutorial (activities).
 
 The intended learning outcomes of this tutorial is to:
 
-- Apply key concepts of human-computer interaction such as interaction
-  design, the user experience, and usability to analyse existing designs
-
-- Evaluate the applicability to, and usefulness of, technology designs
-  in diverse use situations and contexts
-
-- Reflect on your own experiences of technology use and identify the
-  position and assumptions that you bring to design analysis
+- Apply key concepts of human-computer interaction such as interaction design, the user experience, and usability to analyse existing designs
+- Evaluate the applicability to, and usefulness of, technology designs in diverse use situations and contexts
+- Reflect on your own experiences of technology use and identify the position and assumptions that you bring to design analysis
 
 ## Preparation
 
@@ -134,11 +134,11 @@ with, would provide the best user experience in the following scenarios?
 
 ### Reporting back and discussion (15 minutes)
 
-The Tutor(s) will bring you back together for a whole group discussion to reflect on what you learnt and observed.
+The tutor will bring you back together for a whole group discussion to reflect on what you learnt and observed.
 
-Your Tutor(s) will work by scenario, and for each scenario from A-D ask each group to share which design product they chose, and the key reason(s) for your choice.
+Your tutor will work by scenario, and for each scenario from A-D ask each group to share which design product they chose, and the key reason(s) for your choice.
 
 Make sure that you succinctly present your main argument and key examples that support this (no more than 30 seconds each group
 approx.).
 
-Your Tutor(s) will facilitate discussion about your responses, and address scenarios E-F if you have time.
+Your tutor will facilitate discussion about your responses, and address scenarios E-F if you have time.

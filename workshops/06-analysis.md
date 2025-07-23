@@ -15,4 +15,9 @@ author: Dr Charles Martin
 ## In-Class Tasks
 
 
+
 ## Resources
+
+
+
+## References
