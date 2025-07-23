@@ -1,8 +1,53 @@
 # Course Lectures and Assessment for HCI Thirty-Nine-Hundred
 
-Lecture sides and course activities for a course in human computer interaction.
+Lecture sides and course activities for a course in human computer interaction. The idea is to develop course materials in markdown and build these files into HTML, PDF, or other file formats necessary for displaying to students or pasting into an LMS (learning management system) such as Canvas or Moodle.
 
-## Learning Outcomes
+The content is in markdown format in the following directories:
+
+- `assessments`
+- `lectures`
+- `resources`
+- `workshops`
+
+References in bibtex format can be placed in the file:
+
+- `references.bib`
+
+## Building
+
+The build process is automated via the `Makefile`. `make`, `pandoc` and a TeX environment (e.g., MacTeX or TeX Live) is required.
+
+All course materials can be built with:
+
+    make all
+
+This takes some time (unfortunately) because pandoc is quite slow at building PDF slides. A quicker build just creates the HTML files:
+
+    make html
+
+The build is automated via a Github Action which runs `make public` rather than `make all` (the idea is that the "public" version of the material may not include draft content).
+
+## Deploying
+
+This repository is configured to build a "public" version of the site and deploy to a Github Pages website automatically. The output website is: <https://smcclab.github.io/thirty-nine-hundred-hci/>
+
+## Contributing
+
+Content developers (e.g., course convenors, lecturers, tutors, learning designers) can contribute by directly editing markdown files within the `assessments`, `lectures`, `resources`, and `workshops` directories.
+
+Images can be placed with in an `img` directory associated with each of the above. You can't reference an image across directories. So for example an image in `lectures/img` can't be used in a workshop, you'll have to duplicate the file annoyingly.
+
+All course content should be include references to textbooks, online resources and scholarly publications. The references should go in the common `references.bib` file in bibtex format. You can cite using [pandoc's citation format (see link)](https://pandoc.org/MANUAL.html#extension-citations), e.g., `[@bibtex-key, p26]` etc. The referencing format is APA using `apa.csl`.
+
+(NB: I know we ask the students to use ACM style, but the ACM csl uses numerical citations while author/date is more convenient for these kind fo documents where we want to know what the reference is without looking it up continually).
+
+Editing online in Github is fine for simple changes or adding content. The default `public` build only builds the lecture so nothing added to workshops, assessments, or resources will necessarily block the build.
+
+## Course information
+
+This information is specific for thirty-nine-hundred.
+
+### Learning Outcomes
 
 Upon successful completion, students will have the knowledge and skills to:
 
@@ -12,7 +57,7 @@ Upon successful completion, students will have the knowledge and skills to:
 4. Critically evaluate novel technology design ideas based on Human-Computer Interaction approaches.
 5. (PG): Critically reflect on a designer’s own presence and influence within a technology design process.
 
-## Course Schedule
+### Course Schedule
 
 |   Week  |   Topic Title                                            |   Schneiderman (6th ed)                              |   CHI Subcommittee                                                |   Tutorial  |   Assessment                                            |
 |---------|----------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------------------|-------------|---------------------------------------------------------|
@@ -29,7 +74,7 @@ Upon successful completion, students will have the knowledge and skills to:
 |   11    |   Data Visualisation                                     |   16. Data Visualisation                             |   Visualization                                                   |   10        |                                                         |
 |   12    |   Human-Centred AI                                       |   “Human-Centred AI”                                 |   Critical Computing, Sustainability, and Social Justice          |             |                                                         |
 |   13    |                                                          |                                                      |                                                                   |             |   Final Project: Prototype Design and Research Project  |
-## Assessments
+### Assessments
 
 1. Pre-class and in-class tasks (10%, 1% per class) LO: 1,2
 2. Assignment 1: Prototyping (20%) LO: 1,2
@@ -37,10 +82,6 @@ Upon successful completion, students will have the knowledge and skills to:
 4. Final Project: Prototype Design and Research Project
   (40%) LO: 2,3,4 (PG: 5)
 
-## Build
 
-## Deploy
-
-## Contributing
 
 
