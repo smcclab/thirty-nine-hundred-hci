@@ -12,6 +12,8 @@ need to know:
 
 <!-- TODO: need a relevant pre-class task with clear output 100-200 word post on forum, should require reading the textbook or a resource on personas and scenarios -->
 
+Read this resource: <https://www.nngroup.com/articles/scenario-mapping-personas/> and do... something...
+
 ## Plan for the Class
 
 The tutorial will follow this structure:
