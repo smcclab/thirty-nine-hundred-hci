@@ -135,61 +135,159 @@ Some HCI research doesn't fit well into double diamond, it might be more technic
 
 # Discovering Requirements
 
-![Image: [@rogers-beyond-hci:2023, p.387]](img/05_03_discovering_requirements_0.png)
+![Image: [@rogers-beyond-hci:2023, s11.2]](img/05_03_discovering_requirements_0.png){width=50%}
 
+## What is a requirement?
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 > “A statement about an intended product that specifies what it is expected to do and how it will perform” [@rogers-beyond-hci:2023, p.387]
 
-- First two stages of the double diamond
-- Discovered through “targeted activities” or “tangentially” through-out the design process
-- Not static but EVOLVE during design
-- There are many different types of requirements and ways of presenting and communicating requirements
-- Want to avoid misunderstanding and miscommunication
+- Discovered through targeted activities or tangentially throughout the design process
+- Evolve during design
+- Different levels of abstraction and detail
+- Needed to avoid misunderstanding and miscommunication
+:::
+::: {.column width="40%"}
+![Image: [@rogers-beyond-hci:2023, s11.2]](img/05_03_discovering_requirements_0.png)
+:::
+::::::::::::::
 
-## Atomic Requirements Shell
+## Defining a requirement
 
-![[@rogers-beyond-hci:2023, p.389]](img/05_03_discovering_requirements_2.png)
-
-## Types of requirements
-
-![[@rogers-beyond-hci:2023, p.391]](img/05_03_discovering_requirements_3.jpg)
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Requirements can be captured casually, e.g., "app needs to be fast"
+- Can be useful to have more details, precision about the requirements, who needs them, and why.
+- Formal methods exist for capturing requirements in complex projects
+- Epics, user stories in Agile methodologies
+- Volere "Atomic Requirements Shell" (see figure)
+- _"Description, Rationale, Source, Fit criterion, Customer satisfaction..."_ 
+:::
+::: {.column width="50%"}
+![[@rogers-beyond-hci:2023, s11.3]](img/05_03_discovering_requirements_2.png){width=60%}
+:::
+::::::::::::::
 
 ## User stories
 
-- “Represents a unit of customer-visible functionality”
-- “Starting point for a conversation to extend and clarify requirements”
-- Functionality, user experience, usability goals
+Communicates a requirements between stakeholders. Have the generic form:
 
-![[@rogers-beyond-hci:2023, p.389]](img/05_03_discovering_requirements_4.jpg)
+`As a <role>, I want <behaviour> so that I can <benefit>`
 
-## Design Implications/Recommendations
+e.g.,:
 
-![(Ljungblad et al. 2021)](img/05_03_discovering_requirements_5.png)
+- "As a student, I want to select choose a tutorial time that doesn't clash with other activities, so that I can attend all my classes in a week."
+- "As a lecturer, I want to adjust the number of students in tutorials, so that I can provide a good learning experience."
 
-## Bringing requirements to life: Personas
+A user story is a simple way to connect a requirement to a particular type of user in a particular situation. In agile, user stories can be grouped into larger arrangements called "epics" and even bigger groups called "initiatives".
 
-![Image [source](https://www.usability.gov/how-to-and-tools/methods/personas.html)](img/05_03_discovering_requirements_6.jpg)
+## Types of requirements
 
+- _Functional requirements_: What the product will do
+
+- _Data requirements_: type, properties of data involved in an interactive system
+
+- _Environmental requirements_: context of use, what are the circumstances in which interaction happens?
+
+  - _Phsyical environment_: noise, lighting, movement, etc
+  - _Social environment_: sharing data, collaboration
+  - _Support environment_: assistance, training or help available or integrated
+  - _Technical environment_: technologies available for the system (phone, watch, laptop, supercomputer?) or technical limitations
+
+- _User characteristics_: abilities, skills, attributes of users
+
+- _Usability and user experience goals_: what goals (see last week) prioritised and tracked?
+
+## Activity
+
+Let's think of some design requirements:
+
+> A voice-activated smart home assistant that helps individuals control lighting and temperature.
+
+> A phone-based ordering system for a restaurant.
+
+> A humanoid robot for assisting computer science students in computer labs.
+
+## Data Gathering
+
+There are lots of ways to discover requirements, some examples are below:
+
+- **Observation and Ethnography**: observing people in real situations
+- **Diaries and interviews**: (aka, asking), talk to people about their requirements, or ask them to record information
+- **Focus Group, User Study**: talking with one or multiple people
+- **Questionnaires**: asking people to answer specific questions
+- **Cultural Probes**: sending arts & crafts materials to users to find out about their life/needs [@gaver-cultural-probes]
+- **Contextual Inquiry**: researcher immersed in context of use, visits the participant and interviews them in context [@contextual-design:1997]
+
+In this course we focus on _interviews_ and _user studies_ as methods for data gathering. Our focus is on the evaluation stage of design, but these methods can work at the discovery stage as well.
+
+## Personas and Scenarios
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+More detailed that a user story, separating out:
+
+- the person, their characteristics, motivations, etc (**persona**)
+- their story, when, where, how, as a sequence of events (**scenario**)
+- the goal, needs to fulfil, reason to interact with a system (**goal**)
+:::
+::: {.column width="50%"}
+![[A persona, a scenario, and a goal](https://www.interaction-design.org/literature/article/personas-why-and-how-you-should-use-them) (© Smashing Magazine)](img/persona-scenario.jpg){width=100%}
+:::
+::::::::::::::
+
+## Personas
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 - Rich descriptions of typical users
 - Don’t describe specific people but realistic
 - Describe goals, behaviours, activities, environment
 - How would this person use this product?
 
-## Personas: example
+Examples on [Usability.gov](https://www.usability.gov/how-to-and-tools/methods/personas.html)
+:::
+::: {.column width="50%"}
+![Image [source](https://www.usability.gov/how-to-and-tools/methods/personas.html)](img/05_03_discovering_requirements_6.jpg){width=60%}
+:::
+::::::::::::::
 
-![[@rogers-beyond-hci:2023, p.407]](img/05_03_discovering_requirements_7.png)
+## Personas: example, Julien the university worker
 
-## Personas: example (cont.)
+![Example of a persona from research into autonomous taxi services [@hallewell2022deriving] ](img/persona-hallewell-example.jpg){width=65%}
 
-![](img/05_03_discovering_requirements_8.jpg)
-![](img/05_03_discovering_requirements_9.jpg)
+## Personas: examples
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![](img/05_03_discovering_requirements_8.jpg){width=80%}
+:::
+::: {.column width="50%"}
+![](img/05_03_discovering_requirements_9.jpg){width=80%}
+:::
+::::::::::::::
 
 ## Scenarios
 
-Narrative that “describes human activities or tasks in a story that allows exploration and discussion of contexts, needs, and requirements” [@rogers-beyond-hci:2023, p.408].
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+- A narrative describing human activities or tasks.
+- Allows exploration and discussion of contexts, needs, and requirements.
+- Doesn't necessarily describe the software/technology used
+- Core: goal, steps to reach the goal, who the user is (persona)
+- Extra: other details that might be useful.
+:::
+::: {.column width="60%"}
+- "Nia is a sound designer working in the automotive industry."
+- "When tasked with creating sound signals for automotive applications, Nia needs to consider the cognitive flow of users, particularly how different chords interact and influence user attention. To support this logic-making process, Nia uses an AI-powered tool that helps her design a storyboard, select suitable chords, and assign them to the relevant phases."
+- "After establishing the storyboard, Nia transitions to another MIDI software via the tool’s connected API for sound creation and refinement."
 
-![[@rogers-beyond-hci:2023, p.409]](img/05_03_discovering_requirements_10.jpg)
+Example scenario excerpt from Minsik Choi's ANU research [@choi2024scenario].
+:::
+::::::::::::::
 
-## Journey Map
+<!-- ## Journey Map
 
 ![Image: [Journey Mapping 101](https://www.nngroup.com/articles/journey-mapping-101/)](img/05_03_discovering_requirements_11.png)
 
@@ -201,7 +299,7 @@ Components:
 - Scenario/Expectations
 - Journey Phases
 - Actions, Mindsets, Emotions
-- Opportunities
+- Opportunities -->
 
 
 # Ideation
