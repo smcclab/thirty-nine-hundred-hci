@@ -7,8 +7,202 @@ author: Dr Charles Martin
 
 ## Plan for the class
 
+- Design
 - Ideation
 - Prototyping
+
+# The Interaction Design Process
+
+![Designing an interactive system.](img/nime2024-elastic-prototype.jpg){width=50%}
+
+## Creating systems that work for people
+
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+Interaction design involves creating systems that work for people.
+
+- discovering requirements
+- defining needs
+- ideating possible solutions
+- producing prototypes
+- evaluating systems
+:::
+::: {.column width="60%"}
+![Prototyping some solutions (to what?)](img/nime2015-cardboard-prototypes.jpg){width=50%}
+:::
+::::::::::::::
+
+## Double Diamond Model
+
+![The double diamond model of design [adapted from @double-diamond-model]](img/hci-design-double-diamond.png){width=80%}
+
+## Design Stages
+
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+1. _Discover_: understand the problem and the people affected
+2. _Define_: define the problem clearly so that it can be addressed
+3. _Develop_: create ideas, prototypes, sketches, etc, that might address the problem
+4. _Deliver_: test potential solutions to find promising directions, and iterate
+:::
+::: {.column width="60%"}
+![The double diamond model of design [adapted from @double-diamond-model]](img/hci-design-double-diamond.png){width=100%}
+:::
+::::::::::::::
+
+## Who is involved in design?
+
+Usually a wide range of people are involved or affected by a design process. We call them _stakeholders_. Stakeholders includes not just the potential users of a system, but others who are not.
+
+For example:
+
+- **users**
+- customers
+- developers
+- researchers
+- managers / product owners
+- government bodies
+- non-government organisations (NGOs)
+
+## Degrees of Involvement
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+- _Personas_: limited involvement with users, but use "fake" user personas to help frame design.
+
+- _Face-to-face involvement_: small groups or individuals take part in information-gathering or evaluation settings[^1]
+
+- _Crowd-sourced involvement_: involvement from large numbers of people (at a distance) through surveys, distributed projects, crowd-sourcing, community engagement
+
+- _Participatory design:_ users/stakeholders are highly involved and central to creation activities. That is, the users are actually ideating and making the prototypes (also called co-design, co-creation).
+
+[^1]: This one is pretty normal in academic HCI research.
+:::
+::: {.column width="45%"}
+![A user participating in face-to-face evaluation at ANU.](img/impsy-study-image-2019.jpg){width=100%}
+:::
+::::::::::::::
+
+## User-centred design principles
+
+From _Designing for Usability: Key Principles and What Designers Think_ [@gould-usability:1985]
+
+- _Early focus on users and tasks_: who are the users? what are they like? what are the tasks?
+
+- _Empirical measurement_: users should **use** simulations and prototypes to carry out work. observe, record, and analyse.
+
+- _Iterative design_: when problems are found in testing, they must be fixed. design, test, measure, repeat.
+
+## People-centred design
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Expanding from "users" to "people" with more details [@rogers-beyond-hci:2023]
+
+- Peoples's tasks and goals are the driving force behind development.
+- People's behaviour and context of use are studied, and the system is designed to support them.
+- People's characteristics are captured and designed for.
+- Users and other stakeholders are consulted throughout development from earliest phases to the latest.
+- All design decisions are taken within the context of use, people's activities, and their environment.
+:::
+::: {.column width="40%"}
+![Photo by Timon Studler on Unsplash](img/timon-studler-ABGaVhJxwDQ-unsplash.jpg)
+:::
+::::::::::::::
+
+## Interaction Design Lifecycle
+
+![An interaction design lifecycle [adapted from @rogers-beyond-hci:2023]](img/hci-design-lifecycle.png){width=60%}
+
+## Connecting to HCI
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+Design and HCI are _related_ but _not the same_.
+
+In the double diamond model:
+
+- _Discover_ and _Define_ stages are highly related to "uncovers the needs of different kinds of computer users" (from week 1)
+- _Develop_ and _Deliver_ are more related to "proposes computer systems (incl. software) that can be better used by humans"
+
+Some HCI research doesn't fit well into double diamond, it might be more technical and speculative, inventing technologies for computing systems that are _not yet common or popular_ [e.g. @je-elevate:2021].
+:::
+::: {.column width="50%"}
+![A VR walkable interface [@je-elevate:2021]](img/elevate_je2021.png){width=80%}
+:::
+::::::::::::::
+
+
+# Discovering Requirements
+
+![Image: [@rogers-beyond-hci:2023, p.387]](img/05_03_discovering_requirements_0.png)
+
+> “A statement about an intended product that specifies what it is expected to do and how it will perform” [@rogers-beyond-hci:2023, p.387]
+
+- First two stages of the double diamond
+- Discovered through “targeted activities” or “tangentially” through-out the design process
+- Not static but EVOLVE during design
+- There are many different types of requirements and ways of presenting and communicating requirements
+- Want to avoid misunderstanding and miscommunication
+
+## Atomic Requirements Shell
+
+![[@rogers-beyond-hci:2023, p.389]](img/05_03_discovering_requirements_2.png)
+
+## Types of requirements
+
+![[@rogers-beyond-hci:2023, p.391]](img/05_03_discovering_requirements_3.jpg)
+
+## User stories
+
+- “Represents a unit of customer-visible functionality”
+- “Starting point for a conversation to extend and clarify requirements”
+- Functionality, user experience, usability goals
+
+![[@rogers-beyond-hci:2023, p.389]](img/05_03_discovering_requirements_4.jpg)
+
+## Design Implications/Recommendations
+
+![(Ljungblad et al. 2021)](img/05_03_discovering_requirements_5.png)
+
+## Bringing requirements to life: Personas
+
+![Image [source](https://www.usability.gov/how-to-and-tools/methods/personas.html)](img/05_03_discovering_requirements_6.jpg)
+
+- Rich descriptions of typical users
+- Don’t describe specific people but realistic
+- Describe goals, behaviours, activities, environment
+- How would this person use this product?
+
+## Personas: example
+
+![[@rogers-beyond-hci:2023, p.407]](img/05_03_discovering_requirements_7.png)
+
+## Personas: example (cont.)
+
+![](img/05_03_discovering_requirements_8.jpg)
+![](img/05_03_discovering_requirements_9.jpg)
+
+## Scenarios
+
+Narrative that “describes human activities or tasks in a story that allows exploration and discussion of contexts, needs, and requirements” [@rogers-beyond-hci:2023, p.408].
+
+![[@rogers-beyond-hci:2023, p.409]](img/05_03_discovering_requirements_10.jpg)
+
+## Journey Map
+
+![Image: [Journey Mapping 101](https://www.nngroup.com/articles/journey-mapping-101/)](img/05_03_discovering_requirements_11.png)
+
+> “A journey map is a visualization of the process that a person goes through in order to accomplish a goal.” [@gibbons-journey-mapping-101]
+
+Components:
+
+- Actor
+- Scenario/Expectations
+- Journey Phases
+- Actions, Mindsets, Emotions
+- Opportunities
+
 
 # Ideation
 
@@ -18,7 +212,7 @@ author: Dr Charles Martin
 
 ## What is Ideation?
 
-![](img/06_ideation_0.png)
+![](img/06_ideation_0.png){}
 
 ## Why Ideation is Important
 
