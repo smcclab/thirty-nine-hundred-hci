@@ -226,7 +226,7 @@ In this course we focus on _interviews_ and _user studies_ as methods for data g
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-More detailed that a user story, separating out:
+More detailed than a user story, includes:
 
 - the person, their characteristics, motivations, etc (**persona**)
 - their story, when, where, how, as a sequence of events (**scenario**)
@@ -301,6 +301,9 @@ Components:
 - Actions, Mindsets, Emotions
 - Opportunities -->
 
+## Scenario Mapping: Design Ideation Using Personas
+
+<https://www.nngroup.com/articles/scenario-mapping-personas/>
 
 # Ideation
 
@@ -310,11 +313,11 @@ Components:
 
 ## What is Ideation?
 
-![](img/06_ideation_0.png){}
+![](img/06_ideation_0.png){width=60%}
 
 ## Why Ideation is Important
 
-![[Ideation doesn't waste time, it saves time (Aurora Harley)](https://www.youtube.com/watch?v=k3q0Zry7H2o&list=PLJOFJ3Ok_idsd431mj7czplN1PNEaJbHE)](img/06_ideation_1.png)
+![[Ideation doesn't waste time, it saves time (Aurora Harley)](https://www.youtube.com/watch?v=k3q0Zry7H2o&list=PLJOFJ3Ok_idsd431mj7czplN1PNEaJbHE)](img/06_ideation_1.png){width=60%}
 
 ## Choosing a Technique
 
@@ -602,19 +605,6 @@ Bill Buxton sez! So do it!
 
 # Prototyping
 
-
-
-## Double Diamond
-
-![In Sharp et al. 2019, p.38. See revised double diamond approach [here](https://www.designcouncil.org.uk/our-work/news-opinion/double-diamond-15-years/)](img/07_prototyping_0.png)
-
-- Discover
-- Define
-- Develop
-- Deliver
-
-
-
 ## Introduction
 
 - Design, prototyping, construction - Design phase
@@ -622,24 +612,23 @@ Bill Buxton sez! So do it!
 - Repeated design-evaluation-redesign cycles with users
 - Two aspects to design - conceptual and concrete
 
-
-
 ## Prototyping - What
 
+:::::::::::::: {.columns}
+::: {.column width="40%"}
 - Concrete manifestation of an idea
 - Allows stakeholders to interact and explore
 - Take many forms for different purposes
 - 3D printing is commonly used now
-
+:::
+::: {.column width="60%"}
 ![Sharp et al. 2019 Figure 12.2: (a) model jet engine, (b) Spider Dress 2.0 by Anouk Wipprecht: embedded with sensors, the arms of the ‘spider’ will extend to defend the wearer if her breath becomes heavier, and (c) a teddy bear “printed” from a wireframe design](img/07_prototyping_1.png)
-
-
+:::
+::::::::::::::
 
 ## Prototyping – Why?
 
 > Discussion question: Why do we prototype?
-
-
 
 ## Prototyping - Why
 
@@ -652,97 +641,115 @@ Bill Buxton sez! So do it!
 - Move on from ‘bad ideas’
 
 
-
 ## Prototyping - Example
 
-![Sharp et al. 2019 Figure 12.3](img/07_prototyping_2.png)
+:::::::::::::: {.columns}
+::: {.column width="40%"}
 
 - Paper-based prototype to help a child with autism to communicate
 - Functions and buttons
 - Positioning and labels
 - Shape of the device
 - No actual functionality
-
-
+:::
+::: {.column width="60%"}
+![Sharp et al. 2019 Figure 12.3](img/07_prototyping_2.png)
+:::
+::::::::::::::
 
 ## Prototyping - Filters & Manifestations
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![Sharp et al. Table 12.1 Filtering](img/07_prototyping_3.png)
 Youn-Kyung Lim et al. (2008)
 3 key principles
-
-![Sharp et al. Table 12.1 Filtering](img/07_prototyping_3.png)
+:::
+::: {.column width="50%"}
 ![Sharp et al. Table 12.2 Manifestation](img/07_prototyping_4.png)
-
-
+:::
+::::::::::::::
 
 ## Prototyping - Spectrum
 
-![](img/07_prototyping_5.png)
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+- High Fidelity Prototype
+- Low Fidelity Prototype
+- [https://collection.maas.museum/object/115505](https://collection.maas.museum/object/115505)
+- [https://www.youtube.com/watch?v=k_9Q-KDSb9o](https://www.youtube.com/watch?v=k_9Q-KDSb9o)
+:::
+::: {.column width="60%"}
 ![](img/07_prototyping_6.jpg)
 ![](img/07_prototyping_7.jpg)
-![](img/07_prototyping_8.jpg)
-
-High Fidelity Prototype
-
-Low Fidelity Prototype
-
-[https://collection.maas.museum/object/115505](https://collection.maas.museum/object/115505)
-
-Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsplash.com/s/photos/toaster)
-
-[https://www.youtube.com/watch?v=k_9Q-KDSb9o](https://www.youtube.com/watch?v=k_9Q-KDSb9o)
-
-
+![Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsplash.com/s/photos/toaster)
+](img/07_prototyping_8.jpg)
+:::
+::::::::::::::
 
 
 ## Prototyping - Low-Fidelity
 
-![Sharp et al. 2019 Figure 12.1: PalmPilot wooden prototype](img/07_prototyping_9.png)
-
+:::::::::::::: {.columns}
+::: {.column width="40%"}
 - Don’t look/act like the final product
 - Simple, cheap, quick to produce/modify
 - Support exploration of alternative designs/ideas
 - Important in early stages - exploration/modification
 - Not meant to be kept and used for the final product
 - Storyboarding, Sketching, Index Cards, Wizard of Oz
-
-
+:::
+::: {.column width="60%"}
+![Sharp et al. 2019 Figure 12.1: PalmPilot wooden prototype](img/07_prototyping_9.png)
+:::
+::::::::::::::
 
 ## Low-Fidelity Prototyping: Storyboards
 
+:::::::::::::: {.columns}
+::: {.column width="40%"}
 - Storyboarding - series of sketches or scenes
 - How a user can perform a task
 - Use in conjunction with a scenario
 - Stakeholders role-play, step through the scenario
-
+:::
+::: {.column width="60%"}
 ![](img/07_prototyping_10.png)
 ![Sharp et al. 2019 Figure 12.4: example storyboard for mobile device to explore ancient sites](img/07_prototyping_11.png)
 
-
+:::
+::::::::::::::
 
 ## Low-Fidelity Prototyping: Generating Storyboards
 
-![Sharp et al. 2019 Figure 12.12 travel organiser storyboard](img/07_prototyping_12.png)
-
+:::::::::::::: {.columns}
+::: {.column width="40%"}
 - A scenario is one story
 - A storyboard represents a sequence of events
 - Generated from scenario
 - Break the story into steps
 - Thinking through process
 - Think about design issues
+:::
+::: {.column width="60%"}
+![Sharp et al. 2019 Figure 12.12 travel organiser storyboard](img/07_prototyping_12.png)
 
-
+:::
+::::::::::::::
 
 ## Low-Fidelity Prototyping: The Role of Sketching
 
-![Sharp et al. 2019 Figure 12.5: simple sketches for low-fidelity prototyping](img/07_prototyping_13.png)
-
+:::::::::::::: {.columns}
+::: {.column width="40%"}
 - Sketching - a key part of low-fidelity prototyping
 - “Sketching is not about drawing. Rather, it is about design” Saul Greenberg et al. (2012)
 - Sketching vocabulary, required elements
 - BUT a sketch itself is not a prototype
-
-
+:::
+::: {.column width="60%"}
+![Sharp et al. 2019 Figure 12.5: simple sketches for low-fidelity prototyping](img/07_prototyping_13.png)
+:::
+::::::::::::::
 
 ## Low-Fidelity Prototyping: Card-Based Prototypes
 
@@ -756,55 +763,64 @@ Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsp
 
 ## Low-Fidelity Prototyping: Card-Based Prototypes
 
-![Sharp et al. 2019 Figure 12.12 travel organiser cards](img/07_prototyping_15.png)
-
+:::::::::::::: {.columns}
+::: {.column width="40%"}
 - Capture and explore elements of interaction
 - Can be manipulated and moved
 - Evaluation or design process
 - Step through a use case
 - Elaborate concrete design
 - Explore user experience
+:::
+::: {.column width="60%"}
+![Sharp et al. 2019 Figure 12.12 travel organiser cards](img/07_prototyping_15.png)
 
-
+:::
+::::::::::::::
 
 ## Low-Fidelity Prototyping: Paper and Cardboard Prototypes
 
+:::::::::::::: {.columns}
+::: {.column width="40%"}
 ![[Interactive Paper Prototypes](https://www.youtube.com/watch?v=yafaGNFu8Eg)](img/07_prototyping_16.jpg)
-
+:::
+::: {.column width="60%"}
 ![[Cardboard Prototypes](https://www.youtube.com/watch?v=k_9Q-KDSb9o)](img/07_prototyping_17.jpg)
-
+:::
+::::::::::::::
 
 
 ## Paper Prototyping: It’s not just the prototypes, but how you use them!
 
 ![[Paper Prototyping 101](https://www.youtube.com/watch?v=fw42BYQmuJ4)](img/07_prototyping_18.png)
 
-
-
 ## Low-Fi Prototyping: Wireframes
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 ![[What are wireframes?](https://www.interaction-design.org/literature/topics/wireframing)](img/07_prototyping_19.png)
-
+:::
+::: {.column width="50%"}
 ![Wireframes in a sketchbook](img/07_prototyping_20.jpg)
-
-
+:::
+::::::::::::::
 
 ## Prototypes vs Wireframes
 
 ![[Prototypes vs Wireframes](https://www.youtube.com/watch?v=miVcrftnhzM)](img/07_prototyping_21.png)
 
-
-
 ## Wizard of Oz
 
-- Wizard of Oz
-  - Assumes a software-based prototype
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+- Assumes a software-based prototype
 - User interacts with the software
-  - A human simulates the software’s response
-
+- A human simulates the software’s response
+:::
+::: {.column width="60%"}
 ![[Testing a system that doesn't exist.](https://www.simpleusability.com/inspiration/2018/08/wizard-of-oz-testing-a-method-of-testing-a-system-that-does-not-yet-exist/)](img/07_prototyping_23.jpg)
-
-
+:::
+::::::::::::::
 
 ## Making Hardware Prototypes
 
@@ -815,16 +831,19 @@ Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsp
 - [Bela](https://bela.io) (charles' friends!), pricey but hard realtime OS is good for audio interactions.
 
 
-
 ## Makey Makey
 
+:::::::::::::: {.columns}
+::: {.column width="40%"}
 - Alligator clip to connect switches / sensors
 - Works as a keyboard
 - e.g., [banana spacebar](https://www.youtube.com/watch?v=rfQqh7iCcOU)
 
+:::
+::: {.column width="60%"}
 ![The Makey Makey](img/07_prototyping_24.jpg)
-
-
+:::
+::::::::::::::
 
 ## Prototyping - High-Fidelity
 
@@ -841,8 +860,6 @@ Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsp
 
 ![[What could this be?](https://www.sciencemuseum.org.uk/objects-and-stories/lisa-windows-story-home-computers)](img/07_prototyping_34.jpg)
 
-
-
 ## Concrete Design
 
 Visual appearance (colour, layout, graphics, fonts etc).
@@ -850,14 +867,9 @@ Interface types – design principles and guidelines
 Interaction modalities including input and output
 Accessibility and inclusivity
 
-![Guest Lecture by Pia Van Gelder on these topics (???)](img/07_prototyping_37.png)
-
-
-
 ## Prototyping - Filters & Manifestations
 
 ![Sharp et al. Table 12.3 advantages and disadvantages of low- and high-fidelity prototypes](img/07_prototyping_38.png)
-
 
 
 ## Prototyping - Compromises
@@ -868,19 +880,20 @@ Accessibility and inclusivity
 - Horizontal vs vertical prototyping
 - Robustness vs changeability
 
-
-
 ## Prototyping Tools and Resources
 
+:::::::::::::: {.columns}
+::: {.column width="40%"}
 - Crafting materials
 - Digital wireframing and prototyping tools e.g. [Figma, Miro, Wireframe.cc](https://www.interaction-design.org/literature/topics/wireframing)
 - Microsoft PowerPoint- a powerful prototyping tool!!
 - Physical computing devices (e.g., Arduino, Makey Makey)
 - Design patterns, open source resources, interaction design tools- See Sharp et al. 2019, Sections 13.3-13.5
-
+:::
+::: {.column width="60%"}
 ![Image: Figma](img/07_prototyping_39.jpg)
-
-
+:::
+::::::::::::::
 
 ## Conceptual Design
 
@@ -890,16 +903,12 @@ Accessibility and inclusivity
 - Generate ideas based on understanding
 - Explore ideas with tutorial groups
 
-
-
 ## Conceptual Model
 
 - Metaphor, analogies, concepts, relationships, mappings
 - How to choose  __interface metaphors__ that will help users understand the product?
 - Which  __interaction types__ would best support the users’ activities?
 - Do different  __interface types__ suggest alternative design insights or options?
-
-
 
 ## Interface Metaphors
 
@@ -911,30 +920,34 @@ Choosing metaphors (Erikson, 1990)
 
 Evaluate metaphors: Structure, Relevance, Representation, Understandable, Extensible (Sharp et al., p. 440-441 for example)
 
-
-
 ## Interaction Types
 
+:::::::::::::: {.columns}
+::: {.column width="40%"}
 Instructing, conversing, manipulating, exploring, responding
 
 - Which is best, depends on the design
 - Most models will include a combination
 - Different parts will have different types
-
+:::
+::: {.column width="60%"}
 ![](img/07_prototyping_40.png)
-
-
+:::
+::::::::::::::
 
 ## Interface Types
 
+:::::::::::::: {.columns}
+::: {.column width="40%"}
 - Prompt and support different user experiences / behaviour
 - Prototyping will require an interface type or candidates
 - Depends on product constraints from requirements
 - Input and output modes <- user/context requirements
-
+:::
+::: {.column width="60%"}
 ![](img/07_prototyping_45.jpg)
-
-
+:::
+::::::::::::::
 
 ## Take away messages
 
@@ -943,12 +956,11 @@ Instructing, conversing, manipulating, exploring, responding
 - Prototypes help you  __to learn __ about your users’ interactions and experiences with your design artifact
 - Your choice of prototyping approach depends on what you are trying to learn and why
 
+## Readings
 
-
-## Readings/ References
-
-- Helen Sharp, Jenny Preece, and Yvonne Rogers. 2019. Interaction Design: Beyond Human-Computer Interaction. West Sussex: Wiley. (Chapter 12)
 - R.K. Dam and T.Y. Siang. 2020. Design Thinking: Get Started with Prototyping. [(link)](https://www.interaction-design.org/literature/article/design-thinking-get-started-with-prototyping)
 - Erickson, T. D. 1990. Working with Interface Metaphors. In B. Laurel (ed.) The Art of Human–Computer Interface Design. Addison-Wesley, Boston.
 - Lim, Y.-K., Stolterman, E., and Tenenburg, J. 2008. The Anatomy of Prototypes: Prototypes as Filters, Prototypes as Manifestations of Design Ideas, ACM Transactions on Computer-Human Interaction, 15(2).
 - Saffer, D. 2010. Designing for Interaction: Creating Smart Applications and Clever Devices(2nd edn). New Riders Press, Indianapolis, IN.
+
+## References
