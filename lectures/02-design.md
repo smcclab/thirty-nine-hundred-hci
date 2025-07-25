@@ -307,26 +307,32 @@ Components:
 
 # Ideation
 
-## What is Ideation?
-
-> “Ideation is the mode of the design process in which you concentrate on idea generation. Mentally it represents a process of “going wide” in terms of concepts and outcomes. Ideation provides both the fuel and also the source material for building prototypes and getting innovative solutions into the hands of your users.” (d.school, An Introduction to Design Thinking PROCESS GUIDE)
+![Doing some circuit ideation at NIME2024.](img/nime2024-ideating.jpg){width=50%}
 
 ## What is Ideation?
 
-![](img/06_ideation_0.png){width=60%}
+> **Ideation** is the process of **generating a broad set of ideas on a given topic**, with no attempt to judge or evaluate them. ([Aurora Harley, nngroup](https://www.nngroup.com/articles/ux-ideation/))
 
-## Why Ideation is Important
+## Fundamentals of Ideation
 
-![[Ideation doesn't waste time, it saves time (Aurora Harley)](https://www.youtube.com/watch?v=k3q0Zry7H2o&list=PLJOFJ3Ok_idsd431mj7czplN1PNEaJbHE)](img/06_ideation_1.png){width=60%}
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+- ideas are _not_ evaluated
+- ideas are recorded and documented
+- collaboration leads to diverse ideas
+
+Generating **many** ideas: high probability that _at least one_ is close to ideal.
+
+[Ideation for Everyday Design Challenges, nngroup](https://www.nngroup.com/articles/ux-ideation/)
+:::
+::: {.column width="60%"}
+![[Ideation doesn't waste time, it saves time (Aurora Harley)](https://www.youtube.com/watch?v=k3q0Zry7H2o&list=PLJOFJ3Ok_idsd431mj7czplN1PNEaJbHE)](img/06_ideation_1.png){width=100%}
+:::
+::::::::::::::
 
 ## Choosing a Technique
 
-- Match the type of ideas you want to generate
-- Match the needs of the ideation team
-- States of creative productivity
-- Experience in ideation sessions
-
-## Techniques
+Not _just_ "brainstorming", lots of variety in techniques:
 
 | 1. Brainstorm | 8.  __Sketch/Sketchstorm__ | 15.  __Gamestorming__ |
 | :-: | :-: | :-: |
@@ -336,10 +342,10 @@ Components:
 | 5. Worst Possible Idea | 12.  __Provocation__ |  |
 | 6. Challenge Assumptions | 13.  __SCAMPER__ | __19. Prototype__ |
 | 7.  __Mindmap__ | 14.  __Movement__ | 20. Creative Pause |
-loo
+
 ## How Ideation Techniques Can Help with Creative Blocks
 
-![[Beating Creative Blocks in UX Design Through Reframing](https://www.youtube.com/watch?v=-GC8a5sRfC0&list=PLJOFJ3Ok_idsd431mj7czplN1PNEaJbHE&index=2)](img/06_ideation_2.png)
+![[Beating Creative Blocks in UX Design Through Reframing](https://www.youtube.com/watch?v=-GC8a5sRfC0&list=PLJOFJ3Ok_idsd431mj7czplN1PNEaJbHE&index=2)](img/06_ideation_2.png){width=50%}
 
 ## 1. Brainstorm / 2. Braindump
 
@@ -370,6 +376,8 @@ loo
 - Playful, fun, adventurous, effective
 - Know that ideas won’t be scrutinised for being wrong
 
+**(let's try it!)**
+
 ## Bad Ideas
 
 ![](img/06_ideation_3.png)
@@ -392,17 +400,24 @@ loo
 
 ## 7. Mindmap
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 - Graphical technique
 - Build a web of relationships
 - Write a problem statement in the middle of the page
 - Then write solutions and ideas on the same page
 - Then connect solutions and ideas with lines
 - To previous or following fact or idea
-
+:::
+::: {.column width="50%"}
 ![Photo by [charlesdeluvio](https://unsplash.com/@charlesdeluvio)](img/06_ideation_5.png)
+:::
+::::::::::::::
 
 ## 8. Sketch / Sketchstorm
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 - Useful to express ideas as diagrams or sketches
 - Visuals can provoke further ideas
 - Sketches should be simple and rough
@@ -410,9 +425,16 @@ loo
 - Think more openly / creatively about ideas
 - Record lots of ideas quickly, don’t worry about quality
 - Easier to discuss, critique, share ideas with others
+:::
+::: {.column width="50%"}
+![Doing some circuit ideation at NIME2024.](img/nime2024-ideating.jpg){width=100%}
+:::
+::::::::::::::
 
 ## 9. Storyboard
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 - Stories a key medium for communication, learning, exploring
 - Storyboard = visual story about problem, design, solution
 - Can add life, show time progression, explore dynamics
@@ -420,13 +442,16 @@ loo
 - Represent research - scenarios with pictures and user quotes
 - Ideation - play with ideas, develop storyline, actors, plot
 - Build tension, surprises, emotions, struggle, resolution
-
-## Storyboards Visualise Ideas
-
+:::
+::: {.column width="50%"}
 ![Image source: [Storyboards Help Visualise UX Ideas (NNgroup)](https://www.nngroup.com/articles/storyboards-visualize-ideas/)](img/06_ideation_6.png)
+:::
+::::::::::::::
 
 ## 10. Bodystorm
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 - Physically acting out processes, scenarios, events
 - Express solutions to ideas through physical activity
 - Enact some of the problem scenarios
@@ -434,15 +459,26 @@ loo
 - Combines empathy, brainstorming, prototyping
 - Increased energy and movement
 - Could include a space with props and artefacts
+:::
+::: {.column width="50%"}
+![Bodystorming some art in 2008.](img/bodystorm.jpg)
+:::
+::::::::::::::
 
 ## 11. Analogies / 12. Provocation
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 - Analogies - comparison between two things
 - Powerful tool for communication and sparking ideas
 - Express ideas / complex matters - understandable
 - Provocation - lateral thinking technique
-- Challenges the status quo, explore new realities
-- [UX ideation techniques to try out (justinmind)](https://www.justinmind.com/blog/8-ux-ideation-techniques-to-try-out/)
+- [Challenges the status quo, explore new realities](https://www.justinmind.com/blog/8-ux-ideation-techniques-to-try-out/)
+:::
+::: {.column width="50%"}
+![What if the microbit was really REALLY big.](img/macrobit.jpg)
+:::
+::::::::::::::
 
 ## 13. SCAMPER
 
@@ -455,6 +491,8 @@ loo
 
 ## 14. Movement
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 - Help if blocked in idea generation
 - Follows on from lateral thinking techniques
 - Might not result in concrete/usable ideas
@@ -462,10 +500,15 @@ loo
 - Making use of stimuli requires movement
 - Movement is a process to turn provocation into usable ideas
 - [https://thoughtegg.com/provocations-creative-technique/](https://thoughtegg.com/provocations-creative-technique/)
+:::
+::: {.column width="50%"}
+![Photo by Asher Legg on Unsplash](img/asher-legg-MiintsWweZI-unsplash.jpg)
+:::
+::::::::::::::
 
 ## 15. Gamestorming
 
-Gamified ideation aimed to increase engagement, energy, collaboration (gamified versions of other methods), e.g.,
+[Gamified ideation](https://gamestorming.com/) aimed to increase engagement, energy, collaboration (gamified versions of other methods), e.g.,
 
 - Fishbowl - inner and outer circles with different roles
 - Anti-Problem - flips the problem to consider the opposite

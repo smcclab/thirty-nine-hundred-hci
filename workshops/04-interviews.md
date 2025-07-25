@@ -42,7 +42,6 @@ tutorial:
 
 The tutorial will follow this structure:
 
-1.  Project group formation (10 mins)
 2.  Designing an interview guide individually (10 mins)
 3.  Conducting an interview in pairs (20 mins)
 4.  Reporting back and reflecting, and close (10 mins)

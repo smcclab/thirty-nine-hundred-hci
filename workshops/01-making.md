@@ -91,8 +91,8 @@ Your zine might include:
 - A short piece about how your relationship with computers has changed
 - Anything else you want to add!
 
-You can make this by folding and cutting a single A3 sheet (We'll show you how), or by stapling pages together if you prefer. 
+You can make this by folding and cutting a single A3 sheet (We'll show you how), or by stapling pages together if you prefer. If you want to follow the instructions yourself for folding, you can find them here: <https://www.42ndstreet.org.uk/support/read/how-to-make-your-own-zine/>. You can also watch [a video about how to do the folding](https://www.youtube.com/watch?v=Sz0BXlqa7dc).
 
-Take your time with this — it's not about making something perfect, but something meaningful. I've brought in different materials you're welcome to use to create your responses. 
+Take your time with this — it's not about making something perfect, but something meaningful. We've brought in different materials you're welcome to use to create your responses. 
 
 ## References
