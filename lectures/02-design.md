@@ -1,13 +1,20 @@
 ---
 title: Design
 author: Dr Charles Martin
+title-slide-attributes:
+    data-background-image: img/nime2024-ideating.jpg
+    data-background-size: cover
 ---
 
 ## Announcements
 
-- Class reps! Needed now! (need 4 in total, 2 UG and 2 PG)
-- Tutorial 1: Making, this week make a zine!
-- Big class, keep showing up, keep asking questions, stay constructive and positive (especially with your tutors!)
+- **Class reps!** Needed now! (need at least 4 in total, ~2 UG and ~2 PG)
+  - If you would like to nominate as a class rep, please make a private post on the class forum.
+- **Tutorial 1**: Making, this week make a zine!
+- **Big class!**
+  - keep showing up, 
+  - keep asking questions, 
+  - stay constructive and positive (especially with your tutors!)
 
 ## Plan for the class
 
@@ -114,6 +121,18 @@ Expanding from "users" to "people" with more details [@rogers-beyond-hci:2023]
 :::
 ::::::::::::::
 
+## Activity: People vs Users
+
+🙋🏽‍♀️💁🏻🤷
+
+Find someone near you, ask who they are and discuss this question:
+
+> Who is the most important stakeholder? Users? Managers? People? And why?
+
+> How would you get information from this stakeholder?
+
+Chat for 3 minutes and we'll hear a few responses.
+
 ## Interaction Design Lifecycle
 
 ![An interaction design lifecycle [adapted from @rogers-beyond-hci:2023]](img/hci-design-lifecycle.png){width=60%}
@@ -135,7 +154,6 @@ Some HCI research doesn't fit well into double diamond, it might be more technic
 ![A VR walkable interface [@je-elevate:2021]](img/elevate_je2021.png){width=80%}
 :::
 ::::::::::::::
-
 
 # Discovering Requirements
 
@@ -203,15 +221,17 @@ A user story is a simple way to connect a requirement to a particular type of us
 
 - _Usability and user experience goals_: what goals (see last week) prioritised and tracked?
 
-## Activity
+## Activity: Requirements
 
-Let's think of some design requirements:
+Let's think of some design requirements for one of the following products:
 
-> A voice-activated smart home assistant that helps individuals control lighting and temperature.
+- 🗣️ A voice-activated smart home assistant that helps individuals control lighting and temperature.
 
-> A phone-based ordering system for a restaurant.
+- 📲 A phone-based ordering system for a restaurant.
 
-> A humanoid robot for assisting computer science students in computer labs.
+- 🤖 A humanoid robot for assisting computer science students in computer labs.
+
+Spend 2-3 minutes developing one requirement and then let's hear a few. 🎤🎤🎤
 
 ## Data Gathering
 
@@ -307,13 +327,35 @@ Components:
 
 ## Scenario Mapping: Design Ideation Using Personas
 
-<https://www.nngroup.com/articles/scenario-mapping-personas/>
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+[Scenario mapping](https://www.nngroup.com/articles/scenario-mapping-personas/) is a group activity for generating ideas for a product or system using personas and a specific scenario. (PS: you'll do a similar activity in next week's tutorial).
+
+- choose a scenario and persona,
+- split a scenario up into steps (use sticky notes)
+- choose categories for ideas, e.g.: design ideas, questions, problems, friction points, comments
+- brainstorm ideas under specific categories
+:::
+::: {.column width="40%"}
+![Scenario mapping example. [Source: nngroup](https://www.nngroup.com/articles/scenario-mapping-personas/)](img/scenario-mapping.jpg)
+:::
+::::::::::::::
+
+## Activity: Scenario Mapping Example
+
+🗺️💁🏻🙋🏽‍♀️🎤 Let's scenario map. 
+
+Have a look at the following miro board and add a post it. (how many students are here? can we break miro?)
+
+<!-- <https://miro.com/app/board/uXjVJa-m2gU=/?share_link_id=689171092569> -->
 
 # Ideation
 
 ![Doing some circuit ideation at NIME2024.](img/nime2024-ideating.jpg){width=50%}
 
 ## What is Ideation?
+
+We've already done some ideation today! But what do I mean by that?
 
 > **Ideation** is the process of **generating a broad set of ideas on a given topic**, with no attempt to judge or evaluate them. ([Aurora Harley, nngroup](https://www.nngroup.com/articles/ux-ideation/))
 
@@ -380,7 +422,17 @@ Not _just_ "brainstorming", lots of variety in techniques:
 - Playful, fun, adventurous, effective
 - Know that ideas won’t be scrutinised for being wrong
 
+## Activity: What's the worst possible idea
+
 **(let's try it!)**
+
+What's the worst idea for:
+
+> A way to help students balance work and study.
+
+Think for a minute or two and then we'll hear some answers. ⭐️🎙️🗣️
+
+Prepare for this question: "Why is that bad?"
 
 ## Bad Ideas
 
@@ -517,15 +569,14 @@ Not _just_ "brainstorming", lots of variety in techniques:
 - Fishbowl - inner and outer circles with different roles
 - Anti-Problem - flips the problem to consider the opposite
 - Cover Story - use a template to generate a cover story
-- More here:  _[https://gamestorming.com/](https://gamestorming.com/)_
+- More here: [https://gamestorming.com/](https://gamestorming.com/)
 
 ## 16. Cheatstorm
 
-- Less about coming up with new ideas
-- Takes existing ideas and leverages as input or stimulus
-- Most ideation methods involve discarding most ideas
-- Cheatstorming is about reusing previous ideas
-- [https://blog.humancomputation.com/?p=5345](https://blog.humancomputation.com/?p=5345)
+- Re-using ideas from previous brainstorming sessions
+- Existing ideas leveraged as input or stimulus
+- Promotes "cognitive sustainability through reuse"
+- <https://www.interaction-design.org/literature/topics/cheatstorming>
 
 ## 17. Crowdstorm
 
@@ -537,21 +588,37 @@ Not _just_ "brainstorming", lots of variety in techniques:
 
 ## 18. Co-Creation Workshops
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 - Combines different methods over hours, days, or weeks
 - Can be condensed into full day workshops
 - Full day workshops usually follow a sequence like:
 - Introductions and Icebreakers, Vision and Values Exercises, Empathy Exercises, Insight Mining, Challenge Framing, Ideation, Prototyping
+:::
+::: {.column width="50%"}
+![Co-creation in 2010.](img/cocreation.jpg)
+:::
+::::::::::::::
 
 ## 19. Prototype
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 - Prototyping can be an ideation technique
 - Creating a physical object requires decisions to be made
 - Encourages generation of new ideas
 - Explore alternative solutions
 - Building to think, thinking by doing
+:::
+::: {.column width="50%"}
+![Prototyping weird stuff at NIME2015](img/nime2015-cardboard-prototypes.jpg){width=50%}
+:::
+::::::::::::::
 
 ## 20. Creative Pause
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 - Sometimes we get stuck in unconstructive thinking patterns
 - Seemingly impenetrable brick wall challenge
 - Anchored to an early idea or stream of thought
@@ -559,6 +626,11 @@ Not _just_ "brainstorming", lots of variety in techniques:
 - Creative pause: step back, reflect, extract ourselves
 - Re-approach challenge with renewed freshness
 - Proactive thinking, not reactive (can be negative)
+:::
+::: {.column width="50%"}
+![Touch grass and look at the sky.](img/sky-and-sea.jpg)
+:::
+::::::::::::::
 
 ## Online Ideation Tools
 
