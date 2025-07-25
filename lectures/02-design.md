@@ -5,11 +5,15 @@ author: Dr Charles Martin
 
 ## Announcements
 
+- Class reps! Needed now! (need 4 in total, 2 UG and 2 PG)
+- Tutorial 1: Making, this week make a zine!
+- Big class, keep showing up, keep asking questions, stay constructive and positive (especially with your tutors!)
+
 ## Plan for the class
 
-- Design
+- Design Processes
+- Discovering Requirements
 - Ideation
-- Prototyping
 
 # The Interaction Design Process
 
