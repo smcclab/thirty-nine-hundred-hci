@@ -9,10 +9,13 @@ need to know:
 - scenarios
 
 ## Pre-Class Tasks
+Read this resource: <https://www.nngroup.com/articles/scenario-mapping-personas/>
 
-<!-- TODO: need a relevant pre-class task with clear output 100-200 word post on forum, should require reading the textbook or a resource on personas and scenarios -->
-
-Read this resource: <https://www.nngroup.com/articles/scenario-mapping-personas/> and do... something...
+Observe someone you know (a friend or family member) or a stranger (don't be creepy!) using a digital product or service (e.g., an app, website, or device) in a real-life context. Write a 100-200 forum post answering these questions:
+1. Who is the user? What is their goal?
+2. What product or service are they using, and in what situation?
+3. What steps do they take, and where do they seem successful or frustrated?
+4. What does this observation tell you about how the product could be improved?
 
 ## Plan for the Class
 
