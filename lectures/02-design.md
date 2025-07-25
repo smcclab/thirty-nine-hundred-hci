@@ -199,7 +199,7 @@ Communicates a requirements between stakeholders. Have the generic form:
 
 e.g.,:
 
-- "As a student, I want to select choose a tutorial time that doesn't clash with other activities, so that I can attend all my classes in a week."
+- "As a student, I want to choose a tutorial time that doesn't clash with other activities, so that I can attend all my classes in a week."
 - "As a lecturer, I want to adjust the number of students in tutorials, so that I can provide a good learning experience."
 
 A user story is a simple way to connect a requirement to a particular type of user in a particular situation. In agile, user stories can be grouped into larger arrangements called "epics" and even bigger groups called "initiatives".
