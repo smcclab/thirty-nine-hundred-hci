@@ -3,13 +3,11 @@ title: Scenarios
 author: Dr Jennyfer Lawrence Taylor
 ---
 
-need to know:
-
-- personas
-- scenarios
+This week, you’ll learn how to create a persona and scenario, and use scenario-mapping to generate and evaluate design ideas. 
 
 ## Pre-Class Tasks
 Read this resource: <https://www.nngroup.com/articles/scenario-mapping-personas/>
+Watch this short video: <https://www.youtube.com/watch?v=dmlFRCZI9gQ&ab_channel=NNgroup/>
 
 Observe someone you know (a friend or family member) or a stranger (don't be creepy!) using a digital product or service (e.g., an app, website, or device) in a real-life context. Write a 100-200 forum post answering these questions:
 1. Who is the user? What is their goal?
@@ -19,85 +17,64 @@ Observe someone you know (a friend or family member) or a stranger (don't be cre
 
 ## Plan for the Class
 
-The tutorial will follow this structure:
+In this class, you will:
 
-2. Design product analysis (25 minutes)
-3. Reporting back and discussion (15 minutes)
-4. Questions and tutorial close (5 minutes)
+1. Create a Persona (15 minutes)
+2. Create a Scenario (25 minutes)
+3. Engage in Scenario-mapping for Ideation (40 minutes)
 
 ## In-Class Tasks
 
-### Design product analysis (25 minutes)
+Your tutor will randomly allocate you into groups of 5-6 students. 
+In your group, choose an activity involving a digital product or service that a university student might do in their spare time (e.g. planning a trip, learning a new skill, managing finances, gaming, etc.).
 
-Your tutor will randomly allocate you into groups of 5-6 students.
+### Create a Persona (15 minutes)
 
-Consider the following design product categories, and identify which design product you think would provide the best user experience in the scenarios provided. There is no right or wrong answer, but the skill you are practicing is how to convincingly make your case with reference to specifics. You should analyse user experiences in relation to the following criteria:
+Create a fictional, but realistic persona who engages in the chosen activity.
+Include relevant information, such as name, age, university background (e.g., course, year level), personality traits, goals, and frustrations.
+Draw a simple sketch of this persona.
 
-- Adherence to usability goals and design principles (from Lectures Week 1)
+### Create a Scenario (25 minutes)
 
-- Your own experiences of using these technologies and the feelings or emotions that they elicit (and why)
+Choose one aspect of this activity and create a scenario.
+Your scenario should include these elements:
+- an actor (your persona)
+- a motivator
+- an intention or intent
+- an action
+- a resolution
 
-- Metaphors used and interaction modalities offered by the design.
+Ensure that your scenario includes the right amount of details (enough, but not too much). 
+Refer back to the pre-class reading to see an example.
 
-- The people and context that the scenario relates to (see Lectures Week 1 slide 52). Think about what information is **not provided** and what assumptions you therefore need to make about the scenario.
+### Engage in Scenario-mapping for Ideation (40 minutes)
 
-### Design Product Categories And Scenarios
+Scenarios can be powerful tools for generating ideas. In this activity, you'll engage in scenario-mapping to generate ideas.
+Each group should take four different coloured sticky notes from the tutor.
 
-#### Video Calling or Conferencing Platforms (e.g., Skype, Microsoft Teams, Zoom, Facetime, WeChat Video)
+#### Step 1 (5 minutes)  
+Choose one colour of the sticky notes.
+Break your scenario down to 4-6 sticky notes. Place it on a wall horizontally.
 
-Which video calling or conferencing platform listed above, or that you are familiar with, would provide the best user experience in the following scenarios?
+#### Step 2 (15 minutes)  
+Designate a different colour of sticky note for three different categories.
+1. Design ideas: Any good ideas or suggestions
+2. Questions: Any questions you might have that you want to resolve later?
+3. Comments or considerations: Any comments or considerations?
 
-- Scenario A: A school teaching online classes to students aged 13-18
-  years old at home (approx. 25-30 students in each class)
+Each group member should take 15 minutes to individually brainstorm relevant design ideas, questions, or comments and considerations in line with each section of the scenario posted on the wall. 
+Put your sticky notes up on the wall as you go. Your questions and comments and considerations can be in response to another group member's idea.
 
-- Scenario B: Grandparents communicating regularly with their young
-  grandchildren (aged 3-5) who live far away from them
+#### Step 3 (20 minutes)  
+At the end of this activity, you will see a wall full of ideas for discussions. Spend 5 minutes by yourself to review this wall.
+As a group, review each idea and quickly decide which ones should be explored further and which one should not. Make sure to go through each sticky note, acknowledging it, and discussing it, but discussions should be quick.
 
-#### Navigation Apps (e.g., Apple Maps, Google Maps, Waze)
+During this discussion, you can move the sticky notes around to:
+- cluster similar ideas into topics
+- 'park' discussions that cannot be resolved quickly to revisit later 
+- take ideas off the wall that are not feasible or questions that have been answered
 
-Which navigation app listed above, or that you are familiar with, would
-provide the best user experience in the following scenarios?
-
-- Scenario C: Visiting a new city on holidays for the first time, and
-  navigating from the airport to your hotel using public transport.
-
-- Scenario D: Navigating while riding your bike from one place to
-  another in your hometown/city (without a mobile phone mount on your
-  bike)
-
-#### Music Playing Platforms (e.g., iTunes, Spotify, YouTube Music)
-
-(use only if there is time remaining in your group discussion...)
-
-Which music playing platform listed above, or that you are familiar
-with, would provide the best user experience in the following scenarios?
-
-- Scenario E: Privately listening to music/podcasts while taking public
-  transport somewhere
-
-- Scenario F: Creating and listening to a playlist of background music
-  at a social work function
-
-  a.  While you are doing this activity, your Tutor will check in with
-      you and ask you what your chosen making activity is for Project 1.
-      Your Tutor can give feedback as to whether this is an appropriate
-      choice for the assessment tasks.
-
-### Reporting back and discussion (15 minutes)
-
-The tutor will bring you back together for a whole group discussion to reflect on what you learnt and observed.
-
-Your tutor will work by scenario, and for each scenario from A-D ask each group to share which design product they chose, and the key reason(s) for your choice.
-
-Make sure that you succinctly present your main argument and key examples that support this (no more than 30 seconds each group
-approx.).
-
-Your tutor will facilitate discussion about your responses, and address scenarios E-F if you have time.
-
-
-## Resources
-
-
+Take a photo of the wall.
 
 ## References
-
+<https://www.interaction-design.org/literature/article/personas-why-and-how-you-should-use-them#example_of_how_to_make_a_persona_description_%E2%80%93_step_5-7/>
