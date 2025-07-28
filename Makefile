@@ -82,6 +82,7 @@ PANDOC_COMMON_OPTS = --standalone \
 										 --citeproc \
 										 --bibliography=$(REFERENCES) \
 										 --csl=apa.csl \
+										 -M link-citations=true \
 										 --resource-path=.:$(LECTURES_DIR):$(ASSESSMENTS_DIR):$(RESOURCES_DIR):$(WORKSHOPS_DIR)
 
 REVEAL_OPTS = -t revealjs \
