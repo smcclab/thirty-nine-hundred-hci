@@ -343,11 +343,19 @@ Components:
 
 ## Activity: Scenario Mapping Example
 
-🗺️💁🏻🙋🏽‍♀️🎤 Let's scenario map. 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+🗺️💁🏻🎤 Let's scenario map. 
 
 Have a look at the following miro board and add a post it. (how many students are here? can we break miro?)
 
-<!-- <https://miro.com/app/board/uXjVJa-m2gU=/?share_link_id=689171092569> -->
+<https://miro.com/app/board/uXjVJa-m2gU=/?share_link_id=689171092569>
+:::
+::: {.column width="50%"}
+![The miro board](img/scenario-map-miro.png)
+:::
+::::::::::::::
+
 
 # Ideation
 
@@ -378,8 +386,34 @@ Generating **many** ideas: high probability that _at least one_ is close to idea
 
 ## Choosing a Technique
 
-Not _just_ "brainstorming", lots of variety in techniques:
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+1. Brainstorm
+2. Braindump
+3. Brainwrite
+4. Brainwalk
+5. Worst possible idea
+6. Challenge Assumptions
+7. Mindmap
+8. Sketch
+9. Storyboard
+10. Bodystorm
+:::
+::: {.column width="50%"}
+11. Analogies
+12. Provocation
+13. SCAMPER
+14. Movement
+15. Gamestorming
+16. Cheatstorm
+17. Crowdstorm
+18. Co-creation
+19. Prototype
+20. Creative pause
+:::
+::::::::::::::
 
+<!-- 
 | 1. Brainstorm | 8.  __Sketch/Sketchstorm__ | 15.  __Gamestorming__ |
 | :-: | :-: | :-: |
 | 2. Braindump | 9.  __Storyboard__ | 16.  __Cheatstorm__ |
@@ -387,7 +421,7 @@ Not _just_ "brainstorming", lots of variety in techniques:
 | 4. Brainwalk | 11.  __Analogies__ | 18.  __Co-Creation Workshops__ |
 | 5. Worst Possible Idea | 12.  __Provocation__ |  |
 | 6. Challenge Assumptions | 13.  __SCAMPER__ | __19. Prototype__ |
-| 7.  __Mindmap__ | 14.  __Movement__ | 20. Creative Pause |
+| 7.  __Mindmap__ | 14.  __Movement__ | 20. Creative Pause | -->
 
 ## How Ideation Techniques Can Help with Creative Blocks
 
@@ -395,32 +429,42 @@ Not _just_ "brainstorming", lots of variety in techniques:
 
 ## 1. Brainstorm / 2. Braindump
 
-- Brainstorm - leverage the synergy of the group
-- New ideas by building on others’ ideas
-- Blend ideas to create good ideas
-- Discuss ideas without fear of criticism
-- Embrace wild ideas
-- Reach further than a simply logical approach to a problem
-- Braindump - similar, but individual
-- Write ideas on post-its, then share ideas with group
+- **Brainstorm:** leverage the synergy of the group
+- new ideas by building on others’ ideas
+- blend ideas to create good ideas
+- discuss ideas without fear of criticism
+- **Braindump:** similar, but individual
+- write ideas on post-its, then share ideas with group
 
 ## 3. Brainwrite / 4. Brainwalk
 
-- Brainwrite - similar to Brainstorm
-- Write down ideas individually for a few minutes
-- Pass ideas to another participant
-- Elaborate on the first person’s ideas
-- Then pass to the next person and so on
-- After 15 mins, collect the papers and discuss them
-- Brainwalk - walk around room to “ideation stations”
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- **Brainwrite:** write ideas individually
+- then pass ideas to someone else
+- elaborate on the first person’s ideas
+- then pass to the next person etc
+- after 15 minutes discuss
+- **Brainwalk:** walk around “ideation stations”
+:::
+::: {.column width="50%"}
+![HCI tutorial tables in 2025](img/tables-2025.jpg)
+:::
+::::::::::::::
 
 ## 5. Worst Possible Idea
 
-- Flips brainstorming on its head
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Flip brainstorming
 - Come up with the worst ideas you can think of
-- Takes the pressure off
 - Playful, fun, adventurous, effective
 - Know that ideas won’t be scrutinised for being wrong
+:::
+::: {.column width="50%"}
+![Photo by Andre Hunter on Unsplash](img/andre-hunter-5otlbgWJlLs-unsplash.jpg){width=100%}
+:::
+::::::::::::::
 
 ## Activity: What's the worst possible idea
 
@@ -434,36 +478,31 @@ Think for a minute or two and then we'll hear some answers. ⭐️🎙️🗣️
 
 Prepare for this question: "Why is that bad?"
 
-## Bad Ideas
+## Why bad is the new good
 
-![](img/06_ideation_3.png)
+!["Why bad ideas are a good idea" [@dix2006bad] ([PDF link](https://alandix.com/academic/papers/HCIed2006-badideas/HCIED2006-badideas-CRC-v2.pdf))](img/06_ideation_3.png)
 
-(Dix, 2006) [https://alandix.com/academic/papers/HCIed2006-badideas/HCIED2006-badideas-CRC-v2.pdf](https://alandix.com/academic/papers/HCIed2006-badideas/HCIED2006-badideas-CRC-v2.pdf)
+## Bad ideas: what why and when not
 
-## Bad Ideas
-
-![](img/06_ideation_4.png)
-
-(Dix, 2006) [https://alandix.com/academic/papers/HCIed2006-badideas/HCIED2006-badideas-CRC-v2.pdf](https://alandix.com/academic/papers/HCIed2006-badideas/HCIED2006-badideas-CRC-v2.pdf)
+![What, why and when not to. [@dix2006bad] ([PDF link](https://alandix.com/academic/papers/HCIed2006-badideas/HCIED2006-badideas-CRC-v2.pdf))](img/06_ideation_4.png)
 
 ## 6. Challenge Assumptions
 
-- Take a step back from the challenge
-- Ask questions about the assumptions you have made
-- Effective when you are stuck
-- Maybe to re-boot a struggling ideation session
-- Are the things you assume to be true about your users, context, activities really accurate and important?
+- take a step back from the challenge
+- what assumptions were made?
+- what were the users, context, activities 
+- are these decisions accurate and important?
+- could re-boot a struggling ideation session
 
 ## 7. Mindmap
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Graphical technique
-- Build a web of relationships
-- Write a problem statement in the middle of the page
-- Then write solutions and ideas on the same page
-- Then connect solutions and ideas with lines
-- To previous or following fact or idea
+- graphical technique
+- build a web of relationships
+- write a problem statement in the middle
+- write solutions and ideas on the same page
+- connect solutions and ideas with lines
 :::
 ::: {.column width="50%"}
 ![Photo by [charlesdeluvio](https://unsplash.com/@charlesdeluvio)](img/06_ideation_5.png)
@@ -474,13 +513,14 @@ Prepare for this question: "Why is that bad?"
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Useful to express ideas as diagrams or sketches
-- Visuals can provoke further ideas
-- Sketches should be simple and rough
-- Enough detail to convey meaning, not get attached
-- Think more openly / creatively about ideas
-- Record lots of ideas quickly, don’t worry about quality
-- Easier to discuss, critique, share ideas with others
+- useful to express ideas as diagrams or sketches
+- visuals can provoke further ideas
+- sketches should be simple and rough
+- enough detail to convey meaning
+- but not supposed to be amazing
+- think openly and creatively about ideas
+- quantity over quality
+- easier to discuss, critique, share ideas
 :::
 ::: {.column width="50%"}
 ![Doing some circuit ideation at NIME2024.](img/nime2024-ideating.jpg){width=100%}
@@ -491,13 +531,13 @@ Prepare for this question: "Why is that bad?"
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Stories a key medium for communication, learning, exploring
-- Storyboard = visual story about problem, design, solution
-- Can add life, show time progression, explore dynamics
-- Understand people’s lives and draw out stories
-- Represent research - scenarios with pictures and user quotes
-- Ideation - play with ideas, develop storyline, actors, plot
-- Build tension, surprises, emotions, struggle, resolution
+- stories for communication, learning, exploring
+- storyboard is a visual story
+- can add details, show time progression
+- understand people’s lives and draw out stories
+- research: scenarios with pictures and user quotes
+- ideation: play with ideas, develop storyline, actors, plot
+- tension, surprises, emotions, struggle, resolution
 :::
 ::: {.column width="50%"}
 ![Image source: [Storyboards Help Visualise UX Ideas (NNgroup)](https://www.nngroup.com/articles/storyboards-visualize-ideas/)](img/06_ideation_6.png)
@@ -508,13 +548,13 @@ Prepare for this question: "Why is that bad?"
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Physically acting out processes, scenarios, events
-- Express solutions to ideas through physical activity
-- Enact some of the problem scenarios
-- Get physically involved in theorising about the problems
-- Combines empathy, brainstorming, prototyping
-- Increased energy and movement
-- Could include a space with props and artefacts
+- physically acting out processes, scenarios
+- express solutions to ideas through physical activity
+- enact problem scenarios
+- get physically involved in theorising
+- combines empathy, brainstorming, prototyping
+- increased energy and movement
+- could include a space with props
 :::
 ::: {.column width="50%"}
 ![Bodystorming some art in 2008.](img/bodystorm.jpg)
@@ -525,11 +565,11 @@ Prepare for this question: "Why is that bad?"
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Analogies - comparison between two things
+- **Analogies:** comparison between two things
 - Powerful tool for communication and sparking ideas
-- Express ideas / complex matters - understandable
-- Provocation - lateral thinking technique
-- [Challenges the status quo, explore new realities](https://www.justinmind.com/blog/8-ux-ideation-techniques-to-try-out/)
+- Express complex ideas clearly
+- **Provocation:** lateral thinking technique
+- [challenges the status quo, explore new realities](https://www.justinmind.com/blog/8-ux-ideation-techniques-to-try-out/)
 :::
 ::: {.column width="50%"}
 ![What if the microbit was really REALLY big.](img/macrobit.jpg)
@@ -538,7 +578,7 @@ Prepare for this question: "Why is that bad?"
 
 ## 13. SCAMPER
 
-> __S__ ubstitute,  __C__ ombine,  __A__ dapt,  __M__ odify,  __P__ ut to another use,  __E__ liminate,  __R__ everse (SCAMPER)
+> Substitute,  Combine, Adapt, Modify, Put to another use, Eliminate, Reverse (SCAMPER)
 
 - Lateral ideation technique, utilises action verbs as stimuli
 - Asks seven kinds of questions to generate ideas
@@ -566,9 +606,9 @@ Prepare for this question: "Why is that bad?"
 
 [Gamified ideation](https://gamestorming.com/) aimed to increase engagement, energy, collaboration (gamified versions of other methods), e.g.,
 
-- Fishbowl - inner and outer circles with different roles
-- Anti-Problem - flips the problem to consider the opposite
-- Cover Story - use a template to generate a cover story
+- Fishbowl: inner (discussion) and outer (observation) circles with different roles
+- Anti-Problem: flips the problem to consider the opposite
+- Cover Story: what future state would get on a magazine cover?
 - More here: [https://gamestorming.com/](https://gamestorming.com/)
 
 ## 16. Cheatstorm
@@ -619,13 +659,12 @@ Prepare for this question: "Why is that bad?"
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Sometimes we get stuck in unconstructive thinking patterns
-- Seemingly impenetrable brick wall challenge
-- Anchored to an early idea or stream of thought
-- Get caught up in negative thoughts
-- Creative pause: step back, reflect, extract ourselves
-- Re-approach challenge with renewed freshness
-- Proactive thinking, not reactive (can be negative)
+- ideation can get stuck.
+- block of ideas, hit a wall,
+- anchored to an early idea
+- caught up in negative thoughts
+- **creative pause:** step back, reflect, extract ourselves
+- proactive thinking, not reactive (can be negative)
 :::
 ::: {.column width="50%"}
 ![Touch grass and look at the sky.](img/sky-and-sea.jpg)
@@ -641,13 +680,8 @@ Prepare for this question: "Why is that bad?"
 - _[https://uxdesign.cc/the-master-online-ideation-toolbox-part-1-2-47401c3ad861](https://uxdesign.cc/the-master-online-ideation-toolbox-part-1-2-47401c3ad861)_
 - _[https://uxdesign.cc/the-master-online-ideation-toolbox-part-2-2-414f5122f8b7](https://uxdesign.cc/the-master-online-ideation-toolbox-part-2-2-414f5122f8b7)_
 
-## Five Golden Rules of Ideation (Salvi 2020)
+## Questions
 
-- There are no bad ideas 🙅🏽
-- Quantity over quality ✏️
-- Document everything 👀
-- Use & enrich others’ input for stronger ideas 🤜🏾🤛
-- Keep an open mind and a non-judgemental attitude 😎”
-- <https://uxdesign.cc/the-master-online-ideation-toolbox-part-1-2-47401c3ad861>
+Who has a question?
 
 ## References
