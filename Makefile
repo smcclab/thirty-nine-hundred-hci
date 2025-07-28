@@ -40,7 +40,7 @@ INDEX_GENERATOR = generate_index.py
 all: reveal beamer assessments resources workshops images index
 
 .PHONY: public
-public: reveal beamer images index
+public: reveal images index
 
 .PHONY: html
 html: reveal assessments resources workshops images index
