@@ -55,7 +55,7 @@ Six usability goals:
 - Easy to learn (learnability)
 - Easy to remember how to use (memorability)
 
-![Image: Unsplash, David Travis (@dtravisphd)](img/09_evaluation_foundations_2.jpg)
+![Image: Unsplash, David Travis (dtravisphd)](img/09_evaluation_foundations_2.jpg)
 
 ---
 
