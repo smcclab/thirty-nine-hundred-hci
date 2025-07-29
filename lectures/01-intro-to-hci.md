@@ -83,24 +83,24 @@ Starting with **ergonomics & human factors**.
 - Called the “mother of all demos”: <https://youtu.be/yJDv-zdhzMY>
 :::
 ::: {.column width="50%"}
-![Computer from MOAD](img/blog-hintz-eric-2018-12-10-chord-keyset-mouse.jpg)
+![Computer from MOAD](img/blog-hintz-eric-2018-12-10-chord-keyset-mouse.jpg){width=100%}
 :::
 ::::::::::::::
 
 ## HCI history: The start of "users"
 
 :::::::::::::: {.columns}
-::: {.column width="50%"}
+::: {.column width="60%"}
 - ~1980s: big interest in using  computers in workplaces and homes
 - Demand for computers to work for normal people (not just trained operators)
 - 1983: first annual ACM [SIGCHI](https://sigchi.org) Conference (Special Interest Group on Computer-Human Interaction)
 
 Now:
 
-- SIGCHI publishes [~5000 publications per year](https://medium.com/sigchi/sigchi-annual-report-a147d5f98eeb) (more than 2x any other ACM SIG) across 26 conferences including _CHI_ (the big one).
+- SIGCHI publishes [~5000 publications per year](https://medium.com/sigchi/sigchi-annual-report-a147d5f98eeb) (>2x any other ACM SIG) across 26 conferences including _CHI_ (the big one).
 :::
-::: {.column width="50%"}
-![A computer for users](img/photo-1554921027-b91f0beeb07d.jpg){width=50%}
+::: {.column width="40%"}
+![A computer for users](img/photo-1554921027-b91f0beeb07d.jpg){width=70%}
 :::
 ::::::::::::::
 
@@ -524,7 +524,7 @@ Images from the paper “Never Too Old: Engaging Retired People Inventing the Fu
 ## Conceptual Models
 
 :::::::::::::: {.columns}
-::: {.column width="40%"}
+::: {.column width="60%"}
 - **Model:** a simplified description of a system or process
 - **Conceptual model:** high-level description of how a system is organized and operates
 - Includes:
@@ -533,7 +533,7 @@ Images from the paper “Never Too Old: Engaging Retired People Inventing the Fu
   - Mappings
 - These elements inform the interaction design and user experiences
 :::
-::: {.column width="60%"}
+::: {.column width="40%"}
 ![[Understanding conceptual models](https://uxdesign.cc/understanding-mental-and-conceptual-models-in-product-design-7d69de3cae26)](img/01_02_conceptualising_interaction_1.png)
 :::
 ::::::::::::::
@@ -541,7 +541,7 @@ Images from the paper “Never Too Old: Engaging Retired People Inventing the Fu
 ## Video: What is a conceptual model?
 
 ![[What is a mental model? (NNGroup)](https://www.youtube.com/watch?v=nAgXISssAws)
-](img/01_02_conceptualising_interaction_0.png)
+](img/01_02_conceptualising_interaction_0.png){width=60%}
 
 ## Interface Metaphors
 
