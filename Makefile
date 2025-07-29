@@ -32,15 +32,12 @@ ALL_BUILD_IMGS := $(LECTURES_BUILD_IMG) $(RESOURCES_BUILD_IMG) $(WORKSHOPS_BUILD
 INDEX_HTML = $(OUTPUT_DIR)/index.html
 INDEX_GENERATOR = generate_index.py
 
-
-
-
 # phony targets
 .PHONY: all
 all: reveal beamer assessments resources workshops images index
 
 .PHONY: public
-public: reveal images index
+public: reveal beamer images index
 
 .PHONY: html
 html: reveal assessments resources workshops images index
