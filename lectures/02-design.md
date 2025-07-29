@@ -79,13 +79,10 @@ For example:
 
 :::::::::::::: {.columns}
 ::: {.column width="55%"}
-- _Personas_: limited involvement with users, but use "fake" user personas to help frame design.
-
-- _Face-to-face involvement_: small groups or individuals take part in information-gathering or evaluation settings[^1]
-
-- _Crowd-sourced involvement_: involvement from large numbers of people (at a distance) through surveys, distributed projects, crowd-sourcing, community engagement
-
-- _Participatory design:_ users/stakeholders are highly involved and central to creation activities. That is, the users are actually ideating and making the prototypes (also called co-design, co-creation).
+- _Personas_: limited/no real users, "fake" user personas to help frame design
+- _Face-to-face:_ small groups or individuals in information-gathering or evaluation settings[^1]
+- _Crowd-sourced:_ large surveys, crowd-sourcing, community engagement
+- _Participatory:_ users central to planning, ideating, prototyping (co-design, co-creation)
 
 [^1]: This one is pretty normal in academic HCI research.
 :::
@@ -110,11 +107,11 @@ From _Designing for Usability: Key Principles and What Designers Think_ [@gould-
 ::: {.column width="60%"}
 Expanding from "users" to "people" with more details [@rogers-beyond-hci:2023]
 
-- Peoples's tasks and goals are the driving force behind development.
-- People's behaviour and context of use are studied, and the system is designed to support them.
-- People's characteristics are captured and designed for.
-- Users and other stakeholders are consulted throughout development from earliest phases to the latest.
-- All design decisions are taken within the context of use, people's activities, and their environment.
+- tasks and goals drive development
+- behaviour and context of use are studied
+- people's characteristics included
+- stakeholders are consulted throughout development
+- design decisions consider context of use, people's activities, and their environment
 :::
 ::: {.column width="40%"}
 ![Photo by Timon Studler on Unsplash](img/timon-studler-ABGaVhJxwDQ-unsplash.jpg)
@@ -123,13 +120,12 @@ Expanding from "users" to "people" with more details [@rogers-beyond-hci:2023]
 
 ## Activity: People vs Users
 
-🙋🏽‍♀️💁🏻🤷
+🙋🏽‍♀️🤷💁🏻🧠🗣️
 
-Find someone near you, ask who they are and discuss this question:
+Find someone near you, ask who they are and discuss these questions:
 
-> Who is the most important stakeholder? Users? Managers? People? And why?
-
-> How would you get information from this stakeholder?
+1. Who is the most important stakeholder? Users? Managers? People? And why?
+2. How would you get information from this stakeholder?
 
 Chat for 3 minutes and we'll hear a few responses.
 
@@ -141,17 +137,15 @@ Chat for 3 minutes and we'll hear a few responses.
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-Design and HCI are _related_ but _not the same_.
-
-In the double diamond model:
+Design and HCI _related_ but _not the same_:
 
 - _Discover_ and _Define_ stages are highly related to "uncovers the needs of different kinds of computer users" (from week 1)
 - _Develop_ and _Deliver_ are more related to "proposes computer systems (incl. software) that can be better used by humans"
 
-Some HCI research doesn't fit well into double diamond, it might be more technical and speculative, inventing technologies for computing systems that are _not yet common or popular_ [e.g. @je-elevate:2021].
+Some HCI research is technical or speculative, inventing technologies that are _not yet common or popular_
 :::
 ::: {.column width="50%"}
-![A VR walkable interface [@je-elevate:2021]](img/elevate_je2021.png){width=80%}
+![An uncommon technology: a VR walkable interface [@je-elevate:2021]](img/elevate_je2021.png){width=80%}
 :::
 ::::::::::::::
 
@@ -345,14 +339,16 @@ Components:
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-🗺️💁🏻🎤 Let's scenario map. 
+🗺️💁🏻🎤 
 
-Have a look at the following miro board and add a post it. (how many students are here? can we break miro?)
+- Let's scenario map. 
 
-<https://miro.com/app/board/uXjVJa-m2gU=/?share_link_id=689171092569>
+- Have a look at the following miro board and add a post it. (how many students are here? can we break miro?)
+
+- <https://miro.com/app/board/uXjVJa-m2gU=/?share_link_id=689171092569>
 :::
 ::: {.column width="50%"}
-![The miro board](img/scenario-map-miro.png)
+![The miro board](img/scenario-map-miro.png){width=80%}
 :::
 ::::::::::::::
 
@@ -684,4 +680,4 @@ Prepare for this question: "Why is that bad?"
 
 Who has a question?
 
-## References
+# References {.allowframebreaks}
