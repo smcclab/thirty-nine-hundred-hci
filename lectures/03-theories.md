@@ -1,6 +1,8 @@
 ---
-title: Guidelines, Principles and Theories
+title: Theories, Sketching, and Prototyping
 author: Dr Charles Martin
+    data-background-image: img/sketch-2010.jpg
+    data-background-size: cover
 ---
 
 ## Announcements
@@ -63,7 +65,7 @@ right-column
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-“It involves selecting things on which to concentrate, at a point in time, from a range of the possibilities available, allowing us to focus on information that is relevant to what we are doing.” (Sharp et al. 2019, p. 103)
+“It involves selecting things on which to concentrate, at a point in time, from a range of the possibilities available, allowing us to focus on information that is relevant to what we are doing.” (@rogers-beyond-hci:2023 p. 103)
 
 - Clear goals (directed searching vs browsing)
 - Information presentation (structure and layout in the interface)
@@ -74,8 +76,8 @@ right-column
   - Designing to support effective multitasking
 :::
 ::: {.column width="40%"}
-![(Image: Sharp et al. 2019, p.104)](img/02_theory_and_concepts_2.png)
-![(Sharp et al. 2019, p.107)](img/02_theory_and_concepts_3.png)
+![(Image: @rogers-beyond-hci:2023 p.104)](img/02_theory_and_concepts_2.png)
+![(@rogers-beyond-hci:2023 p.107)](img/02_theory_and_concepts_3.png)
 :::
 ::::::::::::::
 
@@ -89,7 +91,7 @@ right-column
 - support switching and returning 
 :::
 ::: {.column width="40%"}
-![(Sharp et al. 2019, p.108)](img/02_theory_and_concepts_4.png)
+![(@rogers-beyond-hci:2023 p.108)](img/02_theory_and_concepts_4.png)
 :::
 ::::::::::::::
 
@@ -97,12 +99,12 @@ right-column
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- “[…] how information is acquired from the environment via the five sense organs (vision, hearing, taste, smell, and touch) and transformed into experiences of objects, events, senses, and tastes” (Roth, 1986 in Sharp et al. 2019, p. 109)
+- “[…] how information is acquired from the environment via the five sense organs (vision, hearing, taste, smell, and touch) and transformed into experiences of objects, events, senses, and tastes” (Roth, 1986 in @rogers-beyond-hci:2023 p. 109)
 - Proprioception: Awareness of position and movement of body through muscles and joints
 - Vision -> hearing -> touch (sighted individuals)
 :::
 ::: {.column width="40%"}
-![(Image: Sharp et al. 2019, p.109)](img/02_theory_and_concepts_6.png)
+![(Image: @rogers-beyond-hci:2023 p.109)](img/02_theory_and_concepts_6.png)
 
 :::
 ::::::::::::::
@@ -118,7 +120,7 @@ right-column
 - haptic feedback: use carefully, perhaps in response to user initiated actions
 :::
 ::: {.column width="40%"}
-![(Sharp et al. 2019, p.109)](img/02_theory_and_concepts_7.png)
+![(@rogers-beyond-hci:2023 p.109)](img/02_theory_and_concepts_7.png)
 :::
 ::::::::::::::
 
@@ -126,7 +128,7 @@ right-column
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-> “Memory involves recalling various kinds of knowledge that allow people to act appropriately. ” (Sharp et al. 2019, p. 111)
+> “Memory involves recalling various kinds of knowledge that allow people to act appropriately. ” (@rogers-beyond-hci:2023 p. 111)
 
 - Brain filters what to remember and what to forget to avoid overload – but not always in the way we want to!
 - Filtering into memory – depends on encoding process (e.g., active vs passive learning) and context (e.g., seeing someone in a different context)
@@ -151,7 +153,7 @@ right-column
 ::: {.column width="40%"}
 ![](img/02_theory_and_concepts_9.png)
 
-(Sharp et al. 2019, p.119)
+(@rogers-beyond-hci:2023 p.119)
 :::
 ::::::::::::::
 
@@ -159,7 +161,7 @@ right-column
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-> “accumulation of skills and knowledge that would be impossible to achieve without memory” (Sharp et al. 2019 p.119)
+> “accumulation of skills and knowledge that would be impossible to achieve without memory” (@rogers-beyond-hci:2023p.119)
 
 - incidental learning vs intentional learning
 - learning by reading vs learning by doing
@@ -168,8 +170,8 @@ right-column
 - multimodal learning through new and emerging technologies e.g., augmented reality and virtual reality
 :::
 ::: {.column width="40%"}
-![(Hooper et al. 2012)](img/02_theory_and_concepts_10.jpg)
-![(Cheng et al. 2017)](img/02_theory_and_concepts_11.jpg)
+![[@hooper-french-kitchen:2012]](img/02_theory_and_concepts_10.jpg)
+![[@cheng-language-culture:2017]](img/02_theory_and_concepts_11.jpg)
 :::
 ::::::::::::::
 
@@ -181,7 +183,7 @@ right-column
 - design constraints and guide users to appropriate actions
 :::
 ::: {.column width="40%"}
-![(Sharp et al. 2019, p.119)](img/02_theory_and_concepts_14.png)
+![(@rogers-beyond-hci:2023 p.119)](img/02_theory_and_concepts_14.png)
 :::
 ::::::::::::::
 
@@ -212,7 +214,7 @@ right-column
 - provide options for making text large
 :::
 ::: {.column width="40%"}
-![(Sharp et al. 2019, p.121)](img/02_theory_and_concepts_15.png)
+![(@rogers-beyond-hci:2023 p.121)](img/02_theory_and_concepts_15.png)
 :::
 ::::::::::::::
 
@@ -225,7 +227,7 @@ right-column
 
 :::
 ::: {.column width="40%"}
-![(Sharp et al. 2019, p.122)](img/02_theory_and_concepts_16.png)
+![(@rogers-beyond-hci:2023 p.122)](img/02_theory_and_concepts_16.png)
 
 :::
 ::::::::::::::
@@ -257,13 +259,13 @@ TODO.
 :::
 ::::::::::::::
 
-## External Cognition (Scaife and Rogers 1996 in Sharp et al. 2019)
+## External Cognition (Scaife and Rogers 1996 in @rogers-beyond-hci:2023
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 - Internal representations (in the head) and external representations (artefacts in the world) and how they interact
 - Combined with tools (e.g., pens, calculators, spreadsheets) to support cognitive activities
-- External cognition: “the cognitive processes involved when we interact with different external representations” (Sharp et al. 2019, p.129)
+- External cognition: “the cognitive processes involved when we interact with different external representations” (@rogers-beyond-hci:2023 p.129)
 - Reducing memory load, computational offloading, annotating, cognitive tracing
 :::
 ::: {.column width="40%"}
@@ -284,10 +286,10 @@ TODO.
 - analysis addresses problem solving, communication (verbal and non-verbal), coordination mechanisms, accessing and sharing knowledge
 - analysis can inform design implications and decision-making in designing to support distributed cognition
 
-(Sharp et al. 2019, p.120; Rogers 2012 pp.38-39)
+(@rogers-beyond-hci:2023 p.120; @rogers-hci-theory:2012 pp.38-39)
 :::
 ::: {.column width="40%"}
-![Image: Sharp et al. 2019, p.128](img/02_theory_and_concepts_23.png)
+![Image: @rogers-beyond-hci:2023 p.128](img/02_theory_and_concepts_23.png)
 :::
 ::::::::::::::
 
@@ -310,7 +312,7 @@ Introduce yourself to someone nearby, talk for 2-3 minutes, and we'll hear some 
 - Breakdowns and repairs: Breaking rules or missing cues
 - Designing conversational user interfaces and to support face-to-face communication
 
-![(Sharp et al. 2019, p.139-142)](img/02_theory_and_concepts_27.png)
+![(@rogers-beyond-hci:2023 p.139-142)](img/02_theory_and_concepts_27.png)
 :::
 ::: {.column width="40%"}
 - Collaborative activity involving social skills, rules, norms, and conventions
@@ -327,7 +329,7 @@ Introduce yourself to someone nearby, talk for 2-3 minutes, and we'll hear some 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 - phone and video conferencing
-- telepresence:  “The perception of being there while physically remote” (Sharp et al. 2019, p.144)
+- telepresence:  “The perception of being there while physically remote” (@rogers-beyond-hci:2023 p.144)
 - telepresence rooms, robots, virtual reality
 - features of interaction design can establish a sense of presence and facilitate remote conversation
 - social presence: the feeling of _being there_
@@ -341,7 +343,7 @@ TODO
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-> “supporting people in their activities when they are interacting in the same physical space” (Sharp et al. 2019, p.150)
+> “supporting people in their activities when they are interacting in the same physical space” (@rogers-beyond-hci:2023 p.150)
 
 - supporting effective collaboration
 - hand gestures, body language, use of objects
@@ -350,7 +352,7 @@ TODO
 - social translucence: enabling participants adn activities to be visible
 :::
 ::: {.column width="40%"}
-![The Reflect Table: Pierre Dillenbourg in Sharp et al. 2019, p.55](img/02_theory_and_concepts_29.png)
+![The Reflect Table: Pierre Dillenbourg in @rogers-beyond-hci:2023 p.55](img/02_theory_and_concepts_29.png)
 
 ![GatherTown for translucent interactions](img/02_theory_and_concepts_30.png)
 :::
@@ -360,11 +362,11 @@ TODO
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- “Participation in the activities of a social group (Anderson and Binstock, 2012). Often involves some form of social exchange where people give and receive something from others […] voluntary and unpaid” (Sharp et al. 2019, p.158)
+- “Participation in the activities of a social group (Anderson and Binstock, 2012). Often involves some form of social exchange where people give and receive something from others […] voluntary and unpaid” (@rogers-beyond-hci:2023 p.158)
 - Connecting people with a common interest – e.g., Twitter battles, viral posts. Digital volunteering – disaster information sharing, citizen science
 :::
 ::: {.column width="40%"}
-![Twitter (in Sharp et al. 2019, p.158)](img/02_theory_and_concepts_31.png)
+![Twitter (in @rogers-beyond-hci:2023 p.158)](img/02_theory_and_concepts_31.png)
 :::
 ::::::::::::::
 
@@ -381,7 +383,7 @@ TODO
 - reflective: meaning, personal value, culture
 :::
 ::: {.column width="40%"}
-![(in Sharp et al. 2019, p.171)](img/02_theory_and_concepts_50.png)
+![(in @rogers-beyond-hci:2023 p.171)](img/02_theory_and_concepts_50.png)
 :::
 ::::::::::::::
 
@@ -438,18 +440,9 @@ Think about the setting and context in which interaction takes place:
 :::
 ::::::::::::::
 
-## References
-
-- Zhifa Chen, Yichen Lu, Mika P. Nieminen, and Andrés Lucero. 2020. Creating a Chatbot for and with Migrants: Chatbot Personality Drives Co-Design Activities. In Proceedings of the 2020 ACM Designing Interactive Systems Conference (DIS '20). Association for Computing Machinery, New York, NY, USA, 219–230. [https://doi-org.virtual.anu.edu.au/10.1145/3357236.3395495](https://doi-org.virtual.anu.edu.au/10.1145/3357236.3395495)
-- Alan Cheng, Lei Yang, and Erik Andersen. 2017. Teaching Language and Culture through a Virtual Reality Game. Chi 2017: 541–549. https://doi.org/10.1145/3025453.3025857
-- Clare J. Hooper, Patrick Olivier, Anne Preston, Madeline Balaam, Paul Seedhouse, Daniel Jackson, Cuong Pham, Cassim Ladha, Karim Ladha, and Thomas Plötz. 2012. The french kitchen. Proceedings of the 2012 ACM Conference on Ubiquitous Computing - UbiComp ’12: 193. https://doi.org/10.1145/2370216.2370246
-- Rogers Y (2012) HCI Theory: Classical, Modern, and Contemporary, Morgan and Claypool Publishers. https://doi.org/10.2200/S00418ED1V01Y201205HCI014
-- Helen Sharp, Jenny Preece, and Yvonne Rogers. 2019. Interaction Design: Beyond Human-Computer Interaction. West Sussex: Wiley.
-
-
 # Sketching Design Ideas
 
-![(Buxton 2007, p.104)](img/06_ideation_7.png)
+![(@buxton-sketching:2007 p.104)](img/06_ideation_7.png)
 
 - What is a sketch?
 - What makes something a sketch?
@@ -468,7 +461,7 @@ Think about the setting and context in which interaction takes place:
 - Suggest and explore rather than confirm
 - Ambiguity
 
-(Buxton 2007, p.111-113)
+(@buxton-sketching:2007, p.111-113)
 
 ## What should a sketch include?
 
@@ -506,26 +499,17 @@ No.
 ![Image source: [Getting the right design and the design right (uxdesign.cc)](https://uxdesign.cc/getting-the-right-design-and-the-design-right-fd7ab2d2e508)
 ](img/06_ideation_12.png)
 
-Bill Buxton sez! So do it! 
-
-## Readings / References
-
-- Bill Buxton. 2007.  _Sketching User Experiences._ San Francisco: Elsevier
-- R.F. Dam & T.Y. Siang. 2020.  [_Introduction to the Essential Ideation Techniques which are the Heart of Design Thinking_](https://www.interaction-design.org/literature/article/introduction-to-the-essential-ideation-techniques-which-are-the-heart-of-design-thinking) . Interaction Design Foundation.  
-- R.F. Dam & T.Y. Siang. 2020.  _Learn How to Use the Best Ideation Methods: SCAMPER_ .  <https://www.interaction-design.org/literature/article/>
-- H. Faste. 2013. C _HAINSTORMING! CHEATSTORMING!_   <https://blog.humancomputation.com/?p=5345>
-- Gamestorming.  _[https://gamestorming.com](https://gamestorming.com/)_
-- Justinmind. 2018.  _8 UX ideation techniques to try out_ .  <https://www.justinmind.com/blog/8-ux-ideation-techniques-to-try-out/>
-- R. Riley.  _The Provocation Creative Technique_ . Thought Egg. <https://thoughtegg.com/provocations-creative-technique/>
+Bill Buxton sez! So do it! [@buxton-sketching:2007]
 
 # Prototyping
 
 ## Introduction
 
-- Design, prototyping, construction - Design phase
+- Design, prototyping, construction - Design phase 
 - Solutions are created, prototyped, tested, iterated
 - Repeated design-evaluation-redesign cycles with users
 - Two aspects to design - conceptual and concrete
+- [@design-thinking-bootleg:2018]
 
 ## Prototyping - What
 
@@ -552,9 +536,8 @@ Bill Buxton sez! So do it!
 - Important in many design disciplines
 - Answer questions, help choose between alternatives
 - Serve many purposes
-- Product prototype versus service prototype (Saffer, 2010)
-- Move on from ‘bad ideas’
-
+- Product prototype versus service prototype [@saffer-designing:2010]
+- Move on from bad ideas
 
 ## Prototyping - Example
 
@@ -568,7 +551,7 @@ Bill Buxton sez! So do it!
 - No actual functionality
 :::
 ::: {.column width="60%"}
-![Sharp et al. 2019 Figure 12.3](img/07_prototyping_2.png)
+![@rogers-beyond-hci:2023 Figure 12.3](img/07_prototyping_2.png)
 :::
 ::::::::::::::
 
@@ -576,12 +559,12 @@ Bill Buxton sez! So do it!
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![Sharp et al. Table 12.1 Filtering](img/07_prototyping_3.png)
-Youn-Kyung Lim et al. (2008)
+![@rogers-beyond-hci:2023 Table 12.1 Filtering](img/07_prototyping_3.png)
+[@lim-prototypes:2008]
 3 key principles
 :::
 ::: {.column width="50%"}
-![Sharp et al. Table 12.2 Manifestation](img/07_prototyping_4.png)
+![@rogers-beyond-hci:2023 Table 12.2 Manifestation](img/07_prototyping_4.png)
 :::
 ::::::::::::::
 
@@ -615,7 +598,7 @@ Youn-Kyung Lim et al. (2008)
 - Storyboarding, Sketching, Index Cards, Wizard of Oz
 :::
 ::: {.column width="60%"}
-![Sharp et al. 2019 Figure 12.1: PalmPilot wooden prototype](img/07_prototyping_9.png)
+![@rogers-beyond-hci:2023Figure 12.1: PalmPilot wooden prototype](img/07_prototyping_9.png)
 :::
 ::::::::::::::
 
@@ -630,7 +613,7 @@ Youn-Kyung Lim et al. (2008)
 :::
 ::: {.column width="60%"}
 ![](img/07_prototyping_10.png)
-![Sharp et al. 2019 Figure 12.4: example storyboard for mobile device to explore ancient sites](img/07_prototyping_11.png)
+![@rogers-beyond-hci:2023Figure 12.4: example storyboard for mobile device to explore ancient sites](img/07_prototyping_11.png)
 
 :::
 ::::::::::::::
@@ -647,7 +630,7 @@ Youn-Kyung Lim et al. (2008)
 - Think about design issues
 :::
 ::: {.column width="60%"}
-![Sharp et al. 2019 Figure 12.12 travel organiser storyboard](img/07_prototyping_12.png)
+![@rogers-beyond-hci:2023Figure 12.12 travel organiser storyboard](img/07_prototyping_12.png)
 
 :::
 ::::::::::::::
@@ -662,7 +645,7 @@ Youn-Kyung Lim et al. (2008)
 - BUT a sketch itself is not a prototype
 :::
 ::: {.column width="60%"}
-![Sharp et al. 2019 Figure 12.5: simple sketches for low-fidelity prototyping](img/07_prototyping_13.png)
+![@rogers-beyond-hci:2023Figure 12.5: simple sketches for low-fidelity prototyping](img/07_prototyping_13.png)
 :::
 ::::::::::::::
 
@@ -688,7 +671,7 @@ Youn-Kyung Lim et al. (2008)
 - Explore user experience
 :::
 ::: {.column width="60%"}
-![Sharp et al. 2019 Figure 12.12 travel organiser cards](img/07_prototyping_15.png)
+![@rogers-beyond-hci:2023Figure 12.12 travel organiser cards](img/07_prototyping_15.png)
 
 :::
 ::::::::::::::
@@ -803,7 +786,7 @@ Accessibility and inclusivity
 - Digital wireframing and prototyping tools e.g. [Figma, Miro, Wireframe.cc](https://www.interaction-design.org/literature/topics/wireframing)
 - Microsoft PowerPoint- a powerful prototyping tool!!
 - Physical computing devices (e.g., Arduino, Makey Makey)
-- Design patterns, open source resources, interaction design tools- See Sharp et al. 2019, Sections 13.3-13.5
+- Design patterns, open source resources, interaction design tools- See @rogers-beyond-hci:2023 Sections 13.3-13.5
 :::
 ::: {.column width="60%"}
 ![Image: Figma](img/07_prototyping_39.jpg)
@@ -827,7 +810,7 @@ Accessibility and inclusivity
 
 ## Interface Metaphors
 
-Choosing metaphors (Erikson, 1990)
+Choosing metaphors [@erickson-metaphors:1995]
 
 1. Identify functional requirements (what it will do)
 2. Which parts are likely to cause users problems?
@@ -870,13 +853,6 @@ Instructing, conversing, manipulating, exploring, responding
 - There is more than one way to prototype a single design concept (low fi and hi fi)
 - Prototypes help you  __to learn __ about your users’ interactions and experiences with your design artifact
 - Your choice of prototyping approach depends on what you are trying to learn and why
-
-## Readings
-
-- R.K. Dam and T.Y. Siang. 2020. Design Thinking: Get Started with Prototyping. [(link)](https://www.interaction-design.org/literature/article/design-thinking-get-started-with-prototyping)
-- Erickson, T. D. 1990. Working with Interface Metaphors. In B. Laurel (ed.) The Art of Human–Computer Interface Design. Addison-Wesley, Boston.
-- Lim, Y.-K., Stolterman, E., and Tenenburg, J. 2008. The Anatomy of Prototypes: Prototypes as Filters, Prototypes as Manifestations of Design Ideas, ACM Transactions on Computer-Human Interaction, 15(2).
-- Saffer, D. 2010. Designing for Interaction: Creating Smart Applications and Clever Devices(2nd edn). New Riders Press, Indianapolis, IN.
 
 ## Questions
 
