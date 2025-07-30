@@ -162,7 +162,7 @@ right-column
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-> “accumulation of skills and knowledge that would be impossible to achieve without memory” (@rogers-beyond-hci:2023p.119)
+> “accumulation of skills and knowledge that would be impossible to achieve without memory” [@rogers-beyond-hci:2023 p.119]
 
 - incidental learning vs intentional learning
 - learning by reading vs learning by doing
@@ -552,7 +552,7 @@ Bill Buxton sez! So do it! [@buxton-sketching:2007]
 - No actual functionality
 :::
 ::: {.column width="60%"}
-![@rogers-beyond-hci:2023 Figure 12.3](img/07_prototyping_2.png)
+![@rogers-beyond-hci:2023, Figure 12.3](img/07_prototyping_2.png)
 :::
 ::::::::::::::
 
@@ -560,12 +560,12 @@ Bill Buxton sez! So do it! [@buxton-sketching:2007]
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![@rogers-beyond-hci:2023 Table 12.1 Filtering](img/07_prototyping_3.png)
+![[@rogers-beyond-hci:2023] Table 12.1 Filtering](img/07_prototyping_3.png)
 [@lim-prototypes:2008]
 3 key principles
 :::
 ::: {.column width="50%"}
-![@rogers-beyond-hci:2023 Table 12.2 Manifestation](img/07_prototyping_4.png)
+![[@rogers-beyond-hci:2023] Table 12.2 Manifestation](img/07_prototyping_4.png)
 :::
 ::::::::::::::
 
@@ -599,7 +599,7 @@ Bill Buxton sez! So do it! [@buxton-sketching:2007]
 - Storyboarding, Sketching, Index Cards, Wizard of Oz
 :::
 ::: {.column width="60%"}
-![@rogers-beyond-hci:2023Figure 12.1: PalmPilot wooden prototype](img/07_prototyping_9.png)
+![@rogers-beyond-hci:2023 Figure 12.1: PalmPilot wooden prototype](img/07_prototyping_9.png)
 :::
 ::::::::::::::
 
@@ -614,7 +614,7 @@ Bill Buxton sez! So do it! [@buxton-sketching:2007]
 :::
 ::: {.column width="60%"}
 ![](img/07_prototyping_10.png)
-![@rogers-beyond-hci:2023Figure 12.4: example storyboard for mobile device to explore ancient sites](img/07_prototyping_11.png)
+![@rogers-beyond-hci:2023 Figure 12.4: example storyboard for mobile device to explore ancient sites](img/07_prototyping_11.png)
 
 :::
 ::::::::::::::
@@ -631,7 +631,7 @@ Bill Buxton sez! So do it! [@buxton-sketching:2007]
 - Think about design issues
 :::
 ::: {.column width="60%"}
-![@rogers-beyond-hci:2023Figure 12.12 travel organiser storyboard](img/07_prototyping_12.png)
+![@rogers-beyond-hci:2023 Figure 12.12 travel organiser storyboard](img/07_prototyping_12.png)
 
 :::
 ::::::::::::::
@@ -646,7 +646,7 @@ Bill Buxton sez! So do it! [@buxton-sketching:2007]
 - BUT a sketch itself is not a prototype
 :::
 ::: {.column width="60%"}
-![@rogers-beyond-hci:2023Figure 12.5: simple sketches for low-fidelity prototyping](img/07_prototyping_13.png)
+![@rogers-beyond-hci:2023 Figure 12.5: simple sketches for low-fidelity prototyping](img/07_prototyping_13.png)
 :::
 ::::::::::::::
 
@@ -672,7 +672,7 @@ Bill Buxton sez! So do it! [@buxton-sketching:2007]
 - Explore user experience
 :::
 ::: {.column width="60%"}
-![@rogers-beyond-hci:2023Figure 12.12 travel organiser cards](img/07_prototyping_15.png)
+![@rogers-beyond-hci:2023 Figure 12.12 travel organiser cards](img/07_prototyping_15.png)
 
 :::
 ::::::::::::::
