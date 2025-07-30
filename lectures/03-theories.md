@@ -1,6 +1,7 @@
 ---
 title: Theories, Sketching, and Prototyping
 author: Dr Charles Martin
+title-slide-attributes:
     data-background-image: img/sketch-2010.jpg
     data-background-size: cover
 ---
