@@ -37,6 +37,288 @@ Creating technologies that are accessible and effective for a broad range of use
 
 - Shneiderman 2.9
 
+# Cognitive Aspects
+
+![COGNITION (Photo by Stefano Bucciarelli on Unsplash)](img/stefano-bucciarelli-59HOF9zHKNs-unsplash.jpg){width=60%}
+
+## Cognition
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+A definition from Oxford English Dictionary:
+
+> cognition, n.
+
+"The action or faculty of knowing taken in its widest sense, including sensation, perception, conception, etc., as distinguished from feeling and volition..." 
+
+Source: "cognition, n."  _OED Online_ , Oxford University Press, June 2022, <https://www.oed.com/view/Entry/35876>. Accessed 31 July 2022.
+:::
+::: {.column width="50%"}
+![(Photo by Mathilda Khoo on Unsplash)](img/mathilda-khoo-HLA3TAFQuQs-unsplash.jpg){width=60%}
+:::
+::::::::::::::
+
+## Cognitive processes
+
+Cognitive processes can change depending on the problem:
+
+- __Experiential Cognition__: 2 + 2 =
+- __Reflective Cognition__: 21 x 19 =
+
+## What are cognitive processes?
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+1. Attention
+2. Perception
+3. Memory
+4. Learning
+5. Reading, speaking, listening
+6. Problem solving, planning, reasoning, decision making
+
+[@eysenck-brysbaert:2023]
+:::
+::: {.column width="40%"}
+![(Photo by Luke Jones on Unsplash)](img/luke-jones-DHR8LQRY-fU-unsplash.jpg){width=60%}
+:::
+::::::::::::::
+
+## 1. Attention
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Selecting things to focus on, relevant to our needs,  from possibilities.
+
+- clear goals (directed searching vs browsing)
+- information presentation (structure and layout in the interface)
+- multitasking and attention
+  - depends on individuals and context
+  - relevance of distractions
+  - effort to task switch
+  - designing to support effective multitasking
+:::
+::: {.column width="40%"}
+![(Image: @rogers-beyond-hci:2023 p.104)](img/02_theory_and_concepts_2.png){width=60%}
+
+![(@rogers-beyond-hci:2023 p.107)](img/02_theory_and_concepts_3.png){width=60%}
+:::
+::::::::::::::
+
+## Design Implications for Attention
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- consider context to make information salient when required
+- techniques: animation, colour, ordering, spacing
+- avoid clutter
+- support switching and returning 
+:::
+::: {.column width="40%"}
+![(@rogers-beyond-hci:2023 p.108)](img/02_theory_and_concepts_4.png)
+:::
+::::::::::::::
+
+## 2. Perception
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- “[…] how information is acquired from the environment via the five sense organs (vision, hearing, taste, smell, and touch) and transformed into experiences of objects, events, senses, and tastes” (Roth, 1986 in @rogers-beyond-hci:2023 p. 109)
+- Proprioception: Awareness of position and movement of body through muscles and joints
+- Vision -> hearing -> touch (sighted individuals)
+:::
+::: {.column width="40%"}
+![(Image: @rogers-beyond-hci:2023 p.109)](img/02_theory_and_concepts_6.png)
+
+:::
+::::::::::::::
+
+## Design Implications for Perception
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- design icons and graphics to be distinguished
+- white space and separators to group information
+- sounds (earcons!) can help distinguish information
+- colour contrast is important for perception (and accessibility)
+- haptic feedback: use carefully, perhaps in response to user initiated actions
+:::
+::: {.column width="40%"}
+![(@rogers-beyond-hci:2023 p.109)](img/02_theory_and_concepts_7.png)
+:::
+::::::::::::::
+
+## 3. Memory
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- brain filters what to remember and what to forget to avoid overload – but not always in the way we want to!
+- filtering into memory – depends on encoding process (e.g., active vs passive learning) and context (e.g., seeing someone in a different context)
+- people are better at recognition than recall
+- relying on technology rather than memory (e.g., car navigation system, “let's ask Claude..”)
+- personal information management
+- remembering passwords and multifactor authentication
+:::
+::: {.column width="40%"}
+![Photo by Piotr Miazga on Unsplash](img/piotr-miazga-xOZXquhp7RA-unsplash.jpg){width=70%}
+:::
+::::::::::::::
+
+## Design Implications for Memory
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- avoid long and complex procedures for carrying out tasks
+- design interfaces for recognition rather than recall (familiar patterns and consistency)
+- provide ways to label digital information for identification
+:::
+::: {.column width="40%"}
+![](img/02_theory_and_concepts_9.png)
+
+(@rogers-beyond-hci:2023 p.119)
+:::
+::::::::::::::
+
+## 4. Learning
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+> “accumulation of skills and knowledge that would be impossible to achieve without memory” [@rogers-beyond-hci:2023 p.119]
+
+- incidental learning vs intentional learning
+- learning by reading vs learning by doing
+- learning through collaboration
+- micro-learning
+- multimodal learning through new and emerging technologies e.g., augmented reality and virtual reality
+:::
+::: {.column width="40%"}
+![[@hooper-french-kitchen:2012]](img/02_theory_and_concepts_10.jpg)
+
+![[@cheng-language-culture:2017]](img/02_theory_and_concepts_11.jpg)
+:::
+::::::::::::::
+
+## Design Implications for Learning
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- design to encourage exploration
+- design constraints and guide users to appropriate actions
+:::
+::: {.column width="40%"}
+![(@rogers-beyond-hci:2023 p.119)](img/02_theory_and_concepts_14.png)
+:::
+::::::::::::::
+
+## 5. Reading, Speaking, Listening
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- communication skills
+- meaning the same across modes
+- writing is permanent, speaking is transient
+- reading quicker than listening
+- listening less cognitive effort than reading
+- some more grammatical than others
+- interactive books, speech technologies, natural language processing, tactile interfaces, assistive technologies
+:::
+::: {.column width="40%"}
+![Source: [Design Boom](https://www.designboom.com/technology/blind-maps-for-iphone-interactive-braille-interface/)](img/02_theory_and_concepts_12.png)
+
+![Photo by [Nicolas J Leclercq](https://unsplash.com/@nicolasjleclercq)](img/02_theory_and_concepts_13.jpg)
+:::
+::::::::::::::
+
+## Design Implications for Communication
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- keep length of speech menus to minimum (less than 3-4 options)
+- extra intonation on artificial speech
+- provide options for making text large
+:::
+::: {.column width="40%"}
+![(@rogers-beyond-hci:2023 p.121)](img/02_theory_and_concepts_15.png)
+:::
+::::::::::::::
+
+## 6. Problem- Solving, Planning, Reasoning, Decision-Making
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- Involve “reflective cognition” in relation to actions, choices, consequences
+- How do you make purchasing decisions? What role does technology play?
+
+:::
+::: {.column width="40%"}
+![(@rogers-beyond-hci:2023 p.122)](img/02_theory_and_concepts_16.png)
+
+:::
+::::::::::::::
+
+## Activity
+
+TODO.
+
+
+# Cognitive Frameworks
+
+- Mental models
+- **Gulfs of Execution and Evaluation**
+- Information Processing
+- **External Cognition**
+- **Distributed Cognition**
+- Embodied Interaction
+
+## Gulfs of Execution and Evaluation (Don Norman)
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
+![](img/02_theory_and_concepts_17.png)
+![](img/02_theory_and_concepts_18.png)
+:::
+::: {.column width="50%"}
+![[The two UX Gulfs: Evaluation and Execution](https://www.nngroup.com/articles/two-ux-gulfs-evaluation-execution/)](img/02_theory_and_concepts_19.png)
+:::
+::::::::::::::
+
+## External Cognition (Scaife and Rogers 1996 in @rogers-beyond-hci:2023
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- Internal representations (in the head) and external representations (artefacts in the world) and how they interact
+- Combined with tools (e.g., pens, calculators, spreadsheets) to support cognitive activities
+- External cognition: “the cognitive processes involved when we interact with different external representations” (@rogers-beyond-hci:2023 p.129)
+- Reducing memory load, computational offloading, annotating, cognitive tracing
+:::
+::: {.column width="40%"}
+
+![Reducing Memory Load and Annotating](img/02_theory_and_concepts_20.jpg){width=35%}
+
+![Computational Offloading](img/02_theory_and_concepts_21.jpg){width=35%}
+
+![Cognitive Tracing](img/02_theory_and_concepts_22.jpg){width=35%}
+:::
+::::::::::::::
+
+## Distributed Cognition
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- interactions between multiple people and artefacts
+- event-driven, systems as the unit of analysis, collective behaviours
+- information flows and transformations through the system
+- different levels of granularity
+- analysis addresses problem solving, communication (verbal and non-verbal), coordination mechanisms, accessing and sharing knowledge
+- analysis can inform design implications and decision-making in designing to support distributed cognition
+
+(@rogers-beyond-hci:2023 p.120; @rogers-hci-theory:2012 pp.38-39)
+:::
+::: {.column width="40%"}
+![Image: @rogers-beyond-hci:2023 p.128](img/02_theory_and_concepts_23.png)
+:::
+::::::::::::::
+
 # Social Interaction
 
 ## Activity
