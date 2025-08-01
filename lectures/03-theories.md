@@ -20,6 +20,8 @@ title-slide-attributes:
 
 # Cognitive Aspects
 
+![COGNITION (Photo by Stefano Bucciarelli on Unsplash)](img/stefano-bucciarelli-59HOF9zHKNs-unsplash.jpg){width=60%}
+
 ## Cognition
 
 :::::::::::::: {.columns}
@@ -33,7 +35,7 @@ A definition from Oxford English Dictionary:
 Source: "cognition, n."  _OED Online_ , Oxford University Press, June 2022, <https://www.oed.com/view/Entry/35876>. Accessed 31 July 2022.
 :::
 ::: {.column width="50%"}
-![A definition from Oxford English Dictionary](img/02_theory_and_concepts_0.png)
+![(Photo by Mathilda Khoo on Unsplash)](img/mathilda-khoo-HLA3TAFQuQs-unsplash.jpg){width=60%}
 :::
 ::::::::::::::
 
@@ -58,7 +60,7 @@ Cognitive processes can change depending on the problem:
 [@eysenck-brysbaert:2023]
 :::
 ::: {.column width="40%"}
-right-column
+![(Photo by Luke Jones on Unsplash)](img/luke-jones-DHR8LQRY-fU-unsplash.jpg){width=60%}
 :::
 ::::::::::::::
 
@@ -66,19 +68,20 @@ right-column
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-“It involves selecting things on which to concentrate, at a point in time, from a range of the possibilities available, allowing us to focus on information that is relevant to what we are doing.” (@rogers-beyond-hci:2023 p. 103)
+Selecting things to focus on, relevant to our needs,  from possibilities.
 
-- Clear goals (directed searching vs browsing)
-- Information presentation (structure and layout in the interface)
-- Multitasking and attention
-  - Depends on individuals and context
-  - Relevance of distractions
-  - Effort to task switch
-  - Designing to support effective multitasking
+- clear goals (directed searching vs browsing)
+- information presentation (structure and layout in the interface)
+- multitasking and attention
+  - depends on individuals and context
+  - relevance of distractions
+  - effort to task switch
+  - designing to support effective multitasking
 :::
 ::: {.column width="40%"}
-![(Image: @rogers-beyond-hci:2023 p.104)](img/02_theory_and_concepts_2.png)
-![(@rogers-beyond-hci:2023 p.107)](img/02_theory_and_concepts_3.png)
+![(Image: @rogers-beyond-hci:2023 p.104)](img/02_theory_and_concepts_2.png){width=60%}
+
+![(@rogers-beyond-hci:2023 p.107)](img/02_theory_and_concepts_3.png){width=60%}
 :::
 ::::::::::::::
 
