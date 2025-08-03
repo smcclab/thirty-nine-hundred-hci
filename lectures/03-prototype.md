@@ -12,7 +12,7 @@ title-slide-attributes:
   - template repo is available
   - questions on the forum welcome, look in the "assignments" category.
 
-Apology: I completely changed what I planned to do in this lecture. Last week sucked at ANU, I want to lecture things I like. I think you'll like it too.
+Apology: I completely changed what I planned to do in this lecture. This will be more fun / relevant to the assignment.
 
 
 ## Plan for the class
@@ -152,49 +152,104 @@ Bill Buxton sez! So do it! [@buxton-sketching:2007]
 
 Let's sketch something.
 
+
+
 # Prototyping
 
-## Introduction
+![Bits and pieces for a hardware prototype.](img/2017-hardware-proto.jpg){width=50%}
 
-- Design, prototyping, construction - Design phase 
-- Solutions are created, prototyped, tested, iterated
-- Repeated design-evaluation-redesign cycles with users
-- Two aspects to design - conceptual and concrete
-- [@design-thinking-bootleg:2018]
-
-## Prototyping - What
+## What is a prototype
 
 :::::::::::::: {.columns}
-::: {.column width="40%"}
-- Concrete manifestation of an idea
-- Allows stakeholders to interact and explore
-- Take many forms for different purposes
-- 3D printing is commonly used now
-:::
 ::: {.column width="60%"}
-![[@rogers-beyond-hci:2023] Figure 12.2: (a) model jet engine, (b) Spider Dress 2.0 by Anouk Wipprecht: embedded with sensors, the arms of the ‘spider’ will extend to defend the wearer if her breath becomes heavier, and (c) a teddy bear “printed” from a wireframe design](img/07_prototyping_1.png)
+- _"primitive form"_
+- the form that comes before... something.
+- in this context: 
+  - a _testable_ form
+  - a form we can _experience_
+- enables evaluation and iteration
+- _primitive_: should be somehow rough or limited
+:::
+::: {.column width="40%"}
+![A prototype AI musical instrument.](img/impsy-micro.jpg)
 :::
 ::::::::::::::
 
-## Prototyping – Why?
-
-> Discussion question: Why do we prototype?
-
-## Prototyping - Why
-
-- Communication device
-- Discuss/evaluate/explore ideas
-- Important in many design disciplines
-- Answer questions, help choose between alternatives
-- Serve many purposes
-- Product prototype versus service prototype [@saffer-designing:2010]
-- Move on from bad ideas
-
-## Prototyping - Example
+## More of what a prototype is
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
+manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 
+- a wall of post-its
+- a role-playing game
+- an activity
+- an object
+- a program
+- a website
+- an app
+:::
+::: {.column width="60%"}
+![[@rogers-beyond-hci:2023] Figure 12.2: (a) model jet engine, (b) moving and sensing dress, (c) a teddy bear printed from a wireframe design](img/07_prototyping_1.png){width=80%}
+:::
+::::::::::::::
+
+## Why make prototypes
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- empathy gaining
+- exploration (build to think)
+- testing
+- inspiration
+- learn
+- solve disagreements
+- start a conversation
+- fail quickly and cheaply
+- manage solution-building [@design-thinking-bootleg:2018]
+:::
+::: {.column width="40%"}
+right-column
+:::
+::::::::::::::
+
+# Prototype Zoo
+
+## Game
+
+![A prototype game from Anneysha Sarkar](img/prototype-game-sarkar.png){width=30%}
+
+## EMPI (embodied musical predictive interface)
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![An early prototype (2018)](img/prototype-impsy-2018.jpg){width=50%}
+:::
+::: {.column width="50%"}
+![A later prototype (2019)](img/prototype-impsy-2019.jpg){width=100%}
+:::
+::::::::::::::
+
+## Charades: Waterbottle Stamp (2025)
+
+![[@adiwangsa-charades:2025]](img/prototype-charades-2025.png)
+
+## Storyboard
+
+![A storyboard as a prototype from Ethan Teber-Rossi](img/prototype-storyboard-ethantr.png){width=60%}
+
+## Wireframe
+
+![A wireframe prototype from Minsik Choi](img/prototype-sound-needs-finding-wireframe-2-2024.png){width=70%}
+
+## FaderJam (2016)
+
+![Prototype for a generative music app (turned out to be a bad idea)](img/prototype-faderjam-2016.jpg){width=50%}
+
+## Wireframe App
+
+:::::::::::::: {.columns}
+::: {.column width="40%"}
 - Paper-based prototype to help a child with autism to communicate
 - Functions and buttons
 - Positioning and labels
@@ -205,6 +260,16 @@ Let's sketch something.
 ![@rogers-beyond-hci:2023, Figure 12.3](img/07_prototyping_2.png)
 :::
 ::::::::::::::
+
+## Kinds of Prototypes
+
+- all of the above were used to _test_ ideas and drive evaluation
+- some are more like a final product
+- we use the word "fidelity" to mean how close a prototype is like a final product
+- _low-fidelity:_ (low-fi) rough, quick, not like a final product
+- _high-fidelity:_ (high-fi) more polished, slower to make, more like a final product
+
+# Prototype Definitions and Analysis
 
 ## Prototyping - Filters & Manifestations
 
@@ -219,7 +284,7 @@ Let's sketch something.
 :::
 ::::::::::::::
 
-## Prototyping - Spectrum
+## The prototyping spectrum
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
@@ -236,7 +301,6 @@ Let's sketch something.
 :::
 ::::::::::::::
 
-
 ## Prototyping - Low-Fidelity
 
 :::::::::::::: {.columns}
@@ -249,11 +313,11 @@ Let's sketch something.
 - Storyboarding, Sketching, Index Cards, Wizard of Oz
 :::
 ::: {.column width="60%"}
-![@rogers-beyond-hci:2023 Figure 12.1: PalmPilot wooden prototype](img/07_prototyping_9.png)
+![@rogers-beyond-hci:2023 Figure 12.1: PalmPilot wooden prototype](img/07_prototyping_9.png){width=100%}
 :::
 ::::::::::::::
 
-## Low-Fidelity Prototyping: Storyboards
+## Low-Fi: Storyboards
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
@@ -269,7 +333,7 @@ Let's sketch something.
 :::
 ::::::::::::::
 
-## Low-Fidelity Prototyping: Generating Storyboards
+## Low-Fi: Generating Storyboards
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
@@ -286,21 +350,22 @@ Let's sketch something.
 :::
 ::::::::::::::
 
-## Low-Fidelity Prototyping: The Role of Sketching
+## Low-Fi: The Role of Sketching
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
 - Sketching - a key part of low-fidelity prototyping
 - “Sketching is not about drawing. Rather, it is about design” Saul Greenberg et al. (2012)
 - Sketching vocabulary, required elements
-- BUT a sketch itself is not a prototype
+
+So a sketch _is_ a prototype? Which is it?
 :::
 ::: {.column width="60%"}
 ![@rogers-beyond-hci:2023 Figure 12.5: simple sketches for low-fidelity prototyping](img/07_prototyping_13.png)
 :::
 ::::::::::::::
 
-## Low-Fidelity Prototyping: Card-Based Prototypes
+## Low-Fi: Card-Based Prototypes
 
 - Index cards (Small pieces of cardboard: 3x5 inches)
 - Each card represents one element of the interaction
@@ -308,9 +373,7 @@ Let's sketch something.
 - User can step through the cards
 - Pretending to perform the task while interacting
 
-
-
-## Low-Fidelity Prototyping: Card-Based Prototypes
+## Low-Fi Prototyping: Card-Based Prototypes
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
@@ -327,7 +390,7 @@ Let's sketch something.
 :::
 ::::::::::::::
 
-## Low-Fidelity Prototyping: Paper and Cardboard Prototypes
+## Low-Fi: Paper and Cardboard Prototypes
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
@@ -338,12 +401,13 @@ Let's sketch something.
 :::
 ::::::::::::::
 
+## Paper Prototyping 
 
-## Paper Prototyping: It’s not just the prototypes, but how you use them!
+It’s not just the prototypes, but how you use them!
 
 ![[Paper Prototyping 101](https://www.youtube.com/watch?v=fw42BYQmuJ4)](img/07_prototyping_18.png)
 
-## Low-Fi Prototyping: Wireframes
+## Low-Fi: Wireframes
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
@@ -358,152 +422,187 @@ Let's sketch something.
 
 ![[Prototypes vs Wireframes](https://www.youtube.com/watch?v=miVcrftnhzM)](img/07_prototyping_21.png)
 
-## Wizard of Oz
+## Wizard of Oz Experiments
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
-- Assumes a software-based prototype
-- User interacts with the software
-- A human simulates the software’s response
+Can we test a product that doesn't exist?
+
+- user interacts with the software
+- a human simulates the software’s response
+- assumes a software product or app
+
 :::
 ::: {.column width="60%"}
-![[Testing a system that doesn't exist.](https://www.simpleusability.com/inspiration/2018/08/wizard-of-oz-testing-a-method-of-testing-a-system-that-does-not-yet-exist/)](img/07_prototyping_23.jpg)
+![[Testing a system that doesn't exist.](https://www.simpleusability.com/inspiration/2018/08/wizard-of-oz-testing-a-method-of-testing-a-system-that-does-not-yet-exist/)](img/07_prototyping_23.jpg){width=70%}
 :::
 ::::::::::::::
 
 ## Making Hardware Prototypes
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 - Build _working_ prototype systems in hardware
 - [micro:bit](https://microbit.org) - cheap, small, with IO on the board (hello comp2300!)
 - [arduino](https://arduino.cc), big ecosystem, not-as-good boards.
 - [raspberry pi](https://www.raspberrypi.com), cheap way to get Linux into a prototype
 - [Bela](https://bela.io) (charles' friends!), pricey but hard realtime OS is good for audio interactions.
-
+:::
+::: {.column width="40%"}
+![Actor arduino interface (2010)](img/prototype-actor-interface-2010.jpg){width=100%}
+:::
+::::::::::::::
 
 ## Makey Makey
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
-- Alligator clip to connect switches / sensors
-- Works as a keyboard
+- alligator clip to connect switches / sensors
+- works as a keyboard
 - e.g., [banana spacebar](https://www.youtube.com/watch?v=rfQqh7iCcOU)
-
+- programmable arduino-like microcontroller
 :::
 ::: {.column width="60%"}
-![The Makey Makey](img/07_prototyping_24.jpg)
+![The Makey Makey](img/07_prototyping_24.jpg){width=50%}
 :::
 ::::::::::::::
 
-## Prototyping - High-Fidelity
+## High-Fidelity
 
-- Looks and acts more like the final product
-- Continuum between low and high fidelity
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- looks and acts more like the final product
 - answer design questions, learn about constraints
-- Evolve through stages of fidelity
+- evolve through stages of fidelity
+- can be used in a real application setting
 - design-evaluate-redesign cycles
-- Modify/integrate existing components / tools / kits
-
-
-
-## A High-fidelity prototype
-
-![[What could this be?](https://www.sciencemuseum.org.uk/objects-and-stories/lisa-windows-story-home-computers)](img/07_prototyping_34.jpg)
-
-## Concrete Design
-
-Visual appearance (colour, layout, graphics, fonts etc).
-Interface types – design principles and guidelines
-Interaction modalities including input and output
-Accessibility and inclusivity
-
-## Prototyping - Filters & Manifestations
-
-![Sharp et al. Table 12.3 advantages and disadvantages of low- and high-fidelity prototypes](img/07_prototyping_38.png)
-
-
-## Prototyping - Compromises
-
-- Compromise is inherent to prototyping
-- Make something quickly to test a particular aspect
-- Prototype must be built with the key issues in mind
-- Horizontal vs vertical prototyping
-- Robustness vs changeability
-
-## Prototyping Tools and Resources
-
-:::::::::::::: {.columns}
-::: {.column width="40%"}
-- Crafting materials
-- Digital wireframing and prototyping tools e.g. [Figma, Miro, Wireframe.cc](https://www.interaction-design.org/literature/topics/wireframing)
-- Microsoft PowerPoint- a powerful prototyping tool!!
-- Physical computing devices (e.g., Arduino, Makey Makey)
-- Design patterns, open source resources, interaction design tools- See @rogers-beyond-hci:2023 Sections 13.3-13.5
+- modify/integrate existing components / tools / kits
 :::
-::: {.column width="60%"}
-![Image: Figma](img/07_prototyping_39.jpg)
+::: {.column width="40%"}
+![[What could this be?](https://www.sciencemuseum.org.uk/objects-and-stories/lisa-windows-story-home-computers)](img/07_prototyping_34.jpg){width=100%}
 :::
 ::::::::::::::
 
-## Conceptual Design
+## low- versus high-fidelity
 
-- Developing a Conceptual Model
-- An outline of what people can do and what concepts are needed to understand how to interact
-- Need to understand the problem space and users
-- Generate ideas based on understanding
-- Explore ideas with tutorial groups
+| Type | Advantages | Disadvantages |
+|---|---|---|
+| low-fi | - quick revision<br>- multiple ideas<br>- good for communication<br>- good proof of concept | - limited error checking<br>- poor specification for dev<br>- facilitator driven<br>- usability not clear<br>- flow limitations |
+| high-fi | - more functionality<br>- more interactive<br>- user driven<br>- exploration and test<br>- look and feel<br>- marketing/convincing | - hard work<br>- time consuming to fix<br>- inefficient for proof of concepts<br>- could be mistaken for a product<br>- could set poor expectations |
 
-## Conceptual Model
+## Compromises
 
-- Metaphor, analogies, concepts, relationships, mappings
-- How to choose  __interface metaphors__ that will help users understand the product?
-- Which  __interaction types__ would best support the users’ activities?
-- Do different  __interface types__ suggest alternative design insights or options?
+- compromise is inherent to prototyping
+- make something quickly to test a particular aspect
+- prototype must be built with the key issues in mind
+<!-- - horizontal vs vertical prototyping -->
+- robustness vs flexibility
 
-## Interface Metaphors
+# Prototyping Starter Kit
 
-Choosing metaphors [@erickson-metaphors:1995]
+![Prototyping workshop for AI musical instruments at NIME 2024.](img/workshop-nime-2024.jpg){width=50%}
 
-1. Identify functional requirements (what it will do)
-2. Which parts are likely to cause users problems?
-3. Generate metaphors
-
-Evaluate metaphors: Structure, Relevance, Representation, Understandable, Extensible (Sharp et al., p. 440-441 for example)
-
-## Interaction Types
+## Post-its, notebooks, arts and craft materials
 
 :::::::::::::: {.columns}
-::: {.column width="40%"}
-Instructing, conversing, manipulating, exploring, responding
-
-- Which is best, depends on the design
-- Most models will include a combination
-- Different parts will have different types
-:::
 ::: {.column width="60%"}
-![](img/07_prototyping_40.png)
+- take one step up from sketching
+- paper version of your work _testable_
+- low tech, low-fi, low risk, low cost
+- from storyboards to cardboard mockups with moving parts
+
+**You'll do this in the tutorial next week!**
+:::
+::: {.column width="40%"}
+![Paper AR app by Kevin Zhu, 2024.](img/prototype-paper-kevin-zhu-2024.jpg){width=70%}
 :::
 ::::::::::::::
 
-## Interface Types
+## Digital Wireframe
 
 :::::::::::::: {.columns}
-::: {.column width="40%"}
-- Prompt and support different user experiences / behaviour
-- Prototyping will require an interface type or candidates
-- Depends on product constraints from requirements
-- Input and output modes <- user/context requirements
-:::
 ::: {.column width="60%"}
-![](img/07_prototyping_45.jpg)
+[wireframes](https://www.interaction-design.org/literature/topics/wireframe) are visual plans for a user interface focussed on structure.
+
+- [Figma](https://www.figma.com)
+- [wireframe.cc](https://wireframe.cc/)
+
+Established part of UX design process. Can walk through details of an interactive system with stakeholders.
+
+:::
+::: {.column width="40%"}
+![A wireframe of my awesome product.](img/prototype-wireframecc.png){width=70%}
 :::
 ::::::::::::::
 
-## Take away messages
+## p5.js or Processing
 
-- Prototyping can serve many purposes in HCI research, and support different stages of the design process
-- There is more than one way to prototype a single design concept (low fi and hi fi)
-- Prototypes help you  __to learn __ about your users’ interactions and experiences with your design artifact
-- Your choice of prototyping approach depends on what you are trying to learn and why
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Make interactive systems quickly with a "sketching in code" mindset.
+
+- Processing is the original (Java-based)
+- includes a [simple IDE](https://processing.org) and library system
+- p5.js is a javascript port
+- includes an [online editor](https://editor.p5js.org)
+
+Fast, interactive, not good for "normal" web design.
+:::
+::: {.column width="40%"}
+![Interactive ["Fireflies" in p5.js](https://editor.p5js.org/charlesmatarles/sketches/0dvoDGKzd)](img/prototype-p5js.png)
+:::
+::::::::::::::
+
+## Hardware Prototyping
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Sketch in hardware.
+
+- Arduino, Microbit, Bela
+- soldering and circuit design
+- 3D printing
+- fun, frustrating
+- can be expensive
+
+Convincing to test with a "real" product, can be used in real-world experiences.
+:::
+::: {.column width="40%"}
+![Alistair Riddell testing an [electronic carillon key](https://charlesmartin.au/blog/2019/12/23/christmas-carillon).](img/prototype-carillon-2019.jpg)
+:::
+::::::::::::::
+
+## Vibecode
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+GenAI is pretty good at making interactive websites!
+
+- just ask chattie to build a prototype of your idea.
+- fast, cheap
+- possibly a bit broken (bad if you don't know how to fix)
+- risks?
+
+Not necessarily bad in HCI: can we vibe code _way more_ prototypes than we could afford to build?
+:::
+::: {.column width="40%"}
+![[Vibe coding.](https://www.technologyreview.com/2025/04/16/1115135/what-is-vibe-coding-exactly/) Source: MIT Technology Review, April 2025.](img/prototyping-vibecoding.png){width=100%}
+:::
+::::::::::::::
+
+## Activity: prototyping by request
+
+Can we live-code a prototype before the end of this lecture?
+
+# Sketching and Prototyping in your Assessment
+
+- In your assessments, sketches and prototypes are differentiated by role in a design process.
+  - **Sketches:** part of ideation process, quickly find lots of ideas.
+  - **Prototypes:** lead to something _testable_, should articulate the interaction
+- Highest-fidelity is not necessarily better! 
+- Best prototypes demonstrate a design process and allow the important aspects of interaction to be evaluated.
+- I want to see evidence (through your prototypes) of a considered design process.
+- Different prototypes may be appropriate for different designs.
 
 ## Questions
 
