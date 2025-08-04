@@ -9,11 +9,11 @@ title-slide-attributes:
 ## Announcements
 
 - **Assignment updates**:
-  - template repo is available
+  - template repo will be available this afternoon I promise
+  - class reps: I'll get invites out this afternoon I promise!
   - questions on the forum welcome, look in the "assignments" category.
 
 Apology: I completely changed what I planned to do in this lecture. This will be more fun / relevant to the assignment.
-
 
 ## Plan for the class
 
@@ -27,7 +27,7 @@ Apology: I completely changed what I planned to do in this lecture. This will be
 ::: {.column width="60%"}
 Last week I talked a bit about _identity_ in HCI.
 
-My real identity here: _maker_. 
+The _maker_ identity is really relevant to me.
 
 Making things to find out what, whether, how, and why.
 
@@ -40,7 +40,6 @@ The framing this week around _sketches_ and _prototypes_ as different things wit
 ![Make Magazine [Issue 1](https://archive.org/details/make-magazine/Make%20Magazine%20-%20Vol%201), 2005. (Charles was 2nd year maths/music student at ANU)](img/make-magazine.jpg){width=60%}
 :::
 ::::::::::::::
-
 
 # Sketching Design Ideas
 
@@ -76,6 +75,7 @@ The framing this week around _sketches_ and _prototypes_ as different things wit
 :::
 ::::::::::::::
 
+<!-- 
 ## What does a sketch do?
 
 :::::::::::::: {.columns}
@@ -86,7 +86,7 @@ The framing this week around _sketches_ and _prototypes_ as different things wit
 ::: {.column width="40%"}
 
 :::
-::::::::::::::
+:::::::::::::: -->
 
 
 ## What should a sketch include?
@@ -109,37 +109,33 @@ This is up to you, but it could have
 
 ## Activity: Sketching toolkit?
 
-What's your sketching toolkit?
+What's your sketching toolkit? How do you develop ideas?
 
-## Charles sketching kit
+- Discuss with someone for 2 minutes then we'll hear some answers.
 
-- 2010-ish: Moleskine + biro
-- 2013-ish: Moleskine cahier + biro
-- 2016-ish: FIELD NOTES notebook + biro
-- 2023: Traveler's Notebook + fountain pen (LAMY Safari + Pilot Ink)
-
+I give you permission to buy expensive notebooks and pens for this course.
 
 ## Is a sketch a prototype?
 
-No.
+No (apparently).
 
 ![[Sketching in interaction design](https://www.interaction-design.org/literature/article/etch-a-sketch-how-to-use-sketching-in-user-experience-design)](img/06_ideation_9.jpg)
 
-## How to Choose your Best Ideas
+<!-- ## How to Choose your Best Ideas
 
 ![[What makes a good design idea?](https://www.youtube.com/watch?v=FWIJosey8nI)
 ](img/06_ideation_10.png)
 
 ## Ten Principles of Good Design
 
-![[Dieter Rams (Video and Webpage)](https://www.interaction-design.org/literature/topics/good-design)](img/06_ideation_11.jpg)
+![[Dieter Rams (Video and Webpage)](https://www.interaction-design.org/literature/topics/good-design)](img/06_ideation_11.jpg) -->
 
-## How to choose your Best Ideas
+<!-- ## How to choose your Best Ideas
 
 - High-Fidelity Prototype – Design Idea EXCEPTIONAL
 - Design idea is original, creative, and interesting.
 - Connection to design opportunities identified in project 2 is clear and compelling.
-- Design could be seamlessly used in the chosen activity in ways that enrich the making practice.
+- Design could be seamlessly used in the chosen activity in ways that enrich the making practice. -->
 
 ## Getting the Right Design vs Getting the Design Right
 
@@ -150,9 +146,24 @@ Bill Buxton sez! So do it! [@buxton-sketching:2007]
 
 ## Activity: Sketch Demo
 
-Let's sketch something.
 
 
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Let's sketch something:
+
+> How can tutors keep track of student questions, pain-points and successes during a tutorial?
+
+1. Suggest a design idea on PollEverywhere: <https://PollEv.com​/charlesmarti205>
+2. Help me sketch it.
+:::
+::: {.column width="40%"}
+![Poll Everywhere QR code](img/polleverywhere-charles-qr.png)
+
+<!-- ![Good vibes? (Image: Vicko Mozara on Unsplash)](img/vicko-mozara-m82uh_vamhg-unsplash.jpg){width=70%} -->
+:::
+::::::::::::::
 
 # Prototyping
 
@@ -209,11 +220,9 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 - manage solution-building [@design-thinking-bootleg:2018]
 :::
 ::: {.column width="40%"}
-right-column
+![How t prototype from @design-thinking-bootleg:2018](img/dschool-prototyping.png){width=50%}
 :::
 ::::::::::::::
-
-# Prototype Zoo
 
 ## Game
 
@@ -226,7 +235,7 @@ right-column
 ![An early prototype (2018)](img/prototype-impsy-2018.jpg){width=50%}
 :::
 ::: {.column width="50%"}
-![A later prototype (2019)](img/prototype-impsy-2019.jpg){width=100%}
+![A later prototype (2019) [@martin-empi:2020]](img/prototype-impsy-2019.jpg){width=100%}
 :::
 ::::::::::::::
 
@@ -236,15 +245,15 @@ right-column
 
 ## Storyboard
 
-![A storyboard as a prototype from Ethan Teber-Rossi](img/prototype-storyboard-ethantr.png){width=60%}
+![A storyboard as a prototype from Ethan Teber-Rossi](img/prototype-storyboard-ethantr.png){width=45%}
 
 ## Wireframe
 
-![A wireframe prototype from Minsik Choi](img/prototype-sound-needs-finding-wireframe-2-2024.png){width=70%}
+![A wireframe prototype from Minsik Choi](img/prototype-sound-needs-finding-wireframe-2-2024.png){width=60%}
 
 ## FaderJam (2016)
 
-![Prototype for a generative music app (turned out to be a bad idea)](img/prototype-faderjam-2016.jpg){width=50%}
+![Prototype for a generative music app by Charles (turned out to be a bad idea)](img/prototype-faderjam-2016.jpg){width=40%}
 
 ## Wireframe App
 
@@ -271,31 +280,41 @@ right-column
 
 # Prototype Definitions and Analysis
 
-## Prototyping - Filters & Manifestations
+## Filters and Manifestations
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![[@rogers-beyond-hci:2023] Table 12.1 Filtering](img/07_prototyping_3.png)
-[@lim-prototypes:2008]
-3 key principles
+**Filters:** emphasise some aspects of a design, omit others. [@lim-prototypes:2008], [@rogers-beyond-hci:2023 Box 12.2]
+
+- **Appearance:** size, colour, shape, form, texture, sound
+- **Data:** size, type, use, privacy, organisation
+- **Functionality:** needs, features
+- **Interactivity:** input, output, feedback
+- **Spatial Structure:** arrangement of interface, intangible, tangible, 2D, 3D
 :::
 ::: {.column width="50%"}
-![[@rogers-beyond-hci:2023] Table 12.2 Manifestation](img/07_prototyping_4.png)
+**Manifestations:** an external representation of the design [@lim-prototypes:2008], [@rogers-beyond-hci:2023 Box 12.2]
+
+- **Material:** media used, physical, code, hardware etc
+- **Resolution:** level of detail and sophistication (fidelity)
+- **Scope:** range of functionality, needs addressed
 :::
 ::::::::::::::
 
 ## The prototyping spectrum
 
 :::::::::::::: {.columns}
-::: {.column width="40%"}
+::: {.column width="50%"}
 - High Fidelity Prototype
 - Low Fidelity Prototype
 - [https://collection.maas.museum/object/115505](https://collection.maas.museum/object/115505)
 - [https://www.youtube.com/watch?v=k_9Q-KDSb9o](https://www.youtube.com/watch?v=k_9Q-KDSb9o)
 :::
-::: {.column width="60%"}
+::: {.column width="50%"}
 ![](img/07_prototyping_6.jpg)
+
 ![](img/07_prototyping_7.jpg)
+
 ![Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsplash.com/s/photos/toaster)
 ](img/07_prototyping_8.jpg)
 :::
@@ -321,28 +340,12 @@ right-column
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
-- Storyboarding - series of sketches or scenes
-- How a user can perform a task
-- Use in conjunction with a scenario
-- Stakeholders role-play, step through the scenario
-:::
-::: {.column width="60%"}
-![](img/07_prototyping_10.png)
-![@rogers-beyond-hci:2023 Figure 12.4: example storyboard for mobile device to explore ancient sites](img/07_prototyping_11.png)
-
-:::
-::::::::::::::
-
-## Low-Fi: Generating Storyboards
-
-:::::::::::::: {.columns}
-::: {.column width="40%"}
-- A scenario is one story
-- A storyboard represents a sequence of events
-- Generated from scenario
-- Break the story into steps
-- Thinking through process
-- Think about design issues
+- a scenario is one story
+- a storyboard represents a sequence of events (can be sketches)
+- generated from scenario
+- break the story into steps
+- thinking through process
+- think about design issues
 :::
 ::: {.column width="60%"}
 ![@rogers-beyond-hci:2023 Figure 12.12 travel organiser storyboard](img/07_prototyping_12.png)
@@ -367,21 +370,13 @@ So a sketch _is_ a prototype? Which is it?
 
 ## Low-Fi: Card-Based Prototypes
 
+:::::::::::::: {.columns}
+::: {.column width="40%"}
 - Index cards (Small pieces of cardboard: 3x5 inches)
 - Each card represents one element of the interaction
 - A screen, icon, menu, dialog exchanges
 - User can step through the cards
 - Pretending to perform the task while interacting
-
-## Low-Fi Prototyping: Card-Based Prototypes
-
-:::::::::::::: {.columns}
-::: {.column width="40%"}
-- Capture and explore elements of interaction
-- Can be manipulated and moved
-- Evaluation or design process
-- Step through a use case
-- Elaborate concrete design
 - Explore user experience
 :::
 ::: {.column width="60%"}
@@ -572,7 +567,27 @@ Convincing to test with a "real" product, can be used in real-world experiences.
 :::
 ::::::::::::::
 
-## Vibecode
+## Web or Application Stack (of your choice)
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Everybody has different skills and areas of interest. 
+
+- where are you comfortable to experiment?
+- where do you want to build experience?
+- for Charles it's usually:
+  - Python/Flask/Bootstrap
+  - or iOS/iPadOS, libpd (for sound)
+
+Need to be careful to focus on _prototyping_. What does a prototype _not need_?
+:::
+::: {.column width="40%"}
+![Go code. (Image: Photo by Luca Bravo on Unsplash)](img/luca-bravo-XJXWbfSo2f0-unsplash.jpg){width=100%}
+:::
+::::::::::::::
+
+
+## Vibe Coding
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -582,27 +597,49 @@ GenAI is pretty good at making interactive websites!
 - fast, cheap
 - possibly a bit broken (bad if you don't know how to fix)
 - risks?
+- problems?
+- affordances?
 
 Not necessarily bad in HCI: can we vibe code _way more_ prototypes than we could afford to build?
 :::
 ::: {.column width="40%"}
+
 ![[Vibe coding.](https://www.technologyreview.com/2025/04/16/1115135/what-is-vibe-coding-exactly/) Source: MIT Technology Review, April 2025.](img/prototyping-vibecoding.png){width=100%}
 :::
 ::::::::::::::
 
 ## Activity: prototyping by request
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 Can we live-code a prototype before the end of this lecture?
 
-# Sketching and Prototyping in your Assessment
+1. Choose a prototype idea on PollEverywhere: <PollEv.com​/charlesmarti205>
+2. Help me figure out how to prototype it.
+3. ???
+4. 💸💸💰💲
 
-- In your assessments, sketches and prototypes are differentiated by role in a design process.
-  - **Sketches:** part of ideation process, quickly find lots of ideas.
-  - **Prototypes:** lead to something _testable_, should articulate the interaction
-- Highest-fidelity is not necessarily better! 
-- Best prototypes demonstrate a design process and allow the important aspects of interaction to be evaluated.
-- I want to see evidence (through your prototypes) of a considered design process.
-- Different prototypes may be appropriate for different designs.
+
+:::
+::: {.column width="40%"}
+![Poll Everywhere QR code](img/polleverywhere-charles-qr.png)
+
+<!-- ![Good vibes? (Image: Vicko Mozara on Unsplash)](img/vicko-mozara-m82uh_vamhg-unsplash.jpg){width=70%} -->
+:::
+::::::::::::::
+
+## Sketching and Prototyping in your Assessment
+
+- in your assessments, sketches and prototypes are differentiated by role in a design process.
+  - **sketches:** part of ideation process, quickly find lots of ideas, explore the needs and solutions
+  - **prototypes:** lead to something _testable_, should articulate an interaction
+
+###  **Highest-fidelity is not necessarily better!**
+
+- best prototypes demonstrate a design process
+- allow the important aspects of interaction to be evaluated
+- I want to see evidence (through your prototypes) of a considered design process
+- different prototypes may be appropriate for different designs
 
 ## Questions
 
