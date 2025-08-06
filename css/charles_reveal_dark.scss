@@ -7,6 +7,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.0/inter.min.css");
 
 /* SCSS HEX */
+$darker-charcoal: rgb(21, 39, 46);
 $charcoal: #264653ff;
 $persian-green: #2a9d8fff;
 $saffron: #e9c46aff;
@@ -14,7 +15,7 @@ $sandy-brown: #f4a261ff;
 $burnt-sienna: #e76f51ff;
 
 $text-color: #fafafa;
-$background-color: $charcoal;
+$background-color: $darker-charcoal;
 $activity-background: $persian-green;
 $questions-background: $burnt-sienna;
 $highlight-color: $sandy-brown;
@@ -213,7 +214,7 @@ $extensionColour: #9b59b6;
 		padding: 0.2rem;
 		border-radius: 0.2rem;
 		color: color.adjust($highlight-color, $lightness: -10%);
-		background: linear-gradient(to right, color.adjust($highlight-color, $lightness: 42%), color.adjust($highlight-color, $lightness: 35%));
+		// background: linear-gradient(to right, color.adjust($highlight-color, $lightness: 42%), color.adjust($highlight-color, $lightness: 35%));
 	}
 	a > code:hover {
 		color: $background-color;
