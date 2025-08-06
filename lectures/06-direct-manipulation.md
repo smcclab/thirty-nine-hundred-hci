@@ -277,14 +277,13 @@ _and_
 - Rode 2011
 - Jennifer A. Rode. 2011. Reflexivity in digital anthropology. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '11). Association for Computing Machinery, New York, NY, USA, 123–132. https://doi-org.virtual.anu.edu.au/10.1145/1978942.1978961
 
-__Burroway’s definition (in Rode 2011):__
+**Burroway’s definition (in Rode 2011):**
 
 “First, reflexivity, unlike positivism, embraces intervention as a data gathering opportunity.
 
 Second, reflective texts aim to understand how data gathering impacts the quality of the data itself. This approach “commands the observer to unpack those situational experiences by moving with the participants through their time and space” [9. , p14].
 
 Third, reflexive practitioners attempt to find structural patterns in what they have observed, and fourth, in doing so they extend theory [9. ].” (p. 124)
-
 
 ## Types of reflexivity
 

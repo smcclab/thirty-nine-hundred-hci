@@ -1,7 +1,18 @@
 ---
 title: Evaluation and the User Experience
 author: Dr Charles Martin
+title-slide-attributes:
+    data-background-image: img/aisee-holo-view.jpg
+    data-background-size: cover
 ---
+ 
+## Announcements
+
+- template for assignment 1 is available
+- assignment 1 due
+- assignment 2 specification published next week
+- keep attending labs!
+- check your lab marks
 
 ## Plan for the class
 
@@ -9,43 +20,68 @@ author: Dr Charles Martin
 
 Sharp et al. 2019 Textbook: Chapters 14-16
 
----
-
 ## What is evaluation?
 
-- Evaluation “involves collecting and analyzing data about users’ or potential users’ experiences when interacting with a design artefact” (Sharp et al. 2019, p. 496)
-- Key Goal: “To improve the artefact’s design” (Sharp et al. 2019, p. 496)
-- Addresses both usability and user experience (Sharp et al. 2019, p. 496) – not just about functionality
-- Can be carried out on artefacts and prototypes of all different kinds (Sharp et al. 2019, p. 496)
-- Methods are chosen depending on the goal of the evaluation  (Sharp et al. 2019, p. 496)
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- **Evaluation:** collecting and analysing data from user experiences with an artefact
 
----
+- **Goal:** to improve the artefact's design.
+- **Addresses:**
+    - functionality
+    - usability
+    - user experience
+- Appropriate for all different kinds of artefacts and prototypes
+- Methods vary according to goals.
+:::
+::: {.column width="40%"}
+![Evaluating iPad apps in 2013.](img/evaluation-metatone-2013.jpg)
+:::
+::::::::::::::
 
 ## Why is evaluation important?
 
-- Understanding users: Your users may not have the same experiences or perspectives as you do
-- “Different users may use the same software in different ways” (Sharp et al. 2019)
-- Ensuring that you/your team/your company are investing in the right idea
-- Allowing you to address issues before the product ‘goes live’/is commercially available
-
----
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- **Understanding people**
+    - Users may not have the same experiences or perspectives as you do
+    - Different users use software differently
+- **Understanding designs**
+    - Proof that ideas work
+    - Understand limitations, affordances, applications
+:::
+::: {.column width="50%"}
+- **Business**
+    - Invest in the right ideas
+    - Find problems to solve (before production, before next iteration, etc.)
+- **Research**
+    - Evidence for new interactive systems
+    - Empirical proof of hypotheses
+    - New knowledge to answer research questions
+:::
+::::::::::::::
 
 ## What should you evaluate/measure?
 
-![(Preece in Raffaele et al. 2016)](img/09_evaluation_foundations_1.png)
-
-> “Does the design do what the users need and want”?
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+> Does the design do what the users need and want?
 
 Examples:
 
-- __Game App Developers:__ Whether young adults find their game fun and engaging compared to other games
-- __Government authority:__ Whether their online service is accessible to users with a disability
-- __Children’s talking toy designers:__ Whether six-year-olds enjoy the voice, feel of the soft toy, and can use safely
-
----
+- **Game App Developers:** Whether young adults find their game fun and engaging compared to other games
+- **Government authority:** Whether their online service is accessible to users with a disability
+- **Children’s talking toy designers:** Whether six-year-olds enjoy the voice, feel of the soft toy, and can use safely
+:::
+::: {.column width="40%"}
+![(Preece in Raffaele et al. 2016)](img/09_evaluation_foundations_1.png)
+:::
+::::::::::::::
 
 ## Usability and Usability Goals
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 Six usability goals:
 
 - Effective to use (effectiveness)
@@ -54,50 +90,71 @@ Six usability goals:
 - Having good utility (utility)
 - Easy to learn (learnability)
 - Easy to remember how to use (memorability)
-
-![Image: Unsplash, David Travis (dtravisphd)](img/09_evaluation_foundations_2.jpg)
-
----
+:::
+::: {.column width="40%"}
+![Image: dtravisphd on Unsplash](img/09_evaluation_foundations_2.jpg){width=100%}
+:::
+::::::::::::::
 
 ## Where should you evaluate your design?
 
-![Image: Unsplash, UX Indonesia](img/09_evaluation_foundations_3.jpg)
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Depends on your evaluation goal!
 
-- Depends on your evaluation goal
 - Lab studies (controlled settings)
 - In-the-wild studies (natural settings)
 - Remote studies (online behaviour)
-- Discussion question: evaluating a children’s toy
 
-(Sharp et al. 2019, Chapter 14)
+:::
+::: {.column width="40%"}
+![Image: Unsplash, UX Indonesia](img/09_evaluation_foundations_3.jpg)
+:::
+::::::::::::::
 
----
+## Activity: Evaluating an interactive toy
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+You're all HCI researchers and we need to evaluate this interactive toy.
+
+We need to choose:
+
+- how we will evaluate the toy?
+- in what environment?
+- what information do we need and why?
+- what _research questions_ are being asked?
+
+Talk for 2-3 minutes and then we will hear some answers.
+:::
+::: {.column width="40%"}
+![Where and why will we evaluate this toy? (Photo by COSMOH LOVE on Unsplash)](img/cosmoh-love-unlm6Fxxvjw-unsplash.jpg)
+:::
+::::::::::::::
 
 ## When should you evaluate?
 
-![](img/09_evaluation_foundations_4.png)
-
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 Evaluation serves different purposes at different stages of the design process
 
-__Formative evaluation: Assessing__ whether a product continues to meet users’ needs during a design process (early or late stages)
+- **Formative evaluation:** 
+    - Assessing whether a product continues to meet users’ needs during a design process 
+    - Early or late stages
+- **Summative evaluation:** 
+    - Assessing whether a finished product is successful
+    - Feeds into an iterative design process
+:::
+::: {.column width="40%"}
+![Formative vs Summative Evaluation [https://www.youtube.com/watch?v=730UiP7dZeo](https://www.youtube.com/watch?v=730UiP7dZeo)](img/09_evaluation_foundations_4.png)
+:::
+::::::::::::::
 
-__Summative evaluation: Assessing__ whether a finished product is successful
+# Types of Evaluation
 
-Feeds into an iterative design process
+## Controlled settings (e.g., Usability testing)
 
-[https://www.youtube.com/watch?v=730UiP7dZeo](https://www.youtube.com/watch?v=730UiP7dZeo)
-
-(adapted from Sharp et al. 2019, p.500)
-
----
-
-# Types of Evaluation: Controlled settings (e.g., Usability testing)
-
-![](img/09_evaluation_foundations_5.jpg)
-
-Image Source: https://www.interaction-design.org/literature/article/the-basics-of-recruiting-users-for-usability-testing
-
----
+![Image Source: [Usability Testing (interactiondesign.org)](https://www.interaction-design.org/literature/article/the-basics-of-recruiting-users-for-usability-testing)](img/09_evaluation_foundations_5.jpg)
 
 ## Usability Testing
 
@@ -108,30 +165,28 @@ Image Source: https://www.interaction-design.org/literature/article/the-basics-o
 - Number of participants: 5-12 baseline but more is better
 - Read the textbook for other kinds of experimental design
 
-(Sharp et al. 2019, Chapter 15)
-
----
-
 ## Usability Testing Example
 
 ![Schaadhardt et al. 2021: Understanding Blind Screen-Reader Users’ Experiences of Digital Artboards ([DOI: 10.1145/3411764.3445242](https://dl.acm.org/doi/10.1145/3411764.3445242))
 ](img/09_evaluation_foundations_6.png)
 
-__Anastasia Schaadhardt, Alexis Hiniker, and Jacob O. Wobbrock. 2021. Understanding Blind Screen-Reader Users’ Experiences of Digital Artboards. In Proc. CHI '21. [DOI: 10.1145/3411764.3445242](https://dl.acm.org/doi/10.1145/3411764.3445242)__
+Anastasia Schaadhardt, Alexis Hiniker, and Jacob O. Wobbrock. 2021. Understanding Blind Screen-Reader Users’ Experiences of Digital Artboards. In Proc. CHI '21. [DOI: 10.1145/3411764.3445242](https://dl.acm.org/doi/10.1145/3411764.3445242)
 
----
 
-## Types of Evaluation: Natural settings (e.g., Field studies)
+## Natural settings (e.g., Field studies)
 
-![Source: (Ambe et al. 2017)](img/09_evaluation_foundations_7.jpg)
-
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 Goals of field studies:
 
 - Help identify opportunities for new technology
 - Establish the requirements for a new design
 - Facilitate the introduction of technology or inform deployment of existing technology in new contexts
-
----
+:::
+::: {.column width="40%"}
+![Source: (Ambe et al. 2017)](img/09_evaluation_foundations_7.jpg)
+:::
+::::::::::::::
 
 ## Field Studies
 
@@ -144,17 +199,22 @@ Goals of field studies:
 - How does your presence and involvement shape engagement? Observation vs participant observation
 - Findings: Used for creating thematic analysis, vignettes, narratives, critical incident analysis etc.
 
----
 
 ## Field Studies Example
 
-![Webber et al. 2020: Co-Designing with Orangutans: Enhancing the Design of Enrichment for Animals](img/09_evaluation_foundations_8.png)
-
-Sarah Webber, Marcus Carter, Wally Smith, and Frank Vetere. 2020. Co-Designing with Orangutans: Enhancing the Design of Enrichment for Animals. In Proc. DIS '20. 1713–1725. [DOI: 10.1145/3357236.3395559](https://doi-org.virtual.anu.edu.au/10.1145/3357236.3395559)
-
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![**Co-Designing with Orangutans: Enhancing the Design of Enrichment for Animals** (Sarah Webber, Marcus Carter, Wally Smith, and Frank Vetere) Proc. DIS '20 [@webber-oranguatans:2020]](img/09_evaluation_foundations_8.png)
+:::
+::: {.column width="50%"}
 ![Design objective 1: Develop a digital installation to provide enhanced, varied enrichment for orangutans at Melbourne Zoo](img/09_evaluation_foundations_9.png)
 
----
+:::
+::::::::::::::
+
+# Evaluation by Inspection
+
+Skip the "users"! Just evaluate against established principles (heuristics) and standards.
 
 ## Expert Evaluation
 
@@ -165,41 +225,52 @@ Sarah Webber, Marcus Carter, Wally Smith, and Frank Vetere. 2020. Co-Designing w
 - __Analytics:__ Understanding user demographics and tracing activities (e.g., number of clicks, duration of sessions etc.)
 - __A/B Testing:__ Large number of users assigned Design A or B and compare use to test “variable of interest” (e.g., number of clicks on advertising during test period)
 
----
+## Heuristic Evaluations of User Interfaces (video)
 
-## Types of Evaluation: Settings not involving Users (e.g., Heuristic Evaluation)
+![Using established principles (heuristics) to evaluate ([video](https://www.youtube.com/watch?v=6Bw0n6Jvwxk))](img/09_evaluation_foundations_10.png)
 
-![[Heuristic Evaluation of User Interfaces](https://www.youtube.com/watch?v=6Bw0n6Jvwxk)](img/09_evaluation_foundations_10.png)
+## Nielsen's 10 Usability Heuristics
 
----
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+1. **Visibility of system status:** keep the user informed
+2. **Match between system and real world:** system uses language and communication familiar to the user, information is natural and logical
+3. **User control and freedom:** users make mistakes, there should be "emergency exits" to cancel and return quickly
+4. **Consistency and standards:** users should not wonder whether words, situations or actions mean the same thing, follow conventions
+5. **Error prevention:** eliminate error-prone conditions, or check with user before they occur
+:::
+::: {.column width="50%"}
+6. **Recognition rather than recall:** make elements, actions, and options visible
+7. **Flexibility and efficienty of use:** shortcuts to speed up for experts, allow tailored experiences
+8. **Aesthetic and minimal design:** less is more, no unnecessary information
+9. **Help users recognise, diagnose and recover from errors:** error messages need plain language, and suggest solutions
+10. **Help and documentation:** best if explanation is not needed, if it is, make it good
+:::
+::::::::::::::
 
-## Usability Heuristics
+<!-- evaluation of VR interface: https://www.nngroup.com/articles/usability-heuristics-virtual-reality/ -->
+<!-- ![[Jakob's 10 Usability Heuristics](https://media.nngroup.com/media/articles/attachments/Heuristic_Summary1-compressed.pdf)](img/09_evaluation_foundations_11.png) -->
+<!-- ![[Usability Heuristics 5-10](https://media.nngroup.com/media/articles/attachments/Heuristic_Summary1-compressed.pdf)](img/09_evaluation_foundations_12.png) -->
 
-![[Jakob's 10 Usability Heuristics](https://media.nngroup.com/media/articles/attachments/Heuristic_Summary1-compressed.pdf)](img/09_evaluation_foundations_11.png)
+## Web Design Heuristics
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+@budd-web-design:2007 introduces further heuristics focussed on web, here's some from the [list](https://andybudd.com/archives/2007/01/heuristics_for_modern_web_application_de):
+
+- **Clarity:** Make the system as clear, concise and meaningful as possible for the intended audience.
+- **Minimise unneccessary complexity and cognitive load:** Make the system as simple as possible for people to accomplish their tasks.
+- **Provide context:** Interfaces should provide people with a sense of context in time and space
+- **Promote a pleasurable and positive experience:** people should be treated with respect and the design should be aesthetically pleasing and promote a pleasurable and rewarding experience
 
 
+:::
+::: {.column width="40%"}
+![Evaluating a website. Image: [nngroup (link)](https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/)](img/evaluation-nngroup-heuristic.jpg)
+:::
+::::::::::::::
 
----
-
-## Usability Heuristics pt. 2
-
-![[Usability Heuristics 5-10](https://media.nngroup.com/media/articles/attachments/Heuristic_Summary1-compressed.pdf)](img/09_evaluation_foundations_12.png)
-
----
-
-## Web Design Heuristics/Issues
-
-![(Budd 2007 in Sharp et al. 2019, p.553)](img/09_evaluation_foundations_13.png)
-
----
-
-## Web Design Heuristics/Issues
-
-![(Budd 2007 in Sharp et al. 2019, p.554)](img/09_evaluation_foundations_14.png)
-
----
-
-## Shneiderman’s “Eight Golden Rules of Design”
+## Shneiderman’s Eight Golden Rules of Design
 
 1. Strive for consistency
 2. Seek universal usability
@@ -210,44 +281,51 @@ Sarah Webber, Marcus Carter, Wally Smith, and Frank Vetere. 2020. Co-Designing w
 7. Keep users in control
 8. Reduce short-term memory load
 
----
 
-## Google Analytics: What can you learn?
+## Analytics: What can you learn?
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 ![](img/09_evaluation_foundations_16.png)
-![](img/09_evaluation_foundations_17.png)
-![](img/09_evaluation_foundations_18.png)
 
----
+:::
+::: {.column width="50%"}
+![](img/09_evaluation_foundations_17.png)
+:::
+::::::::::::::
 
 ## Evaluation after deployment: adoption, use, and non-use
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 - Adoption/Appropriation/Design-in-use (Ehn 2008)
 - Technology acceptance (Davis 1989)
 - Non-use (Satchell & Dourish 2009)
 - Technology habitation (Soro et al. 2016)
 - Technology individuation (Ambe et al. 2017)
-
+:::
+::: {.column width="40%"}
 ![(Ambe et al. 2017)](img/09_evaluation_foundations_19.jpg)
+:::
+::::::::::::::
 
----
+# Planning Evaluations
 
-# Issues involving evaluation
+## Issues during evaluation
 
 - Ethical dimensions and consent
 - Evaluation design and conduct:
     - __Reliability:__  “how well it produces the same results on separate occasions under the same circumstances”
-    - __Validity: __ “whether the evaluation method measures what it intended to measure”
+    - __Validity:__ “whether the evaluation method measures what it intended to measure”
     - __Ecological validity:__  “how the environment in which an evaluation is conducted influences or distorts results”
-    - __Bias: __ “occurs when the results are distorted”
-    - __Scope: __ “how much of the findings can be generalised”
+    - __Bias:__ “occurs when the results are distorted”
+    - __Scope:__ “how much of the findings can be generalised”
 
----
 
 ## Developing an evaluation plan
 
-![](img/09_evaluation_foundations_20.jpg)
-
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 - Evaluation Goal/Aims
 - Participants
 - Setting
@@ -257,8 +335,11 @@ Sarah Webber, Marcus Carter, Wally Smith, and Frank Vetere. 2020. Co-Designing w
 - Data capture/recording/storage
 - Analysis method
 - Output(s) of evaluation process
-
----
+:::
+::: {.column width="40%"}
+![](img/09_evaluation_foundations_20.jpg)
+:::
+::::::::::::::
 
 # References
 
