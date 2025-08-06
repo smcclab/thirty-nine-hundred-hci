@@ -74,7 +74,7 @@ Examples:
 - **Children’s talking toy designers:** Whether six-year-olds enjoy the voice, feel of the soft toy, and can use safely
 :::
 ::: {.column width="40%"}
-![(Preece in Raffaele et al. 2016)](img/09_evaluation_foundations_1.png)
+![Preece in @Raffaele:2016](img/09_evaluation_foundations_1.png)
 :::
 ::::::::::::::
 
@@ -167,11 +167,7 @@ Evaluation serves different purposes at different stages of the design process
 
 ## Usability Testing Example
 
-![Schaadhardt et al. 2021: Understanding Blind Screen-Reader Users’ Experiences of Digital Artboards ([DOI: 10.1145/3411764.3445242](https://dl.acm.org/doi/10.1145/3411764.3445242))
-](img/09_evaluation_foundations_6.png)
-
-Anastasia Schaadhardt, Alexis Hiniker, and Jacob O. Wobbrock. 2021. Understanding Blind Screen-Reader Users’ Experiences of Digital Artboards. In Proc. CHI '21. [DOI: 10.1145/3411764.3445242](https://dl.acm.org/doi/10.1145/3411764.3445242)
-
+![@schaadhardt-blind-artboards:2021 **Understanding Blind Screen-Reader Users’ Experiences of Digital Artboards**](img/09_evaluation_foundations_6.png)
 
 ## Natural settings (e.g., Field studies)
 
@@ -184,7 +180,7 @@ Goals of field studies:
 - Facilitate the introduction of technology or inform deployment of existing technology in new contexts
 :::
 ::: {.column width="40%"}
-![Source: (Ambe et al. 2017)](img/09_evaluation_foundations_7.jpg)
+![Source: @ambe-individuation:2017](img/09_evaluation_foundations_7.jpg)
 :::
 ::::::::::::::
 
@@ -208,7 +204,6 @@ Goals of field studies:
 :::
 ::: {.column width="50%"}
 ![Design objective 1: Develop a digital installation to provide enhanced, varied enrichment for orangutans at Melbourne Zoo](img/09_evaluation_foundations_9.png)
-
 :::
 ::::::::::::::
 
@@ -298,11 +293,11 @@ Skip the "users"! Just evaluate against established principles (heuristics) and 
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- Adoption/Appropriation/Design-in-use (Ehn 2008)
-- Technology acceptance (Davis 1989)
-- Non-use (Satchell & Dourish 2009)
-- Technology habitation (Soro et al. 2016)
-- Technology individuation (Ambe et al. 2017)
+- Adoption/Appropriation/Design-in-use [@ehn-participation:2008]
+- Technology acceptance [@davis1989perceived]
+- Non-use [@satchell-beyond-user:2009]
+- Technology habitation [@soro-older-users:2016]
+- Technology individuation [@ambe-individuation:2017]
 :::
 ::: {.column width="40%"}
 ![(Ambe et al. 2017)](img/09_evaluation_foundations_19.jpg)
@@ -341,26 +336,12 @@ Skip the "users"! Just evaluate against established principles (heuristics) and 
 :::
 ::::::::::::::
 
-# References
+## Giving Feedback
 
-- Ambe, AH, Brereton, M, Soro, A & Roe, P 2017, ‘Technology Individuation: The Foibles of Augmented Everyday Objects’, in  _Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems_ , CHI ’17, Association for Computing Machinery, New York City, New York, pp. 6632–6644, accessed from <https://doi.org/10.1145/3025453.3025770>.
-- Davis, F 1989, ‘Perceived Usefulness, Perceived Ease of Use, and User Acceptance of Information Technology’,  _MIS Quarterly_ , vol. 13, no. 3, pp. 319–340.
-- Ehn, P 2008, ‘Participation in Design Things’, in  _PDC 2008. Proceedings of the Tenth Anniversary Conference on Participatory Design_ , Association for Computing Machinery, New York City, New York, pp. 92–101, accessed from <http://portal.acm.org/citation.cfm?id=1795248>.
 - GARDNER, M. 2019.  _Teaching Students to Give Peer Feedback _ [Online]. George Lucas Educational Foundation. Available: https://www.edutopia.org/article/teaching-students-give-peer-feedback [Accessed 3 October 2022].
-- Raffaele, R., Carvalho, B., Lins, A., Marques, L., Soares, M.M. (2016). Digital Game for Teaching and Learning: An Analysis of Usability and Experience of Educational Games. In: Marcus, A. (eds) Design, User Experience, and Usability: Novel User Experiences . DUXU 2016. Lecture Notes in Computer Science(), vol 9747. Springer, Cham. [https://doi.org/10.1007/978-3-319-40355-7_29](https://doi.org/10.1007/978-3-319-40355-7_29)
-- Satchell, C & Dourish, P 2009, ‘Beyond The User: Use And Non-Use in HCI’, in  _Proceedings of the 21st Annual Conference of the Australian Computer-Human Interaction Special Interest Group: Design: Open 24/7 (OZCHI ’09)_ , Association for Computing Machinery, New York City, New York, pp. 9–16.
-- Sharp, H, Preece, J & Rogers, Y 2019,  _Interaction Design: Beyond Human-Computer Interaction_  ProQuest E., Wiley & Sons, West Sussex, accessed from [https://ebookcentral-proquest-com.virtual.anu.edu.au/lib/anu/detail.action?docID=5746446.](https://ebookcentral-proquest-com.virtual.anu.edu.au/lib/anu/detail.action?docID=5746446.)
-
----
-
-# References (cont.)
-
-- Soro, A, Brereton, M & Roe, P 2016, ‘Towards an Analysis Framework of Technology Habituation by Older Users’, in  _Proceedings of the 2016 ACM Conference on Designing Interactive Systems_ , DIS ’16, Association for Computing Machinery, New York, NY, USA, pp. 1021–1033, accessed from [https://doi.org/10.1145/2901790.2901806](https://doi.org/10.1145/2901790.2901806).
-- Anastasia Schaadhardt, Alexis Hiniker, and Jacob O. Wobbrock. 2021. Understanding Blind Screen-Reader Users’ Experiences of Digital Artboards. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI '21). Association for Computing Machinery, New York, NY, USA, Article 270, 1–19. https://doi-org.virtual.anu.edu.au/10.1145/3411764.3445242
 - The Open University. 2021.  _Giving and Receiving Powerful Feedback _ [Online]. Milton Keynes: The Open University.  [Accessed 3 October 2022].
 - University of Technology Sydney. 2013.  _Giving and receiving feedback _ [Online]. Sydney: University of Technology Sydney. Available: https://www.uts.edu.au/research-and-teaching/learning-and-teaching/assessment-futures/key-assessment-elements/giving-and-receiving-feedback [Accessed 3 October 2022].
 - University of Technology Sydney. n.d.  _Giving and Receiving Feedback: A Guide to the Use of Peers in Self Assessment _ [Online]. Sydney: University of Technology Sydney. Available: https://www.uts.edu.au/sites/default/files/Giving-and-Receiving-Feedback.pdf [Accessed 3 October 2022].
-- Sarah Webber, Marcus Carter, Wally Smith, and Frank Vetere. 2020. Co-Designing with Orangutans: Enhancing the Design of Enrichment for Animals. In Proceedings of the 2020 ACM Designing Interactive Systems Conference (DIS '20). Association for Computing Machinery, New York, NY, USA, 1713–1725. https://doi-org.virtual.anu.edu.au/10.1145/3357236.3395559
 
 ## Questions
 
