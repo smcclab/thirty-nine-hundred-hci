@@ -18,15 +18,17 @@ The purpose of this tutorial is to give you hands-on experience in low-fidelity 
 
 3. Post a forum post following the instructions below. 
 
-Choose one object/interface that you have come across in your life that you think has a 'bad' design. Consider it's use cases, functionalities, forms, and overall design features. 
+Choose one object/interface that you have come across in your life that you think has a _bad_ design. Consider its use cases, functionalities, forms, and overall design features.
 
-Sketch and annotate the bad design, and upload it with your forum post (100-200 words) about this object/interface using these prompts:
+**Sketch**[^sketch] and annotate the bad design, and upload it with your forum post (100-200 words) about this object/interface using these prompts:
 
-- Briefly introduce your chosen object/interface and how you came across it. 
+- Briefly introduce your chosen object/interface and how you came across it.
 - What is its core functionality? What form of interaction is it designed for? 
-- Why is it 'bad'? What would you do to improve the design? 
+- Why is it bad? What would you do to improve the design?
 
-Bring your sketch and/or the object/interface in to class this week if possible for discussion. 
+Bring your sketch and/or the object/interface in to class this week if possible for discussion.
+
+[^sketch]: This is a good chance to practice the _sketching_ skills discussed in the lecture. Make sure your sketch has the important elements of a sketch that we talked about.
 
 ## Plan for the Class
 
@@ -39,7 +41,7 @@ The tutorial will follow this structure:
 
 ## In-Class Tasks
 
-### 0. Discuss pre-class tasks & construct a scenario (10 mins)
+### 0. Discuss pre-class tasks (10 mins)
 
 As a class or in groups of 4-5, introduce your chosen objects/interfaces to each other and consider the following prompts:
 
@@ -51,17 +53,11 @@ As a class or in groups of 4-5, introduce your chosen objects/interfaces to each
 - What action do these actors take with the object/interface?
 - What is the resolution or outcome of this interaction?
 
-Responding to those will help construct one scenario we will be ideating and prototyping based on today. Recall from last week's lab that scenarios should include these elements:
-
-- an actor (your persona)
-- a motivator
-- an intention or intent
-- an action
-- a resolution
+Responding to those will help construct one scenario we will be ideating and prototyping based on today.
 
 ### 1. Rapid Brainstorming (20 mins)
 
-Staying in the same groups, we will do some rapid brainstorming to generate design ideas. Guided by your scenario above, we will be generating solutions to redesign the object/interface here. You may want to come up with changes to the existing interface, or come up with a completely new solution for the scenario. Our only request here is that your solution should be computer-based. This doesn't have to be just a desktop/mobile application or website, it could be a tangible interface, a hardware product, a robot, a smart home appliance, etc. Whatever it is, the interaction should be facilitated by a computer in some way.
+In groups, we will do some rapid brainstorming to generate design ideas. Guided by your discussion above, choose **one object or interface to redesign**. You may want to come up with changes to the existing interface, or come up with a completely new solution. Our only request here is that your solution should be computer-based. This doesn't have to be just a desktop/mobile application or website, it could be a tangible interface, a hardware product, a robot, a smart home appliance, etc. Whatever it is, the interaction should be facilitated by a computer in some way.
 
 One methodology often used in design thinking is called "Crazy 8's" where you have 8 minutes to sketch out 8 ideas. [@google-crazy8] The ideas can be as good or bad as you want them to be. Your main objective is to come up with eight distinct ideas. The sketches don't have to be perfect, as long as they communicate your idea. 
 
@@ -82,9 +78,9 @@ We will now work towards creating a lo-fi paper prototype of the sketch with the
 
 In your group, create a story board of the proposed interaction in the winning sketch. You should have at least 5 but no more than 8 steps. Think through the steps that might be involved in the scenario and the personas involved, and draw up rough sketches to illustrate each step. Consider all moving parts discussed above, and try and decide on the key steps. 
 
-You'll only have 10 minutes which means these do not have to be perfect in any way. The idea here is that we are trying to sketch out the tangible steps in interacting with your design/idea.
+You'll only have 10 minutes so these do not have to be perfect in any way. The idea here is to break down the out the steps for interacting with your design/idea.
 
-### 2. Paper prototyping (40 mins)
+### 3. Paper prototyping (40 mins)
 
 > "By their very nature, prototypes involve compromises. The intention is to produce something quickly to test an aspect of the product" [@rogers-beyond-hci:2023]
 
@@ -95,18 +91,17 @@ When creating your prototype, consider:
 - What are the key components that your user or stakeholder needs to see and interact with in order to understand your design?
 - What is the main purpose of this paper prototype? Which specific aspect(s) of your design are you aiming to test or demonstrate?
 - How can you effectively convey your design using only paper as your material? How can you simulate interaction, feedback, or flow using paper elements?
-- Would you be able to run a "Wizard of Oz" evaluation using this prototype?
+- Would you be able to run a "Wizard of Oz"[^oz] evaluation using this prototype?
 
-### 4. Present and discuss in groups (10 mins)
+[^oz]: If you have forgotten what a "Wizard of Oz" evaluation is, look back at the lecture, the text book or this resource [@porcheron-wizard:2020].
 
-In your groups, present your prototypes to each other and discuss as a group:
+### 4. Present and discuss (10 mins)
 
-1. What is the goal of the storyboard?
-2. What did you learn from developing the storyboard?
-3. What design decisions did you make when developing this storyboard?
-4. What were the differences between your individual storyboards? What would be the key components in this interaction? 
+As a group, present your prototype to the class and discuss:
 
-Decide which of your storyboards represents your 'best idea' that your group will carry forward for your paper prototyping in the next activity. You can also quickly draw up a new one that's a combination of all the best parts in your storyboards. 
+1. Does your prototype match your storyboard and design concept?
+2. Is your prototype _testable_?
+3. What design decisions were made at the sketching, storyboarding, and prototyping stages?
 
 ## Resources
 
