@@ -310,12 +310,19 @@ Easy to (accidentally) write bad interview questions!
 
 ## Structure and Format
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 - written method of gathering structured data
 - sometimes called a "survey", technically a survey is the whole study
 - _questionnaire_ or _survey instrument_ is the paper form with questions
 - questions can be open or closed
 - often questionnaire used for demographic data
 - standard survey instruments are often questionnaires
+:::
+::: {.column width="40%"}
+![Photo by Nguyen Dang Hoang Nhu on Unsplash](img/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.jpg)
+:::
+::::::::::::::
 
 ## Open text questions
 
@@ -552,11 +559,19 @@ Talk for 2-3 minutes then let's have some discussion.
 
 ## Diaries
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 - participants write about their experiences with a system regularly in a diary
 - easy for the researcher at the collection stage
 - takes continuous effort from the participants (reminders? structure?)
 - relies on participant's memory and subjective account
 - video and photos can reinforce written accounts
+:::
+::: {.column width="40%"}
+![The participant just writes down their experience! (2025)](img/2025-charles-diary.jpg)
+:::
+::::::::::::::
+
 
 ## Logs, Analytics, Scraping
 
@@ -577,8 +592,21 @@ Talk for 2-3 minutes then let's have some discussion.
 :::
 ::::::::::::::
 
+## Activity: Would you rather (observation edition)
+
+Would you rather:
+
+1. observe / be observed directly in the wild
+2. observe / be observed directly in a lab
+3. observe / be observed indirectly through a diary
+4. observe / be observed indirectly through a data analytics
+
+Discuss for 2-3 minutes in groups and then we will hear some responses!
+
 # Data Gathering in Practice
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 Back to our issues:
 
 1. goals
@@ -587,6 +615,11 @@ Back to our issues:
 4. ethics of data
 5. triangulation
 6. pilot studies vs main studies
+:::
+::: {.column width="40%"}
+![Collecting some MIDI and audio data in 2018 (artist: Bernt-Isak Waerstad)](img/2018-bernt-midi-data.jpg)
+:::
+::::::::::::::
 
 ## Choosing Techniques [@rogers-beyond-hci:2023]
 
@@ -638,7 +671,6 @@ Back to our issues:
 - Questionnaires are fast and can address lots of participants---a broad approach
 - Interviews are slow but are a deep approach.
 - Interviews also require good conversational skills and experience to conduct well.
-
 
 ## Questions
 
