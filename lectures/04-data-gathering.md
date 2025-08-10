@@ -8,7 +8,17 @@ title-slide-attributes:
 
 ## Announcements
 
+- template for assignment 1 is [available](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-prototyping)
+- assignment 1 due **Monday 18 August, 23:59 on GitLab**
+- assignment 2 specification will be published next week, you can see the "main idea" already on Canvas
+- keep attending labs, if issues, apply for an [extension (see course policies on Canvas)](https://canvas.anu.edu.au/courses/2781/pages/policies)
+- lab marks come out weekly via Canvas
+
+**Who has a question about assignment 1?**
+
 ## Plan for the class
+
+**New module: user research,  data, analysis, evaluation**
 
 1. Plan and run data gathering sessions
 2. Plan and run an interview
@@ -22,8 +32,8 @@ title-slide-attributes:
 - why and how is data gathered? 
 - what kind of data? (just ratings or more?)
 - necessary both for discovering requirements and evaluation
-- today we introduce the main issues and techniques
-- later, we will look at how to structure evaluation
+- today: introduce the main issues and techniques
+- later weeks: look at how to structure evaluation and analyse different kinds of data
 :::
 ::: {.column width="40%"}
 ![Just ratings? or more? (Photo by Towfiqu barbhuiya on Unsplash)](img/towfiqu-barbhuiya-0ZUoBtLw3y4-unsplash.jpg)
@@ -44,7 +54,7 @@ Get information about people, their behaviour and experiences with technology.
     - Discover how users interact with an existing system
 :::
 ::: {.column width="40%"}
-right-column
+![What are the goals? (Photo by Ricardo Arce on Unsplash)](img/ricardo-arce-cY_TCKr5bek-unsplash.jpg)
 :::
 ::::::::::::::
 
@@ -64,7 +74,7 @@ Who are the participants? How many are needed?
 - Number of participants: most common in HCI is 12 [@caine-sample-size:2016]
 :::
 ::: {.column width="40%"}
-right-column
+![People in the studio (2025)](img/2025-people-in-som-studio.jpg)
 :::
 ::::::::::::::
 
@@ -82,7 +92,7 @@ A data provider _gives_ us data. What do they get back?
 - Practical: building rapport and understanding (not just taking)
 :::
 ::: {.column width="40%"}
-right-column
+![An example consent form for research.](img/consent-form.png){width=70%}
 :::
 ::::::::::::::
 
@@ -99,10 +109,9 @@ right-column
 - research needs a data management plan
 :::
 ::: {.column width="40%"}
-right-column
+![We have to think about data. (Photo by Claudio Schwarz on Unsplash)](img/claudio-schwarz-fyeOxvYvIyY-unsplash.jpg)
 :::
 ::::::::::::::
-
 
 ## Triangulation
 
@@ -114,10 +123,9 @@ right-column
 - _methodological triangulation:_ different data gathering or research techniques
 :::
 ::: {.column width="40%"}
-right-column
+![Triangles support strong conclusions. (Photo by Charles 2010)](img/2010-belconnen-triangles.jpg)
 :::
 ::::::::::::::
-
 
 ## Pilot Studies
 
@@ -143,14 +151,14 @@ A small initial study to help plan a larger study.
 ## Ask the users
 
 :::::::::::::: {.columns}
-::: {.column width="60%"}
+::: {.column width="50%"}
 - Interviews make a lot of sense in HCI
 - What should a system do? Just ask.
 - How should it work? Just ask.
 - Did it work well? Ask away.
 - How would you change it? Ask.
 :::
-::: {.column width="40%"}
+::: {.column width="50%"}
 ![An interview. (Photo by Sam McGhee on Unsplash)](img/sam-mcghee-KieCLNzKoBo-unsplash.jpg)
 :::
 ::::::::::::::
@@ -194,8 +202,6 @@ A small initial study to help plan a larger study.
 :::
 ::::::::::::::
 
-
-
 ## Semi-structured Interviews
 
 :::::::::::::: {.columns}
@@ -237,8 +243,7 @@ A small initial study to help plan a larger study.
 :::
 ::::::::::::::
 
-
-## Activity
+## Activity: Plan interview questions
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -280,8 +285,6 @@ Easy to (accidentally) write bad interview questions!
 :::
 ::::::::::::::
 
-
-
 ## Capturing Data
 
 :::::::::::::: {.columns}
@@ -296,7 +299,7 @@ Easy to (accidentally) write bad interview questions!
   - video: edit, store (large file sizes, anonymity)
 :::
 ::: {.column width="40%"}
-![Editing videos from a study.](img/video-editing.jpg)
+![Editing videos from a study in 2015.](img/video-editing.jpg)
 :::
 ::::::::::::::
 
@@ -305,10 +308,9 @@ Easy to (accidentally) write bad interview questions!
 
 ![Rating scales, and more (image by Towfique Barbhuiya on Unsplash)](img/towfiqu-barbhuiya-0ZUoBtLw3y4-unsplash.jpg){width=60%}
 
-
-
 ## Questionnaire Structure
 
+TODO
 
 ## Structure and Format
 
@@ -328,7 +330,7 @@ Easy to (accidentally) write bad interview questions!
 - The researcher might have little control over how seriously these questions are taken.
 :::
 ::: {.column width="40%"}
-right-column
+TODO
 :::
 ::::::::::::::
 
@@ -487,7 +489,7 @@ TODO
 - record data, audio, video as well as observations
 :::
 ::: {.column width="40%"}
-![Observation via video in a lab.](img/2015-study-observation.jpg)
+![Observation via video in a lab (2015)](img/2015-study-observation.jpg)
 :::
 ::::::::::::::
 
@@ -568,6 +570,8 @@ TODO
 - Questionnaires are fast and can address lots of participants---a broad approach
 - Interviews are slow but are a deep approach.
 - Interviews also require good conversational skills and experience to conduct well.
+
+<!-- What else is needed? -->
 
 ## Questions
 

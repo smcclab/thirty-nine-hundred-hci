@@ -8,12 +8,6 @@ title-slide-attributes:
  
 ## Announcements
 
-- template for assignment 1 is available
-- assignment 1 due
-- assignment 2 specification published next week
-- keep attending labs!
-- check your lab marks
-
 ## Plan for the class
 
 # Evaluation
