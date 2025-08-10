@@ -308,29 +308,31 @@ Easy to (accidentally) write bad interview questions!
 
 ![Rating scales, and more (image by Towfique Barbhuiya on Unsplash)](img/towfiqu-barbhuiya-0ZUoBtLw3y4-unsplash.jpg){width=60%}
 
-## Questionnaire Structure
-
-TODO
-
 ## Structure and Format
 
 - written method of gathering structured data
 - sometimes called a "survey", technically a survey is the whole study
 - _questionnaire_ or _survey instrument_ is the paper form with questions
 - questions can be open or closed
-- often questionnaire used for demographic data or standard survey instruments
+- often questionnaire used for demographic data
+- standard survey instruments are often questionnaires
 
 ## Open text questions
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- Questions might be something like: 
-  - “What were the strengths of this course?”
-  - “Please provide any suggestions about how this course could be improved?”
-- The researcher might have little control over how seriously these questions are taken.
+Questions might be something like: 
+
+> What were the strengths of this course?
+
+> Please provide any suggestions about how this course could be improved?
+
+- the researcher might have little control over how seriously these questions are taken.
+- potential to gather rich data
+- **careful:** use these only with really open concepts
 :::
 ::: {.column width="40%"}
-TODO
+![Wide open (2010)](img/2010-som-stairs.jpg)
 :::
 ::::::::::::::
 
@@ -341,6 +343,7 @@ TODO
 - closed form questions have preset responses from which the respondent must select.
 - unordered responses
 - rating scale questions
+- **careful:** closed form questions design should be neutral and include most likely or relevant responses
 :::
 ::: {.column width="40%"}
 >  What is your favourite fruit (select one answer): plum, tomato, pineapple”
@@ -354,7 +357,7 @@ TODO
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 - Likert scale questions are very common in questionnaires
-- named fro Rensis Likert (social scientist) [@likert1932technique]
+- named after [Rensis Likert](https://en.wikipedia.org/wiki/Rensis_Likert) (social scientist) [@likert1932technique]
 - The question includes a statement, e.g.: “The workload was appropriate for this course”
 - A number of levels of agreement are provided, e.g.: “strongly disagree, disagree, neutral, agree, strongly agree.”
 - 5-points is common, 3, 7, 9 or a continuous slider is also possible.
@@ -364,16 +367,37 @@ TODO
 :::
 ::::::::::::::
 
+## Semantic Differential Scale
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- ratings of an object, concept, situation, etc
+- the answer is a point between two opposite concepts
+- e.g., describe your experience of using the (insert system here)
+  - difficult to use --- easy to use
+  - boring --- fun
+  - slow to learn --- fast to learn
+:::
+::: {.column width="40%"}
+![Example of semantic differential scales [image from @rogers-beyond-hci:2023]](img/semantic-differential-scale.png)
+:::
+::::::::::::::
+
 ## Existing Survey Instruments
 
 - Researchers sometimes choose to use well-known existing survey instruments rather than create their own.
 - Existing surveys may be validated by having been tested and applied in many other studies.
 - Sometimes the survey instrument comes with built-in instructions for analysing results.
-- Let's look at two examples that are typical in HCI:
+- Let's look at some examples that are typical in HCI:
   - System Usability Scale (SUS) [@brooke-sus:1995; @uiuxtrend2024sus]
   - NASA Task Load Index (TLX) 
 
+
+  <!-- TODO - Creativity Support Index -->
+
 <!-- https://www.nngroup.com/articles/measuring-perceived-usability/ -->
+
+<!-- TODO Net Promoter Score NPS https://www.nngroup.com/articles/nps-ux/ -->
 
 ## System Usability Scale Questions
 
@@ -443,14 +467,16 @@ Talk for 2-3 minutes then let's have some discussion.
 
 # Observation
 
+![What are they doing and why? (Photo by Philippe Bout on Unsplash)](img/philippe-bout-93W0xn4961g-unsplash.jpg){width=50%}
+
 ## Direct Observation in the Wild
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 - watching people for science
 - using system or technology in the normal context of use
-- e.g., a researcher joins a tour group to observe use of a travel navigation app
-- e.g., a researcher watches a concert carefully to observe the performer's use of music technology
+  - e.g., a researcher joins a tour group to observe use of a travel navigation app
+  - e.g., a researcher watches a concert carefully to observe the performer's use of music technology
 
 ### Example framework:
 
@@ -459,7 +485,7 @@ Talk for 2-3 minutes then let's have some discussion.
 - **The thing:** what are they doing with it?
 :::
 ::: {.column width="40%"}
-TODO
+![We don't actually stalk people. (Photo by Philippe Bout on Unsplash)](img/philippe-bout-93W0xn4961g-unsplash.jpg)
 :::
 ::::::::::::::
 
@@ -475,7 +501,7 @@ TODO
 - ethnography as a methodology connected with anthropology (i.e., as “the study of culture”), but it’s not identical
 :::
 ::: {.column width="40%"}
-TODO
+![(Photo by Homa Appliances on Unsplash)](img/homa-appliances-ERXFD4jLpJc-unsplash.jpg)
 :::
 ::::::::::::::
 
@@ -495,15 +521,13 @@ TODO
 
 ## Think-Aloud Technique
 
-TODO
+- **Problem:** observers don't know what participants are thinking
+- **Solution:** ask participants to say everything they are thinking and trying to do when using an interface, so we know!
+- can produce very useful data
+- hard work for the participant
+- needs careful facilitation from the observer
 
-## Indirect Observation
-
-TODO
-
-## Diaries
-
-TODO
+- more: [Thinking aloud, the #1 usability tool](https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/)
 
 ## Video-cued Recall
 
@@ -518,17 +542,62 @@ TODO
 :::
 ::::::::::::::
 
+## Indirect Observation
+
+- We can observe without being present
+- Useful for 
+  - embedding systems in people's everyday life
+  - interacting with participants remotely
+  - tracking more participants than you could directly observe
+
+## Diaries
+
+- participants write about their experiences with a system regularly in a diary
+- easy for the researcher at the collection stage
+- takes continuous effort from the participants (reminders? structure?)
+- relies on participant's memory and subjective account
+- video and photos can reinforce written accounts
+
 ## Logs, Analytics, Scraping
 
-TODO
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- **Interaction log:** a log of data captured from a system showing exactly what the participant did at any given time
+- e.g.: key presses, mouse movements, interactions with GUI components, sensor data
+- time spent on actions or using software (e.g., playing a game, using instagram)
+- unobtrusive, automatic
+- lots of data, should be visualised or analysed to develop findings
+- scraping data from public sources (e.g., social media) can be observation
+
+
+**N.B. scraping large amounts of data raises ethical concerns!**
+:::
+::: {.column width="40%"}
+![Interaction data from a concert (2014)](img/2014-study-in-bowls.jpg){width=100%}
+:::
+::::::::::::::
 
 # Data Gathering in Practice
 
-TODO
+Back to our issues:
 
-## Choosing Techniques
+1. goals
+2. participants
+3. ethics, consent with participants
+4. ethics of data
+5. triangulation
+6. pilot studies vs main studies
 
-TODO
+## Choosing Techniques [@rogers-beyond-hci:2023]
+
+| technique | good For | kind of data | issues |
+|---|---|---|---|
+| interviews | exploring issues | mostly qualitative | skilled work but high value|
+| focus groups | multiple viewpoints | mostly qualitative | efficient, groupthink risk |
+| questionnaires | specific questions | quantitative and qualitative | lots of participants, hard to design  |
+| direct observation in the wild | context of use | mostly qualitative | very useful data, very time consuming |
+| direct observation in a controlled environment | capturing details | quantitative and qualitative | situation can be artificial/unrealistic |
+| indirect observation | automatic or remote | quantitative and qualitative | hard to analyse lots of data, can be authentic |
 
 ## Adapting for Different Participants
 
@@ -540,10 +609,9 @@ TODO
 - **animals(!):** hard to interpret behaviour, need to design interfaces to work without hurting animals [@mancini-aci:2017]
 :::
 ::: {.column width="40%"}
-TODO
+![ACI is real! (Photo by Alison Pang on Unsplash)](img/alison-pang-YJVD4Ddczjo-unsplash.jpg)
 :::
 ::::::::::::::
-
 
 ## Gathering Data Remotely
 
@@ -571,7 +639,6 @@ TODO
 - Interviews are slow but are a deep approach.
 - Interviews also require good conversational skills and experience to conduct well.
 
-<!-- What else is needed? -->
 
 ## Questions
 
