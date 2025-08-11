@@ -399,13 +399,11 @@ Questions might be something like:
 - Let's look at some examples that are typical in HCI:
   - System Usability Scale (SUS) [@brooke-sus:1995; @uiuxtrend2024sus]
   - NASA Task Load Index (TLX) 
-
-
-  <!-- TODO - Creativity Support Index -->
+  - Creativity Support Index (CSI) [@carroll-csi:2009; @cherry-csi:2014]
 
 <!-- https://www.nngroup.com/articles/measuring-perceived-usability/ -->
 
-<!-- TODO Net Promoter Score NPS https://www.nngroup.com/articles/nps-ux/ -->
+<!-- Net Promoter Score NPS https://www.nngroup.com/articles/nps-ux/ -->
 
 ## System Usability Scale Questions
 
@@ -437,10 +435,25 @@ Questions might be something like:
 5. How hard did you have to work to accomplish your level of performance?
 6. How insecure, discouraged, irritated, stressed and annoyed were you?
 
-[Worksheets provided!](https://ntrs.nasa.gov/citations/20000021488), [@hart-nasa-tlx:1988]
+[Worksheets provided!](https://ntrs.nasa.gov/citations/20000021488), [@hart-nasa-tlx:1988], extra questions [weight the ratings](https://humansystems.arc.nasa.gov/groups/tlx/).
 :::
 ::: {.column width="40%"}
 ![NASA TLX](img/NasaTLX.png)
+:::
+::::::::::::::
+
+## Creativity Support Index
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- **Idea:** measure how well a system can support creativity [@carroll-csi:2009, @cherry-csi:2014]
+- **creativity support tools:** writing, visualisation, video editing, music tools etc
+- creativity is a bit hard to define, but the CSI includes:
+  - exploration, expressiveness, immersion, enjoyment, results worth effort, collaboration
+- inspired by TLX, 2 questions per factor + 15 paired comparisons.
+:::
+::: {.column width="40%"}
+![creativity support index using a visual analogue scale (VAS) [@cherry-csi:2014]](img/creativity-support-index-2014.jpg){width=70%}
 :::
 ::::::::::::::
 
