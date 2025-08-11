@@ -21,10 +21,10 @@ title-slide-attributes:
 
 **New module: user research,  data, analysis, evaluation**
 
-1. Plan and run data gathering sessions
-2. Plan and run an interview
-3. Design a questionnaire
-4. Plan and carry out observation
+1. plan data gathering sessions
+2. plan and run an interview
+3. design a questionnaire
+4. understand observation studies
 
 # Main issues in data gathering
 
@@ -250,7 +250,7 @@ A small initial study to help plan a larger study.
 ::: {.column width="60%"}
 Let's plan a _semi-structured_ interview!
 
-> We need to understand student's user experience with the "catchbox": a soft microphone used during lectures.
+> What questions should be asked in a semi structured interview about student's user experience with the "catchbox" (soft microphone used during lectures)?
 
 Use the poll everywhere link to suggest interview questions and vote on the best ones.
 
@@ -477,9 +477,11 @@ Questions might be something like:
 ::: {.column width="60%"}
 Let's write a questionnaire about ANU students' class enrolment experience.
 
-- What questions should we ask?
+- What questions should we ask on a questionnaire about ANU student's enrolment experience? If closed list options, if open write "(open question)"
 
-Talk for 2-3 minutes then let's have some discussion.
+Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.com​/charlesmarti205), then let's have some discussion.
+
+<https://PollEv.com​/charlesmarti205>
 :::
 ::: {.column width="40%"}
 ![ANU course enrolment.](img/anu-enrolment-experience.jpg)
@@ -608,14 +610,24 @@ Talk for 2-3 minutes then let's have some discussion.
 
 ## Activity: Would you rather (observation edition)
 
-Would you rather:
 
-1. observe / be observed directly in the wild
-2. observe / be observed directly in a lab
-3. observe / be observed indirectly through a diary
-4. observe / be observed indirectly through a data analytics
 
-Discuss for 2-3 minutes in groups and then we will hear some responses!
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+As an HCI researcher, would you rather:
+
+1. observe directly in the wild
+2. observe directly in a lab
+3. observe indirectly through a diary
+4. observe indirectly through data analytics
+
+Discuss for 2-3 minutes in groups, rank on [PollEverywhere](https://pollev.com/charlesmarti205), and then we will hear some responses!
+:::
+::: {.column width="40%"}
+![PollEverywhere link: <https://pollev.com/charlesmarti205>](img/polleverywhere-charles-qr.png)
+:::
+::::::::::::::
+
 
 # Data Gathering in Practice
 
@@ -686,8 +698,21 @@ Back to our issues:
 - Interviews are slow but are a deep approach.
 - Interviews also require good conversational skills and experience to conduct well.
 
-## Questions
+## Questions: Who has a question?
 
-Who has a question?
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+**Who has a question?**
+
+- I can take _cathchbox_ question up until 2:55
+- For after class questions: meet me outside the classroom at the bar (for 30 minutes)
+- Feel free to ask about **any aspect of the course**
+- Also feel free to ask about **any aspect of computing at ANU**! I may not be able to help, but I can listen.
+
+:::
+::: {.column width="40%"}
+![Meet you _at the bar_ for questions. 🍸🥤🫖☕️ Unfortunately no drinks served! 🙃](img/kambri-bar.jpg)
+:::
+::::::::::::::
 
 # References {.allowframebreaks}
