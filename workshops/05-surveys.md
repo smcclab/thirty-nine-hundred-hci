@@ -18,10 +18,36 @@ In today's tutorial, you will do a mock survey with a user interface that we pro
 
 ## Plan for the Class
 
+In this class, you will:
 
+1. Practice administering the SUS or TLX (25 minutes)
+2. Analyse your quantitative data (40 minutes)
+3. Discuss what you learned (15 minutes)
 
 ## In-Class Tasks
 
+### 0. Discuss pre-class responses (10 minutes)
+
+The tutor will bring up the pre-class responses on the big screen and lead you in a discussion. Some questions might be:
+
+- What kind of survey or rating scale did you choose?
+- When might you use this survey or rating scale?
+- How long might it take for a user to complete this scale?
+- What kinds of issues or difficulties might a user encounter when completing this scale?
+
+### 1. Administer the SUS or TLX
+TODO
+
+### 2. Analyse your quantitive data
+TODO
+
+### 3. Discuss your key learnings
+
+Your tutor will lead you in a discussion about what you learned from using the SUS or TLX, and analysis process. 
+
+- What did you find?
+- How easy or difficult was it to use the scale?
+- What would you do differently next time?
 
 ## Resources
 
