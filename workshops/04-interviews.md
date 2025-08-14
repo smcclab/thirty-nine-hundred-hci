@@ -20,7 +20,7 @@ The intended learning outcomes of this tutorial are to:
 You should complete the following activities prior to attending your
 tutorial:
 
-1.  Review the **Week 3** lecture content on Interviews
+1.  Review the lecture content on Data Gathering
 
 2.  Read **Chapter 8 Data Gathering**, Section 8.4 Interviews (pp.
     268-278) in Sharp et al. 2019 *Interaction Design: Beyond
@@ -38,7 +38,21 @@ tutorial:
     Machinery, New York, NY, USA, Article 159, 1--16.
     <https://doi-org.virtual.anu.edu.au/10.1145/3411764.3445737>*
 
+<!-- something like write 5 questions about _something_ -->
+<!-- post on the forum, comment on someone elses post (?) what aspect? -->
+
+
 ## Plan for the Class
+
+<!-- roleplaying -->
+<!-- scaffolding the group activities, reflections on the question (open, closed), what is the answer, what is expected/needed, what is the goal? -->
+<!-- probing question, leading questions,  -->
+
+
+<!-- 10 minutes for roll and start up -->
+<!-- 5 mins for announcements -->
+<!-- maybe first 30 minutes is about critique, categorisation and improvement of the questions from the pre-class tasks -->
+<!-- next 45 role-playing -->
 
 The tutorial will follow this structure:
 
