@@ -9,13 +9,17 @@ Questionnaires like the SUS and TLX are widely used in assessing how users perce
 
 In today's tutorial, you will do a mock survey with a user interface and the SUS. You will collect data together with others in the class and calculate descriptive statistics, generate plots, and perform significance testing using Python.
 
+**NOTE:** Bring your computer to class!
 
 ## Pre-Class Tasks
 
 1. Read the following article from NNgroup on the SUS and TLX: <https://www.nngroup.com/articles/measuring-perceived-usability/>
 2. Find a quantitative or rating-scale style survey somewhere in the world, take a photo or screenshot.
 3. Post on the forum with your image and explain: 1) what the survey is and where you found it, 2) what type of data is captured, 3) how it is similar or different to the SUS and NASA TLX discussed in the article.
-4. Optional (in case the wifi is slow or no internet): make sure you have Python installed on your laptop and can access a Python notebook of your choice (we recommend Jupyter Notebook). Bring your computer to class!
+4. In this tutorial, we will be using **Python**.  
+   You will need either:  
+   1) An active **Google account** to use [Google Colab](https://colab.google/) (runs in your browser, no installation required), **OR**  
+   2) **Python installed on your laptop** along with a notebook environment of your choice (we recommend [Jupyter Notebook](https://jupyter.org/)). 
 
 ## Plan for the Class
 
@@ -56,8 +60,8 @@ In pairs:
 
 Your tutor will share a spreadsheet for everyone to enter their results into. (So we can compare the findings across groups, i.e. to compare which technologies' usability scores were better/worse.)
 
-- Collate/enter the results from the survey you administered the **shared** spreadsheet (e.g. MS Excel).
-- Make sure you only enter the data against the participant ID of your participant
+- Collate/enter the results from the survey you administered into the **shared** spreadsheet (e.g. MS Excel).
+- Make sure you only enter the data against the participant ID of your participant!
 
 ### 3. Analyse your quantitative data (40 minutes)
 
