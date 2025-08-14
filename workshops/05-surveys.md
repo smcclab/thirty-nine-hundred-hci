@@ -105,11 +105,79 @@ Your tutor will share a spreadsheet for everyone to enter their results into. (S
    # (Optional) quick check of the results
    print(df["SUS_score"].describe())
    
-7. Get the descriptive statistics. What are the min, max, and mean SUS scores? What is the standard deviation?
-8. Plot a histogram of your data. How is the data shaped? Does it look evenly spread?
-9. Create a boxplot. Are there any outliers?
-10. Compare the findings. Which technology had better/worse usability?
-11. Post your findings in the class thread.
+7. **Get the descriptive statistics**  
+   Find the minimum, maximum, mean, and standard deviation of the SUS scores for each group.
+
+   ```python
+   # --- Descriptive statistics ---
+   print("\nDescriptive stats by group:")
+   print(df.groupby("group")["SUS_score"].describe().round(2))
+
+8. **Plot a histogram of your data**  
+   Look at the shape of the distribution for each group.  
+   Is the data evenly spread, skewed, or clustered?
+
+   ```python
+   # --- Histogram ---
+   df["SUS_score"].hist(by=df["group"], bins=10, edgecolor="black", layout=(1, 2))
+   plt.suptitle("Distribution of SUS Scores by Group")
+   plt.show()
+
+9. **Create a boxplot**  
+   Compare the median, quartiles, and range of SUS scores for each group.  
+   Look for any outliers (points that sit far from the rest of the data).
+
+   ```python
+   # --- Boxplot ---
+   df.boxplot(column="SUS_score", by="group")
+   plt.title("SUS Scores by Group")
+   plt.suptitle("")
+   plt.ylabel("SUS (0–100)")
+   plt.show()
+
+10. **Compare the findings**  
+    Use Welch’s t-test to check whether there is a statistically significant difference in SUS scores between the two groups.  
+    The output will also show which group had the higher average score.  
+    **Interpretation guide:**  
+    - If `p < 0.05`: The difference is considered statistically significant (unlikely due to chance).  
+    - If `p ≥ 0.05`: The difference is *not* statistically significant (could be due to random variation).
+
+    ```python
+    # --- Between-groups comparison (Welch’s t-test) ---
+    groups = [g["SUS_score"].dropna().values for _, g in df.groupby("group")]
+
+    if len(groups) == 2:
+        g1, g2 = groups
+        group_names = list(df["group"].unique())
+
+        # Welch’s t-test
+        t = stats.ttest_ind(g1, g2, equal_var=False)
+
+        # Means for each group
+        mean_g1, mean_g2 = np.mean(g1), np.mean(g2)
+
+        print(f"Welch’s t-test: t = {t.statistic:.2f}, p = {t.pvalue:.3f}")
+        print(f"Mean SUS for {group_names[0]}: {mean_g1:.2f}")
+        print(f"Mean SUS for {group_names[1]}: {mean_g2:.2f}")
+
+        # Interpret significance
+        if t.pvalue < 0.05:
+            print("Result: Statistically significant difference (p < 0.05).")
+        else:
+            print("Result: No statistically significant difference (p ≥ 0.05).")
+
+        # Which group scored higher
+        if mean_g1 > mean_g2:
+            print(f"{group_names[0]} had higher usability scores.")
+        elif mean_g2 > mean_g1:
+            print(f"{group_names[1]} had higher usability scores.")
+        else:
+            print("Both groups had the same average score.")
+    else:
+        print("Need exactly two groups for comparison.")
+    ```
+       
+11. Post your findings and plots in the class thread!
 
 ### 3. Discuss your key learnings (10 minutes)
 
