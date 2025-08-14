@@ -179,6 +179,27 @@ Your tutor will share a spreadsheet for everyone to enter their results into. (S
        
 11. Post your findings and plots in the class thread!
 
+#### Important Notes
+
+This activity is a **quick introduction** to using the System Usability Scale (SUS) and basic statistical comparison in Python.  
+In real usability studies, **statistical tests have specific conditions and assumptions** that must be checked before deciding which analysis is appropriate.  
+
+For example:
+- **Welch’s t-test** assumes the data are approximately normally distributed and the two groups are independent.
+- **Sample size** affects the reliability of your results — small samples may fail to detect real differences or may exaggerate differences due to chance.
+- **Experimental design** (within- vs between-subjects) changes which test you should use and how you interpret results.
+
+We have **skipped these detailed checks** in this exercise to focus on learning the mechanics of:
+1. Scoring the SUS
+2. Performing basic descriptive statistics
+3. Running a simple between-groups comparison
+
+**In practice**, you should:
+- Plan your study with a **power analysis** to determine the needed sample size.
+- Choose an analysis method that matches your design and data type.
+- Check the assumptions of the test you run.
+- Interpret statistical significance alongside **practical significance** (effect size, context, and stakeholder needs).
+
 ### 3. Discuss your key learnings (10 minutes)
 
 Your tutor will lead you in a discussion about what you learned from using the SUS and the analysis process. 
