@@ -15,7 +15,7 @@ In today's tutorial, you will do a mock survey with a user interface and the SUS
 1. Read the following article from NNgroup on the SUS and TLX: <https://www.nngroup.com/articles/measuring-perceived-usability/>
 2. Find a quantitative or rating-scale style survey somewhere in the world, take a photo or screenshot.
 3. Post on the forum with your image and explain: 1) what the survey is and where you found it, 2) what type of data is captured, 3) how it is similar or different to the SUS and NASA TLX discussed in the article.
-4. Make sure you have Python installed on your laptop and can access a Python notebook of your choice. Bring your computer to class!
+4. Optional (in case the wifi is slow or no internet): make sure you have Python installed on your laptop and can access a Python notebook of your choice (we recommend Jupyter Notebook). Bring your computer to class!
 
 ## Plan for the Class
 
@@ -38,7 +38,10 @@ The tutor will bring up the pre-class responses on the big screen and lead you i
 
 ### 1. Administer the SUS (20 minutes)
 
-Your tutor will allocate you a technology to be evaluated, with a task for the user to evaluate using the technology.
+Your tutor will allocate a technology to be evaluated, with a task for the user to evaluate using the technology e.g. .
+
+- Technology: Qantas (Group 1) or Virgin Australia (Group 2) - or some other comparable technology
+- User Task: Book a domestic flight from Canberra to Hobart (Do not proceed to payment!)
 
 In pairs:
 
@@ -48,7 +51,7 @@ In pairs:
 
 ### 2. Analyse your quantitative data (40 minutes)
 
-Your tutor will share a spreadsheet for everyone to enter their results into. (So we can compare the findings across groups i.e. to compare which technologies usability scores were better/worse.)
+Your tutor will share a spreadsheet for everyone to enter their results into. (So we can compare the findings across groups, i.e. to compare which technologies' usability scores were better/worse.)
 
 In your group: 
 
@@ -56,14 +59,32 @@ In your group:
 
 Individually:
 
-2. Import the class data into a Python notebook (e.g. Jupyter Notebook, JupyterLab, etc.)
-3. Reverse code the negatively worded items (for the SUS, these are the even-numbered items)
-4. Calculate the SUS score for each participant
-5. Get the descriptive statistics. What are the min, max, and mean SUS scores? What is the standard deviation?
-6. Plot a histogram of your data. How is the data shaped? Does it look evenly spread?
-7. Create a boxplot. Are there any outliers?
-8. Compare the findings. Which technology had better/worse usability?
-9. Post your findings in the class thread.
+1. Go to Google Colaboratory (colab) and start a **New Notebook**: <https://colab.google/>
+2. In Colab, drag the class data spreadsheet file into **Files**
+3. In the code cell, load your data into a dataframe:
+   
+   ```python
+    import pandas as pd, numpy as np
+    from scipy import stats
+    import matplotlib.pyplot as plt
+    
+    # --- Load ---
+    df = pd.read_csv("sus_dummy_two_groups.csv")  # replace file name
+    
+    SUS = [f"SUS{i}" for i in range(1, 11)]
+    POS = ["SUS1","SUS3","SUS5","SUS7","SUS9"]
+    NEG = ["SUS2","SUS4","SUS6","SUS8","SUS10"]
+    
+    df  # show dataframe
+   ```
+   
+5. Reverse code the negatively worded items (for the SUS, these are the even-numbered items)
+6. Calculate the SUS score for each participant
+7. Get the descriptive statistics. What are the min, max, and mean SUS scores? What is the standard deviation?
+8. Plot a histogram of your data. How is the data shaped? Does it look evenly spread?
+9. Create a boxplot. Are there any outliers?
+10. Compare the findings. Which technology had better/worse usability?
+11. Post your findings in the class thread.
 
 ### 3. Discuss your key learnings (10 minutes)
 
