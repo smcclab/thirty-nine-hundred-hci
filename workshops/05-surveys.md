@@ -38,48 +38,73 @@ The tutor will bring up the pre-class responses on the big screen and lead you i
 
 ### 1. Administer the SUS (20 minutes)
 
-Your tutor will allocate a technology to be evaluated, with a task for the user to evaluate using the technology e.g. .
+Your tutor will allocate a technology to be evaluated, with a task for the user to evaluate using the technology, e.g.:
 
 - Technology: Qantas (Group 1) or Virgin Australia (Group 2) - or some other comparable technology
 - User Task: Book a domestic flight from Canberra to Hobart (Do not proceed to payment!)
+
+Your tutor will also provide you with a participant identifier (participant ID).
 
 In pairs:
 
 - Take turns acting as the user and the researcher.
 - As the researcher, welcome the user to the experiment, and give them instructions (i.e. ask the user to do the task and then complete the provided SUS to evaluate the user experience)
-- Make sure they record their answers in the survey; you will need these for the next task!
+- Make sure the user records their answers in the survey; you will need these for the next task!
+- Make sure the user's participant ID is recorded on the user's completed survey!
 
-### 2. Analyse your quantitative data (40 minutes)
+### 2. Collate your data (5 minutes)
 
 Your tutor will share a spreadsheet for everyone to enter their results into. (So we can compare the findings across groups, i.e. to compare which technologies' usability scores were better/worse.)
 
-In your group: 
+- Collate/enter the results from the survey you administered the **shared** spreadsheet (e.g. MS Excel).
+- Make sure you only enter the data against the participant ID of your participant
 
-1. Collate/enter your data in the **shared** spreadsheet (e.g. MS Excel).
+### 3. Analyse your quantitative data (40 minutes)
 
-Individually:
+**Individually:**
 
-1. Go to Google Colaboratory (colab) and start a **New Notebook**: <https://colab.google/>
-2. In Colab, drag the class data spreadsheet file into **Files**
-3. In the code cell, load your data into a dataframe:
-   
+1. Go to Google Colaboratory and start a **New Notebook**: <https://colab.google/>
+2. In Colab, drag the class data spreadsheet file into the **Files** pane.
+3. In a new code cell, load your data into a DataFrame:
+
    ```python
-    import pandas as pd, numpy as np
-    from scipy import stats
-    import matplotlib.pyplot as plt
-    
-    # --- Load ---
-    df = pd.read_csv("sus_dummy_two_groups.csv")  # replace file name
-    
-    SUS = [f"SUS{i}" for i in range(1, 11)]
-    POS = ["SUS1","SUS3","SUS5","SUS7","SUS9"]
-    NEG = ["SUS2","SUS4","SUS6","SUS8","SUS10"]
-    
-    df  # show dataframe
-   ```
+   import pandas as pd, numpy as np
+   from scipy import stats
+   import matplotlib.pyplot as plt
+
+   # --- Load ---
+   df = pd.read_csv("sus_dummy_two_groups.csv")  # replace with your file name
+
+   SUS = [f"SUS{i}" for i in range(1, 11)]
+   df  # show the DataFrame
    
-5. Reverse code the negatively worded items (for the SUS, these are the even-numbered items)
-6. Calculate the SUS score for each participant
+4. Recode the positively worded SUS items (items 1, 3, 5, 7, and 9) by subtracting 1 from each response, so that their values range from 0 (“Strongly Disagree”) to 4 (“Strongly Agree”):
+
+   ```python
+   POS = ["SUS1","SUS3","SUS5","SUS7","SUS9"]
+   df[POS] = df[POS] - 1
+   
+5. **Reverse code** the negatively worded items (for the SUS, these are the even-numbered items: 2, 4, 6, 8, 10).  
+   This makes the scale consistent so that higher numbers always indicate better usability.
+
+   ```python
+   NEG = ["SUS2","SUS4","SUS6","SUS8","SUS10"]
+   df[NEG] = 5 - df[NEG]
+   
+6. **Calculate the SUS score for each participant**  
+   Make sure all 10 items have been recoded to the 0–4 scale before this step.
+   We’ll remove any rows with missing items, then sum the items (0–40) and scale to 0–100.
+
+   ```python
+   # Remove rows with missing SUS items
+   df = df.dropna(subset=SUS)
+   
+   # Sum (0–40) and scale to 0–100
+   df["SUS_score"] = df[SUS].sum(axis=1) * 2.5
+   
+   # (Optional) quick check of the results
+   print(df["SUS_score"].describe())
+   
 7. Get the descriptive statistics. What are the min, max, and mean SUS scores? What is the standard deviation?
 8. Plot a histogram of your data. How is the data shaped? Does it look evenly spread?
 9. Create a boxplot. Are there any outliers?
