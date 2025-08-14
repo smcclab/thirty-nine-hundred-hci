@@ -77,5 +77,6 @@ Your tutor will lead you in a discussion about what you learned from using the S
 
 - Reverse scoring: <https://agolix.com/blog/tutorials/reverse-scoring-scale-questions/>
 - Using the SUS: <https://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usability-of-your-website/>
+- How to use Jupyter Notebook: <https://www.youtube.com/watch?v=H9Iu49E6Mxs> 
 
 ## References
