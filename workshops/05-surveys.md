@@ -179,14 +179,22 @@ Your tutor will share a spreadsheet for everyone to enter their results into. (S
        
 11. Post your findings and plots in the class thread!
 
-#### Important Notes
+### 3. Discuss your key learnings (10 minutes)
+
+Your tutor will lead you in a discussion about what you learned from using the SUS and the analysis process. 
+
+- What did you find?
+- How easy or difficult was it to use the scale?
+- What would you do differently next time?
+
+## Important Notes
 
 This activity is a **quick introduction** to using the System Usability Scale (SUS) and basic statistical comparison in Python.  
 In real usability studies, **statistical tests have specific conditions and assumptions** that must be checked before deciding which analysis is appropriate.  
 
 For example:
 - **Welch’s t-test** assumes the data are approximately normally distributed and the two groups are independent.
-- **Sample size** affects the reliability of your results — small samples may fail to detect real differences or may exaggerate differences due to chance.
+- **Sample size** affects the reliability of your results; small samples may fail to detect real differences or may exaggerate differences due to chance.
 - **Experimental design** (within- vs between-subjects) changes which test you should use and how you interpret results.
 
 We have **skipped these detailed checks** in this exercise to focus on learning the mechanics of:
@@ -200,18 +208,14 @@ We have **skipped these detailed checks** in this exercise to focus on learning 
 - Check the assumptions of the test you run.
 - Interpret statistical significance alongside **practical significance** (effect size, context, and stakeholder needs).
 
-### 3. Discuss your key learnings (10 minutes)
-
-Your tutor will lead you in a discussion about what you learned from using the SUS and the analysis process. 
-
-- What did you find?
-- How easy or difficult was it to use the scale?
-- What would you do differently next time?
-
 ## Resources
+
+- Python Tutorial <https://www.w3schools.com/python/default.asp>
+- t-Test <https://datatab.net/tutorial/t-test>
+- How to use Jupyter Notebook (if not using Google Colab): <https://www.youtube.com/watch?v=H9Iu49E6Mxs>
+
+## References
 
 - Reverse scoring: <https://agolix.com/blog/tutorials/reverse-scoring-scale-questions/>
 - Using the SUS: <https://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usability-of-your-website/>
-- How to use Jupyter Notebook: <https://www.youtube.com/watch?v=H9Iu49E6Mxs> 
-
-## References
+- Chapter 9 Data Analysis, Interpretation, and Presentation (Rogers et al)
