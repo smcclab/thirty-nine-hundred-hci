@@ -5,9 +5,9 @@ author: Dr Charles Martin and Karla Kelly
 
 In this class, we will practice administering one of the classic questionnaires in usability, the SUS (System Usability Scale). 
 
-These questionnaires are widely used in assessing how users perceive a user interface. Questionnaires like these are useful in gaining numerical information from a medium to large group of users quickly. They can be particularly useful in comparing different interactive systems, situations or user types as you can use statistical techniques to assess differences between samples. 
+Questionnaires like the SUS and TLX are widely used in assessing how users perceive a user interface. Questionnaires are useful in gaining numerical information from a medium to large group of users quickly. They can be particularly useful in comparing different interactive systems, situations or user types as you can use statistical techniques to assess differences between samples. 
 
-In today's tutorial, you will do a mock survey with a user interface and the SUS instrument. You will collect data together with others in the class and calculate descriptive statistics, generate plots, and perform significance testing using Python.
+In today's tutorial, you will do a mock survey with a user interface and the SUS. You will collect data together with others in the class and calculate descriptive statistics, generate plots, and perform significance testing using Python.
 
 
 ## Pre-Class Tasks
@@ -21,30 +21,24 @@ In today's tutorial, you will do a mock survey with a user interface and the SUS
 
 In this class, you will:
 
-1. Practice administering the SUS (25 minutes)
-2. Analyse your quantitative data (40 minutes)
-3. Discuss what you learned (15 minutes)
+1. Practice administering the SUS
+2. Analyse your quantitative data
+3. Discuss what you learned.
 
 ## In-Class Tasks
 
-### 0. Discuss pre-class responses (5 minutes)
+### 0. Discuss pre-class responses (10 minutes)
 
 The tutor will bring up the pre-class responses on the big screen and lead you in a discussion. Some questions might be:
 
 - What kind of survey or rating scale did you choose?
 - When might you use this survey or rating scale?
 - How long might it take for a user to complete this scale?
-- What kinds of issues or difficulties might a user encounter when completing this scale?
+- What kinds of issues or difficulties might a user encounter when completing this scale? (Consider either as the researcher administering the survey, or the user completing the scale.)
 
-### 1. User Evaluation Planning (10 minutes)
+### 1. Administer the SUS (20 minutes)
 
-In your group, decide on a technology to evaluate. You should also decide on what task you will ask the user to complete using the chosen technology. Some suggestions (but feel free to choose your own!):
-
-- Murray's Bus Website: book a trip to Sydney
-- ANU library: Find a specific book or journal article
-- Coles: Order groceries delivered to your apartment. Buy eggs, leeks, and shampoo
-
-### 2. Administer the SUS (10 minutes)
+Your tutor will allocate you a technology to be evaluated, with a task for the user to evaluate using the technology.
 
 In pairs:
 
@@ -52,24 +46,26 @@ In pairs:
 - As the researcher, welcome the user to the experiment, and give them instructions (i.e. ask the user to do the task and then complete the provided SUS to evaluate the user experience)
 - Make sure they record their answers in the survey; you will need these for the next task!
 
-### 3. Analyse your quantitative data (40 minutes)
-==Note: If we share a joint spreadsheet for the class, we can compare the findings across groups as everyone will have access to the class data. (ie whose was better/worse?)==
+### 2. Analyse your quantitative data (40 minutes)
+
+Your tutor will share a spreadsheet for everyone to enter their results into. (So we can compare the findings across groups i.e. to compare which technologies usability scores were better/worse.)
 
 In your group: 
 
-1. Collate your data in a **shared** spreadsheet (e.g. MS Excel, etc.).
+1. Collate/enter your data in the **shared** spreadsheet (e.g. MS Excel).
 
 Individually:
 
-2. Import your data into a Python notebook (e.g. Jupyter Notebook, JupyterLab, etc.)
+2. Import the class data into a Python notebook (e.g. Jupyter Notebook, JupyterLab, etc.)
 3. Reverse code the negatively worded items (for the SUS, these are the even-numbered items)
 4. Calculate the SUS score for each participant
 5. Get the descriptive statistics. What are the min, max, and mean SUS scores? What is the standard deviation?
 6. Plot a histogram of your data. How is the data shaped? Does it look evenly spread?
 7. Create a boxplot. Are there any outliers?
-8. Post your findings in the class thread.
+8. Compare the findings. Which technology had better/worse usability?
+9. Post your findings in the class thread.
 
-### 4. Discuss your key learnings
+### 3. Discuss your key learnings (10 minutes)
 
 Your tutor will lead you in a discussion about what you learned from using the SUS and the analysis process. 
 
