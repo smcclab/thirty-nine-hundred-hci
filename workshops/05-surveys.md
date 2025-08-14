@@ -43,13 +43,13 @@ Your tutor will allocate a technology to be evaluated, with a task for the user 
 - Technology: Qantas (Group 1) or Virgin Australia (Group 2) - or some other comparable technology
 - User Task: Book a domestic flight from Canberra to Hobart (Do not proceed to payment!)
 
-Your tutor will also provide you with a participant identifier (participant ID).
+Your tutor will also provide each of you with a participant identifier (participant ID) and a paper copy of the SUS scale.
 
 In pairs:
 
 - Take turns acting as the user and the researcher.
 - As the researcher, welcome the user to the experiment, and give them instructions (i.e. ask the user to do the task and then complete the provided SUS to evaluate the user experience)
-- Make sure the user records their answers in the survey; you will need these for the next task!
+- Make sure the user records their answers on the survey; you will need these for the next tasks!
 - Make sure the user's participant ID is recorded on the user's completed survey!
 
 ### 2. Collate your data (5 minutes)
@@ -179,7 +179,7 @@ Your tutor will share a spreadsheet for everyone to enter their results into. (S
        
 11. Post your findings and plots in the class thread!
 
-### 3. Discuss your key learnings (10 minutes)
+### 4. Discuss your key learnings (10 minutes)
 
 Your tutor will lead you in a discussion about what you learned from using the SUS and the analysis process. 
 
