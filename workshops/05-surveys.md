@@ -177,7 +177,17 @@ Your tutor will share a spreadsheet for everyone to enter their results into. (S
         print("Need exactly two groups for comparison.")
     ```
        
-11. Post your findings and plots in the class thread!
+11. **Summarise your findings in plain language**  
+    After running the t-test and checking your descriptive statistics, write a short summary that anyone could understand.  
+    Post your summary in the class thread!
+
+    **Example reporting template:**
+    ```
+    The mean SUS score for Group 1 (Technology A) was 82.3, which falls in the “Excellent” range.
+    The mean SUS score for Group 2 (Technology B) was 71.5, which falls in the “Good” range.
+    A Welch’s t-test found that the difference was statistically significant (t(24) = 2.30, p = 0.03), indicating that Technology A was rated as significantly more usable for the given task.
+    This suggests that, for this context and task, Technology A may offer a better user experience than Technology B.
+    ```
 
 ### 4. Discuss your key learnings (10 minutes)
 
