@@ -147,7 +147,17 @@ The Tutor will bring you back together for a whole group discussion to reflect o
 -->
 ### What's next? (5 mins)
 ## Resources
-
-
+- **Chapter 8 Data Gathering**, Section 8.4 Interviews (pp.
+    268-278) in Sharp et al. 2019 *Interaction Design: Beyond
+    Human-Computer Interaction* (Sharp, Preece & Rogers 2019) --
+    Available as an e-book through ANU Library website
+- *Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Gamboa,
+    Mohammad Obaid, and Morten Fjeld. 2021. What Matters in Professional
+    Drone Pilots' Practice? An Interview Study to Understand the
+    Complexity of Their Work and Inform Human-Drone Interaction
+    Research. In Proceedings of the 2021 CHI Conference on Human Factors
+    in Computing Systems (CHI \'21). Association for Computing
+    Machinery, New York, NY, USA, Article 159, 1--16.
+    <https://doi-org.virtual.anu.edu.au/10.1145/3411764.3445737>*
 
 ## References
