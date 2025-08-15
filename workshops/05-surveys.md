@@ -42,26 +42,35 @@ The tutor will bring up the pre-class responses on the big screen and lead you i
 
 ### 1. Administer the SUS (20 minutes)
 
-Your tutor will allocate a technology to be evaluated, with a task for the user to evaluate using the technology, e.g.:
+Your tutor will allocate a **technology** for you to evaluate, along with a **task** to complete using that technology. For example:
 
-- Technology: Qantas (Group 1) or Virgin Australia (Group 2) - or some other comparable technology
-- User Task: Book a domestic flight from Canberra to Hobart (Do not proceed to payment!)
+- **Technology:** Qantas (Group 1) or Virgin Australia (Group 2) — or another comparable technology
+- **User Task:** Book a domestic flight from Canberra to Hobart (*Do not proceed to payment!*)
 
-Your tutor will also provide each of you with a participant identifier (participant ID) and a paper copy of the SUS scale.
+Your tutor will also give you:
+- A **participant identifier (participant ID)**
+- A **paper copy of the SUS questionnaire**
 
-In pairs:
-
-- Take turns acting as the user and the researcher.
-- As the researcher, welcome the user to the experiment, and give them instructions (i.e. ask the user to do the task and then complete the provided SUS to evaluate the user experience)
-- Make sure the user records their answers on the survey; you will need these for the next tasks!
-- Make sure the user's participant ID is recorded on the user's completed survey!
+**In pairs:**
+1. Take turns acting as the **user** and the **researcher**.
+2. As the **researcher**:
+   - Welcome the user to the study.
+   - Ask for their consent to participate.
+   - Give the task instructions (e.g., *"Please complete the task, then fill in the SUS questionnaire to rate your experience"*).
+3. Make sure the user:
+   - Completes the task.
+   - Records their answers on the SUS questionnaire.
+4. Ensure the **participant ID** is written on the completed questionnaire — you will need this for the data entry step.
 
 ### 2. Collate your data (5 minutes)
 
-Your tutor will share a spreadsheet for everyone to enter their results into. (So we can compare the findings across groups, i.e. to compare which technologies' usability scores were better/worse.)
+Your tutor will provide a **shared spreadsheet** for the whole class to enter results.  
+This will allow us to compare SUS scores across groups to see which technology had better or worse usability.
 
-- Collate/enter the results from the survey you administered into the **shared** spreadsheet (e.g. MS Excel).
-- Make sure you only enter the data against the participant ID of your participant!
+- Enter the results from the SUS survey you administered into the **shared** spreadsheet (e.g., Microsoft Excel).
+- Only enter data in the row corresponding to **your participant’s ID**.
+- Double-check that all 10 SUS item scores are entered correctly.
+- Ensure no identifying information other than the participant ID is included.
 
 ### 3. Analyse your quantitative data (40 minutes)
 
