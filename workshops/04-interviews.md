@@ -70,7 +70,7 @@ Your Tutor will ask the following discussion questions:
 - "What is a focus group?"
 
 ### Quizz - Types of interview questions (20 mins)
-a. Your Tutor will ask you the following discussion question:
+a. Your Tutor will ask you the following warm-up question:
 - "What is the difference between open and closed questions?"
 - "What is the difference between leading and neutral questions?"
 - "What are probing questions?
