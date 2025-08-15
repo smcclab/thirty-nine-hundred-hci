@@ -87,17 +87,14 @@ Analyse each question as follows
 
 ### Designing an interview guide individually (15 mins)
 You will undertake the following task individually:  
-Design a semi-structured interview guide on the topic of the pre-class task that you submitted last Week (Week 4). Last week you identified bad design features. This week, your goal is to explore the experience that someone else had with that same object/interface.
+Design a semi-structured interview guide on the topic of the pre-class task that you submitted last Week (Week 4). Last week you identified bad design features. This week, your goal is to explore the experience that someone else had with that object/interface or a similar one.
 
-    i.  Give your interview guide a name
-
-    ii. Write an 'icebreaker question' as a conversation starter to
-        build rapport
-
-    iii. Write 5 interview questions about this topic
-
-    iv. Include a prompt to thank your participants at the end of
-        your interview guide
+    1. Give your interview guide a title
+    2. Briefly introduce the topic.
+    3. Write an 'icebreaker question' as a conversation starter.
+    4. Write 4 interview questions about this topic. Include additional follow-up/probing questions.
+    5. Include a prompt to thank your participants at the end of your interview guide.
+    
 <!-- a.  Your Tutor will ask the following discussion question: How would
     you define a "semi-structured interview" in your own words? Why
     are semi-structured interviews a useful method in HCI research?
@@ -144,6 +141,9 @@ The Tutor will bring you back together for a whole group discussion to reflect o
 3. What did you learn about conducting interviews when working in your pairs?
 4. How might you refine and improve your interview questions based on your experiences and the feedback that you received?
 
+Consider the following:
+- What is the goal of the interview?
+- llll
 <!--
 1. Why are semi-structured interviews a useful method in HCI research?
 2. What was your experience of designing your interview guide? How did you think of ideas for interview questions? Can you share some of your questions with the rest of the class?
