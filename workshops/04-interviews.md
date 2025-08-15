@@ -113,6 +113,10 @@ b.  You will undertake the following task individually: Design a
     iv. Include a prompt to thank your participants at the end of
         your interview guide
 -->
+Consider the following:
+- What is the goal of the interview?
+- .s.s.
+
 ### Conducting your interview in pairs (20 mins)
 
 a.  Choose another person from the tutorial to work with
