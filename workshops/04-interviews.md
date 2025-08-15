@@ -50,12 +50,11 @@ Design a semi-structured interview guide on the topic of the pre-class task that
 
 The tutorial will follow this structure:
 
-1.  Intro and review pre-class tasks (20 mins)
-3.  Analyse sample questions (20 mins)
-4.  Designing a semi-structured interview guide individually (15 mins)
-5.  Role-playing interviews in pairs (30 mins)
-6.  Reporting back and reflecting (10 mins)
-7.  What's next (5 mins)
+0.  Intro and review pre-class tasks (20 mins)
+1.  Analyse sample questions (20 mins)
+2.  Designing a semi-structured interview guide (10 mins)
+3.  Test interviews in pairs (30 mins)
+4.  Reporting back and reflecting (10 mins)
 
 ## In-Class Tasks
 

@@ -102,7 +102,6 @@ title-slide-attributes:
 - Questionnaires: enter into spreadsheets, clean up data, filter into datasets
 - Observations: expand notes, transcribe recordings, edit videos, synchronise and clean up interaction data
 
-
 # Basic Quantitative Analysis
 
 ![What do we do with quantitative data once we have some?]()
@@ -112,60 +111,136 @@ title-slide-attributes:
 _what's the average_ of a set of values?
 
 - **Mean:** sum of the values divided by the number of entries.
-- **Median:** order the set numerically and find the value in the middle (or if even nmber of entries, halfway between the two middle entries)
+- **Median:** order the set numerically and find the value in the middle (or if even number of entries, halfway between the two middle entries)
 - **Mode:** the most common entry
 
 Example: `[2, 2, 3, 4, 873]`
 
-## Spread of 
+## Spread of data
 
-- 
+TODO
+
+## Plotting Data
+
+TODO
+
+## Comparing data
+
+TODO
+
+## Statistical tests
+
+TODO
+
+## Independent Samples _t_-test
+
+TODO
 
 ## Quantitative Analysis with Python
 
+TODO
+
 # Basic Qualitative Analysis
+
+TODO
+
 
 ## Analysing Video Material
 
+TODO
+
+
 ## Identifying Themes
+
+TODO
+
 
 ## What is a theme, and why does it matter?
 
+TODO
+
+
 ## Affinity Diagram
+
+TODO
+
 
 ## Categorising Data
 
+TODO
+
+
 ## Critical Incident Analysis
+
+TODO
 
 # Analytical Frameworks
 
+TODO
+
+
 ## Conversation Analysis
+
+TODO
+
 
 ## Discourse Analysis
 
+TODO
+
+
 ## Content Analysis
+
+TODO
+
 
 ## Interaction Analysis
 
+TODO
+
+
 ## Grounded Theory
+
+TODO
+
 
 ## Grounded Theory Example
 
+TODO
+
+
 ## Systems-Based Frameworks
+
+TODO
+
 
 ### Socio-technical Systems Theory
 
+TODO
+
 ### Distributed Cognition of Teamwork
+
+TODO
 
 ### Which Analytical Framework to Use?
 
+TODO
+
 # Interpreting and Presenting Findings
+
+TODO
 
 ## Structured Notations
 
+TODO
+
 ## Using Stories
 
+TODO
+
 ## Summarising Findings
+
+TODO
 
 
 
