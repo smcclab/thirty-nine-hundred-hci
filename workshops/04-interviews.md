@@ -115,11 +115,12 @@ b.  You will undertake the following task individually: Design a
 -->
 Consider the following:
 - What is the goal of the interview?
-- .s.s.
+- Is the question open or closed?
+- Use neutral questions - avoid leading questions.
 
 ### Conducting your interview in pairs (20 mins)
 
-a.  Choose another person from the tutorial to work with.
+a.  Choose another person from the tutorial to work with.  
 b.  Practice asking the person the questions from your interview guide.
 
     i.  Try and ask at least one follow-up questions that relates to
@@ -138,9 +139,6 @@ The Tutor will bring you back together for a whole group discussion to reflect o
 3. What did you learn about conducting interviews when working in your pairs?
 4. How might you refine and improve your interview questions based on your experiences and the feedback that you received?
 
-Consider the following:
-- What is the goal of the interview?
-- llll
 <!--
 1. Why are semi-structured interviews a useful method in HCI research?
 2. What was your experience of designing your interview guide? How did you think of ideas for interview questions? Can you share some of your questions with the rest of the class?
