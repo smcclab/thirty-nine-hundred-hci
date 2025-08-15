@@ -86,7 +86,7 @@ Analyse each question as follows
 - 3rd run: Identify probing questions -> Mark the card with a P.
 
 ### Designing an interview guide individually (15 mins)
-You will undertake the following task individually:  
+You will undertake the following task by yourself:  
 Design a semi-structured interview guide on the topic of the pre-class task that you submitted last Week (Week 4). Last week you identified bad design features. This week, your goal is to explore the experience that someone else had with that object/interface or a similar one.
 
     1. Give your interview guide a title
@@ -119,18 +119,16 @@ Consider the following:
 
 ### Conducting your interview in pairs (20 mins)
 
-a.  Choose another person from the tutorial to work with
-
-b.  Practice asking the person the questions from your interview
-    guide
+a.  Choose another person from the tutorial to work with.
+b.  Practice asking the person the questions from your interview guide.
 
     i.  Try and ask at least one follow-up questions that relates to
         their responses, but was not in your original interview
         guide
 
-c.  Do not record or write down their responses.
-d.  Write brief notes of any feedback and suggestions that you have for your interviewer.
-e.  Give the other person feedback on their interview questions.
+c.  Do not record or write down their responses.  
+d.  Write brief notes of any feedback and suggestions that you have for your interviewer.  
+e.  Give feedback.  
 f.  Swap roles after 10 minutes.
 
 ### Reporting back and reflecting (10 mins)
