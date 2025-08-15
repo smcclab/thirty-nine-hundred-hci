@@ -44,7 +44,6 @@ tutorial:
 
 ## Plan for the Class
 
-<!-- roleplaying -->
 <!-- scaffolding the group activities, reflections on the question (open, closed), what is the answer, what is expected/needed, what is the goal? -->
 <!-- probing question, leading questions,  -->
 
@@ -55,16 +54,51 @@ tutorial:
 <!-- next 45 role-playing -->
 
 The tutorial will follow this structure:
-
-2.  Designing an interview guide individually (10 mins)
-3.  Conducting an interview in pairs (20 mins)
-4.  Reporting back and reflecting, and close (10 mins)
+1.  Class roll (5 mins)
+2.  Review - Interviews (5 mins)
+3.  Quizz - Types of interview questions (20 mins)
+4.  Designing a semi-structured interview guide individually (15 mins)
+5.  Role-playing interviews in pairs (30 mins)
+6.  Reporting back and reflecting (10 mins)
+7.  What's next (5 mins)
 
 ## In-Class Tasks
 
-### Designing an interview guide individually (10 mins)
+### Review Types of Interviews (5 mins)
+Your Tutor will ask the following discussion questions: 
+- "What are the key differences between unstructured, structured and semi-structured interviews?" 
+- "What is a focus group?"
 
-a.  Your Tutor will ask the following discussion question: How would
+### Quizz - Types of interview questions (20 mins)
+a. Your Tutor will ask you the following discussion question:
+- "What is the difference between open and closed questions?"
+- "What is the difference between leading and neutral questions?"
+- "What are probing questions?
+- "What makes a good interview question?"
+- "How might the type of questions influence the data you collect?"
+
+b. Quizz - Types of interview questions  
+You will work in small groups of 3-5 students. Each group will receive a set of cards containing a mix of interview questions.
+<!--to scaffold cogntive load and structure their analysis process: --> 
+Analyse each question as follows
+- 1st run: Is it a closed question or an open question? Mark the card with a C for closed and an O for open.
+- 2nd run: Check for bias -> Is it a leading question or is it neutral? Mark the card with an L for leading and N for neutral.
+- 3rd run: Identify probing questions -> Mark the card with a P.
+
+### Designing an interview guide individually (15 mins)
+You will undertake the following task individually:  
+Design a semi-structured interview guide on the topic of the pre-class task that you submitted last Week (Week 4). Last week you identified bad design features. This week, your goal is to explore the experience that someone else had with that same object/interface.
+
+    i.  Give your interview guide a name
+
+    ii. Write an 'icebreaker question' as a conversation starter to
+        build rapport
+
+    iii. Write 5 interview questions about this topic
+
+    iv. Include a prompt to thank your participants at the end of
+        your interview guide
+<!-- a.  Your Tutor will ask the following discussion question: How would
     you define a "semi-structured interview" in your own words? Why
     are semi-structured interviews a useful method in HCI research?
 
@@ -81,7 +115,7 @@ b.  You will undertake the following task individually: Design a
 
     iv. Include a prompt to thank your participants at the end of
         your interview guide
-
+-->
 ### Conducting your interview in pairs (20 mins)
 
 a.  Choose another person from the tutorial to work with
@@ -103,18 +137,20 @@ d.  Give the other person feedback on their interview questions and
 e.  Make sure to swap over the interviewer and interviewee after 10
     minutes
 
-### Reporting back and reflecting, and close (10 mins)
+### Reporting back and reflecting (10 mins)
+The Tutor will bring you back together for a whole group discussion to reflect on what you learnt and observed. Think about the following questions:
+1. Why are semi-structured interviews a useful method in HCI research?
+2. What was your experience of designing your interview guide?
+3. What did you learn about conducting interviews when working in your pairs?
+4. How might you refine and improve your interview questions based on your experiences and the feedback that you received?
 
-The Tutor will bring you back together for a whole group
-discussion to reflect on what you learnt and observed. Think
-about the following questions:
-
+<!--
 1. Why are semi-structured interviews a useful method in HCI research?
 2. What was your experience of designing your interview guide? How did you think of ideas for interview questions? Can you share some of your questions with the rest of the class?
 3. What did you learn about conducting interviews when working in your pairs? What kinds of feedback did you receive from your interview partner?
 4. How might you refine and improve your interview questions based on your experiences and the feedback that you received?
-
-
+-->
+### What's next? (5 mins)
 ## Resources
 
 
