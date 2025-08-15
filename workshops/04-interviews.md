@@ -128,15 +128,10 @@ b.  Practice asking the person the questions from your interview
         their responses, but was not in your original interview
         guide
 
-c.  Do not record or write down their responses, but note down any
-    feedback and suggestions that you have for your interviewer
-    about their technique
-
-d.  Give the other person feedback on their interview questions and
-    technique
-
-e.  Make sure to swap over the interviewer and interviewee after 10
-    minutes
+c.  Do not record or write down their responses.
+d.  Write brief notes of any feedback and suggestions that you have for your interviewer.
+e.  Give the other person feedback on their interview questions.
+f.  Swap roles after 10 minutes.
 
 ### Reporting back and reflecting (10 mins)
 The Tutor will bring you back together for a whole group discussion to reflect on what you learnt and observed. Think about the following questions:
