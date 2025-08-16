@@ -176,73 +176,202 @@ TODO
 
 # Analytical Frameworks
 
-TODO
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- different approaches can guide qualitative analysis 
+- **granularity:** from fine-grained detailed analysis to broader scope examinations
+- conversation analysis: fine granularity, examines detailed interactions in short conversation fragments
+- systems-based frameworks: coarse granularity, broad group or organisation level analysis
+- useful depending on the research goals
+:::
+::: {.column width="40%"}
+![A framework. May not be analytical. (Photo by Maël GRAMAIN on Unsplash)](img/mael-gramain-TyRcLajqJJ4-unsplash.jpg)
+:::
+::::::::::::::
 
+## Conversation Analysis (CA)
 
-## Conversation Analysis
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- **CA:** examines the semantics of conversations, e.g., turn-taking and interaction
+- e.g., compare conversations in different settings
+- markup with syntax to capture detailed interactions and speech patterns
+- **Square brackets [ ]** indicate overlapping talk between speakers
+- **Round brackets ( )** show pauses in conversation with timing details (e.g., (1.1) = 1.1 second pause)
+- **Physical spacing** represents temporal sequencing to show exactly when things are said in relation to each other
+- aims to reveal subtle cues and conversational mechanisms that might otherwise be missed
+:::
+::: {.column width="40%"}
+```
+01  SUS i'd like to play beat the intro in a minute
+02  LIA   [ oh no: ]
+03  SUS [ alexa ][ (1.1)  ] beat the in[tro
+04  CAR      [ °yeah°; ]
+05  LIA                 [°no:::…°
+06  CAR (0.6) it' mother's day? (0.4)
+07  SUS it's (   ) yep (.) listen (.) you need to keep
+08    on eating your orange stuff (.) liam
+09    (0.7)
+10  CAR and your green stuff
+11  SUS alexa (1.3) alexa (0.5)=
+12  CAR             =°and your brown stuff
+13  SUS play beat the intro
+```
 
-TODO
-
+Conversation with family members and Amazon Alexa with markup from [@porcheron-voice-interfaces:2018]
+:::
+::::::::::::::
 
 ## Discourse Analysis
 
-TODO
-
+- Analysing dialogue: what is said, how words convey meaning
+- Interpreting context, psychological and social aspects of words.
+- Language as social reality, open to interpretation
+- [**Constructivist approach:**](https://www.open.edu/openlearn/health-sports-psychology/critically-exploring-psychology/content-section-3.1) Language as a constructive tool: analyse the process of world construction
+- Identify subtle and implicit meaning between sources
 
 ## Content Analysis
 
-TODO
+- Classifies data into categories and studying frequency of occurrences
+- Applicable to diverse media formats including text, video, images, etc
+- can involve predefined frameworks or classification systems to systematically examine content across specified dimensions
+- can be combined with other analytical techniques such as sentiment analysis
 
+## Interaction Analysis [@jordan-interaction-analysis:1995]
 
-## Interaction Analysis
-
-TODO
-
+- investigate human interactions with each other, artifacts, and technologies using video recordings of naturally occurring activities 
+- **Collaborative team analysis** where researchers watch videos together and discuss observations in real-time, focusing on both verbal and nonverbal interactions
+- **Content logging and category development** through repeated video playing, creating summaries and allowing categories to emerge from discussions and observations
+- **Hypothesis generation** based on observable participant actions and behaviors rather than speculation, requiring evidence from video extracts to support interpretations
+- **Video "cannibalization"** process involving extraction of interesting materials, reclassification of segments, and removal of irrelevant content
+- **Inductive pattern identification** by assembling instances of salient events to determine whether phenomena are robust themes or one-off incidents across multiple examples
 
 ## Grounded Theory
 
-TODO
+Grounded Theory (GT) is an _old and important_ qualitative analysis technique [@glaser-strauss-grounded-theory:1967; @corbin-strauss-grounded-theory:2014]
 
+- main idea: identify _categories_ (a kind of theme) through iterative data collection and analysis.
+- any kind of data but often ethnographic and interview data
+- analysis procedure:
+    - _open coding_: categories, properties and dimensions discovered inn data
+    - _axial coding_: systematically establishing categories/sub-categories
+    - _selective coding_: refine and integrating categories
 
-## Grounded Theory Example
+- _heavier and less flexible in comparison to Reflexive Thematic Analysis_ (not suggested for first-timers)
+- @rogers-beyond-hci:2023 claim that GT "uses reflexive thematic analysis", which I guess is accurate.
 
-TODO
+## Grounded Theory Example: Idle Games
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![Figure 9.9 @rogers-beyond-hci:2023](img/grounded-theory-example-1.png)
+
+GT process for @alharthi-idle-games:2018
+:::
+::: {.column width="50%"}
+![Figure 9.11 @rogers-beyond-hci:2023](img/grounded-theory-example-2.png)
+
+Codes and categories.
+:::
+::::::::::::::
 
 ## Systems-Based Frameworks
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- large projects involve many sources of data and stakeholders
+- e.g., hospital, corporation, local council, airport, (or university...)
+- need ways to understand how the system works together
+- manage complex interdependencies
+- common theme of management speak: "systems thinking"
+:::
+::: {.column width="40%"}
 TODO
+:::
+::::::::::::::
+
+## Socio-technical Systems Theory (STS)
+
+- **STS:** technology and people in a work system are interdependent [@klein-sociotechnical:2014]
+- treat the whole system as a whole, applied in complex work places.
+- More of a philosophy than a methodology, a holistic perspective to address challenges.
+
+### Notable aspects:
+
+1. Task interdependence
+2. Socio-technical systems are "open systems": influenced by environmental factors
+3. Heterogeneity of system components: subsystems have different technical components
+4. Practical contributions: analysing systems, evaluating changes, designing co-optimised systems
+5. Fragmentation of design processes
 
 
-### Socio-technical Systems Theory
+## Distributed Cognition of Teamwork (DiCoT)
 
-TODO
+- Distributed cognition unpacks how multiple people and technologies interact complete tasks and solve problems.
+- DiCoT framework supports this concept with models:
+    - **information flow model**
+    - **physical model**
+    - **artifact model**
+    - **social structure model**
+    - **system evolution model**
+- models have underlying principles, e.g., for physical model:
+    - **horizon of observation:** What an individual can see or hear.
+    - **perceptual:** How spatial representations aid computation.
+    - **arrangement of equipment:** How the physical arrangement of the environment affects access to information.
+- may be particularly useful in collaboration contexts, e.g., software development, medicine
 
-### Distributed Cognition of Teamwork
+## Which Analytical Framework to Use? 
 
-TODO
+| framework | data | focus | outcomes | granularity |
+|---|---|---|---|---|
+| conversation analysis | spoken conversation recordings | process of conversations  | how conversations are processed and progress | words or smaller |
+| discourse analysis | speech or writing | how words convey meaning | implicit or hidden meanings in text | word, phrase |
+| content analysis | written text, video, audio, images | how often something is featured or is spoken about | frequency of items in text | words to artefacts or people |
+| interaction analysis | video of activities | interactions between people and artefacts | how knowledge and action are used in an activity | artifact, dialogue, gesture |
+| grounded theory | empirical data of any kind | building theory from a phenomenon | theory grounded in data | varying levels |
+| systems-based frameworks | large-scale and heterogeneous data | large scale systems of people and technology | organisational insights | macro, organisational level |
 
-### Which Analytical Framework to Use?
-
-TODO
+adapted from @rogers-beyond-hci:2023 table 9.6
 
 # Interpreting and Presenting Findings
 
 TODO
 
+## Biggest Research Writing Tip
+
+- Applies to research projects at Honours, master, PhD and workplace
+- Work with supervisors/mentors/managers to choose methodology and analytical frameworks
+- Read and understand the framework from (recent) scholarly sources (not just `nngroup.com`)
+- Change and evolution is allowed, but understand that there is a wealth of example and established approaches
+- Paraphrase from academic reviewer comments: _"this work cites Braun and Clarke (2006) for reflexive thematic analysis but does not consider newer understandings of this methodology, e.g., Braun and Clarke (2019)..."_
+
 ## Structured Notations
 
-TODO
+- **Domain-specific notation analysis** - Researchers examine notations that arise from specific application domains (e.g., music applications) to understand how they capture domain requirements
+- **Analysis approach notation studies** - Investigation of notations developed from specific analytical methodologies (e.g., conversation analysis notation systems)
+- **Holistic modeling evaluation** - Research into comprehensive notation systems like contextual design work models that capture complete user experiences
+- **Comparative notation assessment** - Methodological approaches that compare different notation types (e.g., acyclic graph vs algebraic models) in terms of their effectiveness for capturing user behaviors
+- **Precision vs. flexibility analysis** - Research methodology examining trade-offs between structured notation advantages (clear syntax, guidance, precision) and disadvantages (limited scope, audience accessibility)
+- **Combined notation strategies** - Methodological approaches that integrate structured notations with flexible formats (stories, narratives) to overcome individual notation limitations
 
 ## Using Stories
 
-TODO
+Context of use and examples of user experience can be seen as stories or narratives.
+
+- Participants tell stories during data gathering which can illustrate research findings.
+- Observations can be framed as stories
+- Stories can be written or in the form of storyboards or videos.
+- Can be used to support research findings and provide authenticity.
 
 ## Summarising Findings
 
-TODO
 
-
+- **Multi-modal presentation approach**: Combine different presentation styles including stories, graphical representations, data excerpts from transcripts/videos, and numerical tables
+- **Data visualization techniques**: Transform tables of numerical data into graphs, diagrams, rigorous notations, workflows, and quotations to illustrate key points
+- **Evidence-based interpretation**: Ensure careful interpretation and presentation of study results to avoid over-emphasizing findings or misrepresenting evidence
+- **Avoid over-generalization**: Exercise caution when using absolute terms like "most," "all," "majority," and "none" without sufficient justification from the data
+- **Statistical interpretation awareness**: Be mindful that statistical results can be misleading (e.g., 8/10 preference doesn't equal 80% superiority)
+- **Sample size considerations**: Larger sample sizes provide stronger evidence but other factors must still be considered in interpretation
 
 ## Questions: Who has a question?
 
