@@ -188,7 +188,21 @@ In this class we'll use Python, numpy, pandas, scipy, seaborn, and matplotlib as
 
 ## Demo time: analysing and plotting data in Python
 
-TODO
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Let's do some _data analysis_
+
+1. Deploy a short questionnaire on PollEverywhere
+2. Download the data from pollev and load it into Google Colab
+3. View descriptive statistics
+4. Plot the data in a few ways
+:::
+::: {.column width="40%"}
+![PollEverywhere link: <https://pollev.com/charlesmarti205>](img/polleverywhere-charles-qr.png)
+:::
+::::::::::::::
+
+
 
 # Basic Qualitative Analysis
 
@@ -275,8 +289,7 @@ A theme is a high level finding from qualitative analysis, but what that means c
 ## Categorising Data
 
 - deductive analysis applies pre-existing theoretical frameworks or categories to analyse data
-- **Categorisation Schemes**: Researchers develop coding frameworks either inductively from the data or deductively from existing theory, which are then iteratively refined as analysis progresses
-- **Transcript Coding Process**: Data is systematically coded using square brackets to segment and categorise specific elements, allowing for detailed pattern identification and quantitative analysis
+- data is systematically coded using square brackets to segment and categorise specific elements, allowing for pattern identification and quantitative analysis
 - **Mixed Analysis Benefits**: Combining observational data with think-aloud protocols provides contextual understanding of user behavior and enables researchers to quantify problems while maintaining qualitative insights
 - **Iterative Framework Development**: Categorisation schemes evolve during analysis to accommodate emerging patterns and specific interaction types observed in the study context
 
@@ -409,7 +422,7 @@ Codes and categories.
 - common theme of management speak: "systems thinking"
 :::
 ::: {.column width="40%"}
-TODO
+![Some kind of system... to be analysed. (Photo by GuerrillaBuzz on Unsplash)](img/guerrillabuzz-7hA2wqBcSF8-unsplash.jpg)
 :::
 ::::::::::::::
 
