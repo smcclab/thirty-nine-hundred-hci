@@ -86,15 +86,17 @@ title-slide-attributes:
 
 **Qualitative Analysis:** find the nature of things, themes, patterns, stories
 
-## Use and Misuse of Numbers
+## Use and Misuse of Data
 
 - It's easy to misuse numerical data and the results of analyses
 - This can particularly happen when transforming the type of data (e.g., agreement ratings to a numerical code)
+- Qualitative data can also be misused, e.g., content of questions reported as a finding.
 
 ### Some example problems
 
 - "50% of users took longer than 30 minutes" vs "2 out of 4 users..."
 - The mean agreement was 3.67
+- (In a study about mobile phone use with many questions about mobile phones) "Participants noted frequent use of mobile phones for many tasks".
 
 ## First Steps
 
@@ -104,7 +106,7 @@ title-slide-attributes:
 
 # Basic Quantitative Analysis
 
-![What do we do with quantitative data once we have some?]()
+![What do we do with quantitative data once we have some? (Photo by Sear Greyson on Unsplash)](img/sear-greyson-K-ZsC7YdJ6Y-unsplash.jpg){width=50%}
 
 ## Centre of a set of data
 
@@ -116,27 +118,75 @@ _what's the average_ of a set of values?
 
 Example: `[2, 2, 3, 4, 873]`
 
+Example shows that outliers mess up _mean_, so _median_ is often more useful.
+
 ## Spread of data
 
-TODO
+_how spread out_ is a set of values?
+
+- **Range:** `max - min`
+- **Standard Deviation:** the _typical distance_ of a value from the mean
+- **Interquartile range:** range of the middle 50% of the data
+
+Similarly to central measures, **interquartile range** is robust against weird outliers
+
+## Normal vs non-normal distributions
+
+The distribution of the data is how it is spread out and where it is bunched up.
+
+- **normal distribution:** a.k.a. bell curve, Gaussian distribution, mean, median, mode are the same, and the data evenly falls either side of the mean
+- **skewed distributions:** data with a weirdly long tail in either direction
+- **multi-modal distributions:** data that seems to have multiple bumps
+
+This matters because statistical tests often assume data is _normal_ so findings might be misleading.
+
+## Descriptive Statistics
+
+First thing to do when loading up data for analysis, calculate:
+
+- minimum, maximum
+- lower and upper quartile
+- median and mean
+- number of data points (count)
+
+**Ask:** are these values what you expected? do they suggest any _interesting_ points about your data?
 
 ## Plotting Data
 
-TODO
+_Second_ thing to do when loading data
 
-## Comparing data
+- Plot the data to see the distribution and compare data points
+- **Scatter plot:** see all the data! good for checking outliers and comparing aspects of data
+- **Histogram:** useful to check distribution
+- **Boxplot:** useful to compare distributions clearly (more abstract) **charles approved plot!**
+- **Bar plots:** really just show one value (mean), may not be useful (too abstract!)
+- **Line plot:** useful for showing data over time, not distributions
 
-TODO
+If plots show something _interesting_ then you can investigate.
 
-## Statistical tests
+## Comparing data and tests
 
-TODO
+- You can compare two sets of data by finding the difference between their centres or other descriptive statistics but **is the difference meaningful?**
+- We use statistical significance to help ascertain meaningful differences that might be a research finding.
+- A classic test is the _t_-test which compares the _means_ of two sets of data, the output of a _t_-test can tell us how likely differences are to be random or **significant** (meaningful)
 
-## Independent Samples _t_-test
+### Signficance test notes
 
-TODO
+- we will come back to this later...
+- _t_-tests assume normality and can only compare simple situations
+- other tests can be used on any non-normal data 📊 and complex datasets (e.g., multiple values from each participants, multiple experimental conditions)
 
 ## Quantitative Analysis with Python
+
+Lots of ways to do data analysis: 
+
+- Excel/spreadsheets can do this a bit, but inferior to coding approaches
+- Special programming languages exist: SPSS (1968--), S (1976--), R (1993--), Python (1991) + pandas (2008), julia (2012)
+- R is where the statisticians, social scientists and psychologists live, Python and Julia are more where computer science folks hangout.
+
+In this class we'll use Python, numpy, pandas, scipy, seaborn, and matplotlib as a default stack for data analysis (yes, libraries are a problem in python...)
+
+## Demo time: analysing and plotting data in Python
 
 TODO
 
@@ -224,19 +274,19 @@ A theme is a high level finding from qualitative analysis, but what that means c
 
 ## Categorising Data
 
-- deductive analysis applies pre-existing theoretical frameworks or categories to analyze data
-- **Categorization Schemes**: Researchers develop coding frameworks either inductively from the data or deductively from existing theory, which are then iteratively refined as analysis progresses
-- **Transcript Coding Process**: Data is systematically coded using square brackets to segment and categorize specific elements, allowing for detailed pattern identification and quantitative analysis
+- deductive analysis applies pre-existing theoretical frameworks or categories to analyse data
+- **Categorisation Schemes**: Researchers develop coding frameworks either inductively from the data or deductively from existing theory, which are then iteratively refined as analysis progresses
+- **Transcript Coding Process**: Data is systematically coded using square brackets to segment and categorise specific elements, allowing for detailed pattern identification and quantitative analysis
 - **Mixed Analysis Benefits**: Combining observational data with think-aloud protocols provides contextual understanding of user behavior and enables researchers to quantify problems while maintaining qualitative insights
-- **Iterative Framework Development**: Categorization schemes evolve during analysis to accommodate emerging patterns and specific interaction types observed in the study context
+- **Iterative Framework Development**: Categorisation schemes evolve during analysis to accommodate emerging patterns and specific interaction types observed in the study context
 
 ## Critical Incident Analysis
 
 - **Core Principle**: Focus on significant behavioral incidents rather than general impressions, identifying specific moments that are pivotal to the observed activity in either positive or negative ways
 - **Data Selection Strategy**: Used to identify critical subsets from large datasets for detailed analysis, making comprehensive data analysis more manageable and focused
-- **Observation Approach**: Employs well-planned observation sessions with concurrent think-aloud protocols to capture real-time user behaviors and verbalizations
+- **Observation Approach**: Employs well-planned observation sessions with concurrent think-aloud protocols to capture real-time user behaviors and verbalisations
 - **Identification Methods**: Critical incidents can be identified by participants during retrospective discussions, by observers through real-time monitoring, or through video analysis of recorded sessions
-- **Coding Framework**: Uses systematic categorization schemes to classify problems (interface vs. content issues) with specific behavioral indicators and verbal cues
+- **Coding Framework**: Uses systematic categorisation schemes to classify problems (interface vs. content issues) with specific behavioral indicators and verbal cues
 - **Data Collection Tools**: Combines multiple methods including surveys distributed through social media, video recordings, verbal protocol transcriptions, and structured observation criteria
 
 # Analytical Frameworks
@@ -316,7 +366,7 @@ Conversation with family members and Amazon Alexa with markup from [@porcheron-v
 - **Collaborative team analysis** where researchers watch videos together and discuss observations in real-time, focusing on both verbal and nonverbal interactions
 - **Content logging and category development** through repeated video playing, creating summaries and allowing categories to emerge from discussions and observations
 - **Hypothesis generation** based on observable participant actions and behaviors rather than speculation, requiring evidence from video extracts to support interpretations
-- **Video "cannibalization"** process involving extraction of interesting materials, reclassification of segments, and removal of irrelevant content
+- **Video "cannibalisation"** process involving extraction of interesting materials, reclassification of segments, and removal of irrelevant content
 - **Inductive pattern identification** by assembling instances of salient events to determine whether phenomena are robust themes or one-off incidents across multiple examples
 
 ## Grounded Theory
@@ -408,7 +458,7 @@ adapted from @rogers-beyond-hci:2023 table 9.6
 
 # Interpreting and Presenting Findings
 
-TODO
+![Here's all the data, enjoy! (Photo by Sear Greyson on Unsplash)](img/sear-greyson-K-ZsC7YdJ6Y-unsplash.jpg){width=50%}
 
 ## Biggest Research Writing Tip
 
@@ -440,9 +490,9 @@ Context of use and examples of user experience can be seen as stories or narrati
 
 
 - **Multi-modal presentation approach**: Combine different presentation styles including stories, graphical representations, data excerpts from transcripts/videos, and numerical tables
-- **Data visualization techniques**: Transform tables of numerical data into graphs, diagrams, rigorous notations, workflows, and quotations to illustrate key points
-- **Evidence-based interpretation**: Ensure careful interpretation and presentation of study results to avoid over-emphasizing findings or misrepresenting evidence
-- **Avoid over-generalization**: Exercise caution when using absolute terms like "most," "all," "majority," and "none" without sufficient justification from the data
+- **Data visualisation techniques**: Transform tables of numerical data into graphs, diagrams, rigorous notations, workflows, and quotations to illustrate key points
+- **Evidence-based interpretation**: Ensure careful interpretation and presentation of study results to avoid over-emphasising findings or misrepresenting evidence
+- **Avoid over-generalisation**: Exercise caution when using absolute terms like "most," "all," "majority," and "none" without sufficient justification from the data
 - **Statistical interpretation awareness**: Be mindful that statistical results can be misleading (e.g., 8/10 preference doesn't equal 80% superiority)
 - **Sample size considerations**: Larger sample sizes provide stronger evidence but other factors must still be considered in interpretation
 
