@@ -90,12 +90,14 @@ This will allow us to compare SUS scores across groups to see which technology h
 
    SUS = [f"SUS{i}" for i in range(1, 11)]
    df  # show the DataFrame
+   ```
    
 4. Recode the positively worded SUS items (items 1, 3, 5, 7, and 9) by subtracting 1 from each response, so that their values range from 0 (“Strongly Disagree”) to 4 (“Strongly Agree”):
 
    ```python
    POS = ["SUS1","SUS3","SUS5","SUS7","SUS9"]
    df[POS] = df[POS] - 1
+   ```
    
 5. **Reverse code** the negatively worded items (for the SUS, these are the even-numbered items: 2, 4, 6, 8, 10).  
    This makes the scale consistent so that higher numbers always indicate better usability.
@@ -103,6 +105,7 @@ This will allow us to compare SUS scores across groups to see which technology h
    ```python
    NEG = ["SUS2","SUS4","SUS6","SUS8","SUS10"]
    df[NEG] = 5 - df[NEG]
+   ```
    
 6. **Calculate the SUS score for each participant**  
    Make sure all 10 items have been recoded to the 0–4 scale before this step.
@@ -117,6 +120,7 @@ This will allow us to compare SUS scores across groups to see which technology h
    
    # (Optional) quick check of the results
    print(df["SUS_score"].describe())
+   ```
    
 7. **Get the descriptive statistics**  
    Find the minimum, maximum, mean, and standard deviation of the SUS scores for each group.
@@ -125,6 +129,7 @@ This will allow us to compare SUS scores across groups to see which technology h
    # --- Descriptive statistics ---
    print("\nDescriptive stats by group:")
    print(df.groupby("group")["SUS_score"].describe().round(2))
+   ```
 
 8. **Plot a histogram of your data**  
    Look at the shape of the distribution for each group.  
@@ -135,6 +140,7 @@ This will allow us to compare SUS scores across groups to see which technology h
    df["SUS_score"].hist(by=df["group"], bins=10, edgecolor="black", layout=(1, 2))
    plt.suptitle("Distribution of SUS Scores by Group")
    plt.show()
+   ```
 
 9. **Create a boxplot**  
    Compare the median, quartiles, and range of SUS scores for each group.  
@@ -147,6 +153,7 @@ This will allow us to compare SUS scores across groups to see which technology h
    plt.suptitle("")
    plt.ylabel("SUS (0–100)")
    plt.show()
+   ```
 
 10. **Compare the findings**  
     Use Welch’s t-test to check whether there is a statistically significant difference in SUS scores between the two groups.  
@@ -216,16 +223,19 @@ This activity is a **quick introduction** to using the System Usability Scale (S
 In real usability studies, **statistical tests have specific conditions and assumptions** that must be checked before deciding which analysis is appropriate.  
 
 For example:
+
 - **Welch’s t-test** assumes the data are approximately normally distributed and the two groups are independent.
 - **Sample size** affects the reliability of your results; small samples may fail to detect real differences or may exaggerate differences due to chance.
 - **Experimental design** (within- vs between-subjects) changes which test you should use and how you interpret results.
 
 We have **skipped these detailed checks** in this exercise to focus on learning the mechanics of:
+
 1. Scoring the SUS
 2. Performing basic descriptive statistics
 3. Running a simple between-groups comparison
 
 **In practice**, you should:
+
 - Plan your study with a **power analysis** to determine the needed sample size.
 - Choose an analysis method that matches your design and data type.
 - Check the assumptions of the test you run.
