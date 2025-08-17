@@ -142,37 +142,102 @@ TODO
 
 # Basic Qualitative Analysis
 
-TODO
+![Qualitative analysis, fewer numbers, still a lot of work. (Photo by Jessica Lewis 🦋 thepaintedsquare on Unsplash)](img/jessica-lewis-thepaintedsquare--W1TjrjSycI-unsplash.jpg){width=50%}
 
+## Coding in Qualitative Analysis
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- in **qualitative research** the word _coding_ has nothing to do with programming
+- **coding:** annotating data with key words or phrases that provide a means for analysis over a large corpus
+- codes can be inductive (bottom up, from the data) or deductive (top-down start with a framework of codes)
+- challenges: creating meaningful, non-overlapping codes that are clearly defined and determining granularity
+- inter-rater reliability measures the clarity and reliability of the coding scheme rather than correctness of analysis
+- can be done with a text editor or dedicated software (NVivo, MAXQDA)
+:::
+::: {.column width="40%"}
+![Coding text in MAXQDA (Image by [MAXQDA](https://www.maxqda.com/blogpost/dark-mode))](img/maxqda-coding.png)
+:::
+::::::::::::::
 
 ## Analysing Video Material
 
-TODO
-
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- initial viewing involves watching entire recording while writing high-level narrative and noting timestamps of interesting events
+- chronological and video times used to index events
+- data augmentation: video plus screen captures, interaction logs, transcriptions
+- coding schemes applied systematically to ensure reliability and consistency
+- team-based coding can address subjectivity, ambiguity, and potential errors
+- expert knowledge can help with unclear codes and supports interpretation
+:::
+::: {.column width="40%"}
+![Analysing some performance videos in 2012 (Charles)](img/video-analysis-charles-2012.jpg){width=70%}
+:::
+::::::::::::::
 
 ## Identifying Themes
 
-TODO
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- Many qualitative research approaches distill _themes_ from collected data.
+- code the data (apply labels) and then create higher level themes from codes.
+- (Reflexive) Thematic Analysis (RTA) [@braun-thematic-analysis:2022] is a well-known and accessible methodology.
 
+### Typical process
+ 
+1. Familiarise with the data
+2. Coding (short labels, multiple rounds)
+3. Generating initial themes
+4. Developing, reviewing, and refining themes
+:::
+::: {.column width="40%"}
+![A Miro board from [Yichen Wang](https://yichenwangs.github.io)'s thematic analysis (2025)](img/reflexive-thematic-analysis-yichen-wang-miro-2025.png)
+:::
+::::::::::::::
 
 ## What is a theme, and why does it matter?
 
-TODO
+A theme is a high level finding from qualitative analysis, but what that means can differ.
 
+- **Two kinds of theme:** patterns of meaning (uncovering implicit meaning behind words) versus data summaries (summarising responses across participants) [@braun-reflexive-thematic-analysis:2019]
+- themes can emerge organically from the data through interpretation, or follow predetermined frameworks and categories
+- no one way is correct, but need to be deliberate in methodology in particular to be careful about:
+    - whether themes are a summary or reflect hidden or implicit meaning
+    - whether themes arise from data or come from a pre-determined framework
+    - whether we want "correct" codes, or to ensure that codes are clearly defined and interpreted consistently (can use multiple researchers to help)
 
 ## Affinity Diagram
 
-TODO
-
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- **affinity diagrams** used for organising large amounts of data and identifying themes and overall narratives
+- both digital (e.g., Miro) and physical (e.g., sticky notes) diagramming approaches
+- not necessarily a lot to this: summarise the data on notes, and arrange to find relationships between them.
+- my PhD/master/Honours students tend to do this with Miro
+- See [this resource](https://www.interaction-design.org/literature/article/affinity-diagrams-learn-how-to-cluster-and-bundle-ideas-and-facts) for a guide.
+:::
+::: {.column width="40%"}
+![Analogue affinity diagrams often use sticky notes. (Photo by Christian Brok on Unsplash)](img/christian-brok-FIWW1Cjj23I-unsplash.jpg)
+:::
+::::::::::::::
 
 ## Categorising Data
 
-TODO
-
+- deductive analysis applies pre-existing theoretical frameworks or categories to analyze data
+- **Categorization Schemes**: Researchers develop coding frameworks either inductively from the data or deductively from existing theory, which are then iteratively refined as analysis progresses
+- **Transcript Coding Process**: Data is systematically coded using square brackets to segment and categorize specific elements, allowing for detailed pattern identification and quantitative analysis
+- **Mixed Analysis Benefits**: Combining observational data with think-aloud protocols provides contextual understanding of user behavior and enables researchers to quantify problems while maintaining qualitative insights
+- **Iterative Framework Development**: Categorization schemes evolve during analysis to accommodate emerging patterns and specific interaction types observed in the study context
 
 ## Critical Incident Analysis
 
-TODO
+- **Core Principle**: Focus on significant behavioral incidents rather than general impressions, identifying specific moments that are pivotal to the observed activity in either positive or negative ways
+- **Data Selection Strategy**: Used to identify critical subsets from large datasets for detailed analysis, making comprehensive data analysis more manageable and focused
+- **Observation Approach**: Employs well-planned observation sessions with concurrent think-aloud protocols to capture real-time user behaviors and verbalizations
+- **Identification Methods**: Critical incidents can be identified by participants during retrospective discussions, by observers through real-time monitoring, or through video analysis of recorded sessions
+- **Coding Framework**: Uses systematic categorization schemes to classify problems (interface vs. content issues) with specific behavioral indicators and verbal cues
+- **Data Collection Tools**: Combines multiple methods including surveys distributed through social media, video recordings, verbal protocol transcriptions, and structured observation criteria
 
 # Analytical Frameworks
 
@@ -232,10 +297,18 @@ Conversation with family members and Amazon Alexa with markup from [@porcheron-v
 
 ## Content Analysis
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 - Classifies data into categories and studying frequency of occurrences
 - Applicable to diverse media formats including text, video, images, etc
 - can involve predefined frameworks or classification systems to systematically examine content across specified dimensions
 - can be combined with other analytical techniques such as sentiment analysis
+:::
+::: {.column width="40%"}
+![Analysing some content (Photo by Kaleidico on Unsplash)](img/kaleidico-3V8xo5Gbusk-unsplash.jpg)
+:::
+::::::::::::::
+
 
 ## Interaction Analysis [@jordan-interaction-analysis:1995]
 
