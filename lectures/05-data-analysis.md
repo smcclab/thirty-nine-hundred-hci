@@ -106,7 +106,7 @@ title-slide-attributes:
 
 # Basic Quantitative Analysis
 
-![What do we do with quantitative data once we have some? (Photo by Sear Greyson on Unsplash)](img/sear-greyson-K-ZsC7YdJ6Y-unsplash.jpg){width=50%}
+What do we do with quantitative data once we have some?
 
 ## Centre of a set of data
 
@@ -132,6 +132,8 @@ Similarly to central measures, **interquartile range** is robust against weird o
 
 ## Normal vs non-normal distributions
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 The distribution of the data is how it is spread out and where it is bunched up.
 
 - **normal distribution:** a.k.a. bell curve, Gaussian distribution, mean, median, mode are the same, and the data evenly falls either side of the mean
@@ -139,10 +141,31 @@ The distribution of the data is how it is spread out and where it is bunched up.
 - **multi-modal distributions:** data that seems to have multiple bumps
 
 This matters because statistical tests often assume data is _normal_ so findings might be misleading.
+:::
+::: {.column width="40%"}
+![Normal distribution](img/normal_distribution_plot.png){width=70%}
+
+![Bimodel distribution](img/bimodal_distribution_plot.png){width=70%}
+:::
+::::::::::::::
+
+## Looking at the data
+
+First think to do after loading it in. May not be the most helpful approach... but still important to check it's not garbled and the columns make sense.
+
+| interactive activities | attend in person | watch online | degree        | time in CBR |
+|------------------------|------------------|--------------|---------------|-------------|
+| 5                      | 2                | 2            | undergraduate | 1-3 years   |
+| 3                      | 5                | 1            | postgraduate  | 3+ years    |
+| 4                      | 5                | 1            | postgraduate  | <1 year     |
+| 5                      | 2                | 4            | undergraduate | <1 year     |
+| 4                      | 3                | 1            | undergraduate | <1 year     |
 
 ## Descriptive Statistics
 
-First thing to do when loading up data for analysis, calculate:
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Second thing to do when loading up data for analysis, calculate:
 
 - minimum, maximum
 - lower and upper quartile
@@ -150,10 +173,27 @@ First thing to do when loading up data for analysis, calculate:
 - number of data points (count)
 
 **Ask:** are these values what you expected? do they suggest any _interesting_ points about your data?
+:::
+::: {.column width="40%"}
+| stat  | interactive activities | attend in person | watch online |
+|-------|------------------------|------------------|--------------|
+| count | 75                     | 75               | 75           |
+| mean  | 3.36                   | 3.15             | 2.84         |
+| std   | 1.30                   | 1.24             | 1.39         |
+| min   | 1                      | 1                | 1            |
+| 25%   | 2                      | 2                | 2            |
+| 50%   | 3                      | 3                | 3            |
+| 75%   | 4                      | 4                | 4            |
+| max   | 5                      | 5                | 5            |
+:::
+::::::::::::::
+
 
 ## Plotting Data
 
-_Second_ thing to do when loading data
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Third thing to do when loading data
 
 - Plot the data to see the distribution and compare data points
 - **Scatter plot:** see all the data! good for checking outliers and comparing aspects of data
@@ -163,6 +203,38 @@ _Second_ thing to do when loading data
 - **Line plot:** useful for showing data over time, not distributions
 
 If plots show something _interesting_ then you can investigate.
+:::
+::: {.column width="40%"}
+![A histogram of some data](img/fake_data_histogram.png){width=70%}
+
+![Box plots of the same data](img/fake_data_boxplot.png){width=70%}
+:::
+::::::::::::::
+
+## More complex plots
+
+You can get _more plots_ into one plot. Good for surfacing contrasts or telling a story about the data graphically.
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+```python
+sns.set_theme(style="ticks", palette="Set2")
+plt.figure(figsize=(10, 6))
+sns.boxplot(data=survey_data, x='degree_program', 
+            y='interactive_activities_likert', 
+            hue='time_in_canberra', 
+            medianprops={'linewidth': 2, 'color': 'black'})
+plt.savefig('plots/fake_data_complex_boxplot.png', 
+            bbox_inches='tight', dpi=300)
+plt.show()
+```
+:::
+::: {.column width="40%"}
+![A more complex box plot](img/fake_data_complex_boxplot.png)
+:::
+::::::::::::::
+
+
 
 ## Comparing data and tests
 
