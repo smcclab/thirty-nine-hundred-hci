@@ -11,7 +11,7 @@ title-slide-attributes:
 - **TODAY: **assignment 1 [due **Monday 18 August, 23:59 on GitLab**](https://canvas.anu.edu.au/courses/2781/assignments/11544) ([template](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-prototyping))
 - assignment 2 specification will be published soon, [you can see the "main idea" already on Canvas](https://canvas.anu.edu.au/courses/2781/assignments/11550)
 - keep attending labs, if issues, apply for an [extension (see course policies on Canvas)](https://canvas.anu.edu.au/courses/2781/pages/policies)
-- any questions, problems, [**use the forum**](https://edstem.org/au/courses/24905/discussion)!
+- any questions, problems, [**use the forum**](https://edstem.org/au/courses/24905/discussion) - more questions allowed (no limits!), public questions preferred.
 - lab marks come out weekly via Canvas
 
 ## Plan for the class
@@ -289,18 +289,20 @@ A theme is a high level finding from qualitative analysis, but what that means c
 ## Categorising Data
 
 - deductive analysis applies pre-existing theoretical frameworks or categories to analyse data
-- data is systematically coded using square brackets to segment and categorise specific elements, allowing for pattern identification and quantitative analysis
-- **Mixed Analysis Benefits**: Combining observational data with think-aloud protocols provides contextual understanding of user behavior and enables researchers to quantify problems while maintaining qualitative insights
-- **Iterative Framework Development**: Categorisation schemes evolve during analysis to accommodate emerging patterns and specific interaction types observed in the study context
+- data is systematically coded to segment and categorise specific elements, allowing for pattern identification and quantitative analysis
+- e.g.: take a specific categorisation scheme from previous research (interface problems, or design recommendations), apply to new situation
+- taking a quantitative approach: counting occurrences of categories per participant, identifying specific situations or issues
 
 ## Critical Incident Analysis
 
-- **Core Principle**: Focus on significant behavioral incidents rather than general impressions, identifying specific moments that are pivotal to the observed activity in either positive or negative ways
-- **Data Selection Strategy**: Used to identify critical subsets from large datasets for detailed analysis, making comprehensive data analysis more manageable and focused
-- **Observation Approach**: Employs well-planned observation sessions with concurrent think-aloud protocols to capture real-time user behaviors and verbalisations
-- **Identification Methods**: Critical incidents can be identified by participants during retrospective discussions, by observers through real-time monitoring, or through video analysis of recorded sessions
-- **Coding Framework**: Uses systematic categorisation schemes to classify problems (interface vs. content issues) with specific behavioral indicators and verbal cues
-- **Data Collection Tools**: Combines multiple methods including surveys distributed through social media, video recordings, verbal protocol transcriptions, and structured observation criteria
+- focus on significant behavioral incidents rather than general impressions
+- identifying specific moments that are pivotal in either positive or negative ways
+- makes data analysis more manageable and focused
+- can be identified by 
+    - participants during retrospective discussions, 
+    - observers through real-time monitoring
+    - through video analysis of recorded sessions
+- more info: [nngroup](https://www.nngroup.com/articles/critical-incident-technique/), [usability bok](https://www.usabilitybok.org/critical-incident-technique)
 
 # Analytical Frameworks
 
@@ -376,11 +378,10 @@ Conversation with family members and Amazon Alexa with markup from [@porcheron-v
 ## Interaction Analysis [@jordan-interaction-analysis:1995]
 
 - investigate human interactions with each other, artifacts, and technologies using video recordings of naturally occurring activities 
-- **Collaborative team analysis** where researchers watch videos together and discuss observations in real-time, focusing on both verbal and nonverbal interactions
-- **Content logging and category development** through repeated video playing, creating summaries and allowing categories to emerge from discussions and observations
-- **Hypothesis generation** based on observable participant actions and behaviors rather than speculation, requiring evidence from video extracts to support interpretations
-- **Video "cannibalisation"** process involving extraction of interesting materials, reclassification of segments, and removal of irrelevant content
-- **Inductive pattern identification** by assembling instances of salient events to determine whether phenomena are robust themes or one-off incidents across multiple examples
+- can be teamwork: researchers watch videos together, discuss in real-time 
+- coding and annotation through repeated video playing
+- hypotheses based on observable participant actions and behaviors
+- find patterns inductively by assembling instances of salient events
 
 ## Grounded Theory
 
@@ -473,7 +474,7 @@ adapted from @rogers-beyond-hci:2023 table 9.6
 
 ![Here's all the data, enjoy! (Photo by Sear Greyson on Unsplash)](img/sear-greyson-K-ZsC7YdJ6Y-unsplash.jpg){width=50%}
 
-## Biggest Research Writing Tip
+## Biggest Research Writing Tip: Cite your methods
 
 - Applies to research projects at Honours, master, PhD and workplace
 - Work with supervisors/mentors/managers to choose methodology and analytical frameworks
@@ -483,12 +484,10 @@ adapted from @rogers-beyond-hci:2023 table 9.6
 
 ## Structured Notations
 
-- **Domain-specific notation analysis** - Researchers examine notations that arise from specific application domains (e.g., music applications) to understand how they capture domain requirements
-- **Analysis approach notation studies** - Investigation of notations developed from specific analytical methodologies (e.g., conversation analysis notation systems)
-- **Holistic modeling evaluation** - Research into comprehensive notation systems like contextual design work models that capture complete user experiences
-- **Comparative notation assessment** - Methodological approaches that compare different notation types (e.g., acyclic graph vs algebraic models) in terms of their effectiveness for capturing user behaviors
-- **Precision vs. flexibility analysis** - Research methodology examining trade-offs between structured notation advantages (clear syntax, guidance, precision) and disadvantages (limited scope, audience accessibility)
-- **Combined notation strategies** - Methodological approaches that integrate structured notations with flexible formats (stories, narratives) to overcome individual notation limitations
+- presenting information through formal notations related to particular domains
+- e.g., music applications might involve musical notation or symbolic data formats
+- could be related to an analytical framework (e.g., conversation analysis)
+- tradeoff between precision and flexibility; structured notation can be precise but potentially less accessible to a reader or limited in scope
 
 ## Using Stories
 
@@ -501,13 +500,13 @@ Context of use and examples of user experience can be seen as stories or narrati
 
 ## Summarising Findings
 
+Overall advice about findings...
 
-- **Multi-modal presentation approach**: Combine different presentation styles including stories, graphical representations, data excerpts from transcripts/videos, and numerical tables
-- **Data visualisation techniques**: Transform tables of numerical data into graphs, diagrams, rigorous notations, workflows, and quotations to illustrate key points
-- **Evidence-based interpretation**: Ensure careful interpretation and presentation of study results to avoid over-emphasising findings or misrepresenting evidence
-- **Avoid over-generalisation**: Exercise caution when using absolute terms like "most," "all," "majority," and "none" without sufficient justification from the data
-- **Statistical interpretation awareness**: Be mindful that statistical results can be misleading (e.g., 8/10 preference doesn't equal 80% superiority)
-- **Sample size considerations**: Larger sample sizes provide stronger evidence but other factors must still be considered in interpretation
+- Multi-modal is often good: combine styles such as stories, plots, data excerpts, numerical tables
+- Developing plots and visualisations is critical and hard work, just like crafting text. We spend hours getting it right in Python/R!
+- Important to balance the weight of a **claimed finding** against supporting evidence; however, doesn't mean that small studies are not useful.
+- Reviewers hate over-generalisation: careful with terms like "most," "all," "majority," and "none" without justification
+- Statistical claims require care to avoid misleading the reader
 
 ## Questions: Who has a question?
 
