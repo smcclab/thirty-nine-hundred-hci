@@ -517,8 +517,21 @@ Third, reflexive practitioners attempt to find structural patterns in what they 
 - Sujay Shalawadi, Anas Alnayef, Niels van Berkel, Jesper Kjeldskov, and Florian Echtler. 2021. Rainmaker: A Tangible Work-Companion for the Personal Office Space. In Proceedings of the 23rd International Conference on Mobile Human-Computer Interaction (MobileHCI '21). Association for Computing Machinery, New York, NY, USA, Article 39, 1–13. https://doi.org/10.1145/3447526.3472032
 - Wobbrock, J.O. and Kientz, J.A., 2016. Research contributions in human-computer interaction. interactions, 23(3), pp.38-44.
 
-## Questions
+## Questions: Who has a question?
 
-Who has a question?
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+**Who has a question?**
+
+- I can take _cathchbox_ question up until 2:55
+- For after class questions: meet me outside the classroom at the bar (for 30 minutes)
+- Feel free to ask about **any aspect of the course**
+- Also feel free to ask about **any aspect of computing at ANU**! I may not be able to help, but I can listen.
+
+:::
+::: {.column width="40%"}
+![Meet you _at the bar_ for questions. 🍸🥤🫖☕️ Unfortunately no drinks served! 🙃](img/kambri-bar.jpg)
+:::
+::::::::::::::
 
 # References {.allowframebreaks}
