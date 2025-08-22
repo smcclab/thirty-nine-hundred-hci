@@ -25,7 +25,6 @@ The tutorial will follow this structure:
 2. Finding themes
 3. Creating findings statements
 
-
 ## In-Class Tasks
 
 ### 0. Discuss pre-class tasks (10 minutes)
@@ -50,6 +49,7 @@ In groups:
 In your group, turn your themes into findings statements.
 
 For each theme:
+
 - Write a short statement that explains the theme
 - Add any further context
 - Explain the impact of not actioning the finding (this is the "so what?")
@@ -64,5 +64,6 @@ Take a photo of your wall and findings and post on the forum!
 - Affinity diagrams: <https://www.nngroup.com/articles/affinity-diagram/>
 - Textbook: Chapter 9
 
-## References
+## References/
+
 - HCI 2023 Week 4 Lecture Slides by Susan Hansen and Michelle Pickrell

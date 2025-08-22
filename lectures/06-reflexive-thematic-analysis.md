@@ -1,58 +1,232 @@
 ---
-title: Direct Manipulation and Immersive Environments
+title: Reflexivity and Thematic Analysis
 author: Dr Charles Martin
 ---
 
+## Announcements
+
+assignment 2 published [on Canvas](https://canvas.anu.edu.au/courses/2781/assignments/11550):
+
+> Your challenge is choose **one existing AI-integrated interactive computer system or interface** and run a user research study with 3--5 participants. 
+> You will formulate a research question, collect and analyse data, and present research findings. Your study should involve at least one form of quantitative and one form of qualitative data and analysis.
+
+You need to:
+
+- apply quantitative and qualitative data analysis
+- research **other students** in this class (do not research folks outside the class please)
+- participant matching part of labs
+
 ## Plan for the class
 
-- Direct Manipulation and Immersive Environments
-- Thematic Analysis (research method)
-- Reflexivity (writing method)
+- Analytical frameworks (qualitative analysis)
+- Interpreting and presenting findings
+- Deep dive on _Reflexive Thematic Analysis_ (needed for the assignment)
+- Reflexivity
 
-# Direct Manipulation and Immersive Environments
+# Analytical Frameworks
 
-[@shneiderman-hci:2018, S7.1]
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- different approaches can guide qualitative analysis 
+- **granularity:** from fine-grained detailed analysis to broader scope examinations
+- conversation analysis: fine granularity, examines detailed interactions in short conversation fragments
+- systems-based frameworks: coarse granularity, broad group or organisation level analysis
+- useful depending on the research goals
+:::
+::: {.column width="40%"}
+![A framework. May not be analytical. (Photo by Maël GRAMAIN on Unsplash)](img/mael-gramain-TyRcLajqJJ4-unsplash.jpg)
+:::
+::::::::::::::
 
-## What is Direct Manipulation?
+## Conversation Analysis (CA)
 
-1. Continuous representation of objects and actions with visual metaphors
-2. Physical actions (i.e., buttons) instead of complex syntax
-3. Rapid, incremental, reversible actions with immediate visibility
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- **CA:** examines the semantics of conversations, e.g., turn-taking and interaction
+- e.g., compare conversations in different settings
+- markup with syntax to capture detailed interactions and speech patterns
+- **Square brackets [ ]** indicate overlapping talk between speakers
+- **Round brackets ( )** show pauses in conversation with timing details (e.g., (1.1) = 1.1 second pause)
+- **Physical spacing** represents temporal sequencing to show exactly when things are said in relation to each other
+- aims to reveal subtle cues and conversational mechanisms that might otherwise be missed
+:::
+::: {.column width="40%"}
+```
+01  SUS i'd like to play beat the intro in a minute
+02  LIA   [ oh no: ]
+03  SUS [ alexa ][ (1.1)  ] beat the in[tro
+04  CAR      [ °yeah°; ]
+05  LIA                 [°no:::…°
+06  CAR (0.6) it' mother's day? (0.4)
+07  SUS it's (   ) yep (.) listen (.) you need to keep
+08    on eating your orange stuff (.) liam
+09    (0.7)
+10  CAR and your green stuff
+11  SUS alexa (1.3) alexa (0.5)=
+12  CAR             =°and your brown stuff
+13  SUS play beat the intro
+```
 
-E.g., drawing with MS Paint vs typing [SVG commands](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Basic_shapes):
+Conversation with family members and Amazon Alexa with markup from [@porcheron-voice-interfaces:2018]
+:::
+::::::::::::::
 
-`<path d="M20,230 Q40,205 50,230 T90,230" fill="none" stroke="blue" stroke-width="5"/>`
+## Discourse Analysis
 
-## Examples of Direct Manipulation
+- Analysing dialogue: what is said, how words convey meaning
+- Interpreting context, psychological and social aspects of words.
+- Language as social reality, open to interpretation
+- [**Constructivist approach:**](https://www.open.edu/openlearn/health-sports-psychology/critically-exploring-psychology/content-section-3.1) Language as a constructive tool: analyse the process of world construction
+- Identify subtle and implicit meaning between sources
 
-- Geographical systems (e.g., Google Maps)
-- Video games
-- Computer-aided design (CAD), and fabrication (e.g., 3D printing)
+## Content Analysis
 
-## 2D and 3D Interfaces
-
-## Teleoperation and Presence
-
-_Studied but less accepted before 2020!_
-
-- telehealth
-- robotic surgery
-- telepresence robots
-- teleconferencing (Zoom)
-- virtual co-presence (e.g., Discord, v.s. Gather Town)
-
-## Augmented and Virtual Reality
-
-Interfaces can sit on a spectrum between fully virtual and fully real interaction [@milgram-mr:1994].
-
-- The big middle area includes "mixed reality" (MR) interfaces
-- Augmented reality usually closer to "real" reality.
-- eXtended reality (XR) is a more recent term.
-
-## Augmented Reality
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- Classifies data into categories and studying frequency of occurrences
+- Applicable to diverse media formats including text, video, images, etc
+- can involve predefined frameworks or classification systems to systematically examine content across specified dimensions
+- can be combined with other analytical techniques such as sentiment analysis
+:::
+::: {.column width="40%"}
+![Analysing some content (Photo by Kaleidico on Unsplash)](img/kaleidico-3V8xo5Gbusk-unsplash.jpg)
+:::
+::::::::::::::
 
 
-## Virtual Reality
+## Interaction Analysis [@jordan-interaction-analysis:1995]
+
+- investigate human interactions with each other, artifacts, and technologies using video recordings of naturally occurring activities 
+- can be teamwork: researchers watch videos together, discuss in real-time 
+- coding and annotation through repeated video playing
+- hypotheses based on observable participant actions and behaviors
+- find patterns inductively by assembling instances of salient events
+
+## Grounded Theory
+
+Grounded Theory (GT) is an _old and important_ qualitative analysis technique [@glaser-strauss-grounded-theory:1967; @corbin-strauss-grounded-theory:2014]
+
+- main idea: identify _categories_ (a kind of theme) through iterative data collection and analysis.
+- any kind of data but often ethnographic and interview data
+- analysis procedure:
+    - _open coding_: categories, properties and dimensions discovered inn data
+    - _axial coding_: systematically establishing categories/sub-categories
+    - _selective coding_: refine and integrating categories
+
+- _heavier and less flexible in comparison to Reflexive Thematic Analysis_ (not suggested for first-timers)
+- @rogers-beyond-hci:2023 claim that GT "uses reflexive thematic analysis", which I guess is accurate.
+
+## Grounded Theory Example: Idle Games
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![Figure 9.9 @rogers-beyond-hci:2023](img/grounded-theory-example-1.png)
+
+GT process for @alharthi-idle-games:2018
+:::
+::: {.column width="50%"}
+![Figure 9.11 @rogers-beyond-hci:2023](img/grounded-theory-example-2.png)
+
+Codes and categories.
+:::
+::::::::::::::
+
+## Systems-Based Frameworks
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- large projects involve many sources of data and stakeholders
+- e.g., hospital, corporation, local council, airport, (or university...)
+- need ways to understand how the system works together
+- manage complex interdependencies
+- common theme of management speak: "systems thinking"
+:::
+::: {.column width="40%"}
+![Some kind of system... to be analysed. (Photo by GuerrillaBuzz on Unsplash)](img/guerrillabuzz-7hA2wqBcSF8-unsplash.jpg)
+:::
+::::::::::::::
+
+## Socio-technical Systems Theory (STS)
+
+- **STS:** technology and people in a work system are interdependent [@klein-sociotechnical:2014]
+- treat the whole system as a whole, applied in complex work places.
+- More of a philosophy than a methodology, a holistic perspective to address challenges.
+
+### Notable aspects:
+
+1. Task interdependence
+2. Socio-technical systems are "open systems": influenced by environmental factors
+3. Heterogeneity of system components: subsystems have different technical components
+4. Practical contributions: analysing systems, evaluating changes, designing co-optimised systems
+5. Fragmentation of design processes
+
+
+## Distributed Cognition of Teamwork (DiCoT)
+
+- Distributed cognition unpacks how multiple people and technologies interact complete tasks and solve problems.
+- DiCoT framework supports this concept with models:
+    - **information flow model**
+    - **physical model**
+    - **artifact model**
+    - **social structure model**
+    - **system evolution model**
+- models have underlying principles, e.g., for physical model:
+    - **horizon of observation:** What an individual can see or hear.
+    - **perceptual:** How spatial representations aid computation.
+    - **arrangement of equipment:** How the physical arrangement of the environment affects access to information.
+- may be particularly useful in collaboration contexts, e.g., software development, medicine
+
+## Which Analytical Framework to Use? 
+
+| framework | data | focus | outcomes | granularity |
+|---|---|---|---|---|
+| conversation analysis | spoken conversation recordings | process of conversations  | how conversations are processed and progress | words or smaller |
+| discourse analysis | speech or writing | how words convey meaning | implicit or hidden meanings in text | word, phrase |
+| content analysis | written text, video, audio, images | how often something is featured or is spoken about | frequency of items in text | words to artefacts or people |
+| interaction analysis | video of activities | interactions between people and artefacts | how knowledge and action are used in an activity | artifact, dialogue, gesture |
+| grounded theory | empirical data of any kind | building theory from a phenomenon | theory grounded in data | varying levels |
+| systems-based frameworks | large-scale and heterogeneous data | large scale systems of people and technology | organisational insights | macro, organisational level |
+
+adapted from @rogers-beyond-hci:2023 table 9.6
+
+# Interpreting and Presenting Findings
+
+![Here's all the data, enjoy! (Photo by Sear Greyson on Unsplash)](img/sear-greyson-K-ZsC7YdJ6Y-unsplash.jpg){width=50%}
+
+## Biggest Research Writing Tip: Cite your methods
+
+- Applies to research projects at Honours, master, PhD and workplace
+- Work with supervisors/mentors/managers to choose methodology and analytical frameworks
+- Read and understand the framework from (recent) scholarly sources (not just `nngroup.com`)
+- Change and evolution is allowed, but understand that there is a wealth of example and established approaches
+- Paraphrase from academic reviewer comments: _"this work cites Braun and Clarke (2006) for reflexive thematic analysis but does not consider newer understandings of this methodology, e.g., Braun and Clarke (2019)..."_
+
+## Structured Notations
+
+- presenting information through formal notations related to particular domains
+- e.g., music applications might involve musical notation or symbolic data formats
+- could be related to an analytical framework (e.g., conversation analysis)
+- tradeoff between precision and flexibility; structured notation can be precise but potentially less accessible to a reader or limited in scope
+
+## Using Stories
+
+Context of use and examples of user experience can be seen as stories or narratives.
+
+- Participants tell stories during data gathering which can illustrate research findings.
+- Observations can be framed as stories
+- Stories can be written or in the form of storyboards or videos.
+- Can be used to support research findings and provide authenticity.
+
+## Summarising Findings
+
+Overall advice about findings...
+
+- Multi-modal is often good: combine styles such as stories, plots, data excerpts, numerical tables
+- Developing plots and visualisations is critical and hard work, just like crafting text. We spend hours getting it right in Python/R!
+- Important to balance the weight of a **claimed finding** against supporting evidence; however, doesn't mean that small studies are not useful.
+- Reviewers hate over-generalisation: careful with terms like "most," "all," "majority," and "none" without justification
+- Statistical claims require care to avoid misleading the reader
+
 
 
 # Thematic analysis
@@ -149,14 +323,13 @@ __Image source: https://www.qsrinternational.com/nvivo-qualitative-data-analysis
 
 > A theme: “A theme captures something important about the data in relation to the research question, and represents some level of patterned response or meaning within the data set” (Braun and Clarke 2006, p.82)
 
-__Semantic__  vs latent themes
+Semantic vs latent themes: 
 Can relate to “a behaviour, a user group, events, places, situations” (Sharp et al. 2019, p.322)
 Use affinity diagrams to sort codes into group
 
 ![](img/05_02_thematic_analysis_8.jpg)
 
 (Sharp et al 2019, p.322)
-
 
 ## (Step 3) Example code structure
 
