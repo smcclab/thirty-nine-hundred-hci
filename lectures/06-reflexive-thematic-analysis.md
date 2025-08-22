@@ -378,6 +378,17 @@ Use affinity diagrams to sort codes into group
 - Piggott, T, Morris, C & Lee-Poy, M 2015, ‘Preceptor engagement in distributed medical school campuses’,  _Canadian medical education journal_ , vol. 6, no. 2, pp. e20–e28, accessed from <https://pubmed.ncbi.nlm.nih.gov/27004073>.
 - Sharp, H, Preece, J & Rogers, Y 2019,  _Interaction Design: Beyond Human-Computer Interaction_  ProQuest E., Wiley & Sons, West Sussex, accessed from <https://ebookcentral-proquest-com.virtual.anu.edu.au/lib/anu/detail.action?docID=5746446.>.
 
+## Thematic Analysis Bingo [@braun-thematic-analysis:2022]
+
+A bingo card of researcher problems with **reflexive** thematic analysis... which make sense to you so far?
+
+| Mentions inter-coder reliability | Implicitly (post-)positivist TA (not acknowledged) | More than 3 levels of themes | Mention of a lack of (statistical) generalisability | Messy mix of realism and constructionism |
+| Unacknowledged social cognitions (e.g., attitude or body image) | Themes are thin - just single idea (a code) | Themes do not have a central organising concept | “Themes emerged” | Data collection stopped at “saturation” |
+| Use of passive voice | No reflexivity | **Thematic Analysis** | Only Braun and Clarke 2006 cited | Mention of “bias” |
+| Clarke spelled as Clark (no e) | More than 6 themes | No theory of language-treated as a window to truth | Themes are topic summaries | Very few participants quoted / over-quoting of one or more |
+| Implicitly realist TA (not acknowledged) | Braun pronounced BRAWN (not Brown) | Mismatch between extracts and analytic claims | Use of a codebook | Data are just paraphrased without interpretation |
+
+
 # Reflexivity
 
 
@@ -485,7 +496,6 @@ Third, reflexive practitioners attempt to find structural patterns in what they 
 
 ![](img/05_01_reflexivity_12.png)
 
-
 ## Conceptualising Interaction
 
 - Articulating the proposed solution as a conceptual model
@@ -495,7 +505,6 @@ Third, reflexive practitioners attempt to find structural patterns in what they 
 - What are the underlying assumptions and claims?
 - Write them down
 - Try to defend/support them
-
 
 ## Further Readings
 
