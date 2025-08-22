@@ -382,6 +382,8 @@ Use affinity diagrams to sort codes into group
 
 A bingo card of researcher problems with **reflexive** thematic analysis... which make sense to you so far?
 
+| B | I | N | G | O |
+| - | - | - | - | - |
 | Mentions inter-coder reliability | Implicitly (post-)positivist TA (not acknowledged) | More than 3 levels of themes | Mention of a lack of (statistical) generalisability | Messy mix of realism and constructionism |
 | Unacknowledged social cognitions (e.g., attitude or body image) | Themes are thin - just single idea (a code) | Themes do not have a central organising concept | “Themes emerged” | Data collection stopped at “saturation” |
 | Use of passive voice | No reflexivity | **Thematic Analysis** | Only Braun and Clarke 2006 cited | Mention of “bias” |
