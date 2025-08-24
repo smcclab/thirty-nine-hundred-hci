@@ -470,9 +470,11 @@ Braun and Clarke _insist_ that "themes do not emerge", [@braun-thematic-analysis
 - Given, L. M. (2008). In vivo coding. In  _The SAGE encyclopedia of qualitative research methods_  (Vol. 1, pp. 473-474). SAGE Publications, Inc., [https://www-doi-org.virtual.anu.edu.au/10.4135/9781412963909.n240](https://www-doi-org.virtual.anu.edu.au/10.4135/9781412963909.n240)
 - Piggott, T, Morris, C & Lee-Poy, M 2015, ‘Preceptor engagement in distributed medical school campuses’,  _Canadian medical education journal_ , vol. 6, no. 2, pp. e20–e28, accessed from <https://pubmed.ncbi.nlm.nih.gov/27004073>.
 
-## Thematic Analysis Bingo [@braun-thematic-analysis:2022]
+## Reflexive Thematic Analysis Bingo [@braun-thematic-analysis:2022]
 
-A bingo card of researcher problems with **reflexive** thematic analysis... which make sense to you so far?
+A bingo card of potential researcher problems with (R)TA... which make sense so far?
+
+::: {.small-table}
 
 | B | I | N | G | O |
 | - | - | - | - | - |
@@ -481,6 +483,8 @@ A bingo card of researcher problems with **reflexive** thematic analysis... whic
 | Use of passive voice | No reflexivity | **Thematic Analysis** | Only Braun and Clarke 2006 cited | Mention of “bias” |
 | Clarke spelled as Clark (no e) | More than 6 themes | No theory of language-treated as a window to truth | Themes are topic summaries | Very few participants quoted / over-quoting of one or more |
 | Implicitly realist TA (not acknowledged) | Braun pronounced BRAWN (not Brown) | Mismatch between extracts and analytic claims | Use of a codebook | Data are just paraphrased without interpretation |
+
+:::
 
 # Reflexivity
 
