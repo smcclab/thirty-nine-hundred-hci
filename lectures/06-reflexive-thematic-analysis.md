@@ -1,6 +1,9 @@
 ---
 title: Reflexivity and Thematic Analysis
 author: Dr Charles Martin
+title-slide-attributes:
+    data-background-image: img/reflection.jpg
+    data-background-size: cover
 ---
 
 ## Announcements
