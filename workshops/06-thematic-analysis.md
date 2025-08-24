@@ -3,9 +3,9 @@ title: Thematic Analysis
 author: Dr Charles Martin and Karla Kelly
 ---
 
-The purpose of this tutorial is to give you hands-on experience in conducting Thematic Analysis on qualitative data.
+![OMG All That Data](img/omg-data.png)
 
-<img width="954" height="535" alt="OMG_All_That_Data" src="https://github.com/user-attachments/assets/acb488eb-97c8-4e35-9b80-4b7fde2fa1df" />
+The purpose of this tutorial is to give you hands-on experience in conducting Thematic Analysis on qualitative data.
 
 ## Pre-Class Tasks
 
@@ -61,6 +61,7 @@ Your tutor will lead a whole-class discussion about your findings. What are the 
 Take a photo of your wall and findings and post on the forum!
 
 ## Resources
+
 - Affinity diagrams: <https://www.nngroup.com/articles/affinity-diagram/>
 - Textbook: Chapter 9
 
