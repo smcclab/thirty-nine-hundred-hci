@@ -247,7 +247,7 @@ By this stage, you could be excused for being a bit confused about qualitative r
 
 This may feel firmly off topic, but we need to surface some friction about _knowledge_ to properly explain the different approaches in qualitative research.
 
-- **Postivism/Post-positiveism** knowledge is true by definition or provable via generalisable methods. The "post" bit accepts qualitative research but emphasise sample size and eliminating bias.
+- **Postivism/Post-positivism** knowledge is true by definition or provable via generalisable methods. The "post" bit accepts qualitative research but emphasise sample size and eliminating bias.
 - **Interpretivism:** knowledge can be socially constructed and meaning made by people
 - **Critical theory:** examine power structures and hidden inequalities
 - **Constructivism:** knowledge is created and shaped by human experience and social interaction, including with the researcher
@@ -430,7 +430,6 @@ Braun and Clarke _insist_ that "themes do not emerge", [@braun-thematic-analysis
 - themes are created by the researcher, not exacavated from the data
 - work goes into analysing data and deciding on themes that can be supported
 - when folks write "themes emerged", it's as if the themes were either there to begin with or developed themselves.
-- this is not a (post-)positivist approach.
 
 @terry-thematic-analysis:2021 suggest approaching themeing by _prototyping_, an iterative process where "the goal isn't to finish".
 :::
