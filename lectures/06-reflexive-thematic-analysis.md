@@ -23,6 +23,7 @@ assignment 2 published [on Canvas](https://canvas.anu.edu.au/courses/2781/assign
 - Analytical frameworks (qualitative analysis)
 - Interpreting and presenting findings
 - Deep dive on _Reflexive Thematic Analysis_ (needed for the assignment)
+- Reflexivity and positionality statements
 
 # Analytical Frameworks
 
@@ -229,7 +230,7 @@ Overall advice about findings...
 
 # What even is knowledge anyway?
 
-![Photo by Patrick Tomasso on Unsplash](img/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg){width=60%}
+![Photo by Patrick Tomasso on Unsplash](img/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg){width=50%}
 
 ## What is knowledge?
 
@@ -558,6 +559,8 @@ A bingo card of potential researcher problems with (R)TA... which make sense so 
 
 # Reflexivity
 
+![Reflections by Charles, 2023](img/reflection.jpg){width=50%}
+
 ## What is reflexivity?
 
 :::::::::::::: {.columns}
@@ -641,7 +644,7 @@ Use the poll everywhere link to provide it.
 
 - Considering researcher's perspective is important part of developing _thick_ themes.
 - Needed to address challenges of subjectivity in HCI research.
-- Positionality statement and reflexive consideration required for COMP6390 in Final Project!
+- Positionality statement and reflexive consideration required for postgraduates (COMP6390) in Final Project!
 
 ## Questions: Who has a question?
 
