@@ -10,21 +10,19 @@ title-slide-attributes:
 
 assignment 2 published [on Canvas](https://canvas.anu.edu.au/courses/2781/assignments/11550):
 
-> Your challenge is choose **one existing AI-integrated interactive computer system or interface** and run a user research study with 3--5 participants. 
-> You will formulate a research question, collect and analyse data, and present research findings. Your study should involve at least one form of quantitative and one form of qualitative data and analysis.
+> Your challenge is choose **one existing AI-integrated interactive computer system or interface** and run a user research study with 3--5 participants. You will answer the research question: "How do users' mental model of the AI system align with the behaviour of the system and what usability issues arise from any misalignments?"
 
-You need to:
-
+- collect and analyse data and present research findings
 - apply quantitative and qualitative data analysis
-- research **other students** in this class (do not research folks outside the class please)
-- participant matching part of labs
+- research **other students** in this class (do not research folks outside the class)
+- participant matching in labs/drop-ins
+- **new:** clearer instructions to complete the assignment, [Markdown linter](https://github.com/igorshubovych/markdownlint-cli) provided in GitLab CI.
 
 ## Plan for the class
 
 - Analytical frameworks (qualitative analysis)
 - Interpreting and presenting findings
 - Deep dive on _Reflexive Thematic Analysis_ (needed for the assignment)
-- Reflexivity
 
 # Analytical Frameworks
 
@@ -96,7 +94,6 @@ Conversation with family members and Amazon Alexa with markup from [@porcheron-v
 :::
 ::::::::::::::
 
-
 ## Interaction Analysis [@jordan-interaction-analysis:1995]
 
 - investigate human interactions with each other, artifacts, and technologies using video recordings of naturally occurring activities 
@@ -123,14 +120,10 @@ Grounded Theory (GT) is an _old and important_ qualitative analysis technique [@
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![Figure 9.9 @rogers-beyond-hci:2023](img/grounded-theory-example-1.png)
-
-GT process for @alharthi-idle-games:2018
+![GT process for @alharthi-idle-games:2018 in @rogers-beyond-hci:2023](img/grounded-theory-example-1.png)
 :::
 ::: {.column width="50%"}
-![Figure 9.11 @rogers-beyond-hci:2023](img/grounded-theory-example-2.png)
-
-Codes and categories.
+![Codes and categories: Fig 9.11 @rogers-beyond-hci:2023](img/grounded-theory-example-2.png)
 :::
 ::::::::::::::
 
@@ -167,19 +160,20 @@ Codes and categories.
 ## Distributed Cognition of Teamwork (DiCoT)
 
 - Distributed cognition unpacks how multiple people and technologies interact complete tasks and solve problems.
-- DiCoT framework supports this concept with models:
     - **information flow model**
     - **physical model**
     - **artifact model**
     - **social structure model**
     - **system evolution model**
 - models have underlying principles, e.g., for physical model:
-    - **horizon of observation:** What an individual can see or hear.
-    - **perceptual:** How spatial representations aid computation.
-    - **arrangement of equipment:** How the physical arrangement of the environment affects access to information.
-- may be particularly useful in collaboration contexts, e.g., software development, medicine
+    - **horizon of observation:** What an individual can see or hear
+    - **perceptual:** How spatial representations aid computation
+    - **arrangement of equipment:** arrangement of the environment affects access to information
+- useful in collaboration contexts, e.g., software development, medicine
 
 ## Which Analytical Framework to Use? 
+
+::: {.small-table}
 
 | framework | data | focus | outcomes | granularity |
 |---|---|---|---|---|
@@ -189,6 +183,8 @@ Codes and categories.
 | interaction analysis | video of activities | interactions between people and artefacts | how knowledge and action are used in an activity | artifact, dialogue, gesture |
 | grounded theory | empirical data of any kind | building theory from a phenomenon | theory grounded in data | varying levels |
 | systems-based frameworks | large-scale and heterogeneous data | large scale systems of people and technology | organisational insights | macro, organisational level |
+
+:::
 
 adapted from @rogers-beyond-hci:2023 table 9.6
 
@@ -204,6 +200,8 @@ adapted from @rogers-beyond-hci:2023 table 9.6
 - Change and evolution is allowed, but understand that there is a wealth of example and established approaches
 
 ## Structured Notations
+
+Specific interaction information can be represented in a formal/structured way when presented.
 
 - presenting information through formal notations related to particular domains
 - e.g., music applications might involve musical notation or symbolic data formats
@@ -231,29 +229,40 @@ Overall advice about findings...
 
 # What even is knowledge anyway?
 
+![Photo by Patrick Tomasso on Unsplash](img/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg){width=60%}
+
+## What is knowledge?
+
 By this stage, you could be excused for being a bit confused about qualitative research in HCI.
 
-- Research is often defined as "knowledge creation", but it's not always clear _what_ that knowledge is.
+- Research is often defined as "knowledge creation", but it's not always clear _what_ that knowledge is in HCI:
+  - Is the knowledge from an interview different to a measured interaction?
+  - Does our interpretation matter?
+  - Do the users have to be objective?
 - E.g., if you create a new app, and then evaluate it, can your evaluation ever be objective? (remember you created the app in the first place!)
+- Not a new question: _epistemology_ is a (philosophy) discipline to understand knowledge.
 
 ## Epistemology
 
-Now we are firmly off topic, but we need to surface some friction about _knowledge_ to properly explain the different approaches in qualitative research.
+This may feel firmly off topic, but we need to surface some friction about _knowledge_ to properly explain the different approaches in qualitative research.
 
-- **Postivism:** knowledge is true by definition or provable via generalisable methods
-- **Post-positivism:** non-generalisable methods ok but emphasise sample size and eliminating bias.
+- **Postivism/Post-positiveism** knowledge is true by definition or provable via generalisable methods. The "post" bit accepts qualitative research but emphasise sample size and eliminating bias.
 - **Interpretivism:** knowledge can be socially constructed and meaning made by people
-- **Critical theory:** examine power structures and hidden inequalities 
+- **Critical theory:** examine power structures and hidden inequalities
 - **Constructivism:** knowledge is created and shaped by human experience and social interaction, including with the researcher
 - **Pragmatism:** apply frameworks that work best to solve the problem (e.g., mixed methods research)
+- **New-Materialism:** _things_ can create meaning too with HCI defined by intra-action [@barad-meeting-universe:2007] of things and people
 
-## What should this mean to you
+## Activity: What should this mean to you
 
-Some aspects of HCI, e.g., "user experience" aren't well uncovered by (post-)positivist frameworks.
+- Some aspects of HCI, e.g., "user experience" aren't well uncovered by (post-)positivist frameworks.
+- Interpretivist/Constructivist stances more popular in qualitative HCI research.
+- New-Materialism/Agential-realism [@barad-meeting-universe:2007] is emerging in HCI as a relevant mode of inquiry
+- _but_ this has some implications in terms of how findings are described!
 
-Interpretivist/Constructivist stances more popular in qualitative HCI research.
+> Does any of this make sense? What kind of knowledge would you want to deal with? 
 
-_but_ this has some implications in terms of how findings are described!
+**Discuss with someone near you for 2 minutes, then let's hear some answers.**
 
 # Thematic analysis
 
@@ -279,21 +288,18 @@ _but_ this has some implications in terms of how findings are described!
 
 ## Phase 1: Familiarise yourself with your data
 
-- analysis starts as soon as data collection starts
-- e.g., after each interview, allow time for reflection on data and method
-  - what were the key findings of this interview?
-  - what was similar/different to previous interviews?
-  - what issues were unexpected or surprising?
-  - what would you do differently for the next interview? How would you adjust your interview script?
-- note down and mind map any key quotes, examples, or stories from your data
-
-## (Phase 1) Transcribing audio/video recordings
-
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- start of data collection
-- introductory note/context
-- formatting to help distinguish speakers
+- considered poor practice to jump to _themeing_ before understanding the data.
+- familiarisation starts during data collection (thinking about the content while/directly after collecting)
+- angles for thought: key knowledge, simalarities/differences, surprises, adjustments to interview technique/script.
+
+### Reading
+
+- Read data in an active way: search for meaning
+- make notes while reading
+- familiarise while transcribing
+- read and re-read transcripts
 :::
 ::: {.column width="40%"}
 ![[Source](http://www.u.arizona.edu/~kimmehea/purdue/421/exampleinterview.htm)
@@ -301,49 +307,47 @@ _but_ this has some implications in terms of how findings are described!
 :::
 ::::::::::::::
 
-## (Phase 1) Initial reading
-
-- Immerse yourself in the data: read and re-read transcripts
-- Read data in an active way: search for meaning, patterns etc., take notes about ideas for coding.
-- But don’t try to code the data yet.
-
-## Phase 2: Generate initial codes
-
-“interacting with data, making comparisons between data, and so on, and in doing so, deriving concepts to stand for those data, then developing those concepts in terms of their properties and dimensions” (Corbin & Strauss 2014)
-
-“emergent coding” (your projects) vs “a priori coding” (Lazar et al. 2017, p.304)
-
-## Phase 2: What is a code?
+## Phase 2: Code the data
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- A code: Short phrase to describe piece of data
-- Identify important features to your research aims
-- Subject or nature of comment
-- Each item can have multiple codes
+A code is: _a name or label applied to a chunk of data_
 
-(Piggott & Lee-Poy, 2015)
+- reduces volume of data
+- connects data items together.
+- remember last week: inductive vs deductive coding (in this class, please do inductive!)
+- chunks can have multiple codes
+- code choice: short phrase, or a pithy label (shorter than the data it describes!)
+- code small chunks: start with each sentence.
+- do this _thoroughly_
 :::
 ::: {.column width="40%"}
-![](img/05_02_thematic_analysis_2.jpg)
+![[@piggott-preceptor-engagement:2015]](img/05_02_thematic_analysis_2.jpg)
 :::
 ::::::::::::::
 
-## (Phase 2) What to look for when coding?
+## What to look for when coding?
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- Look for specific items
-- Ask questions about the data
-- Make comparisons at different levels
+- initial coding: lots of new codes
+- later: reuse existing codes.
+- length: sometimes _one word_ can be too general (links too much data)
+- don't overlook data: code the obvious
 
+### Example codes for "uncertainty"
+
+- "uncertainty about what to do next"
+- "uncertain about whether command was received"
+- "uncertain about whether information is true"
+- "uncertain whether other options would be better"
 :::
 ::: {.column width="40%"}
 ![(Lazar et al. 2017, p.312)](img/05_02_thematic_analysis_3.jpg)
 :::
 ::::::::::::::
 
-## (Phase 2) Coding your data: Word/Excel
+## Coding your data in a text editor
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
@@ -354,21 +358,45 @@ _but_ this has some implications in terms of how findings are described!
 :::
 ::::::::::::::
 
-## (Phase 2) Developing codes
+## Types of codes
 
-- "In-vivo codes" vs "researcher-denoted concepts"
-- **In-vivo:** e.g., “hot-rodder,” “old-fashioned guy” (Given 2008)
-- **Researcher-denoted:** “My son just sits there and sobs when the computer does not do what he wants. He becomes irritated and keeps pushing the Enter button when the web page loads slowly” e.g. Frustration (Lazar et al. 2017, p.306)
+- In vivo codes: based on the literal words of a participant [@given-in-vivo-coding:2008]
+- Researcher denoted: based on the researcher's interpretation
+- Semantic: surface level, close to in vivo but may not be exact words
+- Latent: based on deeper interpretation of data
 
-## (Phase 2) Coding your data: NVivo
+## Code book
 
-![Image source: https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/upgrade-nvivo](img/05_02_thematic_analysis_6.png)
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- Some qualitative research involves collecting codes in a document and sharing between researchers
+- Researchers argue this can help eliminate bias
+- Controls on number and type of codes, aim for consistency and repeatability
+- Often not recommended in reflexive thematic analysis
+:::
+::: {.column width="40%"}
+![Example of code book entries [@decruir-gunby-codebook:2011, p.147]](img/05_02_thematic_analysis_7.jpg)
+:::
+::::::::::::::
 
-## (Phase 2) Code book
+## Activity: Do some coding
 
-![(DeCuir-Gunby 2011, p.147)](img/05_02_thematic_analysis_7.jpg){width=40%}
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Let's code some interview data.
 
-## Phase 3: Search for themes
+> **David** is explaining how orders groceries online.
+
+Use the poll everywhere link to code statements and we will see them all together. We'll code each statement for 1 minute and then discuss the results.
+
+
+:::
+::: {.column width="40%"}
+![PollEverywhere link: <https://pollev.com/charlesmarti205>](img/polleverywhere-charles-qr.png)
+:::
+::::::::::::::
+
+## Phase 3: Initial theme generation
 
 A theme:
 
@@ -382,13 +410,61 @@ How do we find them?
 ::: {.column width="60%"}
 In this class: 
 
-1. Use affinity diagrams to arrange codes/data
+1. Use affinity diagrams to cluster codes / data extracts
 2. Look for patterned responses/meanings (may help to write higher level codes)
-3. Come up with themes that capture "something important"
-4. Refine and question your themes, not all themes are well-supported by data.
+3. _prototype_ themes that capture "something important" (may help to promote a code)
+4. Refine and question your themes and codes, not all themes are well-supported by data.
 :::
 ::: {.column width="40%"}
-![[@rogers-beyond-hci:2023, p.322]](img/05_02_thematic_analysis_8.jpg)
+![A Miro board from [Yichen Wang](https://yichenwangs.github.io)'s thematic analysis (2025)](img/reflexive-thematic-analysis-yichen-wang-miro-2025.png)
+:::
+::::::::::::::
+
+## Themes do not emerge
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Braun and Clarke _insist_ that "themes do not emerge", [@braun-thematic-analysis:2022]
+
+- themes are created by the researcher, not exacavated from the data
+- work goes into analysing data and deciding on themes that can be supported
+- when folks write "themes emerged", it's as if the themes were either there to begin with or developed themselves.
+- this is not a (post-)positivist approach.
+
+@terry-thematic-analysis:2021 suggest approaching themeing by _prototyping_, an iterative process where "the goal isn't to finish".
+:::
+::: {.column width="40%"}
+![Themes do not emerge is a bit of a meme.](img/themes-do-not-emerge.jpg){width=50%}
+:::
+::::::::::::::
+
+## Code Hierarchies
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- Some TA methods suggest hierarchies of codes to find themes.
+- I suggest: codes, sub- or prototype- themes, then themes
+- In this example, are the themes thick or thin?
+:::
+::: {.column width="40%"}
+![[@lazar-research-methods:2017]](img/05_02_thematic_analysis_9.jpg)
+:::
+::::::::::::::
+
+## Phase 4: Develop and review themes
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Are your themes good? Test them.
+
+- Are themes supported by (enough) data?
+- Answer your research question?
+- Provide strong organising concepts?
+- Conceptually rich? (Could you write 500 words about each?)
+- Do the themes reflect the overall meaning of the data set?
+:::
+::: {.column width="40%"}
+![Are your themes bucket-y? (Photo by Ella Ivanescu on Unsplash)](img/ella-ivanescu-EvjDP3hprI8-unsplash.jpg)
 :::
 ::::::::::::::
 
@@ -399,64 +475,64 @@ In this class:
 There are different types of themes, and a common distinction:
 
 - Themes that categorise groups of codes: bucket themes, semantic themes, _thin_ themes
-
 - Themes that interpret the codes, revealing hidden information: latent themes, _thick_ themes
-
 
 :::
 ::: {.column width="40%"}
 Number of words heuristic:
 
-> If your theme is <5 words, it _might_ be a bit thin.
+> If your theme is <4 words, it _might_ be a bit thin.
 
 Number of themes heuristic:
 
-> If you are proposing >5 themes, they _might_ be a bit thin.
+> If you are proposing >4 themes, they _might_ be a bit thin.
 
 Source: Charles, 2025. 😬
 :::
 ::::::::::::::
 
-## Themes do not emerge
+## Phase 5: Refine and name themes
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Braun and Clarke _insist_ that "themes do not emerge", [@braun-thematic-analysis:2022]
-
-- themes are created by the researcher
-- work goes into analysing data and deciding on themes that can be supported
-- when folks write "themes emerged", it's as if the themes were either there to begin with or developed themselves.
-- this is not a (post-)positivist approach.
-:::
-::: {.column width="40%"}
-![Themes do not emerge is a bit of a meme.](img/themes-do-not-emerge.jpg){width=50%}
-:::
-::::::::::::::
-
-## (Phase 3) Example code structure
-
-![[@lazar-research-methods:2017; p.310]](img/05_02_thematic_analysis_9.jpg){width=60%}
-
-## Phase 4: Review themes
-
-- Are themes supported all by the data?
-- Can some themes be grouped together?
-- Does all the data within the theme describe it?
-- Do the themes reflect the overall meaning of the data set?
-
-## Phase 5: Refine and name themes
-
 - Does your theme name reflect its ‘essence’?
 - Does the theme contain subthemes?
 - Are your theme names descriptive but concise?
-- Can you summarise your theme in a couple of sentences?
+- Can you describe your theme in a couple of sentences?
+:::
+::: {.column width="40%"}
+![Theme example from @terry-thematic-analysis:2021](img/theme-example.jpg)
+:::
+::::::::::::::
+
+## Activity: Let's theme
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+**Let's cluster some codes from the HCI grocery interview.**
+
+- Use this miro board link: <https://quicklink.anu.edu.au/o095>
+
+This is fairly uncontrolled so be kind 😇
+
+1. Yellow notes are "codes", cluster them.
+2. Make red notes to represent prototype themes.
+
+Cluster for 2-3 minutes, discuss, theme for 2-3 minutes, discuss.
+
+:::
+::: {.column width="40%"}
+![Miro Board sharing link (QR code)](img/thematic-analysis-clustering.png)
+:::
+::::::::::::::
 
 ## Phase 6: Write up a report
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- Determine the narrative for your themes
-- Include quotes and examples from your data
+- determine the narrative for your themes
+- include quotes and examples from your data
 - include analysis: an argument in relation to your research question
 - in your user research project: support themes with data
 - in your final project: present design implications arising from the themes
@@ -466,19 +542,11 @@ Braun and Clarke _insist_ that "themes do not emerge", [@braun-thematic-analysis
 :::
 ::::::::::::::
 
-## References
-
-- Corbin, J & Strauss, A 2008,  _Basics of Qualitative Research_  3rd edn, Sage Publications Inc, Thousand Oaks, CA.
-- DeCuir-Gunby, JT, Marshall, PL & McCulloch, AW 2011, ‘Developing and Using a Codebook for the Analysis of Interview Data: An Example from a Professional Development Research Project’,  _Field Methods_ , vol. 23, no. 2, pp. 136–155, accessed from <https://doi.org/10.1177/1525822X10388468>.
-- Given, L. M. (2008). In vivo coding. In  _The SAGE encyclopedia of qualitative research methods_  (Vol. 1, pp. 473-474). SAGE Publications, Inc., [https://www-doi-org.virtual.anu.edu.au/10.4135/9781412963909.n240](https://www-doi-org.virtual.anu.edu.au/10.4135/9781412963909.n240)
-- Piggott, T, Morris, C & Lee-Poy, M 2015, ‘Preceptor engagement in distributed medical school campuses’,  _Canadian medical education journal_ , vol. 6, no. 2, pp. e20–e28, accessed from <https://pubmed.ncbi.nlm.nih.gov/27004073>.
-
 ## Reflexive Thematic Analysis Bingo [@braun-thematic-analysis:2022]
 
 A bingo card of potential researcher problems with (R)TA... which make sense so far?
 
 ::: {.small-table}
-
 | B | I | N | G | O |
 | - | - | - | - | - |
 | Mentions inter-coder reliability | Implicitly (post-)positivist TA (not acknowledged) | More than 3 levels of themes | Mention of a lack of (statistical) generalisability | Messy mix of realism and constructionism |
@@ -486,7 +554,6 @@ A bingo card of potential researcher problems with (R)TA... which make sense so 
 | Use of passive voice | No reflexivity | **Thematic Analysis** | Only Braun and Clarke 2006 cited | Mention of “bias” |
 | Clarke spelled as Clark (no e) | More than 6 themes | No theory of language-treated as a window to truth | Themes are topic summaries | Very few participants quoted / over-quoting of one or more |
 | Implicitly realist TA (not acknowledged) | Braun pronounced BRAWN (not Brown) | Mismatch between extracts and analytic claims | Use of a codebook | Data are just paraphrased without interpretation |
-
 :::
 
 # Reflexivity
@@ -552,6 +619,21 @@ A bingo card of potential researcher problems with (R)TA... which make sense so 
 :::
 ::: {.column width="50%"}
 ![[@liang-tensions-hci-marginalized:2021]](img/05_01_reflexivity_12.png)
+:::
+::::::::::::::
+
+## Activity: Positionality statement (in a sentence)
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Let's try it:
+
+> What is your 1-sentence statement of positionality as a researcher?
+
+Use the poll everywhere link to provide it.
+:::
+::: {.column width="40%"}
+![PollEverywhere link: <https://pollev.com/charlesmarti205>](img/polleverywhere-charles-qr.png)
 :::
 ::::::::::::::
 
