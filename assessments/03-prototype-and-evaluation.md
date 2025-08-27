@@ -19,7 +19,7 @@ You must design a prototype system in response to a real-world problem. You will
 Your work will be submitted as a portfolio including your prototype materials, research data, analysis, references, and a presentation.
 The presentation should cover problem identification, design rationale, prototype demonstration, evaluation methodology, and results. 
 
-PG: You must reflect critically on your presence within the design process.
+PG: You must reflect critically on your presence within the design and evaluation process.
 
 **Note: This assignment specification hasn't been released yet. More details will be available after the due date of the previous assignment.**
 
@@ -39,4 +39,8 @@ TBA.
 
 ## Marking Rubric {#rubric}
 
-TBA.
+- Sophistication of study plan and summary of conclusions (10 marks)
+- Sophistication of quantitative analysis and articulation of findings (10 marks)
+- Sophistication of qualitative analysis and articulation of findings (10 marks)
+
+(more detail TBA)
