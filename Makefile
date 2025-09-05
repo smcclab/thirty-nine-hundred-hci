@@ -155,7 +155,7 @@ assessments: $(ASSESSMENTS_OUT) $(ASSESSMENTS_HTMLS) $(ASSESSMENTS_PDFS) index
 WORKSHOPS_MDS = $(wildcard $(WORKSHOPS_DIR)/*.md)
 WORKSHOPS_HTMLS = $(patsubst $(WORKSHOPS_DIR)/%.md,$(WORKSHOPS_OUT)/%.html,$(WORKSHOPS_MDS))
 
-$(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.md
+$(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.md $(REFERENCES)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
 
 # Generate workshops
