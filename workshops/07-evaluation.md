@@ -1,6 +1,6 @@
 ---
 title: Planning Evaluations
-author: Dr Jennyfer Lawrence Taylor, Sandy Ma
+author: Sandy Ma
 ---
 
 ![We've made some prototypes --- now what? (Week 4 prototype demos from COMP3900 2025)](img/evaluation.jpg)
@@ -12,8 +12,7 @@ The intended learning outcomes for this tutorial are to:
 - Develop design evaluation goals
 - Design evaluation activities using qualitative and quantitative methods
 - Facilitate an evaluation activity with technology users
-- Critically reflect on which evaluation methods can address particular
-  kinds of evaluation goals and research questions
+- Critically reflect on which evaluation methods can address particular kinds of evaluation goals and research questions
 
 ## Pre-Class Tasks
 
@@ -43,7 +42,7 @@ Remember, for your study plan you need to collect quantitative and qualitative d
 
 ## In-Class Tasks
 
-### Disucss pre-class tasks (10 mins)
+### Discuss pre-class tasks (10 mins)
 
 Your pre-class task asked you to describe your planned study for Assignment 2. 
 
