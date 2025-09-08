@@ -1,14 +1,16 @@
 ---
 title: Planning Evaluations
-author: Dr Jennyfer Lawrence Taylor
+author: Dr Jennyfer Lawrence Taylor, Sandy Ma
 ---
+
+![We've made some prototypes --- now what? (Week 4 prototype demos from COMP3900 2025)](img/evaluation.jpg)
 
 The purpose of this tutorial is to help you to design and conduct an evaluation activity.
 
 The intended learning outcomes for this tutorial are to:
 
 - Develop design evaluation goals
-- Design evaluation activities using qualitative methods
+- Design evaluation activities using qualitative and quantitative methods
 - Facilitate an evaluation activity with technology users
 - Critically reflect on which evaluation methods can address particular
   kinds of evaluation goals and research questions
@@ -22,17 +24,7 @@ tutorial:
 
 2.  Read the following chapters from *Interaction Design: Beyond Human-Computer Interaction* **Chapter 14 Introducing Evaluation**, **Chapter 15 Evaluation Studies: From Controlled to Natural Settings** [@rogers-beyond-hci:2023].
 
-3.  Familiarise yourself with the ANU's publicly facing website and its features, as you will be evaluating the ANU website in the tutorial this week: <https://www.anu.edu.au>. Particular areas of the ANU website that you might like to focus on are:
-
-    - **Accommodation portal:**
-      <https://www.anu.edu.au/study/accommodation>
-    - **Programs and courses:** <https://programsandcourses.anu.edu.au>
-    - **Academic skills:** <https://www.anu.edu.au/students/academic-skills>
-    - **Campus map:** <https://www.anu.edu.au/maps#>
-    - **ANU Library:** <https://anulib.anu.edu.au>
-    - **Events calendar:** <https://www.anu.edu.au/events>
-    - **Careers site:** <https://www.anu.edu.au/students/careers-opportunities/careers>
-    - **Jobs portal:** <https://www.anu.edu.au/jobs>
+3. Write a forum post (100-200 words) summarising your research plan in preparation for [Assignment 2](https://canvas.anu.edu.au/courses/2781/assignments/11550). In your post, name the AI-integrated interface you have chosen to study, and explain why you selected it. Then briefly outline your research plan, including your strategies for data collection and the analysis framework(s) you intend to use. You must also include at least two references from relevant HCI literature---these could relate to prior studies in similar areas, research methodologies, conceptual frameworks, or other scholarly resources relevant to your topic.
 
 Following on from the assignment work last week you should have:
 
@@ -45,28 +37,44 @@ Remember, for your study plan you need to collect quantitative and qualitative d
 
 ## Plan for the Class
 
-1.  Plan your evaluation activity - individually (10 mins)
-2.  Conduct your evaluation activity in pairs (30 mins)
-3.  Report back and close (10 mins)
+0.  Discuss pre-class tasks (10 mins)
+1.  Plan your evaluation (50 mins)
+2.  Meet with your group to discuss evaluation (30 mins)
 
 ## In-Class Tasks
 
-### Plan your evaluation activity - individually (10 mins)
+### Disucss pre-class tasks (10 mins)
 
-- Choose a particular feature of the ANU website that you wish to
-  evaluate, that can facilitate a task for the user to complete
-  (e.g., finding ANU accommodation choices that satisfy X criteria).
+Your pre-class task asked you to describe your planned study for Assignment 2. 
 
-  - You can choose one of the areas listed above, or another area of
-    this website not on the list. Choose an area of the ANU website
-    that **does not** require logging in (i.e., a publicly
-    accessible part of the website).
+Recall that the research question you will investigate is:
+
+> "How do users' mental model of the AI system align with the behaviour of the system and what usability issues arise from any misalignments?"
+
+Consider the following questions: 
+
+- How does your study plan address the research question? 
+- How have you ensured your study plan is feasible within the time constraints?
+- Why does your chosen interface make sense for this research question?
+
+### Planning your evaluation (50 mins)
+
+This section of the tutorial is dedicated to articulating your evaluation plans a bit more thoroughly. 
+
+- Choose a particular feature of your chosen AI interface that you wish to
+  evaluate, that can facilitate a task for the user to complete.
 
 - Choose one user experience AND one usability evaluation goal to
   focus on.
 
 - Choose a task for the user to complete that would address your
   evaluation goals.
+
+<!-- edited up to here 8 Sept 5pm ; gonna plan in comments for the rest for now  - SM -->
+
+<!-- What are you going to do to actually gather your data? Quantitative data: name your sources, design your means of data gathering. Qualitative data: Will there be a script? -->
+
+<!-- Ethical considerations/consent process -->
 
 - Plan a 10-minute think aloud evaluation activity, where you ask
   the user to complete the task and think aloud as they are doing
@@ -81,8 +89,12 @@ Remember, for your study plan you need to collect quantitative and qualitative d
     handwritten notes that do not include any identifying
     information in them for the purpose of the tutorial discussion.
 
+<!-- Planning analysis? Last week we did thematic analysis; week before that we did some SUS quantitative analysis; discuss in pairs what kind of analysis you are planning to do and why; consider why your chosen analysis is appropriate within the context of your research -->
+
 ### Conduct your evaluation activity in pairs (30 mins)
 
+
+<!-- Meet with your group, discuss each of your evaluation plans, DECIDE ON TIME/PLACE WHEN YOU WILL CONDUCT YOUR DATA GATHERING!!!! It could be the drop in immediately after your tutorial! -->
 - Your Tutor will automatically assign you to a break-out room with
   one other person at random.
 
@@ -104,17 +116,6 @@ Remember, for your study plan you need to collect quantitative and qualitative d
   whether they met your evaluation goals. Identify strengths and
   limitations to your evaluation approaches.
 
-### Report back and close (10 mins)
-
-The Tutor will bring everyone back together for a discussion, addressing the following questions:
-
-- What were your evaluation goals? What were the findings from your evaluation activity?
-
-- What did you learn about facilitating evaluation activities? How will you improve your skills as a facilitator based on your experiences in this tutorial?
-
-- What were the limitations or constraints to your approach?
-
-- Would this be a useful evaluation approach to take if you were to run an evaluation study of your high-fidelity prototype? Why/why not?
 
 
 
