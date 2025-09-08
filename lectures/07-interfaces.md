@@ -54,6 +54,30 @@ Interfaces can sit on a spectrum between fully virtual and fully real interactio
 ## Virtual Reality
 
 
+## Introduction to Interface Diversity
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- Default solution for many developers: **smartphone apps** (millions on Apple & Google stores).  
+- The **web** remains central for delivering services across many devices & browsers.  
+- Interfaces extend beyond apps & web: **voice, touch, gesture, multimodal**.  
+- **Input methods**: mouse, touchpad, pen, controllers, joysticks, RFID, gestures, brain–computer.  
+- **Output methods**: GUIs, speech, AR/VR, tangible interfaces, wearables, holograms.  
+- Goal: **overview of 22 interface types**—from command-based to holographic.  
+:::
+::: {.column width="40%"}
+![Picture about a phone](img/09_evaluation_foundations_20.jpg){width=80%}
+:::
+::::::::::::::
+
+
+
+
+
+
+<!-- boilerplate ending -->
+
+
 ## Questions: Who has a question?
 
 :::::::::::::: {.columns}
