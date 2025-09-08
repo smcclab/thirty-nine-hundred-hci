@@ -7,6 +7,9 @@ author: Dr Charles Martin
 
 This tutorial will help you to build prototypes that go beyond manifesting a design concept, but are ready for evaluation. This work is directly related to the final project.
 
+<!-- link this to previous one. -->
+<!-- half making, half testing on each other. -->
+
 ## Pre-Class Tasks
 
 The pre-class task(s) need to be _ultra clear_ so that students can complete them before the tutorial without assistance from staff.

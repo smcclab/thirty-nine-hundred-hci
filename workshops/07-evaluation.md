@@ -116,7 +116,6 @@ The Tutor will bring everyone back together for a discussion, addressing the fol
 
 - Would this be a useful evaluation approach to take if you were to run an evaluation study of your high-fidelity prototype? Why/why not?
 
-### 
 
 
 ## Resources

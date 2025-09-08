@@ -47,7 +47,7 @@ In groups of 4--5:
 
 When generating themes, you might like to consider the lecture slides on phases of thematic analysis, and this worked example of a reflexive thematic analysis process [@byrne-worked-thematic-analysis:2022].
 
-### 2. Refine and Name Themes   (40 minutes)
+### 2. Refine and Name Themes   (30 minutes)
 
 In your group, develop, review, refine and name your themes following the [phase 4 and 5 from the lecture slides](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/06-reflexive-thematic-analysis.html#/phase-4-develop-and-review-themes)
 

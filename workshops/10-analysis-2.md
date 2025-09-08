@@ -5,7 +5,9 @@ author: Dr Charles Martin
 
 <!-- ![tutorial image goes here, a nice indicative image in wide format, e.g. 1200x650](img/image-name.jpg) -->
 
-This tutorial is focussed on how to analyse the information found in through an evaluation and how to develop that knowledge into design recommendations. This work is directly related to the final project.
+This tutorial is focussed on how to analyse the information found through an evaluation and how to develop that knowledge into design recommendations. This work is directly related to the final project.
+
+<!-- link this to previous one. -->
 
 ## Pre-Class Tasks
 
