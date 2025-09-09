@@ -1,5 +1,5 @@
 ---
-title: Evaluation and the User Experience
+title: Evaluation
 author: Dr Charles Martin
 title-slide-attributes:
     data-background-image: img/aisee-holo-view.jpg
