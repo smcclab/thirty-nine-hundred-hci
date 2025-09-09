@@ -16,8 +16,7 @@ The intended learning outcomes for this tutorial are to:
 
 ## Pre-Class Tasks
 
-You should complete the following activities prior to attending your
-tutorial:
+You should complete the following activities prior to attending your tutorial:
 
 1.  Review the lecture content on **Evaluation**
 
@@ -60,65 +59,69 @@ Consider the following questions:
 
 This section of the tutorial is dedicated to articulating your evaluation plans a bit more thoroughly. 
 
-- Choose a particular feature of your chosen AI interface that you wish to
-  evaluate, that can facilitate a task for the user to complete.
+- Choose a particular feature of your chosen AI interface that you wish to evaluate, that can facilitate a task for the user to complete.
 
-- Choose one user experience AND one usability evaluation goal to
-  focus on.
+- Choose one user experience AND one usability evaluation goal to focus on.
 
-- Choose a task for the user to complete that would address your
-  evaluation goals.
+- Choose a task for the user to complete that would address your evaluation goals.
 
-<!-- edited up to here 8 Sept 5pm ; gonna plan in comments for the rest for now  - SM -->
+Now it's time to consider your data collection. Recall that we are expecting both quantitative and qualitative within the scope of this course. 
 
-<!-- What are you going to do to actually gather your data? Quantitative data: name your sources, design your means of data gathering. Qualitative data: Will there be a script? -->
+- How will you collect your data? Why have you chosen these methods? 
 
-<!-- Ethical considerations/consent process -->
+- Write up your means of data gathering. Consider what data you are trying to gather and how it contributes to your evaluation goal.
 
-- Plan a 10-minute think aloud evaluation activity, where you ask
-  the user to complete the task and think aloud as they are doing
-  it.
+- What kind of data will you be collecting? How will you ensure that no identifiable information is gathered from participants. 
 
-  - Write down your instructions to participants as a script.
+As makers/learners/developers/academics/humans, it's important to consider the ethical implications of any of our own output. When doing research with human participants, it's important to consider human ethics, and abide by any relevant codes of conduct. 
 
-  - Ensure that you ask participants consent to take part in the
-    evaluation task, and thank them for their time at the end.
+- Describe the consent process you plan on using in this assignment. What are the considerations of your specific research plan and how are they relevant? 
 
-  - You cannot record the 'participant'. You can only take
-    handwritten notes that do not include any identifying
-    information in them for the purpose of the tutorial discussion.
+- How will you address any concerns from the participants before they engage in the evaluation? 
 
-<!-- Planning analysis? Last week we did thematic analysis; week before that we did some SUS quantitative analysis; discuss in pairs what kind of analysis you are planning to do and why; consider why your chosen analysis is appropriate within the context of your research -->
+- Summarise your ethical considerations in 2-3 sentences and post it on the forum. Your tutor will create a thread for your tutorial. 
 
-### Conduct your evaluation activity in pairs (30 mins)
+After you have gathered your data, it's time for analysis! In last week's workshop, we introduced thematic analysis, and the workshop before that was a quick overview of quantitative analysis. 
+
+- Find a partner who is not in your research group, and discuss what kind of analysis you are planning to do and why. Consider why your chosen analysis methodology is appropriate within the context of your research. 
+
+- Articulate and write down your plan for data analysis. This will be helpful for when you're completing the Assignment! 
+
+### Research 'cluster' meeting (30 mins)
+
+The last 30 minutes of this workshop is dedicated to meeting with your group and working out the logistics of completing your evaluations. 
+
+As a group you should: 
+
+- Talk through your overall evaluation plans with your group, and make sure to address any concerns your participants might have. You don’t need to go into the details of your specific data collection questions (that will come during the actual evaluation), but be clear about what you’ll be asking participants to do and what their involvement will look like.
+
+- Decide on the time and place when you will conduct your data gathering. Remember that every tutorial in the course is followed by a 30 minute drop-in --- this means the room is booked and free to use for this course! 
+
+- Do your evaluations! If you have time, you might like to take turns to conduct and participate in your evaluation activities in pairs. 
 
 
-<!-- Meet with your group, discuss each of your evaluation plans, DECIDE ON TIME/PLACE WHEN YOU WILL CONDUCT YOUR DATA GATHERING!!!! It could be the drop in immediately after your tutorial! -->
-- Your Tutor will automatically assign you to a break-out room with
-  one other person at random.
+### Wrapping up
 
-  - It does not matter if they are not in the same project group as
-    you, as this task does not relate to the Prototype Design and
-    Presentation Assessment.
+Good luck with completing Assignment 2! Remember that it is due next Monday 29th September 2025, 23:59 AEST. 
 
-  - If there is an uneven number of participants, the Tutor will
-    create a group of three.
+After you have completed your analysis, it's helpful to reflect on the following: 
 
-- Take turns to conduct and participate in your evaluation activity
-  in pairs.
-
-  - If you are in the group of three, you can stay in your breakout
-    room for the full 30 minutes rather than returning to the main
-    room if you need more time.
-
-- Discuss what the outcomes of your evaluation activities were, and
-  whether they met your evaluation goals. Identify strengths and
-  limitations to your evaluation approaches.
+- Discuss what the outcomes of your evaluation activities were, and whether they met your evaluation goals. Identify strengths and limitations to your evaluation approaches. 
 
 
 
 
 ## Resources
+
+- ANU Resources on Human Ethics: <https://services.anu.edu.au/research-support/research-ethics-integrity-compliance/human-ethics>
+
+- NHMRC The National Statement on Ethical Conduct in Human Research (2025): <https://www.nhmrc.gov.au/about-us/publications/national-statement-ethical-conduct-human-research-2025>
+
+- Data Gathering Lecture: <https://smcclab.github.io/thirty-nine-hundred-hci/lectures/04-data-gathering.html>
+
+- Data Analysis Lecture: <https://smcclab.github.io/thirty-nine-hundred-hci/lectures/05-data-analysis.html/>
+
+- Thematic Analysis Lecture: <https://smcclab.github.io/thirty-nine-hundred-hci/lectures/06-reflexive-thematic-analysis.html/>
 
 
 
