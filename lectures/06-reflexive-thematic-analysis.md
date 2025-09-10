@@ -477,6 +477,8 @@ There are different types of themes, and a common distinction:
 - Themes that categorise groups of codes: bucket themes, semantic themes, _thin_ themes
 - Themes that interpret the codes, revealing hidden information: latent themes, _thick_ themes
 
+Charles (2025) suggests that **4** is a key heuristic for assessing theme thickness. (Disclaimer: may be revised in future!)
+
 :::
 ::: {.column width="40%"}
 Number of words heuristic:
