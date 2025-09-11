@@ -95,27 +95,6 @@ These interfaces have been largely superseded by graphical interfaces such as me
 
 ## Command-Line Interfaces
 
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-
-Type in abbreviated commands (e.g., `ls`),
-
-pressing certain combinations of keys (e.g., `Ctrl + V`),
-
-fixed from the keyboard (e.g., `delete`, `enter`, `esc`) or user defined.
-
-These interfaces have been largely superseded by graphical interfaces such as menus, icons, keyboard shortcuts and pop-up/predictable text commands as part of an application. 
-
-- Though they continue to be useful in using complex software package (e.g., CAD), scripting batch operations, website, and hacking. 
-  
-:::
-::: {.column width="50%"}
-![A Unix terminal display showing directories listed alphabetically for the command ls -a. Source: Yvonne Rogers](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f001.png){width=60%}
-:::
-::::::::::::::
-
-## Command-Line Interfaces
-
 > Research and Design Consideration
 
 Back in 1980s, much research investigated command interfaces' optimisation:
@@ -134,7 +113,7 @@ are examples of some of the main areas that have been investigated (Shneiderman,
 
 Interact with a system which information to be presented and represented within a graphical interface. 
 
-- This includes the use of color, typography, and imagery (reference).
+- This includes the use of color, typography, and imagery [@mullet1996designing].
 
 - The original GUI was called a WIMP
     - Windows
@@ -177,8 +156,7 @@ A single interface combines different media such as graphics, text, video, sound
 
 :::
 ::: {.column width="50%"}
-![An example of a multimedia learning app designed for tablets. Source: KidsDiscover app “Roman Empire for iPad"]
-(![https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f012.png](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f012.png)){width=60%}
+![An example of a multimedia learning app designed for tablets. Source: KidsDiscover app “Roman Empire for iPad”](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f012.png){width=60%}
 :::
 ::::::::::::::
 
@@ -252,7 +230,6 @@ The concept of the AR can be traced back to 1960s with Ivan Sutherland’s devel
 
 :::
 ::: {.column width="50%"}
-<!-- reference -->
 ![First augmented reality head-mounted display system. Source: https://dl.acm.org/doi/10.1145/1476589.1476686"](img/ivan-sutherland-headset.jpg){width=60%}
 :::
 ::::::::::::::
