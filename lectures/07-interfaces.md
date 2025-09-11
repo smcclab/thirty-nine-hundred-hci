@@ -114,6 +114,91 @@ These interfaces have been largely superseded by graphical interfaces such as me
 :::
 ::::::::::::::
 
+## Command-Line Interfaces
+
+> Research and Design Consideration
+
+Back in 1980s, much research investigated command interfaces' optimisation:
+
+- form of the commands such as the use of abbreviations, full names, and familiar names, 
+- syntax (e.g., how best to combine different commands), and organisation (e.g., how to structure options),
+are examples of some of the main areas that have been investigated (Shneiderman, 1998). 
+- Findings showed no universal optimal methods on command naming!
+
+- **Design principle**: labeling/naming the commands should be chosen to be as *consistent* as possible!
+
+## Graphical User Interfaces
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
+Interact with a system which information to be presented and represented within a graphical interface. 
+
+- This includes the use of color, typography, and imagery (reference).
+
+- The original GUI was called a WIMP
+    - Windows
+    <!-- lecture notes for charles -->
+    <!-- overcome physical display constraints; enable concurrent task operations. -->
+    - Icons
+     <!-- objects as part of desktop metaphor; easier to learn and remember. -->
+    - Menus
+     <!-- support navigation; different styles such as flat lists, drop-down, pop-up, contextual, etc. -->
+    - Pointer
+
+- WIMP is still a basic building block for modern GUI design!
+  
+:::
+::: {.column width="50%"}
+![Apple's first GUI Lisa 2 screenshot. Icons on the desktop and the menu bar with pulldown menus at the top of the screen have made their appearance. Source: The Lisa: Apple's Most Influential Failure, Computer History Museum.](https://computerhistory.org/wp-content/uploads/2022/12/Lisa-desktop-screen.jpg){width=60%}
+:::
+::::::::::::::
+
+## Graphical User Interfaces
+
+> Research and Design Consideration
+
+- Window management.
+    - enabling fluid movement and rapid attention shifts between windows and displays without distraction. 
+    - e.g., keyboard shortcuts and task bars design; auto-fill in online forms.
+
+- Menu design consideration: decide which terms to use for menu options.
+
+- Icon libraries for developer: e.g., [fontawesome.com](fontawesome.com) or [thenounproject.com](thenounproject.com).
+
+## Multimedia
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+A single interface combines different media such as graphics, text, video, sound, and links them together with various forms of interactivity. E.g., Wikipedia.
+
+- better information presentation.
+- facilitate rapid access to multiple representations of information.
+
+:::
+::: {.column width="50%"}
+![An example of a multimedia learning app designed for tablets. Source: KidsDiscover app “Roman Empire for iPad"]
+(![https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f012.png](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f012.png)){width=60%}
+:::
+::::::::::::::
+
+
+## Multimedia
+
+- Multimedia has largely been developed for training, educational, and entertainment purposes.
+    - Research examines how multimedia can make learning online more engaging and enjoyable.
+    - *To what extent do multimedia interfaces improve learning and play?*
+    - *What happens when users have unlimited access to diverse media and simulations?*
+
+> Research and Design Consideration
+
+How to encourage users to interact with all aspects of a multimedia app, especially given the preference for watching videos over reading text?
+
+- provide a diversity of hands-on interactivities and simulations
+- employ dynalinking, where information depicted in one window explicitly changes in relation to what happens in another [@rogers1996search].
+
+**Design Consideration**: best combine multiple media to support different kinds of tasks?
+
 
 # Direct Manipulation and Immersive Environments
 
@@ -157,8 +242,65 @@ Interfaces can sit on a spectrum between fully virtual and fully real interactio
 
 ## Augmented Reality
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
+The blending of digital content with the
+physical world to create an enhanced real-world experience. 
+
+The concept of the AR can be traced back to 1960s with Ivan Sutherland’s development of the first head-mounted three-dimensional display.
+
+:::
+::: {.column width="50%"}
+<!-- reference -->
+![First augmented reality head-mounted display system. Source: https://dl.acm.org/doi/10.1145/1476589.1476686"](img/ivan-sutherland-headset.jpg){width=60%}
+:::
+::::::::::::::
+
+## Augmented Reality
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Modern AR systems have evolved significantly, particularly in types of visual displays and interaction models they support [@speicher2019mixed;@billinghurst-2015-ar-survey]
+
+- see-through, screen-based, project-based.
+
+Another definition: "Spatial Computing" by Simon Greenwold [@greenwold-2003-spatial-computing].
+
+-  *“human interaction with a machine in which the machine retains and manipulates referents to real objects and spaces."*
+
+-  emphasising not only the augmentation of reality but also the meaningful interaction between digital and physical elements.
+
+:::
+::: {.column width="40%"}
+![AR smartphone game Pokémon Go.](img/pokemon-go.jpg){width=70%}
+![AR musical instrument *cube*. Yichen Wang 2022.](img/07/yichen-cube.jpg){width=70%}
+
+top: AR smartphone game Pokémon Go.
+bottom: AR musical instrument *cube*. Yichen Wang 2022.
+:::
+::::::::::::::
+
+
+
 
 ## Virtual Reality
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+The idea emerged in 1970s with the rise of computer-generated graphical simulations.
+
+
+Goal: to create user experiences that feel virtually real when interacting with an artificial environment. 
+
+- stereoscopically displayed image
+- interact with objects through input devices such a joystick within the field of vision.
+
+:::
+::: {.column width="40%"}
+![AR smartphone game Pokémon Go.](img/pokemon-go.jpg){width=70%}
+:::
+::::::::::::::
 
 
 ## Introduction to Interface Diversity
