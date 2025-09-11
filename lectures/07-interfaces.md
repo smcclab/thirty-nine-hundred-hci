@@ -359,8 +359,164 @@ virtual body to enhance the feeling of presence; reduce cybersickness; support n
 :::
 ::::::::::::::
 
+## Website Design
 
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Early websites were largely text-based, with hyperlinks to different places or pages of text. 
+    
+- *"how best to structure information at the interface level to enable users to navigate and access it easily and quickly?"*
+
+It shifts from sole usability to aesthetically pleasing.
+
+- Graphical design becomes critical!
+
+*Fun fact*: 
+
+> Much of the content on a web page is not read. Web designers are “thinking great literature” (or at least “product brochure”), while the viewer's reality is much closer to a “billboard going by at 60 miles an hour”[@krug2014don].
+
+
+:::
+::: {.column width="40%"}
+![Web Design history. Source: https://lionsheaddesigns.com/Web-Design.html.](https://lionsheaddesigns.com/images/designhistory.jpg){width="60%"}
+:::
+::::::::::::::
+
+## Website Design
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Modern web development toolset:
+CSS, HTML, JavaScript, node.js, python, etc.
+
+Key web interface element: breadcrumb navigation - "way finding" on website navigation without losing track.
+
+Design for smartphone or table interaction modality, for smaller-sized displays and for *infinite scrolling*.
+
+> Research and Design Consideration
+
+Three core questions proposed by Keith Instone: *"Where am I? What's here? Where can I go?"* [@veen2000art]
+
+
+:::
+::: {.column width="40%"}
+![Web Development tools](https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/6456df723a97fe001d6cb136.png){width="70%"}
+![A breadcrumb trail on the Best Buy website showing three choices made by the user to get to Smart Lights Source: www.bestbuy.ca](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f014.png){width="100%"}
+top: Web Development tools. Source: https://vocal.media/education/web-development-tools.
+bottom: A breadcrumb trail on the Best Buy website showing three choices made by the user to get to Smart Lights Source: www.bestbuy.ca
+:::
+::::::::::::::
+
+
+
+## Mobile Device
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Smartphones, fitness trackers, smartwatches, large-sized tablets on the flight, educational tablets, etc.
+
+These devices have embedded sensors, such as accelerometer for movement detection, thermometer for temperature measurement, and galvanic skin response to measure changes in sweat level.
+
+It can also be a musical instrument such as iPhone magical flute [Ocarina](https://ccrma.stanford.edu/~ge/ocarina/) [@wang2014ocarina]!
+
+A powerful feature of is contextual information access by scanning barcodes in the physical world. It helped a lot during the COVID period.
+
+<!-- I don't understand why this is included in the textbook, feel unnecessary. -->
+Another kind of mobile app that has appeared is one that uses customers' online purchasing data.
+
+:::
+::: {.column width="40%"}
+![Mobile Devices. Source: StockCake. ](https://images.stockcake.com/public/a/f/3/af33fe13-e3ee-4829-8e2f-67e3f7226613_medium/tech-gadget-array-stockcake.jpg){width="80%"}
+
+![Ocarina, Ge Wang, 2014.](https://ccrma.stanford.edu/~ge/bio/images/o2-hands-480.png){width="80%"}
+:::
+::::::::::::::
+
+## Mobile Device
+
+> Research and Design Consideration:
+
+Mobile interfaces require careful design of limited screen and control space, including the selection, placement, and software integration of hardware controls.
+
+Another key concern in mobile display design is ensuring touch targets like buttons and icons are large enough for accurate use by all finger sizes.
+
+A number of other guidelines exist providing advice on how to design interfaces for mobile devices, e.g., [@babich2018mobileux].
+
+
+## Appliances
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Machines for everyday use in the home (for example, washing machines, microwave ovens, refrigerators, toasters, bread makers, and smoothie makers).
+
+Some have begun to be connected to the Internet with companion devices, enabling them to be controlled by remote apps.
+
+> Research and Design Consideration
+
+Alan Cooper et al. [@cooper2014face] in their classic book suggest that appliance interfaces require the designer to view them as transient interfaces, where the interaction is short.
+
+Two fundamental design principles: simplicity and visibility. 
+
+:::
+::: {.column width="40%"}
+![The Design of Everyday Things. Don Norman.](https://m.media-amazon.com/images/I/71sF8kuMW3L.jpg){width="50%"}
+:::
+::::::::::::::
+
+## Voice
+
+
+## Pen-Based
+
+
+## Touchscreens
+
+## Touchless
+
+## Haptic Interfaces
+
+## Multimodal
+
+## Shareable
+
+## Tangible
+
+## Wearables
+
+## Robots and Drones
+
+## Brain-Computer Interfaces
+
+## Smart Interfaces
+
+## Shape Changing Interfaces
+
+## Holographic Interfaces
+
+# Natural User Interfaces and Beyond
+
+A natural user interface (NUI) is designed to allow people to interact with a computer in the same way that they interact with the physical world—using their voice, hands, and bodies.
+
+
+# Which Interface?
+
+> Which one and how do you design it?
+
+- is multimedia better than tangible interfaces for learning? 
+
+- Is voice effective as a command-based interface? 
+
+- Is a multimodal interface more effective than a single media interface? 
+
+- Are wearable interfaces better than mobile interfaces for helping people find information in foreign cities?
+
+-  How does VR differ from AR, and which is the ultimate interface for playing games?  etc.
+
+It depends! 
+
+... the interplay of a number of factors, including type of task, the people using the system, context, reliability, social acceptability, privacy, ethical, and location concerns.
 
 
 <!-- boilerplate ending -->
