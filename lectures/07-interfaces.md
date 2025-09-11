@@ -10,7 +10,6 @@ title-slide-attributes:
 
 ## Plan for the class
 
-
 - Overview of the diversity of interfaces.
 - Outline key design and research considerations for each interface
 - Discuss what is meant by a natural user interface
@@ -177,39 +176,6 @@ How to encourage users to interact with all aspects of a multimedia app, especia
 
 **Design Consideration**: best combine multiple media to support different kinds of tasks?
 
-
-# Direct Manipulation and Immersive Environments
-
-[@shneiderman-hci:2018, S7.1]
-
-## What is Direct Manipulation?
-
-1. Continuous representation of objects and actions with visual metaphors
-2. Physical actions (i.e., buttons) instead of complex syntax
-3. Rapid, incremental, reversible actions with immediate visibility
-
-E.g., drawing with MS Paint vs typing [SVG commands](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Basic_shapes):
-
-`<path d="M20,230 Q40,205 50,230 T90,230" fill="none" stroke="blue" stroke-width="5"/>`
-
-## Examples of Direct Manipulation
-
-- Geographical systems (e.g., Google Maps)
-- Video games
-- Computer-aided design (CAD), and fabrication (e.g., 3D printing)
-
-## 2D and 3D Interfaces
-
-## Teleoperation and Presence
-
-_Studied but less accepted before 2020!_
-
-- telehealth
-- robotic surgery
-- telepresence robots
-- teleconferencing (Zoom)
-- virtual co-presence (e.g., Discord, v.s. Gather Town)
-
 ## Augmented and Virtual Reality
 
 Interfaces can sit on a spectrum between fully virtual and fully real interaction [@milgram-mr:1994].
@@ -250,15 +216,12 @@ Another definition: "Spatial Computing" by Simon Greenwold [@greenwold-2003-spat
 :::
 ::: {.column width="40%"}
 ![AR smartphone game Pokémon Go.](img/pokemon-go.jpg){width=70%}
-![AR musical instrument *cube*. Yichen Wang 2022.](img/07/yichen-cube.jpg){width=70%}
+![AR musical instrument cube. Yichen Wang 2022.](img/yichen-cube.jpg){width=70%}
 
 top: AR smartphone game Pokémon Go.
 bottom: AR musical instrument *cube*. Yichen Wang 2022.
 :::
 ::::::::::::::
-
-
-
 
 ## Virtual Reality
 
@@ -268,34 +231,44 @@ bottom: AR musical instrument *cube*. Yichen Wang 2022.
 The idea emerged in 1970s with the rise of computer-generated graphical simulations.
 
 
-Goal: to create user experiences that feel virtually real when interacting with an artificial environment. 
+**Goal**: to create user experiences that feel virtually real when interacting with an artificial environment. 
 
-- stereoscopically displayed image
+- stereoscopically displayed image.
 - interact with objects through input devices such a joystick within the field of vision.
+
+**Advantage**:
+
+- a higher level of fidelity compared to other graphical interfaces, aka, immersion.
+- different viewpoints: first-person perspective, third-person perspective, etc.
 
 :::
 ::: {.column width="40%"}
-![AR smartphone game Pokémon Go.](img/pokemon-go.jpg){width=70%}
+![Snapshot of polygon graphics used to represent avatars for the “We Wait” VR experience.Source: Steed, Pan, Watson and Slater, www.frontiersin.org/articles/10.3389/frobt.2018.00112/full. Licensed Under CC-BY 4.0](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f013.png){width=70%}
 :::
 ::::::::::::::
 
-
-## Introduction to Interface Diversity
+## Virtual Reality
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- Default solution for many developers: **smartphone apps** (millions on Apple & Google stores).  
-- The **web** remains central for delivering services across many devices & browsers.  
-- Interfaces extend beyond apps & web: **voice, touch, gesture, multimodal**.  
-- **Input methods**: mouse, touchpad, pen, controllers, joysticks, RFID, gestures, brain–computer.  
-- **Output methods**: GUIs, speech, AR/VR, tangible interfaces, wearables, holograms.  
-- Goal: **overview of 22 interface types**—from command-based to holographic.  
+> Research and Design Consideration
+
+- Support learning and training for numerous skills.
+
+    - driving and pilot training, surgical operations practice.
+    — build up skills with lower costs and for potentially dangerous situations.
+
+- Navigation for accessibility, treatment (e.g, mental health) and entertainment.
+
+**Design Consideration**: 
+
+virtual body to enhance the feeling of presence; reduce cybersickness; support natural user experience; the level of realism to target, etc.
+
 :::
 ::: {.column width="40%"}
-![Picture about a phone](img/09_evaluation_foundations_20.jpg){width=80%}
+![iFire Networked Visualisation System. UNSW Center for Interactive Cinema Research. 2025. Source: https://www.unsw.edu.au/research/icinema/our-research/projects/ifire ](https://www.unsw.edu.au/content/unsw-sites/au/en/research/icinema/our-research/projects/ifire/_jcr_content/root/responsivegrid-layout-fixed-width/responsivegrid-full-top/column_layout_2/par_1/image.coreimg.82.1170.png/1736990571582/2024-06-ifire-networked-visualisation-system.png){width="100%"}
 :::
 ::::::::::::::
-
 
 
 
