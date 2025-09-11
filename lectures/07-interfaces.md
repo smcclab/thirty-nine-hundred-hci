@@ -250,8 +250,7 @@ A single interface combines different media such as graphics, text, video, sound
 
 
 ## Multimedia
-
-- Multimedia has largely been developed for training, educational, and entertainment purposes.
+Multimedia has largely been developed for training, educational, and entertainment purposes.
     - Research examines how multimedia can make learning online more engaging and enjoyable.
     - *To what extent do multimedia interfaces improve learning and play?*
     - *What happens when users have unlimited access to diverse media and simulations?*
@@ -285,7 +284,7 @@ The concept of the AR can be traced back to 1960s with Ivan Sutherland’s devel
 
 :::
 ::: {.column width="50%"}
-![First augmented reality head-mounted display system. Source: https://dl.acm.org/doi/10.1145/1476589.1476686"](img/ivan-sutherland-headset.jpg){width=60%}
+![First augmented reality head-mounted display system. Source: https://dl.acm.org/doi/10.1145/1476589.1476686"](img/ivan-sutherland-headset.jpg){width=80%}
 :::
 ::::::::::::::
 
@@ -304,8 +303,8 @@ Another definition: "Spatial Computing" by Simon Greenwold [@greenwold-2003-spat
 
 :::
 ::: {.column width="40%"}
-![AR smartphone game Pokémon Go.](img/pokemon-go.jpg){width=70%}
-![AR musical instrument cube. Yichen Wang 2022.](img/yichen-cube.jpg){width=70%}
+![AR smartphone game Pokémon Go.](img/pokemon-go.jpg){width=80%}
+![AR musical instrument cube. Yichen Wang 2022.](img/yichen-cube.jpg){width=80%}
 
 top: AR smartphone game Pokémon Go.
 bottom: AR musical instrument *cube*. Yichen Wang 2022.
