@@ -495,10 +495,55 @@ Two fundamental design principles: simplicity and visibility.
 
 ## Holographic Interfaces
 
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Create the illusion of a 3D person being present through taking advantage of the human perceptual system. 
+
+The projection and display technology have achieved some convincing results (e.g., ABBA Voyage in London). 
+
+> Research and Design Consideration
+
+-  A lot research conducted in the tech industry exploringhow to represent people in virtual spaces in ways that feel natural, comfortable, engaging, and not creepy.
+
+- Design considerations include hologram size and how users can interact and communicate with projections in their space.
+
+:::
+::: {.column width="40%"}
+![ABBA Voyage holographic show. 2022. Source: The Guardian.](https://i.guim.co.uk/img/media/9e0ebaa2ded5cbfaef92c197a02be8ff644b04ef/0_146_3500_2101/master/3500.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=56317d2b4554b91ef689043719f39972){width="100%"}
+:::
+::::::::::::::
+
+
 # Natural User Interfaces and Beyond
 
+
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 A natural user interface (NUI) is designed to allow people to interact with a computer in the same way that they interact with the physical world—using their voice, hands, and bodies.
 
+- but how natural are NUIs?
+
+Don Norman [@Norman:2013] argues "natural" depends on a number of factors:
+
+ - how much learning is required, 
+
+ - the complexity of the app or device's interface, 
+
+ - and whether accuracy and speed are needed. 
+
+A gesture may worth a thousand words; other times a word is worth a thousand gestures. It depends on how many functions the system supports.
+
+
+
+
+:::
+::: {.column width="40%"}
+![Sandy Ma drawing-based musical performance in AR environment. 2024.](img/07_sandy_ai_friends.jpg){width="100%"}
+:::
+::::::::::::::
 
 # Which Interface?
 
