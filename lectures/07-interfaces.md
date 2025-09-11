@@ -8,12 +8,101 @@ title-slide-attributes:
 
 ## Announcements
 
+- Assignment 2 template and rubric updated
+- Remember 
+
 ## Plan for the class
 
+- Research skills (how to use Google Scholar and cite references)
 - Overview of the diversity of interfaces.
 - Outline key design and research considerations for each interface
 - Discuss what is meant by a natural user interface
 - Consider which interface is best for a given application or activity
+
+# Research Skills
+
+## Finding a source
+
+## ACM Digital Library
+
+## Citations
+
+## Metadata vs citation format
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- The metadata for a reference can be used with any citation format.
+- Academics often use special tools for storing reference metadata
+- Computer scientists tend to use `BibTeX` format
+- `BibTeX` is part of the venerable document creation ecosystem (`La`)[`TeX`, originally developed by CS luminary Donald Knuth](https://en.wikipedia.org/wiki/TeX) in the late 70s.
+- When using LaTeX to create a document, you can select from different citation for your document (e.g., ACM, IEEE, Chicago, Harvard, APA), and use the same 
+:::
+::: {.column width="50%"}
+```
+@inproceedings{adiwangsa-charades:2025,
+author = {Adiwangsa, Michelle and Bransky, Karla and Wood, Erika and Sweetser, Penny},
+title = {A Game of ChARades: Using Role-Playing and Mimicry with and without Tangible Objects to Ideate Immersive Augmented Reality Experiences},
+year = {2025},
+isbn = {9798400714863},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3715668.3736382},
+abstract = {Using tangible objects for immersive augmented reality (AR) experiences offers various benefits, such as providing a physical means of interacting with virtual objects and enhancing the functionality of everyday objects. However, designing AR experiences with tangible objects presents unique challenges, particularly due to the diverse physical properties that can influence user interactions. In this provocation, we explore effective approaches for ideating such AR experiences, by designing two exergames intended for AR head-mounted displays (HMDs). We found that role-playing and mimicry, both with and without tangible objects, provide valuable benefits in the design of such experiences. Building on this insight, we introduce ChARades, an iterative and playful gamestorming technique that incorporates role-playing and mimicry in both forms, to ideate immersive AR experiences involving tangible objects.},
+booktitle = {Companion Publication of the 2025 ACM Designing Interactive Systems Conference},
+pages = {440–445},
+numpages = {6}
+}
+```
+
+The metadata entry for @adiwangsa-charades:2025 which is cited using `[@adiwangsa-charades:2025]` in this Markdown document. In LaTeX you would cite it like this: `\cite{adiwangsa-charades:2025}`.
+:::
+::::::::::::::
+
+## Big BibTeX files
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+Big reference libraries are part of academic work.
+
+- Charles' "main" `.bib` file has ~1300 entries (started in 2013, first year of Charles' PhD!)
+- `references.bib` for [this course](https://github.com/smcclab/thirty-nine-hundred-hci/blob/main/references.bib) has about 100 entries.
+- Charles uses [BibDesk](https://bibdesk.sourceforge.io) to manage the big file, but usually just VSCode for smaller bibtex libraries.
+- Other popular reference managers are Zotero, Mendeley and Endnote.
+- Opinion time: Bibdesk is nice because the database is just a text file.
+:::
+::: {.column width="50%"}
+![References listed in Bibdesk](img/bibdesk.png)
+:::
+::::::::::::::
+
+## In this class...
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- Not expecting you to use BibTeX (yet)
+- Expecting you to list references in "ACM format".
+- ACM format is inspired by APA referencing
+    - supports both numerical [1, 2] and author-date (Martin, 2020) referencing.
+    - includes _full_ names of authors and publication details for clarity
+    - includes DOI as a full URI
+- [ACM page](https://www.acm.org/publications/authors/reference-formatting) plain text examples for references to different types of source
+- [CSL version](https://github.com/citation-style-language/styles/blob/master/association-for-computing-machinery.csl) (Citation Style Langauge)
+- [BST version](https://github.com/borisveytsman/acmart/blob/primary/ACM-Reference-Format.bst) (BibTeX Style)
+:::
+::: {.column width="40%"}
+
+:::
+::::::::::::::
+
+## Rules for this course:
+
+1. all references must exist! (!!!)
+2. use ACM format
+3. use numerical citation (not author date) -- saves words in your word count
+4. all references in your list should be cited in text
+5. you have actually read references and that they are relevant to your work
+6. at least two references should be _scholarly_ (so not a medium article) and _external_ (so not course lecture notes or textbook)
+7. expectation: ✨✨_perfection_✨✨
 
 # Interface Types
 
