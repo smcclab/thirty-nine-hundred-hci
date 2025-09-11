@@ -3,6 +3,15 @@ title: Devices
 author: Dr Charles Martin
 ---
 
+## Lecture Ideation
+
+What can this lecture be about?
+
+- Lazar Chapter 4 Statistical Analysis (get up to _p_ and ANOVA properly)
+- conceptualising interaction (Interaction Design chapter 3 was missed?)
+- data at scale ethical concerns (interaction design chapter 10)
+- Shneiderman chapter 10 devices (incl Fitt's law?)
+
 ## Announcements
 
 ## Plan for the class
