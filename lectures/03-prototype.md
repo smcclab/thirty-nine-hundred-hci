@@ -155,8 +155,9 @@ Let's sketch something:
 
 > How can tutors keep track of student questions, pain-points and successes during a tutorial?
 
-1. Suggest a design idea on PollEverywhere: <https://PollEv.com​/charlesmarti205>
+1. Suggest a design idea on PollEverywhere: https://PollEv.com​/charlesmarti205
 2. Help me sketch it.
+
 :::
 ::: {.column width="40%"}
 ![Poll Everywhere QR code](img/polleverywhere-charles-qr.png)
