@@ -40,7 +40,7 @@ Your submission must:
 - clearly explain the interface you are studying
 - include a clear study plan with justification **from HCI academic research**
 - include a clear summary of the overall conclusions derived from your data and analysis.
-- include data from 3--5 participants: **all participants must be students in COMP3900/6390!**
+- include data from 3--5 participants: **all participants must be students in COMP3900/6390! (list them in the acknowledgements section)**
 - include results based on quantitative and qualitative data and analysis techniques
 - include at least two references to external sources in ACM format
 - be written in markdown format with correct syntax and formatting
@@ -75,16 +75,20 @@ Here's how to get started with the work in this assignment:
 
 7. Write up your project in the correct format in your fork of the gitlab repository. Make sure you are using correct markdown syntax and have included all data and analysis files in your repository.
 
+8. Acknowledge your research participants by listing them in your _acknowledgements_ section.
+
 Here's some general advice:
 
 - Don't forget to ask for help or advice on the course forum: [Edstem discussions](https://edstem.org/au/courses/24905/discussion)
 - Generative AI is not banned in this course, but submitted assignments are expected to be primarily your own work. Any use of generative AI must be explained in your _Acknowledgements_ section including the scope to which it is applied. Use of generative AI without appropriate explanation and referencing comes under the _N_ category in the marking rubric.
-- You may use generative AI to help with aspects of data analysis (see Charles' lectures!) but you are responsible for the output and whether findings are justified or not, we may re-run analyses to check your data.
+- You may use generative AI to help with aspects of data analysis (see lectures!) but you are responsible for the output and whether findings are justified or not, we may re-run analyses to check your data.
 
 ## Marking Rubric {#rubric}
 
-- Sophistication of study plan and summary of conclusions (10 marks)
-- Sophistication of quantitative analysis and articulation of findings (10 marks)
-- Sophistication of qualitative analysis and articulation of findings (10 marks)
+| CRITERIA | HD | D | CR | P | N |
+|---|---|---|---|---|---|
+| Sophistication and clarity of the study plan, summary of conclusions. (10 marks) | Excellent to outstanding study plan and conclusions with consideration of HCI research methods that go beyond learning materials. Level of communication and referencing is excellent. | Very good study plan and conclusions applying HCI research methods  that follows specification, but not beyond learning materials. Level of communication and referencing is excellent. | Study plan and conclusions following HCI research methods  at level of learning materials. Specification was followed. Level of communication and referencing is good. | Some effort to follow the specification for a study plan and derive conclusions. May touch on HCI research methods. Level of communication and referencing may have some errors. | Study plan and conclusions may have little connection to HCI research methods or be below acceptable standards. May not follow the specification or contain serious errors in communication and referencing. |
+| Sophistication of quantitative data collection, analysis and articulation of findings. (10 marks) | Excellent to outstanding quantitative data collection, analysis and articulation of findings demonstrating in-depth understanding of HCI approaches. Excellent adherence to the assessment format. | Very good quantitative data collection, analysis and articulation of findings demonstrating in-depth understanding of HCI approaches. Excellent adherence to the assessment format. | Good quantitative data collection, analysis and articulation of findings that may not show sophisticated understanding of HCI approaches. Good adherence to the assessment format. | Satisfactory quantitative data collection, analysis and articulation of findings that may have limited incorporation of HCI approaches. The adherence to the submission format may be poor. Data analysis may have some errors. | Quantitative data collection, analysis and articulation of findings that is below acceptable standards. May have very poor adherence to submission format. Data collection and analysis may contain serious errors. |
+| Sophistication of qualitative data collection, analysis and articulation of findings. (10 marks) | Excellent to outstanding qualitative data collection, analysis and articulation of findings demonstrating in-depth understanding of HCI approaches. Excellent adherence to the assessment format. | Very good qualitative data collection, analysis and articulation of findings demonstrating in-depth understanding of HCI approaches. Excellent adherence to the assessment format. | Good qualitative data collection, analysis and articulation of findings that may not show sophisticated understanding of HCI approaches. Good adherence to the assessment format. | Satisfactory qualitative data collection, analysis and articulation of findings that may have limited incorporation of HCI approaches. The adherence to the submission format may be poor. Data analysis may have some errors. | Qualitative data collection, analysis and articulation of findings that is below acceptable standards. May have very poor adherence to submission format. Data collection and analysis may contain serious errors. |
 
-(more detail TBA)
+Note that **serious errors** in referencing, communication, data collection and analysis are aligned with the N category in the assessment rubric. Serious errors may include: references to non-existent sources, research findings or conclusions that rely on non-existent data or analyses, fabricated data, fabricated results from analysis processes.
