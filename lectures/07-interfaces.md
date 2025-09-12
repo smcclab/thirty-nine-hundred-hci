@@ -670,7 +670,7 @@ A gesture may worth a thousand words; other times a word is worth a thousand ges
 
 :::
 ::: {.column width="40%"}
-![Sandy Ma drawing-based musical performance in AR environment. 2024.](img/07_sandy_ai_friends.jpg){width="100%"}
+![PhD student Sandy Ma drawing-based musical performance in AR environment. 2024.](img/07_sandy_ai_friends.jpg){width="100%"}
 :::
 ::::::::::::::
 
