@@ -579,12 +579,31 @@ Handwritten notes can be converted to editable text, making them useful for fill
 
 ## Touchless
 
+Mostly refer to gestural interaction, moving arms and hands to communicate. Research investigates how technology can track and understand gestures using cameras and machine learning.
 
-Mostly gestures 
+Watch David Rose's inspirations for gesture at [vimeo.com/224522900](https://vimeo.com/224522900).
 
+Surgical use: Surgeons need sterile, touchless interaction in operating rooms; gesture systems (e.g., using Microsoft Kinect) allow control of medical images without touching surfaces.
 
- how technology can be used to capture and recognize a person's gestures for input by tracking them using cameras and then analysing them using machine learning algorithms.
+Car dashboards: Vehicles like BMW's iDrive use hand gestures (e.g., rotating a finger) for functions like volume control, detected by 3D cameras.
 
+Gesture safety: Gestures in cars are designed and tested to ensure driver safety and minimal distraction.
+
+Touchless Computing: MotionInput is a webcam-based system allowing gesture interaction with a PC using hands, head, or body—no special hardware needed.
+
+Accessibility and simplicity: Unlike earlier systems (e.g., Kinect), MotionInput works with standard laptop webcams and microphones.
+
+## Touchless
+
+> Research and Design Consideration
+
+- Gesture recognition challenge: Systems must detect when a gesture starts and ends, and distinguish intentional gestures (e.g., pointing) from unconscious movements (e.g., hand waving).
+
+- Gestures as output: Gestures can also be visualised, such as through avatars mirroring user movements in real time.
+
+- 3D sensing: Devices with depth cameras (e.g., smartphones, laptops, smart speakers) can capture and respond to gestures in 3D space.
+
+- *Design consideration*: How realistic the avatar or mirrored representation must be for users to feel it's believable and connected to their own gestures?
 
 ## Haptic Interfaces
 
@@ -605,7 +624,6 @@ Mostly gestures
 ## Shape Changing Interfaces
 
 ## Holographic Interfaces
-
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
