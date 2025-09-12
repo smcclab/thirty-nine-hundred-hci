@@ -466,29 +466,125 @@ Two fundamental design principles: simplicity and visibility.
 
 ## Voice
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
 A voice interface lets users interact with apps (e.g., search engines, chatbots, or travel planners) through spoken language. 
 
 It's commonly used to request information (like flight times or weather) or issue commands (e.g., playing music or selecting a movie). 
 
 Voice interfaces rely on command- or conversation-based interaction.
 
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-left-column
+The first generation of speech systems earned a reputation for *mishearing* all too often what a person said --- even nowadays!
+
+ML algorithms, synthetic speech  have been developed to improve the accuracy.
+
 :::
 ::: {.column width="40%"}
-right-column
+![Apple Siri. Source: CHEEZburger Memebase. ](https://i.chzbgr.com/full/8480334848/h26542143/why-so-mean-siri){width="60%"}
+:::
+::::::::::::::
+
+## Voice - Speech Technology
+
+
+Applications: 
+
+- Dictation (e.g., Otter.io, Dragon), faster than typing, accessibility.
+
+- Call routing: Automate customer service; saves costs; needs human fallback when needed.
+
+- Barge-in feature: Lets users interrupt system prompts to speed up interactions.
+
+- Directed dialogue: System asks specific questions; user gives limited responses.
+
+- Flexible input risks: Users may give too much info; guided prompts help keep input manageable.
+
+- Mobile speech apps: Used for voice search, translation (e.g., Siri, Google Translate); enables real-time multilingual conversations.
+
+- Voice assistants: Amazon's Alexa and Google Home offer interactive skills; promote shared family use and entertainment.
+
+- Current limits: Struggles with kids' speech, group speaker recognition, and requires name activation.
+
+
+
+## Voice 
+
+> Research and Design Consideration
+
+What conversational mechanisms to use to structure the voice interface and how human-like they should be.
+
+- natural conversation
+
+- system navigation efficiency 
+
+- synthesised voice or voice actor: male, female, neutral, dialect, and pronunciation 
+
+Pros and cons of dialogue structures, error handling, and etiquette remain key for modern voice interfaces [@cohen2004voice].
+
+## Pen-Based
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Write, draw, select, and move objects on an interface using light pens or styluses for drawing and writing. 
+
+Appeared in tablets and large displays for item selection, freehand sketching, instead of mouse, touch, or keyboard input. 
+
+It uses infrared light to detect a unique, nonrepeating dot pattern on digital paper, allowing it to identify the page and position, decode movements, and store the data internally.
+
+Handwritten notes can be converted to editable text, making them useful for filling out forms and taking meeting notes.
+
+*Easy and quick annotation just like using paper-based versions!*
+:::
+::: {.column width="40%"}
+![Livescribe Echo 2 Smartpen. Source: uk.livescribe.com/collections/smartpens/products/echo-2](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f019.png){width="80%"}
 :::
 ::::::::::::::
 
 
+## Touchscreens
 
-## Pen-Based
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+**Single-touch** screens are common in kiosks, ATMs, and registers; they detect and respond to single taps.
+
+**Multitouch** screens support multiple simultaneous touches and gestures like swiping, pinching, and zooming.
+
+**Multitouch devices** (e.g., smartphones, tablets, tabletops) enable more dynamic and intuitive interactions using one or both hands.
+
+*Finger gestures* enhance how users interact with digital content—enabling reading, zooming, searching, and content creation.
+
+:::
+::: {.column width="40%"}
+![A schematic of a multitouch interface. Source: Willtron / CC BY 1.0](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f020.png){width="80%"}
+:::
+::::::::::::::
 
 
 ## Touchscreens
 
+> Research and Design Consideration
+
+- Touchscreens are widely used with new ways to interact like swiping, carousels, and virtual keyboards.
+
+- These methods can be less precise or slower than traditional keyboards and mice.
+
+- Multitouch gestures allow more control, like zooming and rotating.
+
+- Gestures can be hard to learn and don’t provide physical feedback.
+
+- Visual and audio cues help make up for the lack of tactile feedback.
+
+
 ## Touchless
+
+
+Mostly gestures 
+
+
+ how technology can be used to capture and recognize a person's gestures for input by tracking them using cameras and then analysing them using machine learning algorithms.
+
 
 ## Haptic Interfaces
 
