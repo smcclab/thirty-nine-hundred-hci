@@ -607,9 +607,172 @@ Accessibility and simplicity: Unlike earlier systems (e.g., Kinect), MotionInput
 
 ## Haptic Interfaces
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Haptic interfaces use vibration and forces (via actuators) to provide tactile feedback, which can be embedded in clothing or mobile devices such as smartphones and watches.
+
+Gaming consoles and driving simulators use haptics to enhance realism.
+
+Vibrotactile feedback can simulate remote physical communication, like hugs or squeezes, using actuators in clothing.
+
+Haptics can also be used for skill training, such as learning musical instruments.
+E.g., MusicJacket helps violin learners with posture and bowing by giving vibrational cues.
+
+*novice players responded well to vibrotactile cues, adjusting their actions accordingly.*
+:::
+::: {.column width="40%"}
+![The MusicJacket with embedded actuators that nudge the player to move their arm up to be in the correct position. Source: Yvonne Rogers](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f022.png){width="50%"}
+:::
+::::::::::::::
+
+## Haptic Interfaces
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Ultrahaptics uses ultrasound to create 3D shapes and textures in midair that can be felt but not seen.
+
+- It simulates touch-based interfaces (e.g., buttons, sliders) that appear in midair.
+
+- In automotive interfaces to replace physical controls with invisible, tactile controls: adjust volume or change radio stations.
+
+Haptic Exoskeletons: bedded into wearable exoskeletons, inspired by “Techno Trousers” from *Wallace and Gromit* [@rossiter2018past].
+
+- Graphene parts are used to stiffen or relax the trousers to assist movement.
+
+Application in mobility assistance, fitness.
+
+
+:::
+::: {.column width="40%"}
+![Trousers with artificial muscles that use a new kind of bubble haptic feedback.
+Source: Used courtesy of The Right Trousers Project: Wearable Soft Robotics for Independent Living](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f023.png){width="40%"}
+:::
+::::::::::::::
+
+## Haptic Interfaces
+
+> Research and Design Consideration
+
+In gaming, smartphones, and wearables for user experience, stimulating touch, strokes, prods, or buzzes.
+
+Effective in sensory-motor skill training (e.g. sports, musical instruments).
+
+Vibrations on snowboarders led to faster reaction times than verbal instructions [@spelmezan2009tactile].
+
+<!-- - Used in posture trainers and fitness trackers to alert users (e.g. slouching, inactivity). -->
+
+*Design consideration*: actuator placement, type and timing of touch, intensity and frequency of feedback.
+
+*Continuous feedback is ineffective due to annoyance and habituation!*
+
+- Intermittent buzzes is more effective for grabbing attention.
+
+Different buzz patterns can signal different events (e.g. light tap = rain, heavy tap = thunder); e.g., Apple iOS 16 added haptic typing.
+
+
 ## Multimodal
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Use multiple input/output modalities (e.g., touch, sight, sound, speech) to enhance user interaction [@bouchet2004icare]; for more natural, flexible, and expressive interactions, similar the real world interaction experience [@oviatt2017handbook].
+
+Common combinations: speech and gesture; eye-gaze and gesture; haptic and audio, pen input and speech [@dumas2009multimodal].
+
+Speech + vision processing is the most common [@deng2004challenges]!
+
+Multisensor inputs (e.g., eye gaze, facial expressions) to detect attention or intent; body movement tracking to mimic movements.
+
+E.g., Kinect for Xbox — combined RGB camera, depth sensor, and microphones for real-time gesture and voice recognition.
+
+<!-- Kinect created a real-time avatar by tracking 3D joint positions, allowing users to see themselves and interact through motion. -->
+
+:::
+::: {.column width="40%"}
+![Microsoft's Xbox Kinect. Source: Stephen Brashear / Invision for Microsoft / AP Images](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f024.png){width="90%"}
+:::
+::::::::::::::
+
+## Multimodal
+
+> Research and Design Consideration
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Multimodal systems **must** recognise multiple user behaviors: handwriting, speech, gestures, eye movements, and body movements.
+
+These systems are more complex to build and calibrate than single modality systems.
+
+The most researched interaction modes are: speech, gesture, eye-gaze tracking.
+
+- *What are the actual benefits of combining multiple input/output modalities?*
+- Is natural human-like interaction (e.g., talk + gesture) effective when applied to computer interaction?
+
+Design guidelines, see [@oviatt2017handbook].
+
+:::
+::: {.column width="40%"}
+![Multimodal Mixed Reality Experience. Microsoft HoloLens 2. Source: Charles Martin, 2023.](img/hololens-mate.jpg){width="90%"}
+:::
+::::::::::::::
+
+
 ## Shareable
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Designed for multi-user interaction, unlike typical single-user devices (PCs, laptops, phones).
+
+Support multiple simultaneous inputs by co-located groups. E.g., large wall displays (e.g., SmartBoards); interactive tabletops for users to interact using fingertips on a shared surface.
+
+- Charles discusses the example of Reachable.
+
+Advantage:
+- A large shared space for group collaboration.
+
+- Allow simultaneous interaction, unlike working on a single PC.
+
+- Users can point, touch, and see the same content.
+
+- This creates a shared point of reference, enhancing group coordination and participation (Rogers et al., 2009).
+
+
+:::
+::: {.column width="40%"}
+![Collaborative Musical Instrument Reactable [@jorda2010reactable]. Srouce: <https://www.ycam.jp/en/archive/works/reactable/>.](https://www.ycam.jp/asset/image/_resize/large/archive/works_reactable_1__MG_8683@2x.jpg){width="80%"}
+:::
+::::::::::::::
+
+## Shareable
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Tabletop apps are increasingly used in museums and galleries.
+
+- They support interactive, group-based learning about different aspects of the environment [@clegg2020community].
+
+Some shareable interfaces are software platforms for remote collaboration.
+
+Early example: [ShRedit](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.shredit.com/en-us&ved=2ahUKEwi3zf_7qdSPAxUK3TgGHfH_FmYQFnoECBwQAQ&usg=AOvVaw3xmHozmSgjU0X_2hGyX6vh) (1980s) – supported shared document editing.
+or nowadays Google Docs, Microsoft Excel for real-time editing by up to 50+ users.
+[Miro](http://miro.com) board, [Canva](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.canva.com/&ved=2ahUKEwink_uUqtSPAxVy3jgGHV5EHKAQFnoECAsQAQ&usg=AOvVaw1h12kQQQx8R32oOCsdkKZu), etc.
+
+> Research and Design Consideration
+
+from single-device interactions (e.g.,handwriting) to cross-device collaboration; key design issues around display layout, participation, and balancing personal and shared spaces.
+
+
+:::
+::: {.column width="40%"}
+![Pompeii Exhibition at National Museum of Australia. Source: <https://www.australiangeographic.com.au/nature-wildlife/natural-disasters/2025/02/pompeii-awakens-in-canberra/>](https://www.australiangeographic.com.au/wp-content/uploads/2025/02/DSC_7915-min-scaled.jpg){width="80%"}
+:::
+::::::::::::::
+
+
 
 ## Tangible
 
