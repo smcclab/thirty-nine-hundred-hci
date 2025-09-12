@@ -244,7 +244,7 @@ A single interface combines different media such as graphics, text, video, sound
 
 :::
 ::: {.column width="50%"}
-![An example of a multimedia learning app designed for tablets. Source: KidsDiscover app “Roman Empire for iPad”](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f012.png){width=60%}
+![An example of a multimedia learning app designed for tablets. Source: KidsDiscover app “Roman Empire for iPad”](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f012.png){width=70%}
 :::
 ::::::::::::::
 
@@ -465,6 +465,22 @@ Two fundamental design principles: simplicity and visibility.
 ::::::::::::::
 
 ## Voice
+
+A voice interface lets users interact with apps (e.g., search engines, chatbots, or travel planners) through spoken language. 
+
+It's commonly used to request information (like flight times or weather) or issue commands (e.g., playing music or selecting a movie). 
+
+Voice interfaces rely on command- or conversation-based interaction.
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+left-column
+:::
+::: {.column width="40%"}
+right-column
+:::
+::::::::::::::
+
 
 
 ## Pen-Based
