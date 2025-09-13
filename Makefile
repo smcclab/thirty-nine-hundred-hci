@@ -113,7 +113,7 @@ BEAMER_OPTS = -t beamer \
 							-V colortheme=owl \
 							--pdf-engine=lualatex \
 							-V mainfont="Noto Sans" \
-							-V mainfontfallback="Noto Color Emoji"
+							-V mainfontfallback="NotoColorEmoji:mode=harf"
 
 # --pdf-engine=xelatex
 # options for the pandoc HTML writer
