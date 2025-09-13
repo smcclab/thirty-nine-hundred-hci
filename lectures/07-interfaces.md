@@ -773,14 +773,140 @@ from single-device interactions (e.g.,handwriting) to cross-device collaboration
 ::::::::::::::
 
 
+## Tangible
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Link physical objects (bricks, cubes, clay) with digital representations through embedded sensors [@ishii1997tangible; @fishkin2004taxonomy] 
+
+Manipulating objects triggers digital effects like sounds, animations, or lights, either on the object or in surrounding media (e.g., Tangible Bits [@ishii1997tangible]).
+
+Some use physical models on digital surfaces (tabletops), where moving objects influences digital events (e.g., Urp for urban planning).
+
+Physical artifacts can be lifted, rearranged, and manipulated directly, distinguishing from purely screen-based or mobile interfaces.
+
+
+:::
+::: {.column width="40%"}
+![Tangible Bits. [@ishii1997tangible] ](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr61qXo13tFK2abDPpemMVxLMShMgQXN8XvA&s){width="100%"}
+:::
+::::::::::::::
 
 ## Tangible
 
+Common technologies: RFID tags, embedded sensors, digital tabletops that detect object movement.
+
+Applications include learning, design, play, collaboration (e.g., urban planning tools, Tinkersheets for warehouse logistics).
+
+<!-- Tangible computing involves multiple coordinated devices without fixed input sequences, exploiting object affordances to guide interaction [@dourish2001action]. -->
+
+<!-- Physical and digital can be combined and explored in ways that support creativity, insight, and collaborative problem-solving [@marshall2003conceptualising]. -->
+
+Allow multiple users to work together by physically moving and arranging objects in different ways.
+
+Educational toolkits like SAM Labs, MicroBit, and MagicCubes help children learn STEM by linking physical actions to digital outcomes.
+
+<!-- Research shows these kits foster discovery learning, exploration, and collaboration, including among children with cognitive disabilities . -->
+
+Tools like Code Jumper make programming accessible for children with visual impairments using tactile, physical code blocks [@morrison2020torino].
+
+## Tangible
+
+> Research and Design Consideration
+
+Conceptual frameworks e.g., [@shaer2010tangible; @ullmer2005token; @fishkin2004taxonomy] identify what makes tangible interfaces unique.
+
+A main design challenge is deciding how to link physical actions to digital effects - the notion of *coupling*.
+
+Designers must choose the types and where digital feedback appears (e.g., on the object, beside it, or elsewhere), based on the interface’s purpose. E.g., learning? entertainment?
+
+Choosing the right physical artifacts (e.g., cubes, tokens)to support natural and hands-on interaction.
+
+Simple materials like sticky notes or cardboard tokens can be used to link physical actions to digital responses.
+
+<!-- Tangibles can function as part of multimodal systems, combining with other input/output methods (e.g., sound, gestures). -->
+
+For a deeper look at the history and goals of tangible interfaces, see more [@ullmer2022weaving].
+
 ## Wearables
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Digital devices worn on the body -- e.g., smartwatches, fitness trackers, smart glasses, and fashion tech.
+
+Early wearable computing enabled mobile recording and access to digital info.
+
+Advances in flexible displays, e-textiles, and physical computing (e.g., Arduino) have made wearables more practical and appealing.
+
+Items like jackets, jewelry, hats, and shoes have been designed to interact with digital info on the go.
+
+From convenience design focus to expressive and communicative functions.
+
+:::
+::: {.column width="40%"}
+![LivingLoom [@zhu2025livingloom]](https://dl.acm.org/cms/10.1145/3706598.3713156/asset/273a57b8-a3ab-47d1-926b-68437b55eff7/assets/images/medium/chi25-73-fig12.jpg){width="80%"}
+:::
+::::::::::::::
+
+## Wearables
+
+> Research and Design Consideration
+
+Comfort: Must be light, small, hidden, and wearable without discomfort.
+
+Hygiene: Should be washable; electronics must be removable and batteries easy to manage.
+
+Control: Touch, voice, or physical controls need to be intuitive.
+
+Tech Integration: Combines LEDs, sensors, AR, and more for interactive experiences.
+
+Stigma Reduction: Fashionable designs help normalize assistive wearables.
+
+Feedback: Data (e.g., heart rate) must be presented in meaningful, actionable ways—visually, haptically, or multimodally.
+
 
 ## Robots and Drones
 
 ## Brain-Computer Interfaces
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Create a link between brain activity and external devices (e.g., cursor, robot, game controller).
+
+Detect neural signals via electrodes in headsets placed on the scalp.
+
+Assist or augment cognitive and motor functions—especially for people with disabilities (e.g., BrainGate lets paralyzed users type via thought).
+
+...and *entertainment* -- e.g., Brainball, where relaxation controls a ball’s movement.
+
+Aim to transfer mental states (e.g., “focused,” “relaxed”) between people via stimulation.
+
+**Ethical concerns** arise around mind reading and mental state manipulation, especially with companies like Neuralink pursuing direct brain implants.
+
+:::
+::: {.column width="40%"}
+![Source: Tim Cordell / Cartoon Stock](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07uf002.png){width="80%"}
+:::
+::::::::::::::
+
+## Brain-Computer Interfaces
+
+> Research and Design Consideration
+
+NextMind developed a noninvasive BCI for real-time device control using thoughts.
+
+Raises ethical concerns about mental privacy: thoughts could become machine-readable and possibly shared without consent.
+
+Accuracy concern: systems might misinterpret thoughts or intentions.
+
+Gaming use is playful, but deep mind reading may feel invasive or socially unacceptable.
+
+For assistive use, a key design challenge is how to arrange on-screen elements (e.g., letters) to ensure easy and accurate selection.
+
+AI and predictive text can improve communication efficiency for users with severe motor impairments.
+
 
 ## Smart Interfaces
 
