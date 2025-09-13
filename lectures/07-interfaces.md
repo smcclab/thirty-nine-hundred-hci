@@ -868,6 +868,35 @@ Feedback: Data (e.g., heart rate) must be presented in meaningful, actionable wa
 
 ## Robots and Drones
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Robots assist in manufacturing, hazardous environments, rescue, and remote exploration with remote controls using cameras and sensors.
+
+Domestic robots help with chores and support elderly or disabled people.
+
+Pet robots like Paro provide companionship and reduce loneliness, especially for dementia patients.
+
+Drones, once military and hobbyist tools, now serve in delivery, entertainment, agriculture, construction, and wildlife monitoring, offering real-time data and automated operations.
+:::
+::: {.column width="40%"}
+![(a) Mel, the penguin robot, designed to host activities; (b) Japan's Paro, an interactive seal, designed as a companion, primarily for the elderly and sick children. Source: (a) Mitsubishi Electric Research Labs (b) Parorobots.com](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f031.png){width="100%"}
+:::
+::::::::::::::
+
+## Robots and Drones
+
+> Research and Design Consideration
+
+Robots: Ethical questions arise around designing robots with human- or animal-like traits. 
+
+- Should they mimic humans emotionally and physically, or clearly appear as machines with functional roles? 
+
+Many prefer “cute pet” robots for their comforting and less unsettling nature. Interaction design also varies between human-like engagement (talking, gesturing) and traditional controls (buttons, dials).
+
+Drones: Ethical concerns include privacy violations (spying on people or property without consent) and the use of drones as autonomous lethal weapons. There is ongoing debate about banning killer drones to maintain meaningful human control.
+
+
+
 ## Brain-Computer Interfaces
 
 :::::::::::::: {.columns}
@@ -910,7 +939,45 @@ AI and predictive text can improve communication efficiency for users with sever
 
 ## Smart Interfaces
 
+Smart devices (phones, homes, appliances) are context-aware, often AI-powered, and network-connected, learning from user behavior (e.g., Nest thermostat).
+
+Aim is to automate tasks, improve efficiency, and reduce human error—often by removing humans from the loop (e.g., smart buildings managing lighting/heating).
+
+However, over-automation can frustrate users, limiting control (e.g., sealed windows, restricted manual overrides).
+
+> Research & Design Considerations
+
+Human–Building Interaction (*new idea*) focuses on user experience in smart environments, prioritizing human needs, values, and goals [@alavi2019introduction].
+
+Designers must decide whether smart tech should amplify human actions or act autonomously [@landay2019smartinterfaces].
+
+
 ## Shape Changing Interfaces
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Use physical form changes as input/output (e.g., 3D bar charts moving rods to show data) [@alexander2018grand].
+
+Enable tactile interaction beyond screens (e.g., inFORM’s shape of a car).
+
+Include data sculptures, tactile maps, and “physicalisations”.
+
+Make data more relatable by embedding it in everyday contexts (e.g., CO2 spikes during cheering).
+
+> Research and Design Consideration
+
+Do they improve data understanding and engagement?
+
+Are they better than 2D/3D digital charts for health monitoring?
+
+Size of rod grids; number of cubes for easy learning and recognition.
+:::
+::: {.column width="40%"}
+![inFORM: A shape-changing interface that uses a series of motor-controlled pins to render digital content in the form of 3D rods; developed by MIT Media Group. Source: <http://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM%20Collection/4676>](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f034.png){width="80%"}
+:::
+::::::::::::::
+
 
 ## Holographic Interfaces
 
