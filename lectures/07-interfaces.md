@@ -427,7 +427,7 @@ Another kind of mobile app that has appeared is one that uses customers' online 
 
 :::
 ::: {.column width="40%"}
-![Mobile Devices. Source: StockCake. ](https://images.stockcake.com/public/a/f/3/af33fe13-e3ee-4829-8e2f-67e3f7226613_medium/tech-gadget-array-stockcake.jpg){width="80%"}
+![Mobile Devices. Source: StockCake.](https://images.stockcake.com/public/a/f/3/af33fe13-e3ee-4829-8e2f-67e3f7226613_medium/tech-gadget-array-stockcake.jpg){width="80%"}
 
 ![Ocarina, Ge Wang, 2014.](https://ccrma.stanford.edu/~ge/bio/images/o2-hands-480.png){width="80%"}
 :::
