@@ -177,7 +177,7 @@ These interfaces have been largely superseded by graphical interfaces such as me
   
 :::
 ::: {.column width="50%"}
-![A Unix terminal display showing directories listed alphabetically for the command ls -a. Source: Yvonne Rogers](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f001.png){width=60%}
+![A Unix terminal display showing directories listed alphabetically for the command ls -a. Source: Yvonne Rogers](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f001.png){width=80%}
 :::
 ::::::::::::::
 
@@ -217,7 +217,7 @@ Interact with a system which information to be presented and represented within 
   
 :::
 ::: {.column width="50%"}
-![Apple's first GUI Lisa 2 screenshot. Icons on the desktop and the menu bar with pulldown menus at the top of the screen have made their appearance. Source: The Lisa: Apple's Most Influential Failure, Computer History Museum.](https://computerhistory.org/wp-content/uploads/2022/12/Lisa-desktop-screen.jpg){width=60%}
+![Apple's first GUI Lisa 2 screenshot. Icons on the desktop and the menu bar with pulldown menus at the top of the screen have made their appearance. Source: The Lisa: Apple's Most Influential Failure, Computer History Museum.](https://computerhistory.org/wp-content/uploads/2022/12/Lisa-desktop-screen.jpg){width=80%}
 :::
 ::::::::::::::
 
@@ -284,7 +284,7 @@ The concept of the AR can be traced back to 1960s with Ivan Sutherland’s devel
 
 :::
 ::: {.column width="50%"}
-![First augmented reality head-mounted display system. Source: https://dl.acm.org/doi/10.1145/1476589.1476686"](img/ivan-sutherland-headset.jpg){width=80%}
+![First augmented reality head-mounted display system. Source: https://dl.acm.org/doi/10.1145/1476589.1476686](img/ivan-sutherland-headset.jpg){width=80%}
 :::
 ::::::::::::::
 
@@ -331,7 +331,7 @@ The idea emerged in 1970s with the rise of computer-generated graphical simulati
 
 :::
 ::: {.column width="40%"}
-![Snapshot of polygon graphics used to represent avatars for the “We Wait” VR experience.Source: Steed, Pan, Watson and Slater, www.frontiersin.org/articles/10.3389/frobt.2018.00112/full. Licensed Under CC-BY 4.0](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f013.png){width=70%}
+![Snapshot of polygon graphics used to represent avatars for the “We Wait” VR experience.Source: Steed, Pan, Watson and Slater, <https://www.frontiersin.org/articles/10.3389/frobt.2018.00112/full.> Licensed Under CC-BY 4.0](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f013.png){width=70%}
 :::
 ::::::::::::::
 
@@ -354,7 +354,7 @@ virtual body to enhance the feeling of presence; reduce cybersickness; support n
 
 :::
 ::: {.column width="40%"}
-![iFire Networked Visualisation System. UNSW Center for Interactive Cinema Research. 2025. Source: https://www.unsw.edu.au/research/icinema/our-research/projects/ifire ](https://www.unsw.edu.au/content/unsw-sites/au/en/research/icinema/our-research/projects/ifire/_jcr_content/root/responsivegrid-layout-fixed-width/responsivegrid-full-top/column_layout_2/par_1/image.coreimg.82.1170.png/1736990571582/2024-06-ifire-networked-visualisation-system.png){width="100%"}
+![iFire Networked Visualisation System. UNSW Center for Interactive Cinema Research. 2025. Source: <https://www.unsw.edu.au/research/icinema/our-research/projects/ifire> ](https://www.unsw.edu.au/content/unsw-sites/au/en/research/icinema/our-research/projects/ifire/_jcr_content/root/responsivegrid-layout-fixed-width/responsivegrid-full-top/column_layout_2/par_1/image.coreimg.82.1170.png/1736990571582/2024-06-ifire-networked-visualisation-system.png){width="100%"}
 :::
 ::::::::::::::
 
@@ -379,7 +379,7 @@ It shifts from sole usability to aesthetically pleasing.
 
 :::
 ::: {.column width="40%"}
-![Web Design history. Source: https://lionsheaddesigns.com/Web-Design.html.](https://lionsheaddesigns.com/images/designhistory.jpg){width="60%"}
+![Web Design history. Source: <https://lionsheaddesigns.com/Web-Design.html>](https://lionsheaddesigns.com/images/designhistory.jpg){width="60%"}
 :::
 ::::::::::::::
 
@@ -402,7 +402,7 @@ Three core questions proposed by Keith Instone: *"Where am I? What's here? Where
 :::
 ::: {.column width="40%"}
 ![Web Development tools](https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/6456df723a97fe001d6cb136.png){width="70%"}
-![A breadcrumb trail on the Best Buy website showing three choices made by the user to get to Smart Lights Source: www.bestbuy.ca](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f014.png){width="100%"}
+![A breadcrumb trail on the Best Buy website showing three choices made by the user to get to Smart Lights Source: <https://www.bestbuy.ca>](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f014.png){width="100%"}
 top: Web Development tools. Source: https://vocal.media/education/web-development-tools.
 bottom: A breadcrumb trail on the Best Buy website showing three choices made by the user to get to Smart Lights Source: www.bestbuy.ca
 :::
@@ -728,7 +728,7 @@ Designed for multi-user interaction, unlike typical single-user devices (PCs, la
 
 Support multiple simultaneous inputs by co-located groups. E.g., large wall displays (e.g., SmartBoards); interactive tabletops for users to interact using fingertips on a shared surface.
 
-- Charles discusses the example of Reachable.
+- Charles discusses the example of Reactable.
 
 Advantage:
 - A large shared space for group collaboration.
