@@ -114,9 +114,9 @@ How would you describe a computer interface?
 
 Some interface types are primarily concerned with a function (for example, to be smart such as *smart* phones);
 
-while others focus on the **interaction style** used (e.g., command, graphical or multimedia), 
-the **input/output device** used (e.g., pen-based, speech-based, or gesture-based), 
-or the **platform being designed** for (for example, tablet, mobile, PC, or wearable).
+while others focus on the *interaction style* used (e.g., command, graphical or multimedia), 
+the *input/output device* used (e.g., pen-based, speech-based, or gesture-based), 
+or the *platform being designed* for (for example, tablet, mobile, PC, or wearable).
 
 now with ML algorithms that are intended to recognise faces, objects, and the like 🤖!
   
@@ -145,7 +145,7 @@ Let's talk about some main types of interfaces emerged over the past 45 years, l
 - Touch
 - Touchless
 :::
-::: {.column width="50%" height="90%"}
+::: {.column width="50%"}
 - Haptic
 - Multimodal
 - Shareable
@@ -169,7 +169,7 @@ Type in abbreviated commands (e.g., `ls`),
 
 pressing certain combinations of keys (e.g., `Ctrl + V`),
 
-fixed from the keyboard (e.g., `delete`, `enter`, `esc`) or user defined.
+fixed from the keyboard (e.g., `delete`, `enter`, `esc`) or user-defined.
 
 These interfaces have been largely superseded by graphical interfaces such as menus, icons, keyboard shortcuts and pop-up/predictable text commands as part of an application. 
 
@@ -177,7 +177,7 @@ These interfaces have been largely superseded by graphical interfaces such as me
   
 :::
 ::: {.column width="50%"}
-![A Unix terminal display showing directories listed alphabetically for the command ls -a. Source: Yvonne Rogers](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f001.png){width=80%}
+![A Unix terminal display showing directories listed alphabetically for the command ls -a. Source: Yvonne Rogers](img/command-interface.png){width=80%}
 :::
 ::::::::::::::
 
@@ -187,9 +187,9 @@ These interfaces have been largely superseded by graphical interfaces such as me
 
 Back in 1980s, much research investigated command interfaces' optimisation:
 
-- form of the commands such as the use of abbreviations, full names, and familiar names, 
+- form of the commands such as the use of abbreviations, full names, and familiar names;
 - syntax (e.g., how best to combine different commands), and organisation (e.g., how to structure options),
-are examples of some of the main areas that have been investigated (Shneiderman, 1998). 
+are examples of some of the main areas that have been investigated [@scneiderman1992designing].
 - Findings showed no universal optimal methods on command naming!
 
 - **Design principle**: labeling/naming the commands should be chosen to be as *consistent* as possible!
@@ -217,7 +217,7 @@ Interact with a system which information to be presented and represented within 
   
 :::
 ::: {.column width="50%"}
-![Apple's first GUI Lisa 2 screenshot. Icons on the desktop and the menu bar with pulldown menus at the top of the screen have made their appearance. Source: The Lisa: Apple's Most Influential Failure, Computer History Museum.](https://computerhistory.org/wp-content/uploads/2022/12/Lisa-desktop-screen.jpg){width=80%}
+![Apple's first GUI Lisa 2 screenshot. Icons on the desktop and the menu bar with pulldown menus at the top of the screen have made their appearance. Source: The Lisa: Apple's Most Influential Failure, Computer History Museum.](img/Lisa-desktop-screen.jpg){width=90%}
 :::
 ::::::::::::::
 
@@ -244,23 +244,27 @@ A single interface combines different media such as graphics, text, video, sound
 
 :::
 ::: {.column width="50%"}
-![An example of a multimedia learning app designed for tablets. Source: KidsDiscover app “Roman Empire for iPad”](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f012.png){width=70%}
+![An example of a multimedia learning app designed for tablets. Source: KidsDiscover app “Roman Empire for iPad”](img/multimedia-learning-app-example.png
+){width=80%}
 :::
 ::::::::::::::
 
 
 ## Multimedia
-Multimedia has largely been developed for training, educational, and entertainment purposes.
-    - Research examines how multimedia can make learning online more engaging and enjoyable.
-    - *To what extent do multimedia interfaces improve learning and play?*
-    - *What happens when users have unlimited access to diverse media and simulations?*
+Largely  developed for training, educational, and entertainment purposes. 
+<!-- below as notes for charles, can't fit all in the same page. -->
+<!-- Research examines how multimedia can make learning online more engaging and enjoyable. -->
+
+- *To what extent do multimedia interfaces improve learning and play?*
+
+- *What happens when users have unlimited access to diverse media and simulations?*
 
 > Research and Design Consideration
 
 How to encourage users to interact with all aspects of a multimedia app, especially given the preference for watching videos over reading text?
 
 - provide a diversity of hands-on interactivities and simulations
-- employ dynalinking, where information depicted in one window explicitly changes in relation to what happens in another [@rogers1996search].
+- employ dynalinking, where changes in one window directly update another [@rogers1996search].
 
 **Design Consideration**: best combine multiple media to support different kinds of tasks?
 
@@ -284,7 +288,7 @@ The concept of the AR can be traced back to 1960s with Ivan Sutherland’s devel
 
 :::
 ::: {.column width="50%"}
-![First augmented reality head-mounted display system. Source: https://dl.acm.org/doi/10.1145/1476589.1476686](img/ivan-sutherland-headset.jpg){width=80%}
+![First augmented reality head-mounted display system. Source: [@surtherland1967ar].](img/ivan-sutherland-headset.jpg){width=80%}
 :::
 ::::::::::::::
 
@@ -299,15 +303,15 @@ Another definition: "Spatial Computing" by Simon Greenwold [@greenwold-2003-spat
 
 -  *“human interaction with a machine in which the machine retains and manipulates referents to real objects and spaces."*
 
--  emphasising not only the augmentation of reality but also the meaningful interaction between digital and physical elements.
+-  emphasising not only the augmentation of reality but also the *meaningful* interaction between digital and physical elements.
 
 :::
 ::: {.column width="40%"}
 ![AR smartphone game Pokémon Go.](img/pokemon-go.jpg){width=80%}
-![AR musical instrument cube. Yichen Wang 2022.](img/yichen-cube.jpg){width=80%}
+![AR musical instrument cube. Yichen Wang. 2022.](img/yichen-cube.jpg){width=80%}
 
 top: AR smartphone game Pokémon Go.
-bottom: AR musical instrument *cube*. Yichen Wang 2022.
+bottom: AR musical instrument *cube*. Yichen Wang. 2022.
 :::
 ::::::::::::::
 
@@ -331,7 +335,7 @@ The idea emerged in 1970s with the rise of computer-generated graphical simulati
 
 :::
 ::: {.column width="40%"}
-![Snapshot of polygon graphics used to represent avatars for the “We Wait” VR experience.Source: Steed, Pan, Watson and Slater, <https://www.frontiersin.org/articles/10.3389/frobt.2018.00112/full.> Licensed Under CC-BY 4.0](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f013.png){width=70%}
+![Snapshot of polygon graphics used to represent avatars for the “We Wait” VR experience.Source: Steed, Pan, Watson and Slater, <https://www.frontiersin.org/articles/10.3389/frobt.2018.00112/full.> Licensed Under CC-BY 4.0](img/vr-example.png){width=80%}
 :::
 ::::::::::::::
 
@@ -344,8 +348,8 @@ The idea emerged in 1970s with the rise of computer-generated graphical simulati
 - Support learning and training for numerous skills.
 
     - driving and pilot training, surgical operations practice.
-    — build up skills with lower costs and for potentially dangerous situations.
-
+        
+    - build up skills with lower costs and for potentially dangerous situations.
 - Navigation for accessibility, treatment (e.g, mental health) and entertainment.
 
 **Design Consideration**: 
@@ -354,7 +358,7 @@ virtual body to enhance the feeling of presence; reduce cybersickness; support n
 
 :::
 ::: {.column width="40%"}
-![iFire Networked Visualisation System. UNSW Center for Interactive Cinema Research. 2025. Source: <https://www.unsw.edu.au/research/icinema/our-research/projects/ifire> ](https://www.unsw.edu.au/content/unsw-sites/au/en/research/icinema/our-research/projects/ifire/_jcr_content/root/responsivegrid-layout-fixed-width/responsivegrid-full-top/column_layout_2/par_1/image.coreimg.82.1170.png/1736990571582/2024-06-ifire-networked-visualisation-system.png){width="100%"}
+![iFire Networked Visualisation System. UNSW Center for Interactive Cinema Research. 2025. Source: <https://www.unsw.edu.au/research/icinema/our-research/projects/ifire> ](img/2024-06-ifire-networked-visualisation-system.png){width="100%"}
 :::
 ::::::::::::::
 
@@ -379,7 +383,7 @@ It shifts from sole usability to aesthetically pleasing.
 
 :::
 ::: {.column width="40%"}
-![Web Design history. Source: <https://lionsheaddesigns.com/Web-Design.html>](https://lionsheaddesigns.com/images/designhistory.jpg){width="60%"}
+![Web Design history. Source: <https://lionsheaddesigns.com/Web-Design.html>](img/designhistory.jpg){width="50%"}
 :::
 ::::::::::::::
 
@@ -390,7 +394,7 @@ It shifts from sole usability to aesthetically pleasing.
 Modern web development toolset:
 CSS, HTML, JavaScript, node.js, python, etc.
 
-Key web interface element: breadcrumb navigation - "way finding" on website navigation without losing track.
+Key web interface element: breadcrumb navigation -- "way finding" on website navigation without losing track.
 
 Design for smartphone or table interaction modality, for smaller-sized displays and for *infinite scrolling*.
 
@@ -398,16 +402,14 @@ Design for smartphone or table interaction modality, for smaller-sized displays 
 
 Three core questions proposed by Keith Instone: *"Where am I? What's here? Where can I go?"* [@veen2000art]
 
-
 :::
 ::: {.column width="40%"}
-![Web Development tools](https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/6456df723a97fe001d6cb136.png){width="70%"}
-![A breadcrumb trail on the Best Buy website showing three choices made by the user to get to Smart Lights Source: <https://www.bestbuy.ca>](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f014.png){width="100%"}
-top: Web Development tools. Source: https://vocal.media/education/web-development-tools.
-bottom: A breadcrumb trail on the Best Buy website showing three choices made by the user to get to Smart Lights Source: www.bestbuy.ca
+![Web Development tools](img/web-dev-pl.png){width="70%"}
+![A breadcrumb trail on the Best Buy website showing three choices made by the user to get to Smart Lights Source: <https://www.bestbuy.ca>](img/bread-crummb.png){width="100%"}
+top: Web Development tools. Source: <https://vocal.media/education/web-development-tools>.
+bottom: A breadcrumb trail on the Best Buy website showing three choices made by the user to get to Smart Lights Source: <https://www.bestbuy.ca>.
 :::
 ::::::::::::::
-
 
 
 ## Mobile Device
@@ -427,9 +429,9 @@ Another kind of mobile app that has appeared is one that uses customers' online 
 
 :::
 ::: {.column width="40%"}
-![Mobile Devices. Source: StockCake.](https://images.stockcake.com/public/a/f/3/af33fe13-e3ee-4829-8e2f-67e3f7226613_medium/tech-gadget-array-stockcake.jpg){width="80%"}
+![Mobile Devices. Source: StockCake.](img/tech-gadget-array-stockcake.jpg){width="80%"}
 
-![Ocarina, Ge Wang, 2014.](https://ccrma.stanford.edu/~ge/bio/images/o2-hands-480.png){width="80%"}
+![Ocarina, Ge Wang. 2014.](img/o2-hands-480.png){width="80%"}
 :::
 ::::::::::::::
 
@@ -460,7 +462,7 @@ Two fundamental design principles: simplicity and visibility.
 
 :::
 ::: {.column width="40%"}
-![The Design of Everyday Things. Don Norman.](https://m.media-amazon.com/images/I/71sF8kuMW3L.jpg){width="50%"}
+![The Design of Everyday Things. Don Norman. [@Norman:2013]](img/design-of-everyday-things.jpg){width="50%"}
 :::
 ::::::::::::::
 
@@ -481,7 +483,7 @@ ML algorithms, synthetic speech  have been developed to improve the accuracy.
 
 :::
 ::: {.column width="40%"}
-![Apple Siri. Source: CHEEZburger Memebase. ](https://i.chzbgr.com/full/8480334848/h26542143/why-so-mean-siri){width="60%"}
+![Apple Siri. Source: CHEEZburger Memebase. ](img/why-so-mean-siri.jpg){width="60%"}
 :::
 ::::::::::::::
 
@@ -537,7 +539,7 @@ Handwritten notes can be converted to editable text, making them useful for fill
 *Easy and quick annotation just like using paper-based versions!*
 :::
 ::: {.column width="40%"}
-![Livescribe Echo 2 Smartpen. Source: uk.livescribe.com/collections/smartpens/products/echo-2](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f019.png){width="80%"}
+![Livescribe Echo 2 Smartpen. Source: <https://uk.livescribe.com/collections/smartpens/products/echo-2>.](img/pen-based-example.png){width="80%"}
 :::
 ::::::::::::::
 
@@ -557,7 +559,7 @@ Handwritten notes can be converted to editable text, making them useful for fill
 
 :::
 ::: {.column width="40%"}
-![A schematic of a multitouch interface. Source: Willtron / CC BY 1.0](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f020.png){width="80%"}
+![A schematic of a multitouch interface. Source: Willtron / CC BY 1.0](img/multitouch-interface.png){width="80%"}
 :::
 ::::::::::::::
 
@@ -621,7 +623,7 @@ E.g., MusicJacket helps violin learners with posture and bowing by giving vibrat
 *novice players responded well to vibrotactile cues, adjusting their actions accordingly.*
 :::
 ::: {.column width="40%"}
-![The MusicJacket with embedded actuators that nudge the player to move their arm up to be in the correct position. Source: Yvonne Rogers](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f022.png){width="50%"}
+![The MusicJacket with embedded actuators that nudge the player to move their arm up to be in the correct position. Source: Yvonne Rogers](img/musicjacket.png){width="50%"}
 :::
 ::::::::::::::
 
@@ -646,7 +648,7 @@ Application in mobility assistance, fitness.
 :::
 ::: {.column width="40%"}
 ![Trousers with artificial muscles that use a new kind of bubble haptic feedback.
-Source: Used courtesy of The Right Trousers Project: Wearable Soft Robotics for Independent Living](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f023.png){width="40%"}
+Source: Used courtesy of The Right Trousers Project: Wearable Soft Robotics for Independent Living](img/right-trousers.png){width="30%"}
 :::
 ::::::::::::::
 
@@ -690,7 +692,7 @@ E.g., Kinect for Xbox — combined RGB camera, depth sensor, and microphones for
 
 :::
 ::: {.column width="40%"}
-![Microsoft's Xbox Kinect. Source: Stephen Brashear / Invision for Microsoft / AP Images](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f024.png){width="90%"}
+![Microsoft's Xbox Kinect. Source: Stephen Brashear / Invision for Microsoft / AP Images](img/xbox.png){width="90%"}
 :::
 ::::::::::::::
 
@@ -714,7 +716,7 @@ Design guidelines, see [@oviatt2017handbook].
 
 :::
 ::: {.column width="40%"}
-![Multimodal Mixed Reality Experience. Microsoft HoloLens 2. Source: Charles Martin, 2023.](img/hololens-mate.jpg){width="90%"}
+![Multimodal Mixed Reality Experience. Microsoft HoloLens 2. Source: Charles Martin. 2023.](img/hololens-mate.jpg){width="90%"}
 :::
 ::::::::::::::
 
@@ -742,7 +744,7 @@ Advantage:
 
 :::
 ::: {.column width="40%"}
-![Collaborative Musical Instrument Reactable [@jorda2010reactable]. Srouce: <https://www.ycam.jp/en/archive/works/reactable/>.](https://www.ycam.jp/asset/image/_resize/large/archive/works_reactable_1__MG_8683@2x.jpg){width="80%"}
+![Collaborative Musical Instrument Reactable [@jorda2010reactable]. Srouce: <https://www.ycam.jp/en/archive/works/reactable/>.](img/reactable.jpg){width="80%"}
 :::
 ::::::::::::::
 
@@ -768,7 +770,7 @@ from single-device interactions (e.g.,handwriting) to cross-device collaboration
 
 :::
 ::: {.column width="40%"}
-![Pompeii Exhibition at National Museum of Australia. Source: <https://www.australiangeographic.com.au/nature-wildlife/natural-disasters/2025/02/pompeii-awakens-in-canberra/>](https://www.australiangeographic.com.au/wp-content/uploads/2025/02/DSC_7915-min-scaled.jpg){width="80%"}
+![Pompeii Exhibition at National Museum of Australia. Source: <https://www.australiangeographic.com.au/nature-wildlife/natural-disasters/2025/02/pompeii-awakens-in-canberra/>](img/pompeii-nma.jpg){width="80%"}
 :::
 ::::::::::::::
 
@@ -788,7 +790,7 @@ Physical artifacts can be lifted, rearranged, and manipulated directly, distingu
 
 :::
 ::: {.column width="40%"}
-![Tangible Bits. [@ishii1997tangible] ](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr61qXo13tFK2abDPpemMVxLMShMgQXN8XvA&s){width="100%"}
+![Tangible Bits. [@ishii1997tangible] ](img/tangible-bits.jpg){width="100%"}
 :::
 ::::::::::::::
 
@@ -845,7 +847,7 @@ From convenience design focus to expressive and communicative functions.
 
 :::
 ::: {.column width="40%"}
-![LivingLoom [@zhu2025livingloom]](https://dl.acm.org/cms/10.1145/3706598.3713156/asset/273a57b8-a3ab-47d1-926b-68437b55eff7/assets/images/medium/chi25-73-fig12.jpg){width="80%"}
+![LivingLoom [@zhu2025livingloom].](img/living-loom.jpg){width="80%"}
 :::
 ::::::::::::::
 
@@ -879,7 +881,7 @@ Pet robots like Paro provide companionship and reduce loneliness, especially for
 Drones, once military and hobbyist tools, now serve in delivery, entertainment, agriculture, construction, and wildlife monitoring, offering real-time data and automated operations.
 :::
 ::: {.column width="40%"}
-![(a) Mel, the penguin robot, designed to host activities; (b) Japan's Paro, an interactive seal, designed as a companion, primarily for the elderly and sick children. Source: (a) Mitsubishi Electric Research Labs (b) Parorobots.com](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f031.png){width="100%"}
+![(a) Mel, the penguin robot, designed to host activities; (b) Japan's Paro, an interactive seal, designed as a companion, primarily for the elderly and sick children. Source: (a) Mitsubishi Electric Research Labs (b) Parorobots.com.](img/robot-pet.png){width="100%"}
 :::
 ::::::::::::::
 
@@ -916,7 +918,7 @@ Aim to transfer mental states (e.g., “focused,” “relaxed”) between peopl
 
 :::
 ::: {.column width="40%"}
-![Source: Tim Cordell / Cartoon Stock](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07uf002.png){width="80%"}
+![Source: Tim Cordell / Cartoon Stock](img/brian-computer-interface.png){width="80%"}
 :::
 ::::::::::::::
 
@@ -974,7 +976,7 @@ Are they better than 2D/3D digital charts for health monitoring?
 Size of rod grids; number of cubes for easy learning and recognition.
 :::
 ::: {.column width="40%"}
-![inFORM: A shape-changing interface that uses a series of motor-controlled pins to render digital content in the form of 3D rods; developed by MIT Media Group. Source: <http://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM%20Collection/4676>](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119901099/files/images/c07f034.png){width="80%"}
+![inFORM: A shape-changing interface that uses a series of motor-controlled pins to render digital content in the form of 3D rods; developed by MIT Media Group. Source: <http://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM%20Collection/4676>](img/inform-mit.png){width="80%"}
 :::
 ::::::::::::::
 
@@ -996,7 +998,7 @@ The projection and display technology have achieved some convincing results (e.g
 
 :::
 ::: {.column width="40%"}
-![ABBA Voyage holographic show. 2022. Source: The Guardian.](https://i.guim.co.uk/img/media/9e0ebaa2ded5cbfaef92c197a02be8ff644b04ef/0_146_3500_2101/master/3500.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=56317d2b4554b91ef689043719f39972){width="100%"}
+![ABBA Voyage holographic show. 2022. Source: The Guardian.](img/abba-voyage.jpg){width="100%"}
 :::
 ::::::::::::::
 
