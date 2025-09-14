@@ -96,7 +96,7 @@ Big reference libraries are part of academic work.
 
 ## Rules for this course:
 
-1. all references must exist! (!!!)
+1. all references **must exist!** (!!!)
 2. use ACM format
 3. use numerical citation (not author date) -- saves words in your word count
 4. all references in your list should be cited in text
@@ -110,30 +110,29 @@ Big reference libraries are part of academic work.
 ::: {.column width="60%"}
 How would you describe a computer interface?
 
-- graphical, command, speech, ambient, intelligent, tangible, touchless, or natural, etc.
+> graphical, command, speech, ambient, intelligent, tangible, touch free, natural, etc.
 
-Some interface types are primarily concerned with a function (for example, to be smart such as *smart* phones);
+Focus of interface can change:
 
-while others focus on the *interaction style* used (e.g., command, graphical or multimedia), 
-the *input/output device* used (e.g., pen-based, speech-based, or gesture-based), 
-or the *platform being designed* for (for example, tablet, mobile, PC, or wearable).
+- **function** e.g., *smart*phones
+- **interaction style** used e.g., command, graphical or multimedia
+- **input/output device** e.g., pen-based, speech-based, or gesture-based
+- **platform** e.g., tablet, mobile, PC, or wearable
 
-now with ML algorithms that are intended to recognise faces, objects, and the like 🤖!
+<!-- now with ML algorithms that are intended to recognise faces, objects, and the like 🤖! -->
   
 :::
 ::: {.column width="40%"}
-![PhD student Yichen Wang interacting with a touchless and natural interface through Microsoft HoloLens 2 AR glasses, 2021.](img/07_yichen_hololens.jpg){width=60%}
+![Yichen Wang using a touchless, natural, AR interface, 2021.](img/07_yichen_hololens.jpg){width=60%}
 :::
 ::::::::::::::
 
 
-## Interface Types ++
-Let's talk about some main types of interfaces emerged over the past 45 years, loosely in time order.
- <!-- in terms of when they were developed. -->
+## 45 years of interface types!
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Command
+- Command Line
 - Graphical
 - Multimedia
 - Virtual reality
@@ -160,50 +159,42 @@ Let's talk about some main types of interfaces emerged over the past 45 years, l
 :::
 ::::::::::::::
 
-## Command-Line Interfaces
+## Command Line Interfaces
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 
-Type in abbreviated commands (e.g., `ls`),
-
-pressing certain combinations of keys (e.g., `Ctrl + V`),
-
-fixed from the keyboard (e.g., `delete`, `enter`, `esc`) or user-defined.
-
-These interfaces have been largely superseded by graphical interfaces such as menus, icons, keyboard shortcuts and pop-up/predictable text commands as part of an application. 
-
-- Though they continue to be useful in using complex software package (e.g., CAD), scripting batch operations, website, and hacking. 
+- Type in commands (e.g., `ls`)
+- pressing certain combinations of keys (e.g., `Ctrl + V`)
+- fixed from the keyboard (e.g., `delete`, `enter`, `esc`) or user-defined
+- largely superseded by graphical interfaces such as menus, icons, predictable text commands 
+- still useful for complex software (e.g., CAD), scripting batch operations, coding
+- _is chatGPT a CLI?_
   
 :::
 ::: {.column width="50%"}
-![A Unix terminal display showing directories listed alphabetically for the command ls -a. Source: Yvonne Rogers](img/command-interface.png){width=80%}
+![Charles editing a lecture in neovim (`:w`)](img/charles-neovim.png){width=100%}
 :::
 ::::::::::::::
 
-## Command-Line Interfaces
-
-> Research and Design Consideration
+## Research and Design for CLIs
 
 Back in 1980s, much research investigated command interfaces' optimisation:
 
 - form of the commands such as the use of abbreviations, full names, and familiar names;
-- syntax (e.g., how best to combine different commands), and organisation (e.g., how to structure options),
-are examples of some of the main areas that have been investigated [@scneiderman1992designing].
+- syntax (e.g., how best to combine different commands), and organisation (e.g., how to structure options), are examples of some of the main areas that have been investigated [@scneiderman1992designing].
 - Findings showed no universal optimal methods on command naming!
 
-- **Design principle**: labeling/naming the commands should be chosen to be as *consistent* as possible!
+**Design principle**: labeling/naming the commands should be chosen to be as *consistent* as possible!
 
 ## Graphical User Interfaces
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 
-Interact with a system which information to be presented and represented within a graphical interface. 
-
-- This includes the use of color, typography, and imagery [@mullet1996designing].
-
-- The original GUI was called a WIMP
+- Information represented within a graphical interface 
+- use of color, typography, and imagery [@mullet1996designing]
+- interface features abbreviated as WIMP
     - Windows
     <!-- lecture notes for charles -->
     <!-- overcome physical display constraints; enable concurrent task operations. -->
@@ -212,25 +203,20 @@ Interact with a system which information to be presented and represented within 
     - Menus
      <!-- support navigation; different styles such as flat lists, drop-down, pop-up, contextual, etc. -->
     - Pointer
-
 - WIMP is still a basic building block for modern GUI design!
   
 :::
 ::: {.column width="50%"}
-![Apple's first GUI Lisa 2 screenshot. Icons on the desktop and the menu bar with pulldown menus at the top of the screen have made their appearance. Source: The Lisa: Apple's Most Influential Failure, Computer History Museum.](img/Lisa-desktop-screen.jpg){width=90%}
+![Apple's first GUI: Lisa. Source: The Lisa: Apple's Most Influential Failure, Computer History Museum.](img/Lisa-desktop-screen.jpg){width=90%}
 :::
 ::::::::::::::
 
-## Graphical User Interfaces
-
-> Research and Design Consideration
+## Research and Design for GUIs
 
 - Window management.
     - enabling fluid movement and rapid attention shifts between windows and displays without distraction. 
     - e.g., keyboard shortcuts and task bars design; auto-fill in online forms.
-
 - Menu design consideration: decide which terms to use for menu options.
-
 - Icon libraries for developer: e.g., [fontawesome.com](fontawesome.com) or [thenounproject.com](thenounproject.com).
 
 ## Multimedia
@@ -244,29 +230,24 @@ A single interface combines different media such as graphics, text, video, sound
 
 :::
 ::: {.column width="50%"}
-![An example of a multimedia learning app designed for tablets. Source: KidsDiscover app “Roman Empire for iPad”](img/multimedia-learning-app-example.png
+![multimedia learning app for tablets. Source: KidsDiscover “Roman Empire for iPad”](img/multimedia-learning-app-example.png
 ){width=80%}
 :::
 ::::::::::::::
 
 
 ## Multimedia
-Largely  developed for training, educational, and entertainment purposes. 
-<!-- below as notes for charles, can't fit all in the same page. -->
-<!-- Research examines how multimedia can make learning online more engaging and enjoyable. -->
 
-- *To what extent do multimedia interfaces improve learning and play?*
+- developed for training, educational, and entertainment purposes. 
+- To what extent do multimedia interfaces improve learning and play?
+- What happens when users have unlimited access to diverse media and simulations?
 
-- *What happens when users have unlimited access to diverse media and simulations?*
+### Research and Design Considerations
 
-> Research and Design Consideration
-
-How to encourage users to interact with all aspects of a multimedia app, especially given the preference for watching videos over reading text?
-
+- How to encourage interaction with all aspects?
 - provide a diversity of hands-on interactivities and simulations
 - employ dynalinking, where changes in one window directly update another [@rogers1996search].
-
-**Design Consideration**: best combine multiple media to support different kinds of tasks?
+- how to best combine multiple media to support different kinds of tasks?
 
 ## Augmented and Virtual Reality
 
@@ -280,12 +261,8 @@ Interfaces can sit on a spectrum between fully virtual and fully real interactio
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-
-The blending of digital content with the
-physical world to create an enhanced real-world experience. 
-
-The concept of the AR can be traced back to 1960s with Ivan Sutherland’s development of the first head-mounted three-dimensional display.
-
+- blending of digital content with the physical world to create an enhanced real-world experience
+- 1960s: Ivan Sutherland’s development of the first head-mounted three-dimensional display
 :::
 ::: {.column width="50%"}
 ![First augmented reality head-mounted display system. Source: [@surtherland1967ar].](img/ivan-sutherland-headset.jpg){width=80%}
@@ -319,42 +296,30 @@ bottom: AR musical instrument *cube*. Yichen Wang. 2022.
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-
-The idea emerged in 1970s with the rise of computer-generated graphical simulations.
-
+Emerged in 1970s with the rise of computer-generated graphical simulations.
 
 **Goal**: to create user experiences that feel virtually real when interacting with an artificial environment. 
 
 - stereoscopically displayed image.
 - interact with objects through input devices such a joystick within the field of vision.
-
-**Advantage**:
-
-- a higher level of fidelity compared to other graphical interfaces, aka, immersion.
+- higher level of fidelity compared to other graphical interfaces, provides immersion.
 - different viewpoints: first-person perspective, third-person perspective, etc.
 
 :::
 ::: {.column width="40%"}
-![Snapshot of polygon graphics used to represent avatars for the “We Wait” VR experience.Source: Steed, Pan, Watson and Slater, <https://www.frontiersin.org/articles/10.3389/frobt.2018.00112/full.> Licensed Under CC-BY 4.0](img/vr-example.png){width=80%}
+![Avatars for the “We Wait” VR experience.Source: Steed, Pan, Watson and Slater, <https://www.frontiersin.org/articles/10.3389/frobt.2018.00112/full.> Licensed Under CC-BY 4.0](img/vr-example.png){width=80%}
 :::
 ::::::::::::::
 
-## Virtual Reality
+## Research and Design for Virtual Reality
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-> Research and Design Consideration
-
 - Support learning and training for numerous skills.
-
     - driving and pilot training, surgical operations practice.
-        
     - build up skills with lower costs and for potentially dangerous situations.
 - Navigation for accessibility, treatment (e.g, mental health) and entertainment.
-
-**Design Consideration**: 
-
-virtual body to enhance the feeling of presence; reduce cybersickness; support natural user experience; the level of realism to target, etc.
+- virtual body to enhance the feeling of presence; reduce cybersickness; support natural user experience; the level of realism to target, etc.
 
 :::
 ::: {.column width="40%"}
@@ -363,7 +328,6 @@ virtual body to enhance the feeling of presence; reduce cybersickness; support n
 ::::::::::::::
 
 ## Website Design
-
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -418,14 +382,10 @@ bottom: A breadcrumb trail on the Best Buy website showing three choices made by
 ::: {.column width="60%"}
 Smartphones, fitness trackers, smartwatches, large-sized tablets on the flight, educational tablets, etc.
 
-These devices have embedded sensors, such as accelerometer for movement detection, thermometer for temperature measurement, and galvanic skin response to measure changes in sweat level.
-
-It can also be a musical instrument such as iPhone magical flute [Ocarina](https://ccrma.stanford.edu/~ge/ocarina/) [@wang2014ocarina]!
-
-A powerful feature of is contextual information access by scanning barcodes in the physical world. It helped a lot during the COVID period.
-
-<!-- I don't understand why this is included in the textbook, feel unnecessary. -->
-Another kind of mobile app that has appeared is one that uses customers' online purchasing data.
+- embedded sensors, such as accelerometer for movement detection, thermometer for temperature measurement, bio/fitness sensors.
+- new affordances led to novel and creative apps e.g.,
+    - [Ocarina](https://ccrma.stanford.edu/~ge/ocarina/) [@wang2014ocarina]
+    - contextual information access: scanning QR codes
 
 :::
 ::: {.column width="40%"}
@@ -435,94 +395,74 @@ Another kind of mobile app that has appeared is one that uses customers' online 
 :::
 ::::::::::::::
 
-## Mobile Device
+## Research and Design: Mobile Interfaces
 
-> Research and Design Consideration:
-
-Mobile interfaces require careful design of limited screen and control space, including the selection, placement, and software integration of hardware controls.
-
-Another key concern in mobile display design is ensuring touch targets like buttons and icons are large enough for accurate use by all finger sizes.
-
-A number of other guidelines exist providing advice on how to design interfaces for mobile devices, e.g., [@babich2018mobileux].
+- careful design of limited screen and control space, including the selection, placement, and software integration of hardware controls.
+- ensuring touch targets like buttons and icons are large enough for accurate use by all finger sizes.
+- other guidelines exist providing advice on how to design interfaces for mobile devices, e.g., [@babich2018mobileux].
 
 
 ## Appliances
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Machines for everyday use in the home (for example, washing machines, microwave ovens, refrigerators, toasters, bread makers, and smoothie makers).
 
-Some have begun to be connected to the Internet with companion devices, enabling them to be controlled by remote apps.
+- Machines for everyday use in the home (for example, washing machines, microwave ovens, refrigerators, toasters, bread makers, and smoothie makers).
+- Some have begun to be connected to the Internet with companion devices, enabling them to be controlled by remote apps.
 
-> Research and Design Consideration
+### Research and Design Consideration
 
-Alan Cooper et al. [@cooper2014face] in their classic book suggest that appliance interfaces require the designer to view them as transient interfaces, where the interaction is short.
-
-Two fundamental design principles: simplicity and visibility. 
+- @cooper2014face suggest that appliance interfaces require the designer to view them as transient interfaces, where the interaction is short.
+- Two fundamental design principles: simplicity and visibility. 
 
 :::
 ::: {.column width="40%"}
-![The Design of Everyday Things. Don Norman. [@Norman:2013]](img/design-of-everyday-things.jpg){width="50%"}
+![The Design of Everyday Things. @Norman:2013](img/design-of-everyday-things.jpg){width="50%"}
 :::
 ::::::::::::::
 
-## Voice
+## Voice Interface
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-A voice interface lets users interact with apps (e.g., search engines, chatbots, or travel planners) through spoken language. 
-
-It's commonly used to request information (like flight times or weather) or issue commands (e.g., playing music or selecting a movie). 
-
-Voice interfaces rely on command- or conversation-based interaction.
-
-The first generation of speech systems earned a reputation for *mishearing* all too often what a person said --- even nowadays!
-
-ML algorithms, synthetic speech  have been developed to improve the accuracy.
-
+- lets users interact with apps (e.g., search engines, chatbots, or travel planners) through spoken language
+- commonly used to request information (like flight times or weather) or issue commands (e.g., playing music or selecting a movie)
+- Voice interfaces rely on command- or conversation-based interaction.
+- early speech systems earned a reputation for *mishearing* all too often what a person said (still true?)
 :::
 ::: {.column width="40%"}
 ![Apple Siri. Source: CHEEZburger Memebase. ](img/why-so-mean-siri.jpg){width="60%"}
 :::
 ::::::::::::::
 
-## Voice - Speech Technology
-
-
-Applications: 
+## Applications for Voice Interfaces
 
 - Dictation (e.g., Otter.io, Dragon), faster than typing, accessibility.
-
 - Call routing: Automate customer service; saves costs; needs human fallback when needed.
-
 - Barge-in feature: Lets users interrupt system prompts to speed up interactions.
-
 - Directed dialogue: System asks specific questions; user gives limited responses.
-
 - Flexible input risks: Users may give too much info; guided prompts help keep input manageable.
-
 - Mobile speech apps: Used for voice search, translation (e.g., Siri, Google Translate); enables real-time multilingual conversations.
-
 - Voice assistants: Amazon's Alexa and Google Home offer interactive skills; promote shared family use and entertainment.
-
 - Current limits: Struggles with kids' speech, group speaker recognition, and requires name activation.
 
+## Research and Design for Voice Interaction
 
-
-## Voice 
-
-> Research and Design Consideration
-
-What conversational mechanisms to use to structure the voice interface and how human-like they should be.
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+What conversational mechanisms to use to structure the voice interface and how human-like they should be?
 
 - natural conversation
-
 - system navigation efficiency 
-
 - synthesised voice or voice actor: male, female, neutral, dialect, and pronunciation 
 
 Pros and cons of dialogue structures, error handling, and etiquette remain key for modern voice interfaces [@cohen2004voice].
+:::
+::: {.column width="40%"}
+![Tea. Earl grey. Hot. --Captain Picard](img/tea-earlgrey-hot.jpg){width="80%"}
+:::
+::::::::::::::
 
 ## Pen-Based
 
@@ -543,19 +483,15 @@ Handwritten notes can be converted to editable text, making them useful for fill
 :::
 ::::::::::::::
 
-
 ## Touchscreens
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-**Single-touch** screens are common in kiosks, ATMs, and registers; they detect and respond to single taps.
-
-**Multitouch** screens support multiple simultaneous touches and gestures like swiping, pinching, and zooming.
-
-**Multitouch devices** (e.g., smartphones, tablets, tabletops) enable more dynamic and intuitive interactions using one or both hands.
-
-*Finger gestures* enhance how users interact with digital content—enabling reading, zooming, searching, and content creation.
+- **Single-touch** screens are common in kiosks, ATMs, and registers; they detect and respond to single taps.
+- **Multitouch** screens support multiple simultaneous touches and gestures like swiping, pinching, and zooming.
+- **Multitouch devices** (e.g., smartphones, tablets, tabletops) enable more dynamic and intuitive interactions using one or both hands.
+- **Finger gestures** enhance how users interact with digital content—enabling reading, zooming, searching, and content creation.
 
 :::
 ::: {.column width="40%"}
@@ -564,9 +500,7 @@ Handwritten notes can be converted to editable text, making them useful for fill
 ::::::::::::::
 
 
-## Touchscreens
-
-> Research and Design Consideration
+## Research and Design for Touchscreens
 
 - Touchscreens are widely used with new ways to interact like swiping, carousels, and virtual keyboards.
 
@@ -581,7 +515,9 @@ Handwritten notes can be converted to editable text, making them useful for fill
 
 ## Touchless
 
-Mostly refer to gestural interaction, moving arms and hands to communicate. Research investigates how technology can track and understand gestures using cameras and machine learning.
+- gestural interaction, 
+- moving arms and hands to communicate. 
+- Research investigates how technology can track and understand gestures using cameras and machine learning.
 
 Watch David Rose's inspirations for gesture at [vimeo.com/224522900](https://vimeo.com/224522900).
 
@@ -595,9 +531,7 @@ Touchless Computing: MotionInput is a webcam-based system allowing gesture inter
 
 Accessibility and simplicity: Unlike earlier systems (e.g., Kinect), MotionInput works with standard laptop webcams and microphones.
 
-## Touchless
-
-> Research and Design Consideration
+## Research and Design for Touchless Interfaces
 
 - Gesture recognition challenge: Systems must detect when a gesture starts and ends, and distinguish intentional gestures (e.g., pointing) from unconscious movements (e.g., hand waving).
 
@@ -652,9 +586,7 @@ Source: Used courtesy of The Right Trousers Project: Wearable Soft Robotics for 
 :::
 ::::::::::::::
 
-## Haptic Interfaces
-
-> Research and Design Consideration
+## Research and Design for Haptic Interfaces
 
 In gaming, smartphones, and wearables for user experience, stimulating touch, strokes, prods, or buzzes.
 
@@ -696,9 +628,7 @@ E.g., Kinect for Xbox — combined RGB camera, depth sensor, and microphones for
 :::
 ::::::::::::::
 
-## Multimodal
-
-> Research and Design Consideration
+## Research and Design for Multimodal Interfaces
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -719,7 +649,6 @@ Design guidelines, see [@oviatt2017handbook].
 ![Multimodal Mixed Reality Experience. Microsoft HoloLens 2. Source: Charles Martin. 2023.](img/hololens-mate.jpg){width="90%"}
 :::
 ::::::::::::::
-
 
 ## Shareable
 
@@ -753,21 +682,15 @@ Advantage:
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-Tabletop apps are increasingly used in museums and galleries.
+- tabletop systems used in museums and galleries.
+- support interactive, group-based learning [@clegg2020community].
+- some shareable interfaces are software platforms for remote collaboration.
+- Early example: [ShRedit](https://cacm.acm.org/practice/now-that-we-can-write-simultaneously-how-do-we-use-that-to-our-advantage/) (1990s) – supported shared document editing.
+- Google Docs, Microsoft Excel, Miro, Canva, etc.
 
-- They support interactive, group-based learning about different aspects of the environment [@clegg2020community].
-
-Some shareable interfaces are software platforms for remote collaboration.
-
-Early example: [ShRedit](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.shredit.com/en-us&ved=2ahUKEwi3zf_7qdSPAxUK3TgGHfH_FmYQFnoECBwQAQ&usg=AOvVaw3xmHozmSgjU0X_2hGyX6vh) (1980s) – supported shared document editing.
-or nowadays Google Docs, Microsoft Excel for real-time editing by up to 50+ users.
-[Miro](http://miro.com) board, [Canva](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.canva.com/&ved=2ahUKEwink_uUqtSPAxVy3jgGHV5EHKAQFnoECAsQAQ&usg=AOvVaw1h12kQQQx8R32oOCsdkKZu), etc.
-
-> Research and Design Consideration
+### Research and Design Consideration
 
 from single-device interactions (e.g.,handwriting) to cross-device collaboration; key design issues around display layout, participation, and balancing personal and shared spaces.
-
-
 :::
 ::: {.column width="40%"}
 ![Pompeii Exhibition at National Museum of Australia. Source: <https://www.australiangeographic.com.au/nature-wildlife/natural-disasters/2025/02/pompeii-awakens-in-canberra/>](img/pompeii-nma.jpg){width="80%"}
@@ -812,38 +735,25 @@ Educational toolkits like SAM Labs, MicroBit, and MagicCubes help children learn
 
 Tools like Code Jumper make programming accessible for children with visual impairments using tactile, physical code blocks [@morrison2020torino].
 
-## Tangible
+## Research and Design for Tangible Interfaces
 
-> Research and Design Consideration
-
-Conceptual frameworks e.g., [@shaer2010tangible; @ullmer2005token; @fishkin2004taxonomy] identify what makes tangible interfaces unique.
-
-A main design challenge is deciding how to link physical actions to digital effects - the notion of *coupling*.
-
-Designers must choose the types and where digital feedback appears (e.g., on the object, beside it, or elsewhere), based on the interface’s purpose. E.g., learning? entertainment?
-
-Choosing the right physical artifacts (e.g., cubes, tokens)to support natural and hands-on interaction.
-
-Simple materials like sticky notes or cardboard tokens can be used to link physical actions to digital responses.
-
-<!-- Tangibles can function as part of multimodal systems, combining with other input/output methods (e.g., sound, gestures). -->
-
-For a deeper look at the history and goals of tangible interfaces, see more [@ullmer2022weaving].
+- Conceptual frameworks e.g., [@shaer2010tangible; @ullmer2005token; @fishkin2004taxonomy] identify what makes tangible interfaces unique.
+- A main design challenge is deciding how to link physical actions to digital effects - the notion of *coupling*.
+- Designers must choose the types and where digital feedback appears (e.g., on the object, beside it, or elsewhere), based on the interface’s purpose. E.g., learning? entertainment?
+- Choosing the right physical artifacts (e.g., cubes, tokens)to support natural and hands-on interaction.
+- Simple materials like sticky notes or cardboard tokens can be used to link physical actions to digital responses.
+- history and goals of tangible interfaces, see: @ullmer2022weaving
 
 ## Wearables
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-Digital devices worn on the body -- e.g., smartwatches, fitness trackers, smart glasses, and fashion tech.
-
-Early wearable computing enabled mobile recording and access to digital info.
-
-Advances in flexible displays, e-textiles, and physical computing (e.g., Arduino) have made wearables more practical and appealing.
-
-Items like jackets, jewelry, hats, and shoes have been designed to interact with digital info on the go.
-
-From convenience design focus to expressive and communicative functions.
+- Digital devices worn on the body -- e.g., smartwatches, fitness trackers, smart glasses, and fashion tech.
+- Early wearable computing enabled mobile recording and access to digital info.
+- Advances in flexible displays, e-textiles, and physical computing (e.g., Arduino) have made wearables more practical and appealing.
+- Items like jackets, jewelry, hats, and shoes have been designed to interact with digital info on the go.
+- From convenience design focus to expressive and communicative functions.
 
 :::
 ::: {.column width="40%"}
@@ -851,22 +761,14 @@ From convenience design focus to expressive and communicative functions.
 :::
 ::::::::::::::
 
-## Wearables
+## Research and Design for Wearables
 
-> Research and Design Consideration
-
-Comfort: Must be light, small, hidden, and wearable without discomfort.
-
-Hygiene: Should be washable; electronics must be removable and batteries easy to manage.
-
-Control: Touch, voice, or physical controls need to be intuitive.
-
-Tech Integration: Combines LEDs, sensors, AR, and more for interactive experiences.
-
-Stigma Reduction: Fashionable designs help normalize assistive wearables.
-
-Feedback: Data (e.g., heart rate) must be presented in meaningful, actionable ways—visually, haptically, or multimodally.
-
+- Comfort: Must be light, small, hidden, and wearable without discomfort.
+- Hygiene: Should be washable; electronics must be removable and batteries easy to manage.
+- Control: Touch, voice, or physical controls need to be intuitive.
+- Tech Integration: Combines LEDs, sensors, AR, and more for interactive experiences.
+- Stigma Reduction: Fashionable designs help normalize assistive wearables.
+- Feedback: Data (e.g., heart rate) must be presented in meaningful, actionable ways—visually, haptically, or multimodally.
 
 ## Robots and Drones
 
@@ -885,19 +787,12 @@ Drones, once military and hobbyist tools, now serve in delivery, entertainment, 
 :::
 ::::::::::::::
 
-## Robots and Drones
+## Research and Design with Robots and Drones
 
-> Research and Design Consideration
-
-Robots: Ethical questions arise around designing robots with human- or animal-like traits. 
-
+- Robots: Ethical questions arise around designing robots with human- or animal-like traits. 
 - Should they mimic humans emotionally and physically, or clearly appear as machines with functional roles? 
-
-Many prefer “cute pet” robots for their comforting and less unsettling nature. Interaction design also varies between human-like engagement (talking, gesturing) and traditional controls (buttons, dials).
-
-Drones: Ethical concerns include privacy violations (spying on people or property without consent) and the use of drones as autonomous lethal weapons. There is ongoing debate about banning killer drones to maintain meaningful human control.
-
-
+- Many prefer “cute pet” robots for their comforting and less unsettling nature. Interaction design also varies between human-like engagement (talking, gesturing) and traditional controls (buttons, dials).
+- Drones: Ethical concerns include privacy violations (spying on people or property without consent) and the use of drones as autonomous lethal weapons. There is ongoing debate about banning killer drones to maintain meaningful human control.
 
 ## Brain-Computer Interfaces
 
@@ -922,22 +817,14 @@ Aim to transfer mental states (e.g., “focused,” “relaxed”) between peopl
 :::
 ::::::::::::::
 
-## Brain-Computer Interfaces
+## Research and Design Brain-Computer Interfaces
 
-> Research and Design Consideration
-
-NextMind developed a noninvasive BCI for real-time device control using thoughts.
-
-Raises ethical concerns about mental privacy: thoughts could become machine-readable and possibly shared without consent.
-
-Accuracy concern: systems might misinterpret thoughts or intentions.
-
-Gaming use is playful, but deep mind reading may feel invasive or socially unacceptable.
-
-For assistive use, a key design challenge is how to arrange on-screen elements (e.g., letters) to ensure easy and accurate selection.
-
-AI and predictive text can improve communication efficiency for users with severe motor impairments.
-
+- NextMind developed a noninvasive BCI for real-time device control using thoughts.
+- Raises ethical concerns about mental privacy: thoughts could become machine-readable and possibly shared without consent.
+- Accuracy concern: systems might misinterpret thoughts or intentions.
+- Gaming use is playful, but deep mind reading may feel invasive or socially unacceptable.
+- For assistive use, a key design challenge is how to arrange on-screen elements (e.g., letters) to ensure easy and accurate selection.
+- AI and predictive text can improve communication efficiency for users with severe motor impairments.
 
 ## Smart Interfaces
 
@@ -947,33 +834,26 @@ Aim is to automate tasks, improve efficiency, and reduce human error—often by 
 
 However, over-automation can frustrate users, limiting control (e.g., sealed windows, restricted manual overrides).
 
-> Research & Design Considerations
+### Research & Design Considerations
 
 Human–Building Interaction (*new idea*) focuses on user experience in smart environments, prioritizing human needs, values, and goals [@alavi2019introduction].
 
 Designers must decide whether smart tech should amplify human actions or act autonomously [@landay2019smartinterfaces].
 
-
 ## Shape Changing Interfaces
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+- Use physical form changes as input/output (e.g., 3D bar charts moving rods to show data) [@alexander2018grand].
+- Enable tactile interaction beyond screens (e.g., inFORM’s shape of a car).
+- Include data sculptures, tactile maps, and “physicalisations”.
+- Make data more relatable by embedding it in everyday contexts (e.g., CO2 spikes during cheering).
 
-Use physical form changes as input/output (e.g., 3D bar charts moving rods to show data) [@alexander2018grand].
+### Research and Design Consideration
 
-Enable tactile interaction beyond screens (e.g., inFORM’s shape of a car).
-
-Include data sculptures, tactile maps, and “physicalisations”.
-
-Make data more relatable by embedding it in everyday contexts (e.g., CO2 spikes during cheering).
-
-> Research and Design Consideration
-
-Do they improve data understanding and engagement?
-
-Are they better than 2D/3D digital charts for health monitoring?
-
-Size of rod grids; number of cubes for easy learning and recognition.
+- Do they improve data understanding and engagement?
+- Are they better than 2D/3D digital charts for health monitoring?
+- Size of rod grids; number of cubes for easy learning and recognition.
 :::
 ::: {.column width="40%"}
 ![inFORM: A shape-changing interface that uses a series of motor-controlled pins to render digital content in the form of 3D rods; developed by MIT Media Group. Source: <http://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM%20Collection/4676>](img/inform-mit.png){width="80%"}
@@ -1005,8 +885,6 @@ The projection and display technology have achieved some convincing results (e.g
 
 # Natural User Interfaces and Beyond
 
-
-
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 A natural user interface (NUI) is designed to allow people to interact with a computer in the same way that they interact with the physical world—using their voice, hands, and bodies.
@@ -1023,9 +901,6 @@ Don Norman [@Norman:2013] argues "natural" depends on a number of factors:
 
 A gesture may worth a thousand words; other times a word is worth a thousand gestures. It depends on how many functions the system supports.
 
-
-
-
 :::
 ::: {.column width="40%"}
 ![PhD student Sandy Ma drawing-based musical performance in AR environment. 2024.](img/07_sandy_ai_friends.jpg){width="100%"}
@@ -1037,13 +912,9 @@ A gesture may worth a thousand words; other times a word is worth a thousand ges
 > Which one and how do you design it?
 
 - is multimedia better than tangible interfaces for learning? 
-
 - Is voice effective as a command-based interface? 
-
 - Is a multimodal interface more effective than a single media interface? 
-
 - Are wearable interfaces better than mobile interfaces for helping people find information in foreign cities?
-
 -  How does VR differ from AR, and which is the ultimate interface for playing games?  etc.
 
 It depends! 
