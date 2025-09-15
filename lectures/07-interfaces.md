@@ -2,40 +2,105 @@
 title: Interfaces
 author: Dr Charles Martin
 title-slide-attributes:
-    data-background-image: img/caustic-interface.jpg
+    data-background-image: img/yichen-cube.jpg
     data-background-size: cover
 ---
+
+<!--  data-background-image: img/caustic-interface.jpg
+ -->
+<!-- ![AR musical instrument cube. Yichen Wang. 2022.](img/yichen-cube.jpg){width=80%}
+ -->
 
 ## Announcements
 
 - Assignment 2 template and rubric updated
-- Remember 
+- Next two tutorials include assignment support baked into the activities.
+- Still processing a few queries related to Assignment 1, should be finished soon.
+- Final project will be released soon. Likely to involve thinking about alternative _interfaces_ so this is an important lecture!
+
+**Who has a question about assignment 2?**
 
 ## Plan for the class
 
 - Research skills (how to use Google Scholar and cite references)
-- Overview of the diversity of interfaces.
-- Outline key design and research considerations for each interface
-- Discuss what is meant by a natural user interface
-- Consider which interface is best for a given application or activity
+- Overview of the diversity of interfaces in use and in research!
+- Outline key design and research considerations
+- Think about _natural_ user interfaces
+- Think about which interface is _best_ for a given application or activity
 
 # Research Skills
 
+![Finding information when you need it (Source: Charles 2024)](img/2024-seoul-library.jpg){width=50%}
+
 ## Finding a source
+
+- Assignments in this class require you to make independent choices
+- Your choices should be backed by a source of knowledge, e.g.,
+    - _what_ abilities does a particular animal have?
+    - _what_ research plan makes sense for particular interface?
+    - _why_ do human-AI interfaces have usability problems?
+
+In scholarly writing, we need to **support** every statement we make. Support can be: either (1) a citation to a scholarly source _or_ (2) evidence from a study. 
+**Where do you find these sources?**
+
+## Google Scholar
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- search engine for scholarly sources
+- add more search terms to get more specific
+- you can use the "time" selector on the left column to find recent work
+
+**Careful:** 
+
+- Google Scholar indexes anything that _looks_ like scholarly research (e.g., any PDFs on a website in a conference/journal format). Need to use critical thinking to decide whether sources are good quality or not.
+- Google Scholar can give you a formatted citation but it may not have all information (e.g., URL, DOI)
+:::
+::: {.column width="40%"}
+![Finding sources with Google Scholar](img/sources-google-scholar.png)
+:::
+::::::::::::::
 
 ## ACM Digital Library
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- ACM Digital Library archives proceedings of ACM conferences and journals.
+- not as good at searching, but will show you only peer-reviewed works
+
+**Careful:** 
+
+- Works best on-campus or via `virtual.anu.edu.au` so that you can access all papers.
+- CHI and ACM are centres of HCI research, but there are other non-ACM venues that could be missed.
+:::
+::: {.column width="40%"}
+![Finding sources with ACM Digital Library](img/sources-acm-dl.png)
+:::
+::::::::::::::
+
 ## Citations
+
+In this class, we are going to standardise on numerical citations. When you state something in your text that needs support, you put the citation at the end of the sentence [1].
+
+### References
+
+- [1] Kazuhiro Wada, Masaya Tsunokake, and Shigeki Matsubara. 2025. Citation-Worthy Detection of URL Citations in Scholarly Papers. Proceedings of the 24th ACM/IEEE Joint Conference on Digital Libraries. Association for Computing Machinery, New York, NY, USA, Article 28, 1–5. <https://doi.org/10.1145/3677389.3702570>
+
+### Write the references in Markdown like this:
+
+```
+- [1] Kazuhiro Wada, Masaya Tsunokake, and Shigeki Matsubara. 2025. Citation-Worthy Detection of URL Citations in Scholarly Papers. Proceedings of the 24th ACM/IEEE Joint Conference on Digital Libraries. Association for Computing Machinery, New York, NY, USA, Article 28, 1–5. <https://doi.org/10.1145/3677389.3702570>
+```
 
 ## Metadata vs citation format
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- The metadata for a reference can be used with any citation format.
-- Academics often use special tools for storing reference metadata
-- Computer scientists tend to use `BibTeX` format
-- `BibTeX` is part of the venerable document creation ecosystem (`La`)[`TeX`, originally developed by CS luminary Donald Knuth](https://en.wikipedia.org/wiki/TeX) in the late 70s.
-- When using LaTeX to create a document, you can select from different citation for your document (e.g., ACM, IEEE, Chicago, Harvard, APA), and use the same 
+- metadata for a reference can be used with any citation format
+- academics often use special tools for storing reference metadata
+- computer scientists tend to use `BibTeX` format
+- `BibTeX` is part of the venerable (`La`)[`TeX` ecosystem originally developed by CS luminary Donald Knuth](https://en.wikipedia.org/wiki/TeX) in the late 70s
+- in LaTeX you can select citation format (e.g., ACM, IEEE, Chicago, Harvard, APA)
 :::
 ::: {.column width="50%"}
 ```
@@ -104,6 +169,18 @@ Big reference libraries are part of academic work.
 6. at least two references should be _scholarly_ (so not a medium article) and _external_ (so not course lecture notes or textbook)
 7. expectation: ✨✨_perfection_✨✨
 
+## Who has a question about referencing and finding sources?
+
+🙋🏽‍♀️🤷💁🏻🧠🗣️
+
+Mucking up citations is a risk to lose marks unnecessarily.
+
+Easy to do, but looks really bad to markers.
+
+Let's clear up some questions now if you have them!
+
+_I commit to finding ways to help you do this better!_
+
 # Interface Types
 
 :::::::::::::: {.columns}
@@ -126,7 +203,6 @@ Focus of interface can change:
 ![Yichen Wang using a touchless, natural, AR interface, 2021.](img/07_yichen_hololens.jpg){width=60%}
 :::
 ::::::::::::::
-
 
 ## 45 years of interface types!
 
@@ -203,7 +279,6 @@ Back in 1980s, much research investigated command interfaces' optimisation:
     - Menus
      <!-- support navigation; different styles such as flat lists, drop-down, pop-up, contextual, etc. -->
     - Pointer
-- WIMP is still a basic building block for modern GUI design!
   
 :::
 ::: {.column width="50%"}
@@ -213,11 +288,11 @@ Back in 1980s, much research investigated command interfaces' optimisation:
 
 ## Research and Design for GUIs
 
-- Window management.
-    - enabling fluid movement and rapid attention shifts between windows and displays without distraction. 
-    - e.g., keyboard shortcuts and task bars design; auto-fill in online forms.
-- Menu design consideration: decide which terms to use for menu options.
-- Icon libraries for developer: e.g., [fontawesome.com](fontawesome.com) or [thenounproject.com](thenounproject.com).
+- window management
+    - enabling fluid movement and rapid attention shifts between windows and displays without distraction
+    - e.g., keyboard shortcuts and task bars design; auto-fill in online forms
+- menu design consideration: decide which terms to use for menu options
+- consistent icon libraries for developer: e.g., [fontawesome.com](fontawesome.com) or [thenounproject.com](thenounproject.com)
 
 ## Multimedia
 
@@ -235,7 +310,6 @@ A single interface combines different media such as graphics, text, video, sound
 :::
 ::::::::::::::
 
-
 ## Multimedia
 
 - developed for training, educational, and entertainment purposes. 
@@ -251,11 +325,20 @@ A single interface combines different media such as graphics, text, video, sound
 
 ## Augmented and Virtual Reality
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 Interfaces can sit on a spectrum between fully virtual and fully real interaction [@milgram-mr:1994].
 
 - The big middle area includes "mixed reality" (MR) interfaces
 - Augmented reality usually closer to "real" reality.
 - eXtended reality (XR) is a more recent term.
+
+Has often seemed like a great idea, but hasn't cracked mainstream yet (or has it??)
+:::
+::: {.column width="40%"}
+![The reality-virtuality continuum](img/reallity-virtuality-continuum.jpg)
+:::
+::::::::::::::
 
 ## Augmented Reality
 
@@ -272,23 +355,16 @@ Interfaces can sit on a spectrum between fully virtual and fully real interactio
 ## Augmented Reality
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Modern AR systems have evolved significantly, particularly in types of visual displays and interaction models they support [@speicher2019mixed;@billinghurst-2015-ar-survey]
-
-- see-through, screen-based, project-based.
-
-Another definition: "Spatial Computing" by Simon Greenwold [@greenwold-2003-spatial-computing].
-
--  *“human interaction with a machine in which the machine retains and manipulates referents to real objects and spaces."*
-
+- AR systems have evolved significantly, particularly displays and interaction models [@speicher2019mixed;@billinghurst-2015-ar-survey]
+- displays: see-through, screen-based, projection-based.
+- "spatial Computing", another way of thinking about it, defined by @greenwold-2003-spatial-computing
+    -  *“human interaction with a machine in which the machine retains and manipulates referents to real objects and spaces."*
 -  emphasising not only the augmentation of reality but also the *meaningful* interaction between digital and physical elements.
-
 :::
 ::: {.column width="40%"}
 ![AR smartphone game Pokémon Go.](img/pokemon-go.jpg){width=80%}
-![AR musical instrument cube. Yichen Wang. 2022.](img/yichen-cube.jpg){width=80%}
 
-top: AR smartphone game Pokémon Go.
-bottom: AR musical instrument *cube*. Yichen Wang. 2022.
+![AR musical instrument (Yichen Wang, 2022).](img/yichen-cube.jpg){width=80%}
 :::
 ::::::::::::::
 
@@ -296,9 +372,9 @@ bottom: AR musical instrument *cube*. Yichen Wang. 2022.
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Emerged in 1970s with the rise of computer-generated graphical simulations.
+Emerged in 1970s with computer-generated graphical simulations.
 
-**Goal**: to create user experiences that feel virtually real when interacting with an artificial environment. 
+**Goal**: to create user experiences that feel real when interacting with an artificial environment. 
 
 - stereoscopically displayed image.
 - interact with objects through input devices such a joystick within the field of vision.
@@ -307,7 +383,7 @@ Emerged in 1970s with the rise of computer-generated graphical simulations.
 
 :::
 ::: {.column width="40%"}
-![Avatars for the “We Wait” VR experience.Source: Steed, Pan, Watson and Slater, <https://www.frontiersin.org/articles/10.3389/frobt.2018.00112/full.> Licensed Under CC-BY 4.0](img/vr-example.png){width=80%}
+![Avatars for the “We Wait” VR experience [@steed-we-wait:2018] (CC-BY 4.0)](img/vr-example.png){width=80%}
 :::
 ::::::::::::::
 
@@ -315,15 +391,42 @@ Emerged in 1970s with the rise of computer-generated graphical simulations.
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- Support learning and training for numerous skills.
-    - driving and pilot training, surgical operations practice.
-    - build up skills with lower costs and for potentially dangerous situations.
-- Navigation for accessibility, treatment (e.g, mental health) and entertainment.
+- learning and training for specific skills.
+    - driving, pilot training, surgery, medicine, complex/confronting environments.
+    - build up skills with lower costs and low risk.
+- navigation for accessibility, treatment (e.g, mental health)
+- **entertainment**.
 - virtual body to enhance the feeling of presence; reduce cybersickness; support natural user experience; the level of realism to target, etc.
-
 :::
 ::: {.column width="40%"}
-![iFire Networked Visualisation System. UNSW Center for Interactive Cinema Research. 2025. Source: <https://www.unsw.edu.au/research/icinema/our-research/projects/ifire> ](img/2024-06-ifire-networked-visualisation-system.png){width="100%"}
+![iFire Networked Visualisation System. [UNSW Center for Interactive Cinema Research, 2025](https://www.unsw.edu.au/research/icinema/our-research/projects/ifire)](img/2024-06-ifire-networked-visualisation-system.png){width="100%"}
+:::
+::::::::::::::
+
+## Activity: Thinking about AR and VR
+
+🙋🏽‍♀️🤷💁🏻🧠🗣️
+
+Find someone near you, and discuss these questions:
+
+1. Have you ever tried an AR VR system? (phone, headset, audio-only, whatever)
+2. What was the experience like? Do you see it as a useful technology?
+
+Chat for 3 minutes and we'll hear a few responses.
+
+## Website Design
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+- early websites were largely text-based, with hyperlinks to different places or pages of text.  
+    - *"how best to structure information at the interface level to enable users to navigate and access it easily and quickly?"*
+- shift from information usability to aesthetics and visual design.
+
+> Much of the content on a web page is not read. Web designers are “thinking great literature” (or at least “product brochure”), while the viewer's reality is much closer to a “billboard going by at 60 miles an hour” [@krug2014don].
+:::
+::: {.column width="40%"}
+![[Web Design history (source)](https://lionsheaddesigns.com/Web-Design.html)](img/designhistory.jpg){width="50%"}
 :::
 ::::::::::::::
 
@@ -331,50 +434,18 @@ Emerged in 1970s with the rise of computer-generated graphical simulations.
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-
-Early websites were largely text-based, with hyperlinks to different places or pages of text. 
-    
-- *"how best to structure information at the interface level to enable users to navigate and access it easily and quickly?"*
-
-It shifts from sole usability to aesthetically pleasing.
-
-- Graphical design becomes critical!
-
-*Fun fact*: 
-
-> Much of the content on a web page is not read. Web designers are “thinking great literature” (or at least “product brochure”), while the viewer's reality is much closer to a “billboard going by at 60 miles an hour”[@krug2014don].
-
-
+- web development involves multiple technologies
+- CSS, HTML, JavaScript, node.js, Python, etc.
+- breadcrumb navigation (key interface element): "way finding" to navigate without losing track
+- design for smartphone or table interaction modality, for smaller-sized displays and for *infinite scrolling*.
+- three core questions proposed by Keith Instone: *"Where am I? What's here? Where can I go?"* [@veen2000art]
 :::
 ::: {.column width="40%"}
-![Web Design history. Source: <https://lionsheaddesigns.com/Web-Design.html>](img/designhistory.jpg){width="50%"}
+![Web Development [tools](https://vocal.media/education/web-development-tools)](img/web-dev-pl.png){width="70%"}
+
+![A breadcrumb trail on the Best Buy website showing [three choices made by the user to get to Smart Lights (source)](https://www.bestbuy.ca)](img/bread-crummb.png){width="100%"}
 :::
 ::::::::::::::
-
-## Website Design
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-Modern web development toolset:
-CSS, HTML, JavaScript, node.js, python, etc.
-
-Key web interface element: breadcrumb navigation -- "way finding" on website navigation without losing track.
-
-Design for smartphone or table interaction modality, for smaller-sized displays and for *infinite scrolling*.
-
-> Research and Design Consideration
-
-Three core questions proposed by Keith Instone: *"Where am I? What's here? Where can I go?"* [@veen2000art]
-
-:::
-::: {.column width="40%"}
-![Web Development tools](img/web-dev-pl.png){width="70%"}
-![A breadcrumb trail on the Best Buy website showing three choices made by the user to get to Smart Lights Source: <https://www.bestbuy.ca>](img/bread-crummb.png){width="100%"}
-top: Web Development tools. Source: <https://vocal.media/education/web-development-tools>.
-bottom: A breadcrumb trail on the Best Buy website showing three choices made by the user to get to Smart Lights Source: <https://www.bestbuy.ca>.
-:::
-::::::::::::::
-
 
 ## Mobile Device
 
@@ -406,15 +477,12 @@ Smartphones, fitness trackers, smartwatches, large-sized tablets on the flight, 
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-
-- Machines for everyday use in the home (for example, washing machines, microwave ovens, refrigerators, toasters, bread makers, and smoothie makers).
-- Some have begun to be connected to the Internet with companion devices, enabling them to be controlled by remote apps.
-
-### Research and Design Consideration
-
+- machines for everyday use in the home
+- washing machines, microwaves, refrigerators, toasters, bread makers, blenders
+- connections to the internet, control by remote apps
+- do such designs help?
 - @cooper2014face suggest that appliance interfaces require the designer to view them as transient interfaces, where the interaction is short.
 - Two fundamental design principles: simplicity and visibility. 
-
 :::
 ::: {.column width="40%"}
 ![The Design of Everyday Things. @Norman:2013](img/design-of-everyday-things.jpg){width="50%"}
@@ -468,18 +536,16 @@ Pros and cons of dialogue structures, error handling, and etiquette remain key f
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Write, draw, select, and move objects on an interface using light pens or styluses for drawing and writing. 
+- light pens, styluses, or scanners for drawing and writing
+- write, draw, select, and move objects on a page or tablet.
+- very early use in [CRT displays with lightpen](https://en.wikipedia.org/wiki/Fairlight_CMI)!
+- touchscreen versions most common now
+- another option: _digital_ paper that scans what you write (IR sensor, special dot pattern on the paper)
 
-Appeared in tablets and large displays for item selection, freehand sketching, instead of mouse, touch, or keyboard input. 
-
-It uses infrared light to detect a unique, nonrepeating dot pattern on digital paper, allowing it to identify the page and position, decode movements, and store the data internally.
-
-Handwritten notes can be converted to editable text, making them useful for filling out forms and taking meeting notes.
-
-*Easy and quick annotation just like using paper-based versions!*
+_Pens are great!_ We should do more with them.
 :::
 ::: {.column width="40%"}
-![Livescribe Echo 2 Smartpen. Source: <https://uk.livescribe.com/collections/smartpens/products/echo-2>.](img/pen-based-example.png){width="80%"}
+![Livescribe Echo 2 Smartpen ([source](https://uk.livescribe.com/collections/smartpens/products/echo-2)).](img/pen-based-example.png){width="80%"}
 :::
 ::::::::::::::
 
@@ -487,19 +553,20 @@ Handwritten notes can be converted to editable text, making them useful for fill
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-
-- **Single-touch** screens are common in kiosks, ATMs, and registers; they detect and respond to single taps.
-- **Multitouch** screens support multiple simultaneous touches and gestures like swiping, pinching, and zooming.
-- **Multitouch devices** (e.g., smartphones, tablets, tabletops) enable more dynamic and intuitive interactions using one or both hands.
-- **Finger gestures** enhance how users interact with digital content—enabling reading, zooming, searching, and content creation.
-
+- common in kiosks, ATMs, checkouts, phones, tablets, computers.
+- Now weird to find a _non_ touchscreen.
+- **Single-touch** respond to single taps.
+- **Multitouch** supports multiple simultaneous touches and gestures like pinching, rotating
+- **Multitouch devices** (e.g., smartphones, tablets, tabletops) enable intuitive interactions using one or both hands.
+- **Finger gestures** enhance how users interact
+- _but_ there are limitations. How do you "undo" on an iPhone?
 :::
 ::: {.column width="40%"}
 ![A schematic of a multitouch interface. Source: Willtron / CC BY 1.0](img/multitouch-interface.png){width="80%"}
 :::
 ::::::::::::::
 
-
+<!-- 
 ## Research and Design for Touchscreens
 
 - Touchscreens are widely used with new ways to interact like swiping, carousels, and virtual keyboards.
@@ -510,51 +577,32 @@ Handwritten notes can be converted to editable text, making them useful for fill
 
 - Gestures can be hard to learn and don’t provide physical feedback.
 
-- Visual and audio cues help make up for the lack of tactile feedback.
+- Visual and audio cues help make up for the lack of tactile feedback. -->
 
 
 ## Touchless
 
-- gestural interaction, 
-- moving arms and hands to communicate. 
-- Research investigates how technology can track and understand gestures using cameras and machine learning.
+- gestural interaction: moving arms, hands, position to communicate
+- track and understand gestures using cameras, sensors and machine learning
+- Watch David Rose's inspirations for gesture at [vimeo.com/224522900](https://vimeo.com/224522900)
 
-Watch David Rose's inspirations for gesture at [vimeo.com/224522900](https://vimeo.com/224522900).
+### Research and Design for Touchless Interfaces
 
-Surgical use: Surgeons need sterile, touchless interaction in operating rooms; gesture systems (e.g., using Microsoft Kinect) allow control of medical images without touching surfaces.
-
-Car dashboards: Vehicles like BMW's iDrive use hand gestures (e.g., rotating a finger) for functions like volume control, detected by 3D cameras.
-
-Gesture safety: Gestures in cars are designed and tested to ensure driver safety and minimal distraction.
-
-Touchless Computing: MotionInput is a webcam-based system allowing gesture interaction with a PC using hands, head, or body—no special hardware needed.
-
-Accessibility and simplicity: Unlike earlier systems (e.g., Kinect), MotionInput works with standard laptop webcams and microphones.
-
-## Research and Design for Touchless Interfaces
-
-- Gesture recognition challenge: Systems must detect when a gesture starts and ends, and distinguish intentional gestures (e.g., pointing) from unconscious movements (e.g., hand waving).
-
-- Gestures as output: Gestures can also be visualised, such as through avatars mirroring user movements in real time.
-
-- 3D sensing: Devices with depth cameras (e.g., smartphones, laptops, smart speakers) can capture and respond to gestures in 3D space.
-
+- **Gesture recognition challenge:** Systems must detect when a gesture starts and ends, and distinguish intentional gestures (e.g., pointing) from unconscious movements (e.g., hand waving).
+- **Gestures as output:** Gestures can also be visualised, such as through avatars mirroring user movements in real time.
+- **3D sensing:** Devices with depth cameras (e.g., smartphones, laptops, smart speakers) can capture and respond to gestures in 3D space.
 - *Design consideration*: How realistic the avatar or mirrored representation must be for users to feel it's believable and connected to their own gestures?
 
 ## Haptic Interfaces
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Haptic interfaces use vibration and forces (via actuators) to provide tactile feedback, which can be embedded in clothing or mobile devices such as smartphones and watches.
-
-Gaming consoles and driving simulators use haptics to enhance realism.
-
-Vibrotactile feedback can simulate remote physical communication, like hugs or squeezes, using actuators in clothing.
-
-Haptics can also be used for skill training, such as learning musical instruments.
-E.g., MusicJacket helps violin learners with posture and bowing by giving vibrational cues.
-
-*novice players responded well to vibrotactile cues, adjusting their actions accordingly.*
+- vibration and forces (via actuators) to provide tactile feedback
+- can be embedded in clothing or mobile devices such as smartphones and watches.
+- gaming consoles and driving simulators use haptics to enhance realism.
+- vibrotactile feedback can simulate remote physical communication, like hugs or squeezes, using actuators in clothing.
+- Haptics can also be used for skill training, such as learning musical instruments.
+    - *"novice players responded well to vibrotactile cues, adjusting their actions accordingly."*
 :::
 ::: {.column width="40%"}
 ![The MusicJacket with embedded actuators that nudge the player to move their arm up to be in the correct position. Source: Yvonne Rogers](img/musicjacket.png){width="50%"}
@@ -565,63 +613,39 @@ E.g., MusicJacket helps violin learners with posture and bowing by giving vibrat
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-
-Ultrahaptics uses ultrasound to create 3D shapes and textures in midair that can be felt but not seen.
-
+-  Ultrahaptics uses ultrasound to create 3D shapes and textures in midair that can be felt but not seen.
 - It simulates touch-based interfaces (e.g., buttons, sliders) that appear in midair.
-
 - In automotive interfaces to replace physical controls with invisible, tactile controls: adjust volume or change radio stations.
-
-Haptic Exoskeletons: bedded into wearable exoskeletons, inspired by “Techno Trousers” from *Wallace and Gromit* [@rossiter2018past].
-
-- Graphene parts are used to stiffen or relax the trousers to assist movement.
-
-Application in mobility assistance, fitness.
-
-
+- Haptic Exoskeletons: bedded into wearable exoskeletons, inspired by “Techno Trousers” from *Wallace and Gromit* [@rossiter2018past].
+    - Graphene parts are used to stiffen or relax the trousers to assist movement.
+    - Application in mobility assistance, fitness.
 :::
 ::: {.column width="40%"}
-![Trousers with artificial muscles that use a new kind of bubble haptic feedback.
-Source: Used courtesy of The Right Trousers Project: Wearable Soft Robotics for Independent Living](img/right-trousers.png){width="30%"}
+![Trousers with artificial muscles that use a new kind of bubble haptic feedback. Source: The Right Trousers Project](img/right-trousers.png){width="30%"}
 :::
 ::::::::::::::
 
-## Research and Design for Haptic Interfaces
+<!-- ## Research and Design for Haptic Interfaces
 
-In gaming, smartphones, and wearables for user experience, stimulating touch, strokes, prods, or buzzes.
-
-Effective in sensory-motor skill training (e.g. sports, musical instruments).
-
-Vibrations on snowboarders led to faster reaction times than verbal instructions [@spelmezan2009tactile].
-
-<!-- - Used in posture trainers and fitness trackers to alert users (e.g. slouching, inactivity). -->
-
-*Design consideration*: actuator placement, type and timing of touch, intensity and frequency of feedback.
-
-*Continuous feedback is ineffective due to annoyance and habituation!*
-
+- In gaming, smartphones, and wearables for user experience, stimulating touch, strokes, prods, or buzzes.
+- Effective in sensory-motor skill training (e.g. sports, musical instruments).
+- Vibrations on snowboarders led to faster reaction times than verbal instructions [@spelmezan2009tactile].
+- *Design consideration*: actuator placement, type and timing of touch, intensity and frequency of feedback.
+- *Continuous feedback is ineffective due to annoyance and habituation!*
 - Intermittent buzzes is more effective for grabbing attention.
-
-Different buzz patterns can signal different events (e.g. light tap = rain, heavy tap = thunder); e.g., Apple iOS 16 added haptic typing.
-
+- Different buzz patterns can signal different events (e.g. light tap = rain, heavy tap = thunder); e.g., Apple iOS 16 added haptic typing. -->
 
 ## Multimodal
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-Use multiple input/output modalities (e.g., touch, sight, sound, speech) to enhance user interaction [@bouchet2004icare]; for more natural, flexible, and expressive interactions, similar the real world interaction experience [@oviatt2017handbook].
-
-Common combinations: speech and gesture; eye-gaze and gesture; haptic and audio, pen input and speech [@dumas2009multimodal].
-
-Speech + vision processing is the most common [@deng2004challenges]!
-
-Multisensor inputs (e.g., eye gaze, facial expressions) to detect attention or intent; body movement tracking to mimic movements.
+- multiple input/output modalities (e.g., touch, sight, sound, speech) to enhance user interaction [@bouchet2004icare]; 
+- natural, flexible, and expressive interactions, similar the real world interaction experience [@oviatt2017handbook].
+- Common combinations: speech and gesture; eye-gaze and gesture; haptic and audio, pen input and speech [@dumas2009multimodal].
+- Speech + vision processing is the most common [@deng2004challenges]!
 
 E.g., Kinect for Xbox — combined RGB camera, depth sensor, and microphones for real-time gesture and voice recognition.
-
-<!-- Kinect created a real-time avatar by tracking 3D joint positions, allowing users to see themselves and interact through motion. -->
-
 :::
 ::: {.column width="40%"}
 ![Microsoft's Xbox Kinect. Source: Stephen Brashear / Invision for Microsoft / AP Images](img/xbox.png){width="90%"}
@@ -632,13 +656,10 @@ E.g., Kinect for Xbox — combined RGB camera, depth sensor, and microphones for
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+**must** recognise multiple user aspects: handwriting, speech, gestures, eye movements, and body movements.
 
-Multimodal systems **must** recognise multiple user behaviours: handwriting, speech, gestures, eye movements, and body movements.
-
-These systems are more complex to build and calibrate than single modality systems.
-
-The most researched interaction modes are: speech, gesture, eye-gaze tracking.
-
+- more complex to design than single modality systems.
+- most researched interaction modes are: speech, gesture, eye-gaze tracking.
 - *What are the actual benefits of combining multiple input/output modalities?*
 - Is natural human-like interaction (e.g., talk + gesture) effective when applied to computer interaction?
 
@@ -657,27 +678,19 @@ Design guidelines, see [@oviatt2017handbook].
 
 Designed for multi-user interaction, unlike typical single-user devices (PCs, laptops, phones).
 
-Support multiple simultaneous inputs by co-located groups. E.g., large wall displays (e.g., SmartBoards); interactive tabletops for users to interact using fingertips on a shared surface.
+multiple simultaneous inputs by co-located groups. E.g., large wall displays (e.g., SmartBoards); interactive tabletops for users to interact using fingertips on a shared surface.
 
-- Charles discusses the example of Reactable.
-
-Advantage:
 - A large shared space for group collaboration.
-
 - Allow simultaneous interaction, unlike working on a single PC.
-
 - Users can point, touch, and see the same content.
-
 - This creates a shared point of reference, enhancing group coordination and participation (Rogers et al., 2009).
-
-
 :::
 ::: {.column width="40%"}
-![Collaborative Musical Instrument Reactable [@jorda2010reactable]. Srouce: <https://www.ycam.jp/en/archive/works/reactable/>.](img/reactable.jpg){width="80%"}
+![Collaborative Musical Instrument Reactable [@jorda2010reactable]. (source)[https://www.ycam.jp/en/archive/works/reactable/].](img/reactable.jpg){width="80%"}
 :::
 ::::::::::::::
 
-## Shareable
+## Shareable Research Considerations
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -717,23 +730,13 @@ Physical artifacts can be lifted, rearranged, and manipulated directly, distingu
 :::
 ::::::::::::::
 
-## Tangible
+<!-- ## Tangible
 
-Common technologies: RFID tags, embedded sensors, digital tabletops that detect object movement.
-
-Applications include learning, design, play, collaboration (e.g., urban planning tools, Tinkersheets for warehouse logistics).
-
-<!-- Tangible computing involves multiple coordinated devices without fixed input sequences, exploiting object affordances to guide interaction [@dourish2001action]. -->
-
-<!-- Physical and digital can be combined and explored in ways that support creativity, insight, and collaborative problem-solving [@marshall2003conceptualising]. -->
-
-Allow multiple users to work together by physically moving and arranging objects in different ways.
-
-Educational toolkits like SAM Labs, MicroBit, and MagicCubes help children learn STEM by linking physical actions to digital outcomes.
-
-<!-- Research shows these kits foster discovery learning, exploration, and collaboration, including among children with cognitive disabilities . -->
-
-Tools like Code Jumper make programming accessible for children with visual impairments using tactile, physical code blocks [@morrison2020torino].
+- Common technologies: RFID tags, embedded sensors, digital tabletops that detect object movement.
+- Applications include learning, design, play, collaboration (e.g., urban planning tools, Tinkersheets for warehouse logistics).
+- Allow multiple users to work together by physically moving and arranging objects in different ways.
+- Educational toolkits like SAM Labs, MicroBit, and MagicCubes help children learn STEM by linking physical actions to digital outcomes.
+- Tools like Code Jumper make programming accessible for children with visual impairments using tactile, physical code blocks [@morrison2020torino]. -->
 
 ## Research and Design for Tangible Interfaces
 
@@ -761,14 +764,14 @@ Tools like Code Jumper make programming accessible for children with visual impa
 :::
 ::::::::::::::
 
-## Research and Design for Wearables
+<!-- ## Research and Design for Wearables
 
 - Comfort: Must be light, small, hidden, and wearable without discomfort.
 - Hygiene: Should be washable; electronics must be removable and batteries easy to manage.
 - Control: Touch, voice, or physical controls need to be intuitive.
 - Tech Integration: Combines LEDs, sensors, AR, and more for interactive experiences.
 - Stigma Reduction: Fashionable designs help normalize assistive wearables.
-- Feedback: Data (e.g., heart rate) must be presented in meaningful, actionable ways—visually, haptically, or multimodally.
+- Feedback: Data (e.g., heart rate) must be presented in meaningful, actionable ways—visually, haptically, or multimodally. -->
 
 ## Robots and Drones
 
@@ -787,12 +790,12 @@ Drones, once military and hobbyist tools, now serve in delivery, entertainment, 
 :::
 ::::::::::::::
 
-## Research and Design with Robots and Drones
+<!-- ## Research and Design with Robots and Drones
 
 - Robots: Ethical questions arise around designing robots with human- or animal-like traits. 
 - Should they mimic humans emotionally and physically, or clearly appear as machines with functional roles? 
 - Many prefer “cute pet” robots for their comforting and less unsettling nature. Interaction design also varies between human-like engagement (talking, gesturing) and traditional controls (buttons, dials).
-- Drones: Ethical concerns include privacy violations (spying on people or property without consent) and the use of drones as autonomous lethal weapons. There is ongoing debate about banning killer drones to maintain meaningful human control.
+- Drones: Ethical concerns include privacy violations (spying on people or property without consent) and the use of drones as autonomous lethal weapons. There is ongoing debate about banning killer drones to maintain meaningful human control. -->
 
 ## Brain-Computer Interfaces
 
@@ -817,37 +820,33 @@ Aim to transfer mental states (e.g., “focused,” “relaxed”) between peopl
 :::
 ::::::::::::::
 
-## Research and Design Brain-Computer Interfaces
+<!-- ## Research and Design Brain-Computer Interfaces
 
 - NextMind developed a noninvasive BCI for real-time device control using thoughts.
 - Raises ethical concerns about mental privacy: thoughts could become machine-readable and possibly shared without consent.
 - Accuracy concern: systems might misinterpret thoughts or intentions.
 - Gaming use is playful, but deep mind reading may feel invasive or socially unacceptable.
 - For assistive use, a key design challenge is how to arrange on-screen elements (e.g., letters) to ensure easy and accurate selection.
-- AI and predictive text can improve communication efficiency for users with severe motor impairments.
+- AI and predictive text can improve communication efficiency for users with severe motor impairments. -->
 
 ## Smart Interfaces
 
-Smart devices (phones, homes, appliances) are context-aware, often AI-powered, and network-connected, learning from user behaviour (e.g., Nest thermostat).
+- Smart devices (phones, homes, appliances) are context-aware, often AI-powered, and network-connected, learning from user behaviour (e.g., Nest thermostat).
+- Aim is to automate tasks, improve efficiency, and reduce human error—often by removing humans from the loop (e.g., smart buildings managing lighting/heating).
+- over-automation can frustrate users, limiting control (e.g., sealed windows, restricted manual overrides).
 
-Aim is to automate tasks, improve efficiency, and reduce human error—often by removing humans from the loop (e.g., smart buildings managing lighting/heating).
+<!-- ### Research & Design Considerations
 
-However, over-automation can frustrate users, limiting control (e.g., sealed windows, restricted manual overrides).
-
-### Research & Design Considerations
-
-Human–Building Interaction (*new idea*) focuses on user experience in smart environments, prioritising human needs, values, and goals [@alavi2019introduction].
-
-Designers must decide whether smart tech should amplify human actions or act autonomously [@landay2019smartinterfaces].
+- Human–Building Interaction (*new idea*) focuses on user experience in smart environments, prioritising human needs, values, and goals [@alavi2019introduction].
+- Designers must decide whether smart tech should amplify human actions or act autonomously [@landay2019smartinterfaces]. -->
 
 ## Shape Changing Interfaces
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 - Use physical form changes as input/output (e.g., 3D bar charts moving rods to show data) [@alexander2018grand].
-- Enable tactile interaction beyond screens (e.g., inFORM’s shape of a car).
-- Include data sculptures, tactile maps, and “physicalisations”.
-- Make data more relatable by embedding it in everyday contexts (e.g., CO2 spikes during cheering).
+- Enable tactile interaction beyond screens
+- Make data more relatable by embedding it in everyday contexts
 
 ### Research and Design Consideration
 
@@ -860,20 +859,17 @@ Designers must decide whether smart tech should amplify human actions or act aut
 :::
 ::::::::::::::
 
-
 ## Holographic Interfaces
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-Create the illusion of a 3D person being present through taking advantage of the human perceptual system. 
+- Create the illusion of a 3D person being present through taking advantage of the human perceptual system. 
+- The projection and display technology have achieved some convincing results (e.g., ABBA Voyage in London). 
 
-The projection and display technology have achieved some convincing results (e.g., ABBA Voyage in London). 
-
-> Research and Design Consideration
+### Research and Design Consideration
 
 -  A lot research conducted in the tech industry exploringhow to represent people in virtual spaces in ways that feel natural, comfortable, engaging, and not creepy.
-
 - Design considerations include hologram size and how users can interact and communicate with projections in their space.
 
 :::
@@ -882,8 +878,31 @@ The projection and display technology have achieved some convincing results (e.g
 :::
 ::::::::::::::
 
+## Activity: Choosing an Interface
 
-# Natural User Interfaces and Beyond
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+🙋🏽‍♀️🤷💁🏻🧠🗣️
+
+Imagine you are developing a new interface for the classic game "connect four" 
+
+1. what interface what would you choose?
+2. how do you think it would evaluate in terms of usability and user experience?
+
+_Chat for 3 minutes with someone next to you then let's hear some ideas._
+:::
+::: {.column width="40%"}
+![The classic game, COnnect Four. [By Jonathan Kellenberg, Flickr, CC BY 2.0](https://commons.wikimedia.org/w/index.php?curid=521287)](img/connect-four.jpg)
+:::
+::::::::::::::
+
+# Coda
+
+What makes these interfaces good or bad?
+
+How would you choose what interface to use?
+
+## Natural User Interfaces and Beyond
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -894,22 +913,17 @@ A natural user interface (NUI) is designed to allow people to interact with a co
 Don Norman [@Norman:2013] argues "natural" depends on a number of factors:
 
  - how much learning is required, 
-
  - the complexity of the app or device's interface, 
-
  - and whether accuracy and speed are needed. 
 
 A gesture may worth a thousand words; other times a word is worth a thousand gestures. It depends on how many functions the system supports.
-
 :::
 ::: {.column width="40%"}
 ![PhD student Sandy Ma drawing-based musical performance in AR environment. 2024.](img/07_sandy_ai_friends.jpg){width="100%"}
 :::
 ::::::::::::::
 
-# Which Interface?
-
-> Which one and how do you design it?
+## Which Interface?
 
 - is multimedia better than tangible interfaces for learning? 
 - Is voice effective as a command-based interface? 
@@ -919,7 +933,7 @@ A gesture may worth a thousand words; other times a word is worth a thousand ges
 
 It depends! 
 
-... the interplay of a number of factors, including type of task, the people using the system, context, reliability, social acceptability, privacy, ethical, and location concerns.
+...the interplay of a number of factors, including type of task, the people using the system, context, reliability, social acceptability, privacy, ethical, and location concerns.
 
 
 <!-- boilerplate ending -->
