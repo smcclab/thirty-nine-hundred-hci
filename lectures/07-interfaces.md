@@ -633,7 +633,7 @@ E.g., Kinect for Xbox — combined RGB camera, depth sensor, and microphones for
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-Multimodal systems **must** recognise multiple user behaviors: handwriting, speech, gestures, eye movements, and body movements.
+Multimodal systems **must** recognise multiple user behaviours: handwriting, speech, gestures, eye movements, and body movements.
 
 These systems are more complex to build and calibrate than single modality systems.
 
@@ -828,7 +828,7 @@ Aim to transfer mental states (e.g., “focused,” “relaxed”) between peopl
 
 ## Smart Interfaces
 
-Smart devices (phones, homes, appliances) are context-aware, often AI-powered, and network-connected, learning from user behavior (e.g., Nest thermostat).
+Smart devices (phones, homes, appliances) are context-aware, often AI-powered, and network-connected, learning from user behaviour (e.g., Nest thermostat).
 
 Aim is to automate tasks, improve efficiency, and reduce human error—often by removing humans from the loop (e.g., smart buildings managing lighting/heating).
 
@@ -836,7 +836,7 @@ However, over-automation can frustrate users, limiting control (e.g., sealed win
 
 ### Research & Design Considerations
 
-Human–Building Interaction (*new idea*) focuses on user experience in smart environments, prioritizing human needs, values, and goals [@alavi2019introduction].
+Human–Building Interaction (*new idea*) focuses on user experience in smart environments, prioritising human needs, values, and goals [@alavi2019introduction].
 
 Designers must decide whether smart tech should amplify human actions or act autonomously [@landay2019smartinterfaces].
 
