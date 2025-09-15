@@ -6,12 +6,12 @@ title-slide-attributes:
     data-background-size: cover
 ---
 
+## Announcements
+
 <!--  data-background-image: img/caustic-interface.jpg
  -->
 <!-- ![AR musical instrument cube. Yichen Wang. 2022.](img/yichen-cube.jpg){width=80%}
  -->
-
-## Announcements
 
 - Assignment 2 template and rubric updated
 - Next two tutorials include assignment support baked into the activities.
@@ -578,7 +578,6 @@ _Pens are great!_ We should do more with them.
 - Gestures can be hard to learn and don’t provide physical feedback.
 
 - Visual and audio cues help make up for the lack of tactile feedback. -->
-
 
 ## Touchless
 
