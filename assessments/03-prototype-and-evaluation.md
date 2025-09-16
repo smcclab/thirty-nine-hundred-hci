@@ -23,6 +23,13 @@ PG: You must reflect critically on your presence within the design and evaluatio
 
 **Note: This assignment specification hasn't been released yet. More details will be available after the due date of the previous assignment.**
 
+<!-- 
+Something like:
+- take an existing product or system that helps people to complete a task
+- create a prototype that uses a different interface to solve the same problem.
+- evaluate your prototype with 3--5 other students from the class.
+ -->
+
 ## Specification {#specification}
 
 TBA.

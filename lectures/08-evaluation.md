@@ -8,6 +8,15 @@ title-slide-attributes:
  
 ## Announcements
 
+<!-- 
+Yichen todos:
+- look at chapters 14-16, trace the sections through the slides and add slides for missing sections
+- write in short summaries of missing sections
+- edit other slides as needed for consistency
+- include citations.
+
+ -->
+
 ## Plan for the class
 
 # Evaluation
@@ -269,7 +278,6 @@ Skip the "users"! Just evaluate against established principles (heuristics) and 
 6. Permit easy reversal of actions
 7. Keep users in control
 8. Reduce short-term memory load
-
 
 ## Analytics: What can you learn?
 
