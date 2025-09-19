@@ -27,14 +27,14 @@ Sharp et al. 2019 Textbook: Chapters 14-16
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- **Evaluation:** collecting and analysing data from user experiences with an artefact
+- **Evaluation:** collecting and analysing data from user experiences with an artefact.
 
 - **Goal:** to improve the artefact's design.
 - **Addresses:**
     - functionality
     - usability
     - user experience
-- Appropriate for all different kinds of artefacts and prototypes
+- Appropriate for all different kinds of artefacts and prototypes.
 - Methods vary according to goals.
 :::
 ::: {.column width="40%"}
@@ -212,6 +212,9 @@ Goals of field studies:
 
 # Evaluation by Inspection
 
+![Image Source: Online ... I have this back in 2018 and just can't remember. -- Yichen](img/08_sticky_notes.jpg)
+
+
 Skip the "users"! Just evaluate against established principles (heuristics) and standards.
 
 ## Expert Evaluation
@@ -305,6 +308,49 @@ Skip the "users"! Just evaluate against established principles (heuristics) and 
 ![(Ambe et al. 2017)](img/09_evaluation_foundations_19.jpg)
 :::
 ::::::::::::::
+
+## Which methods to choose from?
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+What we discussed so far are general methods guiding certain dimensions fo developed artefacts.
+
+- Combinations of methods are used for a richer understanding. E.g., usability testing is combined with observations to identify usability problems and how users use the system.
+
+> Pros and Cons
+
+- Controlled settings allow rigorous hypotheses test on the system's specific features for generalised results.
+- Uncontrolled settings offer unexpected insights into how people perceive and experience new technologies in their daily and work lives.
+
+:::
+::: {.column width="40%"}
+![Yichen Wang conducting her AR co-creative system in 2024.](img/2024-yichen-studies.jpg)
+:::
+::::::::::::::
+
+## Opportunistic Evaluations
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Evaluation can be detailed, planned studies, or *opportunistic*!
+
+Provide quick feedback about a design idea in the early design process.
+
+Confirm whether it’s worth developing an idea into a prototype. It’s informal and doesn’t require many resources.
+
+E.g., designers recruit a few local people for feedback that benefits evolving design.
+
+Yichen Wang's *arMIDI* early design / dev process with her supervisor Charles, friend Henry Gardner.
+
+This can hone target users for subsequent more focused studies, and in addition to formal eva.
+
+:::
+::: {.column width="10%"}
+![](img/armidi-dev-process.jpg)
+:::
+::::::::::::::
+
 
 # Planning Evaluations
 
