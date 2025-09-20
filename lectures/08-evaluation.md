@@ -210,6 +210,176 @@ Goals of field studies:
 :::
 ::::::::::::::
 
+## Opportunistic Evaluations
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Provide quick feedback about a design idea in the early design process.
+
+Confirm whether it’s worth developing an idea into a prototype. It’s informal and doesn’t require many resources.
+
+E.g., designers recruit a few local people for feedback that benefits evolving design.
+
+> Yichen Wang's *arMIDI* system early design / dev process with her supervisor Charles, musician friend Henry Gardner [@wang2025seeingsound].
+
+This can hone target users for subsequent more focused studies, and in addition to the formal.
+
+:::
+::: {.column width="10%"}
+![](img/armidi-dev-process.jpg)
+:::
+::::::::::::::
+
+## Which methods to choose from?
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+What we discussed so far are general methods guiding certain dimensions fo developed artefacts.
+
+- Combinations of methods are used for a richer understanding. E.g., usability testing is combined with observations to identify usability problems and how users use the system.
+
+> Pros and Cons
+
+- Controlled settings allow rigorous hypotheses test on the system's specific features for generalised results.
+- Uncontrolled settings offer unexpected insights into how people perceive and experience new technologies in their daily and work lives.
+
+:::
+::: {.column width="40%"}
+![Yichen Wang conducting her AR co-creative system in 2024.](img/2024-yichen-studies.jpg)
+:::
+::::::::::::::
+
+## Other Issues to Consider When Doing Evaluations
+
+1. Explaining participants' rights and how their data will be handled.
+    - Most institutions require researchers to disclose activities involving human participants (E.g., [ANU Human Research Ethics Committee](https://services.anu.edu.au/planning-governance/governance/anu-human-research-ethics-committee)).
+2. Considering biases that may affect how you present findings.
+
+> Dilemma
+
+When is a person considered vulnerable, and how might this affect them?
+
+- Charles can give an activity here.
+- The book also has an in-depth activity here p.546.
+
+# Planning Evaluations
+
+## Issues during evaluation
+
+- Ethical dimensions and consent
+- Evaluation design and conduct:
+    - __Reliability:__  “how well it produces the same results on separate occasions under the same circumstances”
+    - __Validity:__ “whether the evaluation method measures what it intended to measure”
+    - __Ecological validity:__  “how the environment in which an evaluation is conducted influences or distorts results”
+    - __Bias:__ “occurs when the results are distorted”
+    - __Scope:__ “how much of the findings can be generalised”
+
+
+## Developing an evaluation plan
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- Evaluation Goal/Aims
+- Participants
+- Setting
+- Data to collect
+- Methods
+- Ethical Considerations/Consent Process
+- Data capture/recording/storage
+- Analysis method
+- Output(s) of evaluation process
+:::
+::: {.column width="40%"}
+![](img/09_evaluation_foundations_20.jpg)
+:::
+::::::::::::::
+
+## Labs and Equipment
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+- Audio / Video recording devices,
+- Speakers, tables,
+- Experimental setup, etc.
+
+- In-person / Remote (comparing to Minsik's focus group).
+    - Zoom (e.g., COVID), etc.
+
+- Charles can yap more.
+
+:::
+::: {.column width="40%"}
+![Yichen Wang's human-AI musical collaboration research study setup at School of Music.](img/08_yichen_study_setup.jpg){width="100%"}
+:::
+::::::::::::::
+
+## Conducting Experiments
+
+<!-- Specific hypothesis tests predict how people will perform with an interface. -->
+
+- Hypotheses Testing:
+    - Examine the relationship between variables (independent vs. dependent);
+    - Null and alternative hypotheses guide testing;
+    - Careful experimental design is essential to control other variables and interpret results accurately!
+
+- Experimental Design:
+    - Choosing participants for conditions is critical 
+    <!-- Notes for Charles -->
+    <!-- prior exposure or learning can bias results, so care must be taken to avoid unfair advantages or training effects. -->
+    - Three main types:
+        1. Different-participant design
+         <!-- uses separate groups for each condition, avoiding order effects but requiring more participants. -->
+        2. Same-participant design
+         <!-- has all participants do all conditions, reducing individual differences but requiring counterbalancing to avoid order effects. -->
+        3. Matched-participant design 
+        <!-- pairs participants based on shared traits to reduce variability, though unaccounted factors may still influence outcomes. -->
+    - Design choice affects validity and reliability
+        <!-- so researchers must balance control over variables, participant numbers, and potential biases when planning experiments -->
+
+ Data collection: task performance, response / task time, errors, etc.
+
+## Experimental Design
+
+Advantages and Disadvantages of Different Allocations of Participants to Conditions
+
+| Design | Advantages | Disadvantages |
+|---|---|---|
+| Different participants (between-participants design) | - No order effects | - Requires many participants<br>- Individual differences can affect results<br>- Random assignment helps minimize differences |
+| Same participants (within-participants design) | - Eliminates individual differences between conditions | - Requires counterbalancing<br>- Risk of order effects (e.g., learning or fatigue) |
+| Matched participants (pair-wise design) | - No order effects<br>- Reduces impact of individual differences | - Time-consuming to find matched pairs<br>- May miss other influential variables |
+
+
+## Statistics: t-tests
+
+- Widely used in HCI to compare means between two conditions (e.g., menu selection times) and test if differences are statistically significant.
+- Include the t-value, degrees of freedom (df), and p-value, where df depends on participant numbers, and p indicates the probability the result is due to chance.
+- `p < 0.05` typically means the difference is significant, allowing rejection of the null hypothesis, with smaller p-values (e.g., <0.01) indicating stronger evidence.
+
+## In-the-Wild Studies
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Evaluate technology in natural settings with minimal control over participants, reflecting real-world use but introducing unpredictability and complexity compared to lab studies.
+
+Observations, interviews, logged usage, and experience sampling methods, capturing rich, contextual information about how people interact with technology in everyday life.
+
+Ethical and practical challenges are greater, e.g., participant consent, privacy, equipment issues, and environmental factors.
+
+> Reveal insights about actual use and long-term integration that lab studies often miss.
+
+- Charles example the performance in the wild work by Steve Benford.
+
+:::
+::: {.column width="40%"}
+![Overview of performance-led research in the wild. [@benford2013performancewild]](img/benford-performance-led-in-the-wild.jpg){width="100%"}
+:::
+::::::::::::::
+
+ 
+
 # Evaluation by Inspection
 
 ![Image Source: Online ... I have this back in 2018 and just can't remember. -- Yichen](img/08_sticky_notes.jpg)
@@ -294,6 +464,33 @@ Skip the "users"! Just evaluate against established principles (heuristics) and 
 :::
 ::::::::::::::
 
+## A/B Testing    
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- Large-scale, online controlled experiment used to compare two designs (A = control, B = new design) by measuring user behavior (e.g., click rates), often without users knowing they are part of a study.
+- Between-participants design, randomly assigning users to different versions and analyzing outcomes statistically to determine if observed differences are due to the design and not chance.
+- Proper setup is critical — running an A/A test first ensures the testing infrastructure is sound, and careful design is needed to avoid misleading results, as shown in real-world examples like Microsoft Office 2007.
+:::
+::: {.column width="40%"}
+![Original ad title for buying flowers (top) and suggested new title design (below).
+Source: Kohavi et al. (2022), Cambridge University Press](img/08_abtest.jpg.png){width="60%"}
+:::
+::::::::::::::
+
+<!-- Charles: this  Kohavi et al. (2022) reference is cursed; i'll leave you to fix it. -->
+
+## Predictive Models
+
+Estimate user performance without needing real users, using formulas to assess task efficiency — useful in early design stages or when testing with users is difficult.
+
+Fitts’ Law [@fitts1954information]:
+
+- predicts how long it takes to point at a target based on its size and distance, helping designers optimize button placement, size, and spacing on screens and devices.
+
+- wide applications in HCI, including evaluating input methods (e.g., touch, gaze, tilt), designing for mobile and VR, and simulating interactions for users with motor impairments.
+
+
 ## Evaluation after deployment: adoption, use, and non-use
 
 :::::::::::::: {.columns}
@@ -309,82 +506,7 @@ Skip the "users"! Just evaluate against established principles (heuristics) and 
 :::
 ::::::::::::::
 
-## Which methods to choose from?
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-What we discussed so far are general methods guiding certain dimensions fo developed artefacts.
-
-- Combinations of methods are used for a richer understanding. E.g., usability testing is combined with observations to identify usability problems and how users use the system.
-
-> Pros and Cons
-
-- Controlled settings allow rigorous hypotheses test on the system's specific features for generalised results.
-- Uncontrolled settings offer unexpected insights into how people perceive and experience new technologies in their daily and work lives.
-
-:::
-::: {.column width="40%"}
-![Yichen Wang conducting her AR co-creative system in 2024.](img/2024-yichen-studies.jpg)
-:::
-::::::::::::::
-
-## Opportunistic Evaluations
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-Evaluation can be detailed, planned studies, or *opportunistic*!
-
-Provide quick feedback about a design idea in the early design process.
-
-Confirm whether it’s worth developing an idea into a prototype. It’s informal and doesn’t require many resources.
-
-E.g., designers recruit a few local people for feedback that benefits evolving design.
-
-Yichen Wang's *arMIDI* early design / dev process with her supervisor Charles, friend Henry Gardner.
-
-This can hone target users for subsequent more focused studies, and in addition to formal eva.
-
-:::
-::: {.column width="10%"}
-![](img/armidi-dev-process.jpg)
-:::
-::::::::::::::
-
-
-# Planning Evaluations
-
-## Issues during evaluation
-
-- Ethical dimensions and consent
-- Evaluation design and conduct:
-    - __Reliability:__  “how well it produces the same results on separate occasions under the same circumstances”
-    - __Validity:__ “whether the evaluation method measures what it intended to measure”
-    - __Ecological validity:__  “how the environment in which an evaluation is conducted influences or distorts results”
-    - __Bias:__ “occurs when the results are distorted”
-    - __Scope:__ “how much of the findings can be generalised”
-
-
-## Developing an evaluation plan
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-- Evaluation Goal/Aims
-- Participants
-- Setting
-- Data to collect
-- Methods
-- Ethical Considerations/Consent Process
-- Data capture/recording/storage
-- Analysis method
-- Output(s) of evaluation process
-:::
-::: {.column width="40%"}
-![](img/09_evaluation_foundations_20.jpg)
-:::
-::::::::::::::
-
-## Questions: Who has a question?
+# Questions: Who has a question?
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
