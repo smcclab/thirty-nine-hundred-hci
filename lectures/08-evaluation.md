@@ -474,7 +474,7 @@ Skip the "users"! Just evaluate against established principles (heuristics) and 
 :::
 ::: {.column width="40%"}
 ![Original ad title for buying flowers (top) and suggested new title design (below).
-Source: Kohavi et al. (2022), Cambridge University Press](img/08_abtest.jpg.png){width="60%"}
+Source: Kohavi et al. (2022), Cambridge University Press](img/08_abtest.jpg){width="60%"}
 :::
 ::::::::::::::
 
