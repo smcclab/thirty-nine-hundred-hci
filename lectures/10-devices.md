@@ -16,6 +16,14 @@ What can this lecture be about?
 
 ## Plan for the class
 
+
+## Statistics: t-tests
+
+- Widely used in HCI to compare means between two conditions (e.g., menu selection times) and test if differences are statistically significant.
+- Include the t-value, degrees of freedom (df), and p-value, where df depends on participant numbers, and p indicates the probability the result is due to chance.
+- `p < 0.05` typically means the difference is significant, allowing rejection of the null hypothesis, with smaller p-values (e.g., <0.01) indicating stronger evidence.
+
+
 ## Questions: Who has a question?
 
 :::::::::::::: {.columns}

@@ -8,20 +8,79 @@ title-slide-attributes:
  
 ## Announcements
 
-<!-- 
-Yichen todos:
-- look at chapters 14-16, trace the sections through the slides and add slides for missing sections
-- write in short summaries of missing sections
-- edit other slides as needed for consistency
-- include citations.
+- assignment 2 due next Monday
+- remember to use your tutorial time for meeting research clusters and collecting data.
+- remember to follow the step-by-step guide.
+- go fork [the repo!](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-user-research)
 
- -->
+**Markdown Formatting Check:** There is a CI/CD job that checks your markdown formatting using the [`markdownlint-cli`](https://github.com/igorshubovych/markdownlint-cli) tool. Syntax rules are listed [here](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md) in our script, rules `MD013` and `MD041` are disabled. All other rules are active.
 
 ## Plan for the class
 
-# Evaluation
+- research questions
+- about evaluation
+- types of evaluation
+- planning evaluations
+- evaluation by inspection
 
-Sharp et al. 2019 Textbook: Chapters 14-16
+# Research Questions
+
+For the final project you will have to choose a research question to explore.
+
+This is a clear question (one sentence) that guides the design of your research project. 
+
+RQs have been called [survival beacons](https://lennartnacke.com/how-to-choose-a-good-research-question/#research-questions-are-survival-beacons) because they should guide all aspects of our research plans.
+
+How do we choose a research question and write it clearly?
+
+Important skill for any research activity.
+
+## Four steps to write a research question
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+This framework inspired by Lennart Nacke, [everybody's favourite HCI writing coach on LinkedIn](<https://lennartnacke.com/how-to-choose-a-good-research-question/#research-questions-are-survival-beacons>).
+
+1. Outline a broad area of interest
+2. Identify a problem that needs solving
+3. Justify solving this problem
+4. Write the question
+
+To be clear, a research question starts with a question word (what, how, why, can, do, should) and ends with a question mark. It can just be one sentence.
+
+Seems too easy... let's try it together.
+:::
+::: {.column width="40%"}
+![Lennart Nacke's 4-step research question framework](img/research-question.jpg){width=70%}
+:::
+::::::::::::::
+
+## A worked research question example
+
+1. haptic wearable interfaces.
+2. keeping focussed in complicated meetings
+3. lack of awareness in meeting can lead to poor work performance and embarrassment
+4. here we go:
+
+> What effects can a haptic wearable interface have on lack of awareness during meetings and later work performance?
+
+Encodes the broad area, the problem, the justification, the context, etc.
+
+## How many research questions?
+
+Well, I allow my PhD students **3** research questions for their 4-year research projects. 
+
+So you just get one.
+
+
+
+
+
+
+
+# About Evaluation
+
+![Testing things to find out if they work.](img/microjam-evaluation.jpg){width=50%}
 
 ## What is evaluation?
 
@@ -30,15 +89,12 @@ Sharp et al. 2019 Textbook: Chapters 14-16
 - **Evaluation:** collecting and analysing data from user experiences with an artefact.
 
 - **Goal:** to improve the artefact's design.
-- **Addresses:**
-    - functionality
-    - usability
-    - user experience
+- **Addresses:** functionality, usability, user experience
 - Appropriate for all different kinds of artefacts and prototypes.
 - Methods vary according to goals.
 :::
 ::: {.column width="40%"}
-![Evaluating iPad apps in 2013.](img/evaluation-metatone-2013.jpg)
+![Evaluating iPad apps in 2013 [@martin-exploring-percussive-gesture:2014]](img/evaluation-metatone-2013.jpg)
 :::
 ::::::::::::::
 
@@ -77,7 +133,7 @@ Examples:
 - **Children’s talking toy designers:** Whether six-year-olds enjoy the voice, feel of the soft toy, and can use safely
 :::
 ::: {.column width="40%"}
-![Preece in @Raffaele:2016](img/09_evaluation_foundations_1.png)
+![Preece in @Raffaele:2016](img/09_evaluation_foundations_1.png){width=100%}
 :::
 ::::::::::::::
 
@@ -93,6 +149,8 @@ Six usability goals:
 - Having good utility (utility)
 - Easy to learn (learnability)
 - Easy to remember how to use (memorability)
+
+[@rogers-beyond-hci:2023]
 :::
 ::: {.column width="40%"}
 ![Image: dtravisphd on Unsplash](img/09_evaluation_foundations_2.jpg){width=100%}
@@ -149,7 +207,7 @@ Evaluation serves different purposes at different stages of the design process
     - Feeds into an iterative design process
 :::
 ::: {.column width="40%"}
-![Formative vs Summative Evaluation [https://www.youtube.com/watch?v=730UiP7dZeo](https://www.youtube.com/watch?v=730UiP7dZeo)](img/09_evaluation_foundations_4.png)
+![Formative vs Summative Evaluation [NNGroup on YouTube](https://www.youtube.com/watch?v=730UiP7dZeo)](img/09_evaluation_foundations_4.png)
 :::
 ::::::::::::::
 
@@ -157,16 +215,28 @@ Evaluation serves different purposes at different stages of the design process
 
 ## Controlled settings (e.g., Usability testing)
 
-![Image Source: [Usability Testing (interactiondesign.org)](https://www.interaction-design.org/literature/article/the-basics-of-recruiting-users-for-usability-testing)](img/09_evaluation_foundations_5.jpg)
+![Image Source: [Usability Testing (interactiondesign.org)](https://www.interaction-design.org/literature/article/the-basics-of-recruiting-users-for-usability-testing)](img/09_evaluation_foundations_5.jpg){width=80%}
+
+A controlled evaluation setting is not the normal place for using a technology or for the user to be.
 
 ## Usability Testing
 
-- Measures: Can involve numbers and time (e.g., number of task completion, number of errors made, time taken to complete task)
-- Methods: Can involve a mixture of methods e.g., think aloud, observation, interviews, questionnaires, data logging and analytics
-- Data: Can collect a variety of data depending on the methods used (e.g., video, audio, facial expressions, key presses, verbal feedback)
-- Settings: Usability lab + observation room vs mobile usability kit
-- Number of participants: 5-12 baseline but more is better
-- Read the textbook for other kinds of experimental design
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- **Measures:** numbers or time (e.g., tasks completed, errors made, time taken)
+- **Methods:** mixture of methods (e.g., think aloud, observation, interviews, questionnaires, data logging and analytics)
+- **Data:** variety of data depending on the methods (e.g., video, audio, facial expressions, key presses, verbal feedback)
+- **Settings:** lab + observation room, mobile usability kit, university classroom
+- **Number of participants:** 5-12 baseline but more is better
+
+Read the textbook for other kinds of experimental design
+:::
+::: {.column width="40%"}
+![A controlled setting at ANU for testing music apps. Interaction data, timing, audio, video, surveys and interviews were recorded [@martin-intelligent-agents:2016]](img/2015-study-observation.jpg){width="100%"}
+:::
+::::::::::::::
+
+<!-- TODO, other kinds of design? what would they be? -->
 
 ## Usability Testing Example
 
@@ -176,11 +246,15 @@ Evaluation serves different purposes at different stages of the design process
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Goals of field studies:
+Evaluating a technology or context of use in the normal setting for the user.
+
+Field studies can:
 
 - Help identify opportunities for new technology
 - Establish the requirements for a new design
 - Facilitate the introduction of technology or inform deployment of existing technology in new contexts
+
+Helps to establish [ecological validity](https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/ecological-validity).
 :::
 ::: {.column width="40%"}
 ![Source: @ambe-individuation:2017](img/09_evaluation_foundations_7.jpg)
@@ -198,12 +272,11 @@ Goals of field studies:
 - How does your presence and involvement shape engagement? Observation vs participant observation
 - Findings: Used for creating thematic analysis, vignettes, narratives, critical incident analysis etc.
 
-
 ## Field Studies Example
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![**Co-Designing with Orangutans: Enhancing the Design of Enrichment for Animals** (Sarah Webber, Marcus Carter, Wally Smith, and Frank Vetere) Proc. DIS '20 [@webber-oranguatans:2020]](img/09_evaluation_foundations_8.png)
+![Co-Designing with Orangutans: Enhancing the Design of Enrichment for Animals (Sarah Webber, Marcus Carter, Wally Smith, and Frank Vetere) Proc. DIS '20 [@webber-oranguatans:2020]](img/09_evaluation_foundations_8.png)
 :::
 ::: {.column width="50%"}
 ![Design objective 1: Develop a digital installation to provide enhanced, varied enrichment for orangutans at Melbourne Zoo](img/09_evaluation_foundations_9.png)
@@ -215,19 +288,16 @@ Goals of field studies:
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-Provide quick feedback about a design idea in the early design process.
+- quick feedback about a design idea in the early design process
+- confirm whether it’s worth developing an idea into a prototype
+- informal and doesn’t require lots of time or resources
+- not a replacement for formal evaluation
+- **care required** with ethics in research (Hons, Master, PhD). Asking supervisors and colleagues for advice vs collecting data to establish findings.
 
-Confirm whether it’s worth developing an idea into a prototype. It’s informal and doesn’t require many resources.
-
-E.g., designers recruit a few local people for feedback that benefits evolving design.
-
-> Yichen Wang's *arMIDI* system early design / dev process with her supervisor Charles, musician friend Henry Gardner [@wang2025seeingsound].
-
-This can hone target users for subsequent more focused studies, and in addition to the formal.
-
+**E.g.,** designers ask colleagues for design feedback: Yichen Wang's *arMIDI* system early design process with supervisor and colleagues [@wang2025seeingsound].
 :::
-::: {.column width="10%"}
-![](img/armidi-dev-process.jpg)
+::: {.column width="40%"}
+![Development process for arMIDI](img/armidi-dev-process.jpg){width=50%}
 :::
 ::::::::::::::
 
@@ -236,18 +306,18 @@ This can hone target users for subsequent more focused studies, and in addition 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-What we discussed so far are general methods guiding certain dimensions fo developed artefacts.
+The evaluation setting guides certain dimensions of developed artefacts.
 
-- Combinations of methods are used for a richer understanding. E.g., usability testing is combined with observations to identify usability problems and how users use the system.
+- **Combinations of methods** are used for a richer understanding. E.g., usability testing is combined with observations to identify usability problems and how users use the system.
 
-> Pros and Cons
+### Pros and Cons
 
-- Controlled settings allow rigorous hypotheses test on the system's specific features for generalised results.
-- Uncontrolled settings offer unexpected insights into how people perceive and experience new technologies in their daily and work lives.
+- **Controlled settings** allow hypotheses testing on specific features for generalised results.
+- **Uncontrolled settings** offer unexpected insights into perception and experience of new technologies in daily life and work.
 
 :::
 ::: {.column width="40%"}
-![Yichen Wang conducting her AR co-creative system in 2024.](img/2024-yichen-studies.jpg)
+![Lab research on AR co-creative system [@wang2025seeingsound]](img/2024-yichen-studies.jpg)
 :::
 ::::::::::::::
 
@@ -257,7 +327,7 @@ What we discussed so far are general methods guiding certain dimensions fo devel
     - Most institutions require researchers to disclose activities involving human participants (E.g., [ANU Human Research Ethics Committee](https://services.anu.edu.au/planning-governance/governance/anu-human-research-ethics-committee)).
 2. Considering biases that may affect how you present findings.
 
-> Dilemma
+### Dilemma
 
 When is a person considered vulnerable, and how might this affect them?
 
@@ -266,15 +336,34 @@ When is a person considered vulnerable, and how might this affect them?
 
 # Planning Evaluations
 
-## Issues during evaluation
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+What do we need to keep in mind to plan evaluations?
+:::
+::: {.column width="40%"}
+![Planning a study in 2015.](img/2015-planning-study.jpg){width="60%"}
+:::
+::::::::::::::
 
-- Ethical dimensions and consent
-- Evaluation design and conduct:
-    - __Reliability:__  “how well it produces the same results on separate occasions under the same circumstances”
-    - __Validity:__ “whether the evaluation method measures what it intended to measure”
-    - __Ecological validity:__  “how the environment in which an evaluation is conducted influences or distorts results”
-    - __Bias:__ “occurs when the results are distorted”
-    - __Scope:__ “how much of the findings can be generalised”
+## Design and Conduct Issues
+
+- **Reliability:**  how well it produces the same results on separate occasions under the same circumstances
+- **Validity:** whether the evaluation method measures what it intended to measure
+- **Ecological validity:** how the environment in which an evaluation is conducted influences or distorts results
+- **Bias:** occurs when the results are distorted
+- **Scope:** how much of the findings can be generalised
+
+## Ethical Issues
+
+- **Risks:** what are the risks to participants? (e.g., physical harm, reputational risk, distressing conversations, being identified etc)
+    - ...and how are risks mitigated...
+- **Benefits:** what are the benefits to participants? (e.g., none, helping research, fun experience, getting paid, course credit, etc)
+- **Consent:** how is informed consent established? (e.g., a participant information sheet and a written form)
+- **Data:** how is data stored and who has access to it? what will happen to it over time?
+
+Universities have [processes](https://services.anu.edu.au/research-support/research-ethics-integrity-compliance/human-ethics) to _approve_ the ethical aspects of research that collects data from humans following established rules [@national-statement-ethical-conduct:2025].
+
+We don't go deeply into research ethics in this course but the four issues above are the core ones.
 
 
 ## Developing an evaluation plan
@@ -286,13 +375,13 @@ When is a person considered vulnerable, and how might this affect them?
 - Setting
 - Data to collect
 - Methods
-- Ethical Considerations/Consent Process
-- Data capture/recording/storage
+- Ethical Considerations and Consent
+- Data capture, recording, storage
 - Analysis method
 - Output(s) of evaluation process
 :::
 ::: {.column width="40%"}
-![](img/09_evaluation_foundations_20.jpg)
+![How to evaluate this app?](img/2018-microjam.jpg)
 :::
 ::::::::::::::
 
@@ -316,34 +405,41 @@ When is a person considered vulnerable, and how might this affect them?
 :::
 ::::::::::::::
 
-## Conducting Experiments
+## Experimental Variables
 
-<!-- Specific hypothesis tests predict how people will perform with an interface. -->
+- **Independent variable:** the condition the researcher controls.
+- **Dependent variable:** the outcome we are measuring.
+- **Independent variables in HCI:** different interfaces, input devices, software, colours, computer type
+- **Dependent variables in HCI:** efficiency, accuracy, subjective satisfaction, ease of learning, physical/cognitive demands
 
-- Hypotheses Testing:
-    - Examine the relationship between variables (independent vs. dependent);
-    - Null and alternative hypotheses guide testing;
-    - Careful experimental design is essential to control other variables and interpret results accurately!
+### Independent variables shape your study plan
 
-- Experimental Design:
-    - Choosing participants for conditions is critical 
-    <!-- Notes for Charles -->
-    <!-- prior exposure or learning can bias results, so care must be taken to avoid unfair advantages or training effects. -->
-    - Three main types:
-        1. Different-participant design
-         <!-- uses separate groups for each condition, avoiding order effects but requiring more participants. -->
-        2. Same-participant design
-         <!-- has all participants do all conditions, reducing individual differences but requiring counterbalancing to avoid order effects. -->
-        3. Matched-participant design 
-        <!-- pairs participants based on shared traits to reduce variability, though unaccounted factors may still influence outcomes. -->
-    - Design choice affects validity and reliability
-        <!-- so researchers must balance control over variables, participant numbers, and potential biases when planning experiments -->
+- **Tasks:** completing specific tasks, or freely using a technology?
+- **Interfaces:** just using one interface, or comparing two (or more!) different styles
 
- Data collection: task performance, response / task time, errors, etc.
+## Hypothesis Testing
+
+E.g.:
+
+> A blue backround in the user interface leads to faster task completion.
+
+- Examine the relationship between variables (independent vs. dependent)
+- Null and alternative hypotheses guide testing
+- Careful experimental design is essential
 
 ## Experimental Design
 
-Advantages and Disadvantages of Different Allocations of Participants to Conditions
+Which participants test which conditions?
+
+1. Different-participant design: each participant sees one condition.
+2. Same-participant design: everybody sees each condition.
+3. Matched-participant design: matched groups of participants with a shared trait put into each group
+
+- **Balanced Ordering** is important to counter learning effects.
+- **Design choices** affects validity and reliability
+- **Data collection:** think back to week 4 lecture, but often includes task performance, completion time, errors, subjective satisfaction etc.
+
+## Table of Experimental Designs
 
 | Design | Advantages | Disadvantages |
 |---|---|---|
@@ -351,26 +447,16 @@ Advantages and Disadvantages of Different Allocations of Participants to Conditi
 | Same participants (within-participants design) | - Eliminates individual differences between conditions | - Requires counterbalancing<br>- Risk of order effects (e.g., learning or fatigue) |
 | Matched participants (pair-wise design) | - No order effects<br>- Reduces impact of individual differences | - Time-consuming to find matched pairs<br>- May miss other influential variables |
 
-
-## Statistics: t-tests
-
-- Widely used in HCI to compare means between two conditions (e.g., menu selection times) and test if differences are statistically significant.
-- Include the t-value, degrees of freedom (df), and p-value, where df depends on participant numbers, and p indicates the probability the result is due to chance.
-- `p < 0.05` typically means the difference is significant, allowing rejection of the null hypothesis, with smaller p-values (e.g., <0.01) indicating stronger evidence.
-
 ## In-the-Wild Studies
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Evaluate technology in natural settings with minimal control over participants, reflecting real-world use but introducing unpredictability and complexity compared to lab studies.
 
-Observations, interviews, logged usage, and experience sampling methods, capturing rich, contextual information about how people interact with technology in everyday life.
-
-Ethical and practical challenges are greater, e.g., participant consent, privacy, equipment issues, and environmental factors.
+- Natural setting, minimal control over participants
+- reflecting real-world use unpredictable and complex
+- Ethical and practical challenges are greater, e.g., participant consent, privacy, equipment issues, and environmental factors.
 
 > Reveal insights about actual use and long-term integration that lab studies often miss.
-
-- Charles example the performance in the wild work by Steve Benford.
 
 :::
 ::: {.column width="40%"}
@@ -378,23 +464,32 @@ Ethical and practical challenges are greater, e.g., participant consent, privacy
 :::
 ::::::::::::::
 
- 
+## People are complicated
+
+HCI is hard. To do a study, you usually need to:
+
+- Plan the study
+- Find participants
+- Manage communication with them
+- Figure out what to do if they don’t show up
+- Managing a study requires some social skills! It’s hard work!
+
+Is there any way to do evaluation _without_ users?
 
 # Evaluation by Inspection
 
-![Image Source: Online ... I have this back in 2018 and just can't remember. -- Yichen](img/08_sticky_notes.jpg)
+![Skip the "users"! Just evaluate against established principles (heuristics) and standards.
+](img/08_sticky_notes.jpg){width=50%}
 
-
-Skip the "users"! Just evaluate against established principles (heuristics) and standards.
 
 ## Expert Evaluation
 
 - Conducted by designers and design “experts” rather than with end users
 - Inspection methods – expert role plays user
-- __Heuristic evaluation:__ Researchers evaluate whether aspects design adhere to established usability principles (see over)
-- __Cognitive walkthroughs:__ Simulating user reasoning and problem solving at each step in an interaction sequence (evidence, availability, accessibility of correct action)
-- __Analytics:__ Understanding user demographics and tracing activities (e.g., number of clicks, duration of sessions etc.)
-- __A/B Testing:__ Large number of users assigned Design A or B and compare use to test “variable of interest” (e.g., number of clicks on advertising during test period)
+- **Heuristic evaluation:** Researchers evaluate whether aspects design adhere to established usability principles (see over)
+- **Cognitive walkthroughs:** Simulating user reasoning and problem solving at each step in an interaction sequence (evidence, availability, accessibility of correct action)
+- **Analytics:** Understanding user demographics and tracing activities (e.g., number of clicks, duration of sessions etc.)
+- **A/B Testing:** Large number of users assigned Design A or B and compare use to test “variable of interest” (e.g., number of clicks on advertising during test period)
 
 ## Heuristic Evaluations of User Interfaces (video)
 

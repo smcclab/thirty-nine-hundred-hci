@@ -7,6 +7,9 @@ author: Dr Charles Martin
 
 This tutorial will help you understand how to design a research project. You will consider how to find real-world problems, how to identify research gaps, and how to write a research question. This work directly relates to the final project.
 
+Writing research questions: <https://lennartnacke.com/how-to-choose-a-good-research-question/#research-questions-are-survival-beacons>
+
+
 ## Pre-Class Tasks
 
 The pre-class task(s) need to be _ultra clear_ so that students can complete them before the tutorial without assistance from staff.
