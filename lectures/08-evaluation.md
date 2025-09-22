@@ -66,16 +66,61 @@ Seems too easy... let's try it together.
 
 Encodes the broad area, the problem, the justification, the context, etc.
 
-## How many research questions?
-
-Well, I allow my PhD students **3** research questions for their 4-year research projects. 
-
-So you just get one.
+## Research Question Bingo
 
 <!-- Could try a dual spinning wheel research question writing task: https://spinthewheel.io/wheels/wlzQX7r6A5GpkW4MExxW -->
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+**Interfaces:**
 
+1. haptic feedback gloves
+2. AR/VR headset
+3. e-textile clothing
+4. voice assistant
+5. gesture recognition
+6. smart headphones
+7. ambient light display
+8. wearable plants
+9. eye-tracking interface
+10. multi-touch table
+:::
+::: {.column width="50%"}
+**Problems to Solve:**
 
+1. family meal planning
+2. language learning while commuting
+3. caring for houseplants
+4. focus during remote work
+5. medication schedules
+6. teaching kids about conservation
+7. organising hobby collections
+8. non-verbal communication
+9. practicing music in small spaces
+10. tracking community events
+:::
+::::::::::::::
+
+## Activity: Write a Research Question
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Let's write a research question!
+
+> Together, let's [Spin the wheels](https://spinthewheel.io/wheels/6QtocP77prRkdHZ66s0hcz0xJmU9MA==) to decide on a broad area and a problem.
+
+Then, decide on a "justification" and write a research question.
+
+Remember that the RQ should include the broad area, the problem, and the justification. 
+
+Use the poll everywhere link to suggest research questions and vote on the best ones.
+
+**Write** for 2-3 minutes, **vote** for 1 minute, then let's discuss.
+:::
+::: {.column width="40%"}
+![PollEverywhere link: <https://pollev.com/charlesmarti205>](img/polleverywhere-charles-qr.png)
+:::
+::::::::::::::
 
 
 # About Evaluation
@@ -173,27 +218,7 @@ Depends on your evaluation goal!
 :::
 ::::::::::::::
 
-## Activity: Evaluating an interactive toy
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-You're all HCI researchers and we need to evaluate this interactive toy.
-
-We need to choose:
-
-- how we will evaluate the toy?
-- in what environment?
-- what information do we need and why?
-- what _research questions_ are being asked?
-
-Talk for 2-3 minutes and then we will hear some answers.
-:::
-::: {.column width="40%"}
-![Where and why will we evaluate this toy? (Photo by COSMOH LOVE on Unsplash)](img/cosmoh-love-unlm6Fxxvjw-unsplash.jpg)
-:::
-::::::::::::::
-
-## When should you evaluate?
+## Formative vs Summative Evaluation
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -229,7 +254,6 @@ A controlled evaluation setting is not the normal place for using a technology o
 - **Settings:** lab + observation room, mobile usability kit, university classroom
 - **Number of participants:** 5-12 baseline but more is better
 
-Read the textbook for other kinds of experimental design
 :::
 ::: {.column width="40%"}
 ![A controlled setting at ANU for testing music apps. Interaction data, timing, audio, video, surveys and interviews were recorded [@martin-intelligent-agents:2016]](img/2015-study-observation.jpg){width="100%"}
@@ -321,18 +345,26 @@ The evaluation setting guides certain dimensions of developed artefacts.
 :::
 ::::::::::::::
 
-## Other Issues to Consider When Doing Evaluations
+## Activity: Evaluating an interactive toy
 
-1. Explaining participants' rights and how their data will be handled.
-    - Most institutions require researchers to disclose activities involving human participants (E.g., [ANU Human Research Ethics Committee](https://services.anu.edu.au/planning-governance/governance/anu-human-research-ethics-committee)).
-2. Considering biases that may affect how you present findings.
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+You're all HCI researchers and we need to evaluate this interactive toy.
 
-### Dilemma
+We need to choose:
 
-When is a person considered vulnerable, and how might this affect them?
+- how we will evaluate the toy?
+- in what environment?
+- what information do we need and why?
+- what _research questions_ are being asked?
 
-- Charles can give an activity here.
-- The book also has an in-depth activity here p.546.
+Talk for 2-3 minutes and then we will hear some answers 🗣️🎤⭐️
+:::
+::: {.column width="40%"}
+![Where and why will we evaluate this toy? (Photo by COSMOH LOVE on Unsplash)](img/cosmoh-love-unlm6Fxxvjw-unsplash.jpg)
+:::
+::::::::::::::
+
 
 # Planning Evaluations
 
@@ -390,15 +422,13 @@ We don't go deeply into research ethics in this course but the four issues above
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-- Audio / Video recording devices,
-- Speakers, tables,
-- Experimental setup, etc.
-
-- In-person / Remote (comparing to Minsik's focus group).
-    - Zoom (e.g., COVID), etc.
-
-- Charles can yap more.
-
+- tables, chairs
+- places for participants and researchers
+- Instructions to participants
+- Details, equipment for completing tasks
+- Data collection equipment: video, audio recording 
+- In-person / Remote
+- Zoom (e.g., COVID), online studies
 :::
 ::: {.column width="40%"}
 ![Yichen Wang's human-AI musical collaboration research study setup at School of Music.](img/08_yichen_study_setup.jpg){width="100%"}
@@ -407,15 +437,25 @@ We don't go deeply into research ethics in this course but the four issues above
 
 ## Experimental Variables
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 - **Independent variable:** the condition the researcher controls.
 - **Dependent variable:** the outcome we are measuring.
-- **Independent variables in HCI:** different interfaces, input devices, software, colours, computer type
-- **Dependent variables in HCI:** efficiency, accuracy, subjective satisfaction, ease of learning, physical/cognitive demands
+- **Independent vars in HCI:** different interfaces, input devices, software, colours, computer type
+- **Dependent vars in HCI:** efficiency, accuracy, subjective satisfaction, ease of learning, physical/cognitive demands
 
-### Independent variables shape your study plan
+### Variables shape your study
 
 - **Tasks:** completing specific tasks, or freely using a technology?
 - **Interfaces:** just using one interface, or comparing two (or more!) different styles
+
+:::
+::: {.column width="40%"}
+![Feels like we doing chemistry or biology... (Photo by CHUTTERSNAP on Unsplash)](img/chuttersnap-UmncJq4KPcA-unsplash.jpg)
+:::
+::::::::::::::
+
+
 
 ## Hypothesis Testing
 
@@ -427,8 +467,14 @@ E.g.:
 - Null and alternative hypotheses guide testing
 - Careful experimental design is essential
 
-## Experimental Design
+Hypotheses must be falsifiable and can only be dismissed! (A bit different from the more general "research questions").
 
+To dismiss or support a hypothesis we generally need significance testing and quantitative methods.
+
+## Experiment Design
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 Which participants test which conditions?
 
 1. Different-participant design: each participant sees one condition.
@@ -438,14 +484,21 @@ Which participants test which conditions?
 - **Balanced Ordering** is important to counter learning effects.
 - **Design choices** affects validity and reliability
 - **Data collection:** think back to week 4 lecture, but often includes task performance, completion time, errors, subjective satisfaction etc.
+:::
+::: {.column width="40%"}
+![Focus is on the experiment not the design!! (Photo by Girl with red hat on Unsplash)](img/girl-with-red-hat-BBZDOHhYU2s-unsplash.jpg){width=60%}
+:::
+::::::::::::::
 
 ## Table of Experimental Designs
 
+::: {.small-table}
 | Design | Advantages | Disadvantages |
 |---|---|---|
 | Different participants (between-participants design) | - No order effects | - Requires many participants<br>- Individual differences can affect results<br>- Random assignment helps minimize differences |
 | Same participants (within-participants design) | - Eliminates individual differences between conditions | - Requires counterbalancing<br>- Risk of order effects (e.g., learning or fatigue) |
 | Matched participants (pair-wise design) | - No order effects<br>- Reduces impact of individual differences | - Time-consuming to find matched pairs<br>- May miss other influential variables |
+:::
 
 ## In-the-Wild Studies
 
@@ -547,7 +600,7 @@ Is there any way to do evaluation _without_ users?
 7. Keep users in control
 8. Reduce short-term memory load
 
-## Analytics: What can you learn?
+## Analytics: Evaluation at Scale
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
@@ -577,14 +630,20 @@ Source: Kohavi et al. (2022), Cambridge University Press](img/08_abtest.jpg){wid
 
 ## Predictive Models
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 Estimate user performance without needing real users, using formulas to assess task efficiency — useful in early design stages or when testing with users is difficult.
 
 Fitts’ Law [@fitts1954information]:
 
-- predicts how long it takes to point at a target based on its size and distance, helping designers optimize button placement, size, and spacing on screens and devices.
-
-- wide applications in HCI, including evaluating input methods (e.g., touch, gaze, tilt), designing for mobile and VR, and simulating interactions for users with motor impairments.
-
+- predicts how long it takes to point at a target based on its size and distance
+- helps designers optimize button placement, size, and spacing on screens and devices.
+- applications: input methods (e.g., touch, gaze, tilt),  mobile and VR, simulating interactions for users with motor impairments
+:::
+::: {.column width="40%"}
+![Fitt's Law from [Sketchplanations](https://sketchplanations.com/fitts-law) (CC-BY 4.0)](img/sketchplanations-fitts-law.jpg)
+:::
+::::::::::::::
 
 ## Evaluation after deployment: adoption, use, and non-use
 

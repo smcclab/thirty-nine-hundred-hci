@@ -140,23 +140,12 @@ Circumstances (link)](#eca).
 
 ## Appeals {#appeals}
 
-From the date that your marks for any assessment item are released
-electronically you have a period of 10 working days in which to make an **informal
-appeal** of your mark to the course convenor.
+The structure of assessment appeals at ANU is [explained here](https://www.anu.edu.au/students/program-administration/assessments-exams/assessment-appeals).
 
-An **informal appeal** requires some explanation about why the original mark was
-not correct (e.g., the marker accidentally missed a section of your
-assignment).
-
-You should submit an informal appeal in a private message to the course convenor by email. Please include your student number (UID), a short statement
-of why you think your mark was not correct referring to the marking criteria
-for the assignment.
-
-If an informal appeal is denied by the course convenor, you may still make a
-formal appeal. This requires a convincing statement that your mark was
-incorrect given the stated marking criteria and assessment instructions. For
-the formal appeal procedure see the information
-[here](https://www.anu.edu.au/students/program-administration/assessments-exams/assessment-appeals).
+- From the date that your marks for any assessment item are released you have a period of 20 working days in which to make an **informal appeal** of your mark to the course convenor.
+- An **informal appeal** requires some explanation about why the original mark was not correct (e.g., the marker accidentally missed a section of your assignment).
+- You should submit an informal appeal in a private post to the course convenor on the course forum. Please include your student number (UID), a short statement of why you think your mark was not correct referring to the marking criteria for the assignment. Long appeals (e.g., >400 words) are likely to take longer to process.
+- If an informal appeal is denied by the course convenor, you may still make a formal appeal. This requires a convincing statement that your mark was incorrect given the stated marking criteria and assessment instructions. For the formal appeal procedure see the information [here](https://www.anu.edu.au/students/program-administration/assessments-exams/assessment-appeals).
 
 ## Supplementary assessment {#supplementary-assessment}
 
