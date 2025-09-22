@@ -1,5 +1,5 @@
 ---
-title: Devices
+title: Statistical Analysis
 author: Dr Charles Martin
 ---
 
