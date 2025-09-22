@@ -5,24 +5,31 @@ author: Dr Charles Martin
 
 <!-- ![tutorial image goes here, a nice indicative image in wide format, e.g. 1200x650](img/image-name.jpg) -->
 
-This tutorial will help you understand how to design a research project. You will consider how to find real-world problems, how to identify research gaps, and how to write a research question. This work directly relates to the final project.
-
-Writing research questions: <https://lennartnacke.com/how-to-choose-a-good-research-question/#research-questions-are-survival-beacons>
-
+This tutorial will help you understand how to design a research project. You will consider how to find real-world problems, how to identify research gaps, and how to write a research question. This work directly relates to the final project. In the pre-lab task you will analyse an existing evaluation study. In the other tasks you will design a new one collaboratively.
 
 ## Pre-Class Tasks
 
-The pre-class task(s) need to be _ultra clear_ so that students can complete them before the tutorial without assistance from staff.
+<!-- clones the evaluation activity on p546 in the text book, "In-depth Activity" end of chapter 14. -->
 
-Refer to the assessment page `00-pre-and-in-class-tasks.md` to see what students are expected to do. The task should involve reading, thinking, and/or doing with the outcome as:
+### Analyse an evaluation from the HCI literature
 
-- 100-200 word post on the course forum including
-- at least two references
-- possibly one image
+Choose an example of a evaluation study from either [CHI](https://dl.acm.org/conference/chi/proceedings) or [DIS](https://dl.acm.org/conference/dis/proceedings (use the ACM Digital Library to search for relevant papers, or browse through the proceedings of [these](https://dl.acm.org/conference/chi/proceedings) [conferences](https://dl.acm.org/conference/dis/proceedings)). Read through the study and answer the following questions:
 
-The task should be something that can be assessed so should include possibility for different levels of achievement (e.g., a really basic response or a detailed and outstanding response).
+1. Name of the study or system/app 
+2. When during the design the evaluation occurred
+3. How controlled was the study, what role did users have?
+4. Which methods were used?
+5. What kind of data was collected and how was it analysed.
+6. What was learned from the study?
+7. Did the evaluation focus on usability goals or user experience goals?
+8. Were there any notable issues?
 
-The task will be checked by the tutor at the start of the lab (by filtering by category in the course forum).
+### Post on the forum:
+
+1. An image of the paper's first page or of the system/app analysed.
+2. A clear citation to the paper you have analysed (in ACM format)
+3. The answers to the above questions
+4. Make sure you have studied [the lecture notes from week 8 (evaluation)](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html)
 
 ## Plan for the Class
 
@@ -37,34 +44,46 @@ You could include a schedule here for what will happen in the class. This will b
 
 ## In-Class Tasks
 
-The in class tasks should each have a separate heading at the `###` level. The task descriptions need to be clear enough to students to potentially complete on their own (if absent) and to tutors to run as a class. I suggest that some tasks involve individual work, and some involve collaborative work in groups of 4--6 students (e.g., tables in standard classrooms), and some involve whole class discussions (e.g., building a Miro board)
+### Task 1: Discuss the evaluation analyses
 
-The tasks should have a deliverable that tutors can sight at the end of the task to verify students have engaged with work. E.g., a document, an image, a sketch, a prototype, a program, a plan, a reference list, a contribution to the miro board etc.
+- In groups or as a class discuss your evaluation analyses.
+- Create a table with one question in each column and one paper in each row, summarise the answer in a few words for each question to fit.
 
-The 90-minute classes should have 2-4 required tasks with the regular expectation being 3 taking around 20 minutes each.
+Do any trends emerge from the table? What kinds of evaluations seem to be popular?
 
-It's a good idea to provide an Extra Task in case the regular tasks are quicker than expected or if a student is very fast through work.
+### Task 2: Research Questions
 
-### Task 1: Do Something
+Research questions have been called [survival beacons](https://lennartnacke.com/how-to-choose-a-good-research-question/#research-questions-are-survival-beacons) because they should guide all aspects of our research plans. You shouldn't start an evaluation process without a clear research question.
 
-Here's the task description. Task descriptions should have some references so that the class is research-led. We want to continually point students to CHI papers [@rogers-never-old:2014] etc so that they are reminded of the context of HCI research [@rogers-beyond-hci:2023, p.100; @Norman:2013].
+We will re-do the activity from the lecture in groups to develop RQs and set out a clear evaluation plan.
 
-### Task 2: do something else 
+Remember [the steps for writing a research question](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/four-steps-to-write-a-research-question):
 
-Task description
+1. Outline a broad area of interest
+2. Identify a problem that needs solving
+3. Justify solving this problem
+4. Write the question
 
-### Task 3: an even more interesting, and yet different, thing
+As a small group, [Spin the wheels](https://spinthewheel.io/wheels/6QtocP77prRkdHZ66s0hcz0xJmU9MA==) to **randomly find a broad area and a problem**.
 
-Task description
+Then, you will need to come up with a justification (no wheels for that...) and write the question. The RQ should include the broad area, the problem, and the justification. Remember that a research question starts with a question word (what, how, why, can, do, should) and ends with a question mark. It can just be one sentence.
 
-### Extra Tasks
+Iterate on your question until you feel it will help you plan an evaluation.
 
-Some other tasks
+**Tips:**
 
-- They
-- could
-- be a list
-- of increasingly impossible tasks
+- If your question isn't working or is too general, try a different question word to change the focus.
+- Check if your question will be answerable. Unsolveable questions are unhelpful as RQs.
+- Check if you question is obvious. Research is (by definition) an activity to generate non-obvious knowledge.
+
+### Task 3: Evaluation Plan
+
+Make an evaluation plan following this slide. Maybe split into two tasks...
+
+<https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/developing-an-evaluation-plan>
+
+### Task 4: something else?
+
 
 ## Resources (optional)
 
