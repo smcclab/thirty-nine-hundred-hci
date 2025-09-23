@@ -3,7 +3,7 @@ title: Research Design
 author: Dr Charles Martin
 ---
 
-<!-- ![tutorial image goes here, a nice indicative image in wide format, e.g. 1200x650](img/image-name.jpg) -->
+![The physical setup for a lab-based HCI study at ANU.](img/08_yichen_study_setup.jpg)
 
 This tutorial will guide you through the process of designing a research project. You will learn how to identify real-world problems, recognise research gaps, and frame a strong research question. These skills connect directly to your final project. 
 
@@ -45,7 +45,7 @@ Choose an example of a evaluation study from either [CHI](https://dl.acm.org/con
 
 ### Task 1: Discuss the evaluation analyses (20m)
 
-In this task, you will work in groups using a shared document provided by your tutor. The analyses you complete here will serve as referencees for the later tasks this week, helping you create research questions and plan the subsequent evaluations.
+In this task, you will work in groups using a shared document provided by your tutor. The analyses you complete here will serve as references for the later tasks this week, helping you create research questions and plan the subsequent evaluations.
 
 - You will complete one row of the table in the shared document, starting with the name of the paper you found in the pre-class task and then filling in each column with your answers.
 - Once you have entered your analysis, you will discuss your findings with peers in your group, highlighting any interesting insights.
@@ -102,9 +102,7 @@ You may use the format below as a guide (but you are not limited to it):
 - DIS proceeding: <https://dl.acm.org/conference/dis/proceedings>
 - How to choose a research question: <https://lennartnacke.com/how-to-choose-a-good-research-question/#research-questions-are-survival-beacons>
 - Four steps to write a research question: <https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/four-steps-to-write-a-research-question>
-- Spin the wheels: <https://spinthewheel.io/wheels/6QtocP77prRkdHZ66s0hcz0xJmU9MA==>
+- Spin the wheels for an HCI research project: <https://spinthewheel.io/wheels/6QtocP77prRkdHZ66s0hcz0xJmU9MA==>
 - Developing an evaluation plan: <https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/developing-an-evaluation-plan>
   
 ## References
-
-(reference list is added automatically but we need the heading to stay there)
