@@ -47,8 +47,8 @@ Choose an example of a evaluation study from either [CHI](https://dl.acm.org/con
 
 In this task, you will work in groups using a shared document provided by your tutor. The analyses you complete here will serve as referencees for the later tasks this week, helping you create research questions and plan the subsequent evaluations.
 
-- You will complete one row of the table in the shared document, starting with the name of the paper you found in the pre-class task and then filling in each column.
-- Once you have entered your analysis, you will discuss your findings with your peers, highlighting any interesting insights.
+- You will complete one row of the table in the shared document, starting with the name of the paper you found in the pre-class task and then filling in each column with your answers.
+- Once you have entered your analysis, you will discuss your findings with peers in your group, highlighting any interesting insights.
 
 ### Task 2: Develop Research Questions (25m)
 
@@ -77,7 +77,7 @@ Iterate on your question until you feel it will help you plan an evaluation.
 
 ### Task 3: Plan an Evaluation (25m)
 
-Create an evaluation plan based on [this slide](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/developing-an-evaluation-plan), focusing on the research questions you generated. Your tutor will let you know whether to write your plan in a shared document or on paper.
+Create an evaluation plan based on [this slide](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/developing-an-evaluation-plan), focusing on the research questions you created. Your tutor will let you know whether to write your plan in a shared document or on paper.
 
 The activity can be divided into two parts:
 
@@ -88,7 +88,7 @@ Work with your group to go through each aspect, using the lecture slide for guid
 
 ### Task 4: Share and Discuss evaluation plans (20m)
 
-In this task, you will share your evaluation plans with the whole class and receive comments and insights from others. Each group will present your plan by walking through the aspects from the lecture slide and showing how it connects to your research questions.
+In this task, you will share your evaluation plans with the whole class and receive comments and insights from others. As a group, you will present your plan by walking through the aspects from the lecture slide and showing how it connects to your research questions.
 
 You may use the format below as a guide (but you are not limited to it):
 
