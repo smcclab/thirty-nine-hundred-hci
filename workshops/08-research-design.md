@@ -45,7 +45,7 @@ Choose an example of a evaluation study from either [CHI](https://dl.acm.org/con
 
 ### Task 1: Discuss the evaluation analyses (20m)
 
-In this task, you will work in groups using a shared document provided by your tutor. The analyses you complete here will serve as a reference for the later tasks this week, helping you create a research question and plan the subsequent evaluation.
+In this task, you will work in groups using a shared document provided by your tutor. The analyses you complete here will serve as referencees for the later tasks this week, helping you create research questions and plan the subsequent evaluations.
 
 - You will complete one row of the table in the shared document, starting with the name of the paper you found in the pre-class task and then filling in each column.
 - Once you have entered your analysis, you will discuss your findings with your peers, highlighting any interesting insights.
