@@ -5,7 +5,9 @@ author: Dr Charles Martin
 
 <!-- ![tutorial image goes here, a nice indicative image in wide format, e.g. 1200x650](img/image-name.jpg) -->
 
-This tutorial will guide you through the process of designing a research project. You will learn how to identify real-world problems, recognise research gaps, and frame a strong research question. These skills connect directly to your final project. As a pre-class task, you will analyse an existing evaluation study. In the in-class tasks, you will discuss evaluation analyses, develop a new research question, and plan an evaluation collaboratively.
+This tutorial will guide you through the process of designing a research project. You will learn how to identify real-world problems, recognise research gaps, and frame a strong research question. These skills connect directly to your final project. 
+
+As a pre-class task, you will analyse an existing evaluation study. In the in-class tasks, you will collaboratively discuss evaluation analyses, develop research questions, and plan an evaluation, along with an overall reflection.
 
 ## Pre-Class Tasks
 
