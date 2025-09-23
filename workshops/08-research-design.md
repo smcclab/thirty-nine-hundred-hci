@@ -17,13 +17,12 @@ As a pre-class task, you will analyse an existing evaluation study. In the in-cl
 
 Choose an example of a evaluation study from either [CHI](https://dl.acm.org/conference/chi/proceedings) or [DIS](https://dl.acm.org/conference/dis/proceedings) (use [the ACM Digital Library](https://dl.acm.org/) to search for relevant papers, or browse through the proceedings). Read through the study and answer the following questions:
 
-1. Name of the study or system/app 
-2. When during the design the evaluation occurred
-3. How controlled was the study, what role did users have?
-4. Which methods were used?
-5. What kind of data was collected and how was it analysed.
-6. What was learned from the study?
-7. Did the evaluation focus on usability goals or user experience goals?
+1. Name of the study or system/app
+2. How controlled was the study?
+3. Which methods were used?
+4. What kind of data was collected?
+5. how was the data analysed?
+7. Did the evaluation focus on usability goals or user experience goals? (which ones)
 8. Were there any notable issues?
 
 ### Post on the forum:
