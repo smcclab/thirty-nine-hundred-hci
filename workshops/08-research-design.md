@@ -35,11 +35,11 @@ Choose an example of a evaluation study from either [CHI](https://dl.acm.org/con
 
 ## Plan for the Class
 
-1. Review the pre-class tasks together (10m)
-2. Task 1: Discuss the evaluation analyses in groups (20m)
-3. Task 2: Develop research questions in groups (20m)
-4. Task 3: Plan an evaluation for the research in groups (20m)
-5. Task 4: Share and discuss the plans together (20m)
+0. Review the pre-class tasks together (10m)
+1. Discuss the evaluation analyses in groups (20m)
+2. Develop research questions in groups (20m)
+3. Plan an evaluation for the research in groups (20m)
+4. Share and discuss the plans together (20m)
 
 ## In-Class Tasks
 
