@@ -15,7 +15,7 @@ As a pre-class task, you will analyse an existing evaluation study. In the in-cl
 
 ### Analyse an evaluation from the HCI literature
 
-Choose an example of a evaluation study from either [CHI](https://dl.acm.org/conference/chi/proceedings) or [DIS](https://dl.acm.org/conference/dis/proceedings) (use the [ACM Digital Library](https://dl.acm.org/) to search for relevant papers, or browse through the proceedings). Read through the study and answer the following questions:
+Choose an example of a evaluation study from either [CHI](https://dl.acm.org/conference/chi/proceedings) or [DIS](https://dl.acm.org/conference/dis/proceedings) (use [the ACM Digital Library](https://dl.acm.org/) to search for relevant papers, or browse through the proceedings). Read through the study and answer the following questions:
 
 1. Name of the study or system/app 
 2. When during the design the evaluation occurred
