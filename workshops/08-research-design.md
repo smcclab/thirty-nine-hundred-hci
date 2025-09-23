@@ -50,7 +50,7 @@ In this task, you will work in groups using a shared document provided by your t
 - You will complete one row of the table in the shared document, starting with the name of the paper you found in the pre-class task and then filling in each column with your answers.
 - Once you have entered your analysis, you will discuss your findings with peers in your group, highlighting any interesting insights.
 
-### Task 2: Develop Research Questions (25m)
+### Task 2: Develop Research Questions (20m)
 
 Research questions have been called [survival beacons](https://lennartnacke.com/how-to-choose-a-good-research-question/#research-questions-are-survival-beacons) because they should guide all aspects of our research plans. You shouldn't start an evaluation process without a clear research question.
 
@@ -75,7 +75,7 @@ Iterate on your question until you feel it will help you plan an evaluation.
 - Check if your question will be answerable. Unsolveable questions are unhelpful as RQs.
 - Check if you question is obvious. Research is (by definition) an activity to generate non-obvious knowledge.
 
-### Task 3: Plan an Evaluation (25m)
+### Task 3: Plan an Evaluation (20m)
 
 Create an evaluation plan based on [this slide](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/developing-an-evaluation-plan), focusing on the research questions you created. Your tutor will let you know whether to write your plan in a shared document or on paper.
 
