@@ -81,8 +81,8 @@ Create an evaluation plan based on [this slide](https://smcclab.github.io/thirty
 
 The activity can be divided into two parts:
 
-a. Define the overall evaluation goals, decide on suitable participants, select appropriate methods and settings, and identify the data you will collect and analyse.
-b. Refine your plans further, including ethical considerations and consent, strategies for capturing and storing data, and the expected outputs of the evaluation process. 
+- Define the overall evaluation goals, decide on suitable participants, select appropriate methods and settings, and identify the data you will collect and analyse.
+- Refine your plans further, including ethical considerations and consent, strategies for capturing and storing data, and the expected outputs of the evaluation process. 
 
 Work with your group to go through each aspect, using the lecture slide for guidance. Your goal is to create an evaluation plan that clearly addresses your research questions.
 
