@@ -5,7 +5,7 @@ author: Dr Charles Martin
 
 <!-- ![tutorial image goes here, a nice indicative image in wide format, e.g. 1200x650](img/image-name.jpg) -->
 
-This tutorial will help you understand how to design a research project. You will consider how to find real-world problems, how to identify research gaps, and how to write a research question. This work directly relates to the final project. In the pre-lab task you will analyse an existing evaluation study. In the other tasks you will design a new one collaboratively.
+This tutorial will guide you through the process of designing a research project. You will learn how to identify real-world problems, recognise research gaps, and frame a strong research question. These skills connect directly to your final project. As a pre-class task, you will analyse an existing evaluation study. In the in-class tasks, you will discuss evaluation analyses, develop a new research question, and plan an evaluation collaboratively.
 
 ## Pre-Class Tasks
 
@@ -13,7 +13,7 @@ This tutorial will help you understand how to design a research project. You wil
 
 ### Analyse an evaluation from the HCI literature
 
-Choose an example of a evaluation study from either [CHI](https://dl.acm.org/conference/chi/proceedings) or [DIS](https://dl.acm.org/conference/dis/proceedings (use the ACM Digital Library to search for relevant papers, or browse through the proceedings of [these](https://dl.acm.org/conference/chi/proceedings) [conferences](https://dl.acm.org/conference/dis/proceedings)). Read through the study and answer the following questions:
+Choose an example of a evaluation study from either [CHI](https://dl.acm.org/conference/chi/proceedings) or [DIS](https://dl.acm.org/conference/dis/proceedings) (use the ACM Digital Library to search for relevant papers, or browse through the proceedings). Read through the study and answer the following questions:
 
 1. Name of the study or system/app 
 2. When during the design the evaluation occurred
@@ -33,25 +33,22 @@ Choose an example of a evaluation study from either [CHI](https://dl.acm.org/con
 
 ## Plan for the Class
 
-You could include a schedule here for what will happen in the class. This will benefit the tutor as they can keep on track. Each required in-class task should have a different point in a numbered list.
-
-1. look at pre-class tasks (20m)
-2. Task 1: do something (30m)
-3. Task 2: do something else (20m)
-4. Task 3: an even more interesting, and yet different, thing (20m)
-5. Extra Tasks (if time)
-6. Individual consultation time (30m drop-in following tutorial)
+1. Review the pre-class tasks together (10m)
+2. Task 1: Discuss the evaluation analyses in groups (20m)
+3. Task 2: Develop research questions in groups (20m)
+4. Task 3: Plan an evaluation for the research in groups (20m)
+5. Task 4: Share and discuss the plans together (20m)
 
 ## In-Class Tasks
 
-### Task 1: Discuss the evaluation analyses
+### Task 1: Discuss the evaluation analyses (20m)
 
-- In groups or as a class discuss your evaluation analyses.
-- Create a table with one question in each column and one paper in each row, summarise the answer in a few words for each question to fit.
+In this task, you will work in groups using a shared document provided by your tutor. The analyses you complete here will serve as a reference for the later tasks this week, helping you create a research question and plan the subsequent evaluation.
 
-Do any trends emerge from the table? What kinds of evaluations seem to be popular?
+- You will complete one row of the table in the shared document, starting with the name of the paper you found in the pre-class task and then filling in each column.
+- Once you have entered your analysis, you will discuss your findings with your peers, highlighting any interesting insights.
 
-### Task 2: Research Questions
+### Task 2: Develop Research Questions (25m)
 
 Research questions have been called [survival beacons](https://lennartnacke.com/how-to-choose-a-good-research-question/#research-questions-are-survival-beacons) because they should guide all aspects of our research plans. You shouldn't start an evaluation process without a clear research question.
 
@@ -76,19 +73,36 @@ Iterate on your question until you feel it will help you plan an evaluation.
 - Check if your question will be answerable. Unsolveable questions are unhelpful as RQs.
 - Check if you question is obvious. Research is (by definition) an activity to generate non-obvious knowledge.
 
-### Task 3: Evaluation Plan
+### Task 3: Plan an Evaluation (25m)
 
-Make an evaluation plan following this slide. Maybe split into two tasks...
+Create an evaluation plan based on [this slide](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/developing-an-evaluation-plan), focusing on the research questions you generated. Your tutor will let you know whether to write your plan in a shared document or on paper.
 
-<https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/developing-an-evaluation-plan>
+The activity can be divided into two parts:
 
-### Task 4: something else?
+a. Define the overall evaluation goals, decide on suitable participants, select appropriate methods and settings, and identify the data you will collect and analyse.
+b. Refine your plans further, including ethical considerations and consent, strategies for capturing and storing data, and the expected outputs of the evaluation process. 
 
+Work with your group to go through each aspect, using the lecture slide for guidance. Your goal is to create an evaluation plan that clearly addresses your research questions.
 
-## Resources (optional)
+### Task 4: Share and Discuss evaluation plans (20m)
 
-You can include a section with links to external resources that may be necessary but these can also be placed in-line with the tasks.
+In this task, you will share your evaluation plans with the whole class and receive comments and insights from others. Each group will present your plan by walking through the aspects from the lecture slide and showing how it connects to your research questions.
 
+You may use the format below as a guide (but you are not limited to it):
+
+- First, present your research questions, outlining them with the four steps.
+- Next, explain your evaluation plan and show how it links to your questions.
+- Finally, invite comments, questions, or feedback from your peers and tutor.
+
+## Resources
+
+- CHI proceeding: <https://dl.acm.org/conference/chi/proceedings>
+- DIS proceeding: <https://dl.acm.org/conference/dis/proceedings>
+- How to choose a research question: <https://lennartnacke.com/how-to-choose-a-good-research-question/#research-questions-are-survival-beacons>
+- Four steps to write a research question: <https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/four-steps-to-write-a-research-question>
+- Spin the wheels: <https://spinthewheel.io/wheels/6QtocP77prRkdHZ66s0hcz0xJmU9MA==>
+- Developing an evaluation plan: <https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/developing-an-evaluation-plan>
+  
 ## References
 
 (reference list is added automatically but we need the heading to stay there)
