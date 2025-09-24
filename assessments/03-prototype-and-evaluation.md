@@ -25,7 +25,7 @@ You must design a prototype system in response to a real-world problem. You will
 To address this challenge, you will need to develop a specific **research question** that incorporates your area of interaction, a problem, and a justification. You will need to design a **testable prototype**, and create an **evaluation plan**. You will need to run an **evaluation** of your prototype with 3--5 classmates, **analyse data**, and **articulate findings** that connect to your research question.
 
 Your work will be submitted as a portfolio including your prototype materials, research data, analysis, references, and a presentation.
-The presentation should cover the research question, design rationale, prototype demonstration, evaluation methodology, and results. 
+The presentation should cover the research question, design rationale, prototype demonstration, evaluation methodology, and results in the following sections:
 
 1. **Research Question, Plan, and Conclusions**: explain the interface you are studying and why you have chosen it, your study plan including data gathering strategies, analysis framework(s), and justification from HCI academic research, and summarise the overall conclusions from your data analysis.
 
@@ -34,6 +34,10 @@ The presentation should cover the research question, design rationale, prototype
 3. **Research Data, Analysis and Findings**: present analysis of your data and your findings from this data, include excerpts from data, plots, tables, or other presentation approaches to help articulate your findings. **NB: in this project, you can choose to collect either qual, quant, or both types of data**.
 
 4. **COMP6390 Only---Positionality Statement**: critically reflect on your presence and influence within the technology design process in a [statement of positionality](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/06-reflexive-thematic-analysis.html#/reflexivity). This statement must reflect on your experiences and background and how this manifests in the design and research process. This section is required for postgraduate students to meet Learning Outcome 5 in COMP6390. Undergraduate students **should not** complete this section.
+
+You will also include a written version of your presentation with the same headings. The written document may be a transcript of your presentation or may be slightly different text.
+
+**Note:** your presentation video is the primary document for marking purposes.
 
 ### Presentation Format and Style
 
