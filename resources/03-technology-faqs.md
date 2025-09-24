@@ -63,3 +63,6 @@ Some example references in Markdown format are as follows:
 7. Wikipedia. 2022. J M W Turner Article. Retrieved from: <https://en.wikipedia.org/wiki/J._M._W._Turner>
 ```
 
+## General writing style {#writing-style}
+
+It is appropriate to use first-person pronouns in the assignments for this course. We follow this resource to help understand the pronouns to use: <https://apastyle.apa.org/style-grammar-guidelines/grammar/first-person-pronouns>

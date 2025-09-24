@@ -3,6 +3,8 @@ title: Prototype Design and Research Project
 author: Dr Charles Martin
 ---
 
+![Using non-standard interactions to enhance everyday sustainable living.](img/2020-ar-interaction.jpg)
+
 ## Outline {#outline}
 
 - **Due date**: 2025-10-27 23:59 AEST
@@ -14,9 +16,9 @@ author: Dr Charles Martin
 ## Description {#description}
 
 The final project involves a complete design and evaluation process for a prototype interactive system. 
-You must design a prototype system in response to a real-world problem. You will evaluate this system and report on the results using HCI research methods. Your design and evaluation challenge is as follows
+You must design a prototype system in response to a real-world problem. You will evaluate this system and report on the results using HCI research methods. Your design and evaluation challenge is as follows:
 
-> **sustainable living through technology**: You woke up this morning, checked your email, and found that you have a new job---ANU Student Lead for Sustainable Living! Your challenge is to help university students adopt sustainable behaviours in their everyday lives guided by the [UN Sustainable Development Goals (SDG)](https://sdgs.un.org/goals) which call for urgent action on climate change, responsible consumption, and sustainable communities. You will need to choose a focus (e.g., energy use, waste reduction, transportation, consumption) and prototype and evaluate an interface to make sustainable living more accessible, engaging or effective. Your system should involve a level of non-standard interaction[^nonstandardinteraction], either through unusual use of standard computer IO hardware, or a novel interface. 
+> **Sustainable living through technology**: You woke up this morning, checked your email, and found that you have a new job---_ANU Student Lead for Sustainable Living_! Your challenge is to help university students adopt sustainable behaviours in their everyday lives guided by the [UN Sustainable Development Goals (SDG)](https://sdgs.un.org/goals) which call for urgent action on climate change, responsible consumption, and sustainable communities. You will need to _choose a focus_ (e.g., energy use, waste reduction, transportation, consumption), _prototype_ and _evaluate_ an interface to make sustainable living more accessible, engaging or effective. Your system should involve a level of non-standard interaction[^nonstandardinteraction], either through unusual use of standard computer IO hardware, or a novel interface. 
 
 [^nonstandardinteraction]: Non-standard interaction is a bit difficult to define but should be something that goes beyond a standard web-application operated only by keyboard, mouse, or touchscreen. Your prototype can involve these standard technologies, it should also involve interaction beyond them in some way.
 
@@ -25,36 +27,84 @@ To address this challenge, you will need to develop a specific **research questi
 Your work will be submitted as a portfolio including your prototype materials, research data, analysis, references, and a presentation.
 The presentation should cover the research question, design rationale, prototype demonstration, evaluation methodology, and results. 
 
-Postgraduate students have an addition requirement to reflect critically on your presence within the design and evaluation process.
+1. **Research Question, Plan, and Conclusions**: explain the interface you are studying and why you have chosen it, your study plan including data gathering strategies, analysis framework(s), and justification from HCI academic research, and summarise the overall conclusions from your data analysis.
 
+2. **Prototype Design and Features**: explain your prototype design and features, including visual documentation and demonstration of how it can be tested. Explain how it meets the needs of users in this context of use.
 
+3. **Research Data, Analysis and Findings**: present analysis of your data and your findings from this data, include excerpts from data, plots, tables, or other presentation approaches to help articulate your findings. **NB: in this project, you can choose to collect either qual, quant, or both types of data**.
 
+4. **COMP6390 Only---Positionality Statement**: critically reflect on your presence and influence within the technology design process in a [statement of positionality](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/06-reflexive-thematic-analysis.html#/reflexivity). This statement must reflect on your experiences and background and how this manifests in the design and research process. This section is required for postgraduate students to meet Learning Outcome 5 in COMP6390. Undergraduate students **should not** complete this section.
 
-<!-- 
-Something like:
-- take an existing product or system that helps people to complete a task
-- create a prototype that uses a different interface to solve the same problem.
-- evaluate your prototype with 3--5 other students from the class.
- -->
+### Presentation Format and Style
+
+You must record a 5-minute presentation that articulates your work in the format of the above sections. Your presentation must:
+
+- be clear and concise covering the section headings above
+- audio must be clear and understandable and **spoken by you**
+- you must include **video of your face** while presenting in the presentation. your face must be clear and identifiable in the video
+- must include at least 5 but no more than 10 slides
+- title slides, personal introductions, tables of contents, reference slides are not required (waste of time!)
+
+The easiest way to create a five-minute presentation would be to use Microsoft Powerpoint, and record the presentation using the built in recording tool. Instructions for [recording the presentatin are here (link)](https://support.microsoft.com/en-au/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33).
+
+**Important:** Note that you **must not** use generative AI or text-to-speech software to create or record your presentation. It must be you presenting your research and you must be identifiable in the video recording. 
+
+Submissions that do not clearly meet these requirements may be aligned with the "N" standard in one or more rubric criteria and may be required to complete a supplementary presentation before grades are finalised.
 
 ## Specification {#specification}
 
-TBA.
+- include documentation of a testable prototype, research question, evaluation plan, data collection, data analysis, and articulation of findings
+- include documentation in `project-documentation.md` which follows the provided headings (**N.B.:** this text can be a trascript of your spoken presentation with references and images)
+  - include at least two references to external sources in ACM format
+  - be written in markdown format meeting our standards
+  - be a maximum of 1800 words + 10% acceptable buffer (i.e., no more than 1980 words)
+- include a **video recording** of a presentation which follows the provided headings: `project-presentation.mp4`
+  - presentation video must be in `.mp4` format using h.264 or h.265 video encoding
+  - presentation video must be no larger than 1920x1080 pixels in resolution
+  - must be a maximum of 5 minutes (300 seconds) + 10% acceptable buffer (i.e., no more than 330 seconds).
+- must be uploaded to _your fork_ of the [`comp3900-2025-research-project`](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-research-project) repository on Gitlab by the due date
 
 ## Submission Process {#submission-process}
 
-TBA.
+1. Fork the template repository.
+2. Follow appropriate prototyping, data gathering and analysis processes to address the research challenge.
+3. Upload data and documentation as well as other relevant materials in _your fork_ of the template repository.
+4. Write your project documentation following the template in the repository.
+5. record and upload your video as `project-presentation.mp4`
+5. Don't forget to include at least two references to external sources in ACM format in your documentation.
 
 ## Notes {#notes}
 
-TBA.
+Here's how to get started with the work in this assignment:
+
+1. Choose an **(one)** AI-integrated interface. This could be an app, a website, software on a computer or built into a hardware device. It will need to be something that you can evaluate with your classmates (so they should know what it is). You will need to explain **why** you have chosen this interface, and how makes sense to study it in terms of the research question.
+
+2. Create a study plan. Use your [research skills](https://scholar.google.com) to find examples of studies into human-AI interfaces (e.g., at CHI) and use them to help plan your study. Make sure your study plan is realistic.
+
+3. Find participants -- **they must be current COMP3900/6390 students**. Attend all classes and find 3--5 people in your tutorial who will participate in each others' studies. Don't leave this until the last minute!
+
+4. Collect data with your participants. You could do this during a drop-in session. You will need to participate in other people's studies as well ask them to participate in yours. (don't make up the data).
+
+5. Analyse your data. Use the quantitative and qualitative analysis techniques covered in classes.
+
+6. Summaries your findings. Your overall conclusions should be supported by data and analysis.
+
+7. Write up your project in the correct format in your fork of the gitlab repository. Make sure you are using correct markdown syntax and have included all data and analysis files in your repository.
+
+8. Acknowledge your research participants by listing them in your _acknowledgements_ section.
+
+
+Here's some general advice:
 
 - Don't forget to ask for help or advice on the course forum: [Edstem discussions](https://edstem.org/au/courses/24905/discussion)
+- Generative AI is not banned in this course, but should not be used to present your presentation (i.e., the voice and video in the presentation must be you). Submitted assignments are expected to be primarily your own work. Any use of generative AI must be explained in your _Acknowledgements_ section including the scope to which it is applied. Use of generative AI without appropriate explanation and referencing comes under the _N_ category in the marking rubric.
+- You may use generative AI to help with aspects of data analysis (see lectures!) but you are responsible for the output and whether findings are justified or not, we may re-run analyses to check your data.
 
 ## Marking Rubric {#rubric}
 
-- Sophistication of study plan and summary of conclusions (10 marks)
-- Sophistication of quantitative analysis and articulation of findings (10 marks)
-- Sophistication of qualitative analysis and articulation of findings (10 marks)
+- Sophistication and clarity of the design research plan in terms of HCI design and research methods. (**UG:** 10 marks, **PG:** 5 marks)
+- Sophistication as a prototype of a new design idea. (10 marks)
+- Sophistication of data collection, analysis and articulation of findings. (20 marks)
+- **PG Only:** Sophistication of reflexive positionality statement and how this manifests in the design process. (**PG:** 5 marks)
 
 (more detail TBA)
