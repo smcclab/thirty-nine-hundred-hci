@@ -51,12 +51,14 @@ def generate_index(info: dict, base_path: Path) -> str:
     subdirectories = [item for item in base_path.iterdir() if item.is_dir()]
     for dir in sorted(subdirectories):
         dir_name = dir.name
+        print(f"Processing directory: {dir_name}")
         html_files = list(dir.rglob('*.html'))
         html += f'    <h4>{dir_name}</h4>\n'
 
         # html files contained within dir are the list items.
         html += f'    <ol>\n'
         for html_path in sorted(html_files):
+            print(f"  Processing HTML file: {html_path}")
             html += html_file_li_string(html_path, base_path)
         html += f'    </ol>\n'
 
