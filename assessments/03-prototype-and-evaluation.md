@@ -107,6 +107,18 @@ Here's some general advice:
 - Generative AI is not banned in this course, but should not be used to present your presentation (i.e., the voice and video in the presentation must be you). Submitted assignments are expected to be primarily your own work. Any use of generative AI must be explained in your _Acknowledgements_ section including the scope to which it is applied. Use of generative AI without appropriate explanation and referencing comes under the _N_ category in the marking rubric.
 - You may use generative AI to help with aspects of data analysis (see lectures!) but you are responsible for the output and whether findings are justified or not, we may re-run analyses to check your data.
 
+### Congratulations! You finished the course! ⭐️⭐️⭐️
+
+Once you've uploaded your final presentation video, all materials, and have green ticks on the CI jobs for your GitLab repo you have completed all the assessment tasks for COMP3900/6390!
+
+If you are curious about more learning and research in HCI here's a few options:
+
+- Look at the coursework options for our Human Centred and Creative Computing specialisations ([UG](https://programsandcourses.anu.edu.au/specialisation/hccc-spec) and [PG](https://programsandcourses.anu.edu.au/specialisation/hccm-spec)), [major](https://programsandcourses.anu.edu.au/major/hccc-maj), or [minor](https://programsandcourses.anu.edu.au/minor/hccc-min). The classes offered within these change regularly so keep an eye on Programs and Courses to see what classes and topics are scheduled.
+- Do an HCI-related honours/master [project](https://comp.anu.edu.au/study/projects/) at ANU
+- Opportunities for publishing HCI research would be late-breaking work tracks at [OzCHI](https://www.ozchi.org/2025/papers-lbw.php), CHI, or DIS, student design competitions, or graduate student symposiums at these and other conferences.
+
+Whether you wish to learn more about HCI or are leaving us here, congratulations on completing your final project for this class!
+
 ## Marking Rubric {#rubric}
 
 - Sophistication and clarity of the design research plan in terms of HCI design and research methods. (**UG:** 10 marks, **PG:** 5 marks)
