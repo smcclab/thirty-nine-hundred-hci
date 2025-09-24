@@ -117,7 +117,7 @@ If you are curious about more learning and research in HCI here's a few options:
 - Do an HCI-related honours/master [project](https://comp.anu.edu.au/study/projects/) at ANU
 - Opportunities for publishing HCI research would be late-breaking work tracks at [OzCHI](https://www.ozchi.org/2025/papers-lbw.php), CHI, or DIS, student design competitions, or graduate student symposiums at these and other conferences.
 
-Whether you wish to learn more about HCI or are leaving us here, congratulations on completing your final project for this class!
+Whether you wish to learn more about HCI or are leaving us here, congratulations on completing your final project for this class! Thanks for coming on this journey with us!
 
 ## Marking Rubric {#rubric}
 
