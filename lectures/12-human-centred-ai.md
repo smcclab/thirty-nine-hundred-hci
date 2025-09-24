@@ -7,6 +7,12 @@ author: Dr Charles Martin
 
 ## Plan for the class
 
+## Lecture Ideation
+
+Go through: Shneiderman, Ben. Human-Centered AI, Oxford University Press, Incorporated, 2022. ProQuest Ebook Central, <https://ebookcentral.proquest.com/lib/anu/detail.action?docID=6838500>.
+
+
+
 ## Questions: Who has a question?
 
 :::::::::::::: {.columns}

@@ -7,6 +7,14 @@ author: Dr Charles Martin
 
 ## Plan for the class
 
+## Lecture Ideation
+
+- Go through []"Composing Interactions" by Marije Baalman](https://composinginteractions.art/#contents)?
+- Relate to ANU/UiO Research on Expressive Interaction
+- CHI resources on expression and creative interaction
+- Creativity and Cognition
+- NIME etc.
+
 ## Questions: Who has a question?
 
 :::::::::::::: {.columns}
