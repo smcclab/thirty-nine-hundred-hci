@@ -49,7 +49,7 @@ You must record a 5-minute presentation that articulates your work in the format
 - must include at least 5 but no more than 10 slides
 - title slides, personal introductions, tables of contents, reference slides are not required (waste of time!)
 
-The easiest way to create a five-minute presentation would be to use Microsoft Powerpoint, and record the presentation using the built in recording tool. Instructions for [recording the presentatin are here (link)](https://support.microsoft.com/en-au/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33).
+The easiest way to create a five-minute presentation would be to use Microsoft Powerpoint, and record the presentation using the built in recording tool. Instructions for [recording the presentation are here (link)](https://support.microsoft.com/en-au/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33).
 
 **Important:** Note that you **must not** use generative AI or text-to-speech software to create or record your presentation. It must be you presenting your research and you must be identifiable in the video recording. 
 
