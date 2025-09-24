@@ -27,7 +27,7 @@ To address this challenge, you will need to develop a specific **research questi
 Your work will be submitted as a portfolio including your prototype materials, research data, analysis, references, and a presentation.
 The presentation should cover the research question, design rationale, prototype demonstration, evaluation methodology, and results in the following sections:
 
-1. **Research Question, Plan, and Conclusions**: explain the interface you are studying and why you have chosen it, your study plan including data gathering strategies, analysis framework(s), and justification from HCI academic research, and summarise the overall conclusions from your data analysis.
+1. **Research Question, Plan, and Conclusions**: explain why you chose the system you have designed, your study plan including data gathering strategies, analysis framework(s), and justification from HCI academic research, and summarise the overall conclusions from your data analysis.
 
 2. **Prototype Design and Features**: explain your prototype design and features, including visual documentation and demonstration of how it can be tested. Explain how it meets the needs of users in this context of use.
 
@@ -49,7 +49,7 @@ You must record a 5-minute presentation that articulates your work in the format
 - must include at least 5 but no more than 10 slides
 - title slides, personal introductions, tables of contents, reference slides are not required (waste of time!)
 
-The easiest way to create a five-minute presentation would be to use Microsoft Powerpoint, and record the presentation using the built in recording tool. Instructions for [recording the presentation are here (link)](https://support.microsoft.com/en-au/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33).
+The easiest way to create a five-minute presentation would be to use Microsoft Powerpoint, and record the presentation using the built in recording tool. Instructions for [recording the presentation are here (link)](https://support.microsoft.com/en-au/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33). Microsoft 365 applications [are provided to all ANU students](https://services.anu.edu.au/information-technology/software-systems/microsoft-office-365).
 
 **Important:** Note that you **must not** use generative AI or text-to-speech software to create or record your presentation. It must be you presenting your research and you must be identifiable in the video recording. 
 
@@ -81,22 +81,25 @@ Submissions that do not clearly meet these requirements may be aligned with the 
 
 Here's how to get started with the work in this assignment:
 
-1. Choose an **(one)** AI-integrated interface. This could be an app, a website, software on a computer or built into a hardware device. It will need to be something that you can evaluate with your classmates (so they should know what it is). You will need to explain **why** you have chosen this interface, and how makes sense to study it in terms of the research question.
+1. Develop a research question for the design and evaluation challenge using the [RQ framework](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/research-questions)
 
-2. Create a study plan. Use your [research skills](https://scholar.google.com) to find examples of studies into human-AI interfaces (e.g., at CHI) and use them to help plan your study. Make sure your study plan is realistic.
+2. Ideate and design a _testable_ prototype as a solution to the design and evaluation challenge. Use your [research skills](https://scholar.google.com) to find examples of related systems (e.g., at CHI) and use them to inform your process.
+
+2. Create an [evaluation plan](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/developing-an-evaluation-plan).  Make sure your study plan is realistic.
 
 3. Find participants -- **they must be current COMP3900/6390 students**. Attend all classes and find 3--5 people in your tutorial who will participate in each others' studies. Don't leave this until the last minute!
 
 4. Collect data with your participants. You could do this during a drop-in session. You will need to participate in other people's studies as well ask them to participate in yours. (don't make up the data).
 
-5. Analyse your data. Use the quantitative and qualitative analysis techniques covered in classes.
+5. Analyse your data. Use the analysis techniques covered in classes. Remember that you do not need to collect both quantitative and qualitative data in this assessment and can choose what data and analyses to perform depending on your design choices and interests.
 
-6. Summaries your findings. Your overall conclusions should be supported by data and analysis.
+6. Summarise your findings. Your overall conclusions should be supported by data and analysis.
 
 7. Write up your project in the correct format in your fork of the gitlab repository. Make sure you are using correct markdown syntax and have included all data and analysis files in your repository.
 
-8. Acknowledge your research participants by listing them in your _acknowledgements_ section.
+8. Create and record a presentation following the instructions above. Ensure that the presentation video is in `.mp4` format, and is less than 330 seconds. Make sure that you record your own voice and include video of your face in the presentation video. You can do this using Microsoft Powerpoint (ANU-provided software). Upload your recorded presentation as `project-presentation.mp4` in your fork of the project repository.
 
+8. Acknowledge your research participants by listing them in your _Acknowledgements_ section.
 
 Here's some general advice:
 
