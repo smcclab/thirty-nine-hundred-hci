@@ -149,7 +149,7 @@ $(ASSESSMENTS_OUT)/%.pdf: $(ASSESSMENTS_DIR)/%.md
 
 # Generate assessments
 .PHONY: assessments
-assessments: $(ASSESSMENTS_OUT) $(ASSESSMENTS_HTMLS) $(ASSESSMENTS_PDFS) index
+assessments: $(ASSESSMENTS_OUT) $(ASSESSMENTS_HTMLS) $(ASSESSMENTS_PDFS)
 
 # Find all markdown workshops
 WORKSHOPS_MDS = $(wildcard $(WORKSHOPS_DIR)/*.md)
@@ -187,9 +187,6 @@ beamer: $(LECTURES_OUT) $(BEAMER_PDFS)
 
 $(LECTURES_OUT)/%.pdf: $(LECTURES_DIR)/%.md
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(BEAMER_OPTS) $< -o $@
-
-
-
 
 # Index
 
