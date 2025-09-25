@@ -97,12 +97,18 @@ REVEAL_OPTS = -t revealjs \
 							--css charles_reveal_dark.css
 
 PDF_OPTS = --metadata date="$(date '+%Y-%m-%d')" \
-						--output=$PORTFOLIO_PDF \
-						-V 'geometry: left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm' \
+					 --output=$PORTFOLIO_PDF \
+					 -V 'geometry: left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm' \
 		       -V 'papersize: a4' \
-					 -V 'pagestyle:headings' \
-					 -V 'fontfamily:libertine,sourcecodepro' \
 					 -V 'fontsize:11pt' \
+					 -V 'pagestyle:headings' \
+					 --pdf-engine=lualatex \
+					 -V mainfont="Linux Libertine O" \
+					 -V sansfont="Noto Sans" \
+					 -V mainfontfallback="NotoColorEmoji:mode=harf" \
+
+# 					 -V 'fontfamily:libertine,sourcecodepro' \
+
 
 # --include-in-header css/slides.css \
 # -V theme=night
@@ -113,7 +119,7 @@ BEAMER_OPTS = -t beamer \
 							-V colortheme=owl \
 							--pdf-engine=lualatex \
 							-V mainfont="Noto Sans" \
-							-V mainfontfallback="NotoColorEmoji:mode=harf"
+							-V mainfontfallback="NotoColorEmoji:mode=harf" \
 
 # --pdf-engine=xelatex
 # options for the pandoc HTML writer
