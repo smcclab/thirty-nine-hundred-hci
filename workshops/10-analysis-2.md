@@ -9,6 +9,15 @@ This tutorial is focussed on how to analyse the information found through an eva
 
 <!-- link this to previous one. -->
 
+- What is a finding?
+- Further guided examples on how to create themes
+  - need videos, more guided 
+- Going from numbers to a finding
+- Synthesising (triangulating) insights from different aspects of evaluation to develop a finding.
+
+<!-- Anneysha will contribute to some of this! -->
+
+
 ## Pre-Class Tasks
 
 The pre-class task(s) need to be _ultra clear_ so that students can complete them before the tutorial without assistance from staff.

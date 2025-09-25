@@ -58,7 +58,7 @@ Submissions that do not clearly meet these requirements may be aligned with the 
 ## Specification {#specification}
 
 - include documentation of a testable prototype, research question, evaluation plan, data collection, data analysis, and articulation of findings
-- include documentation in `project-documentation.md` which follows the provided headings (**N.B.:** this text can be a trascript of your spoken presentation with references and images)
+- include documentation in `project-documentation.md` which follows the provided headings (**N.B.:** this text can be a transcript of your spoken presentation with references and images)
   - include at least two references to external sources in ACM format
   - be written in markdown format meeting our standards
   - be a maximum of 1800 words + 10% acceptable buffer (i.e., no more than 1980 words)
@@ -97,13 +97,13 @@ Here's how to get started with the work in this assignment:
 
 7. Write up your project in the correct format in your fork of the gitlab repository. Make sure you are using correct markdown syntax and have included all data and analysis files in your repository.
 
-8. Create and record a presentation following the instructions above. Ensure that the presentation video is in `.mp4` format, and is less than 330 seconds. Make sure that you record your own voice and include video of your face in the presentation video. You can do this using Microsoft Powerpoint (ANU-provided software). Upload your recorded presentation as `project-presentation.mp4` in your fork of the project repository.
+8. Create and record a presentation following the instructions above. Ensure that the presentation video is in `.mp4` format, and is less than 330 seconds. Make sure that you record your own voice and include video of your face in the presentation video. You can [do this using Microsoft Powerpoint](https://support.microsoft.com/en-au/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33) (ANU-provided software). Upload your recorded presentation as `project-presentation.mp4` in your fork of the project repository.
 
 8. Acknowledge your research participants by listing them in your _Acknowledgements_ section.
 
 Here's some general advice:
 
-- Don't forget to ask for help or advice on the course forum: [Edstem discussions](https://edstem.org/au/courses/24905/discussion)
+- Don't forget to ask for help or advice on the course forum: [Ed Discussions](https://edstem.org/au/courses/24905/discussion)
 - Generative AI is not banned in this course, but should not be used to present your presentation (i.e., the voice and video in the presentation must be you). Submitted assignments are expected to be primarily your own work. Any use of generative AI must be explained in your _Acknowledgements_ section including the scope to which it is applied. Use of generative AI without appropriate explanation and referencing comes under the _N_ category in the marking rubric.
 - You may use generative AI to help with aspects of data analysis (see lectures!) but you are responsible for the output and whether findings are justified or not, we may re-run analyses to check your data.
 

@@ -10,6 +10,21 @@ This tutorial will help you to build prototypes that go beyond manifesting a des
 <!-- link this to previous one. -->
 <!-- half making, half testing on each other. -->
 
+What makes a prototype testable? 
+
+1. interactivity: can the user interact with the system step by step to complete a task?
+2. communication: does the prototype communicate to the user 
+3. evaluative: does the prototype allow users to provide feedback?
+4. fidelity: does the prototype represent the look and feel of the system?
+
+look a this paper:
+
+<https://hci.stanford.edu/courses/cs247/2012/readings/WhatDoPrototypesPrototype.pdf>
+
+maybe for deciding on a testable prototype we don't need to maximise all aspects, but to efficiently create something that enables testing without spending an overwhelming amount of effort on creating the prototype.
+
+
+
 ## Pre-Class Tasks
 
 The pre-class task(s) need to be _ultra clear_ so that students can complete them before the tutorial without assistance from staff.
