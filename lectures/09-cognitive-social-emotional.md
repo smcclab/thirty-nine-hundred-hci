@@ -305,11 +305,9 @@ accumulation of skills and knowledge through memory [@rogers-beyond-hci:2023 p.1
 
 <!-- TODO text in image, paraphrase the text. -->
 
-
 ## Activity
 
-TODO.
-
+<!-- TODO. -->
 
 # Cognitive Frameworks
 
@@ -319,6 +317,10 @@ TODO.
 - **External Cognition**
 - **Distributed Cognition**
 - Embodied Interaction
+
+## Mental Models
+
+<!-- TODO -->
 
 ## Gulfs of Execution and Evaluation (Don Norman)
 
@@ -381,6 +383,10 @@ TODO.
 Introduce yourself to someone nearby, talk for 2-3 minutes, and we'll hear some answers.
 
 <!-- TODO: make this a poll everywhere -->
+
+## Being Social
+
+<!-- TODO -->
 
 ## Face-to-Face Conversations
 
@@ -454,6 +460,11 @@ supporting people in activities when they are interacting in the same physical s
 
 ![Pepper Robot (Photo by [Alex Knight](https://unsplash.com/@agk42)](img/02_theory_and_concepts_49.jpg){width=50%}
 
+
+## Emotions and Behaviour
+
+<!-- TODO -->
+
 ## A Model of Emotional Design
 
 :::::::::::::: {.columns}
@@ -505,6 +516,14 @@ supporting people in activities when they are interacting in the same physical s
 :::
 ::::::::::::::
 
+## Persuasive Technologies
+
+<!-- TODO -->
+
+## Anthropomorphism
+
+<!-- TODO -->
+
 ## Contextual Factors
 
 :::::::::::::: {.columns}
@@ -521,6 +540,8 @@ Think about the setting and context in which interaction takes place:
 ![Image: Photo by [Yassine Khalfalli](https://unsplash.com/@yassine_khalfalli)](img/02_theory_and_concepts_63.jpg)
 :::
 ::::::::::::::
+
+<!-- TODO does this slide belong here? -->
 
 # Conceptual Design
 
@@ -557,7 +578,7 @@ Instructing, conversing, manipulating, exploring, responding
 - Different parts will have different types
 :::
 ::: {.column width="60%"}
-![](img/07_prototyping_40.png)
+![](img/07_prototyping_40.png){width=100%}
 :::
 ::::::::::::::
 
@@ -571,7 +592,7 @@ Instructing, conversing, manipulating, exploring, responding
 - Input and output modes <- user/context requirements
 :::
 ::: {.column width="60%"}
-![](img/07_prototyping_45.jpg)
+![](img/07_prototyping_45.jpg){width=100%}
 :::
 ::::::::::::::
 
