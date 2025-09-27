@@ -22,7 +22,9 @@ You must design a prototype system in response to a real-world problem. You will
 
 [^nonstandardinteraction]: Non-standard interaction is a bit difficult to define but should be something that goes beyond a standard web-application operated only by keyboard, mouse, or touchscreen. Your prototype can involve these standard technologies, it should also involve interaction beyond them in some way.
 
-To address this challenge, you will need to develop a specific **research question** that incorporates your area of interaction, a problem, and a justification. You will need to design a **testable prototype**, and create an **evaluation plan**. You will need to run an **evaluation** of your prototype with 3--5 classmates, **analyse data**, and **articulate findings** that connect to your research question.
+To address this challenge, you will need to develop a specific **research question** that incorporates your area of interaction, a problem, and a justification. You will need to design a **testable prototype**[^testable], and create an **evaluation plan**. You will need to run an **evaluation** of your prototype with 3--5 classmates, **analyse data**, and **articulate findings** that connect to your research question.
+
+[^testable]: A testable prototype should enable evaluation with a potential user. This can be achieved with different levels of fidelity but needs to enable a user to enact or imagine the specific process of an interaction in order to measure their experience.
 
 Your work will be submitted as a portfolio including your prototype materials, research data, analysis, references, and a presentation.
 The presentation should cover the research question, design rationale, prototype demonstration, evaluation methodology, and results in the following sections:
@@ -39,7 +41,20 @@ You will also include a written version of your presentation with the same headi
 
 **Note:** your presentation video is the primary document for marking purposes.
 
-### Presentation Format and Style
+## Specification {#specification}
+
+- include documentation of a testable prototype, research question, evaluation plan, data collection, data analysis, and articulation of findings
+- include documentation in `project-documentation.md` which follows the provided headings (**N.B.:** this text can be a transcript of your spoken presentation with references and images)
+  - include at least two references to external sources in ACM format
+  - be written in markdown format meeting our standards
+  - be a maximum of 1800 words + 10% acceptable buffer (i.e., no more than 1980 words)
+- include a **video recording** of a presentation which follows the provided headings: `project-presentation.mp4`
+  - presentation video must be in `.mp4` format using h.264 or h.265 video encoding
+  - presentation video must be no larger than 1920x1080 pixels in resolution
+  - must be a maximum of 5 minutes (300 seconds) + 10% acceptable buffer (i.e., no more than 330 seconds).
+- must be uploaded to _your fork_ of the [`comp3900-2025-research-project`](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-research-project) repository on Gitlab by the due date
+
+### Presentation Video Format and Style
 
 You must record a 5-minute presentation that articulates your work in the format of the above sections. Your presentation must:
 
@@ -55,27 +70,14 @@ The easiest way to create a five-minute presentation would be to use Microsoft P
 
 Submissions that do not clearly meet these requirements may be aligned with the "N" standard in one or more rubric criteria and may be required to complete a supplementary presentation before grades are finalised.
 
-## Specification {#specification}
-
-- include documentation of a testable prototype, research question, evaluation plan, data collection, data analysis, and articulation of findings
-- include documentation in `project-documentation.md` which follows the provided headings (**N.B.:** this text can be a transcript of your spoken presentation with references and images)
-  - include at least two references to external sources in ACM format
-  - be written in markdown format meeting our standards
-  - be a maximum of 1800 words + 10% acceptable buffer (i.e., no more than 1980 words)
-- include a **video recording** of a presentation which follows the provided headings: `project-presentation.mp4`
-  - presentation video must be in `.mp4` format using h.264 or h.265 video encoding
-  - presentation video must be no larger than 1920x1080 pixels in resolution
-  - must be a maximum of 5 minutes (300 seconds) + 10% acceptable buffer (i.e., no more than 330 seconds).
-- must be uploaded to _your fork_ of the [`comp3900-2025-research-project`](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-research-project) repository on Gitlab by the due date
-
 ## Submission Process {#submission-process}
 
 1. Fork the template repository.
 2. Follow appropriate prototyping, data gathering and analysis processes to address the research challenge.
-3. Upload data and documentation as well as other relevant materials in _your fork_ of the template repository.
-4. Write your project documentation following the template in the repository.
+3. Write your project documentation following the template in _your fork_ of the template repository.
+4. Upload data and project documentation as well as other relevant materials in _your fork_ of the template repository.
 5. record and upload your video as `project-presentation.mp4`
-5. Don't forget to include at least two references to external sources in ACM format in your documentation.
+6. Don't forget to include at least two references to external sources in ACM format in your documentation.
 
 ## Notes {#notes}
 
