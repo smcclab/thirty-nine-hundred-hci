@@ -44,14 +44,14 @@ You will also include a written version of your presentation with the same headi
 ## Specification {#specification}
 
 - include documentation of a testable prototype, research question, evaluation plan, data collection, data analysis, and articulation of findings
-- include documentation in `project-documentation.md` which follows the provided headings (**N.B.:** this text can be a transcript of your spoken presentation with references and images)
-  - include at least two references to external sources in ACM format
-  - be written in markdown format meeting our standards
-  - be a maximum of 1800 words + 10% acceptable buffer (i.e., no more than 1980 words)
 - include a **video recording** of a presentation which follows the provided headings: `project-presentation.mp4`
   - presentation video must be in `.mp4` format using h.264 or h.265 video encoding
   - presentation video must be no larger than 1920x1080 pixels in resolution
   - must be a maximum of 5 minutes (300 seconds) + 10% acceptable buffer (i.e., no more than 330 seconds).
+- include documentation in `project-documentation.md` which follows the provided headings (**N.B.:** this text may be a transcript of your spoken presentation with references and images, it may also be a slightly different text.)
+  - include at least two references to external sources in ACM format
+  - be written in markdown format meeting our standards
+  - be a maximum of 1800 words + 10% acceptable buffer (i.e., no more than 1980 words)
 - must be uploaded to _your fork_ of the [`comp3900-2025-research-project`](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-research-project) repository on Gitlab by the due date
 
 ### Presentation Video Format and Style
