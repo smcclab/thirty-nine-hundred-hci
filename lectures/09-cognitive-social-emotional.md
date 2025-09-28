@@ -112,7 +112,7 @@ Cognitive processes can change depending on the problem:
 :::
 ::::::::::::::
 
-## 1. Attention
+## Attention
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -149,7 +149,7 @@ Selecting things to focus on, relevant to our needs,  from possibilities.
 
 <!-- TODO, summarise the image, use a new image -->
 
-## 2. Perception
+## Perception
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -183,7 +183,7 @@ Selecting things to focus on, relevant to our needs,  from possibilities.
 <!-- TODO text in image, paraphrase the text. -->
 
 
-## 3. Memory
+## Memory
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -217,7 +217,7 @@ Selecting things to focus on, relevant to our needs,  from possibilities.
 <!-- TODO text in image, paraphrase the text. -->
 
 
-## 4. Learning
+## Learning
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -239,7 +239,6 @@ accumulation of skills and knowledge through memory [@rogers-beyond-hci:2023 p.1
 
 <!-- TODO text in image, paraphrase the text. -->
 
-
 ## Design Implications for Learning
 
 :::::::::::::: {.columns}
@@ -254,7 +253,7 @@ accumulation of skills and knowledge through memory [@rogers-beyond-hci:2023 p.1
 
 <!-- TODO text in image, paraphrase the text. -->
 
-## 5. Reading, Speaking, Listening
+## Reading, Speaking, Listening
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -289,7 +288,7 @@ accumulation of skills and knowledge through memory [@rogers-beyond-hci:2023 p.1
 <!-- TODO text in image, paraphrase the text. -->
 
 
-## 6. Problem- Solving, Planning, Reasoning, Decision-Making
+## Problem Solving, Planning, Reasoning, Decision Making
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -311,46 +310,44 @@ accumulation of skills and knowledge through memory [@rogers-beyond-hci:2023 p.1
 
 # Cognitive Frameworks
 
-- Mental models
+- **Mental models**
 - **Gulfs of Execution and Evaluation**
 - Information Processing
-- **External Cognition**
 - **Distributed Cognition**
+- **External Cognition**
 - Embodied Interaction
 
 ## Mental Models
 
-<!-- TODO -->
-
-## Gulfs of Execution and Evaluation (Don Norman)
-
 :::::::::::::: {.columns}
-::: {.column width="50%"}
+::: {.column width="60%"}
+A mental model is our internal understanding of how a system works.
 
-![Settings switches on an iPhone](img/02_theory_and_concepts_17.png)
-![Problem with switches: how do you know what happens when you switch it!](img/02_theory_and_concepts_18.png)
+- used to reason about unfamiliar technology or troubleshoot problems
+- develop through experience; often incomplete or incorrect
+- common errors from misapplying logic of a system: thermostat/oven vs. water tap
+- poor mental models lead to difficulty identifying problems and explaining system behavior
+- interfaces can help through clear instructions, contextual help, and appropriate metaphors
 :::
-::: {.column width="50%"}
-![[The two UX Gulfs: Evaluation and Execution](https://www.nngroup.com/articles/two-ux-gulfs-evaluation-execution/)](img/02_theory_and_concepts_19.png)
+::: {.column width="40%"}
+![[Mental Models (nngroup)](https://www.nngroup.com/articles/mental-models/)](img/mental-models-nngroup.jpg){width=80%}
 :::
 ::::::::::::::
 
-## External Cognition (Scaife and Rogers 1996 in @rogers-beyond-hci:2023
+## Gulfs of Execution and Evaluation
 
 :::::::::::::: {.columns}
-::: {.column width="60%"}
-- Internal representations (in the head) and external representations (artefacts in the world) and how they interact
-- Combined with tools (e.g., pens, calculators, spreadsheets) to support cognitive activities
-- External cognition: “the cognitive processes involved when we interact with different external representations” (@rogers-beyond-hci:2023 p.129)
-- Reducing memory load, computational offloading, annotating, cognitive tracing
+::: {.column width="50%"}
+influential early HCI framework describing gaps between user and interface [@norman-cognitive-engineering:1986]
+
+- gulf of [evaluation](https://www.nngroup.com/articles/two-ux-gulfs-evaluation-execution/): understanding state
+- gulf of [execution](https://www.nngroup.com/articles/two-ux-gulfs-evaluation-execution/): understanding controls
+- design challenge is bridging these gulfs to reduce cognitive effort
+- framework explores mappings between system design and user understanding
+- provides discourse for identifying mismatches in user-system interaction
 :::
-::: {.column width="40%"}
-
-![Reducing Memory Load and Annotating](img/02_theory_and_concepts_20.jpg){width=30%}
-
-![Computational Offloading](img/02_theory_and_concepts_21.jpg){width=30%}
-
-![Cognitive Tracing](img/02_theory_and_concepts_22.jpg){width=30%}
+::: {.column width="50%"}
+![Problem with switches: how do you know what happens when you switch it!](img/02_theory_and_concepts_18.png)
 :::
 ::::::::::::::
 
@@ -364,15 +361,43 @@ accumulation of skills and knowledge through memory [@rogers-beyond-hci:2023 p.1
 - different levels of granularity
 - analysis addresses problem solving, communication (verbal and non-verbal), coordination mechanisms, accessing and sharing knowledge
 - analysis can inform design implications and decision-making in designing to support distributed cognition
-
-(@rogers-beyond-hci:2023 p.120; @rogers-hci-theory:2012 pp.38-39)
 :::
 ::: {.column width="40%"}
 ![Image: @rogers-beyond-hci:2023 p.128](img/02_theory_and_concepts_23.png)
 :::
 ::::::::::::::
 
+## External Cognition
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- internal representations (in the head) and external representations (artefacts in the world) and how they interact
+- combined with tools (e.g., pens, calculators, spreadsheets) to support cognitive activities
+- the cognitive processes involved when we interact with different external representations
+- cognitive offloading, computational offloading, annotating and cognitive tracing
+:::
+::: {.column width="40%"}
+![Cognitive Offloading](img/02_theory_and_concepts_21.jpg){width=30%}
+
+![Computational Offloading](img/02_theory_and_concepts_22.jpg){width=30%}
+
+![Cognitive Tracing](img/02_theory_and_concepts_20.jpg){width=30%}
+:::
+::::::::::::::
+
+## Embodied Interaction
+
+our bodies and experiences shape how we perceive, feel, and think [@hornecker2005design]
+
+- artifacts indicate usage through coupling to the world (e.g., open book as task reminder)
+- sensorimotor experiences enable abstract thinking (inside-outside, up-down concepts)
+- body mediates interactions with technology and shapes emotional responses
+- movement instrumental in thought evolution and spatial thinking development
+- abbreviated actions more effective than full simulation for learning skills
+
 # Social Interaction
+
+<!-- TODO put something here. -->
 
 ## Activity: Social human computer interactions
 
@@ -386,27 +411,28 @@ Introduce yourself to someone nearby, talk for 2-3 minutes, and we'll hear some 
 
 ## Being Social
 
-<!-- TODO -->
+fundamental part of everyday life; how does technology mediate this?
+
+- social media transformed how people connect across time and space
+- COVID-19 accelerated videoconferencing adoption (and highlighted limitations)
+- excessive phone use raises wellbeing concerns
+- digital etiquette (muting, virtual hand-raising, emoji reactions)
+- social coordination shifted to texting; added complexity!
 
 ## Face-to-Face Conversations
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-Conversational Analysis rules (Sacks 1987):
+conversation may seem effortless but is a skilled collaborative achievement. how do these unfold?
 
-- Adjacency pairs: setting up an expectation of a response (Schegloff and Sacks 1973)
-- Breakdowns and repairs: Breaking rules or missing cues
-- Designing conversational user interfaces and to support face-to-face communication
-
-![(@rogers-beyond-hci:2023 p.139-142)](img/02_theory_and_concepts_27.png)
+- turn-taking rules: speaker chooses next, someone else starts, or current speaker continues [@sacks-simplest-systematics:1978]
+- adjacency pairs: first utterance sets expectation for response
+- repair mechanisms: repetition, gestures, and clarifications
+- nonverbal cues coordinate conversation flow
+- interfaces that emulate human conversational patterns are a long term goal! recent progress with AI.
 :::
 ::: {.column width="50%"}
-- Collaborative activity involving social skills, rules, norms, and conventions
-- Often tacit – people are not actively aware of, or thinking about, following them
-- People have different communication styles, backgrounds, and abilities
-- Different ways of opening, maintaining, and closing a conversation – implicit and explicit rules
-
-![](img/02_theory_and_concepts_28.png)
+![Conversation is a key human capability that can be used in HCI (Photo by Aarón Blanco Tejedor on Unsplash)](img/aaron-blanco-tejedor-aocUkMcxeqI-unsplash.jpg)
 :::
 ::::::::::::::
 
@@ -414,14 +440,16 @@ Conversational Analysis rules (Sacks 1987):
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- phone and video conferencing
-- telepresence:  “The perception of being there while physically remote” (@rogers-beyond-hci:2023 p.144)
-- telepresence rooms, robots, virtual reality
+- **video conferencing:** early research (1980s-90s) showed people spoke louder, took longer turns, interrupted less
+- mainstream adoption via Skype, FaceTime, then Zoom/Teams
+- virtual 2D spaces (e.g., Gather.Town) aim to recreate social presence and community
+- **telepresence** creates perception of being present in a physical location while actually elsewhere
+- **telepresence** through robots, rooms, virtual reality, games
+- **social presence:** the feeling of _being there_ in a virtual space
 - features of interaction design can establish a sense of presence and facilitate remote conversation
-- social presence: the feeling of _being there_
 :::
 ::: {.column width="40%"}
-TODO
+![Telepresence in music at NIME2025 with a live pianist and two remote musicians (Photo by Charles)](img/2025-nime-remote-performance.jpg)
 :::
 ::::::::::::::
 
@@ -440,41 +468,61 @@ supporting people in activities when they are interacting in the same physical s
 ::: {.column width="40%"}
 ![The Reflect Table: Pierre Dillenbourg in @rogers-beyond-hci:2023 p.55](img/02_theory_and_concepts_29.png){width=50%}
 
-![GatherTown for translucent interactions](img/02_theory_and_concepts_30.png){width=50%}
+![musical instrument holograms to aid collaboration [@wang2025seeingsound]](img/aisee-holo-view.jpg){width=50%}
 :::
 ::::::::::::::
 
-## Social Engagement
+## Social Games
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- “Participation in the activities of a social group (Anderson and Binstock, 2012). Often involves some form of social exchange where people give and receive something from others […] voluntary and unpaid” (@rogers-beyond-hci:2023 p.158)
-- Connecting people with a common interest – e.g., Twitter battles, viral posts. Digital volunteering – disaster information sharing, citizen science
+games designed to facilitate social interaction between two or more players who are aware of each other's presence and actions
+
+- can be cooperative or competitive, played with or without technology (board games, video games, online platforms)
+- three heuristics: synchronous vs asynchronous interaction, symmetrical vs asymmetrical relationships, strong vs weak social ties [@ricchetti-social-games:2022]
+- unconventional approaches, e.g. Journey (shared exploration)
+- communities through live streaming (Twitch) foster social bonds
 :::
 ::: {.column width="40%"}
-![Twitter (in @rogers-beyond-hci:2023 p.158)](img/02_theory_and_concepts_31.png)
+![[Journey (2011)](https://www.gamespot.com/articles/journey-co-op-impressions/1100-6297312/) had an unconventional coop mode with almost no communication possible and little gameplay gain except the feeling of shared experience.](img/journey-game-coop.jpg)
 :::
 ::::::::::::::
 
 # Emotional Interaction
 
-![Pepper Robot (Photo by [Alex Knight](https://unsplash.com/@agk42)](img/02_theory_and_concepts_49.jpg){width=50%}
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+How do our emotions manifest in interaction?
 
+Can designing for emotions help us in our tasks, or help us manage them?
+:::
+::: {.column width="40%"}
+![Pepper Robot (Photo by [Alex Knight](https://unsplash.com/@agk42)](img/02_theory_and_concepts_49.jpg)
+:::
+::::::::::::::
 
 ## Emotions and Behaviour
 
-<!-- TODO -->
+- emotions affect behavior but relationship is complex and context-dependent
+- emotional interaction design considers what makes users feel happy, sad, anxious or motivated
+- users express emotions through facial expressions, body language and tone of voice
+- automatic emotions happen rapidly while conscious emotions develop slowly
+- interfaces can detect emotional states but decisions needed on appropriate responses
 
 ## A Model of Emotional Design
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+Understanding emotions assists with design. Positive and negative emotional states have different effects on creativity and tolerance [@norman-emotional-design:2005]
+
+@ortony2012affect model of emotional design:
+
 - visceral: look, feel, sound
 - behavioural: use (usability)
 - reflective: meaning, personal value, culture
 :::
 ::: {.column width="40%"}
-![(in @rogers-beyond-hci:2023 p.171)](img/02_theory_and_concepts_50.png){width=100%}
+![[@ortony2012affect]](img/02_theory_and_concepts_50.png){width=100%}
 :::
 ::::::::::::::
 
@@ -483,10 +531,9 @@ supporting people in activities when they are interacting in the same physical s
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 - design features that seek to create an emotional connection with users or elicit emotional responses in users
-- denoting the system state
-- expressivity through animated icons, sonofications (sound effects), vibrotactile feedback (e.g., mobile phone or watch buzzing)
-- nice looking design affects people’s perceptions of the usability + they are pleasurable to use
-- annoying interfaces elicit negative emotional responses (e.g., unable to do the task, feeling patronised, unhelpful, time-consuming to use, intrusive, passive-aggressive)
+- expressivity through animation, sonification, vibrotactile feedback (e.g., mobile phone or watch buzzing)
+- aesthetics affects perceptions of usability and pleasure of use
+- annoying interfaces elicit negative responses 
 :::
 ::: {.column width="40%"}
 ![Duolingo Reminders](img/02_theory_and_concepts_51.png){width=50%}
@@ -495,106 +542,55 @@ supporting people in activities when they are interacting in the same physical s
 :::
 ::::::::::::::
 
-## Affective Computing
-
-![[Rosalind Picard: Affective Computing, Engineering Emotion](https://www.youtube.com/watch?v=_86GQiEOjp4)](img/02_theory_and_concepts_54.png){width=60%}
-
-<!-- TODO what's this about.. -->
-
-## Emotional AI
+## Affective Computing and Emotional AI
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- automating the measurement of feelings and behaviours by using AI technologies
-- various sensors and measures
-- six fundamental emotions classified by Affdex: Anger, contempt, disgust, fear, joy, sadness
-- applications such as improving driver safety (e.g., improving mood and concentration, detecting drowsiness)
-- eye-tracking, words and phrases, biometric data (e.g., heart rate)
+- computers recognising and expressing emotions ([Rosalind Picard: Affective Computing, Engineering Emotion](https://www.youtube.com/watch?v=_86GQiEOjp4))
+- measuring of feelings using facial expressions, voice, and physiological data
+- sensing technologies: cameras, biosensors, speech analysis, motion capture, accelerometer sensors
+- typical ML task classify emotions (anger, joy, sadness) as percentages from facial markers
+- mood tracking apps: help manage emotions, moods, and mental health
 :::
 ::: {.column width="40%"}
-![(Sharp et a;l. 2019, p.180)](img/02_theory_and_concepts_55.png)
+![Analysing emotion from a camera image.](img/02_theory_and_concepts_55.png)
 :::
 ::::::::::::::
 
 ## Persuasive Technologies
 
-<!-- TODO -->
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+persuasive design uses interface techniques to change user behavior and thinking
+
+- pop-ups, recommendations, prompts, and one-click purchasing
+- playful interventions ([piano stairs](https://youtu.be/2lXh2n0aPyw), [echoing bins](https://youtu.be/cbEKAwCoCKw))
+- fitness trackers use dashboards, leaderboards, and social comparison for motivation
+- social norms influence consumption - households adjust behavior based on neighborhood comparisons
+- effective persuasion balances being noticeable without being intrusive or overly abstract
+:::
+::: {.column width="40%"}
+![The world's deepest bin (2009) a playful bin that sounds like dropping an rubbish in a deep hole.](img/worlds-deepest-bin.png)
+:::
+::::::::::::::
 
 ## Anthropomorphism
 
-<!-- TODO -->
-
-## Contextual Factors
-
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Think about the setting and context in which interaction takes place:
+anthropomorphism is the human tendency to attribute human qualities to animals and objects, widely applied in technology design
 
-- Who, what, when, where, why, how of your activity
-- How technology extends spatial and temporal dimensions
-- What the explicit and unwritten rules, norms, conventions, practices are
-- How people interact with tools, technologies, and their environment
-- How the setting shape the activity and outputs – “situated actions and practices” [@suchman:1987]
+- applied in software designs, as well as hardware such as robots
+- e.g., _"ChatGPT"_ vs _"Claude"_. 
+- personalized first-person interaction ("Hi Charles!") proves more engaging than impersonal third-person commands
+- robot dolls incorporate sensors, speech recognition, and servos
+- should robots be hard (Sony AIBO) or soft designs that enhance emotional connection through touch? (e.g., haptic creature, @yohanan-haptic-creature:2008)
 :::
 ::: {.column width="40%"}
-![Image: Photo by [Yassine Khalfalli](https://unsplash.com/@yassine_khalfalli)](img/02_theory_and_concepts_63.jpg)
+![The haptic creature [@yohanan-haptic-creature-assessment:2011]](img/haptic-creature-2011.png)
 :::
 ::::::::::::::
 
-<!-- TODO does this slide belong here? -->
-
-# Conceptual Design
-
-- Developing a Conceptual Model
-- An outline of what people can do and what concepts are needed to understand how to interact
-- Need to understand the problem space and users
-- Generate ideas based on understanding
-
-## Conceptual Model
-
-- Metaphor, analogies, concepts, relationships, mappings
-- How to choose  __interface metaphors__ that will help users understand the product?
-- Which  __interaction types__ would best support the users’ activities?
-- Do different  __interface types__ suggest alternative design insights or options?
-
-## Interface Metaphors
-
-Choosing metaphors [@erickson-metaphors:1995]
-
-1. Identify functional requirements (what it will do)
-2. Which parts are likely to cause users problems?
-3. Generate metaphors
-
-Evaluate metaphors: Structure, Relevance, Representation, Understandable, Extensible (Sharp et al., p. 440-441 for example)
-
-## Interaction Types
-
-:::::::::::::: {.columns}
-::: {.column width="40%"}
-Instructing, conversing, manipulating, exploring, responding
-
-- Which is best, depends on the design
-- Most models will include a combination
-- Different parts will have different types
-:::
-::: {.column width="60%"}
-![](img/07_prototyping_40.png){width=100%}
-:::
-::::::::::::::
-
-## Interface Types
-
-:::::::::::::: {.columns}
-::: {.column width="40%"}
-- Prompt and support different user experiences / behaviour
-- Prototyping will require an interface type or candidates
-- Depends on product constraints from requirements
-- Input and output modes <- user/context requirements
-:::
-::: {.column width="60%"}
-![](img/07_prototyping_45.jpg){width=100%}
-:::
-::::::::::::::
 
 
 ## Questions: Who has a question?
