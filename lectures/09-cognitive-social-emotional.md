@@ -72,7 +72,16 @@ Suggested recording method: [Microsoft Powerpoint's built-in recording tool](htt
 
 # Cognitive Aspects
 
-![COGNITION (Photo by Stefano Bucciarelli on Unsplash)](img/stefano-bucciarelli-59HOF9zHKNs-unsplash.jpg){width=50%}
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+The way we think affects how we act and interact in our life.
+
+We can design systems to cope well with human cognition to fit well with our capacity for remembering, deciding, perceiving, and attending.
+:::
+::: {.column width="50%"}
+![COGNITION (Photo by Stefano Bucciarelli on Unsplash)](img/stefano-bucciarelli-59HOF9zHKNs-unsplash.jpg)
+:::
+::::::::::::::
 
 ## Cognition
 
@@ -91,8 +100,10 @@ A definition from Oxford English Dictionary:
 
 Cognitive processes can change depending on the problem:
 
-- __Experiential Cognition__: 2 + 2 =
-- __Reflective Cognition__: 21 x 19 =
+- **Experiential Cognition**: 2 + 2 =
+- **Reflective Cognition**: 312 x 56 =
+
+A famous frame for this difference is "fast and slow thinking" [@kahneman-fast-slow-thinking:2011].
 
 ## What are cognitive processes?
 
@@ -127,9 +138,7 @@ Selecting things to focus on, relevant to our needs,  from possibilities.
   - designing to support effective multitasking
 :::
 ::: {.column width="40%"}
-![Structured text [@rogers-beyond-hci:2023]](img/02_theory_and_concepts_2.png){width=60%}
-
-![Unstructured text [@rogers-beyond-hci:2023]](img/02_theory_and_concepts_3.png){width=60%}
+![Structured and Unstructured information text [@rogers-beyond-hci:2023]](img/structuring-information.jpg){width=50%}
 :::
 ::::::::::::::
 
@@ -139,15 +148,13 @@ Selecting things to focus on, relevant to our needs,  from possibilities.
 ::: {.column width="60%"}
 - consider context to make information salient when required
 - techniques: animation, colour, ordering, spacing
-- avoid clutter
-- support switching and returning 
+- avoid cluttered visual interfaces
+- support switching and returning (but how?)
 :::
 ::: {.column width="40%"}
-![(@rogers-beyond-hci:2023 p.108)](img/02_theory_and_concepts_4.png)
+![Some interfaces need to be very careful about attention... (Photo by milan degraeve on Unsplash)](img/milan-degraeve-89sXVIkgYnI-unsplash.jpg)
 :::
 ::::::::::::::
-
-<!-- TODO, summarise the image, use a new image -->
 
 ## Perception
 
