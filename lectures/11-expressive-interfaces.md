@@ -9,7 +9,7 @@ author: Dr Charles Martin
 
 ## Lecture Ideation
 
-- Go through []"Composing Interactions" by Marije Baalman](https://composinginteractions.art/#contents)?
+- Go through ["Composing Interactions" by Marije Baalman](https://composinginteractions.art/#contents)?
 - Relate to ANU/UiO Research on Expressive Interaction
 - CHI resources on expression and creative interaction
 - Creativity and Cognition

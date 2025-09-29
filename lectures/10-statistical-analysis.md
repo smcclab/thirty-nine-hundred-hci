@@ -8,9 +8,14 @@ author: Dr Charles Martin
 What can this lecture be about?
 
 - Lazar Chapter 4 Statistical Analysis (get up to _p_ and ANOVA properly)
+- Python examples
+- Put together a colab.google notebook to demo with fake data
+- Put activities to collect some live in lectures (if enough people show up)
+
+### Maybe not these things.
+
 - conceptualising interaction (Interaction Design chapter 3 was missed?)
 - data at scale ethical concerns (interaction design chapter 10)
-- Shneiderman chapter 10 devices (incl Fitt's law?)
 
 ## Announcements
 
