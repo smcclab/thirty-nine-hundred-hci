@@ -3,6 +3,12 @@ title: Cognitive, Social, and Emotional Interaction
 author: Dr Charles Martin
 ---
 
+## Announcements
+
+- Assignment 2 Due today!
+- Next week lecture is on Friday (???)
+- Course now shifts to support final project.
+
 ## Plan for the class
 
 1. Final Project Details
@@ -69,6 +75,10 @@ Suggested recording method: [Microsoft Powerpoint's built-in recording tool](htt
 **no genAI or text-to-speech allowed for the video presentation!**
 :::
 ::::::::::::::
+
+## Questions on the Final Project
+
+Who has a question about the final project? (Or anything else?)
 
 # Cognitive Aspects
 
@@ -160,17 +170,16 @@ Selecting things to focus on, relevant to our needs,  from possibilities.
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- “how information is acquired from the environment via the five sense organs (vision, hearing, taste, smell, and touch) and transformed into experiences of objects, events, senses, and tastes” (Roth, 1986 in @rogers-beyond-hci:2023 p. 109)
-- Proprioception: Awareness of position and movement of body through muscles and joints
-- Vision -> hearing -> touch (sighted individuals)
+- how we sense information and transform it into experience
+- proprioception: Awareness of position and movement of body through muscles and joints
+- vision dominant for sighted folks
+- followed by hearing and touch
+- important to present information so that it can be readily perceived
 :::
 ::: {.column width="40%"}
-![(Image: @rogers-beyond-hci:2023 p.109)](img/02_theory_and_concepts_6.png)
-
+![How does our perception influence design? (image: Mathilda Khoo on Unsplash)](img/mathilda-khoo-HLA3TAFQuQs-unsplash.jpg){width=80%}
 :::
 ::::::::::::::
-
-<!-- TODO text in image, paraphrase the text. -->
 
 ## Design Implications for Perception
 
@@ -183,12 +192,9 @@ Selecting things to focus on, relevant to our needs,  from possibilities.
 - haptic feedback: use carefully, perhaps in response to user initiated actions
 :::
 ::: {.column width="40%"}
-![(@rogers-beyond-hci:2023 p.109)](img/02_theory_and_concepts_7.png)
+![The layout of music controls in AR affects perception [@wang-cubing-sound:2022]](img/2022-cubing-sound-designs.jpg){width=100%}
 :::
 ::::::::::::::
-
-<!-- TODO text in image, paraphrase the text. -->
-
 
 ## Memory
 
@@ -196,7 +202,7 @@ Selecting things to focus on, relevant to our needs,  from possibilities.
 ::: {.column width="60%"}
 - brain filters what to remember and what to forget to avoid overload – but not always in the way we want to!
 - filtering into memory – depends on encoding process (e.g., active vs passive learning) and context (e.g., seeing someone in a different context)
-- people are better at recognition than recall
+- people are better at **recognition** than recall
 - relying on technology rather than memory (e.g., car navigation system, “let's ask Claude..”)
 - personal information management
 - remembering passwords and multifactor authentication
@@ -211,18 +217,13 @@ Selecting things to focus on, relevant to our needs,  from possibilities.
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 - avoid long and complex procedures for carrying out tasks
-- design interfaces for recognition rather than recall (familiar patterns and consistency)
+- design interfaces for **recognition** rather than recall (familiar patterns and consistency)
 - provide ways to label digital information for identification
 :::
 ::: {.column width="40%"}
-![](img/02_theory_and_concepts_9.png)
-
-(@rogers-beyond-hci:2023 p.119)
+![This is a bad pun, but memory cards are hard to recognise! File management systems help us to use recognition rather than recall to sort stored data. (Image: Denise Jans on Unsplash)](img/denise-jans-d9aVAvr5NVo-unsplash.jpg)
 :::
 ::::::::::::::
-
-<!-- TODO text in image, paraphrase the text. -->
-
 
 ## Learning
 
@@ -244,21 +245,19 @@ accumulation of skills and knowledge through memory [@rogers-beyond-hci:2023 p.1
 :::
 ::::::::::::::
 
-<!-- TODO text in image, paraphrase the text. -->
-
 ## Design Implications for Learning
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 - design to encourage exploration
 - design constraints and guide users to appropriate actions
+
+Learning theory concept: "zone of proximal development"---we should get users into that state!
 :::
 ::: {.column width="40%"}
-![(@rogers-beyond-hci:2023 p.119)](img/02_theory_and_concepts_14.png)
+![How do we encourage exploration and embed guidance into systems! Games are awesome at this. (Image: Philippe Bout on Unsplash)](img/philippe-bout-93W0xn4961g-unsplash.jpg)
 :::
 ::::::::::::::
-
-<!-- TODO text in image, paraphrase the text. -->
 
 ## Reading, Speaking, Listening
 
@@ -273,9 +272,7 @@ accumulation of skills and knowledge through memory [@rogers-beyond-hci:2023 p.1
 - interactive books, speech technologies, natural language processing, tactile interfaces, assistive technologies
 :::
 ::: {.column width="40%"}
-![Source: [Design Boom](https://www.designboom.com/technology/blind-maps-for-iphone-interactive-braille-interface/)](img/02_theory_and_concepts_12.png){width=50%}
-
-![Photo by [Nicolas J Leclercq](https://unsplash.com/@nicolasjleclercq)](img/02_theory_and_concepts_13.jpg){width=50%}
+![Our experience of the same information changes depending on the context, reading a book, chatting with a friend, listening to a meeting (Image: Chris Montgomery on Unsplash)](img/chris-montgomery-smgTvepind4-unsplash.jpg)
 :::
 ::::::::::::::
 
@@ -288,12 +285,11 @@ accumulation of skills and knowledge through memory [@rogers-beyond-hci:2023 p.1
 - provide options for making text large
 :::
 ::: {.column width="40%"}
-![(@rogers-beyond-hci:2023 p.121)](img/02_theory_and_concepts_15.png)
+![Source: [Design Boom](https://www.designboom.com/technology/blind-maps-for-iphone-interactive-braille-interface/)](img/02_theory_and_concepts_12.png){width=50%}
+
+![Photo by [Nicolas J Leclercq](https://unsplash.com/@nicolasjleclercq)](img/02_theory_and_concepts_13.jpg){width=50%}
 :::
 ::::::::::::::
-
-<!-- TODO text in image, paraphrase the text. -->
-
 
 ## Problem Solving, Planning, Reasoning, Decision Making
 
@@ -304,16 +300,14 @@ accumulation of skills and knowledge through memory [@rogers-beyond-hci:2023 p.1
 
 :::
 ::: {.column width="40%"}
-![(@rogers-beyond-hci:2023 p.122)](img/02_theory_and_concepts_16.png)
+### Design Implications
 
+- Provide information and help for users to improve their performance.
+- Use simple and memorable functions for rapid decision making.
+- Let users set their own configuration and options.
 :::
 ::::::::::::::
 
-<!-- TODO text in image, paraphrase the text. -->
-
-## Activity
-
-<!-- TODO. -->
 
 # Cognitive Frameworks
 
@@ -322,7 +316,7 @@ accumulation of skills and knowledge through memory [@rogers-beyond-hci:2023 p.1
 - Information Processing
 - **Distributed Cognition**
 - **External Cognition**
-- Embodied Interaction
+- **Embodied Interaction**
 
 ## Mental Models
 
@@ -357,6 +351,14 @@ influential early HCI framework describing gaps between user and interface [@nor
 ![Problem with switches: how do you know what happens when you switch it!](img/02_theory_and_concepts_18.png)
 :::
 ::::::::::::::
+
+## Information Processing
+
+- **Mind as information processor**: (1980s metaphor) mind processes information through ordered stages (input, processing, output) involving mental representations like images, models, and rules
+- **Human processor model**: conceptualized cognition as series of perceptual, cognitive, and motor processors to predict user interaction times with computers (Card et al., 1983)
+- **Reaction time predictions**: The information processing approach enabled hypotheses about user response times and cognitive bottlenecks when overloaded with information
+- **Shift to external cognition**: Modern HCI focuses on understanding cognitive activities in context, analyzing how environmental structures support cognition and reduce cognitive load
+- **Cognitive load measurement**: Mental effort required for learning is assessed through methods like NASA-TLX survey, which measures mental demand, physical demand, temporal demand, performance, effort, and frustration
 
 ## Distributed Cognition
 
@@ -404,17 +406,20 @@ our bodies and experiences shape how we perceive, feel, and think [@hornecker200
 
 # Social Interaction
 
-<!-- TODO put something here. -->
-
 ## Activity: Social human computer interactions
 
-- What are the kinds of situations in which you would phone someone?
-- What are the kinds of situations in which you would send someone a text message?
-- What leads to the difference?
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Let's consider one angle on social computer use.
 
-Introduce yourself to someone nearby, talk for 2-3 minutes, and we'll hear some answers.
+> What are the kinds of situations in which you would phone someone (rather than text)?
 
-<!-- TODO: make this a poll everywhere -->
+**Write** for 2-3 minutes, **vote** for 1 minute, then let's discuss.
+:::
+::: {.column width="40%"}
+![PollEverywhere link: <https://pollev.com/charlesmarti205>](img/polleverywhere-charles-qr.png)
+:::
+::::::::::::::
 
 ## Being Social
 
