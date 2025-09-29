@@ -11,11 +11,11 @@ This tutorial will help you to build prototypes that go beyond manifesting a des
 <!-- half making, half testing on each other. -->
 
 What makes a prototype testable? 
-
-1. interactivity: can the user interact with the system step by step to complete a task?
-2. communication: does the prototype communicate to the user 
-3. evaluative: does the prototype allow users to provide feedback?
-4. fidelity: does the prototype represent the look and feel of the system?
+A prototype is testable if it lets you observe and learn from real user interactions. Ask yourself these questions about your prototype:
+1. Interactive: Can users actually perform the steps or tasks you’re trying to test? (even if simulated)
+2. Clear: Can users understand what the system is, what to do, and how it works?
+3. Evaluative: Can you observe users, gather feedback, or identify what works and what doesn’t?
+4. Focused: Are you including only what’s needed to test the intended interaction or task?
 
 look a this paper:
 
@@ -23,6 +23,15 @@ look a this paper:
 
 maybe for deciding on a testable prototype we don't need to maximise all aspects, but to efficiently create something that enables testing without spending an overwhelming amount of effort on creating the prototype.
 
+
+1. Pick a common task or interaction people do every day (eg. ordering cofee, booking a bus, checking into a hotel, logging a fitness activity).
+2. Imagine you are designing a protoype to test how users complete this task.
+3. Post 100-200 words in the course forum answering:
+- What is the task? Who is the user?
+- How could a simple prototype help you test whether the task can be completed?
+- Which elements of the task would be neccesssary to include to make it testable?
+- Include a quick sketch illustrating the prototype of key interaction.
+4. Include at least two references
 
 
 ## Pre-Class Tasks
@@ -62,13 +71,61 @@ It's a good idea to provide an Extra Task in case the regular tasks are quicker 
 
 ### Task 1: Do Something
 
+What makes a prototype testable? 
+A prototype is testable if it lets you observe and learn from real user interactions. Ask yourself these questions about your prototype:
+1. Interactive: Can users actually perform the steps or tasks you’re trying to test? (even if simulated)
+2. Clear: Can users understand what the system is, what to do, and how it works?
+3. Evaluative: Can you observe users, gather feedback, or identify what works and what doesn’t?
+4. Focused: Are you including only what’s needed to test the intended interaction or task?
+
 Here's the task description. Task descriptions should have some references so that the class is research-led. We want to continually point students to CHI papers [@rogers-never-old:2014] etc so that they are reminded of the context of HCI research [@rogers-beyond-hci:2023, p.100; @Norman:2013].
 
-### Task 2: do something else 
+### Task 2: Build a Testable Prototype (30 mins)
 
-Task description
+In groups, your tutor will give you a **random user problem**. Your task is to:  
 
-### Task 3: an even more interesting, and yet different, thing
+1. **Identify the key interaction** you want to focus on testing.  
+2. **Sketch and build a testable prototype** based on that key interaction.  
+
+Your prototype should be:  
+
+- **Interactive** – Users should be able to perform the intended task or workflow.  
+- **Clear** – Users should understand what the system is and what to do.  
+- **Evaluative** – You should be able to gather feedback or observe user behaviour.  
+
+**Guidelines:**  
+- Focus only on the **essential elements needed to test the interaction** — do not worry about polish or aesthetics.  
+- Materials can include **paper, printed screens, simple click-through slides, or other low-fidelity tools**.  
+- Use a **Wizard of Oz** approach if you need to simulate system responses.  
+
+---
+
+### Task 3: Prototype Showcase & Peer Feedback (30 mins)
+
+Groups will **present and demonstrate their testable prototypes** to the class, allowing peers to interact and provide feedback. The focus is on **observing real user interactions**, not just explaining how the prototype works.  
+
+**Steps:**  
+
+1. **Group Demo (1 min per group)**  
+   - Introduce the **user problem and scenario** your prototype addresses.  
+   - Highlight the **key interaction** your prototype supports.  
+   - **Do not explain exactly how it works** — let classmates discover the interaction by using the prototype.  
+
+2. **Class Interaction (2–3 mins per group)**  
+   - A few classmates at a time try the prototype, following the key interaction steps.  
+   - Observers should take notes on:  
+     - Where users succeed or complete the task easily  
+     - Where users hesitate or get confused  
+
+3. **Rapid Feedback (1 min per group)**  
+   - Peers provide quick feedback on:  
+     - Could they complete the task?  
+     - What felt intuitive or effective?  
+     - What was confusing or unclear?  
+
+4. **Group Reflection (30 sec per group)**  
+   - Each group identifies **one key takeaway or improvement** based on the feedback.
+
 
 Task description
 
