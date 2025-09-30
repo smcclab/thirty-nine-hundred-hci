@@ -56,10 +56,10 @@ A prototype is testable if it lets you **observe and learn from real user intera
 1. In your group, look at the pre-class forum posts.  
 2. Choose **the most interesting system or interface** posted by a group member.  
 3. Discuss:  
-   1. Which part of the system could you prototype?  
-   2. What is the key interaction?  
-   3. What feedback would make it **clear** to users?  
-   4. How could you **observe success**?  
+   - Which part of the system could you prototype?  
+   - What is the key interaction?  
+   - What feedback would make it **clear** to users?  
+   - How could you **observe success**?  
 
 ### Task 2: Build a Testable Prototype (50 mins)
 
