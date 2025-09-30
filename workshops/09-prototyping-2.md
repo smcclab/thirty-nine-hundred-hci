@@ -15,32 +15,24 @@ This tutorial will help you to build prototypes that go beyond manifesting a des
 
 
 ## Pre-Class Tasks
-1. Choose a user interface described in a UIST or CHI paper:  
-   - [UIST Conference](https://dl.acm.org/conference/uist)  
-   - [CHI Conference](https://dl.acm.org/conference/chi)  
-
+1. Choose a user interface described in a [UIST](https://dl.acm.org/conference/uist) or [CHI](https://dl.acm.org/conference/chi) paper
 2. Post a forum post (100–200 words) answering:  
    1. **What is the system and what does it do?**  
    2. **Which parts of the interface are interactive?** How does the user engage with the system?  
-   3. **What steps/tasks did participants do in the study?**  
+   3. **What steps/tasks did participants do in the user study?**  
    4. **If you made a prototype, what would you need to include to test it?**  
-   5. Include **at least two references**:  
-      - The CHI/UIST paper you are analysing.  
-      - A second reference to support your reasoning for part 4 (e.g., textbook, HCI survey paper, or NNGroup article).  
-   6. Include **one image or sketch** to illustrate the interface (figure from paper, screenshot, or your annotated sketch highlighting key interactive components).
-
-
+   5. Include **one image or sketch** to illustrate the interface (figure from paper, screenshot, or your annotated sketch highlighting key interactive components).
 
 ## Plan for the Class
 
-1. Task 1: Identify a Testable Interaction (10m)
+1. Task 1: Understand the Concept of Testable Interactions (10m)
 2. Task 2: Build a Testable Prototype (50 min)  
 3. Task 3: Prototype Showcase & Peer Feedback (30 min)  
 4. Individual consultation time (30m drop-in following tutorial)
 
 ## In-Class Tasks
 
-### Task 1: Identify a Testable Interaction (10 minutes)
+### Task 1: Understand the Concept of Testable Interactions (10 minutes)
 
 **What makes a prototype testable?**  
 A prototype is testable if it lets you **observe and learn from real user interactions**. Ask yourself:
@@ -51,15 +43,15 @@ A prototype is testable if it lets you **observe and learn from real user intera
    - Ask: “Can someone unfamiliar with this prototype actually perform the task I want to test?”
    - Tip: A static sketch is not enough — the user must act on the prototype. 
 2. **Clear:** Can users understand what the system is, what to do, and how it works?
-   -Make the system’s state and feedback obvious.
+   - Make the system’s state and feedback obvious.
    Examples: highlighting selections, showing confirmation messages, or providing visual cues for next steps.
-   Ask: “Will a new user know what to do next without explanation?” 
+   Ask: “Will a new user generally know what to do next without explanation?” 
 3. **Evaluative:** Can you observe users, gather feedback, or identify what works and what doesn’t
    - Decide what success looks like and what errors or hesitation mean.
    - Examples: did the user complete the action correctly? Did they get confused or hesitate?
    - Ask: “What can I measure or observe that tells me if this interaction is effective?”  
 4. **Focused:** Are you including only what’s needed to test the intended interaction or task?
-   - Include only the elements needed to test the key task; ignore aesthetics or extra features.
+   - Include the elements needed to test the key task; less focus on aesthetics or extra features.
    - Ask: “Does every part of this prototype help answer my testing question, or can something be removed?”
 
 **Activity:**  
@@ -70,7 +62,6 @@ A prototype is testable if it lets you **observe and learn from real user intera
    2. What is the key interaction?  
    3. What feedback would make it **clear** to users?  
    4. How could you **observe success**?  
-
 
 ### Task 2: Build a Testable Prototype (50 mins)
 
@@ -112,7 +103,7 @@ Groups will **present and demonstrate their testable prototypes** to the class, 
 
 1. **Group Demo (1–2 min per group)**  
    - Introduce the **scenario and user problem**.  
-   - Highlight the **key interaction** without explaining exactly how it works.  
+   - Highlight the **key interaction**.  
 
 2. **Peer Interaction (2–3 min per group)**  
    - Each **other group** tries the interaction.  
