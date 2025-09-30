@@ -17,22 +17,21 @@ A prototype is testable if it lets you observe and learn from real user interact
 3. Evaluative: Can you observe users, gather feedback, or identify what works and what doesn’t?
 4. Focused: Are you including only what’s needed to test the intended interaction or task?
 
+how can i maek the above more specific?
+
 look a this paper:
 
 <https://hci.stanford.edu/courses/cs247/2012/readings/WhatDoPrototypesPrototype.pdf>
 
 maybe for deciding on a testable prototype we don't need to maximise all aspects, but to efficiently create something that enables testing without spending an overwhelming amount of effort on creating the prototype.
 
+FIND AN INTERFACE FROM THIS https://dl.acm.org/conference/uist
+WHAT THE SYSTEM IS
+WHICH PARTS OF THE INTERFACE IS INTERACTIVE
+WHAT WAS TEH PRODCEDURE DID PARTICPANTS DO IN THE STUDY?
 
-1. Pick a common task or interaction people do every day (eg. ordering cofee, booking a bus, checking into a hotel, logging a fitness activity).
-2. Imagine you are designing a protoype to test how users complete this task.
-3. Post 100-200 words in the course forum answering:
-- What is the task? Who is the user?
-- How could a simple prototype help you test whether the task can be completed?
-- Which elements of the task would be neccesssary to include to make it testable?
-- Include a quick sketch illustrating the prototype of key interaction.
-4. Include at least two references
 
+https://media.licdn.com/dms/image/v2/D5622AQGIRq6YCYOECg/feedshare-shrink_800/feedshare-shrink_800/0/1691768560737?e=2147483647&v=beta&t=fNvrgpqVuEacFbzrVw_lEeZCmDBPfERqRnxzwVCDVik
 
 ## Pre-Class Tasks
 
@@ -47,6 +46,8 @@ Refer to the assessment page `00-pre-and-in-class-tasks.md` to see what students
 The task should be something that can be assessed so should include possibility for different levels of achievement (e.g., a really basic response or a detailed and outstanding response).
 
 The task will be checked by the tutor at the start of the lab (by filtering by category in the course forum).
+
+Choose a user interface described in a UIST or CHI paper (https://dl.acm.org/conference/uist
 
 ## Plan for the Class
 
@@ -70,6 +71,10 @@ The 90-minute classes should have 2-4 required tasks with the regular expectatio
 It's a good idea to provide an Extra Task in case the regular tasks are quicker than expected or if a student is very fast through work.
 
 ### Task 1: Do Something
+
+
+- choose one group members paper
+- identify the intera
 
 What makes a prototype testable? 
 A prototype is testable if it lets you observe and learn from real user interactions. Ask yourself these questions about your prototype:
