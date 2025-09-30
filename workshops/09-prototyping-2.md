@@ -6,7 +6,7 @@ author: Dr Charles Martin
 <!-- ![tutorial image goes here, a nice indicative image in wide format, e.g. 1200x650](img/image-name.jpg) -->
 ![Prototyping Illustration](https://media.licdn.com/dms/image/v2/D5622AQGIRq6YCYOECg/feedshare-shrink_800/feedshare-shrink_800/0/1691768560737?e=2147483647&v=beta&t=fNvrgpqVuEacFbzrVw_lEeZCmDBPfERqRnxzwVCDVik)
 
-This tutorial will help you to build prototypes that go beyond manifesting a design concept, but are ready for evaluation. This work is directly related to the final project.
+This tutorial will guide you in building prototypes that move beyond expressing a design concept and are prepared for evaluation, particularly in relation to the concept of testable interfaces. The work is directly connected to the final project.
 
 <!-- link this to previous one. -->
 <!-- half making, half testing on each other. -->
