@@ -5,14 +5,13 @@ author: Dr Charles Martin
 
 <!-- ![tutorial image goes here, a nice indicative image in wide format, e.g. 1200x650](img/image-name.jpg) -->
 ![Prototyping Illustration](https://media.licdn.com/dms/image/v2/D5622AQGIRq6YCYOECg/feedshare-shrink_800/feedshare-shrink_800/0/1691768560737?e=2147483647&v=beta&t=fNvrgpqVuEacFbzrVw_lEeZCmDBPfERqRnxzwVCDVik)
+
 This tutorial will help you to build prototypes that go beyond manifesting a design concept, but are ready for evaluation. This work is directly related to the final project.
 
 <!-- link this to previous one. -->
 <!-- half making, half testing on each other. -->
 
 <!-- <https://hci.stanford.edu/courses/cs247/2012/readings/WhatDoPrototypesPrototype.pdf>-->
-
-
 
 ## Pre-Class Tasks
 1. Choose a user interface described in a [UIST](https://dl.acm.org/conference/uist) or [CHI](https://dl.acm.org/conference/chi) paper
