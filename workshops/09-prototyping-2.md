@@ -16,11 +16,11 @@ This tutorial will help you to build prototypes that go beyond manifesting a des
 ## Pre-Class Tasks
 1. Choose a user interface described in a [UIST](https://dl.acm.org/conference/uist) or [CHI](https://dl.acm.org/conference/chi) paper
 2. Post a forum post (100–200 words) answering:  
-   1. **What is the system and what does it do?**  
-   2. **Which parts of the interface are interactive?** How does the user engage with the system?  
-   3. **What steps/tasks did participants do in the user study?**  
-   4. **If you made a prototype, what would you need to include to test it?**  
-   5. Include **one image or sketch** to illustrate the interface (figure from paper, screenshot, or your annotated sketch highlighting key interactive components).
+   - **What is the system and what does it do?**     
+   - **Which parts of the interface are interactive?** How does the user engage with the system?  
+   - **What steps/tasks did participants do in the user study?**  
+   - **If you made a prototype, what would you need to include to test it?**  
+   - Include **one image or sketch** to illustrate the interface (figure from paper, screenshot, or your annotated sketch highlighting key interactive components).
 
 ## Plan for the Class
 
