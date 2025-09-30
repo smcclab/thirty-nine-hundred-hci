@@ -27,7 +27,6 @@ This tutorial will help you to build prototypes that go beyond manifesting a des
 1. Task 1: Understand the Concept of Testable Interactions (10m)
 2. Task 2: Build a Testable Prototype (50 min)  
 3. Task 3: Prototype Showcase & Peer Feedback (30 min)  
-4. Individual consultation time (30m drop-in following tutorial)
 
 ## In-Class Tasks
 
