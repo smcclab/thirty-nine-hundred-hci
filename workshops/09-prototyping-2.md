@@ -3,7 +3,7 @@ title: Prototyping for Evaluation
 author: Dr Charles Martin
 ---
 
-![Testing a prototype electornic carillon key. This prototype was interactive, clear, evaluative and focused.](img/prototype-carillon-2019.jpg)
+![Testing a prototype electronic carillon key (a [carillon is a big bell tower](https://www.nca.gov.au/attractions/national-carillon) with bells controlled from a big keyboard). This prototype was interactive, clear, evaluative and focused.](img/prototype-carillon-2019.jpg)
 
 This tutorial will guide you in building prototypes that move beyond expressing a design concept and are prepared for evaluation. We will particularly focus on what makes a prototype testable and criteria that you might apply to prototypes you create for your final project.
 
