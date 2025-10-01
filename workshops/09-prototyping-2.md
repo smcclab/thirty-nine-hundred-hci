@@ -120,5 +120,8 @@ Groups will **present and demonstrate their testable prototypes** to the class, 
 - What do prototypes prototype? [@houde1997prototypes]
 - The anatomy of prototypes: Prototypes as filters, prototypes as manifestations of design ideas [@lim-prototypes:2008]
 - [Week 3 lecture on prototyping (link)](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/03-prototype.html#/title-slide)
+- [NNgroup: Paper Prototyping 101](https://www.nngroup.com/videos/paper-prototyping-101/)
+- [NNgroup: Paper prototyping article](https://www.nngroup.com/articles/paper-prototyping/)
+- [NNgroup: the Goldilocks principle for prototyping](https://www.nngroup.com/videos/goldilocks-principle/)
 
 ## References
