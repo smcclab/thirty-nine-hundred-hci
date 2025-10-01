@@ -337,7 +337,7 @@ Let's do some _data analysis_
 A theme is a high level finding from qualitative analysis, but what that means can differ.
 
 - **Two kinds of theme:** patterns of meaning (uncovering implicit meaning behind words) versus data summaries (summarising responses across participants) [@braun-reflexive-thematic-analysis:2019]
-- themes can emerge organically from the data through interpretation, or follow predetermined frameworks and categories
+- themes can be created organically from the data through interpretation, or follow predetermined frameworks and categories
 - no one way is correct, but need to be deliberate in methodology in particular to be careful about:
     - whether themes are a summary or reflect hidden or implicit meaning
     - whether themes arise from data or come from a pre-determined framework
