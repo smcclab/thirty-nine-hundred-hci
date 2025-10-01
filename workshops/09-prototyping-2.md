@@ -3,19 +3,18 @@ title: Prototyping for Evaluation
 author: Dr Charles Martin
 ---
 
-<!-- ![tutorial image goes here, a nice indicative image in wide format, e.g. 1200x650](img/image-name.jpg) -->
 ![Prototyping Illustration](https://media.licdn.com/dms/image/v2/D5622AQGIRq6YCYOECg/feedshare-shrink_800/feedshare-shrink_800/0/1691768560737?e=2147483647&v=beta&t=fNvrgpqVuEacFbzrVw_lEeZCmDBPfERqRnxzwVCDVik)
 
 This tutorial will guide you in building prototypes that move beyond expressing a design concept and are prepared for evaluation, particularly in relation to the concept of testable interfaces. The work is directly connected to the final project.
 
-<!-- link this to previous one. -->
-<!-- half making, half testing on each other. -->
-
-<!-- <https://hci.stanford.edu/courses/cs247/2012/readings/WhatDoPrototypesPrototype.pdf>-->
-
 ## Pre-Class Tasks
-1. Choose a user interface described in a [UIST](https://dl.acm.org/conference/uist) or [CHI](https://dl.acm.org/conference/chi) paper
-2. Post a forum post (100–200 words) answering:  
+
+1. Read @houde1997prototypes "What do prototypes prototype?", available online [here](https://hci.stanford.edu/courses/cs247/2012/readings/WhatDoPrototypesPrototype.pdf)
+
+2. Choose a user interface described in a [UIST](https://dl.acm.org/conference/uist) or [CHI](https://dl.acm.org/conference/chi) paper
+
+3. Post a forum post (100–200 words) answering:
+
    - **What is the system and what does it do?**     
    - **Which parts of the interface are interactive?** How does the user engage with the system?  
    - **What steps/tasks did participants do in the user study?**  
@@ -33,6 +32,7 @@ This tutorial will guide you in building prototypes that move beyond expressing 
 ### Task 1: Understand the Concept of Testable Interactions (10 minutes)
 
 **What makes a prototype testable?**  
+
 A prototype is testable if it lets you **observe and learn from real user interactions**. Ask yourself:
 
 1. **Interactive:** Can users actually perform the steps or tasks you’re trying to test? (even if simulated)
@@ -52,7 +52,8 @@ A prototype is testable if it lets you **observe and learn from real user intera
    - Include the elements needed to test the key task; less focus on aesthetics or extra features.
    - Ask: “Does every part of this prototype help answer my testing question, or can something be removed?”
 
-**Activity:**  
+**Activity:** 
+
 1. In your group, look at the pre-class forum posts.  
 2. Choose **the most interesting system or interface** posted by a group member.  
 3. Discuss:  
@@ -114,10 +115,8 @@ Groups will **present and demonstrate their testable prototypes** to the class, 
 
 
 
-## Resources (optional)
+<!-- ## Resources (optional)
 
-You can include a section with links to external resources that may be necessary but these can also be placed in-line with the tasks.
+You can include a section with links to external resources that may be necessary but these can also be placed in-line with the tasks. -->
 
 ## References
-
-(reference list is added automatically but we need the heading to stay there)
