@@ -115,8 +115,10 @@ Groups will **present and demonstrate their testable prototypes** to the class, 
 
 
 
-<!-- ## Resources (optional)
+## Resources
 
-You can include a section with links to external resources that may be necessary but these can also be placed in-line with the tasks. -->
+- What do prototypes prototype? [@houde1997prototypes]
+- The anatomy of prototypes: Prototypes as filters, prototypes as manifestations of design ideas [@lim-prototypes:2008]
+- [Week 3 lecture on prototyping (link)](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/03-prototype.html#/title-slide)
 
 ## References
