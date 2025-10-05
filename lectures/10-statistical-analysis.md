@@ -1,8 +1,11 @@
 ---
 title: Statistical Analysis
 author: Dr Charles Martin
+title-slide-attributes:
+    data-background-image: img/10_statistical_analysis.jpg
+    data-background-size: cover
 ---
-
+<!-- I like this one but I don't have subscription for downloads: https://unsplash.com/photos/female-programmer-writing-programming-code-on-laptops-and-desktop-computer-at-cozy-home-workplace-close-up-on-hands-and-keyboard-YXC9PuBblTA. -->
 ## Lecture Ideation
 
 What can this lecture be about?
@@ -21,12 +24,34 @@ What can this lecture be about?
 
 ## Plan for the class
 
+## Preparing Data for Analysis
+
+## Descriptive Stats (Recap)
+- Charles has discussed this in week 5.
+
+## Comparing Means.
+- Charles also seemed to have discussed it.
+
 
 ## Statistics: t-tests
 
 - Widely used in HCI to compare means between two conditions (e.g., menu selection times) and test if differences are statistically significant.
 - Include the t-value, degrees of freedom (df), and p-value, where df depends on participant numbers, and p indicates the probability the result is due to chance.
 - `p < 0.05` typically means the difference is significant, allowing rejection of the null hypothesis, with smaller p-values (e.g., <0.01) indicating stronger evidence.
+
+## Analysis of Variance
+
+## Assumption of *t* tests and *F* tests
+
+## Identifying relationships
+
+## Regression
+
+## Nonparametric statistical tests
+
+### Chi-square test
+
+### Others
 
 
 ## Questions: Who has a question?
