@@ -24,7 +24,32 @@ What can this lecture be about?
 
 ## Plan for the class
 
+1. Performing data analysis in details.
+2. Understand the *contexts* of use and *assumptions* of each method.
+3. Interpret results *appropriately*.
+4. Justify the validity of findings in academic contexts.
+
 ## Preparing Data for Analysis
+
+> Week 5 content recap: Why are the needs for data pre-processing?
+
+- Manually entered, errors, inconsistent formats.
+- Primitive which need higher level coding.
+- Specific statistical analysis method or software require layout or format
+[@delwiche2019little].
+
+## Preparing Data for Analysis
+
+1. Cleaning up data
+    - basic check for manual errors, all data are correctly grouped, remove problematic ones.
+2. Coding data
+3. Organising data 
+
+Charles does live coding demo -- colab link.
+
+
+
+
 
 ## Descriptive Stats (Recap)
 - Charles has discussed this in week 5.
