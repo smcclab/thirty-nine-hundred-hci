@@ -48,25 +48,34 @@ What can this lecture be about?
 Charles does live coding demo -- colab link.
 
 
-
-
-
 ## Descriptive Stats (Recap)
 - Charles has discussed this in week 5.
 
-## Comparing Means.
+It's covered in collab.
+
+## Comparing Means
 - Charles also seemed to have discussed it.
 
+It's covered in collab.
 
 ## Statistics: t-tests
+
+See collab.
 
 - Widely used in HCI to compare means between two conditions (e.g., menu selection times) and test if differences are statistically significant.
 - Include the t-value, degrees of freedom (df), and p-value, where df depends on participant numbers, and p indicates the probability the result is due to chance.
 - `p < 0.05` typically means the difference is significant, allowing rejection of the null hypothesis, with smaller p-values (e.g., <0.01) indicating stronger evidence.
 
+
 ## Analysis of Variance
 
+See collab.
+
 ## Assumption of *t* tests and *F* tests
+
+- Homogeneity of variance: when multiple groups are compared, tests are more accurate if variances of the sample population are nearly equal.
+    - Use transformation techniques when not.
+- Errors should be normally distributed, otherwise highly skewed data result in false results!
 
 ## Identifying relationships
 
@@ -74,9 +83,19 @@ Charles does live coding demo -- colab link.
 
 ## Nonparametric statistical tests
 
+See collab.
+
 ### Chi-square test
 
+See collab.
+
 ### Others
+
+- Data collected from two independent samples (e.g., between group).
+    - Consider Mann-Whitney U test/Wald-Wolfowitz run test.
+- Two datasets from the same user group - paired-samples t test; otherwise Wilcoxon signed ramks test.
+- Three or more datasets: Kruskal-Wallis one-way ANOVA.
+    - dependent: Friedman's two-way ANOVA.
 
 
 ## Questions: Who has a question?
