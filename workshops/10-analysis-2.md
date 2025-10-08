@@ -5,79 +5,177 @@ author: Dr Charles Martin
 
 <!-- ![tutorial image goes here, a nice indicative image in wide format, e.g. 1200x650](img/image-name.jpg) -->
 
-This tutorial is focussed on how to analyse the information found through an evaluation and how to develop that knowledge into design recommendations. This work is directly related to the final project.
-
-<!-- link this to previous one. -->
-
-- What is a finding?
-- Further guided examples on how to create themes
-  - need videos, more guided 
-- Going from numbers to a finding
-- Synthesising (triangulating) insights from different aspects of evaluation to develop a finding.
-
-<!-- Anneysha will contribute to some of this! -->
-
+In this tutorial, we will bring together and extend our understanding of analysing qualitative and quantitative data using multimedia analysis, inter-operator reliability rating, and triangulation techniques.
 
 ## Pre-Class Tasks
 
-The pre-class task(s) need to be _ultra clear_ so that students can complete them before the tutorial without assistance from staff.
+### Prepare
 
-Refer to the assessment page `00-pre-and-in-class-tasks.md` to see what students are expected to do. The task should involve reading, thinking, and/or doing with the outcome as:
+1. Revisit Week 6: Reflexive Thematic Analysis and Week 10: Statistical Analysis lectures to connect qualitative and quantitative approaches. Watch this [video](https://www.youtube.com/watch?v=zC6H5v2yuxc) on applying Braun and Clarke’s thematic analysis, focusing on how themes are developed; and read [Braun and Clarke (2006)](https://www.tandfonline.com/doi/abs/10.1191/1478088706qp063oa), pp. 94–97 *(Potential pitfalls and What makes good thematic analysis?)* to strengthen your understanding.
 
-- 100-200 word post on the course forum including
-- at least two references
-- possibly one image
+### Discover
 
-The task should be something that can be assessed so should include possibility for different levels of achievement (e.g., a really basic response or a detailed and outstanding response).
+2. Use the [ACM CCS Topics Tool](https://dl.acm.org/ccs) to guide your selection of an HCI subtopic. Start with the top-level category **Human-centred computing**. Drill down into a more specific area that interests you (e.g., Accessibility systems and tools, Interaction Design). Paste this area into the [ACM Digital Library](https://dl.acm.org/). Using the search term, choose **two papers** published in one of the [SIGCHI conferences](https://sigchi.org/conferences/). Both papers must include a user study such as interviews, workshops, field studies, etc. Read the sections where the authors present and interpret their study outcomes. These may be titled **Findings, Results, Analysis, Reflections, or Discussion** (not all papers use the same labels). Treat these sections as your 'raw data'.
 
-The task will be checked by the tutor at the start of the lab (by filtering by category in the course forum).
+    > Worked Example:  
+    2.1. Selected CCS concept: Human-centered computing → Accessibility → **Accessibility systems and tools**  
+    2.2. Search *Accessibility systems and tools* in ACM DL, filter by *ACM SIG Sponsors* to select SIGCHI conferences. Additionally you may filter by *Proceedings series* to select a conference of your choice.  
+    2.3. Find relevant papers from this pool, depending upon alignment with the task and your interest.
+
+3. Analyse: From the two papers, identify at least one theme that cuts across both. Based on this theme, write your own implication to the theme in 2-3 sentences.
+    > Tip: A theme is the organising idea, while an implication to a theme is the interpreted insight you want readers to take away. One good way to internalise the difference is by looking at examples from various conference venues within the wider HCI field. Here are some papers demonstrate the use of themes and implications: [Deng et al (2022)](https://dl.acm.org/doi/10.1145/3491102.3501926) *pages 11-16*, [Karim and Zabin et al (2025)](https://dl.acm.org/doi/10.1145/3706599.3719895) *pages 3-5*, [Choi et al (2024)](https://dl.acm.org/doi/10.1145/3678299.3678321) *pages 221-224*, [Adiwangsa et al (2024)](https://dl.acm.org/doi/10.1145/3613904.3641897) *pages 5-8*.
+
+### Share
+
+4. Post on Ed: Your submission must include:
+- CCS Concept (see 2.1 in the Worked Example under sub-task 2)
+- Citations of the two papers you analysed
+- Your theme(s) and implication(s) in your own words. You must present at least two themes and one implication for each, but could do up to four design implications for each theme for practice.
+
+This pre-class task offers a first step in triangulation, combining results from different papers to practise how mixed methods approaches build stronger, more credible design implications.
 
 ## Plan for the Class
 
-You could include a schedule here for what will happen in the class. This will benefit the tutor as they can keep on track. Each required in-class task should have a different point in a numbered list.
-
-1. look at pre-class tasks (20m)
-2. Task 1: do something (30m)
-3. Task 2: do something else (20m)
-4. Task 3: an even more interesting, and yet different, thing (20m)
-5. Extra Tasks (if time)
-6. Individual consultation time (30m drop-in following tutorial)
+0. Review the pre-class tasks together (15 mins)
+1. Further Qualitative Analysis (30 mins)
+2. Further Quantitative Analysis (20 mins)
+3. Triangulation (25 mins)
 
 ## In-Class Tasks
 
-The in class tasks should each have a separate heading at the `###` level. The task descriptions need to be clear enough to students to potentially complete on their own (if absent) and to tutors to run as a class. I suggest that some tasks involve individual work, and some involve collaborative work in groups of 4--6 students (e.g., tables in standard classrooms), and some involve whole class discussions (e.g., building a Miro board)
+### Task 0: Themes and Their Implications (15 mins)
 
-The tasks should have a deliverable that tutors can sight at the end of the task to verify students have engaged with work. E.g., a document, an image, a sketch, a prototype, a program, a plan, a reference list, a contribution to the miro board etc.
+This exercise will teach you how to build insights from themes, do this as part of the reflection exercise from the pre-class task. Read [Maguire and Delahunt (2017)](https://ojs.aishe.org/index.php/aishe-j/article/view/335) for an elaborated example.
 
-The 90-minute classes should have 2-4 required tasks with the regular expectation being 3 taking around 20 minutes each.
+#### Think (3 mins)
+Individually, review the themes and implications you generated from the two papers in your pre-class task. Consider:
+- Which finding within your theme was the strongest or most insightful? Why?
+- Were there overlaps within implications?
+- How did your codes when reading the authors' implications and discussions inform and support your strongest/ insightful implications?
+- How did you turn your theme into this implications? Could it be stated more clearly?
 
-It's a good idea to provide an Extra Task in case the regular tasks are quicker than expected or if a student is very fast through work.
+Write down 1-2 sentences answering these questions.
 
-### Task 1: Do Something
+#### Group (5 mins)
+Group up with 2-4 classmates. Complete the table below together using your own theme-implications pairs as examples:
 
-Here's the task description. Task descriptions should have some references so that the class is research-led. We want to continually point students to CHI papers [@rogers-never-old:2014] etc so that they are reminded of the context of HCI research [@rogers-beyond-hci:2023, p.100; @Norman:2013].
+| Theme | Implication | Notes/Reflection |
+|-------|---------|--------|
+e.g., Co-designing in a foreign cultural context (Papers: [Bidwell and Reitmaier et al, 2010](https://dl.acm.org/doi/10.1145/1753326.1753564); [Dourish et al, 2020](https://dl.acm.org/doi/10.1145/3313831.3376545))| There needs to be a balance between engaging in co-design with different cultures and avoiding overburdening them.  | Your 1-2 sentences from the *Think* exercise above. |
+Theme by group member 1 | Implication by group member 1 | Notes/ Reflections by group member 1 |
+Theme by group member 2 | Implication by group member 2 | Notes/ Reflections by group member 2 |
 
-### Task 2: do something else 
+Discuss together:
+- How are your implications different from simply restating the theme?
+- How do your implications interpret the data or highlight significance?
 
-Task description
+#### Share (7 mins)
 
-### Task 3: an even more interesting, and yet different, thing
+Groups have the choice of sharing their thoughts on any of the following questions with the class:
+- What makes a strong implication?
+- How can you redefine implications so they go beyond the theme?
+- How does thinking about themes first help you generate insightful implications?
 
-Task description
 
-### Extra Tasks
+### Task 1: Further Qualitative Analysis (30 mins)
 
-Some other tasks
+You and your group of 3-5 members will work with a set of images from Peter Bennetts' Tuvalu series (1998 - 2001) to practise deeper qualitative analysis including coding, theme-building, reliability scoring, and generating implications.
 
-- They
-- could
-- be a list
-- of increasingly impossible tasks
+#### The Prompt (5 mins)
+Visit the Tuvalu project by Peter Bennetts [here](https://peterbennetts.com/project/view/project/tuvalu-1998-present). Think about the context: Tuvalu is a low-lying island country vulnerable to sea level rise. The images show people, places, environmental context, and changes over time.
 
-## Resources (optional)
+As a group, define a lens/ focus for your analysis. Some examples:
 
-You can include a section with links to external resources that may be necessary but these can also be placed in-line with the tasks.
+- Human experience of environmental change
+- How landscapes and/ or community infrastructure respond to rising water
+- Daily life and resilience
+- Visibility of climate change impacts
 
-## References
+#### Data Collection (10 mins)
 
-(reference list is added automatically but we need the heading to stay there)
+1. From the Tuvalu photo set, select 6-8 images that are especially evocative for your chosen lens. You will need to scroll right to access all the images.
+2. Download them or note their IDs on your sticky notes.
+3. Make sure to include a range showing people, environment, infrastructure, etc.
+
+#### Multimedia Analysis (15 mins)
+
+1. **Individual Coding:** Each person in the group codes all selected images on their own first. Coding procedure from Lecture 6 on Thematic Analysis still applies here. Your codes should be short descriptive labels tied to **something you can see or infer** (e.g., happy children, community gathering)
+2. **Shared Codes and Theme Building:** Bring all the sticky notes for individual codes together. Look for similar codes across people. Which codes match / approximate one another? Where are the differences?  
+
+Then, cluster the codes into themes. Try to settle on 2-3 themes that you feel capture meaningful patterns across the images.
+
+3. **Record:** Record your implications in the shared spreadsheet.
+
+#### Anchor Paper
+
+We adapt the research context of co-designing with the Global South, and multimedia analysis method applied by the following authors in this task.
+
+- Nicola J. Bidwell, Thomas Reitmaier, Gary Marsden, and Susan Hansen. 2010. Designing with mobile digital storytelling in rural Africa. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '10). Association for Computing Machinery, New York, NY, USA, 1593–1602. https://doi.org/10.1145/1753326.1753564
+
+### Task 2: Further Quantitative Analysis (20 mins)
+
+We now extend our work from Task 1 by examining inter-operator reliability and using plots to visualise our results.
+
+#### Inter-operator reliability (13 mins)
+
+When multiple researchers code the same data, they might not always agree. Inter-operator (or inter-rater) reliability measures how consistently different people apply codes to the same dataset. High reliability suggests the coding framework is clear and shared; low reliability suggests ambiguity or differences in interpretation.
+
+Your task:
+
+1. Re-visit the 6-8 images your group coded in Task 1.
+2. For each image, compare the codes assigned by each group member.
+3. Record how often coders agreed by using the same or very similar code, versus disagreed. Calcular percent agreement (e.g., 5 agreements out of 8 decisions = 62.5%).
+4. Record your implications in the shared spreadsheet.
+
+#### Plots (7 mins)
+
+Using the group dataset, create at least one plot to represent reliability visually. Carefully consider an appropriate plot depending upon the type of data you are plotting. Discuss with your tutor your group's usecase, who will be walking around to help out.
+
+You can use spreadsheet to make your plots, no need to use programming tools such as Python, to allow to save some time. Record your plot in the shared spreadsheet.
+
+Discuss in your group:
+
+- What does the plot show about your group's coding consistency?
+- Which type of plot most effectively communicates your reliability data?
+- Why might one type of plot be more appropriate than another for this context.
+
+#### Anchor Paper
+
+- N. Davis, C. Hsiao, K. Y. Singh, B. Lin, and B. Magerko. 2017. Quantifying Collaboration with a Co-Creative Drawing Agent. ACM Trans. Interact. Intell. Syst. 7, 4, Article 19 (December 2017), 25 pages. https://doi.org/10.1145/3009981
+
+### Task 3: Triangulation (25 mins)
+
+Triangulation is about stengthening your analysis by bringing together different sources of evidence or different perspectives on the same data. We can gain more confidence in our implications and notice where interpretations converge or diverge.
+
+#### Bringing it Altogether (10 mins)
+
+1. Review your group's themes and implications from Task 1.
+2. Compare these against your inter-operator reliability results from Task 2. Reflect:
+    - Do your most reliable codes correspond to your strongest themes?
+    - Where coding reliability was low, did it affect the strength or clarity of your implications?
+3. Broaden your view by looking at what other groups have reported. What themes overlap with yours? What is different?
+4. Create a short synthesis (3-4 sentences) of how your group's implications sit alongside others. Consider wherther combining perspectives creates a richer picture.
+
+#### Reflection - What Might Have We Missed? (13 mins)
+
+Qualitative analysis is never complete since it may be limited to reflecting certain lenses, data choices, and interpretations.
+
+As a group, reflect on these questions:
+
+- If we had access to another kind of data (e.g., interviews, participant diaries, environmental measurements), what new insights could emerge?
+- How might our themes and implications change if we had more time, more coder, or different disciplinary perspectives?
+- What voices, contexts, or details might be missing from our current analysis of the images?
+
+Write a short paragraph (5-6 sentences) summarising your group's reflection.
+
+#### Closing Task (2 mins)
+
+Post your written triangulation synthesis (3-4 sentences) and reflections on what we might have missed (5-6 sentences) as a reply to your tutor's Ed post, within the `In-Class Tasks` thread for Week 11.
+
+#### Anchor Resource
+
+- https://www.nngroup.com/articles/triangulation-better-research-results-using-multiple-ux-methods/
+
+### Summary
+
+In this tutorial, you practised generating codes from visual data, building themes, and transforming themes into implications. You assessed coding consistency through inter-operator reliability and represented your results visually using a plot. You triangulated across your group’s work and compared with others to strengthen or challenge design implications, and reflected critically on the limits of your analysis. Through these activities, we hope that you gained practical experience in producing credible, interpretable insights from qualitative data.
