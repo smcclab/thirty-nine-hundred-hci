@@ -5,22 +5,15 @@ title-slide-attributes:
     data-background-image: img/10_statistical_analysis.jpg
     data-background-size: cover
 ---
-<!-- I like this one but I don't have subscription for downloads: https://unsplash.com/photos/female-programmer-writing-programming-code-on-laptops-and-desktop-computer-at-cozy-home-workplace-close-up-on-hands-and-keyboard-YXC9PuBblTA. -->
-## Lecture Ideation
-
-What can this lecture be about?
-
-- Lazar Chapter 4 Statistical Analysis (get up to _p_ and ANOVA properly)
-- Python examples
-- Put together a colab.google notebook to demo with fake data
-- Put activities to collect some live in lectures (if enough people show up)
-
-### Maybe not these things.
-
-- conceptualising interaction (Interaction Design chapter 3 was missed?)
-- data at scale ethical concerns (interaction design chapter 10)
 
 ## Announcements
+
+- final project specification available
+- final project repo not available yet
+- assignment 2: marks out next week.
+- week 11: last "tutorial"
+- week 12: drop ins (same time) to help with your final project.
+- weather is getting nice! go outside! (watch this lecture outside!)
 
 ## Plan for the class
 
@@ -31,46 +24,43 @@ What can this lecture be about?
 
 ## Preparing Data for Analysis
 
-> Week 5 content recap: Why are the needs for data pre-processing?
+ Week 5 content recap: Why are the needs for data pre-processing?
 
 - Manually entered, errors, inconsistent formats.
 - Primitive which need higher level coding.
-- Specific statistical analysis method or software require layout or format
+- Specific statistical analysis method or software require layout or format 
 [@delwiche2019little].
 
-## Preparing Data for Analysis
+## Steps for preparing data
 
-1. Cleaning up data
-    - basic check for manual errors, all data are crrectly grouped, remove problematic ones.
-2. Coding data
-    - why? needs to check with charles.
-3. Organising data 
-    - I think it's a bit dated.
-    
+1. Cleaning up data: basic check for manual errors, all data are correctly grouped, remove problematic ones.
+2. "Coding" data, sometimes need to manually change data to numerical codes (e.g., Likert scales)
+3. Organising data: make sure your data is in sensible formats and can be safely saved for publication or storage.
+
 Charles does live coding demo -- colab link.
 
-
 ## Descriptive Stats (Recap)
+
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
--  Measures of Central Tendency
-    - Describe where most data is clustered, shows the representative characteristic.
-    - Mean, median, mode.
--  Measures of Spread
-    - *measuring variability*, tells us how much data values differ from the center.
-    - Range, variance, std.
+
+- Measures of Central Tendency
+  - Describe where most data is clustered, shows the representative characteristic.
+  - Mean, median, mode.
+- Measures of Spread
+  - *measuring variability*, tells us how much data values differ from the center.
+  - Range, variance, std.
 
 - Normal distribution: bell-shaped, symmetrical curve defined by mean and standard deviation.
-    - Many statistical tests (e.g., t-tests, ANOVAs) assume normality.
-    - Can use tests or plots to check for normality.
-    - If not normal: consider data transformation or nonparametric tests.
+  - Many statistical tests (e.g., t-tests, ANOVAs) assume normality.
+  - Can use tests or plots to check for normality.
+  - If not normal: consider data transformation or nonparametric tests.
 
 :::
 ::: {.column width="40%"}
 ![Normal distribution curve.](img/normal-distribution-curve.jpg){width="50%"}
 :::
 ::::::::::::::
-
 
 ## Comparing Means (Recap)
 
