@@ -11,7 +11,7 @@ In this tutorial, we will bring together and extend our understanding of analysi
 
 ### Prepare
 
-1. Revisit Week 6: Reflexive Thematic Analysis and Week 10: Statistical Analysis lectures to connect qualitative and quantitative approaches. Watch this [video](https://www.youtube.com/watch?v=zC6H5v2yuxc) on applying Braun and Clarke’s thematic analysis, focusing on how themes are developed; and read [Braun and Clarke (2006)](https://www.tandfonline.com/doi/abs/10.1191/1478088706qp063oa), pp. 94–97 *(Potential pitfalls and What makes good thematic analysis?)* to strengthen your understanding.
+1. Revisit Week 6: Reflexive Thematic Analysis and Week 10: Statistical Analysis lectures to connect qualitative and quantitative approaches. Watch this [video](https://www.youtube.com/watch?v=zC6H5v2yuxc) on applying Braun and Clarke’s thematic analysis, focusing on how themes are developed; and read [Braun and Clarke (2006)](https://www.tandfonline.com/doi/abs/10.1191/1478088706qp063oa), pp. 94–97 (Potential pitfalls and What makes good thematic analysis?) to strengthen your understanding.
 
 ### Discover
 
@@ -24,7 +24,8 @@ Worked Example:
     2.3. Find relevant papers from this pool, depending upon alignment with the task and your interest.
 
 3. Analyse: From the two papers, identify at least one theme that cuts across both. Based on this theme, write your own implication to the theme in 2-3 sentences.
-    > Tip: A theme is the organising idea, while an implication to a theme is the interpreted insight you want readers to take away. One good way to internalise the difference is by looking at examples from various conference venues within the wider HCI field. Here are some papers demonstrate the use of themes and implications: [Deng et al (2022)](https://dl.acm.org/doi/10.1145/3491102.3501926) *pages 11-16*, [Karim and Zabin et al (2025)](https://dl.acm.org/doi/10.1145/3706599.3719895) *pages 3-5*, [Choi et al (2024)](https://dl.acm.org/doi/10.1145/3678299.3678321) *pages 221-224*, [Adiwangsa et al (2024)](https://dl.acm.org/doi/10.1145/3613904.3641897) *pages 5-8*.
+
+Tip: A theme is the organising idea, while an implication to a theme is the interpreted insight you want readers to take away. One good way to internalise the difference is by looking at examples from various conference venues within the wider HCI field. Here are some papers demonstrate the use of themes and implications: [Deng et al (2022)](https://dl.acm.org/doi/10.1145/3491102.3501926) *pages 11-16*, [Karim and Zabin et al (2025)](https://dl.acm.org/doi/10.1145/3706599.3719895) *pages 3-5*, [Choi et al (2024)](https://dl.acm.org/doi/10.1145/3678299.3678321) *pages 221-224*, [Adiwangsa et al (2024)](https://dl.acm.org/doi/10.1145/3613904.3641897) *pages 5-8*.
 
 ### Share
 
