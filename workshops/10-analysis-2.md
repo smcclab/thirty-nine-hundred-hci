@@ -3,7 +3,7 @@ title: Analysing Evaluations
 author: Dr Charles Martin
 ---
 
-<!-- ![tutorial image goes here, a nice indicative image in wide format, e.g. 1200x650](img/image-name.jpg) -->
+![Creating research that will be ready for big conference stages!](img/conference-hall.jpg)
 
 In this tutorial, we will bring together and extend our understanding of analysing qualitative and quantitative data using multimedia analysis, inter-operator reliability rating, and triangulation techniques.
 
@@ -100,10 +100,7 @@ As a group, define a lens/ focus for your analysis. Some examples:
 #### Multimedia Analysis (15 mins)
 
 1. **Individual Coding:** Each person in the group codes all selected images on their own first. Coding procedure from Lecture 6 on Thematic Analysis still applies here. Your codes should be short descriptive labels tied to **something you can see or infer** (e.g., happy children, community gathering)
-2. **Shared Codes and Theme Building:** Bring all the sticky notes for individual codes together. Look for similar codes across people. Which codes match / approximate one another? Where are the differences?  
-
-Then, cluster the codes into themes. Try to settle on 2-3 themes that you feel capture meaningful patterns across the images.
-
+2. **Shared Codes and Theme Building:** Bring all the sticky notes for individual codes together and cluster the codes into themes. Try to settle on 2-3 themes that you feel capture meaningful patterns across the images.
 3. **Record:** Record your implications in the shared spreadsheet.
 
 We adapt the research context of co-designing with the Global South, and multimedia analysis method applied by the following authors in this task:  @bidwell-designing-mobile-storytelling:2010
@@ -166,6 +163,7 @@ Post your written triangulation synthesis (3-4 sentences) and reflections on wha
 
 ## Resources
 
+- Tuvalu project by Peter Bennetts [link](https://peterbennetts.com/project/view/project/tuvalu-1998-present)
 - Designing with mobile digital storytelling in rural Africa [@bidwell-designing-mobile-storytelling:2010]
 - Quantifying Collaboration with a Co-Creative Drawing Agent. [@davis-quantifying-collaboration:2017]
 - https://www.nngroup.com/articles/triangulation-better-research-results-using-multiple-ux-methods/
