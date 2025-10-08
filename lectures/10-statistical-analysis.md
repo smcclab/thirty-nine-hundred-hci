@@ -41,22 +41,76 @@ What can this lecture be about?
 ## Preparing Data for Analysis
 
 1. Cleaning up data
-    - basic check for manual errors, all data are correctly grouped, remove problematic ones.
+    - basic check for manual errors, all data are crrectly grouped, remove problematic ones.
 2. Coding data
+    - why? needs to check with charles.
 3. Organising data 
-
+    - I think it's a bit dated.
+    
 Charles does live coding demo -- colab link.
 
 
 ## Descriptive Stats (Recap)
-- Charles has discussed this in week 5.
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+-  Measures of Central Tendency
+    - Describe where most data is clustered, shows the representative characteristic.
+    - Mean, median, mode.
+-  Measures of Spread
+    - *measuring variability*, tells us how much data values differ from the center.
+    - Range, variance, std.
 
-It's covered in collab.
+- Normal distribution: bell-shaped, symmetrical curve defined by mean and standard deviation.
+    - Many statistical tests (e.g., t-tests, ANOVAs) assume normality.
+    - Can use tests or plots to check for normality.
+    - If not normal: consider data transformation or nonparametric tests.
 
-## Comparing Means
-- Charles also seemed to have discussed it.
+:::
+::: {.column width="40%"}
+![Normal distribution curve.](img/normal-distribution-curve.jpg){width="50%"}
+:::
+::::::::::::::
 
-It's covered in collab.
+
+## Comparing Means (Recap)
+
+In situation to fetermine if differences between groups/conditions are statistically significant.
+
+- Between-group design: Different participants in each condition.
+- Within-group design: Same participants experience all conditions.
+
+> Why Not Just Compare Means?
+
+Means alone don’t account for data variance.
+
+Need statistical tests to assess whether observed differences are significant (typically p < 0.05).
+
+- Significance Testing
+    - Compares explained variance (from independent variable) vs. unexplained variance (random/error).
+    - Low p-value = low probability difference occurred by chance: likely a real effect.
+
+## Comparing Means (Recap)
+- Common Tests (demo as follows!)
+
+<!-- ::: {.small-table}
+| Test Type | Specific Test | Use Case |
+|-----------|---------------|----------|
+| **t Test** | - Independent-samples t test<br>- Paired-samples t test | - Between-group comparison (2 groups)<br>- Within-group comparison (same participants, 2 conditions) |
+| **ANOVA** | - One-way ANOVA<br>- Factorial ANOVA<br>- Repeated measures ANOVA<br>- Split-plot ANOVA | - One independent variable, 3+ groups<br>- Multiple independent variables<br>- Same participants across 3+ conditions<br>- Mix of between- and within-subject factors |
+::: -->
+
+<!-- I like my table more. -->
+| **Test Type**        | **Specific Test**              | **Use Case**                                         |
+|----------------------|--------------------------------|------------------------------------------------------|
+| **t Test**           | Independent-samples t test     | Between-group comparison (2 groups)                 |
+|                      | Paired-samples t test          | Within-group comparison (same participants, 2 conditions) |
+| **ANOVA**            | One-way ANOVA                  | 1 independent variable, 3+ groups                    |
+|                      | Factorial ANOVA                | 2+ independent variables                            |
+|                      | Repeated measures ANOVA        | Same participants across 3+ conditions              |
+|                      | Split-plot ANOVA               | Mix of between- and within-subject factors          |
+
+
+
 
 ## Statistics: t-tests
 
@@ -79,7 +133,40 @@ See collab.
 
 ## Identifying relationships
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Understand how variables relate to each other (e.g., is age or experience related to performance?)
+
+- Correlation
+    - Measures the strength and direction of the linear relationship between two variables.
+    - Most common method: Pearson's r: range: −1.00 to 1.00 (negative, positive, no linear).
+- Pearson’s r² (Coefficient of Determination)
+    - Represents the shared variance between two variables.
+    - Example: If r = 0.70, then r² = 0.49, meaning 49% of variance in one variable is explained by the other.
+
+Note:
+Correlation ≠ Causation
+E.g., income vs. performance may be correlated due to an intervening variable (e.g., age).
+:::
+::: {.column width="40%"}
+![Relationship between correlated variables and an intervening variable.](img/correlated-variables.jpg){width="70%"}
+:::
+::::::::::::::
+
 ## Regression
+
+Examine the relationship between one dependent variable and one or more independent variables.
+
+
+- Simultaneous (Standard) Regression
+    - All independent variables entered at once.
+    - Measures combined influence on the dependent variable.
+    - Result: R² = % variance explained by all predictors as a group.
+- Hierarchical Regression
+    - Variables entered in blocks/steps, based on theory.
+    - Testing individual predictors after accounting for others (e.g., covariates).
+    - Controlling for known influences (e.g., age) before testing new variables.
+
 
 ## Nonparametric statistical tests
 
