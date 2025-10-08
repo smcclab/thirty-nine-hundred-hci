@@ -148,6 +148,6 @@ Remember that every tutorial in the course is followed by a 30 minute drop-in --
 - Tuvalu project by Peter Bennetts [link](https://peterbennetts.com/project/view/project/tuvalu-1998-present)
 - Designing with mobile digital storytelling in rural Africa [@bidwell-designing-mobile-storytelling:2010]
 - Quantifying Collaboration with a Co-Creative Drawing Agent. [@davis-quantifying-collaboration:2017]
-- https://www.nngroup.com/articles/triangulation-better-research-results-using-multiple-ux-methods/
+- <https://www.nngroup.com/articles/triangulation-better-research-results-using-multiple-ux-methods/>
 
 ## References
