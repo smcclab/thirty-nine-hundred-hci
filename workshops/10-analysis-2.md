@@ -17,7 +17,8 @@ In this tutorial, we will bring together and extend our understanding of analysi
 
 2. Use the [ACM CCS Topics Tool](https://dl.acm.org/ccs) to guide your selection of an HCI subtopic. Start with the top-level category **Human-centred computing**. Drill down into a more specific area that interests you (e.g., Accessibility systems and tools, Interaction Design). Paste this area into the [ACM Digital Library](https://dl.acm.org/). Using the search term, choose **two papers** published in one of the [SIGCHI conferences](https://sigchi.org/conferences/). Both papers must include a user study such as interviews, workshops, field studies, etc. Read the sections where the authors present and interpret their study outcomes. These may be titled **Findings, Results, Analysis, Reflections, or Discussion** (not all papers use the same labels). Treat these sections as your 'raw data'.
 
-    > Worked Example:  
+Worked Example:
+
     2.1. Selected CCS concept: Human-centered computing → Accessibility → **Accessibility systems and tools**  
     2.2. Search *Accessibility systems and tools* in ACM DL, filter by *ACM SIG Sponsors* to select SIGCHI conferences. Additionally you may filter by *Proceedings series* to select a conference of your choice.  
     2.3. Find relevant papers from this pool, depending upon alignment with the task and your interest.
