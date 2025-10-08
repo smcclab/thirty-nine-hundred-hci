@@ -87,21 +87,21 @@ Here's how to get started with the work in this assignment:
 
 2. Ideate and design a _testable_ prototype as a solution to the design and evaluation challenge. Use your [research skills](https://scholar.google.com) to find examples of related systems (e.g., at CHI) and use them to inform your process.
 
-2. Create an [evaluation plan](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/developing-an-evaluation-plan).  Make sure your study plan is realistic.
+3. Create an [evaluation plan](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/developing-an-evaluation-plan).  Make sure your study plan is realistic.
 
-3. Find participants -- **they must be current COMP3900/6390 students**. Attend all classes and find 3--5 people in your tutorial who will participate in each others' studies. Don't leave this until the last minute!
+4. Find participants -- **they must be current COMP3900/6390 students**. Attend all classes and find 3--5 people in your tutorial who will participate in each others' studies. Don't leave this until the last minute!
 
-4. Collect data with your participants. You could do this during a drop-in session. You will need to participate in other people's studies as well ask them to participate in yours. (don't make up the data).
+5. Collect data with your participants. You could do this during a drop-in session. You will need to participate in other people's studies as well ask them to participate in yours. (don't make up the data).
 
-5. Analyse your data. Use the analysis techniques covered in classes. Remember that you do not need to collect both quantitative and qualitative data in this assessment and can choose what data and analyses to perform depending on your design choices and interests.
+6. Analyse your data. Use the analysis techniques covered in classes. Remember that you do not need to collect both quantitative and qualitative data in this assessment and can choose what data and analyses to perform depending on your design choices and interests.
 
-6. Summarise your findings. Your overall conclusions should be supported by data and analysis.
+7. Summarise your findings. Your overall conclusions should be supported by data and analysis.
 
-7. Write up your project in the correct format in your fork of the gitlab repository. Make sure you are using correct markdown syntax and have included all data and analysis files in your repository.
+8. Write up your project in the correct format in your fork of the gitlab repository. Make sure you are using correct markdown syntax and have included all data and analysis files in your repository.
 
-8. Create and record a presentation following the instructions above. Ensure that the presentation video is in `.mp4` format, and is less than 330 seconds. Make sure that you record your own voice and include video of your face in the presentation video. You can [do this using Microsoft Powerpoint](https://support.microsoft.com/en-au/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33) (ANU-provided software). Upload your recorded presentation as `project-presentation.mp4` in your fork of the project repository.
+9. Create and record a presentation following the instructions above. Ensure that the presentation video is in `.mp4` format, and is less than 330 seconds. Make sure that you record your own voice and include video of your face in the presentation video. You can [do this using Microsoft Powerpoint](https://support.microsoft.com/en-au/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33) (ANU-provided software). Upload your recorded presentation as `project-presentation.mp4` in your fork of the project repository.
 
-8. Acknowledge your research participants by listing them in your _Acknowledgements_ section.
+10. Acknowledge your research participants by listing them in your _Acknowledgements_ section.
 
 Here's some general advice:
 
