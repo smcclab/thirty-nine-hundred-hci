@@ -1,5 +1,5 @@
 ---
-title: Analysing Evaluations
+title: From Theme to Implication
 author: Dr Charles Martin
 ---
 
@@ -33,8 +33,9 @@ This pre-class task offers a first step in triangulation, combining results from
 
 0. Review the pre-class tasks together (15 mins)
 1. Further Qualitative Analysis (30 mins)
-2. Further Quantitative Analysis (20 mins)
-3. Triangulation (25 mins)
+2. Inter-rater reliability (15 mins)
+3. Triangulation (15 mins)
+4. Research Cluster Meeting (15 mins)
 
 ## In-Class Tasks
 
@@ -126,7 +127,7 @@ As a group, reflect on these questions:
 
 Write a short paragraph (5-6 sentences) summarising your group's reflection. -->
 
-### Task 4: Research cluster meeting (20 mins)
+### Task 4: Research cluster meeting (15 mins)
 
 The last 20 minutes of this workshop is dedicated to re-forming your research clusters (or forming new ones if you want) and sharing some plans for your final projects[^secrets]. It's ok if you haven't completely decided on your final projects yet, this meeting is to understand and discuss ideas.
 
