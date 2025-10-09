@@ -341,11 +341,94 @@ print(f"P-value: {p:.4f}")
 
 ![Studying different kinds of musical instruments.](img/2015-study-observation.jpg){width=50%}
 
-## Comparing iPad Performances
+## Comparing AI models on a physical musical instrument
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Research question:
+
+> What effects will different machine learning models and feedback mechanisms have on simple improvised music performances?
+
+"Understanding Musical Predictions with an Embodied Interface for Musical Machine Learning"
+@martin-understanding-musical-predictions:2020
+
+:::
+::: {.column width="40%"}
+![The Embodied Musical Predictive Instrument (EMPI)](img/empi_system.jpg)
+:::
+::::::::::::::
+
+## IMPSY Experiment Design
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
+- 12 participants did a short improvisation with each ML model and with the motor turned on and off.
+- Six improvisation for each performer!
+- 3 by 2 design
+- Used quantitative data to compare the six experiences
+- Survey of 8 aspects of the performance
+- Measured length of improvisations
+
+:::
+::: {.column width="50%"}
+
+|  X       |   Motor off  |   Motor on  |
+|----------|--------------|-------------|
+|   Human  |   Human/Off  |   Human/On  |
+|   Synth  |   Synth/Off  |   Synth/On  |
+|   Noise  |   Noise/Off  |   Noise/On  |
+
+:::
+::::::::::::::
+
+## Survey Results: ART ANOVA and pairwise t-tests
+
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+
+- Change of ML model has significant effect: Q2, Q4, Q5, Q6, Q7
+- Human model most "related" and "creative", noise least.
+- Noise model not rated badly!
+
+:::
+::: {.column width="60%"}
+![Distributions of survey results.](img/empi_survey_boxplot_results.jpg)
+:::
+::::::::::::::
+
+## Performance Length
+
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+
+- Human and synth: more range of performance lengths with motor on.
+- Noise: more range with motor off.
+
+:::
+::: {.column width="60%"}
+![Distributions of performance lengths.](img/empi_performance_length.jpg)
+:::
+::::::::::::::
+
+## EMPI Takeaways
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
+- Studied self-contained intelligent instrument in genuine performance.
+- Physical representation could be polarising.
+- Performers work hard to understand and influence ML model.
+- Constrained, intelligent instrument can produce a compelling experience.
+:::
+::: {.column width="50%"}
+![A participant performing with EMPI in the study](img/empi_study-image.jpg)
+:::
+::::::::::::::
 
 ## Understanding Touchscreen Music Making
 
-## Questions: Who has a question?
+# Questions: Who has a question?
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
