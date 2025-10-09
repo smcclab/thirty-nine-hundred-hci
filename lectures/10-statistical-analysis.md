@@ -334,6 +334,7 @@ print(f"Chi-square statistic: {chi2:.4f}")
 print(f"Degrees of freedom: {dof}")
 print(f"P-value: {p:.4f}")
 ```
+
 :::
 ::::::::::::::
 
@@ -425,8 +426,6 @@ Research question:
 ![A participant performing with EMPI in the study](img/empi_study-image.jpg)
 :::
 ::::::::::::::
-
-## Understanding Touchscreen Music Making
 
 # Questions: Who has a question?
 
