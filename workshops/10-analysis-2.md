@@ -62,7 +62,7 @@ As a group, share your thoughts on any of the following questions with the class
 - How can you redefine implications so they go beyond the theme?
 - How does thinking about themes first help you generate insightful implications?
 
-### Task 1: Coding and Theming (30 mins)
+### Task 1: Coding and Theming (50 mins)
 
 You and your group of 3-5 members will work with a set of images from Peter Bennetts' Tuvalu series (1998 - 2001) to practise deeper qualitative analysis including coding, theme-building, reliability scoring, and generating implications.
 
@@ -87,11 +87,18 @@ As a group, define a focus for your analysis. Some examples:
 
 1. **Individual Coding:** Each person in the group codes all selected images on their own first. Coding procedure from Lecture 6 on Thematic Analysis still applies here. Your codes should be short descriptive labels tied to **something you can see or infer** (e.g., happy children, community gathering)
 2. **Shared Codes and Theme Building:** Bring all the sticky notes for individual codes together and cluster the codes into themes. Try to settle on 2-3 themes that you feel capture meaningful patterns across the images.
-3. **Record:** Record your implications in the shared spreadsheet.
+3. **Record:** Record implications from your themes in the shared spreadsheet.
 
-We adapt the research context of co-designing with the Global South, and multimedia analysis method applied by the following authors in this task:  @bidwell-designing-mobile-storytelling:2010
+We adapt the research context of co-designing with the Global South, and multimedia analysis method applied by the following authors in this task: @bidwell-designing-mobile-storytelling:2010
 
-### Task 2: Inter-rater reliability (15 mins)
+### Task 3: Share implications (10 mins)
+
+As a class, discuss your themes and implications:
+
+1. Broaden your view by looking at what other groups have reported. What themes overlap with yours? What is different?
+2. Create a short synthesis (3-4 sentences) of how your group's implications sit alongside others. Consider whether combining perspectives creates a richer picture.
+
+<!-- ### Task 2: Inter-rater reliability (15 mins)
 
 We now extend our work from Task 1 by examining inter-rater reliability and using plots to visualise our results.
 
@@ -102,9 +109,9 @@ Your task:
 1. Re-visit the 6-8 images your group coded in Task 1.
 2. For each image, compare the codes assigned by each group member.
 3. Record how often coders agreed by using the same or very similar code, versus disagreed. Calculate percent agreement (e.g., 5 agreements out of 8 decisions = 62.5%).
-4. Record your implications in the shared spreadsheet.
+4. Record your implications in the shared spreadsheet. -->
 
-### Task 3: Triangulation (15 mins)
+<!-- ### Task 3: Triangulation (15 mins)
 
 Triangulation is about strengthening your analysis by bringing together different sources of evidence or different perspectives on the same data. We can gain more confidence in our implications and notice where interpretations converge or diverge.
 
@@ -113,7 +120,7 @@ Triangulation is about strengthening your analysis by bringing together differen
     - Do your most reliable codes correspond to your strongest themes?
     - Where coding reliability was low, did it affect the strength or clarity of your implications?
 3. Broaden your view by looking at what other groups have reported. What themes overlap with yours? What is different?
-4. Create a short synthesis (3-4 sentences) of how your group's implications sit alongside others. Consider whether combining perspectives creates a richer picture.
+4. Create a short synthesis (3-4 sentences) of how your group's implications sit alongside others. Consider whether combining perspectives creates a richer picture. -->
 
 <!-- #### Reflection - What Might Have We Missed? (13 mins)
 
