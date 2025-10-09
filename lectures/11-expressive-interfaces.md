@@ -15,6 +15,25 @@ author: Dr Charles Martin
 - Creativity and Cognition
 - NIME etc.
 
+# Conceptualising Expressive Interactions
+
+<!-- need a framework -->
+
+- Marije Baalman framework
+- 
+
+# Drawing Interaction
+
+# Music Interaction
+
+# Dance Interaction
+
+# Installed Interactions
+
+# Playful Interaction
+
+# Human-AI Creative Interaction
+
 ## Questions: Who has a question?
 
 :::::::::::::: {.columns}
