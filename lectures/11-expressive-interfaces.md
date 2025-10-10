@@ -35,16 +35,52 @@ A historic example: Charles yaps on creative/expressive interaction at the heart
 
 # Conceptualising Expressive Interactions
 
-<!-- need a framework -->
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- Marije Baalman framework
-- the mapping
+- Much of questions concern with the mapping of performed gesture and resulting feedback. 
+
+- Gestures:
+    - The use of motions by the limbs or body as a means of expression.
+    - Can be unintentional; ancillary gestures.
+    - From non-human actors(e.g.,the movement of a leave on a branch of a tree.)
+    - *"any sort of motion, that may be understood as an expression of something"* 
 :::
 ::: {.column width="40%"}
 ![Composing Interactions by Marije Baalman[@baalman2022composing].](img/wk11-composing-interactions.jpg){width="80%"}
 :::
 ::::::::::::::
+
+# Conceptualising Expressive Interactions
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+The mapping from gestures to output media.
+
+> Considering a performer performing making gestures on a stage, which gestures effect changes in the output medium of sound, which can be heard by the performer and audience in the real, physical environment.
+:::
+::: {.column width="40%"}
+![The connection between a gesture in the environment to output media[@baalman2022composing].](img/mapping.jpg){width="80%"}
+:::
+::::::::::::::
+
+# Conceptualising Expressive Interactions
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+E.g.,
+
+- A gesture is performed inthe environment;
+- This is captured by a sensor that translates the gesture is processed by an electronic circuit, often to digitalise it;
+- Next, the signal enters some sort of computational model that translates the data to parameters;
+- These parameters control an output medium such as sound, light, video, or mechatronics.
+
+> how is output from one connected to input, what happens in each step?
+:::
+::: {.column width="40%"}
+![Steps in the mapping process[@baalman2022composing]](img/step-in-mapping.jpg){width="90%"}
+:::
+::::::::::::::
+
 
 
 # Drawing Interaction
