@@ -1,9 +1,15 @@
 ---
 title: Expressive Interfaces
 author: Dr Charles Martin
+title-slide-attributes:
+    data-background-image: img/2024-intelligent-microfreak.jpg
+    data-background-size: cover
 ---
 
 ## Announcements
+
+- Gitlab Template now available for final project
+- Finalised the marking rubric for final project
 
 ## Plan for the class
 
@@ -19,8 +25,7 @@ author: Dr Charles Martin
 
 > on art, sound and technology that innovates scientific research.
 
-
-A historic example: Charles yaps on creative/expressive interaction at the heart of technology advancement. 
+<!-- A historic example: Charles yaps on creative/expressive interaction at the heart of technology advancement.  -->
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
@@ -32,8 +37,7 @@ A historic example: Charles yaps on creative/expressive interaction at the heart
 :::
 ::::::::::::::
 
-
-# Conceptualising Expressive Interactions
+## Conceptualising Expressive Interactions
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -50,7 +54,8 @@ A historic example: Charles yaps on creative/expressive interaction at the heart
 :::
 ::::::::::::::
 
-# Conceptualising Expressive Interactions
+## Conceptualising Expressive Interactions
+
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 The mapping from gestures to output media.
@@ -62,7 +67,7 @@ The mapping from gestures to output media.
 :::
 ::::::::::::::
 
-# Conceptualising Expressive Interactions
+## Conceptualising Expressive Interactions
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -80,8 +85,6 @@ E.g.,
 ![Steps in the mapping process[@baalman2022composing]](img/step-in-mapping.jpg){width="90%"}
 :::
 ::::::::::::::
-
-
 
 # Drawing Interaction
 
