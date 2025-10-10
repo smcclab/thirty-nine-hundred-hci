@@ -17,10 +17,35 @@ author: Dr Charles Martin
 
 # Conceptualising Expressive Interactions
 
-<!-- need a framework -->
+> on art, sound and technology that innovates scientific research.
 
+
+A historic example: Charles yaps on creative/expressive interaction at the heart of technology advancement. 
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![First head-mounted AR display system[@surtherland1967ar].](img/wk11-ivan-sutherland-headset.jpg){width="70%"}
+:::
+::: {.column width="50%"}
+![Virtual Reality in 1987 - The Sound of One Hand performance by Jaron Lanier[@lanier1993sound]](img/wk11-jaron-lanier-virtual-hand.jpg){width="100%"}
+
+:::
+::::::::::::::
+
+
+# Conceptualising Expressive Interactions
+
+<!-- need a framework -->
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 - Marije Baalman framework
-- 
+- the mapping
+:::
+::: {.column width="40%"}
+![Composing Interactions by Marije Baalman[@baalman2022composing].](img/wk11-composing-interactions.jpg){width="80%"}
+:::
+::::::::::::::
+
 
 # Drawing Interaction
 
