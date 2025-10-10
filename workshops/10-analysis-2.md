@@ -13,19 +13,19 @@ In this tutorial, we will bring together and extend our understanding of qualita
 
 2. Use the [ACM CCS Topics Tool](https://dl.acm.org/ccs) to guide your selection of an HCI subtopic. Start with the top-level category **Human-centred computing**. Drill down into a more specific area that interests you (e.g., Accessibility systems and tools, Interaction Design). Paste this area into the [ACM Digital Library](https://dl.acm.org/). Using the search term, choose **two papers** published in one of the [SIGCHI conferences](https://sigchi.org/conferences/). Both papers must include a user study such as interviews, workshops, field studies, etc. Read the sections where the authors present and interpret their study outcomes. These may be titled **Findings, Results, Analysis, Reflections, or Discussion** (not all papers use the same labels). Treat these sections as your 'raw data'. Worked Example:
 
-- 2.1. Selected CCS concept: Human-centered computing → Accessibility → **Accessibility systems and tools**  
-- 2.2. Search *Accessibility systems and tools* in ACM DL, filter by *ACM SIG Sponsors* to select SIGCHI conferences. Additionally you may filter by *Proceedings series* to select a conference of your choice.  
-- 2.3. Find relevant papers from this pool, depending upon alignment with the task and your interest.
+    - 2.1. Selected CCS concept: Human-centered computing → Accessibility → **Accessibility systems and tools**  
+    - 2.2. Search *Accessibility systems and tools* in ACM DL, filter by *ACM SIG Sponsors* to select SIGCHI conferences. Additionally you may filter by *Proceedings series* to select a conference of your choice.  
+    - 2.3. Find relevant papers from this pool, depending upon alignment with the task and your interest.
 
-3. Analyse: From the two papers, identify a theme that cuts across both. Based on this theme, write your own implication to the theme in 2-3 sentences.
+3. Analyse: From the two papers, identify a theme that cuts across both. Based on this theme, write your own implication to the theme in two or three sentences.
 
-- Tip: A theme is the organising idea, while an implication to a theme is the interpreted insight you want readers to take away. One good way to internalise the difference is by looking at examples from various conference venues within the wider HCI field. Here are some papers demonstrate the use of themes and implications: [@deng-logic-bonbon:2022] *pages 11-16*, [@karim-internet-shutdown:2025] *pages 3-5*, [@choi-tonal-cognition:2024] *pages 221-224*, [@adiwangsa-exercising:2024] *pages 5-8*.
+    - Tip: A theme is the organising idea, while an implication to a theme is the interpreted insight you want readers to take away. One good way to internalise the difference is by looking at examples from various conference venues within the wider HCI field. Here are some papers demonstrate the use of themes and implications: [@deng-logic-bonbon:2022] *pages 11-16*, [@karim-internet-shutdown:2025] *pages 3-5*, [@choi-tonal-cognition:2024] *pages 221-224*, [@adiwangsa-exercising:2024] *pages 5-8*.
 
 4. Post on Ed: Your submission must include:
 
-- CCS Concept (see 2.1 in the Worked Example under sub-task 2)
-- Citations of the two papers you analysed
-- Your theme and implication(s) in your own words.
+    - CCS Concept (see 2.1 in the Worked Example under sub-task 2)
+    - Citations of the two papers you analysed
+    - Your theme and implication(s) in your own words.
 
 This pre-class task offers a first step in triangulation, combining results from different papers to practise how mixed methods approaches build stronger, more credible design implications.
 
@@ -47,7 +47,7 @@ Group up with 3-4 classmates. Complete the table below together using your own t
 
 | Theme | Implication | Notes/Reflection |
 |-------|---------|--------|
-| e.g., Co-designing in a foreign cultural context (Papers: [Bidwell and Reitmaier et al, 2010](https://dl.acm.org/doi/10.1145/1753326.1753564); [Dourish et al, 2020](https://dl.acm.org/doi/10.1145/3313831.3376545))| There needs to be a balance between engaging in co-design with different cultures and avoiding overburdening them.  | Your 1-2 sentences from the *Think* exercise above. |
+| e.g., Co-designing in a foreign cultural context (Papers: [Bidwell and Reitmaier et al, 2010](https://dl.acm.org/doi/10.1145/1753326.1753564); [Dourish et al, 2020](https://dl.acm.org/doi/10.1145/3313831.3376545))| There needs to be a balance between engaging in co-design with different cultures and avoiding overburdening them.  |  1-2 sentences reflecting on the implication |
 | Theme by group member 1 | Implication by group member 1 | Notes/ Reflections by group member 1 |
 | Theme by group member 2 | Implication by group member 2 | Notes/ Reflections by group member 2 |
 
