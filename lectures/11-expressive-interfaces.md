@@ -19,7 +19,7 @@ title-slide-attributes:
 - Relate to ANU/UiO Research on Expressive Interaction
 - CHI resources on expression and creative interaction
 - Creativity and Cognition
-- NIME etc.q
+- NIME etc.
 
 # Conceptualising Expressive Interactions
 
@@ -136,31 +136,86 @@ the mapping framework - expressivity and design constraints.
 
 # Dance Interaction
 
-From gestures to body movements.
+From gestures to body (embodied) movements.
 
-CO/DA System:
+CO/DA System[@coda2022chi]:
 
 ![](img/coda-system.jpg){width="80%"}
 
 - Support real-time manipulation of continuous streams of the dancers’ motion data for interactive sound synthesis.
 - Enable novel dance improvisations through live coding.
-- Live coding: interactively programming musical or visual processes as performance 
+- Live coding: interactively programming musical or visual processes as performance.
 
-<!-- - https://dl.acm.org/doi/pdf/10.1145/3491102.3501916 -->
+
+# Dance Interaction
+
+<!-- Novelty in terms of expressivity. -->
+![](img/coda-process.jpg){width="60%"}
+
+- Movements are measured using motion sensors, and the live coder processes motion signals to generate feedback in real-time.
+- Enables a multitude of feedback loops: sound feedback -> movement improvisation -> the coder alters the relationships between movement and sound.
+- Dynamic improvisation that stimulates novel movements' exploration.
 
 
 # Installed Interactions
 
-- dinosaur - some nim25 works.
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+[Dinosaur Choir: Adult Corythosaurus](https://nime2025.org/assets/preprints/nime2025_music_preprint_270.pdf)
+
+- Singing dinosaur skull musical instruments.
+- Aim to realise dinosaur vocalisation:  inspired by recent research to base dinosaur vocal anatomy on the bird syrinx, despite dinosaur vocal organs are still an actively debated question in paleontology.
+- Use microphone to capture the voice by users, feeding into a computational vocal model and resonating the sound through a 3D printed replica of the dinosaur’s nasal cavities and skull.
+- Change the pitch and timbre of the vocalisation by changing the shape of the mouths, like trumpet player. 
+:::
+::: {.column width="40%"}
+![Dinosaur Choir in action.](img/dinosaur-choir.jpg){width="100%"}
+:::
+::::::::::::::
 
 # Playful Interaction
 
-- steve benford 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+> Have you imagined a breath-controlled amusement rides?
+
+- Inspired by robotic technologies for control of individual seats on rollercoasters and other thrill rides.
+
+- How about using breath instead?
+
+- Enhanced bucking bronco ride that balances realism for breadth control and practicability in cost, tourability and safety.
+
+:::
+::: {.column width="40%"}
+![Falling off the Broncomatic[@marshall2011chi]](img/breath-controlled-rides.jpg){width="60%"}
+:::
+::::::::::::::
+
+# Playful Interaction
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+- A straightforward mapping: the rider’s breathing to the horizontal rotation of the ride.
+    - Inhale: spins clockwise; exhale: spins anti-clockwise.
+    - Breathing speed controls rotation speed: fast breathing faster spin; holding breath stops spinning.
+    - Difficulty levels.
+- The program is a game in which the player scores more points the more that they breathe: a physical challenge vs reward dynamic.
+    - More breathing for faster ride but harder to stay on. To score high, you must breathe more, but this makes the ride tougher.
+- *Blast theory if Charles you want to talk about it.*
+
+:::
+::: {.column width="40%"}
+![Falling off the Broncomatic[@marshall2011chi]](img/broncomatic-system-design.jpg){width="70%"}
+:::
+::::::::::::::
 
 # Human-AI Creative Interaction
 
 - co-creative drawing.
 - holographic / socially
+- 
 
 ## Questions: Who has a question?
 
