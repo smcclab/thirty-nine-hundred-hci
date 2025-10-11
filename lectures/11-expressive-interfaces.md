@@ -72,14 +72,16 @@ The mapping from gestures to output media.
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-E.g.,
+Steps in mapping:
 
-- A gesture is performed inthe environment;
+- A gesture is performed in the environment;
 - This is captured by a sensor that translates the gesture is processed by an electronic circuit, often to digitalise it;
 - Next, the signal enters some sort of computational model that translates the data to parameters;
 - These parameters control an output medium such as sound, light, video, or mechatronics.
 
 > how is output from one connected to input, what happens in each step?
+
+Charles discusses how this process relates to expressive interaction.
 :::
 ::: {.column width="40%"}
 ![Steps in the mapping process[@baalman2022composing]](img/step-in-mapping.jpg){width="90%"}
@@ -88,15 +90,30 @@ E.g.,
 
 # Drawing Interaction
 
+- https://nime2025.org/proceedings/166.html
+- some chi work.
+
 # Music Interaction
 
+- this is fun!
+- so many I can talk about; let me think!
 # Dance Interaction
+
+- holographic / socially
+- benedikte  
+- sarah fidili alaoui
 
 # Installed Interactions
 
+- dinosaur - some nim25 works.
+
 # Playful Interaction
 
+- steve benford 
+
 # Human-AI Creative Interaction
+
+- co-creative drawing.
 
 ## Questions: Who has a question?
 
