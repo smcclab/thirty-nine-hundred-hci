@@ -13,13 +13,7 @@ title-slide-attributes:
 
 ## Plan for the class
 
-## Lecture Ideation
-
-- Go through ["Composing Interactions" by Marije Baalman](https://composinginteractions.art/#contents)?
-- Relate to ANU/UiO Research on Expressive Interaction
-- CHI resources on expression and creative interaction
-- Creativity and Cognition
-- NIME etc.
+**Should we talk more on study results?**
 
 # Conceptualising Expressive Interactions
 
@@ -29,11 +23,12 @@ title-slide-attributes:
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![First head-mounted AR display system[@surtherland1967ar].](img/wk11-ivan-sutherland-headset.jpg){width="70%"}
+![First head-mounted AR display system [@surtherland1967ar].](img/wk11-ivan-sutherland-headset.jpg){width="70%"}
 :::
 ::: {.column width="50%"}
-![Virtual Reality in 1987 - The Sound of One Hand performance by Jaron Lanier[@lanier1993sound]](img/wk11-jaron-lanier-virtual-hand.jpg){width="100%"}
+![Virtual Reality in 1987 - The Sound of One Hand performance by Jaron Lanier [@lanier1993sound]](img/wk11-jaron-lanier-virtual-hand.jpg){width="100%"}
 
+Check performance at [Moogfest 2016](https://youtu.be/ItaPqJaUypY?si=VYXOslgb822hMwl0).
 :::
 ::::::::::::::
 
@@ -50,7 +45,7 @@ title-slide-attributes:
     - *"any sort of motion, that may be understood as an expression of something"* 
 :::
 ::: {.column width="40%"}
-![Composing Interactions by Marije Baalman[@baalman2022composing].](img/wk11-composing-interactions.jpg){width="80%"}
+![Composing Interactions by Marije Baalman [@baalman2022composing].](img/wk11-composing-interactions.jpg){width="80%"}
 :::
 ::::::::::::::
 
@@ -63,7 +58,7 @@ The mapping from gestures to output media.
 > Considering a performer performing making gestures on a stage, which gestures effect changes in the output medium of sound, which can be heard by the performer and audience in the real, physical environment.
 :::
 ::: {.column width="40%"}
-![The connection between a gesture in the environment to output media[@baalman2022composing].](img/mapping.jpg){width="80%"}
+![The connection between a gesture in the environment to output media [@baalman2022composing].](img/mapping.jpg){width="80%"}
 :::
 ::::::::::::::
 
@@ -84,13 +79,13 @@ Steps in mapping:
 Charles discusses how this process relates to expressive interaction.
 :::
 ::: {.column width="40%"}
-![Steps in the mapping process[@baalman2022composing]](img/step-in-mapping.jpg){width="90%"}
+![Steps in the mapping process [@baalman2022composing]](img/step-in-mapping.jpg){width="90%"}
 :::
 ::::::::::::::
 
 # Drawing Interaction
 
-Surface Drawing system[@schkolne2001organicshape]
+Surface Drawing system [@schkolne2001organicshape]
 
 - Drawing (hands), moving, scaling, erasing (a pair of kitchen tongs).
 
@@ -101,16 +96,24 @@ Surface Drawing system[@schkolne2001organicshape]
 ![Kitchen tongs move a drawing.](img/organicsahpes-tong.jpg){width="40%"}
 :::
 ::: {.column width="60%"}
-![A variety of shapes created with Surface Drawing[@schkolne2001organicshape].](img/3d-organicshapes.jpg){width="40%"}
+![A variety of shapes created with Surface Drawing [@schkolne2001organicshape].](img/3d-organicshapes.jpg){width="40%"}
 :::
 ::::::::::::::
 
 # Drawing Interaction
 
-- [AirPens: Musical Doodling](
- https://nime2025.org/proceedings/166.html) [To Charles: this is installation, not bibtex. I know you may not like this example.]
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- [AirPens: Musical Doodling]( https://nime2025.org/proceedings/166.html) 
+    - [To Charles: this is installation, not bibtex. I know you may not like this example.]
     - Make music with mark-making.
     - Use IMU sensors to convert movement into sound; explore different mappings between movement and sound.
+
+:::
+::: {.column width="40%"}
+![AirPen at NIME25.](img/airpen.jpg){width="100%"}
+:::
+::::::::::::::
 
 # Music Interaction
 
@@ -122,32 +125,32 @@ The [New Interface for Musical Expression (NIME)](https://nime.org) research com
 - Augmented instruments: magnetic resonator piano (grand piano -> string instruments).
 - Novel instrument: lady's glove, magnetic AI instrument *thales*, percussive instrument [PhaseRings](https://charlesmartin.au/projects/phaserings/), AR instrument *cube*.
 
-# Music Interaction
+## Music Interaction
 
 Guitar Gestures (sound is defined).
 
-# Music Interaction
+## Music Interaction
 
 cube (none mapping).
 
-# Music Interaction
+## Music Interaction
 
 the mapping framework - expressivity and design constraints.
+
 
 # Dance Interaction
 
 From gestures to body (embodied) movements.
 
-CO/DA System[@coda2022chi]:
-
-![](img/coda-system.jpg){width="80%"}
+CO/DA System [@coda2022chi]:
+![](img/coda-system.jpg){width="70%"}
 
 - Support real-time manipulation of continuous streams of the dancers’ motion data for interactive sound synthesis.
 - Enable novel dance improvisations through live coding.
 - Live coding: interactively programming musical or visual processes as performance.
 
 
-# Dance Interaction
+## Dance Interaction
 
 <!-- Novelty in terms of expressivity. -->
 ![](img/coda-process.jpg){width="60%"}
@@ -170,7 +173,7 @@ CO/DA System[@coda2022chi]:
 - Change the pitch and timbre of the vocalisation by changing the shape of the mouths, like trumpet player. 
 :::
 ::: {.column width="40%"}
-![Dinosaur Choir in action.](img/dinosaur-choir.jpg){width="100%"}
+![Dinosaur Choir at NIME25.](img/charles-dinosaur.jpg){width="100%"}
 :::
 ::::::::::::::
 
@@ -192,7 +195,7 @@ CO/DA System[@coda2022chi]:
 :::
 ::::::::::::::
 
-# Playful Interaction
+## Playful Interaction
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -212,10 +215,66 @@ CO/DA System[@coda2022chi]:
 ::::::::::::::
 
 # Human-AI Creative Interaction
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 
-- co-creative drawing.
-- holographic / socially
-- 
+> Why introduce artificial intelligence?
+
+Computational creativity help create new ideas in three ways [@boden1998computational]
+
+- Produce novel combinations of familiar ideas;
+- Explore the potential of conceptual spaces;
+- Make transformations that enable the generation of previously impossible ideas.
+
+One more from Ollie.
+:::
+::: {.column width="40%"}
+![Beyond the Creative Species Making Machines That Make Art and Music. [@bown2021beyondcreative]](img/beyond-creative-species.jpg){width="50%"}
+:::
+::::::::::::::
+
+## Human-AI Creative Interaction
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+Cobbie system [@lin2020cocreativerobots]
+
+- *Motivation*: Co-creative partner can reason about user's intention and stably present novel ideas with the user initiative, which are hindered in human team due to social loafing or a resolute partner otherwise.
+- Take turns to draw ideas, give the dominant position to the user, and use movements and sound feedback for communication.
+
+- Three human-robot interaction:
+    - It is your turn
+    - Pause and Draw again
+    - Progressing with feedback
+
+
+:::
+::: {.column width="50%"}
+![](img/cobbie-system.png){width="100%"}
+:::
+::::::::::::::
+
+
+
+# Human-AI Creative Interaction
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+When AI meets holographic pepper’s ghost:
+
+- Co-creative public dancer [@trajkova2023holographicai, @trajkova2024dance, @long2019lumi]
+- Explore the design of the modular AI agent to creatively collaborate with a dancer.
+- A Kinect motion capture device to detect the user's motion, visualised as a virtual shadow on a projection screen.
+- The humanoid agent shadow dances by analysing the user's movement and responding with a movement that it deems to be similar in terms of parameters such as energy, tempo, or size.
+- Study results showed in-the-moment influences, self, partner, environment[@trajkova2024dance].
+<!-- charles can read the paper and talks more. -->
+:::
+::: {.column width="40%"}
+![](img/ai-holographic-dancer.jpg){width="90%"}
+![](img/ai-holographic-dancer-2.png){width="90%"}
+:::
+::::::::::::::
+
+
 
 ## Questions: Who has a question?
 
