@@ -19,7 +19,7 @@ title-slide-attributes:
 - Relate to ANU/UiO Research on Expressive Interaction
 - CHI resources on expression and creative interaction
 - Creativity and Cognition
-- NIME etc.
+- NIME etc.q
 
 # Conceptualising Expressive Interactions
 
@@ -90,18 +90,64 @@ Charles discusses how this process relates to expressive interaction.
 
 # Drawing Interaction
 
-- https://nime2025.org/proceedings/166.html
-- some chi work.
+Surface Drawing system[@schkolne2001organicshape]
+
+- Drawing (hands), moving, scaling, erasing (a pair of kitchen tongs).
+
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+![Hands define a stroke.](img/organicshapes-hands-interaction.jpg){width="40%"}
+
+![Kitchen tongs move a drawing.](img/organicsahpes-tong.jpg){width="40%"}
+:::
+::: {.column width="60%"}
+![A variety of shapes created with Surface Drawing[@schkolne2001organicshape].](img/3d-organicshapes.jpg){width="40%"}
+:::
+::::::::::::::
+
+# Drawing Interaction
+
+- [AirPens: Musical Doodling](
+ https://nime2025.org/proceedings/166.html) [To Charles: this is installation, not bibtex. I know you may not like this example.]
+    - Make music with mark-making.
+    - Use IMU sensors to convert movement into sound; explore different mappings between movement and sound.
 
 # Music Interaction
 
-- this is fun!
-- so many I can talk about; let me think!
+The [New Interface for Musical Expression (NIME)](https://nime.org) research community.
+
+<!-- references -->
+- Research into musical instrument design that explores how technological innovation can enable new musical expression, enhance performer control and intimacy, and shape the musician–instrument relationship
+- Digital instruments: digital piano, drum pad.
+- Augmented instruments: magnetic resonator piano (grand piano -> string instruments).
+- Novel instrument: lady's glove, magnetic AI instrument *thales*, percussive instrument [PhaseRings](https://charlesmartin.au/projects/phaserings/), AR instrument *cube*.
+
+# Music Interaction
+
+Guitar Gestures (sound is defined).
+
+# Music Interaction
+
+cube (none mapping).
+
+# Music Interaction
+
+the mapping framework - expressivity and design constraints.
+
 # Dance Interaction
 
-- holographic / socially
-- benedikte  
-- sarah fidili alaoui
+From gestures to body movements.
+
+CO/DA System:
+
+![](img/coda-system.jpg){width="80%"}
+
+- Support real-time manipulation of continuous streams of the dancers’ motion data for interactive sound synthesis.
+- Enable novel dance improvisations through live coding.
+- Live coding: interactively programming musical or visual processes as performance 
+
+<!-- - https://dl.acm.org/doi/pdf/10.1145/3491102.3501916 -->
+
 
 # Installed Interactions
 
@@ -114,6 +160,7 @@ Charles discusses how this process relates to expressive interaction.
 # Human-AI Creative Interaction
 
 - co-creative drawing.
+- holographic / socially
 
 ## Questions: Who has a question?
 
