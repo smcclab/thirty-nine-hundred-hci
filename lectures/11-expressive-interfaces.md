@@ -176,8 +176,6 @@ The system design process.
 :::
 ::::::::::::::
 
-AR musical instrument *cube*
-
 ## Music Interaction
 
 :::::::::::::: {.columns}
