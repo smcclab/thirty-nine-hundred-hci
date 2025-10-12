@@ -8,8 +8,11 @@ title-slide-attributes:
 
 ## Announcements
 
-- Gitlab Template now available for final project
-- Finalised the marking rubric for final project
+- User Research marks and feedback out later this week (goal is Wednesday)
+- [Gitlab Template now available for final project](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-research-project)
+- Final project due: **2025-10-27 23:59 AEST**
+- Remember: main deliverable in the assignment is your presentation video `project-presentation.mp4`
+- Demo at end of lecture on [recording a video in Powerpoint](https://support.microsoft.com/en-au/office/record-a-slide-show-with-narration-and-slide-timings-0b9502c6-5f6c-40ae-b1e7-e47d8741161c#OfficeVersion=2013%2C_2016&officeversion=newer_versions).
 
 ## Plan for the class
 
