@@ -328,11 +328,12 @@ CO/DA System [@coda2022chi]:
 
 :::
 ::: {.column width="40%"}
-![Falling off the Broncomatic[@marshall2011chi]](img/broncomatic-system-design.jpg){width="70%"}
+![Falling off the Broncomatic [@marshall2011chi]](img/broncomatic-system-design.jpg){width="70%"}
 :::
 ::::::::::::::
 
 # Human-AI Creative Interaction
+
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
@@ -349,12 +350,9 @@ Creativity and technology: a sociotechnological perspective [@bown2021beyondcrea
 - The social nature of human behaviour.
 - Artistic behaviour is social in nature (is it?)
 
-
 :::
 ::: {.column width="40%"}
-![Beyond the Creative Species Making Machines That Make Art and Music. [@bown2021beyondcreative]](img/beyond-creative-species.jpg){width="50%"}
-
-Interested? it's [open-access](https://direct.mit.edu/books/oa-monograph/5026/Beyond-the-Creative-SpeciesMaking-Machines-That)!
+![Beyond the Creative Species Making Machines That Make Art and Music. [@bown2021beyondcreative] [open-access link](https://direct.mit.edu/books/oa-monograph/5026/Beyond-the-Creative-SpeciesMaking-Machines-That)](img/beyond-creative-species.jpg){width="50%"}
 :::
 ::::::::::::::
 
