@@ -28,7 +28,7 @@ title-slide-attributes:
 ::: {.column width="50%"}
 ![Virtual Reality in 1987 - The Sound of One Hand performance by Jaron Lanier [@lanier1993sound]](img/wk11-jaron-lanier-virtual-hand.jpg){width="100%"}
 
-Check performance at [Moogfest 2016](https://youtu.be/ItaPqJaUypY?si=VYXOslgb822hMwl0).
+Check out the performance at [Moogfest 2016](https://youtu.be/ItaPqJaUypY?si=VYXOslgb822hMwl0).
 :::
 ::::::::::::::
 
@@ -76,7 +76,7 @@ Steps in mapping:
 
 > how is output from one connected to input, what happens in each step?
 
-Charles discusses how this process relates to expressive interaction.
+*Charles discusses how this process relates to expressive interaction.*
 :::
 ::: {.column width="40%"}
 ![Steps in the mapping process [@baalman2022composing]](img/step-in-mapping.jpg){width="90%"}
@@ -100,7 +100,7 @@ Surface Drawing system [@schkolne2001organicshape]
 :::
 ::::::::::::::
 
-# Drawing Interaction
+## Drawing Interaction
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -117,26 +117,88 @@ Surface Drawing system [@schkolne2001organicshape]
 
 # Music Interaction
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 The [New Interface for Musical Expression (NIME)](https://nime.org) research community.
 
 <!-- references -->
 - Research into musical instrument design that explores how technological innovation can enable new musical expression, enhance performer control and intimacy, and shape the musician–instrument relationship
-- Digital instruments: digital piano, drum pad.
+- Digital Musical Instruments(DMIs): digital piano, drum pad.
 - Augmented instruments: magnetic resonator piano (grand piano -> string instruments).
-- Novel instrument: lady's glove, magnetic AI instrument *thales*, percussive instrument [PhaseRings](https://charlesmartin.au/projects/phaserings/), AR instrument *cube*.
+- Novel instrument: [lady's glove](https://sonami.net/portfolio/items/ladys-glove/), magnetic AI instrument *thales* [@privato2023thales], percussive instrument [PhaseRings](https://charlesmartin.au/projects/phaserings/) [@martin2018phaserings], AR instrument *cube* [@wang-cubing-sound:2022].
+
+:::
+::: {.column width="40%"}
+![Magnetic Resonator Piano](img/mrp.jpg){width="80%"}
+:::
+::::::::::::::
 
 ## Music Interaction
 
-Guitar Gestures (sound is defined).
+:::::::::::::: {.columns}
+::: {.column width="70%"}
+Design novel gestures for guitar-like instruments.
+
+- When is a Guitar not a Guitar? [@harrison2018guitar]: novel instruments and controllers resemble traditional instruments.
+- Four guitar-derivative DMIs design (fixed string sound):
+    -  Overall form (guitar-shaped vs. tabletop); Interaction modality (plucked strings vs. touch sensor).
+- All was strong for the 'congruent' strings guitar and touch sensor tabletop group.
+- Less parity across and between groups for the 'incongruent' touch sensor guitar and strings tabletop group.
+- Guitarists prefer technical familiarity of stringed instrument (guitarists).  
+- Non-musicians prefer touch-interface: ease of use, cultural load of the guitar form.
+:::
+::: {.column width="30%"}
+![Four "guitar-like" instruments.](img/guitar-or-not.jpg){width="80%"}
+:::
+::::::::::::::
+
 
 ## Music Interaction
 
-cube (none mapping).
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Design novel expression with technology affordance.
+
+*cube* system: authentic design for a head-mounted AR system [@wang-cubing-sound:2022]
+
+- Autobiographical design [@desjardins2021firstpersontochi].
+- Yichen chose to create an AR interface for frequency modulation synthesis.
+    1. Physical Interface: slow accurate manipulation due to hand tracking.
+    2. Spatial Interaction: emerged from bodily movement allowing ease of use.
+    3. Flexible Freehand Interaction: allow multiple notes to be played simultaneously, taking advantage of the full-hand tracking available in the AR headset.
+:::
+::: {.column width="40%"}
+![](img/p1-label.jpg){width="80%"}
+![](img/p2-label.jpg){width="80%"}
+![](img/p3.jpg){width="80%"}
+
+The system design process.
+:::
+::::::::::::::
+
+AR musical instrument *cube*
 
 ## Music Interaction
 
-the mapping framework - expressivity and design constraints.
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 
+The gesture-sound mapping.
+
+- Decompose DMI system into the mapping between input actions, sound production and feedback [@wessel2002problems;@mirandawanderley2006dmi].
+- Enable novel forms of musical expression through expanded control over sound timbre and texture, leading to a richer and more diverse musical experience [@wessel2002problems;@magnusson2010designconstrain].
+- Issues of control intimacy due to mediated gesture and sound relation[@wessel2002problems], a limit on machine-centre approach[@pigrem2018we].
+- Call for a dynamic and fluid framework which performer and instrument engage in a mutually influential relationship during the design process[@mcpherson2024mappingnew].
+
+:::
+::: {.column width="40%"}
+
+![A common DMI model presenting the separation of a musi-
+cian’s input action captured by the controller, the mapping engine bridg-
+ing the input interface and sound engine [@magnusson2010designconstrain].](img/mapping-model.jpg){width="80%"}
+
+:::
+::::::::::::::
 
 # Dance Interaction
 
@@ -148,7 +210,6 @@ CO/DA System [@coda2022chi]:
 - Support real-time manipulation of continuous streams of the dancers’ motion data for interactive sound synthesis.
 - Enable novel dance improvisations through live coding.
 - Live coding: interactively programming musical or visual processes as performance.
-
 
 ## Dance Interaction
 
@@ -226,10 +287,17 @@ Computational creativity help create new ideas in three ways [@boden1998computat
 - Explore the potential of conceptual spaces;
 - Make transformations that enable the generation of previously impossible ideas.
 
-One more from Ollie.
+Creativity and technology: a sociotechnological perspective [@bown2021beyondcreative].
+
+- The social natural of human behaviour
+- Artistic behaviour is social in nature (is it?)
+
+
 :::
 ::: {.column width="40%"}
 ![Beyond the Creative Species Making Machines That Make Art and Music. [@bown2021beyondcreative]](img/beyond-creative-species.jpg){width="50%"}
+
+Interested? it's [open-access](https://direct.mit.edu/books/oa-monograph/5026/Beyond-the-Creative-SpeciesMaking-Machines-That)!
 :::
 ::::::::::::::
 
@@ -246,14 +314,11 @@ Cobbie system [@lin2020cocreativerobots]
     - Pause and Draw again
     - Progressing with feedback
 
-
 :::
 ::: {.column width="50%"}
 ![](img/cobbie-system.png){width="100%"}
 :::
 ::::::::::::::
-
-
 
 # Human-AI Creative Interaction
 
@@ -270,11 +335,9 @@ When AI meets holographic pepper’s ghost:
 :::
 ::: {.column width="40%"}
 ![](img/ai-holographic-dancer.jpg){width="90%"}
-![](img/ai-holographic-dancer-2.png){width="90%"}
+![](img/ai-holographic-dancer-2.jpg){width="90%"}
 :::
 ::::::::::::::
-
-
 
 ## Questions: Who has a question?
 
