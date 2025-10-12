@@ -121,8 +121,7 @@ Surface Drawing system [@schkolne2001organicshape]
 ::: {.column width="60%"}
 The [New Interface for Musical Expression (NIME)](https://nime.org) research community.
 
-<!-- references -->
-- Research into musical instrument design that explores how technological innovation can enable new musical expression, enhance performer control and intimacy, and shape the musician–instrument relationship
+- Research into musical instrument design that explores how technological innovation can enable new musical expression, enhance performer control and intimacy, and shape the musician–instrument relationship.
 - Digital Musical Instruments(DMIs): digital piano, drum pad.
 - Augmented instruments: magnetic resonator piano (grand piano -> string instruments).
 - Novel instrument: [lady's glove](https://sonami.net/portfolio/items/ladys-glove/), magnetic AI instrument *thales* [@privato2023thales], percussive instrument [PhaseRings](https://charlesmartin.au/projects/phaserings/) [@martin2018phaserings], AR instrument *cube* [@wang-cubing-sound:2022].
@@ -159,13 +158,13 @@ Design novel gestures for guitar-like instruments.
 ::: {.column width="60%"}
 Design novel expression with technology affordance.
 
-*cube* system: authentic design for a head-mounted AR system [@wang-cubing-sound:2022]
+*cube* system: authentic design for a head-mounted AR musical instrument [@wang-cubing-sound:2022]
 
 - Autobiographical design [@desjardins2021firstpersontochi].
 - Yichen chose to create an AR interface for frequency modulation synthesis.
     1. Physical Interface: slow accurate manipulation due to hand tracking.
     2. Spatial Interaction: emerged from bodily movement allowing ease of use.
-    3. Flexible Freehand Interaction: allow multiple notes to be played simultaneously, taking advantage of the full-hand tracking available in the AR headset.
+    3. Flexible Freehand Interaction: allow multiple notes to be played simultaneously, taking advantage of the full-hand tracking affordance in the AR headset.
 :::
 ::: {.column width="40%"}
 ![](img/p1-label.jpg){width="80%"}
@@ -185,14 +184,13 @@ The gesture-sound mapping.
 
 - Decompose DMI system into the mapping between input actions, sound production and feedback [@wessel2002problems;@mirandawanderley2006dmi].
 - Enable novel forms of musical expression through expanded control over sound timbre and texture, leading to a richer and more diverse musical experience [@wessel2002problems;@magnusson2010designconstrain].
-- Issues of control intimacy due to mediated gesture and sound relation[@wessel2002problems], a limit on machine-centre approach[@pigrem2018we].
-- Call for a dynamic and fluid framework which performer and instrument engage in a mutually influential relationship during the design process[@mcpherson2024mappingnew].
+- Issues of control intimacy due to mediated gesture and sound relation [@wessel2002problems], a limit on machine-centre approach[@pigrem2018we].
+- Call for a dynamic and fluid framework which performer and instrument engage in a mutually influential relationship during the design process [@mcpherson2024mappingnew].
 
 :::
 ::: {.column width="40%"}
 
-![A common DMI model presenting the separation of a musi-
-cian’s input action captured by the controller, the mapping engine bridg-
+![A common DMI model presenting the separation of a musician’s input action captured by the controller, the mapping engine bridg-
 ing the input interface and sound engine [@magnusson2010designconstrain].](img/mapping-model.jpg){width="80%"}
 
 :::
@@ -215,7 +213,7 @@ CO/DA System [@coda2022chi]:
 ![](img/coda-process.jpg){width="60%"}
 
 - Movements are measured using motion sensors, and the live coder processes motion signals to generate feedback in real-time.
-- Enables a multitude of feedback loops: sound feedback -> movement improvisation -> the coder alters the relationships between movement and sound.
+- Enable a multitude of feedback loops: sound feedback -> movement improvisation -> the coder alters the relationships between movement and sound.
 - Dynamic improvisation that stimulates novel movements' exploration.
 
 
@@ -287,7 +285,7 @@ Computational creativity help create new ideas in three ways [@boden1998computat
 
 Creativity and technology: a sociotechnological perspective [@bown2021beyondcreative].
 
-- The social natural of human behaviour
+- The social nature of human behaviour.
 - Artistic behaviour is social in nature (is it?)
 
 
