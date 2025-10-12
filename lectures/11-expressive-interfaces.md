@@ -20,71 +20,129 @@ title-slide-attributes:
 
 # Conceptualising Expressive Interactions
 
-> on art, sound and technology that innovates scientific research.
-
-<!-- A historic example: Charles yaps on creative/expressive interaction at the heart of technology advancement.  -->
+why? expressive, artistic experiences can be drivers for HCI.
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 ![First head-mounted AR display system [@surtherland1967ar].](img/wk11-ivan-sutherland-headset.jpg){width="70%"}
 :::
 ::: {.column width="50%"}
-![Virtual Reality in 1987 - The Sound of One Hand performance by Jaron Lanier [@lanier1993sound]](img/wk11-jaron-lanier-virtual-hand.jpg){width="100%"}
-
-Check out the performance at [Moogfest 2016](https://youtu.be/ItaPqJaUypY?si=VYXOslgb822hMwl0).
+![Virtual Reality in 1987: The Sound of One Hand performance [@lanier1993sound], [video at Moogfest 2016](https://youtu.be/ItaPqJaUypY?si=VYXOslgb822hMwl0).](img/wk11-jaron-lanier-virtual-hand.jpg){width="100%"}
 :::
 ::::::::::::::
 
-## Conceptualising Expressive Interactions
+## Supporting Creativity
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- Much of questions concern with the mapping of performed gesture and resulting feedback. 
+Movement towards studying tools to **support creativity**.
 
-- Gestures:
-    - The use of motions by the limbs or body as a means of expression.
-    - Can be unintentional; ancillary gestures.
-    - From non-human actors(e.g.,the movement of a leave on a branch of a tree.)
-    - *"any sort of motion, that may be understood as an expression of something"* 
+> there is a move from routine work and productive concerns to human and creative ones." [@edmonds-art-of-interaction:2018]
+
+Expression and creativity let us get _inside_ the process of an interaction. People are _interested_ in expressive experiences, leading to critique and understanding.
 :::
 ::: {.column width="40%"}
-![Composing Interactions by Marije Baalman [@baalman2022composing].](img/wk11-composing-interactions.jpg){width="80%"}
+![Iamascope as shown in @edmonds-art-of-interaction:2018](img/iamascope-art-of-interaction.png)
 :::
 ::::::::::::::
 
-## Conceptualising Expressive Interactions
+## Principles for Creativity Support Tools (CSTs)
+
+@shneiderman-creativity-support-tools:2007 posits principles for developing CSTs
+
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
+1. Support exploration.
+2. Low threshold, high ceiling, and wide walls.
+3. Support many paths and many styles.
+4. Support collaboration.
+5. Support open interchange.
+6. Make it as simple as possible—and maybe even simpler.
+
+:::
+::: {.column width="50%"}
+
+7. Choose black boxes carefully.
+8. Invent things that you would want to use yourself.
+9. Balance user suggestions with observation and participatory processes. 
+10. Iterate, iterate—then iterate again.
+11. Design for designers.
+12. Evaluate your tools.
+
+:::
+::::::::::::::
+
+## Artists as Power Users
+
+Artists are "creative power users" (Linda Candy in @shneiderman-creativity-support-tools:2007).
+
+Artists show us the **boundaries** of human-computer interaction
+
+Studying interactive art gives us insight into the **potential** of creativity support tools in the hands of **experts**.
+
+This translates into findings about "everyday creativity" [@edmonds-art-of-interaction:2018]
+
+> there are three levels of design: standard spec, military spec and artist spec... the third, artist spec, is the hardest (and most important) [@buxton-artists-luthier:1997]
+
+## What is an expressive interaction?
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-The mapping from gestures to output media.
+
+Mapping sensed **gestures** to an expressive output that is fed back to the user.
+
+- **gestures:** the use of motions by the limbs or body as a means of expression
+- can be unintentional, control, or ancillary gestures
+- from non-human actors (e.g.,the movement of a leaves on a branch of a tree)
+- *"any sort of motion, that may be understood as an expression of something"*
+
+The interaction itself is expressive, and the output is an expression as well. We consult Composing Interactions [@baalman2022composing] as a resource.
+:::
+::: {.column width="40%"}
+![Sensing movement and touch to create music, Atau Tanaka performing in 2010 [@tanaka-mapping-out-instruments:2010] ](img/virtuoso-atau2010.jpg)
+:::
+::::::::::::::
+
+## Mapping from Gesture to Output
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Why is mapping an important consideration?
 
 > Considering a performer performing making gestures on a stage, which gestures effect changes in the output medium of sound, which can be heard by the performer and audience in the real, physical environment.
+
 :::
 ::: {.column width="40%"}
 ![The connection between a gesture in the environment to output media [@baalman2022composing].](img/mapping.jpg){width="80%"}
 :::
 ::::::::::::::
 
-## Conceptualising Expressive Interactions
+## Steps in Mappings
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-Steps in mapping:
+@baalman2022composing expands the mapping process into a cycle.
 
 - A gesture is performed in the environment;
 - This is captured by a sensor that translates the gesture is processed by an electronic circuit, often to digitalise it;
 - Next, the signal enters some sort of computational model that translates the data to parameters;
 - These parameters control an output medium such as sound, light, video, or mechatronics.
 
-> how is output from one connected to input, what happens in each step?
-
-*Charles discusses how this process relates to expressive interaction.*
+how is output from one connected to input? what happens in each step?
 :::
 ::: {.column width="40%"}
 ![Steps in the mapping process [@baalman2022composing]](img/step-in-mapping.jpg){width="90%"}
 :::
 ::::::::::::::
+
+<!-- ## Why are we talking about this?
+
+- expression is a complex HCI design and research problem
+- not _just_ for creative applications, expressive interaction is applicable in other devices
+- expressive interactions -->
 
 # Drawing Interaction
 
@@ -107,10 +165,10 @@ Surface Drawing system [@schkolne2001organicshape]
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- [AirPens: Musical Doodling]( https://nime2025.org/proceedings/166.html) 
-    - [To Charles: this is installation, not bibtex. I know you may not like this example.]
-    - Make music with mark-making.
-    - Use IMU sensors to convert movement into sound; explore different mappings between movement and sound.
+
+- [AirPens: Musical Doodling](https://nime2025.org/proceedings/166.html) 
+- Make music with mark-making.
+- Use IMU sensors to convert movement into sound; explore different mappings between movement and sound.
 
 :::
 ::: {.column width="40%"}
@@ -333,10 +391,32 @@ When AI meets holographic pepper’s ghost:
 <!-- charles can read the paper and talks more. -->
 :::
 ::: {.column width="40%"}
+
 ![](img/ai-holographic-dancer.jpg){width="90%"}
+
 ![](img/ai-holographic-dancer-2.jpg){width="90%"}
+
 :::
 ::::::::::::::
+
+# Recording a video in Powerpoint
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+For the final project you need to record an upload a presentation video. The specification is:
+
+- must be no longer than 5.5 minutes (330 seconds)
+- must be no larger than 1920 x 1080 pixels.
+- must be narrated with your voice
+- must show video of you speaking
+
+You can do this easily with [Powerpoint](https://support.microsoft.com/en-au/office/record-a-slide-show-with-narration-and-slide-timings-0b9502c6-5f6c-40ae-b1e7-e47d8741161c#OfficeVersion=2013%2C_2016&officeversion=newer_versions), so let's give it a try.
+:::
+::: {.column width="50%"}
+![recording a presentation video in powerpoint](img/powerpoint-video.png)
+:::
+::::::::::::::
+ 
 
 ## Questions: Who has a question?
 
