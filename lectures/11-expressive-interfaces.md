@@ -339,7 +339,7 @@ CO/DA System [@coda2022chi]:
 
 > Why introduce artificial intelligence?
 
-Computational creativity help create new ideas in three ways [@boden1998computational]
+Computational creativity helps create new ideas in three ways [@boden1998computational]
 
 - Produce novel combinations of familiar ideas;
 - Explore the potential of conceptual spaces;
@@ -381,7 +381,7 @@ Cobbie system [@lin2020cocreativerobots]
 ::: {.column width="60%"}
 When AI meets holographic pepper’s ghost:
 
-- Co-creative public dancer [@trajkova2023holographicai, @trajkova2024dance, @long2019lumi]
+- Co-creative public dancer [@trajkova2023holographicai;@trajkova2024dance;@long2019lumi]
 - Explore the design of the modular AI agent to creatively collaborate with a dancer.
 - A Kinect motion capture device to detect the user's motion, visualised as a virtual shadow on a projection screen.
 - The humanoid agent shadow dances by analysing the user's movement and responding with a movement that it deems to be similar in terms of parameters such as energy, tempo, or size.
