@@ -16,7 +16,13 @@ title-slide-attributes:
 
 ## Plan for the class
 
-**Should we talk more on study results?**
+- conceptualising expressive interactions
+- drawing interactions
+- music interactions
+- dance interactions
+- installed interactions
+- playful interactions
+- human-AI creative interactions
 
 # Conceptualising Expressive Interactions
 
@@ -49,7 +55,6 @@ Expression and creativity let us get _inside_ the process of an interaction. Peo
 ## Principles for Creativity Support Tools (CSTs)
 
 @shneiderman-creativity-support-tools:2007 posits principles for developing CSTs
-
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
@@ -146,9 +151,11 @@ how is output from one connected to input? what happens in each step?
 
 # Drawing Interaction
 
-Surface Drawing system [@schkolne2001organicshape]
+![MicroJam drawing/music app in 2018 [@martin-tiny-touchscreen:2020]](img/2018-microjam.jpg){width=50%}
 
-- Drawing (hands), moving, scaling, erasing (a pair of kitchen tongs).
+## Surface Drawing System
+
+Drawing with hands, moving, scaling, erasing (a pair of kitchen tongs) [@schkolne2001organicshape]
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
@@ -161,7 +168,7 @@ Surface Drawing system [@schkolne2001organicshape]
 :::
 ::::::::::::::
 
-## Drawing Interaction
+## AirPens
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -173,6 +180,24 @@ Surface Drawing system [@schkolne2001organicshape]
 :::
 ::: {.column width="40%"}
 ![AirPen at NIME25.](img/airpen.jpg){width="100%"}
+:::
+::::::::::::::
+
+## MicroJam
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+App for making short (5s) musical performances with a sketch ([video](https://youtu.be/HhI47-XzrtI) and [info](https://charlesmartin.au/projects/microjam/)). [@martin-tiny-touchscreen:2020]
+
+- Uses touch location and movement to create sound.
+- Replay performances by rewinding the sketch and viewing it again.
+- Social media interface: view other people's drawing and add layers as a musical "reply"
+- Analysed 1600 tiny jams to understand musical drawing behaviour.
+:::
+::: {.column width="40%"}
+![Analysing the kinds of drawings](img/microjam-fig3.png)
+
+![Analysing the speed of swipes](img/microjam-fig10.png)
 :::
 ::::::::::::::
 
@@ -193,65 +218,73 @@ The [New Interface for Musical Expression (NIME)](https://nime.org) research com
 :::
 ::::::::::::::
 
-## Music Interaction
+## PhaseRings: natural gestures on big touchscreens
 
 :::::::::::::: {.columns}
-::: {.column width="70%"}
-Design novel gestures for guitar-like instruments.
+::: {.column width="60%"}
+How can we perform music on big touchscreens?
+
+- Rather than re-implement music production apps, looked at natural gestures in long-term artistic practice.
+- Lots of apps from 2011--2014 and lots of performances e.g., @martin-phaserings:2016
+- Initially, sought to understand how percussionists would touchscreens [@martin-exploring-percussive-gesture:2014]
+- Then explored networked connections in ensemble performance [@martin-tracking-ensemble-performance:2015]
+- Then compared how networked ensembles supported by the interface [@martin-intelligent-agents:2016]
+:::
+::: {.column width="40%"}
+![PhaseRings played by visitors to a gallery workshop (2015)](img/2015-11-28-Electrofringe-Workshop.jpg)
+:::
+::::::::::::::
+
+## Hyperinstruments: non-guitar guitars
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 
 - When is a Guitar not a Guitar? [@harrison2018guitar]: novel instruments and controllers resemble traditional instruments.
-- Four guitar-derivative DMIs design (fixed string sound):
-    -  Overall form (guitar-shaped vs. tabletop); Interaction modality (plucked strings vs. touch sensor).
-- All was strong for the 'congruent' strings guitar and touch sensor tabletop group.
-- Less parity across and between groups for the 'incongruent' touch sensor guitar and strings tabletop group.
-- Guitarists prefer technical familiarity of stringed instrument (guitarists).  
-- Non-musicians prefer touch-interface: ease of use, cultural load of the guitar form.
+- Four designs examining variation in form (held vs tabletop) and interaction (strings vs touch sensor)
+- **Guitarists** prefer technical familiarity of stringed instrument (guitarists)
+- **Non-musicians** prefer touch-interface: ease of use, cultural load of the guitar form
+
 :::
-::: {.column width="30%"}
-![Four "guitar-like" instruments.](img/guitar-or-not.jpg){width="80%"}
+::: {.column width="40%"}
+![Four "guitar-like" instruments from @harrison2018guitar. strings vs no strings, held vs tabletop.](img/guitar-or-not.jpg){width="80%"}
 :::
 ::::::::::::::
 
 
-## Music Interaction
+## Authentic musical instruments for AR
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Design novel expression with technology affordance.
+_cube_ system: authentic design for a head-mounted AR musical instrument [@wang-cubing-sound:2022]
 
-*cube* system: authentic design for a head-mounted AR musical instrument [@wang-cubing-sound:2022]
+Autobiographical design [@desjardins2021firstpersontochi] to compare three interfaces candidates
 
-- Autobiographical design [@desjardins2021firstpersontochi].
-- Yichen chose to create an AR interface for frequency modulation synthesis.
-    1. Physical Interface: slow accurate manipulation due to hand tracking.
-    2. Spatial Interaction: emerged from bodily movement allowing ease of use.
-    3. Flexible Freehand Interaction: allow multiple notes to be played simultaneously, taking advantage of the full-hand tracking affordance in the AR headset.
+1. **Physical interface:** slow accurate manipulation due to hand tracking.
+2. **Spatial interaction:** emerged from bodily movement allowing ease of use.
+3. **Flexible freehand interaction:** allow multiple notes to be played simultaneously, taking advantage of the full-hand tracking affordance in the AR headset.
 :::
 ::: {.column width="40%"}
 ![](img/p1-label.jpg){width="80%"}
 ![](img/p2-label.jpg){width="80%"}
 ![](img/p3.jpg){width="80%"}
-
-The system design process.
 :::
 ::::::::::::::
 
-## Music Interaction
+## Gesture to Sound Mappings in Music
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-The gesture-sound mapping.
-
-- Decompose DMI system into the mapping between input actions, sound production and feedback [@wessel2002problems;@mirandawanderley2006dmi].
-- Enable novel forms of musical expression through expanded control over sound timbre and texture, leading to a richer and more diverse musical experience [@wessel2002problems;@magnusson2010designconstrain].
-- Issues of control intimacy due to mediated gesture and sound relation [@wessel2002problems], a limit on machine-centre approach[@pigrem2018we].
-- Call for a dynamic and fluid framework which performer and instrument engage in a mutually influential relationship during the design process [@mcpherson2024mappingnew].
+- **Traditional approach:** decompose input actions, sound production and feedback [@wessel2002problems;@mirandawanderley2006dmi].
+- **New sounds, music, and experiences:** expanded control over timbre and texture, richer and more diverse musical experience [@wessel2002problems;@magnusson2010designconstrain].
+- **Control intimacy:** mediated gesture and sound relation [@wessel2002problems], a limit on machine-centre approach[@pigrem2018we].
+- **Current research:** finding better frameworks. Performer and instrument engage in a mutually influential relationship during the design process [@mcpherson2024mappingnew].
 
 :::
 ::: {.column width="40%"}
 
-![A common DMI model presenting the separation of a musician’s input action captured by the controller, the mapping engine bridg-
+![The traditional DMI model separates a musician’s input action captured by the controller, the mapping engine bridg-
 ing the input interface and sound engine [@magnusson2010designconstrain].](img/mapping-model.jpg){width="80%"}
 
 :::
@@ -261,24 +294,39 @@ ing the input interface and sound engine [@magnusson2010designconstrain].](img/m
 
 From gestures to body (embodied) movements.
 
-CO/DA System [@coda2022chi]:
-![](img/coda-system.jpg){width="70%"}
+![CO/DA System [@coda2022chi]](img/coda-system.jpg){width="70%"}
 
 - Support real-time manipulation of continuous streams of the dancers’ motion data for interactive sound synthesis.
 - Enable novel dance improvisations through live coding.
 - Live coding: interactively programming musical or visual processes as performance.
 
-## Dance Interaction
+## Co/da system
 
-<!-- Novelty in terms of expressivity. -->
-![](img/coda-process.jpg){width="60%"}
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 
 - Movements are measured using motion sensors, and the live coder processes motion signals to generate feedback in real-time.
 - Enable a multitude of feedback loops: sound feedback -> movement improvisation -> the coder alters the relationships between movement and sound.
 - Dynamic improvisation that stimulates novel movements' exploration.
 
+:::
+::: {.column width="40%"}
+![Co/Da's mapping diagram [@coda2022chi]](img/coda-process.jpg)
+:::
+::::::::::::::
 
 # Installed Interactions
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Putting expressive interactions into public places.
+:::
+::: {.column width="50%"}
+![[Bellyhorn](https://dianneverdonk.com/bellyhorn/) by Dianne Verdonk (image: Charles Martin)](img/constructions-nime2017.jpg)
+:::
+::::::::::::::
+
+## Dinosaur Choir
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -286,34 +334,70 @@ CO/DA System [@coda2022chi]:
 [Dinosaur Choir: Adult Corythosaurus](https://nime2025.org/assets/preprints/nime2025_music_preprint_270.pdf)
 
 - Singing dinosaur skull musical instruments.
-- Aim to realise dinosaur vocalisation:  inspired by recent research to base dinosaur vocal anatomy on the bird syrinx, despite dinosaur vocal organs are still an actively debated question in paleontology.
-- Use microphone to capture the voice by users, feeding into a computational vocal model and resonating the sound through a 3D printed replica of the dinosaur’s nasal cavities and skull.
-- Change the pitch and timbre of the vocalisation by changing the shape of the mouths, like trumpet player. 
+- Experience dinosaur vocalisation: imagine dinosaur vocal anatomy from a bird syrinx, (vocal structure open question in paleontology)
+- Microphone for user, computational vocal model, sound resonates through a 3D printed replica of the dinosaur’s nasal cavities and skull
+- Change the pitch and timbre of the vocalisation by changing the shape of the mouths, like trumpet player
 :::
 ::: {.column width="40%"}
 ![Dinosaur Choir at NIME25.](img/charles-dinosaur.jpg){width="100%"}
 :::
 ::::::::::::::
 
-# Playful Interaction
+## Illumicube (in Canberra!)
 
 :::::::::::::: {.columns}
-::: {.column width="60%"}
-> Have you imagined a breath-controlled amusement rides?
+::: {.column width="50%"}
 
-- Inspired by robotic technologies for control of individual seats on rollercoasters and other thrill rides.
+[official website](https://www.arts.act.gov.au/public-art/i/illumicube)
 
-- How about using breath instead?
+- Interactive sculpture in Canberra by Kerry Simpson (1988)
+- Glass and sound (now movement) activated lighting
+- Location: Ainslie Avenue, Canberra
 
-- Enhanced bucking bronco ride that balances realism for breadth control and practicability in cost, tourability and safety.
+Playful installed interaction can lead to unwanted behaviour! Noise from folks exiting civic pubs!
 
 :::
-::: {.column width="40%"}
-![Falling off the Broncomatic[@marshall2011chi]](img/breath-controlled-rides.jpg){width="60%"}
+::: {.column width="50%"}
+![Illumicube [(link)](https://www.flickr.com/photos/archivesact/6278619521/) CC BY-NC 2.0](img/illumicube-actarchives.jpg)
 :::
 ::::::::::::::
 
-## Playful Interaction
+# Playful Interaction
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+Can silly or playful ideas turn into interesting interactions?
+
+Can we use play to examine more serious HCI concepts?
+
+It's fun to make the world more fun.
+:::
+::: {.column width="50%"}
+![The Phox Ears listening helmet by @kleinberger-phoxears:2015](img/headgear-nime2015.jpg)
+:::
+::::::::::::::
+
+## Breath Controlled Amusement Ride
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+> Can an amusement ride be controlled by breath?
+
+- Inspired by robotic technologies for control of individual seats on rollercoasters and other thrill rides.
+- the [Broncomatic](https://www.somabotics.ac.uk/research-article/broncomatic/) is a bucking bronco game (horse riding; you try to stay on!)
+- The twist is it's controlled by the user's breath
+- the ride kicks you around and if you lose control it kicks harder (until you fall off)
+
+"Breath Control of Amusement Rides" [@marshall2011chi]
+
+:::
+::: {.column width="40%"}
+![Falling off the Broncomatic [@marshall2011chi]](img/breath-controlled-rides.jpg){width="60%"}
+:::
+::::::::::::::
+
+## More on the Broncomatic
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -324,8 +408,6 @@ CO/DA System [@coda2022chi]:
     - Difficulty levels.
 - The program is a game in which the player scores more points the more that they breathe: a physical challenge vs reward dynamic.
     - More breathing for faster ride but harder to stay on. To score high, you must breathe more, but this makes the ride tougher.
-- *Blast theory if Charles you want to talk about it.*
-
 :::
 ::: {.column width="40%"}
 ![Falling off the Broncomatic [@marshall2011chi]](img/broncomatic-system-design.jpg){width="70%"}
@@ -335,10 +417,22 @@ CO/DA System [@coda2022chi]:
 # Human-AI Creative Interaction
 
 :::::::::::::: {.columns}
+::: {.column width="50%"}
+
+Interest incorporating AI into creative interaction since computing began.
+
+Recent work often focuses on current genAI breakthroughs, e.g. [Autolume visual generator system](https://www.metacreation.net/projects/autolume-automating-live-music-visualisation-technical-report?rq=autolume) and [Reprising Elements performance (2023)](https://arshiasobhan.com/works/reprising-elements)
+
+:::
+::: {.column width="50%"}
+![Musicians performing with a genAI visualisation ([link](https://arshiasobhan.com/works/reprising-elements))](img/2023-autolume-performances.png)
+:::
+::::::::::::::
+
+## Why introduce AI into expressive interaction?
+
+:::::::::::::: {.columns}
 ::: {.column width="60%"}
-
-> Why introduce artificial intelligence?
-
 Computational creativity helps create new ideas in three ways [@boden1998computational]
 
 - Produce novel combinations of familiar ideas;
@@ -356,18 +450,15 @@ Creativity and technology: a sociotechnological perspective [@bown2021beyondcrea
 :::
 ::::::::::::::
 
-## Human-AI Creative Interaction
+## Cobbie: co-creative robots
+
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 Cobbie system [@lin2020cocreativerobots]
 
 - *Motivation*: Co-creative partner can reason about user's intention and stably present novel ideas with the user initiative, which are hindered in human team due to social loafing or a resolute partner otherwise.
 - Take turns to draw ideas, give the dominant position to the user, and use movements and sound feedback for communication.
-
-- Three human-robot interaction:
-    - It is your turn
-    - Pause and Draw again
-    - Progressing with feedback
+- Three human-robot interactions: your turn, pause and draw again, progressing with feedback
 
 :::
 ::: {.column width="50%"}
@@ -375,18 +466,17 @@ Cobbie system [@lin2020cocreativerobots]
 :::
 ::::::::::::::
 
-# Human-AI Creative Interaction
+## Holographic dancing ghost
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-When AI meets holographic pepper’s ghost:
 
 - Co-creative public dancer [@trajkova2023holographicai;@trajkova2024dance;@long2019lumi]
 - Explore the design of the modular AI agent to creatively collaborate with a dancer.
 - A Kinect motion capture device to detect the user's motion, visualised as a virtual shadow on a projection screen.
 - The humanoid agent shadow dances by analysing the user's movement and responding with a movement that it deems to be similar in terms of parameters such as energy, tempo, or size.
 - Study results showed in-the-moment influences, self, partner, environment[@trajkova2024dance].
-<!-- charles can read the paper and talks more. -->
+
 :::
 ::: {.column width="40%"}
 
