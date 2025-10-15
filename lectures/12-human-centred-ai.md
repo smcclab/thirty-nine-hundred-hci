@@ -11,6 +11,16 @@ author: Dr Charles Martin
 
 Go through: Shneiderman, Ben. Human-Centered AI, Oxford University Press, Incorporated, 2022. ProQuest Ebook Central, <https://ebookcentral.proquest.com/lib/anu/detail.action?docID=6838500>.
 
+## What is HCAI?
+
+## HCAI frameworks
+
+## Design Metaphor
+
+## Governing Structure
+
+## Hwo do we (NIMEy/Creative Computing) approach HCAI?
+
 
 
 ## Questions: Who has a question?
