@@ -58,13 +58,87 @@ Go through: Shneiderman, Ben. Human-Centered AI, Oxford University Press, Incorp
 ::::::::::::::
 
 ## Science and Innovation Goals
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 Autonomous social robots
 
-- Science goals:
-- Innovation goals:
+- Science goals: a general purpose robot elders, parcel delivery, etc.
+- Innovation goals: tune solution for each context of use.
+<!-- Notes for Charles -->
+<!-- More see Printed page 11 in yellow highlights; just think it's good to discuss an example.-->
 
+Online meeting services
+
+- Science: devices / software support collaboration.
+- Innovation: Microsoft Teams, Zoom, Google meet.
+:::
+::: {.column width="40%"}
+![Pepper: The world's first social humanoid robot able to recognize faces and human emotions. [Source](https://aldebaran.com/en/pepper/).](img/pepper-photo.jpg){width="50%"}
+:::
+::::::::::::::
 
 ## Intelligent Agents and Supertools
+Early Perceptions of Computers
+
+- 1940s–1950s: Computers were labeled "awesome thinking machines" and "electronic brains".
+- Dianne Martin: Argues that such myths slowed workplace acceptance and created unrealistic expectations[@martin1933myth].
+- Alan Turing (1950):
+    - Introduced "Can Machines Think?" [@turing1950computing].
+    - Proposed the Turing Test (aka the imitation game).
+    - Envisioned machines competing with humans in intellectual fields.
+- Debate: a deceptive metaphor rather than a meaningful test[@natale2021deceitful].
+
+## Intelligent Agents and Supertools
+Human–Computer Symbiosis (1960)[@licklider1960man]
+
+- Computers and humans as collaborative partners.
+- Humans make decisions; computers handle routine tasks.
+
+AI Language & Metaphors
+
+- Terms like smart, intelligent, thinking have influenced public perception.
+- AI described using neuroscience metaphors (e.g., neural networks).
+- IBM Watson: Marketed under "cognitive computing", later shifted to "augmented intelligence" for clarity.
+- Google PAIR: Focus on People and AI Research, emphasising human-centered design.
+
+## Intelligent Agents and Supertools
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Media & Popular Culture Influences
+
+- Journalists & magazines (e.g., Newsweek, Time) popularised ideas of thinking machines and robots replacing jobs.
+- Graphic art & Hollywood films (e.g., 2001: A Space Odyssey, The Terminator, Her, Ex Machina) reinforced human-like AI images.
+
+Human-Centered Perspectives
+
+- Portrayed as independent actors or agents that (“who”).
+- Warn again terms such as know, read, explain, but to **empower**, not replace humans[@rusdaniela2020].
+
+:::
+::: {.column width="40%"}
+![HAL 9000 in movie "2001: A Space Odyssey." [Source](https://www.indiewire.com/features/general/douglas-rain-dead-hal-9000-2001-a-space-odyssey-stanley-kubrick-cast-1202019828/)](img/hal-9000.jpg){width="100%"}
+:::
+::::::::::::::
+
+## Intelligent Agents and Supertools
+Human–AI Design Debate: automation vs direct user control [ref]
+<!-- - Shneiderman: Emphasised user control via direct manipulation (buttons, sliders, etc.).
+- Maes: Advocated for proactive software agents that anticipate user needs. -->
+
+Industry Design Guidelines on user control, flexibility, accessibility.
+<!-- Guidelines from Apple, IBM, Microsoft: -->
+<!-- User Control: “People—not apps—are in control.”
+Flexibility: Users need fine-grained control.
+Accessibility success story: A blind woman using a laptop to do professional work on a flight. -->
+
+AI in Conferences & Applications:
+
+- Science Goal (AI researchers): Automated performance (e.g., self-driving cars, reading x-rays).
+- Innovation Goal (HCAI researchers): Promote human-supervised tools (e.g., SIGCHI, UXPA, Augmented Humans conferences) such as digital cameras.
+
+> Combine intelligent agents with human-controlled tools to ensure trust, usability, and control
+
 
 ## Teammates and Tele-bots
 
