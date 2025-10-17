@@ -274,8 +274,6 @@ Let's do some _data analysis_
 :::
 ::::::::::::::
 
-
-
 # Basic Qualitative Analysis
 
 ![Qualitative analysis, fewer numbers, still a lot of work. (Photo by Jessica Lewis 🦋 thepaintedsquare on Unsplash)](img/jessica-lewis-thepaintedsquare--W1TjrjSycI-unsplash.jpg){width=50%}
