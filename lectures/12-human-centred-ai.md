@@ -755,29 +755,126 @@ Over-optimism about social robots.
 Academic reports are mixed: user satisfaction and sometimes
 delight; preference for tool-like designs.
 
-Fear of Autonomous Robots and AI [reference]
-- A minor issue for 20.1% and a serious issue for 18.5% over 1489 participants.
+Fear of Autonomous Robots and AI [reference]: 20.1% minor issue & 18.5% for serious over 1489 participants.
 
-Uncanny valley concerns:
-Near-human designs often feel unsettling or untrustworthy.
-*Would people perform more effectively and prefer a supertool or active appliance design?* -- the 
-- Strong preference for predictable, user-controlled systems [apple]
+Uncanniness: near-human designs often feel unsettling or untrustworthy.
 
-- *"There is no good reason for robots to have humanoid form … they represent a form of dishonesty"*
-- Practical Applications
-- Designing for real needs, not mimicking humans.
+Predictable, user-controlled systems [apple]
 
-Promising Paths Forward
-Successful directions:
-Voice-based virtual assistants
-Chatbots with low error rates
-Pet-like devices for therapy
-Human-like guides for exercise
-Emphasis on:
-“Long-term studies to understand what solutions remain appealing and useful over time.”
+Design for real and practical needs, domains in voice virtual assistants, low error chatbots, 
+
+*"There is no good reason for robots to have humanoid form … they represent a form of dishonesty"*
+
+*Long-term studies to understand what solutions remain appealing and useful over time.*
 
 # Governing Structure
+<!-- fun image -->
+We need actionable governance, ethical principles are not enough.
 
+AI misinformation and misuse.
+
+Require multi-level governance—team, organisation, industry, and government.
+
+Four Levels of Governance for HCAI:
+
+- Reliable systems through software engineering teams
+- Safety culture in organisations
+- Trustworthy certification via industry oversight
+- Regulation by government agencies
+
+
+## How to bridge the gap from ethics to practice? 
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+> What we need to govern is the human application of technology, and what we need to oversee are the human processes of development, testing, operation, and monitoring. [ref]
+
+Design and evaluation methods in HCAI are essential tools for addressing these dangers and realising the benefits.
+
+Charles explains the figure. 
+:::
+::: {.column width="40%"}
+![Four levels of governance structures for human-centered AI.](img/hcai-governance-structure.png){width="100%"}
+:::
+::::::::::::::
+
+## Traditional AI vs. Human-Centered 
+
+| **Traditional AI** | **Human-Centered AI (HCAI)** |
+|--------------------|------------------------------|
+| Build AI algorithms and systems, stressing the autonomy of machines | Emphasises human autonomy through well-designed user interfaces |
+| Research human behaviour study and emulation | Build on AI foundations to amplify, augment, and enhance human performance |
+| Benchmarks on algorithm performance | Elevates human performance and satisfaction |
+| Less engagement with end users in early design phases | Advocates user-centered participatory design by engaging diverse stakeholders |
+| Success defined by technical functionality | Success defined by how well systems support human goals, activities, and values |
+| Priority on machine intelligence and control | Ensures meaningful human control and values customer and consumer needs |
+
+
+## Reliable Systems Based on Sound Software Engineering Practices
+
+Clarify human responsibility.
+
+Improved software engineering workflows tuned to the tasks and application domain.
+
+Testing, user experience design for explainable interface.
+
+- Audit trials and analysis tools
+- Software engineering workflows: attune to AI-specific testing and validation.
+- Verification and validation testing: strengthen what users expect over unexpected harms.
+- Bias testing to enhance fairness: algorithms on opacity, scale and harm.
+- Explainable user interfaces:  
+    - prevent the need for explanations.
+    - visual design.
+
+## Safety Culture through Business Management Strategies    
+
+Preparing for failure:
+
+- Normal accident theory [Charles Perrow].
+- High reliability organisations.
+- Resilience Engineering [David Woods].
+- Safety Cultures: promote safety mindset and open management strategies.
+
+Five Management Actions:
+
+1. Leadership Commitment to Safety
+2. Hiring and Training Oriented to Safety
+3. Extensive Reporting of Failures and Near Misses
+4. Internal Review Boards
+5. Alignment with Industry Standard Practices
+
+
+## Charles, do you want to discuss a real-world example?
+
+Tesla’s reported fatalities
+
+
+## Trustworthy Certification by Independent Oversight
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Independent oversight for safety, reliability and public acceptance.
+
+Assign liability to who are involved in the design, operation, and maintenance of AI systems.
+
+Methods:
+
+1. Planning Oversight: Review systems before deployment.
+2. Continuous Monitoring: Ongoing inspection and evaluation.
+3. Retrospective Analysis: Post-failure reviews.
+:::
+::: {.column width="40%"}
+![ Independent oversight methods. Three forms of independent oversight: planning oversight, continuous monitoring, and retrospective analysis of disasters.](img/independent-oversight-method.png){width="100%"}
+:::
+::::::::::::::
+
+## Use Cases
+
+- Accounting firms conduct external audits for HCAI Systems: big four are positioned to lead the work.
+- Insurance companies compensate for failures, e.g., industry-specific insurance models.
+- Non-Governmental Organizations (NGOs), e.g., [Algorithmic Justice League](https://www.ajl.org).
+- Professional organisations and academic institutions: [IEEE P7000 series standard](https://standards.ieee.org/ieee/7000/6781/), ACM, AAAI, Oxon, University of Cambridge, Stanford, etc.
 
 
 ## Questions: Who has a question?
