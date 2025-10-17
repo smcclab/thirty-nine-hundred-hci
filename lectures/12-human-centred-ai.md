@@ -10,6 +10,24 @@ title-slide-attributes:
 
 ## Plan for the class
 
+## Course Stats:
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- Max of 330 students (down to ~295) --- **biggest ever HCI class at ANU**.
+- Git Commits: 362
+- Slides: 550 slides, 36200 words, 368 images
+- Tutorials: 10 new tutorials, 11283 words
+- Forum:
+  - 3K threads, 363 answers, 858 comments.
+  - 185K views, biggest viewer viewed 7035 threads (???) (I only viewed 4095!)
+  - Charles answered 180+ questions
+:::
+::: {.column width="40%"}
+![Github Insights on HCI this year...](img/hci-commits.jpg)
+:::
+::::::::::::::
+
 ## Lecture Ideation
 
 Go through: Shneiderman, Ben. Human-Centered AI, Oxford University Press, Incorporated, 2022. ProQuest Ebook Central, <https://ebookcentral.proquest.com/lib/anu/detail.action?docID=6838500>.
