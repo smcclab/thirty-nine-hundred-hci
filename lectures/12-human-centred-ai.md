@@ -411,11 +411,12 @@ Online meeting services
 - Innovation: Microsoft Teams, Zoom, Google meet.
 :::
 ::: {.column width="40%"}
-![Pepper: The world's first social humanoid robot able to recognize faces and human emotions. [Source](https://aldebaran.com/en/pepper/).](img/pepper-photo.jpg){width="50%"}
+![Pepper: The world's first social humanoid robot able to recognize faces and human emotions. Photo by Owen Beard on Unsplash.](img/owen-beard-K21Dn4OVxNw-unsplash.jpg){width="50%"}
 :::
 ::::::::::::::
 
 ## Intelligent Agents and Supertools
+
 Early Perceptions of Computers
 
 - 1940s–1950s: Computers were labeled "awesome thinking machines" and "electronic brains".
@@ -427,7 +428,8 @@ Early Perceptions of Computers
 - Debate: a deceptive metaphor rather than a meaningful test[@natale2021deceitful].
 
 ## Intelligent Agents and Supertools
-Human–Computer Symbiosis (1960)[@licklider1960man]
+
+Human–Computer Symbiosis (1960) [@licklider1960man]
 
 - Computers and humans as collaborative partners.
 - Humans make decisions; computers handle routine tasks.
@@ -440,6 +442,7 @@ AI Language & Metaphors
 - Google PAIR: Focus on People and AI Research, emphasising human-centered design.
 
 ## Intelligent Agents and Supertools
+
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 Media & Popular Culture Influences
@@ -459,6 +462,7 @@ Human-Centered Perspectives
 ::::::::::::::
 
 ## Intelligent Agents and Supertools
+
 Human–AI Design Debate: automation vs direct user control [ref]
 <!-- - Shneiderman: Emphasised user control via direct manipulation (buttons, sliders, etc.).
 - Maes: Advocated for proactive software agents that anticipate user needs. -->
