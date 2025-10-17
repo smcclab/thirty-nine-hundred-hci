@@ -32,7 +32,6 @@ author: Dr Charles Martin
 :::
 ::::::::::::::
 
-
 ## Final Project Research Challenge
 
 > **Sustainable living through technology**: You woke up this morning, checked your email, and found that you have a new job---_ANU Student Lead for Sustainable Living_! 
@@ -308,12 +307,11 @@ Learning theory concept: "zone of proximal development"---we should get users in
 :::
 ::::::::::::::
 
-
 # Cognitive Frameworks
 
 - **Mental models**
 - **Gulfs of Execution and Evaluation**
-- Information Processing
+- **Information Processing**
 - **Distributed Cognition**
 - **External Cognition**
 - **Embodied Interaction**
@@ -602,8 +600,6 @@ anthropomorphism is the human tendency to attribute human qualities to animals a
 ![The haptic creature [@yohanan-haptic-creature-assessment:2011]](img/haptic-creature-2011.png)
 :::
 ::::::::::::::
-
-
 
 ## Questions: Who has a question?
 
