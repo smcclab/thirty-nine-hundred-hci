@@ -146,9 +146,6 @@ Bill Buxton sez! So do it! [@buxton-sketching:2007]
 
 ## Activity: Sketch Demo
 
-
-
-
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 Let's sketch something:
