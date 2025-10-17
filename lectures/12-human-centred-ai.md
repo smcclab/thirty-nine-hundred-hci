@@ -45,7 +45,7 @@ Researcher has a hard job here... needs to be a designer, programmer, and busine
 
 - First wave: Human Factors in Computing (1980-1992) [@chignell-evolution-hci:2023]
   - Optimising/measuring efficiency, cognitive psychology approach, studying individual users. Lab setting.
-- Second wave: Cognitive revolution — mind and computer coupled (1992-2006)
+- Second wave: Cognitive revolution — mind and computer coupled (1992-2006) [@kaptelinin-postcognitivist-hci:2003]
   - Optimise interactions, hypothesis testing, affordances, activity theory, user-centred design. Work environments.
 - Third wave: Situated perspectives [@boedker-third-wave:2015] (2006-)
   - Consumer tech, participation and sharing, pervasive computing, AR, tangible interaction, home environments,
@@ -56,6 +56,7 @@ Researcher has a hard job here... needs to be a designer, programmer, and busine
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
+
 - Effective to use (effectiveness)
 - Efficient to use (efficiency)
 - Safe to use (safety)
@@ -74,10 +75,12 @@ This version from: [@rogers-beyond-hci:2023]
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
+
 1. _Discover_: understand the problem and the people affected
 2. _Define_: define the problem clearly so that it can be addressed
 3. _Develop_: create ideas, prototypes, sketches, etc, that might address the problem
 4. _Deliver_: test potential solutions to find promising directions, and iterate
+
 :::
 ::: {.column width="60%"}
 ![The double diamond model of design [adapted from @double-diamond-model]](img/hci-design-double-diamond.png){width=100%}
@@ -88,6 +91,7 @@ This version from: [@rogers-beyond-hci:2023]
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+
 - quick
 - timely
 - inexpensive
@@ -158,6 +162,7 @@ This version from: [@rogers-beyond-hci:2023]
 These approaches may be enough to make clear research findings!
 :::
 ::: {.column width="40%"}
+
 | stat  | interactive activities |
 |-------|------------------------|
 | min   | 1                      |
@@ -175,7 +180,7 @@ These approaches may be enough to make clear research findings!
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 Lots of qualitative techniques but our focus is (Reflexive) Thematic Analysis (RTA) [@braun-thematic-analysis:2022], a well-known and accessible methodology.
- 
+
 1. familiarise with the data
 2. coding (short labels, multiple rounds)
 3. generating initial themes (higher level than codes)
@@ -217,6 +222,7 @@ Source: Charles, 2025. 😬
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
+
 - Command Line
 - Graphical
 - Multimedia
@@ -228,8 +234,10 @@ Source: Charles, 2025. 😬
 - Pen
 - Touch
 - Touchless
+
 :::
 ::: {.column width="50%"}
+
 - Haptic
 - Multimodal
 - Shareable
@@ -241,6 +249,7 @@ Source: Charles, 2025. 😬
 - Smart
 - Shape-changing
 - Holographic
+
 :::
 ::::::::::::::
 
@@ -268,6 +277,7 @@ Social and Emotional aspects
 - Affective Computing and Emotional AI
 - Persuasive Technologies
 - Anthropomorphism
+
 :::
 ::::::::::::::
 
@@ -275,6 +285,7 @@ Social and Emotional aspects
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+
 - Evaluation Goal/Aims
 - Participants
 - Setting
@@ -284,6 +295,7 @@ Social and Emotional aspects
 - Data capture, recording, storage
 - Analysis method
 - Output(s) of evaluation process
+
 :::
 ::: {.column width="40%"}
 ![How to evaluate this app?](img/2018-microjam.jpg)
@@ -294,6 +306,7 @@ Social and Emotional aspects
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
+
 - going beyond descriptive statistics...
 - **significance testing:** quantifying differences in mean
     - $t$-tests: for comparing two means
@@ -302,6 +315,7 @@ Social and Emotional aspects
     - $\chi^2$ test: comparing categorical data
 - correlation analysis
 - regression
+
 :::
 ::: {.column width="50%"}
 One-way ANOVA:
@@ -350,6 +364,16 @@ The interaction itself is expressive, and the output is an expression as well. W
 :::
 ::::::::::::::
 
+## Key challenges of HCI research
+
+1. **problem finding:** computers are ubiquitous and everybody[^1] seems to get along with them ok, so where are the problems? Where can we make impact to help people?
+2. **design processes:** need them to lead to new contributions, not clones of existing designs. If you are making something new, how do you know what the requirements are? At any scale, design and prototyping is expensive.
+3. **evaluation:** working with people is time-consuming and uncertain. Data analysis can easily take months for a research paper.
+4. **communication:** after doing _all this work_ (see above), there can be a lot of explain in a paper! Clear communication is a huge challenge. Reviewers love to poke holes in any and all aspect of a design and evaluation process.
+
+Conclusion: HCI research is kinda hard!
+
+[^1]: everybody to some value of people we know about
 
 # What is HCAI?
 
@@ -366,7 +390,8 @@ The interaction itself is expressive, and the output is an expression as well. W
  <!-- key is to combine designs that take an automated approach for tasks that can be carried out reliably, and a user-controlled approach for tasks that users want to manage.
  <!--  -->
 
-## History on Artificial Intelligence:  
+## History on Artificial Intelligence:
+
 <!-- can machines think? -->
 <!--  a picture of turing test -->
 - Charles briefly explains turing test.
