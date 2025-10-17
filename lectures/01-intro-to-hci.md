@@ -110,7 +110,7 @@ Now:
   - Optimising/measuring efficiency, cognitive psychology approach, studying individual users. Lab setting.
 - Second wave: Cognitive revolution — mind and computer coupled (1992-2006)
   - Optimise interactions, hypothesis testing, affordances, activity theory, user-centred design. Work environments.
-- Third wave: Situated perspectives ([Bødker 2015](https://doi.org/10.1145/2804405)) (2006-)
+- Third wave: Situated perspectives [@boedker-third-wave:2015] (2006-)
   - Consumer tech, participation and sharing, pervasive computing, AR, tangible interaction, home environments,
 - Fourth wave: Entanglement HCI ([Frauenberger 2019](https://doi.org/10.1145/3364998)) (2019-)
   - Computer and humans entangled in society: focus on values, accessibility, diversity, policy, law, ethics, individuals’ and society’s responsibilities
