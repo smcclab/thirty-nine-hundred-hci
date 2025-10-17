@@ -565,11 +565,72 @@ Combine human control, automation AI assistance (e.g., recommendations, sensors)
 
 ## Assured Autonomy and Control Centers
 
+> Supervised autonomy and control centers offer a more reliable, safe, and trustworthy design path, over computer autonomy.
+
+What is Autonomy?
+
+- Delegation of a decision to an authorised entity to take action within specific boundaries” [ref].
+- Not automation.
+<!-- Systems governed by prescriptive rules that permit no deviations are automated, but they are not autonomous. -->
+- Not a solution to any problem and always involves human supervision.
+
+Real Risks Examples
+
+- Billion-dollar crashes from high-speed financial trading.
+- Tesla Autopilot crash[ref].
+- Boeing 737 MAX crashes 
+<!-- (2018–2019) from MCAS system acting “without even informing the pilots.” -->
+
+## Assured Autonomy and Control Centers
+<!-- image -->
+The Ironies of Autonomy
+
+- Workload increased.
+    - Have you experienced that when using genAI in your life?
+- Users must remain vigilant yet are unsure of what the computer will do.
+- De-skilling occurs when need to take over operations.
+
+## Consider Supervised Autonomy!
+<!-- image -->
+Implement
+
+- Control panels and remote control centers.
+- Visual monitoring, audit trails, and feedback.
+- Retrospective analysis of failure data.
+
+Examples:
+
+- Aviation: pilots, co-pilots, TRACON, ARTCC, FAA certification, NASA Rovers.
+- Healthcare: ICU monitoring.
+- Social media / e-commerce: alerts, feedback, interlocks.
+
+... and *Parallel Autonomy* which humans are in control… the computer will act to prevent accidents.
+
 ## Social Robots and Active Appliances
-
 <!-- KEY TAKEAWAY -->
+- Comparison of social (anthropomorphic) robots and active appliances.
+- The history, design challenges, and market success/failure.
+- Practicality over novelty.
 
+## Historical Roots & Cultural Fascination
 
+- Human-like figures dates back to ancient myths (e.g., Golem, Frankenstein), early automata, literature.
+- Typically, humanoid face, arms, legs, voice to be emotive and engaging for children.
+- Repeated failures: gimmicky, unrealistic addressing real needs.
+<!-- Found a fun example picture. -->
+<!-- Microsoft BOB and Clippy – overly intrusive and annoying
+Postal Buddy, Tillie the Teller – rejected by users
+Asimo (Honda), Sophia (Hanson Robotics) – great media stunts, little commercial impact
+Jibo, Anki, Mayfield Robotics – shut down due to unsustainable business models -->
+
+## Animal Robots
+E.g., Sony AIBO, PARO. 
+
+- Emotional connection without overpromising intelligence.
+- Simpler, clearer use cases (e.g., therapy, companionship).
+- Avoids ethical concerns tied to humanoid robots.
+
+## Practical Robots in Daily Life
 
 # Governing Structure
 
