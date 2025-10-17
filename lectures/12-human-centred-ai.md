@@ -8,7 +8,14 @@ title-slide-attributes:
 
 ## Announcements
 
+- one week left for your final project
+- 
+
 ## Plan for the class
+
+- a few notes wrapping up the course
+- human-centred AI --- research and design challenge for the future [@shneiderman-human-centered-ai:2022]
+- revision on key ideas
 
 ## Course Stats:
 
@@ -27,10 +34,6 @@ title-slide-attributes:
 ![Github Insights on HCI this year...](img/hci-commits.jpg)
 :::
 ::::::::::::::
-
-## Lecture Ideation
-
-Go through: Shneiderman, Ben. Human-Centered AI, Oxford University Press, Incorporated, 2022. ProQuest Ebook Central, <https://ebookcentral.proquest.com/lib/anu/detail.action?docID=6838500>.
 
 # Course Wrap-up
 
@@ -393,9 +396,105 @@ Conclusion: HCI research is kinda hard!
 
 [^1]: everybody to some value of people we know about
 
-# What is HCAI?
+# What is Human-Centered AI (HCAI)?
+
+![Map of @shneiderman-human-centered-ai:2022 view of Human-Centered AI](img/shneiderman-what-is-hcai.png){width=50%}
+
+## HCAI
+
+@shneiderman-human-centered-ai:2022 proposes combining human-centred thinking with AI-based algorithms to create HCAI
+
+- increase chance of AI empowering rather than replacing people
+- give equal attention to human users and other stakeholders when developing AI systems
+- HCAI developers would value meaningful human control
+- serve human values: rights, justice, dignity
+- goals: self-efficacy, creativity, social connection
+
+## Why is this important?
+
+- AI is the transformational technology of our time _(Charles, 2025)_
+- Applying AI well is a _massive_ HCI challenge, probably bigger than any before
+- We don't have good enough frameworks to understand HCAI
+
+Evidence:
+
+- lots of AI papers involving humans wrongly sent to CHI conference, frustrating reviewers
+- AI collaboration technology currently at the level of CLI (chatGPT) or confusing magical tools (agentic coding, e.g., copilot in VSCode)
+- _So many_ research questions in this area.
+
+## How is HCAI different to AI?
+
+@shneiderman-human-centered-ai:2022 points to two differences between AI and HCAI:
+
+1. Process: HCAI builds on user experience design methods (e.g., data gathering, stakeholder engagements, etc.) in use of systems that employ AI and ML
+2. Product: HCAI systems supposed to be _supertools_ that amplify, augment, empower and enhance human performance
+
+Critical points here:
+
+- Research methods for AI/ML, primarily statistical/logical modelling, very quant, much different than design methods.
+- HCAI _supertools_ emphasise human control and the enhancement of the human's capability and experience, not the AI/ML algorithms capability.
+- Examples of _supertools_: digital cameras, navigation systems
+
+## White Robot vs Supertool
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+AI reporting frequently applies simplistic tropes for AI systems.
+
+- "white robot" (technoutopianism)
+- "terminator" (technopessimism)
+- These tropes mirror people, not computer systems. White robots are naive but noble people (but can be applied badly), terminators are evil people (but can be redeemed)
+- Works for stories (about people, not technology) but unhelpful for design
+
+### Supertool
+
+- Shneiderman's "supertool" enables us to consider how AI fits into existing tool use.
+- Not a complete solution, still lots of questions and unknowns!
+
+:::
+::: {.column width="40%"}
+TODO a picture.
+:::
+::::::::::::::
+
+
+## Human-Centred AI Structure
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+Three big ideas:
+
+- HCAI framework: guide human-centric thinking for creative design
+- design metaphors: practical ideas for designing HCAI systems _(not white robots)_
+- governance structures: practice steps to realise ethical principles
+
+Support:
+
+- design aspirations
+- individual goals
+- human values (most important!)
+:::
+::: {.column width="50%"}
+![Map of @shneiderman-human-centered-ai:2022 view of Human-Centered AI](img/shneiderman-what-is-hcai.png)
+:::
+::::::::::::::
+
+## Foundations in Rationalism and Empiricism
+
+## People and Computers
+
+## Automation, AI, Robots, and Employment
 
 # HCAI frameworks
+
+## Rising above levels of automation
+
+## Defining Reliable, Safe, Trustworthy Systems
+
+## Two Dimensional HCAI Framework
+
+## Design Guidelines
 
 # Design Metaphor
 
