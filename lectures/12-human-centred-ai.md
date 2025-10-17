@@ -526,6 +526,43 @@ AI in Conferences & Applications:
 
 ## Teammates and Tele-bots
 
+Emotional and social traits are desirable, inspired by human–human interaction: 
+
+*Consider* tele-bots (human-controlled, tool-like systems) over human-like social "teammate" [ref].
+
+-  Unmet expectation to disappointment.
+- False beliefs about robot autonomy/responsibility.
+- Emotional attachment can mislead usage.
+
+Ten realistic challenges to making machines as human teammates [ref].
+
+## Design for Tele-bots
+
+Responsibility
+
+- Robots are not morally or legally responsible agents.
+- Human operators remain accountable.
+- E.g., unmanned autonomous/aerial vehicles to remotely piloted vehicles in the military. NASA Mars Rovers.
+<!-- controlled by large human teams despite autonomy. -->
+
+Distinctive capabilities
+
+- Leverage what machines do better, don't copy humans.
+- Use:
+    - Visualisations (e.g., color-coded 3D echocardiograms).
+    - Data dashboards (e.g., Bloomberg Terminals).
+    - Responsive controls (e.g., DaVinci surgical system),
+
+## Design for Tele-bots
+
+Human creativity
+
+- Tools should support human innovation, not replace it.
+- Enable users to fix, personalise, provide feedback for future design iterations.
+
+Key takeaway:
+Combine human control, automation AI assistance (e.g., recommendations, sensors) for more effective tele-bots design.
+
 ## Assured Autonomy and Control Centers
 
 ## Social Robots and Active Appliances
