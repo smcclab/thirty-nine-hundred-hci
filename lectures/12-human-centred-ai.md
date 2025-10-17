@@ -29,6 +29,8 @@ title-slide-attributes:
   - 3K threads, 363 answers, 858 comments.
   - 185K views, biggest viewer viewed 7035 threads (???) (I only viewed 4095!)
   - Charles answered 180+ questions
+
+Takeaway: we wrote the equiv of a PhD thesis this semester (yikes!) 😦
 :::
 ::: {.column width="40%"}
 ![Github Insights on HCI this year...](img/hci-commits.jpg)
