@@ -397,7 +397,6 @@ Universities have [processes](https://services.anu.edu.au/research-support/resea
 
 We don't go deeply into research ethics in this course but the four issues above are the core ones.
 
-
 ## Developing an evaluation plan
 
 :::::::::::::: {.columns}
@@ -454,8 +453,6 @@ We don't go deeply into research ethics in this course but the four issues above
 ![Feels like we doing chemistry or biology... (Photo by CHUTTERSNAP on Unsplash)](img/chuttersnap-UmncJq4KPcA-unsplash.jpg)
 :::
 ::::::::::::::
-
-
 
 ## Hypothesis Testing
 
