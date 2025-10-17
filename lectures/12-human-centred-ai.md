@@ -733,9 +733,50 @@ E.g., Sony AIBO, PARO.
 
 ## Practical Robots in Daily Life
 
-# Governing Structure
+Devices that perform household tasks with some autonomy: dishwashers, pool cleaners, security systems.
 
-# Hwo do we (NIMEy/Creative Computing) approach HCAI?
+- Integration of sensors, automation, and machine learning.
+- Improved user interfaces (e.g., smartphone apps, touchscreens)
+- Increasingly “robot-like” without anthropomorphic form.
+
+<!-- Picture: Roomba -->
+
+Challenges:
+
+- Lack of standardised controls across devices.
+- Poor interface consistency, especially for: setting timers, health monitoring devices.
+<!-- this one is so werid, Charles, I don't get it. -->
+- Opportunity for improvement in user control, feedback, and error reporting
+
+## The Future of Social Robots
+
+Over-optimism about social robots.
+
+Academic reports are mixed: user satisfaction and sometimes
+delight; preference for tool-like designs.
+
+Fear of Autonomous Robots and AI [reference]
+- A minor issue for 20.1% and a serious issue for 18.5% over 1489 participants.
+
+Uncanny valley concerns:
+Near-human designs often feel unsettling or untrustworthy.
+*Would people perform more effectively and prefer a supertool or active appliance design?* -- the 
+- Strong preference for predictable, user-controlled systems [apple]
+
+- *"There is no good reason for robots to have humanoid form … they represent a form of dishonesty"*
+- Practical Applications
+- Designing for real needs, not mimicking humans.
+
+Promising Paths Forward
+Successful directions:
+Voice-based virtual assistants
+Chatbots with low error rates
+Pet-like devices for therapy
+Human-like guides for exercise
+Emphasis on:
+“Long-term studies to understand what solutions remain appealing and useful over time.”
+
+# Governing Structure
 
 
 
