@@ -538,7 +538,7 @@ Support:
 :::
 ::::::::::::::
 
-## Science and Innovation Goals
+## Examples
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -571,7 +571,7 @@ Early Perceptions of Computers
     - Envisioned machines competing with humans in intellectual fields.
 - Debate: a deceptive metaphor rather than a meaningful test[@natale2021deceitful].
 
-## Intelligent Agents and Supertools
+## Various Perspectives
 
 Human–Computer Symbiosis (1960) [@licklider1960man]
 
@@ -585,7 +585,7 @@ AI Language & Metaphors
 - IBM Watson: Marketed under "cognitive computing", later shifted to "augmented intelligence" for clarity.
 - Google PAIR: Focus on People and AI Research, emphasising human-centered design.
 
-## Intelligent Agents and Supertools
+## Pop Culture Influence
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -596,16 +596,16 @@ Media & Popular Culture Influences
 
 Human-Centered Perspectives
 
-- Portrayed as independent actors or agents that (“who”).
+- Portrayed as independent actors or agents (“who”).
 - Warn again terms such as know, read, explain, but to **empower**, not replace humans[@rusdaniela2020].
 
 :::
 ::: {.column width="40%"}
-![HAL 9000 in movie "2001: A Space Odyssey." [Source](https://www.indiewire.com/features/general/douglas-rain-dead-hal-9000-2001-a-space-odyssey-stanley-kubrick-cast-1202019828/)](img/hal-9000.jpg){width="100%"}
+![HAL 9000 in movie "2001: A Space Odyssey." [Source](https://www.indiewire.com/features/general/douglas-rain-dead-hal-9000-2001-a-space-odyssey-stanley-kubrick-cast-1202019828/).](img/hal-9000.jpg){width="100%"}
 :::
 ::::::::::::::
 
-## Intelligent Agents and Supertools
+## Towards Good Design
 
 Human–AI Design Debate: automation vs direct user control [ref]
 <!-- - Shneiderman: Emphasised user control via direct manipulation (buttons, sliders, etc.).
@@ -654,7 +654,7 @@ Distinctive capabilities
     - Data dashboards (e.g., Bloomberg Terminals).
     - Responsive controls (e.g., DaVinci surgical system),
 
-## Design for Tele-bots
+## Design for Tele-bots cont.
 
 Human creativity
 
@@ -682,9 +682,8 @@ Real Risks Examples
 - Boeing 737 MAX crashes 
 <!-- (2018–2019) from MCAS system acting “without even informing the pilots.” -->
 
-## Assured Autonomy and Control Centers
+## The Ironies of Autonomy
 <!-- image -->
-The Ironies of Autonomy
 
 - Workload increased.
     - Have you experienced that when using genAI in your life?
