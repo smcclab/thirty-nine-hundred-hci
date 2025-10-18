@@ -609,7 +609,7 @@ Human-Centered Perspectives
 
 :::
 ::: {.column width="40%"}
-![HAL 9000 in movie "2001: A Space Odyssey." [Source](https://www.indiewire.com/features/general/douglas-rain-dead-hal-9000-2001-a-space-odyssey-stanley-kubrick-cast-1202019828/).](img/hal-9000.jpg){width="100%"}
+![HAL 9000 in movie "2001: A Space Odyssey." [Image Source](https://www.indiewire.com/features/general/douglas-rain-dead-hal-9000-2001-a-space-odyssey-stanley-kubrick-cast-1202019828/).](img/hal-9000.jpg){width="100%"}
 :::
 ::::::::::::::
 
@@ -674,11 +674,11 @@ Combine human control, automation AI assistance (e.g., recommendations, sensors)
 
 ## Assured Autonomy and Control Centers
 
-> Supervised autonomy and control centers offer a more reliable, safe, and trustworthy design path, over computer autonomy.
+Offer a more reliable, safe, and trustworthy design path, over computer autonomy.
 
 What is Autonomy?
 
-- Delegation of a decision to an authorised entity to take action within specific boundaries” [ref].
+- Delegation of a decision to an authorised entity to take action within specific boundaries [@david2016defense].
 - Not automation.
 <!-- Systems governed by prescriptive rules that permit no deviations are automated, but they are not autonomous. -->
 - Not a solution to any problem and always involves human supervision.
@@ -686,7 +686,7 @@ What is Autonomy?
 Real Risks Examples
 
 - Billion-dollar crashes from high-speed financial trading.
-- Tesla Autopilot crash[ref].
+- Tesla Autopilot crash [@poland2018carcrash].
 - Boeing 737 MAX crashes 
 <!-- (2018–2019) from MCAS system acting “without even informing the pilots.” -->
 
@@ -746,13 +746,13 @@ E.g., Sony AIBO, PARO.
 
 ## Practical Robots in Daily Life
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 Devices that perform household tasks with some autonomy: dishwashers, pool cleaners, security systems.
 
 - Integration of sensors, automation, and machine learning.
 - Improved user interfaces (e.g., smartphone apps, touchscreens)
 - Increasingly “robot-like” without anthropomorphic form.
-
-<!-- Picture: Roomba -->
 
 Challenges:
 
@@ -760,6 +760,13 @@ Challenges:
 - Poor interface consistency, especially for: setting timers, health monitoring devices.
 <!-- this one is so werid, Charles, I don't get it. -->
 - Opportunity for improvement in user control, feedback, and error reporting
+:::
+::: {.column width="40%"}
+![Robot Vacuum Roomba. [Image Source](https://www.nytimes.com/wirecutter/money/save-on-the-roomba-i3-evo/).](img/roomba-vacuum.jpg){width="100%"}
+:::
+::::::::::::::
+
+
 
 ## The Future of Social Robots
 
@@ -772,7 +779,7 @@ Fear of Autonomous Robots and AI [reference]: 20.1% minor issue & 18.5% for seri
 
 Uncanniness: near-human designs often feel unsettling or untrustworthy.
 
-Predictable, user-controlled systems [apple]
+Predictable, user-controlled systems [@apple2018guideline]
 
 Design for real and practical needs, domains in voice virtual assistants, low error chatbots, 
 
@@ -781,7 +788,6 @@ Design for real and practical needs, domains in voice virtual assistants, low er
 *Long-term studies to understand what solutions remain appealing and useful over time.*
 
 # Governing Structure
-<!-- fun image -->
 We need actionable governance, ethical principles are not enough.
 
 AI misinformation and misuse.
@@ -800,7 +806,7 @@ Four Levels of Governance for HCAI:
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-> What we need to govern is the human application of technology, and what we need to oversee are the human processes of development, testing, operation, and monitoring. [ref]
+> What we need to govern is the human application of technology, and what we need to oversee are the human processes of development, testing, operation, and monitoring. [@bryson2020artificial]
 
 Design and evaluation methods in HCAI are essential tools for addressing these dangers and realising the benefits.
 
@@ -843,9 +849,9 @@ Testing, user experience design for explainable interface.
 
 Preparing for failure:
 
-- Normal accident theory [Charles Perrow].
+- Normal accident theory [@charles1999normal].
 - High reliability organisations.
-- Resilience Engineering [David Woods].
+- Resilience Engineering [@woods2017essential].
 - Safety Cultures: promote safety mindset and open management strategies.
 
 Five Management Actions:
