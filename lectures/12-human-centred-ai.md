@@ -512,7 +512,9 @@ Support:
 ## History on Artificial Intelligence:
 
 <!-- can machines think? -->
-<!--  a picture of turing test -->
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
 - Charles briefly explains turing test.
 - Computers to do what humans do, matching or exceeding human perceptual cognitive, and motor abilities. 
 - Pattern recognition such as images, speech, MLP; robotics; emotion recognition; and games (e.g., Alpha Go).
@@ -520,6 +522,12 @@ Support:
 - Criticisms: brute-force computation; less successful knowledge-based expert systems over engineered rule-based systems; DL approaches.
 - **AI is in its early days.**
 - **Make AI products with more transparency and human control over the algorithms.**
+:::
+::: {.column width="40%"}
+
+![Turing Machine in 1950. [Image Source](https://www.sciencemuseum.org.uk/objects-and-stories/lovelace-turing-and-invention-computers).](img/turing-machine-1950.jpg){width="80%"}
+:::
+::::::::::::::
 
 ## Science and Innovation Goals
 
@@ -607,7 +615,7 @@ Human-Centered Perspectives
 
 ## Towards Good Design
 
-Human–AI Design Debate: automation vs direct user control [ref]
+Human–AI Design Debate: automation vs direct user control [@shneiderman1997maes].
 <!-- - Shneiderman: Emphasised user control via direct manipulation (buttons, sliders, etc.).
 - Maes: Advocated for proactive software agents that anticipate user needs. -->
 
@@ -629,13 +637,13 @@ AI in Conferences & Applications:
 
 Emotional and social traits are desirable, inspired by human–human interaction: 
 
-*Consider* tele-bots (human-controlled, tool-like systems) over human-like social "teammate" [ref].
+*Consider* tele-bots (human-controlled, tool-like systems) over human-like social "teammate" [@benjamins2007robots].
 
--  Unmet expectation to disappointment.
+- Unmet expectation to disappointment.
 - False beliefs about robot autonomy/responsibility.
 - Emotional attachment can mislead usage.
 
-Ten realistic challenges to making machines as human teammates [ref].
+Ten realistic challenges to making machines as human teammates [@klien2004ten].
 
 ## Design for Tele-bots
 
@@ -652,7 +660,7 @@ Distinctive capabilities
 - Use:
     - Visualisations (e.g., color-coded 3D echocardiograms).
     - Data dashboards (e.g., Bloomberg Terminals).
-    - Responsive controls (e.g., DaVinci surgical system),
+    - Responsive controls (e.g., DaVinci surgical system).
 
 ## Design for Tele-bots cont.
 
@@ -683,7 +691,6 @@ Real Risks Examples
 <!-- (2018–2019) from MCAS system acting “without even informing the pilots.” -->
 
 ## The Ironies of Autonomy
-<!-- image -->
 
 - Workload increased.
     - Have you experienced that when using genAI in your life?
@@ -691,7 +698,6 @@ Real Risks Examples
 - De-skilling occurs when need to take over operations.
 
 ## Consider Supervised Autonomy!
-<!-- image -->
 Implement
 
 - Control panels and remote control centers.
@@ -724,11 +730,19 @@ Asimo (Honda), Sophia (Hanson Robotics) – great media stunts, little commercia
 Jibo, Anki, Mayfield Robotics – shut down due to unsustainable business models -->
 
 ## Animal Robots
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 E.g., Sony AIBO, PARO. 
 
 - Emotional connection without overpromising intelligence.
 - Simpler, clearer use cases (e.g., therapy, companionship).
 - Avoids ethical concerns tied to humanoid robots.
+:::
+::: {.column width="40%"}
+![AIBO. [Image Source](https://spectrum.ieee.org/sony-advanced-aibo-robot-dog-unleashed).](img/aibo.jpg){width="100%"}
+:::
+::::::::::::::
+
 
 ## Practical Robots in Daily Life
 
