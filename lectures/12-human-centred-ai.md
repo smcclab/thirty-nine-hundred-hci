@@ -324,9 +324,8 @@ Shneiderman, famous for the _Eight Golden Rules for Design_ proposes a new set!
  <!-- key is to combine designs that take an automated approach for tasks that can be carried out reliably, and a user-controlled approach for tasks that users want to manage.
  <!--  -->
 
-## History on Artificial Intelligence:
+<!-- ## History of Artificial Intelligence:
 
-<!-- can machines think? -->
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
@@ -342,18 +341,17 @@ Shneiderman, famous for the _Eight Golden Rules for Design_ proposes a new set!
 
 ![Turing Machine in 1950. [Image Source](https://www.sciencemuseum.org.uk/objects-and-stories/lovelace-turing-and-invention-computers).](img/turing-machine-1950.jpg){width="80%"}
 :::
-::::::::::::::
+:::::::::::::: -->
 
 ## Science and Innovation Goals
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
+
 - Understand human perceptual, cognitive, and motor abilities so as to build computers that perform tasks as well as or better than humans. 
     - social robots, common-sense reasoning, affective computers, machine consciousness, and artificial general intelligence (AGI).
 - Develop widely-used products and services by applying HCAI methods.
     - supertools, telebots, etc.
-<!-- Notes for Charles -->
-<!-- Maybe you can discuss these two goals' differences.  More see Printed page 11 in green highlights.-->
 
 :::
 ::: {.column width="60%"}
