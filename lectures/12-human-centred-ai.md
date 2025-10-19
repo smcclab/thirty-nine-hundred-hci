@@ -8,8 +8,16 @@ title-slide-attributes:
 
 ## Announcements
 
-- one week left for your final project
-- 
+- all tutorial marks have been entered.
+- congrats to those legends who **maxed** out 100% on tutorials!
+
+### Final Project
+
+- brings all skills from the course together
+- idea is that these are mini HCI-research papers
+- prepare you for further research, exploration in HCI and assess all skills in the course
+- **one week left for your final project**
+- let's look at the forking numbers for the [assignment repo](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-research-project)
 
 ## Plan for the class
 
