@@ -91,7 +91,7 @@ As a group, define a focus for your analysis. Some examples:
 
 We adapt the research context of co-designing with the Global South, and multimedia analysis method applied by the following authors in this task: @bidwell-designing-mobile-storytelling:2010
 
-### Task 3: Share implications (10 mins)
+### Task 2: Share implications (10 mins)
 
 As a class, discuss your themes and implications:
 
@@ -134,7 +134,7 @@ As a group, reflect on these questions:
 
 Write a short paragraph (5-6 sentences) summarising your group's reflection. -->
 
-### Task 4: Research cluster meeting (15 mins)
+### Task 3: Research cluster meeting (15 mins)
 
 The last 20 minutes of this workshop is dedicated to re-forming your research clusters (or forming new ones if you want) and sharing some plans for your final projects[^secrets]. It's ok if you haven't completely decided on your final projects yet, this meeting is to understand and discuss ideas.
 
