@@ -29,12 +29,12 @@ title-slide-attributes:
 - human-centred AI --- research and design challenge for the future [@shneiderman-human-centered-ai:2022]
 - revision on key ideas
 
-## Course Stats:
+## Course stats
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 - Max of 330 students (down to ~295) --- **biggest ever HCI class at ANU**.
-- Git Commits: 362
+- Git Commits: >370
 - Slides: 550 slides, 36200 words, 368 images
 - Tutorials: 10 new tutorials, 11283 words
 - Forum:
