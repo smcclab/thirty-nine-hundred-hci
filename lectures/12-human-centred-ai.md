@@ -577,6 +577,8 @@ Online meeting services
 
 ## Intelligent Agents and Supertools
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 Early Perceptions of Computers
 
 - 1940s–1950s: Computers were labeled "awesome thinking machines" and "electronic brains".
@@ -586,6 +588,13 @@ Early Perceptions of Computers
     - Proposed the Turing Test (aka the imitation game).
     - Envisioned machines competing with humans in intellectual fields.
 - Debate: a deceptive metaphor rather than a meaningful test[@natale2021deceitful].
+:::
+::: {.column width="40%"}
+
+![Mechanical Turk / Automaton Chess Player (1770). [Image Source](https://www.digi-hub.de/viewer/image/BV041097321/65/).](img/turk.jpg){width="100%"}
+:::
+::::::::::::::
+
 
 ## Various Perspectives
 
@@ -682,6 +691,8 @@ Combine human control, automation AI assistance (e.g., recommendations, sensors)
 
 ## Assured Autonomy and Control Centers
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 Offer a more reliable, safe, and trustworthy design path, over computer autonomy.
 
 What is Autonomy?
@@ -697,6 +708,14 @@ Real Risks Examples
 - Tesla Autopilot crash [@poland2018carcrash].
 - Boeing 737 MAX crashes 
 <!-- (2018–2019) from MCAS system acting “without even informing the pilots.” -->
+:::
+::: {.column width="40%"}
+
+![Tesla Autopilot Crash, 2018. [Image Source](https://www.nytimes.com/2021/08/16/business/tesla-autopilot-nhtsa.html).](img/tesla-autopilot-crash.jpg){width="100%"}
+
+:::
+::::::::::::::
+
 
 ## The Ironies of Autonomy
 
