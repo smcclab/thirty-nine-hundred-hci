@@ -573,7 +573,6 @@ E.g., Sony AIBO, PARO.
 :::
 ::::::::::::::
 
-
 ## Practical Robots in Daily Life
 
 :::::::::::::: {.columns}
@@ -595,8 +594,6 @@ Challenges:
 ![Robot Vacuum Roomba. [Image Source](https://www.nytimes.com/wirecutter/money/save-on-the-roomba-i3-evo/).](img/roomba-vacuum.jpg){width="100%"}
 :::
 ::::::::::::::
-
-
 
 ## The Future of Social Robots
 
@@ -692,12 +689,6 @@ Five Management Actions:
 3. Extensive Reporting of Failures and Near Misses
 4. Internal Review Boards
 5. Alignment with Industry Standard Practices
-
-
-## Charles, do you want to discuss a real-world example?
-
-Tesla’s reported fatalities
-
 
 ## Trustworthy Certification by Independent Oversight
 
@@ -1087,17 +1078,15 @@ Conclusion: HCI research is kinda hard!
 
 [^1]: everybody to some value of people we know about
 
-## Questions: Who has a question?
+## So long, and thanks for the all the fish!
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-**Who has a question?**
+We got through a lot this semester!
 
-- I can take _cathchbox_ question up until 2:55
-- For after class questions: meet me outside the classroom at the bar (for 30 minutes)
-- Feel free to ask about **any aspect of the course**
-- Also feel free to ask about **any aspect of computing at ANU**! I may not be able to help, but I can listen.
+Thanks for coming on this journey with me!
 
+Good luck with your final projects and your other assessments this semester!
 :::
 ::: {.column width="40%"}
 ![Meet you _at the bar_ for questions. 🍸🥤🫖☕️ Unfortunately no drinks served! 🙃](img/kambri-bar.jpg)
