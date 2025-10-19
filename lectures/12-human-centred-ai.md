@@ -9,7 +9,11 @@ title-slide-attributes:
 ## Announcements
 
 - all tutorial marks have been entered.
-- congrats to those legends who **maxed** out 100% on tutorials!
+- congrats to those (107) legends who **maxed** out 100% on tutorials!
+- [SELT](https://services.anu.edu.au/learning-teaching/education-data/student-experience-of-learning-teaching-selt/information-for-students) should be open this Week (??) --- fill in your SELT!
+- Your SELT is a gift to future students!
+- For me: good feedback gives me confidence and evidence to keep doing what I'm doing.
+- SELT response rate is super important!
 
 ### Final Project
 
@@ -70,13 +74,14 @@ Evidence:
 - lots of AI papers involving humans wrongly sent to CHI conference, frustrating reviewers
 - AI collaboration technology currently at the level of CLI (chatGPT) or confusing magical tools (agentic coding, e.g., copilot in VSCode)
 - _So many_ research questions in this area.
+- news preoccupation with risks of AI taking over, not capacity of actual products
 
 ## How is HCAI different to AI?
 
 @shneiderman-human-centered-ai:2022 points to two differences between AI and HCAI:
 
-1. Process: HCAI builds on user experience design methods (e.g., data gathering, stakeholder engagements, etc.) in use of systems that employ AI and ML
-2. Product: HCAI systems supposed to be _supertools_ that amplify, augment, empower and enhance human performance
+1. **process:** HCAI builds on user experience design methods (e.g., data gathering, stakeholder engagements, etc.) in use of systems that employ AI and ML
+2. **product:** HCAI systems supposed to be _supertools_ that amplify, augment, empower and enhance human performance
 
 Critical points here:
 
@@ -91,9 +96,10 @@ Critical points here:
 
 AI reporting frequently applies simplistic tropes for AI systems.
 
-- "white robot" (technoutopianism)
-- "terminator" (technopessimism)
-- These tropes mirror people, not computer systems. White robots are naive but noble people (but can be applied badly), terminators are evil people (but can be redeemed)
+- "white robot" (technoutopian)
+- "terminator" (technodystopian)
+
+These tropes mirror people, not computer systems. White robots are naive but noble people (can be turned to evil), terminators are evil people (can be redeemed)
 
 ### Supertool
 
@@ -102,7 +108,7 @@ AI reporting frequently applies simplistic tropes for AI systems.
 
 :::
 ::: {.column width="40%"}
-TODO a picture.
+![No white robots (Photo by Maximalfocus on Unsplash)](img/maximalfocus-eZWGK5sIiBM-unsplash.jpg){width=60%}
 :::
 ::::::::::::::
 
@@ -133,7 +139,7 @@ Support:
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-Shneiderman argues against AI goals that equate computers with people.
+@shneiderman-human-centered-ai:2022 argues against AI goals that equate computers with people.
 
 - people are already good at lots of things (celebrate that)
 - argues to change from simulating human behaviour to enhancing it.
@@ -141,8 +147,7 @@ Shneiderman argues against AI goals that equate computers with people.
   - people are good at emotions, and sensitive to them.
   - people can be disturbed by emotional simulations in robots
 
-Rather than anthropomorphic systems: arguesfor Creativity Support Tools (CSTs) (see last week), direct manipulation interfaces (see week 7)
-
+Rather than anthropomorphic systems: argues for Creativity Support Tools (CSTs) (see _Expressive Interaction_), direct manipulation interfaces (see _Interfaces_)
 :::
 ::: {.column width="40%"}
 ![](img/hcai-wheel-of-emotions.png)
@@ -167,9 +172,9 @@ Two good reasons to investigate a framework for HCAI.
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
-- Shneiderman critiques standard models of autonomy/automation by computers.
-- E.g., @parasuraman-automation-model:2000 model of levels of autonomy.
-- Typically, autonomy is seen as 1D spectrum
+- @shneiderman-human-centered-ai:2022 critiques standard models of autonomy/automation by computers.
+- e.g., @parasuraman-automation-model:2000 model of levels of autonomy.
+- typically, autonomy is seen as 1D spectrum
 - so if the computer is autonomous, the human does nothing.
 
 What if both computer and human can have autonomy?
@@ -203,10 +208,9 @@ What if both computer and human can have autonomy?
 The idea is:
 
 - **a centaur:** a powerful steed (the horse) with the head of an (intelligent and knowledgeable) person.
-
 - a **reverse centaur:** a person's (slow and weak) body with the head of a (much lower intelligence) animal.
 
-E.g.,
+Examples:
 
 - freelance writer put under ridiculous deadlines acting as an "accountability sink" for chatGPT.
 - vibe-coding a whole app: "checking" for bugs is slow and hard and puts responsibility on the vibe-coder to find problems
