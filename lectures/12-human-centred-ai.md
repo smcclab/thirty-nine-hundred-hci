@@ -94,7 +94,6 @@ AI reporting frequently applies simplistic tropes for AI systems.
 - "white robot" (technoutopianism)
 - "terminator" (technopessimism)
 - These tropes mirror people, not computer systems. White robots are naive but noble people (but can be applied badly), terminators are evil people (but can be redeemed)
-- Works for stories (about people, not technology) but unhelpful for design
 
 ### Supertool
 
@@ -129,23 +128,188 @@ Support:
 :::
 ::::::::::::::
 
-## Foundations in Rationalism and Empiricism
-
 ## People and Computers
 
-## Automation, AI, Robots, and Employment
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Shneiderman argues against AI goals that equate computers with people.
+
+- people are already good at lots of things (celebrate that)
+- argues to change from simulating human behaviour to enhancing it.
+- As an example:
+  - people are good at emotions, and sensitive to them.
+  - people can be disturbed by emotional simulations in robots
+
+Rather than anthropomorphic systems: arguesfor Creativity Support Tools (CSTs) (see last week), direct manipulation interfaces (see week 7)
+
+:::
+::: {.column width="40%"}
+![](img/hcai-wheel-of-emotions.png)
+:::
+::::::::::::::
+
 
 # HCAI frameworks
 
+![All systems need a framework to hold it up...](img/2024-seoul-framework.jpg){width=50%}
+
+## Why start with a framework?
+
+Interaction designers love good frameworks.
+
+Two good reasons to investigate a framework for HCAI.
+
+1. Understand different capabilities of present and near future systems.
+2. See opportunities (gaps) for new design ideas, or different versions of the same idea.
+
 ## Rising above levels of automation
+
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+- Shneiderman critiques standard models of autonomy/automation by computers.
+- E.g., @parasuraman-automation-model:2000 model of levels of autonomy.
+- Typically, autonomy is seen as 1D spectrum
+- so if the computer is autonomous, the human does nothing.
+
+What if both computer and human can have autonomy?
+:::
+::: {.column width="60%"}
+
+:::: {.small-table}
+
+| level | the computer... |
+|---|---|
+| 10 | (High) decides everything and acts autonomously, ignoring the human |
+| 9 | informs the human only if the computer decides to |
+| 8 | informs the human only if asked |
+| 7 | executes automatically, then necessarily informs the human |
+| 6 | allows the human a restricted time to veto before automatic execution |
+| 5 | executes the suggestion, if the human approves |
+| 4 | suggests one alternative |
+| 3 | narrows the selection down to a few |
+| 2 | offers a complete set of decision-and-action alternatives |
+| 1 | (Low) offers no assistance; the human must take all decisions and actions |
+
+::::
+
+:::
+::::::::::::::
+
+## Reverse Centaurs and Bad Kinds of Automation
+
+[Cory Doctorow recently writes about "reverse centaurs"](https://doctorow.medium.com/https-pluralistic-net-2025-09-11-vulgar-thatcherism-there-is-an-alternative-f1428b42a8fd) as a [model for bad kinds of automation](https://doctorow.medium.com/https-pluralistic-net-2025-09-11-vulgar-thatcherism-there-is-an-alternative-f1428b42a8fd).
+
+The idea is:
+
+- **a centaur:** a powerful steed (the horse) with the head of an (intelligent and knowledgeable) person.
+
+- a **reverse centaur:** a person's (slow and weak) body with the head of a (much lower intelligence) animal.
+
+E.g.,
+
+- freelance writer put under ridiculous deadlines acting as an "accountability sink" for chatGPT.
+- vibe-coding a whole app: "checking" for bugs is slow and hard and puts responsibility on the vibe-coder to find problems
 
 ## Defining Reliable, Safe, Trustworthy Systems
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+- **reliable:** produce expected responses when needed
+  - comes from good _engineering_, verification, validation
+  - technical audit trails when things go wrong
+- **safe:** social/cultural commitment
+  - reporting failures and near misses
+  - review of problems and solutions
+- **trustworthy:** what _people_ want from a system
+  - independent oversight (certification, regulation, insurance)
+  - (communication and understandable context)
+
+:::
+::: {.column width="40%"}
+![Attributes of reliable, safe, and trustworthy systems.](img/hcai-reliable-safe-trustworthy.png)
+:::
+::::::::::::::
+
 ## Two Dimensional HCAI Framework
 
-## Design Guidelines
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![The 1D spectrum.](img/hcai-1D-framework.png)
 
-# Design Metaphor
+- existing 1D framework poses an unhelpful zero-sum tradeoff in automation
+- **problem:** full automation seems like the only goal
+- **2D framework:** computer and human control can both be useful in different contexts
+- helps understand existing systems, and find dangerous areas
+
+:::
+::: {.column width="50%"}
+![Mapping systems and locating dangers](img/hcai-2D-excessive.png)
+:::
+::::::::::::::
+
+## Eight Design Guidelines for HCAI
+
+Shneiderman, famous for the _Eight Golden Rules for Design_ proposes a new set!
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
+1. Overview first, zoom and filter, then details-on-demand
+2. Preview first, select and initiate, then manage execution
+3. Steer by way of interactive control panels
+4. Capture history and audit trails from powerful sensors
+
+:::
+::: {.column width="50%"}
+
+5. People thrive on human-to-human communication
+6. Be cautious when outcomes are consequential
+7. Prevent adversarial attacks
+8. Incident reporting websites accelerate refinement
+
+:::
+::::::::::::::
+
+## Processes
+
+- **Overview first, zoom and filter, then details-on-demand:**
+  - give users agency over information abstraction, make sure the details are available! 
+  - Relates to visualisation in particular, but many other kinds of information.
+
+- **Preview first, select and initiate, then manage execution:**
+  - for automated processes, users should have a preview of all steps, ways to select a plan, and to manage the execution. - works for navigation, parking, cameras (how about MS Copilot?)
+
+- **Steer by way of interactive control panels:**
+  - give users ways to steer processes. "control panels" can be joysticks, sliders, gestural controls. 
+  - this may be a good place for _expressive interaction_ knowledge to help map simple controls to complex outcomes.
+  - evisages AR/VR as good way to assist here.
+
+## History, Sharing, and Hazards
+
+- **Capture history and audit trails from powerful sensors:**
+  - Cars and aeroplanes capture lots of data about usage to help diagnose issues when things go wrong, so can apps.
+  - Problem: could this lead to excessive data collection and privacy issues.
+- **People thrive on human-to-human communication:**
+  - people like to share content and experiences
+  - collaborative work makes us better.
+  - consider: buzz about chatGPT relates to gurus/power-users sharing tips.
+- **Be cautious when outcomes are consequential:**
+  - humility is a good attribute for designers
+  - thorough evaluation and continuous monitoring more important with high risk
+  - (how do LLMs manage this? poorly so far!)
+
+## Responsibliity and Feedback
+
+- **Prevent adversarial attacks:**
+  - failures from vandals or baddies disrupt normal use and cause badness in the world.
+  - how can we prevent these issues? Security and governance but also design.
+- **Incident reporting websites accelerate refinement:**
+  - openness to feedback leads to technology improvement
+  - something like "bug bounties" for HCAI systems
+
+# Design Metaphors
 
 <!-- INTRO / Overview -->
 - Reflect on both science and innovation goals.
@@ -454,6 +618,7 @@ Design for real and practical needs, domains in voice virtual assistants, low er
 *Long-term studies to understand what solutions remain appealing and useful over time.*
 
 # Governing Structure
+
 We need actionable governance, ethical principles are not enough.
 
 AI misinformation and misuse.
