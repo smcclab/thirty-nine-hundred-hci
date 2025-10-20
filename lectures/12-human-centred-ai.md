@@ -11,9 +11,7 @@ title-slide-attributes:
 - all tutorial marks have been entered.
 - congrats to those (107) legends who **maxed** out 100% on tutorials!
 - [SELT](https://services.anu.edu.au/learning-teaching/education-data/student-experience-of-learning-teaching-selt/information-for-students) should be open this Week (??) --- fill in your SELT!
-- Your SELT is a gift to future students!
-- For me: good feedback gives me confidence and evidence to keep doing what I'm doing.
-- SELT response rate is super important!
+- Your SELT is a gift to future students, and gives me confidence to advocate for good practice!
 
 ### Final Project
 
