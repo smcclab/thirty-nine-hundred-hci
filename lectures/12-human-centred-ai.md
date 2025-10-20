@@ -112,7 +112,6 @@ These tropes mirror people, not computer systems. White robots are naive but nob
 :::
 ::::::::::::::
 
-
 ## Human-Centred AI Structure
 
 :::::::::::::: {.columns}
@@ -315,68 +314,61 @@ Shneiderman, famous for the _Eight Golden Rules for Design_ proposes a new set!
 
 # Design Metaphors
 
-<!-- INTRO / Overview -->
-- Reflect on both science and innovation goals.
-- Four pairs of design metaphors.
-- Balance between automation and human control for reliability.
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Metaphors useful for clarifying design ideas.
 
-<!-- Notes for Charles -->
- <!-- key is to combine designs that take an automated approach for tasks that can be carried out reliably, and a user-controlled approach for tasks that users want to manage.
- <!--  -->
+- Steve Jobs famously called computers "bicycles for the mind"
+- @shneiderman-human-centered-ai:2022 looks for metaphors to dig further into the two dimensions of the HCAI framework
+- starting point are _science_ and _innovation_
+  - **science:** understand principles that make intelligent behaviour possible in a computer
+  - **innovation:** create computers that amplify human abilities
 
-<!-- ## History of Artificial Intelligence:
+:::
+::: {.column width="40%"}
+![combining science and innovation goals to find design inspiration](img/hcai-two-goals.jpg){width="100%"}
+:::
+::::::::::::::
+
+<!-- 
+## History of Artificial Intelligence:
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-- Charles briefly explains turing test.
 - Computers to do what humans do, matching or exceeding human perceptual cognitive, and motor abilities. 
 - Pattern recognition such as images, speech, MLP; robotics; emotion recognition; and games (e.g., Alpha Go).
-- Statistical approach: GANs, CNN, RNN, and IRL. <!-- inverse reinforcement learning  -->
+- Statistical approach: GANs, CNN, RNN, and IRL.
 - Criticisms: brute-force computation; less successful knowledge-based expert systems over engineered rule-based systems; DL approaches.
 - **AI is in its early days.**
 - **Make AI products with more transparency and human control over the algorithms.**
+
 :::
 ::: {.column width="40%"}
 
 ![Turing Machine in 1950. [Image Source](https://www.sciencemuseum.org.uk/objects-and-stories/lovelace-turing-and-invention-computers).](img/turing-machine-1950.jpg){width="80%"}
 :::
-:::::::::::::: -->
+:::::::::::::: 
+-->
 
-## Science and Innovation Goals
-
-:::::::::::::: {.columns}
-::: {.column width="40%"}
-
-- Understand human perceptual, cognitive, and motor abilities so as to build computers that perform tasks as well as or better than humans. 
-    - social robots, common-sense reasoning, affective computers, machine consciousness, and artificial general intelligence (AGI).
-- Develop widely-used products and services by applying HCAI methods.
-    - supertools, telebots, etc.
-
-:::
-::: {.column width="60%"}
-![Two Grand Goals of AI Research](img/hcai-two-goals.jpg){width="100%"}
-:::
-::::::::::::::
-
-## Examples
+## Science vs Innovation Goals
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Autonomous social robots
+Science and innovation goals can come into conflict. Significant amounts of design sometimes needed to turn a scientific output into a product.
+
+**Autonomous social robots**
 
 - Science goals: a general purpose robot elders, parcel delivery, etc.
 - Innovation goals: tune solution for each context of use.
-<!-- Notes for Charles -->
-<!-- More see Printed page 11 in yellow highlights; just think it's good to discuss an example.-->
 
-Online meeting services
+**Online meeting services**
 
 - Science: devices / software support collaboration.
 - Innovation: Microsoft Teams, Zoom, Google meet.
 :::
 ::: {.column width="40%"}
-![Pepper: The world's first social humanoid robot able to recognize faces and human emotions. Photo by Owen Beard on Unsplash.](img/owen-beard-K21Dn4OVxNw-unsplash.jpg){width="50%"}
+![Pepper is good for demos, but what context of use does it support? Photo by Owen Beard on Unsplash.](img/owen-beard-K21Dn4OVxNw-unsplash.jpg){width="50%"}
 :::
 ::::::::::::::
 
@@ -384,135 +376,91 @@ Online meeting services
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Early Perceptions of Computers
 
-- 1940s–1950s: Computers were labeled "awesome thinking machines" and "electronic brains".
-- Dianne Martin: Argues that such myths slowed workplace acceptance and created unrealistic expectations[@martin1933myth].
-- Alan Turing (1950):
-    - Introduced "Can Machines Think?" [@turing1950computing].
-    - Proposed the Turing Test (aka the imitation game).
-    - Envisioned machines competing with humans in intellectual fields.
-- Debate: a deceptive metaphor rather than a meaningful test[@natale2021deceitful].
-:::
-::: {.column width="40%"}
-
-![Mechanical Turk / Automaton Chess Player (1770). [Image Source](https://www.digi-hub.de/viewer/image/BV041097321/65/).](img/turk.jpg){width="100%"}
-:::
-::::::::::::::
-
-
-## Various Perspectives
-
-Human–Computer Symbiosis (1960) [@licklider1960man]
-
-- Computers and humans as collaborative partners.
-- Humans make decisions; computers handle routine tasks.
-
-AI Language & Metaphors
-
-- Terms like smart, intelligent, thinking have influenced public perception.
-- AI described using neuroscience metaphors (e.g., neural networks).
-- IBM Watson: Marketed under "cognitive computing", later shifted to "augmented intelligence" for clarity.
-- Google PAIR: Focus on People and AI Research, emphasising human-centered design.
-
-## Pop Culture Influence
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-Media & Popular Culture Influences
-
-- Journalists & magazines (e.g., Newsweek, Time) popularised ideas of thinking machines and robots replacing jobs.
-- Graphic art & Hollywood films (e.g., 2001: A Space Odyssey, The Terminator, Her, Ex Machina) reinforced human-like AI images.
-
-Human-Centered Perspectives
-
-- Portrayed as independent actors or agents (“who”).
-- Warn again terms such as know, read, explain, but to **empower**, not replace humans[@rusdaniela2020].
+- early computers were labeled "thinking machines" and "electronic brains".
+- @martin1933myth argues that such myths slowed workplace acceptance and created unrealistic expectations
+- @turing1950computing asked "Can Machines Think?"
+    - Envisioned machines competing with humans in intellectual fields
+- debate: a deceptive metaphor rather than a meaningful test [@natale2021deceitful]
+- pop culture influence of powerful thinking machines and robots
 
 :::
 ::: {.column width="40%"}
-![HAL 9000 in movie "2001: A Space Odyssey." [Image Source](https://www.indiewire.com/features/general/douglas-rain-dead-hal-9000-2001-a-space-odyssey-stanley-kubrick-cast-1202019828/).](img/hal-9000.jpg){width="100%"}
+![HAL 9000 in movie "2001: A Space Odyssey." [Image Source](https://www.indiewire.com/features/general/douglas-rain-dead-hal-9000-2001-a-space-odyssey-stanley-kubrick-cast-1202019828/)](img/hal-9000.jpg){width="100%"}
 :::
 ::::::::::::::
 
-## Towards Good Design
+## Towards supertool designs
 
-Human–AI Design Debate: automation vs direct user control [@shneiderman1997maes].
-<!-- - Shneiderman: Emphasised user control via direct manipulation (buttons, sliders, etc.).
-- Maes: Advocated for proactive software agents that anticipate user needs. -->
+> combine intelligent agents with human-controlled tools to ensure trust, usability, and control
 
-Industry Design Guidelines on user control, flexibility, accessibility.
-<!-- Guidelines from Apple, IBM, Microsoft: -->
-<!-- User Control: “People—not apps—are in control.”
-Flexibility: Users need fine-grained control.
-Accessibility success story: A blind woman using a laptop to do professional work on a flight. -->
+- human-computer sybiosis explored from 60s: humans make decisions; computers handle routine tasks [@licklider1960man]
+- human–AI design debate: automation vs direct user control [@shneiderman1997maes].
+- Maes: Advocated for proactive software agents that anticipate user needs.
 
-AI in Conferences & Applications:
+AI in conferences & applications:
 
-- Science Goal (AI researchers): Automated performance (e.g., self-driving cars, reading x-rays).
-- Innovation Goal (HCAI researchers): Promote human-supervised tools (e.g., SIGCHI, UXPA, Augmented Humans conferences) such as digital cameras.
-
-> Combine intelligent agents with human-controlled tools to ensure trust, usability, and control
-
+- science Goal (AI researchers): automated performance (e.g., self-driving cars, reading x-rays).
+- innovation Goal (HCAI researchers): promote human-supervised tools (e.g., SIGCHI, UXPA, Augmented Humans conferences)
 
 ## Teammates and Tele-bots
 
-Emotional and social traits are desirable, inspired by human–human interaction: 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 
-*Consider* tele-bots (human-controlled, tool-like systems) over human-like social "teammate" [@benjamins2007robots].
+- **Teammates:** modelling human-robot interaction after human-human interaction
+- **Telebots:** remote-controlled systems with high degrees of automation but ultimately human control
+
+Teammate approach has many challenges [@klien2004ten]:
 
 - Unmet expectation to disappointment.
 - False beliefs about robot autonomy/responsibility.
 - Emotional attachment can mislead usage.
 
-Ten realistic challenges to making machines as human teammates [@klien2004ten].
+:::
+::: {.column width="40%"}
+![Is Pepper useful as a teammate?](img/owen-beard-K21Dn4OVxNw-unsplash.jpg){width="50%"}
+:::
+::::::::::::::
 
-## Design for Tele-bots
+## Designs for Tele-bots
 
-Responsibility
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 
-- Robots are not morally or legally responsible agents.
-- Human operators remain accountable.
-- E.g., unmanned autonomous/aerial vehicles to remotely piloted vehicles in the military. NASA Mars Rovers.
-<!-- controlled by large human teams despite autonomy. -->
+- Human operators remain accountable (e.g., remote surgery)
+- Leverage what machines do better, don't copy humans
+- Responsive controls (e.g., DaVinci surgical system)
+- Enable users to fix, personalise, provide feedback for future design iterations
+- incorporating human creativity
+  - tools should support human innovation, not replace it.
+  - enable users to fix, personalise, provide feedback for future design iterations.
 
-Distinctive capabilities
+:::
+::: {.column width="40%"}
+![The DaVinci surgical robot is a successful telebot application](img/hcai-davinci.png)
 
-- Leverage what machines do better, don't copy humans.
-- Use:
-    - Visualisations (e.g., color-coded 3D echocardiograms).
-    - Data dashboards (e.g., Bloomberg Terminals).
-    - Responsive controls (e.g., DaVinci surgical system).
-
-## Design for Tele-bots cont.
-
-Human creativity
-
-- Tools should support human innovation, not replace it.
-- Enable users to fix, personalise, provide feedback for future design iterations.
-
-Key takeaway:
-Combine human control, automation AI assistance (e.g., recommendations, sensors) for more effective tele-bots design.
+**Question:** is agentic coding AI (e.g., CoPilot) a telebot or teammate?
+:::
+::::::::::::::
 
 ## Assured Autonomy and Control Centers
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Offer a more reliable, safe, and trustworthy design path, over computer autonomy.
 
-What is Autonomy?
+**Autonomy**: delegation to an authorised entity to take action within specific boundaries [@david2016defense]
 
-- Delegation of a decision to an authorised entity to take action within specific boundaries [@david2016defense].
-- Not automation.
-<!-- Systems governed by prescriptive rules that permit no deviations are automated, but they are not autonomous. -->
-- Not a solution to any problem and always involves human supervision.
+- autonomous systems are hard and interesting to design
+- but when autonomy falls short, frustration is enhanced
+- problems can include: reduction in human attention and awareness
+- ironically, workload can **increase**, more vigilance is required
 
-Real Risks Examples
+**Assured Autonomy**
 
-- Billion-dollar crashes from high-speed financial trading.
-- Tesla Autopilot crash [@poland2018carcrash].
-- Boeing 737 MAX crashes 
-<!-- (2018–2019) from MCAS system acting “without even informing the pilots.” -->
+- "assured" with HCAI, formal methods for proving correctness, testing and certification
+- so far, a human operator is still ultimately responsible
+
 :::
 ::: {.column width="40%"}
 
@@ -521,17 +469,10 @@ Real Risks Examples
 :::
 ::::::::::::::
 
+## Control centres and supervised autonomy
 
-## The Ironies of Autonomy
-
-- Workload increased.
-    - Have you experienced that when using genAI in your life?
-- Users must remain vigilant yet are unsure of what the computer will do.
-- De-skilling occurs when need to take over operations.
-
-## Consider Supervised Autonomy!
-Implement
-
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 - Control panels and remote control centers.
 - Visual monitoring, audit trails, and feedback.
 - Retrospective analysis of failure data.
@@ -541,34 +482,25 @@ Examples:
 - Aviation: pilots, co-pilots, TRACON, ARTCC, FAA certification, NASA Rovers.
 - Healthcare: ICU monitoring.
 - Social media / e-commerce: alerts, feedback, interlocks.
-
-... and *Parallel Autonomy* which humans are in control… the computer will act to prevent accidents.
+:::
+::: {.column width="40%"}
+![Supervised autonomous systems should have some kind of control, with lots of feedback and advanced interfaces](img/dmitrijs-safrans-2CakbXfm_gM-unsplash.jpg)
+:::
+::::::::::::::
 
 ## Social Robots and Active Appliances
-<!-- KEY TAKEAWAY -->
-- Comparison of social (anthropomorphic) robots and active appliances.
-- The history, design challenges, and market success/failure.
-- Practicality over novelty.
 
-## Historical Roots & Cultural Fascination
-
-- Human-like figures dates back to ancient myths (e.g., Golem, Frankenstein), early automata, literature.
-- Typically, humanoid face, arms, legs, voice to be emotive and engaging for children.
-- Repeated failures: gimmicky, unrealistic addressing real needs.
-<!-- Found a fun example picture. -->
-<!-- Microsoft BOB and Clippy – overly intrusive and annoying
-Postal Buddy, Tillie the Teller – rejected by users
-Asimo (Honda), Sophia (Hanson Robotics) – great media stunts, little commercial impact
-Jibo, Anki, Mayfield Robotics – shut down due to unsustainable business models -->
-
-## Animal Robots
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-E.g., Sony AIBO, PARO. 
 
-- Emotional connection without overpromising intelligence.
+What kind of AI systems should we live with?
+
+- Human-like figures from stories and myths (e.g., golem, Frankenstein's creation)
+- Repeated failures: gimmicky, unrealistic addressing real needs.
+- Animal robots (e.g., Sony AIBO) offer emotional connection without promising intelligence
 - Simpler, clearer use cases (e.g., therapy, companionship).
 - Avoids ethical concerns tied to humanoid robots.
+
 :::
 ::: {.column width="40%"}
 ![AIBO. [Image Source](https://spectrum.ieee.org/sony-advanced-aibo-robot-dog-unleashed).](img/aibo.jpg){width="100%"}
@@ -579,68 +511,36 @@ E.g., Sony AIBO, PARO.
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Devices that perform household tasks with some autonomy: dishwashers, pool cleaners, security systems.
 
-- Integration of sensors, automation, and machine learning.
-- Improved user interfaces (e.g., smartphone apps, touchscreens)
-- Increasingly “robot-like” without anthropomorphic form.
+Good example of a successful household robot: **washing machine.**
 
-Challenges:
+- dishwashers, pool cleaners, security systems
+- integration of sensors, automation, and machine learning.
+- improved user interfaces (e.g., smartphone apps, touchscreens)
+- increasingly robot-like without anthropomorphic form
 
-- Lack of standardised controls across devices.
-- Poor interface consistency, especially for: setting timers, health monitoring devices.
-<!-- this one is so werid, Charles, I don't get it. -->
-- Opportunity for improvement in user control, feedback, and error reporting
+**Challenges:**
+
+- lack of standardised controls across devices.
+- interface consistency, especially for: setting timers, health monitoring devices.
+
 :::
 ::: {.column width="40%"}
-![Robot Vacuum Roomba. [Image Source](https://www.nytimes.com/wirecutter/money/save-on-the-roomba-i3-evo/).](img/roomba-vacuum.jpg){width="100%"}
+![The promise of active appliances](img/aiper-pool-cleaner-ajMFp3Nu7yA-unsplash.jpg)
 :::
 ::::::::::::::
 
-## The Future of Social Robots
-
-Over-optimism about social robots.
-
-Academic reports are mixed: user satisfaction and sometimes
-delight; preference for tool-like designs.
-
-Fear of Autonomous Robots and AI [reference]: 20.1% minor issue & 18.5% for serious over 1489 participants.
-
-Uncanniness: near-human designs often feel unsettling or untrustworthy.
-
-Predictable, user-controlled systems [@apple2018guideline]
-
-Design for real and practical needs, domains in voice virtual assistants, low error chatbots, 
-
-*"There is no good reason for robots to have humanoid form … they represent a form of dishonesty"*
-
-*Long-term studies to understand what solutions remain appealing and useful over time.*
-
 # Governing Structure
 
-We need actionable governance, ethical principles are not enough.
-
-AI misinformation and misuse.
-
-Require multi-level governance—team, organisation, industry, and government.
-
-Four Levels of Governance for HCAI:
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+> What we need to govern is the human application of technology, and what we need to oversee are the human processes of development, testing, operation, and monitoring. [@bryson2020artificial]
 
 - Reliable systems through software engineering teams
 - Safety culture in organisations
 - Trustworthy certification via industry oversight
 - Regulation by government agencies
 
-
-## How to bridge the gap from ethics to practice? 
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-> What we need to govern is the human application of technology, and what we need to oversee are the human processes of development, testing, operation, and monitoring. [@bryson2020artificial]
-
-Design and evaluation methods in HCAI are essential tools for addressing these dangers and realising the benefits.
-
-Charles explains the figure. 
 :::
 ::: {.column width="40%"}
 ![Four levels of governance structures for human-centered AI.](img/hcai-governance-structure.png){width="100%"}
@@ -657,7 +557,6 @@ Charles explains the figure.
 | Less engagement with end users in early design phases | Advocates user-centered participatory design by engaging diverse stakeholders |
 | Success defined by technical functionality | Success defined by how well systems support human goals, activities, and values |
 | Priority on machine intelligence and control | Ensures meaningful human control and values customer and consumer needs |
-
 
 ## Reliable Systems Based on Sound Software Engineering Practices
 
@@ -692,32 +591,6 @@ Five Management Actions:
 4. Internal Review Boards
 5. Alignment with Industry Standard Practices
 
-## Trustworthy Certification by Independent Oversight
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-Independent oversight for safety, reliability and public acceptance.
-
-Assign liability to who are involved in the design, operation, and maintenance of AI systems.
-
-Methods:
-
-1. Planning Oversight: Review systems before deployment.
-2. Continuous Monitoring: Ongoing inspection and evaluation.
-3. Retrospective Analysis: Post-failure reviews.
-:::
-::: {.column width="40%"}
-![ Independent oversight methods. Three forms of independent oversight: planning oversight, continuous monitoring, and retrospective analysis of disasters.](img/independent-oversight-method.png){width="100%"}
-:::
-::::::::::::::
-
-## Use Cases
-
-- Accounting firms conduct external audits for HCAI Systems: big four are positioned to lead the work.
-- Insurance companies compensate for failures, e.g., industry-specific insurance models.
-- Non-Governmental Organizations (NGOs), e.g., [Algorithmic Justice League](https://www.ajl.org).
-- Professional organisations and academic institutions: [IEEE P7000 series standard](https://standards.ieee.org/ieee/7000/6781/), ACM, AAAI, Oxon, University of Cambridge, Stanford, etc.
 
 # Course Wrap-up and Revision
 
