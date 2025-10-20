@@ -330,27 +330,6 @@ Metaphors useful for clarifying design ideas.
 :::
 ::::::::::::::
 
-<!-- 
-## History of Artificial Intelligence:
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-- Computers to do what humans do, matching or exceeding human perceptual cognitive, and motor abilities. 
-- Pattern recognition such as images, speech, MLP; robotics; emotion recognition; and games (e.g., Alpha Go).
-- Statistical approach: GANs, CNN, RNN, and IRL.
-- Criticisms: brute-force computation; less successful knowledge-based expert systems over engineered rule-based systems; DL approaches.
-- **AI is in its early days.**
-- **Make AI products with more transparency and human control over the algorithms.**
-
-:::
-::: {.column width="40%"}
-
-![Turing Machine in 1950. [Image Source](https://www.sciencemuseum.org.uk/objects-and-stories/lovelace-turing-and-invention-computers).](img/turing-machine-1950.jpg){width="80%"}
-:::
-:::::::::::::: 
--->
-
 ## Science vs Innovation Goals
 
 :::::::::::::: {.columns}
