@@ -25,9 +25,17 @@ title-slide-attributes:
 
 ## Plan for the class
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 - a few notes wrapping up the course
 - human-centred AI --- research and design challenge for the future [@shneiderman-human-centered-ai:2022]
+  - basically covering the content of this book, available for free via library and online.
 - revision on key ideas
+:::
+::: {.column width="40%"}
+![Today we will (try) to cover *all* of @shneiderman-human-centered-ai:2022](img/hcai-cover.png){width=70%}
+:::
+::::::::::::::
 
 ## Course stats
 
@@ -35,14 +43,14 @@ title-slide-attributes:
 ::: {.column width="60%"}
 - Max of 330 students (down to ~295) --- **biggest ever HCI class at ANU**.
 - Git Commits: >370
-- Slides: 550 slides, 36200 words, 368 images
+- Slides: 565 slides, 38185 words, 386 images
 - Tutorials: 10 new tutorials, 11283 words
 - Forum:
   - 3K threads, 363 answers, 858 comments.
   - 185K views, biggest viewer viewed 7035 threads (???) (I only viewed 4095!)
   - Charles answered 180+ questions
 
-Takeaway: we wrote the equiv of a PhD thesis this semester (yikes!) 😦
+Takeaway: we wrote the equiv of a PhD thesis (~50K words) this semester---yikes! 😦
 :::
 ::: {.column width="40%"}
 ![Github Insights on HCI this year...](img/hci-commits.jpg)
@@ -149,10 +157,9 @@ Support:
 Rather than anthropomorphic systems: argues for Creativity Support Tools (CSTs) (see _Expressive Interaction_), direct manipulation interfaces (see _Interfaces_)
 :::
 ::: {.column width="40%"}
-![](img/hcai-wheel-of-emotions.png)
+![The _wheel_ of emotions.](img/hcai-wheel-of-emotions.png)
 :::
 ::::::::::::::
-
 
 # HCAI frameworks
 
@@ -171,6 +178,7 @@ Two good reasons to investigate a framework for HCAI.
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
+
 - @shneiderman-human-centered-ai:2022 critiques standard models of autonomy/automation by computers.
 - e.g., @parasuraman-automation-model:2000 model of levels of autonomy.
 - typically, autonomy is seen as 1D spectrum
@@ -537,38 +545,27 @@ Good example of a successful household robot: **washing machine.**
 | Success defined by technical functionality | Success defined by how well systems support human goals, activities, and values |
 | Priority on machine intelligence and control | Ensures meaningful human control and values customer and consumer needs |
 
-## Reliable Systems Based on Sound Software Engineering Practices
+## Takeaways from Human-Centred AI 
 
-Clarify human responsibility.
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 
-Improved software engineering workflows tuned to the tasks and application domain.
+- tensions between the scientific goals of AI/ML and innovation goals of HCI community
+- possible to bring together scientific and innovation goals to develop new designs
+- autonomy does not have to be a zero-sum 1D spectrum
+- pop-culture reflects us, not always a good predictor for best ideas
 
-Testing, user experience design for explainable interface.
+Alan Kay (designed first windowed UI at Xerox PARC) said:
 
-- Audit trials and analysis tools
-- Software engineering workflows: attune to AI-specific testing and validation.
-- Verification and validation testing: strengthen what users expect over unexpected harms.
-- Bias testing to enhance fairness: algorithms on opacity, scale and harm.
-- Explainable user interfaces:  
-    - prevent the need for explanations.
-    - visual design.
+> the best way to predict the future is to invent it
 
-## Safety Culture through Business Management Strategies    
+so go do that!
 
-Preparing for failure:
-
-- Normal accident theory [@charles1999normal].
-- High reliability organisations.
-- Resilience Engineering [@woods2017essential].
-- Safety Cultures: promote safety mindset and open management strategies.
-
-Five Management Actions:
-
-1. Leadership Commitment to Safety
-2. Hiring and Training Oriented to Safety
-3. Extensive Reporting of Failures and Near Misses
-4. Internal Review Boards
-5. Alignment with Industry Standard Practices
+:::
+::: {.column width="40%"}
+![Map of @shneiderman-human-centered-ai:2022 view of Human-Centered AI](img/shneiderman-what-is-hcai.png)
+:::
+::::::::::::::
 
 
 # Course Wrap-up and Revision
