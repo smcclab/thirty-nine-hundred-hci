@@ -37,7 +37,7 @@ Pre-class and In-class tasks are due in each tutorial.
 
 The pre-class task includes a weekly post on the course forum (100-200 words) which will be discussed and developed during class.
 
-In-class tasks are the main content of the tutorials which include conceptualising and discussing HCI topics, experimenting with prototyping and research methods, and collaborating with other students to develop and evaluate interactive system designs. 
+In-class tasks are the main content of the tutorials which include conceptualising and discussing HCI topics, experimenting with prototyping and research methods, and collaborating with other students to develop and evaluate interactive system designs.
 
 Late submission is not permitted.
 
@@ -51,7 +51,7 @@ Late submission is not permitted.
 
 ### Assignment 1: Prototyping
 
-Assignment 1 involves creating a prototype that solves a problem. 
+Assignment 1 involves creating a prototype that solves a problem.
 
 Your prototype should engage with an interaction design challenge and consider multiple perspectives.
 
@@ -61,25 +61,25 @@ See the course website for detailed specification and submission details. Your w
 
 ### Assignment 2: User Research
 
-Assignment 2 involves conducting a small-scale user research study involving an existing interface or interactive system. 
+Assignment 2 involves conducting a small-scale user research study involving an existing interface or interactive system. 
 
 You will formulate a research question, collect and analyse data, and present research findings.
 
-Your study should involve  at least one form of quantitative and one form of qualitative data analysis.
+Your study should involve  at least one form of quantitative and one form of qualitative data analysis.
 
-Your submission will include your research question, research plan, collected data, analysis,  results, and conclusions.
+Your submission will include your research question, research plan, collected data, analysis,  results, and conclusions.
 
 See the course website for detailed specification and submission details. Your work should include at least five references. Late submission is not permitted. This is an individual assessment.
 
 ### Final Project: Prototype Design and Research Project
 
-The final project involves a complete design and evaluation process for a prototype interactive system. 
+The final project involves a complete design and evaluation process for a prototype interactive system.
 
 You must design a prototype system in response to a real-world problem. You will evaluate this system and report on the results using HCI research methods.
 
 Your work will be submitted as a portfolio including your prototype materials, research data, analysis, references, and a presentation.
 
-The presentation should cover problem identification, design rationale, prototype demonstration, evaluation methodology, and results. 
+The presentation should cover problem identification, design rationale, prototype demonstration, evaluation methodology, and results.
 
 PG: You must reflect critically on your presence within the design process.
 
@@ -111,4 +111,3 @@ See the course website for detailed specification and submission details. Your w
 | 11   | Data Visualisation                                    | 16. Data Visualisation                            | Visualization                                                  | 10            |                                                      |
 | 12   | Human-Centred AI                                      | Human-Centred AI                                  | Critical Computing, Sustainability, and Social Justice         |               |                                                      |
 | 13   |                                                       |                                                   |                                                                |               | Final Project: Prototype Design and Research Project |
-

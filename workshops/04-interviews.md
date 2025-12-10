@@ -45,7 +45,7 @@ Design a semi-structured interview guide on the topic of the pre-class task that
 
 <!-- 3.  Read the following paper to see an example of an interview guide
     (accessible through the ACM Digital Library): 
-    [Sara Ljungblad et al. 2021. What Matters in Professional Drone Pilots' Practice? An Interview Study to Understand the Complexity of Their Work and Inform Human-Drone Interaction Research. In Proc. CHI \'21.](https://doi-org.virtual.anu.edu.au/10.1145/3411764.3445737) [@ljungblad-what-matters:2021] -->
+    [Sara Ljungblad et al. 2021. What Matters in Professional Drone Pilots' Practice? An Interview Study to Understand the Complexity of Their Work and Inform Human-Drone Interaction Research. In Proc. CHI \'21.](https://doi-org.virtual.anu.edu.au/10.1145/3411764.3445737) [@ljungblad-what-matters:2021] -->
 
 
 The tutorial will follow this structure:
@@ -92,7 +92,7 @@ The guide should:
 4. include 5 main questions with example probing/follow up question
 5. include a prompt to thank your participants at the end
 
-For an example interview guide, see this research paper: [Sara Ljungblad et al. 2021. What Matters in Professional Drone Pilots' Practice? An Interview Study to Understand the Complexity of Their Work and Inform Human-Drone Interaction Research. In Proc. CHI \'21.](https://doi-org.virtual.anu.edu.au/10.1145/3411764.3445737) [@ljungblad-what-matters:2021]
+For an example interview guide, see this research paper: [Sara Ljungblad et al. 2021. What Matters in Professional Drone Pilots' Practice? An Interview Study to Understand the Complexity of Their Work and Inform Human-Drone Interaction Research. In Proc. CHI \'21.](https://doi-org.virtual.anu.edu.au/10.1145/3411764.3445737) [@ljungblad-what-matters:2021]
 
 ### 3. Conducting your interview in pairs (30 mins)
 
