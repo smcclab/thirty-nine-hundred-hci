@@ -348,7 +348,7 @@ Has often seemed like a great idea, but hasn't cracked mainstream yet (or has it
 - 1960s: Ivan Sutherland’s development of the first head-mounted three-dimensional display
 :::
 ::: {.column width="50%"}
-![First augmented reality head-mounted display system. Source: [@surtherland1967ar].](img/ivan-sutherland-headset.jpg){width=80%}
+![First augmented reality head-mounted display system. Source: [@sutherland1967ar].](img/wk11-ivan-sutherland-headset.jpg){width=80%}
 :::
 ::::::::::::::
 

@@ -30,7 +30,7 @@ why? expressive, artistic experiences can be drivers for HCI.
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![First head-mounted AR display system [@surtherland1967ar].](img/wk11-ivan-sutherland-headset.jpg){width="70%"}
+![First head-mounted AR display system [@sutherland1967ar].](img/wk11-ivan-sutherland-headset.jpg){width="70%"}
 :::
 ::: {.column width="50%"}
 ![Virtual Reality in 1987: The Sound of One Hand performance [@lanier1993sound], [video at Moogfest 2016](https://youtu.be/ItaPqJaUypY?si=VYXOslgb822hMwl0).](img/wk11-jaron-lanier-virtual-hand.jpg){width="100%"}
