@@ -11,7 +11,7 @@ Think about the setting and context in which interaction takes place:
 - How the setting shape the activity and outputs – “situated actions and practices” [@suchman:1987]
 :::
 ::: {.column width="40%"}
-![Image: Photo by [Yassine Khalfalli](https://unsplash.com/@yassine_khalfalli)](img/02_theory_and_concepts_63.jpg)
+![Image: Photo by [Yassine Khalfalli](https://unsplash.com/@yassine_khalfalli)](img/02_theory_and_concepts_63.jpg)
 :::
 ::::::::::::::
 

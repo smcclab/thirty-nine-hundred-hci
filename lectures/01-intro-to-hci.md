@@ -293,7 +293,7 @@ This version from: [@rogers-beyond-hci:2023]
 - Think quality of the output.
 :::
 ::: {.column width="50%"}
-![A desk phone. Image Source: Photo by [Dan Dennis](https://unsplash.com/@cameramandan83) on [Unsplash](https://unsplash.com/s/photos/landline)](img/01_01_usability_2.jpg){width=80%}
+![A desk phone. Image Source: Photo by [Dan Dennis](https://unsplash.com/@cameramandan83) on [Unsplash](https://unsplash.com/s/photos/landline)](img/01_01_usability_2.jpg){width=80%}
 :::
 ::::::::::::::
 
@@ -332,7 +332,7 @@ This version from: [@rogers-beyond-hci:2023]
 - The tasks can be completed in the right way.
 :::
 ::: {.column width="60%"}
-![Tablet vs mouse for drawing? [Unsplash](https://unsplash.com/s/photos/graphic-design)](img/01_01_usability_14.jpg){width=100%}
+![Tablet vs mouse for drawing? [Unsplash](https://unsplash.com/s/photos/graphic-design)](img/01_01_usability_14.jpg){width=100%}
 :::
 ::::::::::::::
 
@@ -357,7 +357,7 @@ This version from: [@rogers-beyond-hci:2023]
 - Are there supports for infrequent functions?
 :::
 ::: {.column width="60%"}
-![Annual tax return filing Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema)](img/01_01_usability_17.png){width=100%}
+![Annual tax return filing Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema)](img/01_01_usability_17.png){width=100%}
 :::
 ::::::::::::::
 
@@ -376,7 +376,7 @@ How can we test for joy? Is this compatible with the usability goals?
 ::: {.column width="60%"}
 ![Charles finds this technology joyful.](img/charles-synthesiser.jpg){width=100%}
 
-<!-- ![Photo by [jeshoots](https://unsplash.com/@jeshoots) on [Unsplash](https://unsplash.com/s/photos/user-experience)](img/01_01_usability_5.jpg){width=100%} -->
+<!-- ![Photo by [jeshoots](https://unsplash.com/@jeshoots) on [Unsplash](https://unsplash.com/s/photos/user-experience)](img/01_01_usability_5.jpg){width=100%} -->
 :::
 ::::::::::::::
 
@@ -420,36 +420,36 @@ Anticipating, Connecting, Interpreting, Reflecting, Appropriating, Recounting.
 ::: notes
 Threads of experience
 
-- Compositional: How do the elements of an experience fit together to form a coherent whole?
-- Sensual: What does the design and texture and the overall atmosphere make us feel?
-- Emotional: What emotions color the experience for us?
-- Spatio-temporal: What effects do place and time have on our experience?
+- Compositional: How do the elements of an experience fit together to form a coherent whole?
+- Sensual: What does the design and texture and the overall atmosphere make us feel?
+- Emotional: What emotions color the experience for us?
+- Spatio-temporal: What effects do place and time have on our experience?
 
 Processes
 
-- Anticipating: We never come to technology unprejudiced.
-- Connecting: We make a judgment in an instant and without much thought.
-- Interpreting: We work out what's going on and how we feel about it.
-- Reflecting: We examine and evaluate what is happening in an interaction.
-- Appropriating: We work out how a new experience fits with other experiences we have had and with our sense of self.
-- Recounting: We enjoy storytelling and make sense of experience in stories.
+- Anticipating: We never come to technology unprejudiced.
+- Connecting: We make a judgment in an instant and without much thought.
+- Interpreting: We work out what's going on and how we feel about it.
+- Reflecting: We examine and evaluate what is happening in an interaction.
+- Appropriating: We work out how a new experience fits with other experiences we have had and with our sense of self.
+- Recounting: We enjoy storytelling and make sense of experience in stories.
 :::
 
 ## Threads of Experience:
 
-- Compositional: How do the elements of an experience fit together to form a coherent whole?
-- Sensual: What does the design and texture and the overall atmosphere make us feel?
-- Emotional: What emotions color the experience for us?
-- Spatio-temporal: What effects do place and time have on our experience?
+- Compositional: How do the elements of an experience fit together to form a coherent whole?
+- Sensual: What does the design and texture and the overall atmosphere make us feel?
+- Emotional: What emotions color the experience for us?
+- Spatio-temporal: What effects do place and time have on our experience?
 
 ## Experience Processes
 
-- Anticipating: We never come to technology unprejudiced.
-- Connecting: We make a judgment in an instant and without much thought.
-- Interpreting: We work out what's going on and how we feel about it.
-- Reflecting: We examine and evaluate what is happening in an interaction.
-- Appropriating: We work out how a new experience fits with other experiences we have had and with our sense of self.
-- Recounting: We enjoy storytelling and make sense of experience in stories.
+- Anticipating: We never come to technology unprejudiced.
+- Connecting: We make a judgment in an instant and without much thought.
+- Interpreting: We work out what's going on and how we feel about it.
+- Reflecting: We examine and evaluate what is happening in an interaction.
+- Appropriating: We work out how a new experience fits with other experiences we have had and with our sense of self.
+- Recounting: We enjoy storytelling and make sense of experience in stories.
 
 
 ## Two designs for a voicemail system
@@ -459,7 +459,7 @@ Processes
 ![[The marble answering machine](https://vimeo.com/19930744). (Durrell Bishop, 1992)](img/01_01_usability_1.png){width=100%}
 :::
 ::: {.column width="50%"}
-![A desk phone. Image Source: Photo by [Dan Dennis](https://unsplash.com/@cameramandan83) on [Unsplash](https://unsplash.com/s/photos/landline)](img/01_01_usability_2.jpg){width=100%}
+![A desk phone. Image Source: Photo by [Dan Dennis](https://unsplash.com/@cameramandan83) on [Unsplash](https://unsplash.com/s/photos/landline)](img/01_01_usability_2.jpg){width=100%}
 :::
 ::::::::::::::
 

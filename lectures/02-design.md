@@ -501,7 +501,7 @@ Prepare for this question: "Why is that bad?"
 - connect solutions and ideas with lines
 :::
 ::: {.column width="50%"}
-![Photo by [charlesdeluvio](https://unsplash.com/@charlesdeluvio)](img/06_ideation_5.png)
+![Photo by [charlesdeluvio](https://unsplash.com/@charlesdeluvio)](img/06_ideation_5.png)
 :::
 ::::::::::::::
 

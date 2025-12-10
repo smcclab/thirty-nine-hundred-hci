@@ -313,7 +313,7 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 
 ![](img/07_prototyping_7.jpg)
 
-![Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsplash.com/s/photos/toaster)
+![Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsplash.com/s/photos/toaster)
 ](img/07_prototyping_8.jpg)
 :::
 ::::::::::::::

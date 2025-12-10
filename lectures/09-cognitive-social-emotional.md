@@ -286,7 +286,7 @@ Learning theory concept: "zone of proximal development"---we should get users in
 ::: {.column width="40%"}
 ![Source: [Design Boom](https://www.designboom.com/technology/blind-maps-for-iphone-interactive-braille-interface/)](img/02_theory_and_concepts_12.png){width=50%}
 
-![Photo by [Nicolas J Leclercq](https://unsplash.com/@nicolasjleclercq)](img/02_theory_and_concepts_13.jpg){width=50%}
+![Photo by [Nicolas J Leclercq](https://unsplash.com/@nicolasjleclercq)](img/02_theory_and_concepts_13.jpg){width=50%}
 :::
 ::::::::::::::
 
@@ -507,7 +507,7 @@ How do our emotions manifest in interaction?
 Can designing for emotions help us in our tasks, or help us manage them?
 :::
 ::: {.column width="40%"}
-![Pepper Robot (Photo by [Alex Knight](https://unsplash.com/@agk42)](img/02_theory_and_concepts_49.jpg)
+![Pepper Robot (Photo by [Alex Knight](https://unsplash.com/@agk42)](img/02_theory_and_concepts_49.jpg)
 :::
 ::::::::::::::
 

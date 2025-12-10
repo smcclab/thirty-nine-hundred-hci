@@ -207,7 +207,7 @@ App for making short (5s) musical performances with a sketch ([video](https://yo
 ::: {.column width="60%"}
 The [New Interface for Musical Expression (NIME)](https://nime.org) research community.
 
-- Research into musical instrument design that explores how technological innovation can enable new musical expression, enhance performer control and intimacy, and shape the musician–instrument relationship.
+- Research into musical instrument design that explores how technological innovation can enable new musical expression, enhance performer control and intimacy, and shape the musician-instrument relationship.
 - Digital Musical Instruments(DMIs): digital piano, drum pad.
 - Augmented instruments: magnetic resonator piano (grand piano -> string instruments).
 - Novel instrument: [lady's glove](https://sonami.net/portfolio/items/ladys-glove/), magnetic AI instrument *thales* [@privato2023thales], percussive instrument [PhaseRings](https://charlesmartin.au/projects/phaserings/) [@martin2018phaserings], AR instrument *cube* [@wang-cubing-sound:2022].

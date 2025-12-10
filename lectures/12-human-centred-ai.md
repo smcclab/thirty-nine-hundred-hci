@@ -380,7 +380,7 @@ Science and innovation goals can come into conflict. Significant amounts of desi
 > combine intelligent agents with human-controlled tools to ensure trust, usability, and control
 
 - human-computer sybiosis explored from 60s: humans make decisions; computers handle routine tasks [@licklider1960man]
-- human–AI design debate: automation vs direct user control [@shneiderman1997maes].
+- human-AI design debate: automation vs direct user control [@shneiderman1997maes].
 - Maes: Advocated for proactive software agents that anticipate user needs.
 
 AI in conferences & applications:
@@ -602,7 +602,7 @@ Researcher has a hard job here... needs to be a designer, programmer, and busine
 - Third wave: Situated perspectives [@boedker-third-wave:2015] (2006-)
   - Consumer tech, participation and sharing, pervasive computing, AR, tangible interaction, home environments,
 - Fourth wave: Entanglement HCI [@frauenberger-entanglement-hci:2019] (2019-)
-  - Computer and humans entangled in society: focus on values, accessibility, diversity, policy, law, ethics, individuals’ and society’s responsibilities
+  - Computer and humans entangled in society: focus on values, accessibility, diversity, policy, law, ethics, individuals' and society's responsibilities
 
 ## Usability Goals (Interaction Design, Beyond HCI)
 
@@ -918,14 +918,14 @@ The interaction itself is expressive, and the output is an expression as well. W
 
 ## Key challenges of HCI research
 
-1. **problem finding:** computers are ubiquitous and everybody[^1] seems to get along with them ok, so where are the problems? Where can we make impact to help people?
+1. **problem finding:** computers are ubiquitous and everybody[^everybody_hci] seems to get along with them ok, so where are the problems? Where can we make impact to help people?
 2. **design processes:** need them to lead to new contributions, not clones of existing designs. If you are making something new, how do you know what the requirements are? At any scale, design and prototyping is expensive.
 3. **evaluation:** working with people is time-consuming and uncertain. Data analysis can easily take months for a research paper.
 4. **communication:** after doing _all this work_ (see above), there can be a lot of explain in a paper! Clear communication is a huge challenge. Reviewers love to poke holes in any and all aspect of a design and evaluation process.
 
 Conclusion: HCI research is kinda hard!
 
-[^1]: everybody to some value of people we know about
+[^everybody_hci]: everybody to some value of people we know about
 
 ## So long, and thanks for the all the fish!
 

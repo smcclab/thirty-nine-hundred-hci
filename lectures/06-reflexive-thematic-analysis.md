@@ -604,7 +604,7 @@ A bingo card of potential researcher problems with (R)TA... which make sense so 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 - **Personal Reflexivity:** how are our (_you!_) unique perspectives influencing the research?”
-- **Interpersonal Reflexivity:** what relationships exist and how are they influencing the research and the people involved? What power dynamics are at play?
+- **Interpersonal Reflexivity:** what relationships exist and how are they influencing the research and the people involved? What power dynamics are at play?
 - **Methodological Reflexivity:** How are we making methodological decisions and what are their implications?”
 - **Contextual Reflexivity:** How are aspects of context influencing the research and people involved?
 
