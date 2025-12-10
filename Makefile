@@ -201,3 +201,17 @@ $(INDEX_HTML): $(LECTURE_MDS) $(ASSESSMENTS_MDS) $(WORKSHOPS_MDS) $(RESOURCES_MD
 
 .PHONY: index
 index: $(INDEX_HTML)
+
+# Mega PDFs for lectures and tutorials.
+
+ALL_LECTURES = $(OUTPUT_DIR)/all_lectures.pdf
+ALL_ASSESSMENTS = $(OUTPUT_DIR)/all_assessments.pdf
+ALL_WORKSHOPS = $(OUTPUT_DIR)/all_workshops.pdf
+
+$(ALL_LECTURES): $(LECTURE_MDS)
+	$(PANDOC) $(PANDOC_COMMON_OPTS) $(PDF_OPTS) -o $@ $^ 
+
+.PHONY: bigfiles
+	bigfiles: $(ALL_LECTURES) 
+	
+# $(ALL_ASSESSMENTS) $(ALL_WORKSHOPS)
