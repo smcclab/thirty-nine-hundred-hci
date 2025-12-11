@@ -3,6 +3,8 @@ title: From Theme to Implication
 author: Dr Charles Martin
 ---
 
+# From Theme to Implication
+
 ![Creating research that will be ready for big conference stages!](img/conference-hall.jpg)
 
 In this tutorial, we will bring together and extend our understanding of qualitative and quantitative analysis using multimedia analysis, inter-rater reliability rating, and triangulation techniques.

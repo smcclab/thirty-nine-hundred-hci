@@ -3,6 +3,8 @@ title: Planning Evaluations
 author: Sandy Ma
 ---
 
+# Planning Evaluations
+
 ![We've made some prototypes --- now what? (Week 4 prototype demos from COMP3900 2025)](img/evaluation.jpg)
 
 The purpose of this tutorial is to help you to design and conduct an evaluation activity.

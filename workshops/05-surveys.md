@@ -3,6 +3,8 @@ title: Surveys
 author: Dr Charles Martin and Karla Kelly
 ---
 
+# Surveys
+
 In this class, we will practice administering one of the classic questionnaires in usability, the SUS (System Usability Scale). 
 
 Questionnaires like the SUS and TLX are widely used in assessing how users perceive a user interface. Questionnaires are useful in gaining numerical information from a medium to large group of users quickly. They can be particularly useful in comparing different interactive systems, situations or user types as you can use statistical techniques to assess differences between samples. 
@@ -160,7 +162,7 @@ This will allow us to compare SUS scores across groups to see which technology h
     The output will also show which group had the higher average score.  
     **Interpretation guide:**  
     - If `p < 0.05`: The difference is considered statistically significant (unlikely due to chance).  
-    - If `p ≥ 0.05`: The difference is *not* statistically significant (could be due to random variation).
+    - If `p >= 0.05`: The difference is *not* statistically significant (could be due to random variation).
 
     ```python
     # --- Between-groups comparison (Welch’s t-test) ---
@@ -184,7 +186,7 @@ This will allow us to compare SUS scores across groups to see which technology h
         if t.pvalue < 0.05:
             print("Result: Statistically significant difference (p < 0.05).")
         else:
-            print("Result: No statistically significant difference (p ≥ 0.05).")
+            print("Result: No statistically significant difference (p >= 0.05).")
 
         # Which group scored higher
         if mean_g1 > mean_g2:

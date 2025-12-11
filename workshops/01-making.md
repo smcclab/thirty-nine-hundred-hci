@@ -3,6 +3,8 @@ title: Making
 author: Dr Charles Martin
 ---
 
+# Making
+
 ![Using arts and crafts to develop ideas.](img/making.jpg)
 
 This week we are going to start thinking about user experience and the meaning that computer systems have for us. Your pre-class task is going to start the process of reflecting on our own interests and patterns of computer use. In-class we will discuss and express our personal computing journeys through making.

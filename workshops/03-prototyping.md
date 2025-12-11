@@ -2,6 +2,8 @@
 title: Prototyping
 ---
 
+# Prototyping
+
 ![Collaborative Sketching and Ideating](img/sketching.jpg)
 
 The purpose of this tutorial is to give you hands-on experience in low-fidelity prototyping, which is a key task in the assignment.

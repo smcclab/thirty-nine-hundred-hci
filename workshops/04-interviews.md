@@ -3,6 +3,8 @@ title: Interviews
 author: Erika Wood
 ---
 
+# Interviews
+
 ![Interviewing to gather data (Photo by Antenna on Unsplash)](img/antenna-cw-cj_nFa14-unsplash.jpg)
 
 This week you will gain hands-on experience with designing and conducting semi-structured interviews. This is one of the most common data collection methods in HCI research. Importantly, interviews help us to gather information related to our known research goals as well as information that we don't know to ask about.

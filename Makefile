@@ -97,7 +97,7 @@ REVEAL_OPTS = -t revealjs \
 							--css charles_reveal_dark.css
 
 PDF_OPTS = --metadata date="$(date '+%Y-%m-%d')" \
-					 --output=$PORTFOLIO_PDF \
+					 --number-sections=true \
 					 -V 'geometry: left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm' \
 		       -V 'papersize: a4' \
 					 -V 'fontsize:11pt' \
@@ -209,9 +209,13 @@ ALL_ASSESSMENTS = $(OUTPUT_DIR)/all_assessments.pdf
 ALL_WORKSHOPS = $(OUTPUT_DIR)/all_workshops.pdf
 
 $(ALL_LECTURES): $(LECTURE_MDS)
-	$(PANDOC) $(PANDOC_COMMON_OPTS) $(PDF_OPTS) -o $@ $^ 
+	$(PANDOC) $(PANDOC_COMMON_OPTS) $(PDF_OPTS) --metadata title="Lectures on Human-Computer Interaction" --metadata author="Charles Martin" --metadata date="2025" --toc=true -o $@ $^ 
+
+$(ALL_ASSESSMENTS): $(ASSESSMENTS_MDS)
+	$(PANDOC) $(PANDOC_COMMON_OPTS) $(PDF_OPTS) --metadata title="Assessments for Human-Computer Interaction" --metadata author="Charles Martin" --metadata date="2025" --toc=true -o $@ $^
+
+$(ALL_WORKSHOPS): $(WORKSHOPS_MDS)
+	$(PANDOC) $(PANDOC_COMMON_OPTS) $(PDF_OPTS) --metadata title="Workshops for Human-Computer Interaction" --metadata author="Charles Martin" --metadata date="2025" --toc=true -o $@ $^
 
 .PHONY: bigfiles
-	bigfiles: $(ALL_LECTURES) 
-	
-# $(ALL_ASSESSMENTS) $(ALL_WORKSHOPS)
+bigfiles: $(ALL_LECTURES) $(ALL_ASSESSMENTS) $(ALL_WORKSHOPS)

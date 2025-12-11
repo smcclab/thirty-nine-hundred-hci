@@ -3,6 +3,8 @@ title: Research Design
 author: Dr Charles Martin
 ---
 
+# Research Design
+
 ![The physical setup for a lab-based HCI study at ANU.](img/08_yichen_study_setup.jpg)
 
 This tutorial will guide you through the process of designing a research project. You will learn how to identify real-world problems, recognise research gaps, and frame a strong research question. These skills connect directly to your final project. 

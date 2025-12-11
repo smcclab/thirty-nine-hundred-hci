@@ -3,6 +3,8 @@ title: Thematic Analysis
 author: Dr Charles Martin and Karla Kelly
 ---
 
+# Thematic Analysis
+
 ![OMG All That Data. What are we going to do with it?](img/omg-data.png)
 
 The purpose of this tutorial is to give you hands-on experience in conducting thematic analysis on qualitative data. You will use your own pre-class tasks as qualitative data and go through a process of coding, themeing, and refining themes to develop clear findings. You will also get organised to complete Assignment 2.
