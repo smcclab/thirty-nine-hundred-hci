@@ -26,7 +26,7 @@ Think about the setting and context in which interaction takes place:
 
 - Metaphor, analogies, concepts, relationships, mappings
 - How to choose  __interface metaphors__ that will help users understand the product?
-- Which  __interaction types__ would best support the users’ activities?
+- Which  __interaction types__ would best support the users' activities?
 - Do different  __interface types__ suggest alternative design insights or options?
 
 ## Interface Metaphors

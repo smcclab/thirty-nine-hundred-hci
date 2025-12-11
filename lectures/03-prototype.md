@@ -322,7 +322,7 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
-- Don’t look/act like the final product
+- Don't look/act like the final product
 - Simple, cheap, quick to produce/modify
 - Support exploration of alternative designs/ideas
 - Important in early stages - exploration/modification
@@ -396,7 +396,7 @@ So a sketch _is_ a prototype? Which is it?
 
 ## Paper Prototyping 
 
-It’s not just the prototypes, but how you use them!
+It's not just the prototypes, but how you use them!
 
 ![[Paper Prototyping 101](https://www.youtube.com/watch?v=fw42BYQmuJ4)](img/07_prototyping_18.png)
 
@@ -422,7 +422,7 @@ It’s not just the prototypes, but how you use them!
 Can we test a product that doesn't exist?
 
 - user interacts with the software
-- a human simulates the software’s response
+- a human simulates the software's response
 - assumes a software product or app
 
 :::

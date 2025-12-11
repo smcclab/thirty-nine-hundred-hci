@@ -260,7 +260,7 @@ More detailed than a user story, includes:
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 - Rich descriptions of typical users
-- Don’t describe specific people but realistic
+- Don't describe specific people but realistic
 - Describe goals, behaviours, activities, environment
 - How would this person use this product?
 
@@ -299,7 +299,7 @@ Examples on [Usability.gov](https://www.usability.gov/how-to-and-tools/methods/p
 ::: {.column width="60%"}
 - "Nia is a sound designer working in the automotive industry."
 - "When tasked with creating sound signals for automotive applications, Nia needs to consider the cognitive flow of users, particularly how different chords interact and influence user attention. To support this logic-making process, Nia uses an AI-powered tool that helps her design a storyboard, select suitable chords, and assign them to the relevant phases."
-- "After establishing the storyboard, Nia transitions to another MIDI software via the tool’s connected API for sound creation and refinement."
+- "After establishing the storyboard, Nia transitions to another MIDI software via the tool's connected API for sound creation and refinement."
 
 Example scenario excerpt from Minsik Choi's ANU research [@choi2024scenario].
 :::
@@ -426,7 +426,7 @@ Generating **many** ideas: high probability that _at least one_ is close to idea
 ## 1. Brainstorm / 2. Braindump
 
 - **Brainstorm:** leverage the synergy of the group
-- new ideas by building on others’ ideas
+- new ideas by building on others' ideas
 - blend ideas to create good ideas
 - discuss ideas without fear of criticism
 - **Braindump:** similar, but individual
@@ -438,7 +438,7 @@ Generating **many** ideas: high probability that _at least one_ is close to idea
 ::: {.column width="50%"}
 - **Brainwrite:** write ideas individually
 - then pass ideas to someone else
-- elaborate on the first person’s ideas
+- elaborate on the first person's ideas
 - then pass to the next person etc
 - after 15 minutes discuss
 - **Brainwalk:** walk around “ideation stations”
@@ -455,7 +455,7 @@ Generating **many** ideas: high probability that _at least one_ is close to idea
 - Flip brainstorming
 - Come up with the worst ideas you can think of
 - Playful, fun, adventurous, effective
-- Know that ideas won’t be scrutinised for being wrong
+- Know that ideas won't be scrutinised for being wrong
 :::
 ::: {.column width="50%"}
 ![Photo by Andre Hunter on Unsplash](img/andre-hunter-5otlbgWJlLs-unsplash.jpg){width=100%}
@@ -530,7 +530,7 @@ Prepare for this question: "Why is that bad?"
 - stories for communication, learning, exploring
 - storyboard is a visual story
 - can add details, show time progression
-- understand people’s lives and draw out stories
+- understand people's lives and draw out stories
 - research: scenarios with pictures and user quotes
 - ideation: play with ideas, develop storyline, actors, plot
 - tension, surprises, emotions, struggle, resolution

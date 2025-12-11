@@ -87,7 +87,7 @@ As an example: Is an height difference of 20cm meaningful?
 
 - If talking about adult people, probably yes.
 - If talking about mature Eucalyptus trees, probably no.
-- Means don’t account for data variance.
+- Means don't account for data variance.
 
 So what do we do?
 
@@ -251,9 +251,9 @@ Understand how variables relate to each other (e.g., is age or experience relate
 Correlation:
 
 - Measures the strength and direction of the linear relationship between two variables.
-- Most common method: Pearson's $r$: range: −1.00 (negative) to 1.00 (positive). 0 indicates no linear relationship.
+- Most common method: Pearson's $r$: range: -1.00 (negative) to 1.00 (positive). 0 indicates no linear relationship.
 
-Pearson’s $r^2$ (Coefficient of Determination)
+Pearson's $r^2$ (Coefficient of Determination)
 
 - Represents the shared variance between two variables.
 - Example: If $r = 0.70$, then $r^2 = 0.49$, meaning 49% of variance in one variable is explained by the other.

@@ -19,7 +19,7 @@ Upon successful completion, students will have the knowledge and skills to:
 2.  Apply multiple perspectives, theories, and ethical and inclusive considerations in critiquing technologies and prototyping and developing new design ideas.
 3.  Investigate activities, practices, and contexts of technology use through contextual research methods.
 4.  Critically evaluate novel technology design ideas based on Human-Computer Interaction approaches.
-5.  (PG): Critically reflect on a designer’s own presence and influence within a technology design process.
+5.  (PG): Critically reflect on a designer's own presence and influence within a technology design process.
 
 ## Indicative Assessment
 

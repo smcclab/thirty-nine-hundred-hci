@@ -41,20 +41,20 @@ A prototype is testable if it lets you **observe and learn from real user intera
 
 Read through the criteria, and keep them in mind for the activity below:
 
-1. **Interactive:** Can users actually perform the steps or tasks you’re trying to test? (even if simulated)
-   - Users must be able to take action and see a response, even if it’s simulated.
+1. **Interactive:** Can users actually perform the steps or tasks you're trying to test? (even if simulated)
+   - Users must be able to take action and see a response, even if it's simulated.
    - Examples: pressing a paper button triggers a screen change, dragging a card moves it to a new location, or speaking a command triggers a response.
    - Ask: “Can someone unfamiliar with this prototype actually perform the task I want to test?”
    - _Tip: A static sketch is not enough---the user must act on the prototype._
 2. **Clear:** Can users understand what the system is, what to do, and how it works?
-   - Make the system’s state and feedback obvious.
+   - Make the system's state and feedback obvious.
    - Examples: highlighting selections, showing confirmation messages, or providing visual cues for next steps.
    - Ask: “Will a new user generally know what to do next without explanation?” 
-3. **Evaluative:** Can you observe users, gather feedback, or identify what works and what doesn’t?
+3. **Evaluative:** Can you observe users, gather feedback, or identify what works and what doesn't?
    - Decide what success looks like and what errors or hesitation mean.
    - Examples: did the user complete the action correctly? Did they get confused or hesitate?
    - Ask: “What can I measure or observe that tells me if this interaction is effective?”  
-4. **Focused:** Are you including only what’s needed to test the intended interaction or task?
+4. **Focused:** Are you including only what's needed to test the intended interaction or task?
    - Include the elements needed to test the key task; less focus on aesthetics or extra features.
    - Ask: “Does every part of this prototype help answer my testing question, or can something be removed?”
 
@@ -77,7 +77,7 @@ In groups, your tutor will give you a **random user problem**. Focus on **one ke
 | #  | Scenario | Task (Key Interaction to Prototype) |
 |----|---------|-------------------------------------|
 | 1  | **Cat Cafeteria**: Patrons interact with digital feeders to dispense snacks to cats. | Prototype **one interaction** for choosing a cat and triggering a response from the feeder. |
-| 2  | **Alien Plant Gardener**: Manage a garden of alien plants. | Prototype **one interaction** for taking an action that affects the plant’s state. |
+| 2  | **Alien Plant Gardener**: Manage a garden of alien plants. | Prototype **one interaction** for taking an action that affects the plant's state. |
 | 3  | **Ghostly Museum Guide**: Friendly ghosts guide visitors via AR projections. | Prototype **one interaction** for a visitor to communicate or elicit a response from the ghost. |
 | 4  | **Intergalactic Grocery Store**: Shopping in zero gravity with floating items. | Prototype **one interaction** for selecting or moving a floating item. |
 | 5  | **Robo-Barista**: Robot makes drinks based on user input. | Prototype **one interaction** for specifying or changing a drink order. |

@@ -115,7 +115,7 @@ The last 30 minutes of this workshop is dedicated to meeting with your group and
 
 As a group you should: 
 
-- Talk through your overall assignment research plans with your group, and make sure to address any concerns your participants might have. You don’t need to go into the details of your specific data collection questions (that will come during the actual mini study), but be clear about what you’ll be asking participants to do and what their involvement will look like.
+- Talk through your overall assignment research plans with your group, and make sure to address any concerns your participants might have. You don't need to go into the details of your specific data collection questions (that will come during the actual mini study), but be clear about what you'll be asking participants to do and what their involvement will look like.
 - Decide on the time and place when you will conduct your data gathering. Remember that every tutorial in the course is followed by a 30 minute drop-in --- this means the room is booked and free to use for this course! 
 - Do your user research! If you have time and are prepared, you might like to take turns to conduct and participate in your assignment research activities in pairs. 
 

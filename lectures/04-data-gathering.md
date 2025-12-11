@@ -237,7 +237,7 @@ A small initial study to help plan a larger study.
 - **facilitation:** need to be careful
 - **groupthink:** generally considered harmful
 
-(I don’t find the “Focus Group” term super useful in my academic research—but they are widely used in industrial/government research.)
+(I don't find the “Focus Group” term super useful in my academic research—but they are widely used in industrial/government research.)
 :::
 ::: {.column width="40%"}
 ![A group! Could be focussed. (Photo by Antenna on Unsplash)](img/antenna-cw-cj_nFa14-unsplash.jpg)
@@ -461,7 +461,7 @@ Questions might be something like:
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- It’s hard to write survey questions! It may be good for beginners to use a standard questionnaire.
+- It's hard to write survey questions! It may be good for beginners to use a standard questionnaire.
 - The more questions you ask, the more work it can be to analyse. It can be counter-productive to have lots of questions without a way to aggregate them.
 - Rating scale data is generally not continuous and so you need to use non-parametric significance tests. 
 - The distribution of survey data is usually important, good to use plots such as box plots rather than a mean and standard error chart.
@@ -521,7 +521,7 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
 - e.g., to create a factory management system, a researcher might embed themself in a factory, talk to workers and perform tasks
 - ethnography is often used in relation to specific workplaces, e.g.: factories, hospitals etc
 - being within the context of the participants rather than bringing them to a lab/classroom for study
-- ethnography as a methodology connected with anthropology (i.e., as “the study of culture”), but it’s not identical
+- ethnography as a methodology connected with anthropology (i.e., as “the study of culture”), but it's not identical
 :::
 ::: {.column width="40%"}
 ![(Photo by Homa Appliances on Unsplash)](img/homa-appliances-ERXFD4jLpJc-unsplash.jpg)
@@ -693,7 +693,7 @@ Back to our issues:
 ## Questionnaires vs Interviews
 
 - Questionnaires, while very useful can only tell us information that we know to ask about.
-- Interviews let us find out information that didn’t know to begin with.
+- Interviews let us find out information that didn't know to begin with.
 - Questionnaires are fast and can address lots of participants---a broad approach
 - Interviews are slow but are a deep approach.
 - Interviews also require good conversational skills and experience to conduct well.

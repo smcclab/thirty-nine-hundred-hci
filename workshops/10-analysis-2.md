@@ -11,7 +11,7 @@ In this tutorial, we will bring together and extend our understanding of qualita
 
 ## Pre-Class Tasks
 
-1. Watch this [video](https://www.youtube.com/watch?v=zC6H5v2yuxc) on applying Braun and Clarke’s thematic analysis, focusing on how themes are developed; and read [@braun-thematic-analysis:2006], pp. 94–97 (Potential pitfalls and What makes good thematic analysis?) to strengthen your understanding.
+1. Watch this [video](https://www.youtube.com/watch?v=zC6H5v2yuxc) on applying Braun and Clarke's thematic analysis, focusing on how themes are developed; and read [@braun-thematic-analysis:2006], pp. 94–97 (Potential pitfalls and What makes good thematic analysis?) to strengthen your understanding.
 
 2. Use the [ACM CCS Topics Tool](https://dl.acm.org/ccs) to guide your selection of an HCI subtopic. Start with the top-level category **Human-centred computing**. Drill down into a more specific area that interests you (e.g., Accessibility systems and tools, Interaction Design). Paste this area into the [ACM Digital Library](https://dl.acm.org/). Using the search term, choose **two papers** published in one of the [SIGCHI conferences](https://sigchi.org/conferences/). Both papers must include a user study such as interviews, workshops, field studies, etc. Read the sections where the authors present and interpret their study outcomes. These may be titled **Findings, Results, Analysis, Reflections, or Discussion** (not all papers use the same labels). Treat these sections as your 'raw data'. Worked Example:
 

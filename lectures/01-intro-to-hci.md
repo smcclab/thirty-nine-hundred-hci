@@ -63,7 +63,7 @@ All HCI research is interdisciplinary:
 Starting with **ergonomics & human factors**.
 
 - 20th Century: Humans started to operate complex machines
-- Post 1945: engineering focus on operator’s cognition, response, decisions, perceptions, etc
+- Post 1945: engineering focus on operator's cognition, response, decisions, perceptions, etc
 - Ergonomics or human factors coined in 1950s to describe the human requirements for designing machines and systems.
 :::
 ::: {.column width="50%"}
@@ -75,7 +75,7 @@ Starting with **ergonomics & human factors**.
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Computing in the 1950s-70s meant mainframes and batch processing—normal people didn’t use computers!
+- Computing in the 1950s-70s meant mainframes and batch processing—normal people didn't use computers!
 - 1968: Douglas Engelbart introduced prototype concepts for interactive computing as we know it:
   - Mouse
   - GUI
@@ -113,7 +113,7 @@ Now:
 - Third wave: Situated perspectives [@boedker-third-wave:2015] (2006-)
   - Consumer tech, participation and sharing, pervasive computing, AR, tangible interaction, home environments,
 - Fourth wave: Entanglement HCI ([Frauenberger 2019](https://doi.org/10.1145/3364998)) (2019-)
-  - Computer and humans entangled in society: focus on values, accessibility, diversity, policy, law, ethics, individuals’ and society’s responsibilities
+  - Computer and humans entangled in society: focus on values, accessibility, diversity, policy, law, ethics, individuals' and society's responsibilities
 
 ## What does HCI research involve?
 
@@ -369,7 +369,7 @@ This version from: [@rogers-beyond-hci:2023]
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
-> “It is not enough that we build products that function, that are understandable and usable, we also need to build joy and excitement, pleasure and fun, and yes, beauty into people’s lives" [@Norman:2013]
+> “It is not enough that we build products that function, that are understandable and usable, we also need to build joy and excitement, pleasure and fun, and yes, beauty into people's lives" [@Norman:2013]
 
 How can we test for joy? Is this compatible with the usability goals?
 :::
@@ -510,7 +510,7 @@ Which mapping is _natural_? (Source: Wikimedia)
 - Users are not all the same
 - Different ages, cultures, backgrounds, abilities, interests
 - Various research methods available for understanding users and their contexts
-- Don’t assume; research and find out.
+- Don't assume; research and find out.
 - Accessibility and inclusivity are important
 :::
 ::: {.column width="50%"}

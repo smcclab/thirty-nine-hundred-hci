@@ -6,7 +6,7 @@ title: Personas and Scenarios
 
 ![Sticky note wall from a co-design session.](img/codesign.jpg)
 
-This week, you’ll learn how to create a persona and scenario, and use scenario-mapping to generate and evaluate design ideas. 
+This week, you'll learn how to create a persona and scenario, and use scenario-mapping to generate and evaluate design ideas. 
 
 ## Pre-Class Tasks
 

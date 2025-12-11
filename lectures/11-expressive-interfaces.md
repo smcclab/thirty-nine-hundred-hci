@@ -284,7 +284,7 @@ Autobiographical design [@desjardins2021firstpersontochi] to compare three inter
 :::
 ::: {.column width="40%"}
 
-![The traditional DMI model separates a musician’s input action captured by the controller, the mapping engine bridg-
+![The traditional DMI model separates a musician's input action captured by the controller, the mapping engine bridg-
 ing the input interface and sound engine [@magnusson2010designconstrain].](img/mapping-model.jpg){width="80%"}
 
 :::
@@ -296,7 +296,7 @@ From gestures to body (embodied) movements.
 
 ![CO/DA System [@coda2022chi]](img/coda-system.jpg){width="70%"}
 
-- Support real-time manipulation of continuous streams of the dancers’ motion data for interactive sound synthesis.
+- Support real-time manipulation of continuous streams of the dancers' motion data for interactive sound synthesis.
 - Enable novel dance improvisations through live coding.
 - Live coding: interactively programming musical or visual processes as performance.
 
@@ -335,7 +335,7 @@ Putting expressive interactions into public places.
 
 - Singing dinosaur skull musical instruments.
 - Experience dinosaur vocalisation: imagine dinosaur vocal anatomy from a bird syrinx, (vocal structure open question in paleontology)
-- Microphone for user, computational vocal model, sound resonates through a 3D printed replica of the dinosaur’s nasal cavities and skull
+- Microphone for user, computational vocal model, sound resonates through a 3D printed replica of the dinosaur's nasal cavities and skull
 - Change the pitch and timbre of the vocalisation by changing the shape of the mouths, like trumpet player
 :::
 ::: {.column width="40%"}
@@ -402,7 +402,7 @@ It's fun to make the world more fun.
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-- A straightforward mapping: the rider’s breathing to the horizontal rotation of the ride.
+- A straightforward mapping: the rider's breathing to the horizontal rotation of the ride.
     - Inhale: spins clockwise; exhale: spins anti-clockwise.
     - Breathing speed controls rotation speed: fast breathing faster spin; holding breath stops spinning.
     - Difficulty levels.

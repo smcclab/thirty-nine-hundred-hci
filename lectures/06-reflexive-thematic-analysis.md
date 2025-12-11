@@ -497,7 +497,7 @@ Source: Charles, 2025. 😬
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- Does your theme name reflect its ‘essence’?
+- Does your theme name reflect its ‘essence'?
 - Does the theme contain subthemes?
 - Are your theme names descriptive but concise?
 - Can you describe your theme in a couple of sentences?
@@ -582,18 +582,18 @@ A bingo card of potential researcher problems with (R)TA... which make sense so 
 ## What is reflexivity in HCI?
 
 - researcher is a non-objective instrument! (to detect phenomena such as "user experience", among others)
-  - “an individual’s experiences and background make up a unique perspective on the world... influences how they interact with participants” [@liang-tensions-hci-marginalized:2021]
+  - “an individual's experiences and background make up a unique perspective on the world... influences how they interact with participants” [@liang-tensions-hci-marginalized:2021]
   - “Reflexivity calls upon researchers to self-reflect and understand their own possible biases, their role in power relations, and how these factors might manifest in their work” [@liang-tensions-hci-marginalized:2021]
 
 ### Positionality
 
-- “how a researcher’s perspective compares to others’ perspectives” [@liang-tensions-hci-marginalized:2021]
+- “how a researcher's perspective compares to others' perspectives” [@liang-tensions-hci-marginalized:2021]
 - not necessarily about disclosing your identity
 - disclosing, or examining the aspects of the researcher that is relevant to understand their situated context
 
 ## What is reflexivity in HCI?
 
-**Burroway’s definition [@rode-reflexivity-digital-anthropology:2011]:**
+**Burroway's definition [@rode-reflexivity-digital-anthropology:2011]:**
 
 1. reflexivity, unlike positivism, embraces intervention as a data gathering opportunity
 2. reflective texts aim to understand how data gathering impacts the quality of the data itself. This approach “commands the observer to unpack those situational experiences by moving with the participants through their time and space"

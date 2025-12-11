@@ -345,7 +345,7 @@ Has often seemed like a great idea, but hasn't cracked mainstream yet (or has it
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 - blending of digital content with the physical world to create an enhanced real-world experience
-- 1960s: Ivan Sutherland’s development of the first head-mounted three-dimensional display
+- 1960s: Ivan Sutherland's development of the first head-mounted three-dimensional display
 :::
 ::: {.column width="50%"}
 ![First augmented reality head-mounted display system. Source: [@sutherland1967ar].](img/wk11-ivan-sutherland-headset.jpg){width=80%}
@@ -575,7 +575,7 @@ _Pens are great!_ We should do more with them.
 
 - Multitouch gestures allow more control, like zooming and rotating.
 
-- Gestures can be hard to learn and don’t provide physical feedback.
+- Gestures can be hard to learn and don't provide physical feedback.
 
 - Visual and audio cues help make up for the lack of tactile feedback. -->
 
@@ -741,7 +741,7 @@ Physical artifacts can be lifted, rearranged, and manipulated directly, distingu
 
 - Conceptual frameworks e.g., [@shaer2010tangible; @ullmer2005token; @fishkin2004taxonomy] identify what makes tangible interfaces unique.
 - A main design challenge is deciding how to link physical actions to digital effects - the notion of *coupling*.
-- Designers must choose the types and where digital feedback appears (e.g., on the object, beside it, or elsewhere), based on the interface’s purpose. E.g., learning? entertainment?
+- Designers must choose the types and where digital feedback appears (e.g., on the object, beside it, or elsewhere), based on the interface's purpose. E.g., learning? entertainment?
 - Choosing the right physical artifacts (e.g., cubes, tokens)to support natural and hands-on interaction.
 - Simple materials like sticky notes or cardboard tokens can be used to link physical actions to digital responses.
 - history and goals of tangible interfaces, see: @ullmer2022weaving
@@ -807,7 +807,7 @@ Detect neural signals via electrodes in headsets placed on the scalp.
 
 Assist or augment cognitive and motor functions—especially for people with disabilities (e.g., BrainGate lets paralyzed users type via thought).
 
-...and *entertainment* -- e.g., Brainball, where relaxation controls a ball’s movement.
+...and *entertainment* -- e.g., Brainball, where relaxation controls a ball's movement.
 
 Aim to transfer mental states (e.g., “focused,” “relaxed”) between people via stimulation.
 

@@ -175,7 +175,7 @@ Examples:
 
 - **Game App Developers:** Whether young adults find their game fun and engaging compared to other games
 - **Government authority:** Whether their online service is accessible to users with a disability
-- **Children’s talking toy designers:** Whether six-year-olds enjoy the voice, feel of the soft toy, and can use safely
+- **Children's talking toy designers:** Whether six-year-olds enjoy the voice, feel of the soft toy, and can use safely
 :::
 ::: {.column width="40%"}
 ![Preece in @Raffaele:2016](img/09_evaluation_foundations_1.png){width=100%}
@@ -225,7 +225,7 @@ Depends on your evaluation goal!
 Evaluation serves different purposes at different stages of the design process
 
 - **Formative evaluation:** 
-    - Assessing whether a product continues to meet users’ needs during a design process 
+    - Assessing whether a product continues to meet users' needs during a design process 
     - Early or late stages
 - **Summative evaluation:** 
     - Assessing whether a finished product is successful
@@ -264,7 +264,7 @@ A controlled evaluation setting is not the normal place for using a technology o
 
 ## Usability Testing Example
 
-![@schaadhardt-blind-artboards:2021 **Understanding Blind Screen-Reader Users’ Experiences of Digital Artboards**](img/09_evaluation_foundations_6.png)
+![@schaadhardt-blind-artboards:2021 **Understanding Blind Screen-Reader Users' Experiences of Digital Artboards**](img/09_evaluation_foundations_6.png)
 
 ## Natural settings (e.g., Field studies)
 
@@ -313,8 +313,8 @@ Helps to establish [ecological validity](https://www.interaction-design.org/lite
 ::: {.column width="60%"}
 
 - quick feedback about a design idea in the early design process
-- confirm whether it’s worth developing an idea into a prototype
-- informal and doesn’t require lots of time or resources
+- confirm whether it's worth developing an idea into a prototype
+- informal and doesn't require lots of time or resources
 - not a replacement for formal evaluation
 - **care required** with ethics in research (Hons, Master, PhD). Asking supervisors and colleagues for advice vs collecting data to establish findings.
 
@@ -521,8 +521,8 @@ HCI is hard. To do a study, you usually need to:
 - Plan the study
 - Find participants
 - Manage communication with them
-- Figure out what to do if they don’t show up
-- Managing a study requires some social skills! It’s hard work!
+- Figure out what to do if they don't show up
+- Managing a study requires some social skills! It's hard work!
 
 Is there any way to do evaluation _without_ users?
 
@@ -586,7 +586,7 @@ Is there any way to do evaluation _without_ users?
 :::
 ::::::::::::::
 
-## Shneiderman’s Eight Golden Rules of Design
+## Shneiderman's Eight Golden Rules of Design
 
 1. Strive for consistency
 2. Seek universal usability
@@ -631,7 +631,7 @@ Source: Kohavi et al. (2022), Cambridge University Press](img/08_abtest.jpg){wid
 ::: {.column width="60%"}
 Estimate user performance without needing real users, using formulas to assess task efficiency — useful in early design stages or when testing with users is difficult.
 
-Fitts’ Law [@fitts1954information]:
+Fitts' Law [@fitts1954information]:
 
 - predicts how long it takes to point at a target based on its size and distance
 - helps designers optimize button placement, size, and spacing on screens and devices.

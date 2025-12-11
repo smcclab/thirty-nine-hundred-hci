@@ -44,7 +44,7 @@ Your tutor will introduce themselves and start to look through pre-class tasks o
 
 Going beyond the technicalities of how we may facilitate human-computer interaction, let's consider how computers have already interacted with us in our lives. Today's lab is all about reflecting on our experiences with computers and how that impacts the work we do with computers and what we may create in future. 
 
-Reflection is a cyclic and integral part of the creative process. There are many different frameworks of reflection for different use cases. [Driscoll’s “What?” Model](https://reflection.ed.ac.uk/reflectors-toolkit/reflecting-on-experience/what-so-what-now-what) was developed in the mid-1990s [@reflection-toolkit-driscoll], creating a cycle of the following three questions:
+Reflection is a cyclic and integral part of the creative process. There are many different frameworks of reflection for different use cases. [Driscoll's “What?” Model](https://reflection.ed.ac.uk/reflectors-toolkit/reflecting-on-experience/what-so-what-now-what) was developed in the mid-1990s [@reflection-toolkit-driscoll], creating a cycle of the following three questions:
 
 - What?
 - So what?
@@ -66,7 +66,7 @@ Now we'll be doing a blind drawing activity.
 
 Draw the computer or digital technology that played an important role in _someone else's life_. Do this without looking at the paper while you draw (you can peek when you're done!). Think about how their experience shaped their perception of the system.
 
-This isn’t about being a great artist — it's a way to loosen up and engage with user experience before we dive into more reflective making.
+This isn't about being a great artist — it's a way to loosen up and engage with user experience before we dive into more reflective making.
 
 Once you've finished your drawing, take a few minutes to write about:
 
@@ -78,7 +78,7 @@ How do your answers align with the user experience goals from the textbook ([Int
 
 ### 3. Making to Express Experience and our Journeys
 
-For the second half of the tutorial, we’ll make a small reflective zine.
+For the second half of the tutorial, we'll make a small reflective zine.
 
 A zine (short for magazine) is a small, self-published booklet often used for artistic or personal expression. Today, you'll make an 8-page zine that captures your personal journey with computing.
 

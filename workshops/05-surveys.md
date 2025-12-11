@@ -70,7 +70,7 @@ Your tutor will provide a **shared spreadsheet** for the whole class to enter re
 This will allow us to compare SUS scores across groups to see which technology had better or worse usability.
 
 - Enter the results from the SUS survey you administered into the **shared** spreadsheet (e.g., Microsoft Excel).
-- Only enter data in the row corresponding to **your participant’s ID**.
+- Only enter data in the row corresponding to **your participant's ID**.
 - Double-check that all 10 SUS item scores are entered correctly.
 - Ensure no identifying information other than the participant ID is included.
 
@@ -111,7 +111,7 @@ This will allow us to compare SUS scores across groups to see which technology h
    
 6. **Calculate the SUS score for each participant**  
    Make sure all 10 items have been recoded to the 0–4 scale before this step.
-   We’ll remove any rows with missing items, then sum the items (0–40) and scale to 0–100.
+   We'll remove any rows with missing items, then sum the items (0–40) and scale to 0–100.
 
    ```python
    # Remove rows with missing SUS items
@@ -158,27 +158,27 @@ This will allow us to compare SUS scores across groups to see which technology h
    ```
 
 10. **Compare the findings**  
-    Use Welch’s t-test to check whether there is a statistically significant difference in SUS scores between the two groups.  
+    Use Welch's t-test to check whether there is a statistically significant difference in SUS scores between the two groups.  
     The output will also show which group had the higher average score.  
     **Interpretation guide:**  
     - If `p < 0.05`: The difference is considered statistically significant (unlikely due to chance).  
     - If `p >= 0.05`: The difference is *not* statistically significant (could be due to random variation).
 
     ```python
-    # --- Between-groups comparison (Welch’s t-test) ---
+    # --- Between-groups comparison (Welch's t-test) ---
     groups = [g["SUS_score"].dropna().values for _, g in df.groupby("group")]
 
     if len(groups) == 2:
         g1, g2 = groups
         group_names = list(df["group"].unique())
 
-        # Welch’s t-test
+        # Welch's t-test
         t = stats.ttest_ind(g1, g2, equal_var=False)
 
         # Means for each group
         mean_g1, mean_g2 = np.mean(g1), np.mean(g2)
 
-        print(f"Welch’s t-test: t = {t.statistic:.2f}, p = {t.pvalue:.3f}")
+        print(f"Welch's t-test: t = {t.statistic:.2f}, p = {t.pvalue:.3f}")
         print(f"Mean SUS for {group_names[0]}: {mean_g1:.2f}")
         print(f"Mean SUS for {group_names[1]}: {mean_g2:.2f}")
 
@@ -207,7 +207,7 @@ This will allow us to compare SUS scores across groups to see which technology h
     ```
     The mean SUS score for Group 1 (Technology A) was 82.3, which falls in the “Excellent” range.
     The mean SUS score for Group 2 (Technology B) was 71.5, which falls in the “Good” range.
-    A Welch’s t-test found that the difference was statistically significant (t(24) = 2.30, p = 0.03), indicating that Technology A was rated as significantly more usable for the given task.
+    A Welch's t-test found that the difference was statistically significant (t(24) = 2.30, p = 0.03), indicating that Technology A was rated as significantly more usable for the given task.
     This suggests that, for this context and task, Technology A may offer a better user experience than Technology B.
     ```
 
@@ -226,7 +226,7 @@ In real usability studies, **statistical tests have specific conditions and assu
 
 For example:
 
-- **Welch’s t-test** assumes the data are approximately normally distributed and the two groups are independent.
+- **Welch's t-test** assumes the data are approximately normally distributed and the two groups are independent.
 - **Sample size** affects the reliability of your results; small samples may fail to detect real differences or may exaggerate differences due to chance.
 - **Experimental design** (within- vs between-subjects) changes which test you should use and how you interpret results.
 
