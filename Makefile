@@ -219,3 +219,21 @@ $(ALL_WORKSHOPS): $(WORKSHOPS_MDS)
 
 .PHONY: bigfiles
 bigfiles: $(ALL_LECTURES) $(ALL_ASSESSMENTS) $(ALL_WORKSHOPS)
+
+# Mega Markdown files for lectures, assessments, and workshops.
+
+ALL_LECTURES_MD = $(OUTPUT_DIR)/all_lectures.md
+ALL_ASSESSMENTS_MD = $(OUTPUT_DIR)/all_assessments.md
+ALL_WORKSHOPS_MD = $(OUTPUT_DIR)/all_workshops.md
+
+$(ALL_LECTURES_MD): $(LECTURE_MDS)
+	cat $^ > $@
+
+$(ALL_ASSESSMENTS_MD): $(ASSESSMENTS_MDS)
+	cat $^ > $@
+
+$(ALL_WORKSHOPS_MD): $(WORKSHOPS_MDS)
+	cat $^ > $@
+
+.PHONY: bigmd
+bigmd: $(OUTPUT_DIR) $(ALL_LECTURES_MD) $(ALL_ASSESSMENTS_MD) $(ALL_WORKSHOPS_MD)
