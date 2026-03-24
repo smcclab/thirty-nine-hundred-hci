@@ -30,6 +30,8 @@ CSS for reveal.js is compiled from SCSS:
 sass css/charles_reveal_dark.scss build/lectures/charles_reveal_dark.css
 ```
 
+Beamer PDFs are built with `lualatex` and require these fonts: Linux Libertine O, Noto Sans, Noto Color Emoji. Presentations use the metropolis theme with owl color scheme at 16:9 aspect ratio.
+
 ## Content Structure
 
 - `lectures/` — Slide decks (`.md`), built to reveal.js HTML + Beamer PDF
@@ -39,6 +41,7 @@ sass css/charles_reveal_dark.scss build/lectures/charles_reveal_dark.css
 - Each content directory has its own `img/` subdirectory — images **cannot be shared across directories**
 - `references.bib` — Shared BibTeX references (APA citation style via `apa.csl`)
 - `_config.toml` — Course metadata (title, institution, author, year) used by `generate_index.py`
+- `_draft/` — Experimental/unused materials, not included in any build target
 
 ## Markdown Conventions
 
@@ -47,9 +50,32 @@ Lecture slides use pandoc's Markdown with `--slide-level 2`:
 - `##` headings create regular slides
 - `###` and below are content within a slide
 
+Lecture frontmatter includes title-slide background images:
+```yaml
+---
+title: "Slide Title"
+author: Dr Charles Martin
+title-slide-attributes:
+    data-background-image: img/background.jpg
+    data-background-size: cover
+---
+```
+
 Reveal.js-specific syntax is supported (e.g., `{.columns}`, `{.column width="50%"}`, `background-image=` on headings).
 
 Citations use pandoc format: `[@bibtex-key]`, `[@bibtex-key, p26]`. References go in `references.bib`; referencing style is APA (`apa.csl`).
+
+## Custom Slide Styles
+
+The SCSS theme (`css/charles_reveal_dark.scss`) defines content box classes used in lectures:
+- `.activity`, `.questions` — section types with colored headers (green and burnt sienna)
+- `.info-box`, `.warn-box`, `.error-box`, `.success-box` — callout boxes
+- `.think-box`, `.talk-box`, `.push-box`, `.extension-box` — activity instruction boxes
+
+## Utility Scripts
+
+- `find_unused_images.py` — finds images in `lectures/img/` not referenced by any lecture markdown
+- `count_slides.sh` — counts slides, words, and images per lecture with totals
 
 ## Python / Notebooks
 
@@ -63,6 +89,10 @@ Dependencies: `pandas`, `seaborn`, `scipy`, `statsmodels`, `ipykernel`.
 
 The `generate_index.py` and `find_unused_images.py` scripts use only the Python standard library.
 
+## Local Development
+
+VS Code is configured (`.vscode/settings.json`) to run `make all` on every markdown file save and serve `build/` via Live Server.
+
 ## CI / Deployment
 
-GitHub Actions (`.github/workflows/deploy.yml`) runs `make public` on push to `main` using the `pandoc/latex` Docker image and deploys the `build/` directory to GitHub Pages at <https://smcclab.github.io/thirty-nine-hundred-hci/>.
+GitHub Actions (`.github/workflows/deploy.yml`) runs `make public` on push to `main` using the `pandoc/latex:3.7.0.1` Docker image and deploys the `build/` directory to GitHub Pages at <https://smcclab.github.io/thirty-nine-hundred-hci/>. The `public` target excludes `resources/` (those are not published).
