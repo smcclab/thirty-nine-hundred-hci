@@ -283,7 +283,7 @@ This may feel firmly off topic, but we need to surface some friction about _know
 6. writing up
 :::
 ::: {.column width="50%"}
-![[@braun-thematic-analysis:2006]](img/05_02_thematic_analysis_0.jpg)
+![[@braun-thematic-analysis:2006]](img/reflexive-thematic-analysis_1_phases.jpg)
 :::
 ::::::::::::::
 
@@ -323,7 +323,7 @@ A code is: _a name or label applied to a chunk of data_
 - do this _thoroughly_
 :::
 ::: {.column width="40%"}
-![[@piggott-preceptor-engagement:2015]](img/05_02_thematic_analysis_2.jpg)
+![[@piggott-preceptor-engagement:2015]](img/reflexive-thematic-analysis_2_coding.jpg)
 :::
 ::::::::::::::
 
@@ -344,7 +344,7 @@ A code is: _a name or label applied to a chunk of data_
 - "uncertain whether other options would be better"
 :::
 ::: {.column width="40%"}
-![(Lazar et al. 2017, p.312)](img/05_02_thematic_analysis_3.jpg)
+![(Lazar et al. 2017, p.312)](img/reflexive-thematic-analysis_3_uncertainty.jpg)
 :::
 ::::::::::::::
 
@@ -352,10 +352,10 @@ A code is: _a name or label applied to a chunk of data_
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![[@rogers-beyond-hci:2023]](img/05_02_thematic_analysis_4.jpg){width=90%}
+![[@rogers-beyond-hci:2023]](img/reflexive-thematic-analysis_4_coding-text_a.jpg){width=90%}
 :::
 ::: {.column width="50%"}
-![[@rogers-beyond-hci:2023]](img/05_02_thematic_analysis_5.jpg){width=90%}
+![[@rogers-beyond-hci:2023]](img/reflexive-thematic-analysis_5_coding-text_b.jpg){width=90%}
 :::
 ::::::::::::::
 
@@ -376,7 +376,7 @@ A code is: _a name or label applied to a chunk of data_
 - Often not recommended in reflexive thematic analysis
 :::
 ::: {.column width="40%"}
-![Example of code book entries [@decruir-gunby-codebook:2011, p.147]](img/05_02_thematic_analysis_7.jpg)
+![Example of code book entries [@decruir-gunby-codebook:2011, p.147]](img/reflexive-thematic-analysis_6_codebook.jpg)
 :::
 ::::::::::::::
 
@@ -447,7 +447,7 @@ Braun and Clarke _insist_ that "themes do not emerge", [@braun-thematic-analysis
 - In this example, are the themes thick or thin?
 :::
 ::: {.column width="40%"}
-![[@lazar-research-methods:2017]](img/05_02_thematic_analysis_9.jpg)
+![[@lazar-research-methods:2017]](img/reflexive-thematic-analysis_7_hierarchy.jpg)
 :::
 ::::::::::::::
 
@@ -540,7 +540,7 @@ Cluster for 2-3 minutes, discuss, theme for 2-3 minutes, discuss.
 - in your final project: present design implications arising from the themes
 :::
 ::: {.column width="40%"}
-![[@ljungblad-what-matters:2021]](img/05_02_thematic_analysis_10.jpg){width=80%}
+![[@ljungblad-what-matters:2021]](img/reflexive-thematic-analysis_8_writeup.jpg){width=80%}
 :::
 ::::::::::::::
 
@@ -575,7 +575,7 @@ A bingo card of potential researcher problems with (R)TA... which make sense so 
 - attending to the context of knowledge production
 :::
 ::: {.column width="40%"}
-![[@olmos-vega-reflexivity-qualitative-research:2023]](img/05_01_reflexivity_9.png)
+![[@olmos-vega-reflexivity-qualitative-research:2023]](img/reflexive-thematic-analysis_9_reflexivity.png)
 :::
 ::::::::::::::
 
@@ -611,7 +611,7 @@ A bingo card of potential researcher problems with (R)TA... which make sense so 
 [@olmos-vega-reflexivity-qualitative-research:2023]
 :::
 ::: {.column width="40%"}
-![](img/05_01_reflexivity_10.png)
+![](img/reflexive-thematic-analysis_10_types.png)
 :::
 ::::::::::::::
 
@@ -619,10 +619,10 @@ A bingo card of potential researcher problems with (R)TA... which make sense so 
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![[@liang-tensions-hci-marginalized:2021]](img/05_01_reflexivity_11.png)
+![[@liang-tensions-hci-marginalized:2021]](img/reflexive-thematic-analysis_11_positionality_a.png)
 :::
 ::: {.column width="50%"}
-![[@liang-tensions-hci-marginalized:2021]](img/05_01_reflexivity_12.png)
+![[@liang-tensions-hci-marginalized:2021]](img/reflexive-thematic-analysis_12_positionality_b.png)
 :::
 ::::::::::::::
 

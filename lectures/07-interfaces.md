@@ -200,7 +200,7 @@ Focus of interface can change:
   
 :::
 ::: {.column width="40%"}
-![Yichen Wang using a touchless, natural, AR interface, 2021.](img/07_yichen_hololens.jpg){width=60%}
+![Yichen Wang using a touchless, natural, AR interface, 2021.](img/interfaces_1_hololens.jpg){width=60%}
 :::
 ::::::::::::::
 
@@ -918,7 +918,7 @@ Don Norman [@Norman:2013] argues "natural" depends on a number of factors:
 A gesture may worth a thousand words; other times a word is worth a thousand gestures. It depends on how many functions the system supports.
 :::
 ::: {.column width="40%"}
-![PhD student Sandy Ma drawing-based musical performance in AR environment. 2024.](img/07_sandy_ai_friends.jpg){width="100%"}
+![PhD student Sandy Ma drawing-based musical performance in AR environment. 2024.](img/interfaces_2_ar-drawing.jpg){width="100%"}
 :::
 ::::::::::::::
 

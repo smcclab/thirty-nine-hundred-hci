@@ -238,9 +238,9 @@ accumulation of skills and knowledge through memory [@rogers-beyond-hci:2023 p.1
 - multimodal learning through new and emerging technologies e.g., augmented reality and virtual reality
 :::
 ::: {.column width="40%"}
-![[@hooper-french-kitchen:2012]](img/02_theory_and_concepts_10.jpg){width=50%}
+![[@hooper-french-kitchen:2012]](img/cognitive-social-emotional_1_learning_a.jpg){width=50%}
 
-![[@cheng-language-culture:2017]](img/02_theory_and_concepts_11.jpg){width=50%}
+![[@cheng-language-culture:2017]](img/cognitive-social-emotional_2_learning_b.jpg){width=50%}
 :::
 ::::::::::::::
 
@@ -346,7 +346,7 @@ influential early HCI framework describing gaps between user and interface [@nor
 - provides discourse for identifying mismatches in user-system interaction
 :::
 ::: {.column width="50%"}
-![Problem with switches: how do you know what happens when you switch it!](img/02_theory_and_concepts_18.png)
+![Problem with switches: how do you know what happens when you switch it!](img/cognitive-social-emotional_3_switches.png)
 :::
 ::::::::::::::
 
@@ -370,7 +370,7 @@ influential early HCI framework describing gaps between user and interface [@nor
 - analysis can inform design implications and decision-making in designing to support distributed cognition
 :::
 ::: {.column width="40%"}
-![Image: @rogers-beyond-hci:2023 p.128](img/02_theory_and_concepts_23.png)
+![Image: @rogers-beyond-hci:2023 p.128](img/cognitive-social-emotional_7_distributed.png)
 :::
 ::::::::::::::
 
@@ -384,11 +384,11 @@ influential early HCI framework describing gaps between user and interface [@nor
 - cognitive offloading, computational offloading, annotating and cognitive tracing
 :::
 ::: {.column width="40%"}
-![Cognitive Offloading](img/02_theory_and_concepts_21.jpg){width=30%}
+![Cognitive Offloading](img/cognitive-social-emotional_5_offloading.jpg){width=30%}
 
-![Computational Offloading](img/02_theory_and_concepts_22.jpg){width=30%}
+![Computational Offloading](img/cognitive-social-emotional_6_computational.jpg){width=30%}
 
-![Cognitive Tracing](img/02_theory_and_concepts_20.jpg){width=30%}
+![Cognitive Tracing](img/cognitive-social-emotional_4_tracing.jpg){width=30%}
 :::
 ::::::::::::::
 
@@ -476,7 +476,7 @@ supporting people in activities when they are interacting in the same physical s
 - social translucence: enabling participants and activities to be visible
 :::
 ::: {.column width="40%"}
-![The Reflect Table: Pierre Dillenbourg in @rogers-beyond-hci:2023 p.55](img/02_theory_and_concepts_29.png){width=50%}
+![The Reflect Table: Pierre Dillenbourg in @rogers-beyond-hci:2023 p.55](img/cognitive-social-emotional_8_co-presence.png){width=50%}
 
 ![musical instrument holograms to aid collaboration [@wang2025seeingsound]](img/aisee-holo-view.jpg){width=50%}
 :::
@@ -532,7 +532,7 @@ Understanding emotions assists with design. Positive and negative emotional stat
 - reflective: meaning, personal value, culture
 :::
 ::: {.column width="40%"}
-![[@ortony2012affect]](img/02_theory_and_concepts_50.png){width=100%}
+![[@ortony2012affect]](img/cognitive-social-emotional_9_emotional-design.png){width=100%}
 :::
 ::::::::::::::
 
@@ -546,9 +546,9 @@ Understanding emotions assists with design. Positive and negative emotional stat
 - annoying interfaces elicit negative responses 
 :::
 ::: {.column width="40%"}
-![Duolingo Reminders](img/02_theory_and_concepts_51.png){width=50%}
+![Duolingo Reminders](img/cognitive-social-emotional_10_duolingo.png){width=50%}
 
-![Windows Blue Screen of Death](img/02_theory_and_concepts_52.png){width=50%}
+![Windows Blue Screen of Death](img/cognitive-social-emotional_11_bsod.png){width=50%}
 :::
 ::::::::::::::
 
@@ -563,7 +563,7 @@ Understanding emotions assists with design. Positive and negative emotional stat
 - mood tracking apps: help manage emotions, moods, and mental health
 :::
 ::: {.column width="40%"}
-![Analysing emotion from a camera image.](img/02_theory_and_concepts_55.png)
+![Analysing emotion from a camera image.](img/cognitive-social-emotional_12_emotion-camera.png)
 :::
 ::::::::::::::
 

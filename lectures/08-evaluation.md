@@ -178,7 +178,7 @@ Examples:
 - **Children's talking toy designers:** Whether six-year-olds enjoy the voice, feel of the soft toy, and can use safely
 :::
 ::: {.column width="40%"}
-![Preece in @Raffaele:2016](img/09_evaluation_foundations_1.png){width=100%}
+![Preece in @Raffaele:2016](img/evaluation_1_measure.png){width=100%}
 :::
 ::::::::::::::
 
@@ -198,7 +198,7 @@ Six usability goals:
 [@rogers-beyond-hci:2023]
 :::
 ::: {.column width="40%"}
-![Image: dtravisphd on Unsplash](img/09_evaluation_foundations_2.jpg){width=100%}
+![Image: dtravisphd on Unsplash](img/evaluation_2_usability.jpg){width=100%}
 :::
 ::::::::::::::
 
@@ -214,7 +214,7 @@ Depends on your evaluation goal!
 
 :::
 ::: {.column width="40%"}
-![Image: Unsplash, UX Indonesia](img/09_evaluation_foundations_3.jpg)
+![Image: Unsplash, UX Indonesia](img/evaluation_3_setting.jpg)
 :::
 ::::::::::::::
 
@@ -264,7 +264,7 @@ A controlled evaluation setting is not the normal place for using a technology o
 
 ## Usability Testing Example
 
-![@schaadhardt-blind-artboards:2021 **Understanding Blind Screen-Reader Users' Experiences of Digital Artboards**](img/09_evaluation_foundations_6.png)
+![@schaadhardt-blind-artboards:2021 **Understanding Blind Screen-Reader Users' Experiences of Digital Artboards**](img/evaluation_4_artboards.png)
 
 ## Natural settings (e.g., Field studies)
 
@@ -281,7 +281,7 @@ Field studies can:
 Helps to establish [ecological validity](https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/ecological-validity).
 :::
 ::: {.column width="40%"}
-![Source: @ambe-individuation:2017](img/09_evaluation_foundations_7.jpg)
+![Source: @ambe-individuation:2017](img/evaluation_5_field-study.jpg)
 :::
 ::::::::::::::
 
@@ -300,10 +300,10 @@ Helps to establish [ecological validity](https://www.interaction-design.org/lite
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![Co-Designing with Orangutans: Enhancing the Design of Enrichment for Animals (Sarah Webber, Marcus Carter, Wally Smith, and Frank Vetere) Proc. DIS '20 [@webber-oranguatans:2020]](img/09_evaluation_foundations_8.png)
+![Co-Designing with Orangutans: Enhancing the Design of Enrichment for Animals (Sarah Webber, Marcus Carter, Wally Smith, and Frank Vetere) Proc. DIS '20 [@webber-oranguatans:2020]](img/evaluation_6_orangutans_a.png)
 :::
 ::: {.column width="50%"}
-![Design objective 1: Develop a digital installation to provide enhanced, varied enrichment for orangutans at Melbourne Zoo](img/09_evaluation_foundations_9.png)
+![Design objective 1: Develop a digital installation to provide enhanced, varied enrichment for orangutans at Melbourne Zoo](img/evaluation_7_orangutans_b.png)
 :::
 ::::::::::::::
 
@@ -601,11 +601,11 @@ Is there any way to do evaluation _without_ users?
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![](img/09_evaluation_foundations_16.png)
+![](img/evaluation_8_analytics_a.png)
 
 :::
 ::: {.column width="50%"}
-![](img/09_evaluation_foundations_17.png)
+![](img/evaluation_9_analytics_b.png)
 :::
 ::::::::::::::
 
@@ -653,7 +653,7 @@ Fitts' Law [@fitts1954information]:
 - Technology individuation [@ambe-individuation:2017]
 :::
 ::: {.column width="40%"}
-![(Ambe et al. 2017)](img/09_evaluation_foundations_19.jpg)
+![(Ambe et al. 2017)](img/evaluation_10_adoption.jpg)
 :::
 ::::::::::::::
 

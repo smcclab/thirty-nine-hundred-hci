@@ -151,7 +151,7 @@ Some HCI research is technical or speculative, inventing technologies that are _
 
 # Discovering Requirements
 
-![Image: [@rogers-beyond-hci:2023, s11.2]](img/05_03_discovering_requirements_0.png){width=50%}
+![Image: [@rogers-beyond-hci:2023, s11.2]](img/design_1_requirements.png){width=50%}
 
 ## What is a requirement?
 
@@ -165,7 +165,7 @@ Some HCI research is technical or speculative, inventing technologies that are _
 - Needed to avoid misunderstanding and miscommunication
 :::
 ::: {.column width="40%"}
-![Image: [@rogers-beyond-hci:2023, s11.2]](img/05_03_discovering_requirements_0.png)
+![Image: [@rogers-beyond-hci:2023, s11.2]](img/design_1_requirements.png)
 :::
 ::::::::::::::
 
@@ -181,7 +181,7 @@ Some HCI research is technical or speculative, inventing technologies that are _
 - _"Description, Rationale, Source, Fit criterion, Customer satisfaction..."_ 
 :::
 ::: {.column width="50%"}
-![[@rogers-beyond-hci:2023, s11.3]](img/05_03_discovering_requirements_2.png){width=60%}
+![[@rogers-beyond-hci:2023, s11.3]](img/design_2_volere.png){width=60%}
 :::
 ::::::::::::::
 
@@ -279,10 +279,10 @@ Examples on [Usability.gov](https://www.usability.gov/how-to-and-tools/methods/p
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![](img/05_03_discovering_requirements_8.jpg){width=80%}
+![](img/design_3_persona_a.jpg){width=80%}
 :::
 ::: {.column width="50%"}
-![](img/05_03_discovering_requirements_9.jpg){width=80%}
+![](img/design_4_persona_b.jpg){width=80%}
 :::
 ::::::::::::::
 

@@ -280,7 +280,7 @@ Some practical goals that can be tested:
 This version from: [@rogers-beyond-hci:2023]
 :::
 ::: {.column width="40%"}
-![@Raffaele:2016, illustrating @rogers-beyond-hci:2023](img/01_01_usability_8.png){width=100%}
+![@Raffaele:2016, illustrating @rogers-beyond-hci:2023](img/intro-to-hci_1_usability.png){width=100%}
 :::
 ::::::::::::::
 
@@ -306,7 +306,7 @@ This version from: [@rogers-beyond-hci:2023]
 - Use less energy?
 :::
 ::: {.column width="60%"}
-![Which interface is more efficient?](img/01_01_usability_10.png){width=100%}
+![Which interface is more efficient?](img/intro-to-hci_2_efficiency.png){width=100%}
 :::
 ::::::::::::::
 
@@ -319,7 +319,7 @@ This version from: [@rogers-beyond-hci:2023]
 - Recovering when mistakes are made (if not when!)
 :::
 ::: {.column width="60%"}
-![Are you sure you want to delete everything?](img/01_01_usability_12.png){width=100%}
+![Are you sure you want to delete everything?](img/intro-to-hci_3_safety.png){width=100%}
 :::
 ::::::::::::::
 
@@ -396,7 +396,7 @@ How can we test for joy? Is this compatible with the usability goals?
 
 Rogers/Sharpe/Preece illustrate user experience as surrounding usability.
 
-![@Raffaele:2016, illustrating @rogers-beyond-hci:2023](img/01_01_usability_8.png){width=35%}
+![@Raffaele:2016, illustrating @rogers-beyond-hci:2023](img/intro-to-hci_1_usability.png){width=35%}
 
 ## Thinking about Technology as Experience
 
@@ -514,8 +514,8 @@ Which mapping is _natural_? (Source: Wikimedia)
 - Accessibility and inclusivity are important
 :::
 ::: {.column width="50%"}
-![](img/01_01_usability_19.png){width=40%}
-![](img/01_01_usability_20.png){width=40%}
+![](img/intro-to-hci_4_elderly.png){width=40%}
+![](img/intro-to-hci_5_makey-makey.png){width=40%}
 
 Images from the paper “Never Too Old: Engaging Retired People Inventing the Future with MaKey MaKey” [@rogers-never-old:2014]
 :::

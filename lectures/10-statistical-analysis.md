@@ -2,7 +2,7 @@
 title: Statistical Analysis
 author: Dr Charles Martin
 title-slide-attributes:
-    data-background-image: img/10_statistical_analysis.jpg
+    data-background-image: img/statistical-analysis_1_background.jpg
     data-background-size: cover
 ---
 

@@ -49,7 +49,7 @@ The framing this week around _sketches_ and _prototypes_ as different things wit
 - What makes something a sketch?
 :::
 ::: {.column width="40%"}
-![(@buxton-sketching:2007 p.104)](img/06_ideation_7.png)
+![(@buxton-sketching:2007 p.104)](img/prototype_1_sketch.png)
 :::
 ::::::::::::::
 
@@ -103,7 +103,7 @@ This is up to you, but it could have
 > Design Idea: An AR app on a mobile phone that allows mosaic makers to preview tiles before gluing. This can help to choose colours and preview placement and positioning before being fixed.
 :::
 ::: {.column width="40%"}
-![Sketch of the AR app idea.](img/06_ideation_8.png)
+![Sketch of the AR app idea.](img/prototype_2_ar-sketch.png)
 :::
 ::::::::::::::
 
@@ -199,7 +199,7 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 - an app
 :::
 ::: {.column width="60%"}
-![[@rogers-beyond-hci:2023] Figure 12.2: (a) model jet engine, (b) moving and sensing dress, (c) a teddy bear printed from a wireframe design](img/07_prototyping_1.png){width=80%}
+![[@rogers-beyond-hci:2023] Figure 12.2: (a) model jet engine, (b) moving and sensing dress, (c) a teddy bear printed from a wireframe design](img/prototype_3_manifestation.png){width=80%}
 :::
 ::::::::::::::
 
@@ -264,7 +264,7 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 - No actual functionality
 :::
 ::: {.column width="60%"}
-![@rogers-beyond-hci:2023, Figure 12.3](img/07_prototyping_2.png)
+![@rogers-beyond-hci:2023, Figure 12.3](img/prototype_4_wireframe-app.png)
 :::
 ::::::::::::::
 
@@ -309,9 +309,9 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 - [https://www.youtube.com/watch?v=k_9Q-KDSb9o](https://www.youtube.com/watch?v=k_9Q-KDSb9o)
 :::
 ::: {.column width="50%"}
-![](img/07_prototyping_6.jpg)
+![](img/prototype_5_spectrum_a.jpg)
 
-![](img/07_prototyping_7.jpg)
+![](img/prototype_6_spectrum_b.jpg)
 
 ![Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsplash.com/s/photos/toaster)
 ](img/07_prototyping_8.jpg)
@@ -330,7 +330,7 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 - Storyboarding, Sketching, Index Cards, Wizard of Oz
 :::
 ::: {.column width="60%"}
-![@rogers-beyond-hci:2023 Figure 12.1: PalmPilot wooden prototype](img/07_prototyping_9.png){width=100%}
+![@rogers-beyond-hci:2023 Figure 12.1: PalmPilot wooden prototype](img/prototype_7_palmpilot.png){width=100%}
 :::
 ::::::::::::::
 
@@ -346,7 +346,7 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 - think about design issues
 :::
 ::: {.column width="60%"}
-![@rogers-beyond-hci:2023 Figure 12.12 travel organiser storyboard](img/07_prototyping_12.png)
+![@rogers-beyond-hci:2023 Figure 12.12 travel organiser storyboard](img/prototype_8_storyboard.png)
 
 :::
 ::::::::::::::
@@ -362,7 +362,7 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 So a sketch _is_ a prototype? Which is it?
 :::
 ::: {.column width="60%"}
-![@rogers-beyond-hci:2023 Figure 12.5: simple sketches for low-fidelity prototyping](img/07_prototyping_13.png)
+![@rogers-beyond-hci:2023 Figure 12.5: simple sketches for low-fidelity prototyping](img/prototype_9_sketching.png)
 :::
 ::::::::::::::
 
@@ -378,7 +378,7 @@ So a sketch _is_ a prototype? Which is it?
 - Explore user experience
 :::
 ::: {.column width="60%"}
-![@rogers-beyond-hci:2023 Figure 12.12 travel organiser cards](img/07_prototyping_15.png)
+![@rogers-beyond-hci:2023 Figure 12.12 travel organiser cards](img/prototype_10_cards.png)
 
 :::
 ::::::::::::::
@@ -407,7 +407,7 @@ It's not just the prototypes, but how you use them!
 ![[What are wireframes?](https://www.interaction-design.org/literature/topics/wireframing)](img/07_prototyping_19.png)
 :::
 ::: {.column width="50%"}
-![Wireframes in a sketchbook](img/07_prototyping_20.jpg)
+![Wireframes in a sketchbook](img/prototype_11_wireframes.jpg)
 :::
 ::::::::::::::
 
@@ -456,7 +456,7 @@ Can we test a product that doesn't exist?
 - programmable arduino-like microcontroller
 :::
 ::: {.column width="60%"}
-![The Makey Makey](img/07_prototyping_24.jpg){width=50%}
+![The Makey Makey](img/prototype_12_makey-makey.jpg){width=50%}
 :::
 ::::::::::::::
 

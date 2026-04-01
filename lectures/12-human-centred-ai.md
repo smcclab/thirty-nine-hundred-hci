@@ -619,7 +619,7 @@ Researcher has a hard job here... needs to be a designer, programmer, and busine
 This version from: [@rogers-beyond-hci:2023]
 :::
 ::: {.column width="40%"}
-![@Raffaele:2016, illustrating @rogers-beyond-hci:2023](img/01_01_usability_8.png){width=100%}
+![@Raffaele:2016, illustrating @rogers-beyond-hci:2023](img/intro-to-hci_1_usability.png){width=100%}
 :::
 ::::::::::::::
 
