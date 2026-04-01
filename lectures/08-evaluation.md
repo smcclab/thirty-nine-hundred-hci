@@ -430,7 +430,7 @@ We don't go deeply into research ethics in this course but the four issues above
 - Zoom (e.g., COVID), online studies
 :::
 ::: {.column width="40%"}
-![Yichen Wang's human-AI musical collaboration research study setup at School of Music.](img/08_yichen_study_setup.jpg){width="100%"}
+![Yichen Wang's human-AI musical collaboration research study setup at School of Music.](img/evaluation_11_study-setup.jpg){width="100%"}
 :::
 ::::::::::::::
 
