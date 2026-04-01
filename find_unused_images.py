@@ -3,6 +3,7 @@
 Find images in lectures/img that are not referenced in any markdown file.
 """
 
+import argparse
 import os
 import re
 from pathlib import Path
@@ -53,13 +54,9 @@ def extract_image_references(markdown_file):
 
 def normalize_path(ref_path, base_dir):
     """Normalize a reference path to match actual file paths."""
-    # Remove any leading ./
-    ref_path = ref_path.lstrip('./')
-    img_path = Path(ref_path)
-    return img_path.name
+    return Path(ref_path).name
 
 def main():
-    import argparse
     parser = argparse.ArgumentParser(description='Find (and optionally delete) unused images.')
     parser.add_argument('--delete', action='store_true', help='Delete unused images')
     args = parser.parse_args()
