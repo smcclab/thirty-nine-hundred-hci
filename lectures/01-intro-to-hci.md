@@ -340,9 +340,11 @@ This version from: [@rogers-beyond-hci:2023]
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
+ 
 - How easy is it to learn the system?
 - Is it _intuitive_?
 - Does it take time/training?
+
 :::
 ::: {.column width="60%"}
 ![Some complicated software. Photo by Nejc Soklič on Unsplash](img/nejc-soklic-2jTu7H9l6JA-unsplash.jpg){width=100%}
@@ -353,8 +355,10 @@ This version from: [@rogers-beyond-hci:2023]
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
+
 - Will users remember how to use it later?
 - Are there supports for infrequent functions?
+
 :::
 ::: {.column width="60%"}
 ![Annual tax return filing Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema)](img/01_01_usability_17.png){width=100%}
@@ -375,12 +379,10 @@ How can we test for joy? Is this compatible with the usability goals?
 :::
 ::: {.column width="60%"}
 ![Charles finds this technology joyful.](img/charles-synthesiser.jpg){width=100%}
-
-<!-- ![Photo by [jeshoots](https://unsplash.com/@jeshoots) on [Unsplash](https://unsplash.com/s/photos/user-experience)](img/01_01_usability_5.jpg){width=100%} -->
 :::
 ::::::::::::::
 
-## Another example...
+## Another example
 
 ![Charles editing a lecture in neovim (`:w`)](img/charles-neovim.png){width=60%}
 
@@ -400,7 +402,7 @@ Rogers/Sharpe/Preece illustrate user experience as surrounding usability.
 
 ## Thinking about Technology as Experience
 
-Can we unpack how we [experience technology?](https://dl.acm.org/doi/10.1145/1015530.1015549) [@mccarthy-wright:2004] 
+Can we unpack how we [experience technology?](https://dl.acm.org/doi/10.1145/1015530.1015549) [@mccarthy-wright:2004]
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
@@ -435,7 +437,7 @@ Processes
 - Recounting: We enjoy storytelling and make sense of experience in stories.
 :::
 
-## Threads of Experience:
+## Threads of Experience
 
 - Compositional: How do the elements of an experience fit together to form a coherent whole?
 - Sensual: What does the design and texture and the overall atmosphere make us feel?
@@ -450,7 +452,6 @@ Processes
 - Reflecting: We examine and evaluate what is happening in an interaction.
 - Appropriating: We work out how a new experience fits with other experiences we have had and with our sense of self.
 - Recounting: We enjoy storytelling and make sense of experience in stories.
-
 
 ## Two designs for a voicemail system
 
@@ -496,8 +497,9 @@ From Design of Everyday things [@Norman:2013]
 :::
 ::: {.column width="50%"}
 
-![](img/mapping-stove-row.jpg)
-![](img/mapping-stove-square.jpg)
+![Knobs in a row.](img/mapping-stove-row.jpg)
+
+![Knobs in a square](img/mapping-stove-square.jpg)
 
 Which mapping is _natural_? (Source: Wikimedia)
 :::
@@ -514,8 +516,9 @@ Which mapping is _natural_? (Source: Wikimedia)
 - Accessibility and inclusivity are important
 :::
 ::: {.column width="50%"}
-![](img/intro-to-hci_4_elderly.png){width=40%}
-![](img/intro-to-hci_5_makey-makey.png){width=40%}
+![Elderly folks with makey makeys](img/intro-to-hci_4_elderly.png){width=40%}
+
+![Makey makeys on a desk](img/intro-to-hci_5_makey-makey.png){width=40%}
 
 Images from the paper “Never Too Old: Engaging Retired People Inventing the Future with MaKey MaKey” [@rogers-never-old:2014]
 :::
