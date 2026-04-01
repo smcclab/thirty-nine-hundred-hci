@@ -33,7 +33,8 @@ def extract_image_references(markdown_file):
     references = set()
 
     # Markdown image syntax: ![alt](path)
-    references.update(re.findall(r'!\[.*?\]\(([^)]+)\)', content))
+    # Alt text may contain nested brackets e.g. ![[link](url)](img/file.png)
+    references.update(re.findall(r'!\[(?:[^\[\]]|\[.*?\])*\]\(([^)]+)\)', content))
 
     # HTML img tags: <img src="path">
     references.update(re.findall(r'<img[^>]+src=["\']([^"\']+)["\']', content))
