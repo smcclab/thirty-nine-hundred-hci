@@ -1,9 +1,8 @@
-// This is Charles' default dark reveal theme.
+// Default dark reveal theme for course presentations.
 @use 'sass:color';
 
 // fonts and typography
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.0/inter.min.css");
 
 /* SCSS HEX */
@@ -33,12 +32,26 @@ $pushColour: #d35400;
 $extensionColour: #9b59b6;
 
 @mixin lab-content-box ($colour){
-	color: $background-color;
+	border-left: 8px solid $colour;
+	background-color: color.adjust($colour, $alpha: -0.85);
+	padding: 0.4em 0.8em;
+	color: $text-color;
 
-	h2 {
+	// Bold text at the start of a paragraph acts as the box label
+	p:first-child > strong:first-child {
+		color: $colour;
+	}
+}
+
+@mixin section-box ($colour){
+	// Bold text at the start of a paragraph acts as the box label
+	p:first-child > strong:first-child {
+		display: block;
 		background-color: $colour;
-		padding-left: 1em;
-		border: none;
+		color: $text-color;
+		padding: 0.2em 0.4em;
+		margin-bottom: 0.3em;
+		font-size: 1.1em;
 	}
 }
 
@@ -68,18 +81,10 @@ $extensionColour: #9b59b6;
 		@include lab-content-box($extensionColour);
 	}
 	.activity {
-		h2 {
-			background-color: $activity-background;
-			padding: 0.2em 0.4em;
-			border: none;
-		}
+		@include section-box($activity-background);
 	}
 	.questions {
-		h2 {
-			background-color: $questions-background;
-			padding: 0.2em 0.4em;
-			border: none;
-		}
+		@include section-box($questions-background);
 	}
 }
 
@@ -214,7 +219,6 @@ $extensionColour: #9b59b6;
 		padding: 0.2rem;
 		border-radius: 0.2rem;
 		color: color.adjust($highlight-color, $lightness: -10%);
-		// background: linear-gradient(to right, color.adjust($highlight-color, $lightness: 42%), color.adjust($highlight-color, $lightness: 35%));
 	}
 	a > code:hover {
 		color: $background-color;
@@ -224,7 +228,6 @@ $extensionColour: #9b59b6;
 		color: $text-color;
 		border: none;
 		background: linear-gradient(to right, #282c34, color.adjust(#282c34, $lightness: 10%));
-		// padding: 1em;
 		line-height: 1.2;
 	}
 
@@ -264,7 +267,7 @@ $extensionColour: #9b59b6;
 		    position: fixed;
 		    top: 85vh;
 		    left: 0;
-        
+
 		    p {
 			      background-color: unset;
 			      margin: 0em;
@@ -304,7 +307,6 @@ $extensionColour: #9b59b6;
 
 		a {
 			text-decoration: none;
-			// font-size: 0.8rem;
 		}
 
 		// pretty pink highlighting on mouseover
@@ -324,5 +326,5 @@ $extensionColour: #9b59b6;
 
 // small table
 .small-table table {
-  font-size: .65em
+  font-size: .65em;
 }

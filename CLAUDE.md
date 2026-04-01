@@ -96,3 +96,13 @@ VS Code is configured (`.vscode/settings.json`) to run `make all` on every markd
 ## CI / Deployment
 
 GitHub Actions (`.github/workflows/deploy.yml`) runs `make public` on push to `main` using the `pandoc/latex:3.7.0.1` Docker image and deploys the `build/` directory to GitHub Pages at <https://smcclab.github.io/thirty-nine-hundred-hci/>. The `public` target excludes `resources/` (those are not published).
+
+## Upstream Template
+
+This repo is based on <https://github.com/smcclab/pandoc-course-template>. To sync updates from the template:
+
+1. Fetch files with `gh api repos/smcclab/pandoc-course-template/contents/<file> --jq '.content' | base64 -d`
+2. Apply structural/functional improvements (new variables, bug fixes, formatting)
+3. Preserve these local divergences:
+   - CSS is `css/charles_reveal_dark.scss` — keep this name throughout the Makefile (template uses `reveal_dark.scss`)
+   - `.vscode/settings.json` keeps `python-envs.*` and `cSpell.words` settings

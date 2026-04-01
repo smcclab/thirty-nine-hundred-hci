@@ -3,6 +3,16 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'lectures/**'
+      - 'assessments/**'
+      - 'workshops/**'
+      - 'resources/**'
+      - 'css/**'
+      - 'Makefile'
+      - '_config.toml'
+      - 'references.bib'
+      - 'apa.csl'
   pull_request:
     branches:
       - main
@@ -19,7 +29,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    
+
     container:
       image: pandoc/latex:3.9
       options: --user root
@@ -27,10 +37,20 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore build cache
+        uses: actions/cache@v4
+        with:
+          path: ./build
+          key: build-${{ github.sha }}
+          restore-keys: |
+            build-
 
       - name: Install Python and Dependencies
         run: |
-          apk add --no-cache python3 py3-pip py3-yaml make 
+          apk add --no-cache python3 py3-pip py3-yaml make
           tlmgr update --self
           tlmgr install libertine \
                   sourcecodepro \
@@ -44,6 +64,11 @@ jobs:
                   beamercolorthemeowl \
                   noto \
                   noto-emoji
+
+      - name: Restore source file timestamps
+        run: |
+          pip install git-restore-mtime
+          git restore-mtime
 
       - name: Install Dart Sass
         run: |
