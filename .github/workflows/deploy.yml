@@ -66,9 +66,7 @@ jobs:
                   noto-emoji
 
       - name: Restore source file timestamps
-        run: |
-          pip install git-restore-mtime
-          git restore-mtime
+        uses: chetan/git-restore-mtime-action@v2
 
       - name: Install Dart Sass
         run: |
