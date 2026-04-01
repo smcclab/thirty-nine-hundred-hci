@@ -67,7 +67,8 @@ jobs:
       
       - name: Install git-restore-mtime
         run: |
-          pip install git-restore-mtime --break-system-packages # If using Alpine 3.19+
+          wget -O /usr/local/bin/git-restore-mtime https://raw.githubusercontent.com/MestreLion/git-tools/main/git-restore-mtime
+          chmod +x /usr/local/bin/git-restore-mtime
 
       - name: Restore file mtimes
         run: git-restore-mtime
