@@ -71,7 +71,9 @@ jobs:
           chmod +x /usr/local/bin/git-restore-mtime
 
       - name: Restore file mtimes
-        run: git-restore-mtime
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git-restore-mtime
 
       - name: Install Dart Sass
         run: |
