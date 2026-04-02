@@ -56,7 +56,7 @@ All HCI research is interdisciplinary:
 - Social Science
 - Design
 
-## A brief history of HCI...
+## A brief history of HCI
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
@@ -75,12 +75,14 @@ Starting with **ergonomics & human factors**.
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
+
 - Computing in the 1950s-70s meant mainframes and batch processing—normal people didn't use computers!
 - 1968: Douglas Engelbart introduced prototype concepts for interactive computing as we know it:
   - Mouse
   - GUI
-  - Collaboration 
-- Called the “mother of all demos”: <https://youtu.be/yJDv-zdhzMY>
+  - Collaboration
+- Called the "mother of all demos": <https://youtu.be/yJDv-zdhzMY>
+
 :::
 ::: {.column width="50%"}
 ![Computer from MOAD](img/blog-hintz-eric-2018-12-10-chord-keyset-mouse.jpg){width=100%}
@@ -91,6 +93,7 @@ Starting with **ergonomics & human factors**.
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+
 - ~1980s: big interest in using  computers in workplaces and homes
 - Demand for computers to work for normal people (not just trained operators)
 - 1983: first annual ACM [SIGCHI](https://sigchi.org) Conference (Special Interest Group on Computer-Human Interaction)
@@ -119,6 +122,7 @@ Now:
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
+
 - Understanding how computers are used in society.
 - Working with people to understand how they use computers.
 - Designing new human-computer interfaces (applications).
@@ -129,7 +133,7 @@ Now:
 :::
 ::::::::::::::
 
-## HCI again in fewer words...
+## HCI again in fewer words
 
 _In short, this is what we will do in this course._
 
@@ -157,20 +161,20 @@ There are 10 tutorials in this course and one set of **marked** pre- and in-clas
 
 - Pre-class task: a weekly post on the course forum (100-200 words) which will be discussed and developed during class
   - see the weekly tutorial description for the task specification
-- In-class tasks: main content of the tutorials which includes 
-  - conceptualising and discussing HCI topics, 
-  - experimenting with prototyping and research methods, 
+- In-class tasks: main content of the tutorials which includes
+  - conceptualising and discussing HCI topics,
+  - experimenting with prototyping and research methods,
   - collaborating with other students,
   - **developing and evaluating interactive system designs**
 - **In-person assessment.** If you don't attend your tutorial you will not get a mark without an extension.
 
 ## Week 2 Tutorial: Making
 
-### Pre-class task: 
+### Pre-class task
 
 Choose a computer or digital technology that played an important role in your early life. It could be a device, an application, or a website. Upload an image of this technology on the forum. You can upload a photo, sketch, or an image found online (remember to provide a reference). Write a reflective post (100-200 words) about this technology (see prompts on canvas)
 
-### In-class tasks:
+### In-class tasks
 
 1. talk about an interactive technology that is meaningful to you
 2. think and talk about usability and user experience
@@ -180,7 +184,7 @@ Choose a computer or digital technology that played an important role in your ea
 
 - individual tasks, but require some collaboration
   - that is: you need to _study people_ in User Research and the Final Project, you will find people in your tutorial to study! (they will also find you!)
-- assignments will involve 
+- assignments will involve
   - _making_ (prototyping, sketching, coding, building, constructing, **designing**, soldering?)
   - _researching_ (reading, asking, analysing, measuring, discovering, finding, concluding)
   - _communicating_ (reflecting, discussing, referencing, writing, **presenting**)
@@ -219,11 +223,11 @@ This is about integrity: **respect** for your **sources** and your **classmates*
 
 ![Another familiar interface.](img/anuhub.png){width=60%}
 
-## A Week 1 favourite for ANU lecturers...
+## A Week 1 favourite for ANU lecturers
 
 ![Oh boy.](img/mytimetable.png){width=60%}
 
-## More interfaces...
+## More interfaces
 
 ![A technology Charles likes. Why?](img/charles-synthesiser.jpg){width=60%}
 
@@ -243,16 +247,16 @@ We'll chat for 3 minutes and then share a few with the room.
 
 Depends on the users, settings, contexts, and activities. Need to consider:
 
-- __people__ who are going to use our system
-- how they __think, work, play, interact__
-- __places and settings__ in which the system is used
-- __tasks or activities__ for which the system will be used
-- __interfaces and devices__ that people already use
-- people's __needs, values, and aspirations__
+- **people** who are going to use our system
+- how they **think, work, play, interact**
+- **places and settings** in which the system is used
+- **tasks or activities** for which the system will be used
+- **interfaces and devices** that people already use
+- people's **needs, values, and aspirations**
 
 <!-- ## What is interaction design?
 
-> “Designing interactive products to support the way people communicate and interact in their everyday and working lives” [@rogers-beyond-hci:2023, p.9] -->
+> "Designing interactive products to support the way people communicate and interact in their everyday and working lives" [@rogers-beyond-hci:2023, p.9] -->
 
 ## Usability Goals (Designing User Interfaces)
 
@@ -270,6 +274,7 @@ Some practical goals that can be tested:
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
+
 - Effective to use (effectiveness)
 - Efficient to use (efficiency)
 - Safe to use (safety)
@@ -288,9 +293,11 @@ This version from: [@rogers-beyond-hci:2023]
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
+
 - That it _works_, the task can be completed.
 - How well can the task be completed?
 - Think quality of the output.
+
 :::
 ::: {.column width="50%"}
 ![A desk phone. Image Source: Photo by [Dan Dennis](https://unsplash.com/@cameramandan83) on [Unsplash](https://unsplash.com/s/photos/landline)](img/01_01_usability_2.jpg){width=80%}
@@ -301,6 +308,7 @@ This version from: [@rogers-beyond-hci:2023]
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
+
 - The _way_ the product supports the task.
 - Support high productivity?
 - Use less energy?
@@ -314,6 +322,7 @@ This version from: [@rogers-beyond-hci:2023]
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
+
 - Protecting users from errors
 - Preventing undesirable outcomes
 - Recovering when mistakes are made (if not when!)
@@ -327,6 +336,7 @@ This version from: [@rogers-beyond-hci:2023]
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
+
 - The right kind of functionality for the user's needs.
 - Appropriate functions to carry out tasks
 - The tasks can be completed in the right way.
@@ -340,7 +350,7 @@ This version from: [@rogers-beyond-hci:2023]
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
- 
+
 - How easy is it to learn the system?
 - Is it _intuitive_?
 - Does it take time/training?
@@ -373,7 +383,7 @@ This version from: [@rogers-beyond-hci:2023]
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
-> “It is not enough that we build products that function, that are understandable and usable, we also need to build joy and excitement, pleasure and fun, and yes, beauty into people's lives" [@Norman:2013]
+> "It is not enough that we build products that function, that are understandable and usable, we also need to build joy and excitement, pleasure and fun, and yes, beauty into people's lives" [@Norman:2013]
 
 How can we test for joy? Is this compatible with the usability goals?
 :::
@@ -388,7 +398,7 @@ How can we test for joy? Is this compatible with the usability goals?
 
 ## User experience
 
-> “How people feel about a product and their pleasure and satisfaction when using it, looking at it, holding it, and opening and closing it” [@rogers-beyond-hci:2023, p.13]
+> "How people feel about a product and their pleasure and satisfaction when using it, looking at it, holding it, and opening and closing it" [@rogers-beyond-hci:2023, p.13]
 
 **Desirable aspects:** Satisfying, Helpful, Fun, Enjoyable, Motivating, Provocative, Engaging, Challenging, Surprising, Pleasurable, Enhances Socialibility, Rewarding, Exciting, Supporting creativity, Emotionally fulfilling, Cognitively stimulating, Experiencing flow.
 
@@ -464,7 +474,7 @@ Processes
 :::
 ::::::::::::::
 
-## Poll Time!
+## Poll Time
 
 > Is the marble answering machine a good design?
 
@@ -486,6 +496,7 @@ What can we do to ensure good usability **and** good user experience?
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
+
 - Visibility
 - Feedback
 - Constraints
@@ -509,18 +520,20 @@ Which mapping is _natural_? (Source: Wikimedia)
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
+
 - Users are not all the same
 - Different ages, cultures, backgrounds, abilities, interests
 - Various research methods available for understanding users and their contexts
 - Don't assume; research and find out.
-- Accessibility and inclusivity are important
+- Accessibility and inclusion are important
+
 :::
 ::: {.column width="50%"}
 ![Elderly folks with makey makeys](img/intro-to-hci_4_elderly.png){width=40%}
 
 ![Makey makeys on a desk](img/intro-to-hci_5_makey-makey.png){width=40%}
 
-Images from the paper “Never Too Old: Engaging Retired People Inventing the Future with MaKey MaKey” [@rogers-never-old:2014]
+Images from the paper "Never Too Old: Engaging Retired People Inventing the Future with MaKey MaKey" [@rogers-never-old:2014]
 :::
 ::::::::::::::
 
@@ -528,6 +541,7 @@ Images from the paper “Never Too Old: Engaging Retired People Inventing the Fu
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+
 - **Model:** a simplified description of a system or process
 - **Conceptual model:** high-level description of how a system is organized and operates
 - Includes:
@@ -535,6 +549,7 @@ Images from the paper “Never Too Old: Engaging Retired People Inventing the Fu
   - Concepts and their relationships
   - Mappings
 - These elements inform the interaction design and user experiences
+
 :::
 ::: {.column width="40%"}
 ![[Understanding conceptual models](https://uxdesign.cc/understanding-mental-and-conceptual-models-in-product-design-7d69de3cae26)](img/01_02_conceptualising_interaction_1.png)
@@ -550,7 +565,7 @@ Images from the paper “Never Too Old: Engaging Retired People Inventing the Fu
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
-Exploit similarities to user's knowledge of other domains. E.g., 
+Exploit similarities to user's knowledge of other domains. E.g.,
 
 - **Cards:**  Familiar, strong associations (playing, business, credit), flick through, sort, themed, structured
 - **Desktop** and **Recycle bin**
@@ -573,6 +588,7 @@ Five types of interaction models:
 - Manipulating
 - Exploring
 - Responding
+
 :::
 ::: {.column width="60%"}
 ![Image source: [Uriel Soberanes](https://unsplash.com/@soberanes)](img/01_02_conceptualising_interaction_7.jpg){width=30%}
@@ -581,8 +597,21 @@ Five types of interaction models:
 :::
 ::::::::::::::
 
-## Questions
+## Questions: Who has a question?
 
-Who has a question?
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+**Who has a question?**
+
+- I can take _cathchbox_ question up until end of the lecture
+- For after class questions: meet me outside the classroom at the bar (for 30 minutes)
+- Feel free to ask about **any aspect of the course**
+- Also feel free to ask about **any aspect of computing at ANU**! I may not be able to help, but I can listen.
+
+:::
+::: {.column width="40%"}
+![Meet you _at the bar_ for questions. 🍸🥤🫖☕️ Unfortunately no drinks served! 🙃](img/kambri-bar.jpg)
+:::
+::::::::::::::
 
 # References {.allowframebreaks}
