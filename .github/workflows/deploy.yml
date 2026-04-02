@@ -70,6 +70,14 @@ jobs:
           wget -O /usr/local/bin/git-restore-mtime https://raw.githubusercontent.com/MestreLion/git-tools/main/git-restore-mtime
           chmod +x /usr/local/bin/git-restore-mtime
 
+      - name: Debug workspace
+        run: |
+          echo "pwd: $(pwd)"
+          echo "GITHUB_WORKSPACE=$GITHUB_WORKSPACE"
+          echo "id: $(id)"
+          ls -la "$GITHUB_WORKSPACE" | head -10
+          ls -la "$GITHUB_WORKSPACE/.git" | head -5 || echo "NO .git FOUND"
+
       - name: Restore file mtimes
         env:
           GIT_CONFIG_GLOBAL: /tmp/gitconfig-override
