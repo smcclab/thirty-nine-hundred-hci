@@ -40,6 +40,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install bash and git
+        run: apk add --no-cache bash git
+
       - name: Restore build cache
         uses: actions/cache@v4
         with:
