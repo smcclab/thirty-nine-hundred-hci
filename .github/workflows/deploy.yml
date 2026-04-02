@@ -71,10 +71,10 @@ jobs:
           chmod +x /usr/local/bin/git-restore-mtime
 
       - name: Restore file mtimes
-        working-directory: /tmp
+        env:
+          GIT_CONFIG_GLOBAL: /tmp/gitconfig-override
         run: |
-          git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          cd "$GITHUB_WORKSPACE"
+          printf '[safe]\n\tdirectory = *\n' > /tmp/gitconfig-override
           git-restore-mtime
 
       - name: Install Dart Sass
