@@ -48,9 +48,12 @@ jobs:
           restore-keys: |
             build-
 
+      - name: Restore file modification times
+        uses: chetan/git-restore-mtime-action@v2
+
       - name: Install Python and Dependencies
         run: |
-          apk add --no-cache git python3 py3-pip py3-yaml make
+          apk add --no-cache python3 py3-pip py3-yaml make
           tlmgr update --self
           tlmgr install libertine \
                   sourcecodepro \
@@ -64,26 +67,6 @@ jobs:
                   beamercolorthemeowl \
                   noto \
                   noto-emoji
-      
-      - name: Install git-restore-mtime
-        run: |
-          wget -O /usr/local/bin/git-restore-mtime https://raw.githubusercontent.com/MestreLion/git-tools/main/git-restore-mtime
-          chmod +x /usr/local/bin/git-restore-mtime
-
-      - name: Debug workspace
-        run: |
-          echo "pwd: $(pwd)"
-          echo "GITHUB_WORKSPACE=$GITHUB_WORKSPACE"
-          echo "id: $(id)"
-          ls -la "$GITHUB_WORKSPACE" | head -10
-          ls -la "$GITHUB_WORKSPACE/.git" | head -5 || echo "NO .git FOUND"
-
-      - name: Restore file mtimes
-        env:
-          GIT_CONFIG_GLOBAL: /tmp/gitconfig-override
-        run: |
-          printf '[safe]\n\tdirectory = *\n' > /tmp/gitconfig-override
-          git-restore-mtime
 
       - name: Install Dart Sass
         run: |
