@@ -25,6 +25,7 @@ title-slide-attributes:
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+
 - a few notes wrapping up the course
 - human-centred AI --- research and design challenge for the future [@shneiderman-human-centered-ai:2022]
   - basically covering the content of this book, available for free via library and online.
@@ -39,6 +40,7 @@ title-slide-attributes:
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+
 - Max of 330 students (down to ~295) --- **biggest ever HCI class at ANU**.
 - Git Commits: >370
 - Slides: 565 slides, 38185 words, 386 images
@@ -71,15 +73,15 @@ Takeaway: we wrote the equiv of a PhD thesis (~50K words) this semester---yikes!
 
 ## Why is this important?
 
-- AI is the transformational technology of our time _(Charles, 2025)_
-- Applying AI well is a _massive_ HCI challenge, probably bigger than any before
+- AI is the transformational technology of our time *(Charles, 2025)*
+- Applying AI well is a *massive* HCI challenge, probably bigger than any before
 - We don't have good enough frameworks to understand HCAI
 
 Evidence:
 
 - lots of AI papers involving humans wrongly sent to CHI conference, frustrating reviewers
 - AI collaboration technology currently at the level of CLI (chatGPT) or confusing magical tools (agentic coding, e.g., copilot in VSCode)
-- _So many_ research questions in this area.
+- *So many* research questions in this area.
 - news preoccupation with risks of AI taking over, not capacity of actual products
 
 ## How is HCAI different to AI?
@@ -87,13 +89,13 @@ Evidence:
 @shneiderman-human-centered-ai:2022 points to two differences between AI and HCAI:
 
 1. **process:** HCAI builds on user experience design methods (e.g., data gathering, stakeholder engagements, etc.) in use of systems that employ AI and ML
-2. **product:** HCAI systems supposed to be _supertools_ that amplify, augment, empower and enhance human performance
+2. **product:** HCAI systems supposed to be *supertools* that amplify, augment, empower and enhance human performance
 
 Critical points here:
 
 - Research methods for AI/ML, primarily statistical/logical modelling, very quant, much different than design methods.
-- HCAI _supertools_ emphasise human control and the enhancement of the human's capability and experience, not the AI/ML algorithms capability.
-- Examples of _supertools_: digital cameras, navigation systems
+- HCAI *supertools* emphasise human control and the enhancement of the human's capability and experience, not the AI/ML algorithms capability.
+- Examples of *supertools*: digital cameras, navigation systems
 
 ## White Robot vs Supertool
 
@@ -125,7 +127,7 @@ These tropes mirror people, not computer systems. White robots are naive but nob
 Three big ideas:
 
 - HCAI framework: guide human-centric thinking for creative design
-- design metaphors: practical ideas for designing HCAI systems _(not white robots)_
+- design metaphors: practical ideas for designing HCAI systems *(not white robots)*
 - governance structures: practice steps to realise ethical principles
 
 Support:
@@ -152,10 +154,10 @@ Support:
   - people are good at emotions, and sensitive to them.
   - people can be disturbed by emotional simulations in robots
 
-Rather than anthropomorphic systems: argues for Creativity Support Tools (CSTs) (see _Expressive Interaction_), direct manipulation interfaces (see _Interfaces_)
+Rather than anthropomorphic systems: argues for Creativity Support Tools (CSTs) (see *Expressive Interaction*), direct manipulation interfaces (see *Interfaces*)
 :::
 ::: {.column width="40%"}
-![The _wheel_ of emotions.](img/hcai-wheel-of-emotions.png)
+![The *wheel* of emotions.](img/hcai-wheel-of-emotions.png)
 :::
 ::::::::::::::
 
@@ -189,7 +191,7 @@ What if both computer and human can have autonomy?
 :::: {.small-table}
 
 | level | the computer... |
-|---|---|
+| --- | --- |
 | 10 | (High) decides everything and acts autonomously, ignoring the human |
 | 9 | informs the human only if the computer decides to |
 | 8 | informs the human only if asked |
@@ -226,12 +228,12 @@ Examples:
 ::: {.column width="60%"}
 
 - **reliable:** produce expected responses when needed
-  - comes from good _engineering_, verification, validation
+  - comes from good *engineering*, verification, validation
   - technical audit trails when things go wrong
 - **safe:** social/cultural commitment
   - reporting failures and near misses
   - review of problems and solutions
-- **trustworthy:** what _people_ want from a system
+- **trustworthy:** what *people* want from a system
   - independent oversight (certification, regulation, insurance)
   - (communication and understandable context)
 
@@ -260,7 +262,7 @@ Examples:
 
 ## Eight Design Guidelines for HCAI
 
-Shneiderman, famous for the _Eight Golden Rules for Design_ proposes a new set!
+Shneiderman, famous for the *Eight Golden Rules for Design* proposes a new set!
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
@@ -273,10 +275,10 @@ Shneiderman, famous for the _Eight Golden Rules for Design_ proposes a new set!
 :::
 ::: {.column width="50%"}
 
-5. People thrive on human-to-human communication
-6. Be cautious when outcomes are consequential
-7. Prevent adversarial attacks
-8. Incident reporting websites accelerate refinement
+1. People thrive on human-to-human communication
+2. Be cautious when outcomes are consequential
+3. Prevent adversarial attacks
+4. Incident reporting websites accelerate refinement
 
 :::
 ::::::::::::::
@@ -284,15 +286,15 @@ Shneiderman, famous for the _Eight Golden Rules for Design_ proposes a new set!
 ## Processes
 
 - **Overview first, zoom and filter, then details-on-demand:**
-  - give users agency over information abstraction, make sure the details are available! 
+  - give users agency over information abstraction, make sure the details are available!
   - Relates to visualisation in particular, but many other kinds of information.
 
 - **Preview first, select and initiate, then manage execution:**
   - for automated processes, users should have a preview of all steps, ways to select a plan, and to manage the execution. - works for navigation, parking, cameras (how about MS Copilot?)
 
 - **Steer by way of interactive control panels:**
-  - give users ways to steer processes. "control panels" can be joysticks, sliders, gestural controls. 
-  - this may be a good place for _expressive interaction_ knowledge to help map simple controls to complex outcomes.
+  - give users ways to steer processes. "control panels" can be joysticks, sliders, gestural controls.
+  - this may be a good place for *expressive interaction* knowledge to help map simple controls to complex outcomes.
   - evisages AR/VR as good way to assist here.
 
 ## History, Sharing, and Hazards
@@ -326,7 +328,7 @@ Metaphors useful for clarifying design ideas.
 
 - Steve Jobs famously called computers "bicycles for the mind"
 - @shneiderman-human-centered-ai:2022 looks for metaphors to dig further into the two dimensions of the HCAI framework
-- starting point are _science_ and _innovation_
+- starting point are *science* and *innovation*
   - **science:** understand principles that make intelligent behaviour possible in a computer
   - **innovation:** create computers that amplify human abilities
 
@@ -342,12 +344,12 @@ Metaphors useful for clarifying design ideas.
 ::: {.column width="60%"}
 Science and innovation goals can come into conflict. Significant amounts of design sometimes needed to turn a scientific output into a product.
 
-**Autonomous social robots**
+### Autonomous social robots
 
 - Science goals: a general purpose robot elders, parcel delivery, etc.
 - Innovation goals: tune solution for each context of use.
 
-**Online meeting services**
+### Online meeting services
 
 - Science: devices / software support collaboration.
 - Innovation: Microsoft Teams, Zoom, Google meet.
@@ -441,7 +443,7 @@ Teammate approach has many challenges [@klien2004ten]:
 - problems can include: reduction in human attention and awareness
 - ironically, workload can **increase**, more vigilance is required
 
-**Assured Autonomy**
+### Assured Autonomy
 
 - "assured" with HCAI, formal methods for proving correctness, testing and certification
 - so far, a human operator is still ultimately responsible
@@ -458,6 +460,7 @@ Teammate approach has many challenges [@klien2004ten]:
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+
 - Control panels and remote control centers.
 - Visual monitoring, audit trails, and feedback.
 - Retrospective analysis of failure data.
@@ -532,10 +535,10 @@ Good example of a successful household robot: **washing machine.**
 :::
 ::::::::::::::
 
-## Traditional AI vs. Human-Centered 
+## Traditional AI vs. Human-Centered
 
 | **Traditional AI** | **Human-Centered AI (HCAI)** |
-|--------------------|------------------------------|
+| ------------------ | ---------------------------- |
 | Build AI algorithms and systems, stressing the autonomy of machines | Emphasises human autonomy through well-designed user interfaces |
 | Research human behaviour study and emulation | Build on AI foundations to amplify, augment, and enhance human performance |
 | Benchmarks on algorithm performance | Elevates human performance and satisfaction |
@@ -543,7 +546,7 @@ Good example of a successful household robot: **washing machine.**
 | Success defined by technical functionality | Success defined by how well systems support human goals, activities, and values |
 | Priority on machine intelligence and control | Ensures meaningful human control and values customer and consumer needs |
 
-## Takeaways from Human-Centred AI 
+## Takeaways from Human-Centred AI
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -565,7 +568,6 @@ so go do that!
 :::
 ::::::::::::::
 
-
 # Course Wrap-up and Revision
 
 What was this course about again?
@@ -585,8 +587,8 @@ What was this course about again?
 
 ## stakeholders and perspectives
 
-|  | designer | programmer | business manager | researcher |
-|---|---|---|---|---|
+| | designer | programmer | business manager | researcher |
+| --- | --- | --- | --- | --- |
 | **concepts and knowledge** | "what concepts are the basis for my decisions?" | "which parts of software are exposed to user?" | "what heuristics will ensure success?" | "can established knowledge be challenged?" |
 | **designing interactions** | "what processes should I follow?" | "how will requirements be established?" | "how can I iterate or pivot to success?" | "how can I find solutions to my research problem?" |
 | **evaluating interactions** | "how do I know the user's needs?" | "how can I test user success and experience?" | "what signals tell me if users will buy?" | "how to balance detailed and valid knowledge?" |
@@ -628,10 +630,10 @@ This version from: [@rogers-beyond-hci:2023]
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
 
-1. _Discover_: understand the problem and the people affected
-2. _Define_: define the problem clearly so that it can be addressed
-3. _Develop_: create ideas, prototypes, sketches, etc, that might address the problem
-4. _Deliver_: test potential solutions to find promising directions, and iterate
+1. *Discover*: understand the problem and the people affected
+2. *Define*: define the problem clearly so that it can be addressed
+3. *Develop*: create ideas, prototypes, sketches, etc, that might address the problem
+4. *Deliver*: test potential solutions to find promising directions, and iterate
 
 :::
 ::: {.column width="60%"}
@@ -666,13 +668,14 @@ This version from: [@rogers-beyond-hci:2023]
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- _"primitive form"_
+
+- *"primitive form"*
 - the form that comes before... something.
-- in this context: 
-  - a _testable_ form
-  - a form we can _experience_
+- in this context:
+  - a *testable* form
+  - a form we can *experience*
 - enables evaluation and iteration
-- _primitive_: should be somehow rough or limited
+- *primitive*: should be somehow rough or limited
 :::
 ::: {.column width="40%"}
 ![A prototype AI musical instrument.](img/impsy-micro.jpg)
@@ -751,8 +754,8 @@ Your themes become the findings of your qualitative analysis.
 ::: {.column width="60%"}
 There are different types of themes, and a common distinction:
 
-- Themes that categorise groups of codes: bucket themes, semantic themes, _thin_ themes
-- Themes that interpret the codes, revealing hidden information: latent themes, _thick_ themes
+- Themes that categorise groups of codes: bucket themes, semantic themes, *thin* themes
+- Themes that interpret the codes, revealing hidden information: latent themes, *thick* themes
 
 Charles (2025; i.e., these slides!) suggests that **4** is a key heuristic for assessing theme thickness. (Disclaimer: may be revised in future!)
 
@@ -760,17 +763,17 @@ Charles (2025; i.e., these slides!) suggests that **4** is a key heuristic for a
 ::: {.column width="40%"}
 Number of words heuristic:
 
-> If your theme is <4 words, it _might_ be a bit thin.
+> If your theme is <4 words, it *might* be a bit thin.
 
 Number of themes heuristic:
 
-> If you are proposing >4 themes, they _might_ be a bit thin.
+> If you are proposing >4 themes, they *might* be a bit thin.
 
 Source: Charles, 2025. 😬
 :::
 ::::::::::::::
 
-## 45 years of interface types!
+## 45 years of interface types
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
@@ -894,6 +897,7 @@ Factorial ANOVA:
 model = ols('dep ~ C(ind_1) + C(ind_2) + C(ind_1):C(ind_2)', data=df).fit()
 anova_table = sm.stats.anova_lm(model, typ=2)
 ```
+
 :::
 ::::::::::::::
 
@@ -921,13 +925,13 @@ The interaction itself is expressive, and the output is an expression as well. W
 1. **problem finding:** computers are ubiquitous and everybody[^everybody_hci] seems to get along with them ok, so where are the problems? Where can we make impact to help people?
 2. **design processes:** need them to lead to new contributions, not clones of existing designs. If you are making something new, how do you know what the requirements are? At any scale, design and prototyping is expensive.
 3. **evaluation:** working with people is time-consuming and uncertain. Data analysis can easily take months for a research paper.
-4. **communication:** after doing _all this work_ (see above), there can be a lot of explain in a paper! Clear communication is a huge challenge. Reviewers love to poke holes in any and all aspect of a design and evaluation process.
+4. **communication:** after doing *all this work* (see above), there can be a lot of explain in a paper! Clear communication is a huge challenge. Reviewers love to poke holes in any and all aspect of a design and evaluation process.
 
 Conclusion: HCI research is kinda hard!
 
 [^everybody_hci]: everybody to some value of people we know about
 
-## So long, and thanks for the all the fish!
+## So long, and thanks for the all the fish
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -938,7 +942,7 @@ Thanks for coming on this journey with me!
 Good luck with your final projects and your other assessments this semester!
 :::
 ::: {.column width="40%"}
-![Meet you _at the bar_ for questions. 🍸🥤🫖☕️ Unfortunately no drinks served! 🙃](img/kambri-bar.jpg)
+![Meet you *at the bar* for questions. 🍸🥤🫖☕️ Unfortunately no drinks served! 🙃](img/kambri-bar.jpg)
 :::
 ::::::::::::::
 
