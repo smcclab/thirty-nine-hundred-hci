@@ -4,6 +4,7 @@ on:
     branches:
       - main
     paths:
+      - '.github/workflows/*'
       - 'lectures/**'
       - 'assessments/**'
       - 'workshops/**'
@@ -34,14 +35,15 @@ jobs:
       image: pandoc/latex:3.9
       options: --user root
 
+      
     steps:
+      - name: Install bash, git, and python3
+        run: apk add --no-cache bash git python3
+
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Install bash, git, and python3
-        run: apk add --no-cache bash git python3
 
       - name: Restore build cache
         uses: actions/cache@v4
