@@ -3,11 +3,6 @@ title: "AI Needs Finding"
 author: Dr Charles Martin
 ---
 
-<!-- DRAFT: Alternative to assessments/02-user-research.md. Reframes the research challenge
-around needs finding (LO3) rather than usability evaluation (LO4), while preserving the
-requirement for both quantitative and qualitative data collection and analysis (lectures 4-6).
-Theme: student use of AI, with TEQSA as the commissioning body. -->
-
 ![Understanding how your classmates really use AI. (Photo by UX Indonesia on Unsplash)](img/ux-indonesia-5QiGvmyJTsc-unsplash.jpg)
 
 ## Outline {#outline}
