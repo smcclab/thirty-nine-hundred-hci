@@ -47,7 +47,7 @@ Your submission must:
 - include a clear summary of the overall conclusions derived from your data and analysis, expressed as **a set of user needs**
 - include data from 3--5 participants: **all participants must be students in COMP3900/6390! (list them in the acknowledgements section)**
 - include results based on quantitative and qualitative data and analysis techniques
-- include at least two references to external sources in ACM format
+- include at least five references to external sources in ACM format
 - be written in markdown format with correct syntax and formatting
 - be a maximum of **1800 words + 10% acceptable buffer (i.e., no more than 1980 words)**
 - must be uploaded to _your fork_ of the [`comp3900-2025-user-research`](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-user-research) repository on Gitlab by the due date
@@ -60,7 +60,7 @@ Your submission must:
 2. Follow appropriate data gathering and analysis processes to address the research challenge.
 3. Upload research data and analysis scripts as well as other relevant materials in _your fork_ of the template repository.
 4. Write your study documentation following the template in the repository.
-5. Don't forget to include at least two references to external sources in ACM format in your documentation.
+5. Don't forget to include at least five references to external sources in ACM format in your documentation.
 
 ## Notes {#notes}
 

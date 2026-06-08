@@ -49,7 +49,7 @@ You will also include a written version of your presentation with the same headi
   - presentation video must be no larger than 1920x1080 pixels in resolution
   - must be a maximum of 5 minutes (300 seconds) + 10% acceptable buffer (i.e., no more than 330 seconds).
 - include documentation in `project-documentation.md` which follows the provided headings (**N.B.:** this text may be a transcript of your spoken presentation with references and images, it may also be a slightly different text.)
-  - include at least two references to external sources in ACM format
+  - include at least five references to external sources in ACM format
   - be written in markdown format meeting our standards
   - be a maximum of 1800 words + 10% acceptable buffer (i.e., no more than 1980 words)
 - must be uploaded to _your fork_ of the [`comp3900-2025-research-project`](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-research-project) repository on Gitlab by the due date
@@ -77,7 +77,7 @@ Submissions that do not clearly meet these requirements may be aligned with the 
 3. Write your project documentation following the template in _your fork_ of the template repository.
 4. Upload data and project documentation as well as other relevant materials in _your fork_ of the template repository.
 5. record and upload your video as `project-presentation.mp4`
-6. Don't forget to include at least two references to external sources in ACM format in your documentation.
+6. Don't forget to include at least five references to external sources in ACM format in your documentation.
 
 ## Notes {#notes}
 
