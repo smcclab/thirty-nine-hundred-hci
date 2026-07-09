@@ -259,3 +259,24 @@ $(ALL_ASSESSMENTS_MD): $(ASSESSMENTS_MDS)
 
 $(ALL_WORKSHOPS_MD): $(WORKSHOPS_MDS)
 	cat $^ > $@
+
+# =============================================================================
+# Canvas — push built PDFs to the ANU Canvas course (canvas/ tooling)
+# =============================================================================
+# Requires a Canvas API token (CANVAS_TOKEN env var or ~/.config/canvas/anu-token).
+# See canvas/README.md. Uploads use on_duplicate=overwrite so existing Home-page
+# links keep pointing at the refreshed slides.
+
+.PHONY: canvas-lectures canvas-lectures-dry canvas-inspect
+
+# Preview what would be pushed (reads Canvas, uploads nothing):
+canvas-lectures-dry:
+	python3 canvas/push_lectures.py --dry-run
+
+# Build the lecture PDFs, then push them to Canvas:
+canvas-lectures: beamer
+	python3 canvas/push_lectures.py
+
+# Read-only dump of the current Canvas course structure:
+canvas-inspect:
+	python3 canvas/inspect_course.py
