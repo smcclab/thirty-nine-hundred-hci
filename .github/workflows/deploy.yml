@@ -19,26 +19,22 @@ on:
       - main
   workflow_dispatch:
 
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
     container:
-      image: pandoc/latex:3.9
+      image: pandoc/latex:3.10.0.0-alpine
       options: --user root
 
-      
     steps:
-      - name: Install bash, git, and python3
-        run: apk add --no-cache bash git python3
+      - name: Install Alpine Dependencies
+        run: apk add --no-cache bash git python3 py3-pip py3-yaml make
 
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -52,16 +48,21 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ./build
-          key: build-${{ github.sha }}
+          key: build-v1-${{ hashFiles('Makefile', '_config.toml', 'references.bib', 'apa.csl') }}-${{ github.sha }}
           restore-keys: |
-            build-
+            build-v1-${{ hashFiles('Makefile', '_config.toml', 'references.bib', 'apa.csl') }}-
 
       - name: Restore file modification times
         uses: chetan/git-restore-mtime-action@v2
 
-      - name: Install Python and Dependencies
+      - name: Install Latex Dependencies
         run: |
-          apk add --no-cache python3 py3-pip py3-yaml make
+          # This image ships TeX Live 2026, matching the current live CTAN
+          # release. tlmgr still refuses to install until its own revision
+          # matches the (moving) live tlnet repo, so self-update first — this
+          # is allowed now that image and repo are the same release year.
+          # If the live CTAN later rolls over to 2027, bump the image tag to a
+          # pandoc/latex build carrying that year's TeX Live to keep them aligned.
           tlmgr update --self
           tlmgr install libertine \
                   sourcecodepro \
@@ -78,7 +79,7 @@ jobs:
 
       - name: Install Dart Sass
         run: |
-          wget -O dart-sass.tar.gz https://github.com/sass/dart-sass/releases/download/1.89.2/dart-sass-1.89.2-linux-x64-musl.tar.gz
+          wget -O dart-sass.tar.gz https://github.com/sass/dart-sass/releases/download/1.101.0/dart-sass-1.101.0-linux-x64-musl.tar.gz
           tar -xzf dart-sass.tar.gz -C /usr/local/
           echo "/usr/local/dart-sass" >> $GITHUB_PATH
           rm dart-sass.tar.gz
@@ -96,6 +97,17 @@ jobs:
         with:
           path: './build'
 
+  deploy:
+    # Build validates every push and pull request; only main actually deploys.
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
