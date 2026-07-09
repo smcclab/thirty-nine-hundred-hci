@@ -7,11 +7,11 @@ author: Dr Charles Martin
 
 ## Outline {#outline}
 
-- **Due date**: 2025-10-27 23:59 AEST
+- **Due date**: 2026-11-05 23:59 AEDT
 - **Mark weighting**: 40%
 - **Submission**: submit your assignment according to the [instructions below](#submission-process)
 - **Policies**: Late submission is not permitted for this assessment. This is an individual assessment task.
-- **Gitlab Template Repository**: <https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-research-project>
+- **Gitlab Template Repository**: <https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-research-project>
 
 ## Description {#description}
 
@@ -52,7 +52,7 @@ You will also include a written version of your presentation with the same headi
   - include at least five references to external sources in ACM format
   - be written in markdown format meeting our standards
   - be a maximum of 1800 words + 10% acceptable buffer (i.e., no more than 1980 words)
-- must be uploaded to _your fork_ of the [`comp3900-2025-research-project`](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-research-project) repository on Gitlab by the due date
+- must be uploaded to _your fork_ of the [`comp3900-2026-research-project`](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-research-project) repository on Gitlab by the due date
 
 ### Presentation Video Format and Style
 

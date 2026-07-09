@@ -10,7 +10,7 @@ title-slide-attributes:
 
 assignment 2 published [on Canvas](https://canvas.anu.edu.au/courses/2781/assignments/11550):
 
-> Your challenge is choose **one existing AI-integrated interactive computer system or interface** and run a user research study with 3--5 participants. You will answer the research question: "How do users' mental model of the AI system align with the behaviour of the system and what usability issues arise from any misalignments?"
+> Your challenge is to run a small **needs finding study** with 3--5 participants focused on your classmates' use of AI tools. You will answer the research question: "What are the unmet needs, frustrations, and desired capabilities that students experience when using AI tools in a specific context of their life?"
 
 - collect and analyse data and present research findings
 - apply quantitative and qualitative data analysis

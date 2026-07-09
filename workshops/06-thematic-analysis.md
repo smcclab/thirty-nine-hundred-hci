@@ -18,7 +18,7 @@ You must complete these tasks before the start of your tutorial.
 3. Find _your_ pre-class forum posts from the Week 1 and 2 tutorials and copy the text into a new file. Recall that these tasks were about technology in your early life and observing someone else's use of technology.
 4. _Code_ the data according to the [instructions in the week 6 lecture](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/06-reflexive-thematic-analysis.html#/phase-2-code-the-data). You should add your code(s) in square brackets at the end of each sentence of part of the text.
 5. Post your coded text on the course forum including a list of the codes you used at the end.
-6. Make sure you have read and understood [Assignment 2](https://canvas.anu.edu.au/courses/2781/assignments/11550), choose 3 possible AI-integrated interfaces that you might like to study. 
+6. Make sure you have read and understood [Assignment 2](https://canvas.anu.edu.au/courses/2781/assignments/11550), choose 3 possible AI use contexts that you might like to investigate. 
 
 ## Plan for the Class
 
@@ -71,13 +71,13 @@ For assignment 2 and the final project you will have to research other students 
 - The other 3--4 students in your group will participate in your mini user study.
 - You will participate in the other 3--4 students' mini user studies.
 
-You will have time in the week 7 and 8 tutorials to coordinate with your group. This week your main job is to meet your group and discuss what interfaces you will study for the assignment.
+You will have time in the week 7 and 8 tutorials to coordinate with your group. This week your main job is to meet your group and discuss what AI use contexts you will investigate for the assignment.
 
 What to do:
 
 1. **Meet everybody in your group.** Write down their names, ANU email address and other contact details if you prefer. Keep in mind that everybody has access to ANU email and the Ed Discussions forum but some folks might not be available for messages on particular social media platforms due to their personal preferences, language, or background.
-2. **Discuss the assignment specification** and the 3 possible AI-integrated interfaces you identified in pre-class work. Does everybody have the same understanding of the assignment? If you are unclear on what is required, ask your tutor or write a post on the forum.
-3. **Choose your AI-integrated interface.** Everybody in the group would choose a different interface to study so that doing all the mini studies isn't too boring. Check if will be practical to study other's use of this interface, i.e., are there obvious limitations that would prevent someone from using it or understanding how to use it?
+2. **Discuss the assignment specification** and the 3 possible AI use contexts you identified in pre-class work. Does everybody have the same understanding of the assignment? If you are unclear on what is required, ask your tutor or write a post on the forum.
+3. **Choose your AI use context.** Everybody in the group would choose a different context to investigate so that doing all the mini studies isn't too boring. Check if it will be practical to study others' experiences in this context, i.e., are there obvious limitations that would prevent someone from having used AI tools in this way or being able to talk about it?
 
 Rules:
 

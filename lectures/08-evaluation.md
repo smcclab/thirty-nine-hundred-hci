@@ -8,10 +8,10 @@ title-slide-attributes:
  
 ## Announcements
 
-- assignment 2 due next Monday
+- assignment 2 due next Tuesday (6 October --- Monday is a public holiday)
 - remember to use your tutorial time for meeting research clusters and collecting data.
 - remember to follow the step-by-step guide.
-- go fork [the repo!](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-user-research)
+- go fork [the repo!](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-user-research)
 
 **Markdown Formatting Check:** There is a CI/CD job that checks your markdown formatting using the [`markdownlint-cli`](https://github.com/igorshubovych/markdownlint-cli) tool. Syntax rules are listed [here](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md) in our script, rules `MD013` and `MD041` are disabled. All other rules are active.
 

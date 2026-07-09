@@ -7,11 +7,11 @@ author: Dr Charles Martin
 
 ## Outline {#outline}
 
-- **Due date**: 2025-08-18 23:59 AEST
+- **Due date**: 2026-08-24 23:59 AEST
 - **Mark weighting**: 20%
 - **Submission**: submit your assignment according to the [instructions below](#submission-process)
 - **Policies**: Late submission is not permitted for this assessment. This is an individual assessment task.
-- **Gitlab Template Repository**: [`comp3900-2025-prototyping` repo (link)](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-prototyping)
+- **Gitlab Template Repository**: [`comp3900-2026-prototyping` repo (link)](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-prototyping)
 
 ## Description {#description}
 
@@ -20,7 +20,7 @@ Your prototype must engage with an interaction design challenge and consider mul
 
 The interaction design challenge is as follows:
 
-> **Animal-Computer Interaction:**[^aci] On 1st June 2025, a burst of precisely tuned neutrinos struck the earth dramatically increasing the intelligence of all non-human animal life. Mammals, birds, fish, reptiles, amphibians and even insects now have near- or above- human intelligence[^int]. After weeks of diplomatic negotiation (and worldwide adoption of vegan diets) animals now seek to participate in pan-species society on earth. The only problem is that _they can't use any of our computer systems!_ Your challenge is choose an interactive computer system (software and hardware) to accomplish **one everyday task**, and produce a **prototype design** that is accessible to **one kind of non-human animal** as well as a human.
+> **Animal-Computer Interaction:**[^aci] On 1st June 2026, a burst of precisely tuned neutrinos struck the earth dramatically increasing the intelligence of all non-human animal life. Mammals, birds, fish, reptiles, amphibians and even insects now have near- or above- human intelligence[^int]. After weeks of diplomatic negotiation (and worldwide adoption of vegan diets) animals now seek to participate in pan-species society on earth. The only problem is that _they can't use any of our computer systems!_ Your challenge is choose an interactive computer system (software and hardware) to accomplish **one everyday task**, and produce a **prototype design** that is accessible to **one kind of non-human animal** as well as a human.
 
 [^aci]: Animal-Computer Interaction is actually a [real field](https://dl.acm.org/conference/aci)! See proceedings from the 2024 conference [@aci-conference:2024].
 
@@ -44,7 +44,7 @@ Your submission must:
 - include at least two references to external sources in ACM format
 - be written in markdown format
 - be a maximum of 1500 words + 10% acceptable buffer (i.e., no more than 1650 words)
-- must be uploaded to _your fork_ of the [`comp3900-2025-prototyping`](https://gitlab.cecs.anu.edu.au/comp3900/2025/comp3900-2025-prototyping) repository on Gitlab by the due date
+- must be uploaded to _your fork_ of the [`comp3900-2026-prototyping`](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-prototyping) repository on Gitlab by the due date
 
 ## Submission Process {#submission-process}
 

@@ -24,14 +24,14 @@ You should complete the following activities prior to attending your tutorial:
 
 2.  Read the following chapters from *Interaction Design: Beyond Human-Computer Interaction* **Chapter 14 Introducing Evaluation**, **Chapter 15 Evaluation Studies: From Controlled to Natural Settings** [@rogers-beyond-hci:2023].
 
-3. Write a forum post (100-200 words) summarising your research plan in preparation for [Assignment 2](https://canvas.anu.edu.au/courses/2781/assignments/11550). In your post, name the AI-integrated interface you have chosen to study, and explain why you selected it. Then briefly outline your research plan, including your strategies for data collection and the analysis framework(s) you intend to use. You must also include at least two references from relevant HCI literature---these could relate to prior studies in similar areas, research methodologies, conceptual frameworks, or other scholarly resources relevant to your topic.
+3. Write a forum post (100-200 words) summarising your research plan in preparation for [Assignment 2](https://canvas.anu.edu.au/courses/2781/assignments/11550). In your post, name the AI use context you have chosen to investigate, and explain why you selected it. Then briefly outline your research plan, including your strategies for data collection and the analysis framework(s) you intend to use. You must also include at least two references from relevant HCI literature---these could relate to prior studies in similar areas, research methodologies, conceptual frameworks, or other scholarly resources relevant to your topic.
 
 Following on from the assignment work last week you should have:
 
 1. joined a group to complete your mini user studies
-2. chosen an AI-integrated interface to study
+2. chosen an AI use context to investigate
 
-For this week's tutorial you need to **create a plan for your study**. Use your [research skills](https://scholar.google.com) to find examples of studies into human-AI interfaces (e.g., at CHI) and use them to help plan your study. Make sure your study plan is realistic.
+For this week's tutorial you need to **create a plan for your study**. Use your [research skills](https://scholar.google.com) to find examples of needs finding studies and studies of how people use AI tools (e.g., at CHI) and use them to help plan your study. Make sure your study plan is realistic.
 
 Remember, for your study plan you need to collect quantitative and qualitative data so that you can report on an analysis of each type of data. You can choose what form that data is, e.g., quantitative data could be rating scale questionnaire questions, timed task completions, or number of clicks to complete a task. Qualitative data could be interviews, written reflections, images, videos, sounds, observations. For more ideas, see the lectures and the textbook!
 
@@ -49,13 +49,13 @@ Your pre-class task asked you to describe your planned study for Assignment 2.
 
 Recall that the research question you will investigate is:
 
-> "How do users' mental model of the AI system align with the behaviour of the system and what usability issues arise from any misalignments?"
+> "What are the unmet needs, frustrations, and desired capabilities that students experience when using AI tools in a specific context of their life?"
 
 As a class, discuss the following questions: 
 
 - How does your study plan address this research question? 
 - How have you ensured your study plan is feasible within the time constraints?
-- Why does your chosen interface make sense for this research question?
+- Why does your chosen AI use context make sense for this research question?
 
 ### 1. Planning an evaluation (30 mins)
 
