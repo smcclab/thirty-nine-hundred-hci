@@ -19,7 +19,7 @@ title-slide-attributes:
 - idea is that these are mini HCI-research papers
 - prepare you for further research, exploration in HCI and assess all skills in the course
 - **one week left for your final project**
-- let's look at the forking numbers for the [assignment repo](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-research-project)
+- let's look at the forking numbers for the [assignment repo](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A3-final-project)
 
 ## Plan for the class
 

@@ -8,7 +8,7 @@ title-slide-attributes:
 
 ## Announcements
 
-- **TODAY: **assignment 1 [due **Monday 24 August, 23:59 on GitLab**](https://canvas.anu.edu.au/courses/2781/assignments/11544) ([template](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-prototyping))
+- **TODAY: **assignment 1 [due **Monday 24 August, 23:59 on GitLab**](https://canvas.anu.edu.au/courses/2781/assignments/11544) ([template](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A1-prototyping))
 - assignment 2 specification will be published soon, [you can see the "main idea" already on Canvas](https://canvas.anu.edu.au/courses/2781/assignments/11550)
 - keep attending labs, if issues, apply for an [extension (see course policies on Canvas)](https://canvas.anu.edu.au/courses/2781/pages/policies)
 - any questions, problems, [**use the forum**](https://edstem.org/au/courses/24905/discussion) - more questions allowed (no limits!), public questions preferred.

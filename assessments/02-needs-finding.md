@@ -11,7 +11,7 @@ author: Dr Charles Martin
 - **Mark weighting**: 30%
 - **Submission**: submit your assignment according to the [instructions below](#submission-process)
 - **Policies**: Late submission is not permitted for this assessment. This is an individual assessment task.
-- **Gitlab Template Repository**: <https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-user-research>
+- **Gitlab Template Repository**: <https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A2-needs-finding>
 
 ## Description {#description}
 
@@ -45,7 +45,7 @@ Your submission must:
 - include at least five references to external sources in ACM format
 - be written in markdown format with correct syntax and formatting
 - be a maximum of **1800 words + 10% acceptable buffer (i.e., no more than 1980 words)**
-- must be uploaded to _your fork_ of the [`comp3900-2026-user-research`](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-user-research) repository on Gitlab by the due date
+- must be uploaded to _your fork_ of the [`comp3900-2026-A2-needs-finding`](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A2-needs-finding) repository on Gitlab by the due date
 
 **N.B. to eliminate doubt: all participants in your study must be current students in COMP3900/6390. The best way to find and study your classmates is to attend all lectures and tutorials and participate in assignment planning activities.**
 
