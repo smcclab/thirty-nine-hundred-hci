@@ -64,7 +64,7 @@ Starting with **ergonomics & human factors**.
 
 - 20th Century: Humans started to operate complex machines
 - Post 1945: engineering focus on operator's cognition, response, decisions, perceptions, etc
-- Ergonomics or human factors coined in 1950s to describe the human requirements for designing machines and systems.
+- "Ergonomics" coined in 1949 by Hywel Murrell; "human factors" grew out of WWII work like Chapanis's studies of "pilot error" in cockpit design [@chignell-evolution-hci:2023]
 :::
 ::: {.column width="50%"}
 ![An aircraft cockpit interior](img/photo-1586099748114-357e9a67e30c.jpg){width=40%}
@@ -82,6 +82,7 @@ Starting with **ergonomics & human factors**.
   - GUI
   - Collaboration
 - Called the "mother of all demos": <https://youtu.be/yJDv-zdhzMY>
+- This arc is told in [@myers-brief-history-hci:1998]
 
 :::
 ::: {.column width="50%"}
@@ -96,7 +97,7 @@ Starting with **ergonomics & human factors**.
 
 - ~1980s: big interest in using  computers in workplaces and homes
 - Demand for computers to work for normal people (not just trained operators)
-- 1983: first annual ACM [SIGCHI](https://sigchi.org) Conference (Special Interest Group on Computer-Human Interaction)
+- 1983: first annual ACM [SIGCHI](https://sigchi.org) Conference (Special Interest Group on Computer-Human Interaction), grown out of a 1982 gathering in Gaithersburg, MD [@sigchi-chronology:2022]
 
 Now:
 
@@ -109,14 +110,15 @@ Now:
 
 ## HCI history: The "wave" theory
 
-- First wave: Human Factors in Computing (1980-1992)
+- First wave: Human Factors in Computing [@boedker-second-wave:2006] (1980-1992)
   - Optimising/measuring efficiency, cognitive psychology approach, studying individual users. Lab setting.
-- Second wave: Cognitive revolution — mind and computer coupled (1992-2006)
+- Second wave: Cognitive revolution — mind and computer coupled [@boedker-second-wave:2006] (1992-2006)
   - Optimise interactions, hypothesis testing, affordances, activity theory, user-centred design. Work environments.
 - Third wave: Situated perspectives [@boedker-third-wave:2015] (2006-)
   - Consumer tech, participation and sharing, pervasive computing, AR, tangible interaction, home environments,
-- Fourth wave: Entanglement HCI ([Frauenberger 2019](https://doi.org/10.1145/3364998)) (2019-)
+- Proposed fourth wave: Entanglement HCI ([Frauenberger 2019](https://doi.org/10.1145/3364998)) (2019-)
   - Computer and humans entangled in society: focus on values, accessibility, diversity, policy, law, ethics, individuals' and society's responsibilities
+  - Note: Frauenberger frames this as a candidate "next wave", not yet an established consensus like the first three
 
 ## What does HCI research involve?
 
