@@ -116,7 +116,7 @@ Now:
   - Optimise interactions, hypothesis testing, affordances, activity theory, user-centred design. Work environments.
 - **Third wave:** Situated perspectives [@boedker-third-wave:2015] (2006-)
   - Consumer tech, participation and sharing, pervasive computing, AR, tangible interaction, home environments,
-- **Proposed fourth wave:** Entanglement HCI ([Frauenberger 2019](https://doi.org/10.1145/3364998)) (2019-)
+- **Proposed fourth wave:** *Entanglement HCI* ([@frauenberger-entanglement-hci:2019]) (2019-)
   - Computer and humans entangled in society: focus on values, accessibility, diversity, policy, law, ethics, individuals' and society's responsibilities
   - Note: Frauenberger frames this as a candidate "next wave", not yet an established consensus like the first three
 
@@ -131,7 +131,7 @@ Now:
 - Working with people (users) to design and evaluate the above.
 :::
 ::: {.column width="50%"}
-![An HCI presentation in 2022](img/hci-in-2022.jpg)
+![Presentation by @rogerson-smeft-decks:2022](img/hci-in-2022.jpg)
 :::
 ::::::::::::::
 
@@ -139,7 +139,7 @@ Now:
 
 _In short, this is what we will do in this course._
 
-1. Understanding people
+1. Understanding how people use computers
 
 2. Designing interfaces
 
@@ -151,11 +151,11 @@ _In short, this is what we will do in this course._
   - theory, content, explanation of skills, discussion, questions, comfy chairs!
 - 10 tutorials: weeks 2--11, with your **tutor!**
   - activities, practice, discussion, _making_, _researching_, _doing_.
-  - Pre-class and in-class tasks! (worth 1% of course mark for each tutorial, 10% total)
+  - **Pre-class and in-class tasks!** (worth 1% of course mark for each tutorial, 10% total)
 - 3 assignments/projects: by **yourself**
   - Prototype: _create a prototype that solves a problem_ (20%, due Monday week 5)
-  - User Research: _conduct a small-scale user study_ (30%, due Monday week 9)
-  - Final Project: _design a prototype and evaluate it with users_ (40%, due Monday week 13)
+  - User Research: _conduct a small-scale user study_ (30%, due Tuesday week 9)
+  - Final Project: _design a prototype and evaluate it with users_ (40%, due first Thursday of Final Exam Period)
 
 ## Pre-class and in-class tasks
 
@@ -185,13 +185,13 @@ Choose a computer or digital technology that played an important role in your ea
 ## Assignments
 
 - individual tasks, but require some collaboration
-  - that is: you need to _study people_ in User Research and the Final Project, you will find people in your tutorial to study! (they will also find you!)
+  - that is: you need to _study people_ in User Research and the Final Project, you will find people in your tutorial group to study! (they will also find you!)
 - assignments will involve
   - _making_ (prototyping, sketching, coding, building, constructing, **designing**, soldering?)
   - _researching_ (reading, asking, analysing, measuring, discovering, finding, concluding)
   - _communicating_ (reflecting, discussing, referencing, writing, **presenting**)
-- no late submissions permitted without an extension
-- all submission is through [Gitlab](https://gitlab.cecs.anu.edu.au/comp3900/)
+- no late submissions permitted without an extension (but extensions are straightforward to get!)
+- all submission is through [Gitlab](https://gitlab.comp.anu.edu.au/comp3900/)
 
 ## Assignment 1: Prototype an Animal Computer Interaction
 
@@ -203,13 +203,13 @@ TL;DR: Animals are smart now. Sketch and prototype a computer system for an ever
 
 Every assessment submission has a place for references.
 
-You **must** provide at least two references
+You **must** provide at least two references (more for later assignments)
 
 You **must** reference any code/ideas taken from other places (internet, books, classmates)
 
 You **must** use ACM referencing format, look on the assessment pages for examples
 
-You **must** reference any text/code/ideas drawn from generative AI systems
+You **must** reference text/code/ideas drawn from generative AI systems
 
 This is about integrity: **respect** for your **sources** and your **classmates**.
 
