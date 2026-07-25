@@ -6,9 +6,9 @@ title-slide-attributes:
     data-background-size: cover
 ---
 
-## Acknowledgement of Country
+## Acknowledgement of Country {background-image="img/canberra1.jpg"}
 
-![Image of Canberra from Mt Painter towards Black Mountain](img/canberra1.jpg){ width=70% }
+Image of Canberra from Mt Painter towards Black Mountain
 
 ## Charles Martin (that's me!) {background-image="img/2016-charlesmartin-synth-profile.jpg"}
 
@@ -18,7 +18,7 @@ computer musician, percussionist, computer scientist
 
 [homepage](https://charlesmartin.au)
 
-[SMCCLAB: Sound, Music, and Creative Computing Lab](https://smcclab.github.io)
+[SMCCLAB: Sound, Music, and Creative Computing Lab](https://smcclab.au)
 
 <!-- ![Charles Martin playing a synth](img/2016-charlesmartin-synth-profile.jpg) -->
 
@@ -110,13 +110,13 @@ Now:
 
 ## HCI history: The "wave" theory
 
-- First wave: Human Factors in Computing [@boedker-second-wave:2006] (1980-1992)
+- **First wave:** Human Factors in Computing [@boedker-second-wave:2006] (1980-1992)
   - Optimising/measuring efficiency, cognitive psychology approach, studying individual users. Lab setting.
-- Second wave: Cognitive revolution — mind and computer coupled [@boedker-second-wave:2006] (1992-2006)
+- **Second wave:** Cognitive revolution — mind and computer coupled [@boedker-second-wave:2006] (1992-2006)
   - Optimise interactions, hypothesis testing, affordances, activity theory, user-centred design. Work environments.
-- Third wave: Situated perspectives [@boedker-third-wave:2015] (2006-)
+- **Third wave:** Situated perspectives [@boedker-third-wave:2015] (2006-)
   - Consumer tech, participation and sharing, pervasive computing, AR, tangible interaction, home environments,
-- Proposed fourth wave: Entanglement HCI ([Frauenberger 2019](https://doi.org/10.1145/3364998)) (2019-)
+- **Proposed fourth wave:** Entanglement HCI ([Frauenberger 2019](https://doi.org/10.1145/3364998)) (2019-)
   - Computer and humans entangled in society: focus on values, accessibility, diversity, policy, law, ethics, individuals' and society's responsibilities
   - Note: Frauenberger frames this as a candidate "next wave", not yet an established consensus like the first three
 
