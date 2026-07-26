@@ -77,6 +77,20 @@ The SCSS theme (`css/charles_reveal_dark.scss`) defines content box classes used
 - `find_unused_images.py` — finds images in `lectures/img/` not referenced by any lecture markdown
 - `count_slides.sh` — counts slides, words, and images per lecture with totals
 
+## Canvas Publishing
+
+`canvas/` holds standard-library-only tooling that pushes built lecture PDFs to the ANU Canvas course (id `11488`, overridable via `CANVAS_COURSE_ID`). See `canvas/README.md` for the full picture.
+
+| Command | Effect |
+|---|---|
+| `make canvas-inspect` | Read-only dump of the Canvas course structure |
+| `make canvas-lectures-dry` | Preview the push plan — reads Canvas, uploads nothing |
+| `make canvas-lectures` | Runs `make beamer`, then pushes `build/lectures/*.pdf` |
+
+These targets are **deliberately outside `all` and `public`**, and are never invoked by CI — pushing to Canvas is always a manual, local action.
+
+Uploads use `on_duplicate=overwrite` and discover each target by display name, so re-uploading keeps the Canvas file id and existing Home-page links serve the refreshed slides with no page editing. The token comes from `CANVAS_TOKEN` or `~/.config/canvas/anu-token` and must never be committed.
+
 ## Python / Notebooks
 
 The `notebooks/` directory contains Jupyter notebooks for data analysis demos used in lectures (e.g., survey analysis, statistical analysis). Dependencies are managed with Poetry:

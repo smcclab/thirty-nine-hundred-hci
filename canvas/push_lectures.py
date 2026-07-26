@@ -33,7 +33,8 @@ LECTURES_DIR = REPO_ROOT / "build" / "lectures"
 FALLBACK_FOLDER_PATH = "Uploaded Media 2"
 
 # Optional all-in-one bundle: local bigfile -> Canvas display name to overwrite.
-MEGA_FILE = (REPO_ROOT / "comp3900-lectures.pdf", "all_lectures.pdf")
+# The local path must match `make bigfiles` output ($(OUTPUT_DIR)/all_lectures.pdf).
+MEGA_FILE = (REPO_ROOT / "build" / "all_lectures.pdf", "all_lectures.pdf")
 
 
 def lecture_pdfs(only):
