@@ -209,7 +209,7 @@ You **must** reference any code/ideas taken from other places (internet, books, 
 
 You **must** use ACM referencing format, look on the assessment pages for examples
 
-You **must** reference text/code/ideas drawn from generative AI systems
+<!-- You **must** reference text/code/ideas drawn from generative AI systems -->
 
 This is about integrity: **respect** for your **sources** and your **classmates**.
 
