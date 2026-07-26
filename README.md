@@ -37,6 +37,12 @@ Content developers (e.g., course convenors, lecturers, tutors, learning designer
 
 Images can be placed with in an `img` directory associated with each of the above. You can't reference an image across directories. So for example an image in `lectures/img` can't be used in a workshop, you'll have to duplicate the file annoyingly.
 
+A lecture slide can take a full-bleed background image, and it shows up in both the HTML slides and the PDF:
+
+    ## Slide Title {background-image="img/hero.jpg"}
+
+This works on `#` section headings too, and the title slide gets one from `title-slide-attributes` in the frontmatter. Add `background-size="contain"` to fit the whole image in rather than cropping it, and `background-opacity="0.4"` to fade it back when the heading is hard to read over the photo.
+
 All course content should be include references to textbooks, online resources and scholarly publications. The references should go in the common `references.bib` file in bibtex format. You can cite using [pandoc's citation format (see link)](https://pandoc.org/MANUAL.html#extension-citations), e.g., `[@bibtex-key, p26]` etc. The referencing format is APA using `apa.csl`.
 
 (NB: I know we ask the students to use ACM style, but the ACM csl uses numerical citations while author/date is more convenient for these kind fo documents where we want to know what the reference is without looking it up continually).
