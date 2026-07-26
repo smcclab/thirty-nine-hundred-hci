@@ -95,7 +95,9 @@ VS Code is configured (`.vscode/settings.json`) to run `make all` on every markd
 
 ## CI / Deployment
 
-GitHub Actions (`.github/workflows/deploy.yml`) runs `make public` on push to `main` using the `pandoc/latex:3.7.0.1` Docker image and deploys the `build/` directory to GitHub Pages at <https://smcclab.github.io/thirty-nine-hundred-hci/>. The `public` target excludes `resources/` (those are not published).
+GitHub Actions (`.github/workflows/deploy.yml`) runs `make public` in the `pandoc/latex:3.10.0.0-alpine` Docker image. The `build` job runs on pushes to `main` and on pull requests; only `main` proceeds to the `deploy` job, which publishes the `build/` directory to GitHub Pages. The `public` target excludes `resources/` (those are not published).
+
+The published site is <https://smcclab.au/thirty-nine-hundred-hci/> — the `smcclab.github.io` address still works but 301-redirects to the org's custom domain.
 
 ## Upstream Template
 

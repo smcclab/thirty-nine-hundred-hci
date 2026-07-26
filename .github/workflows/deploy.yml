@@ -63,19 +63,54 @@ jobs:
           # is allowed now that image and repo are the same release year.
           # If the live CTAN later rolls over to 2027, bump the image tag to a
           # pandoc/latex build carrying that year's TeX Live to keep them aligned.
-          tlmgr update --self
-          tlmgr install libertine \
-                  sourcecodepro \
-                  ly1 \
-                  sectsty \
-                  lastpage \
-                  hanging \
-                  beamer \
-                  beamertheme-metropolis \
-                  pgfopts \
-                  beamercolorthemeowl \
-                  noto \
-                  noto-emoji
+          #
+          # tlmgr's default repository is the mirror.ctan.org redirector, which
+          # hands out a different mirror per request. A mirror caught mid-rollover
+          # serves no texlive.tlpdb, tlmgr exits 1, and the deploy is lost with
+          # nothing on the published site to show it went stale. So try the
+          # redirector twice (it re-rolls the mirror each time), then fall back to
+          # named mirrors that track tlnet closely.
+          REPOS="https://mirror.ctan.org/systems/texlive/tlnet
+          https://mirror.ctan.org/systems/texlive/tlnet
+          https://mirror.aarnet.edu.au/pub/CTAN/systems/texlive/tlnet
+          https://ftp.fau.de/ctan/systems/texlive/tlnet
+          https://mirrors.rit.edu/CTAN/systems/texlive/tlnet
+          https://ctan.math.illinois.edu/systems/texlive/tlnet"
+
+          PACKAGES="libertine
+          sourcecodepro
+          ly1
+          sectsty
+          lastpage
+          hanging
+          beamer
+          beamertheme-metropolis
+          pgfopts
+          beamercolorthemeowl
+          noto
+          noto-emoji"
+
+          installed=""
+          for repo in $REPOS; do
+            echo "::group::tlmgr via $repo"
+            if tlmgr option repository "$repo" \
+              && tlmgr update --self \
+              && tlmgr install $PACKAGES; then
+              installed="$repo"
+            fi
+            echo "::endgroup::"
+            if [ -n "$installed" ]; then
+              echo "LaTeX dependencies installed from $installed"
+              break
+            fi
+            echo "tlmgr failed against $repo — trying the next mirror"
+            sleep 10
+          done
+
+          if [ -z "$installed" ]; then
+            echo "::error::tlmgr could not install the LaTeX dependencies from any known CTAN mirror"
+            exit 1
+          fi
 
       - name: Install Dart Sass
         run: |
