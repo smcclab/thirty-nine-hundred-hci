@@ -204,6 +204,26 @@ Focus of interface can change:
 :::
 ::::::::::::::
 
+## Interaction Types
+
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+There are many interfaces, but only a handful of ways of _interacting_ with them [@rogers-beyond-hci:2023]:
+
+- Instructing
+- Conversing
+- Manipulating
+- Exploring
+- Responding
+
+:::
+::: {.column width="60%"}
+![Image source: [Uriel Soberanes](https://unsplash.com/@soberanes)](img/01_02_conceptualising_interaction_7.jpg){width=30%}
+![Image source: [Fikri Rasyid](https://unsplash.com/@fikrirasyid)](img/01_02_conceptualising_interaction_8.jpg){width=30%}
+![Image source: [Szabo Viktor](https://unsplash.com/@vmxhu)](img/01_02_conceptualising_interaction_9.jpg){width=30%}
+:::
+::::::::::::::
+
 ## 45 years of interface types!
 
 :::::::::::::: {.columns}
