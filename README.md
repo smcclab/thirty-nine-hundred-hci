@@ -29,7 +29,7 @@ The build is automated via a Github Action which runs `make public` rather than 
 
 ## Deploying
 
-This repository is configured to build a "public" version of the site and deploy to a Github Pages website automatically. The output website is: <https://smcclab.github.io/thirty-nine-hundred-hci/>
+This repository is configured to build a "public" version of the site and deploy to a Github Pages website automatically. The output website is: <https://smcclab.au/thirty-nine-hundred-hci/> (the older `smcclab.github.io` address redirects here).
 
 ## Contributing
 
