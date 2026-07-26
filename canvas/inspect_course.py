@@ -17,11 +17,22 @@ def main():
     c = Canvas()
     cid = course_id()
 
-    course, _ = c.get(f"courses/{cid}")
+    course, _ = c.get(f"courses/{cid}", params={"include[]": "storage_quota_used_mb"})
     print(f"# Course {cid}: {course.get('name')}")
     print(f"  code={course.get('course_code')}  "
           f"default_view={course.get('default_view')}  "
           f"front_page_set={bool(course.get('front_page'))}")
+
+    # A full lecture push is ~119 MB, so report headroom. This also answers
+    # whether superseded files in overwrite replacement chains keep consuming
+    # quota: run it before and after a push and compare `used`.
+    quota = course.get("storage_quota_mb")
+    used = course.get("storage_quota_used_mb")
+    if quota is not None and used is not None:
+        print(f"  storage: {used:.0f} / {quota:.0f} MB used "
+              f"({quota - used:.0f} MB free)")
+    elif quota is not None:
+        print(f"  storage quota: {quota:.0f} MB (usage not reported)")
     print()
 
     # Front page
