@@ -3,12 +3,17 @@
 Strategy (matches the 2025 site, keeps front-page links live):
 
   * The Home page links each lecture PDF by Canvas *file id*.
-  * `on_duplicate=overwrite` replaces a file's bytes while keeping its id, so
-    re-uploading a PDF with the same name updates the slides everywhere they're
-    linked, with zero page editing.
+  * `on_duplicate=overwrite` makes re-uploading a PDF with the same name update
+    the slides everywhere they're linked, with zero page editing. Note the id is
+    NOT reliably preserved: on the 2026-07-26 push, 7 of 12 files came back with
+    a new id and 5 kept theirs. Canvas resolves Home-page file links forward to
+    the current object either way, so the links keep working — but never cache or
+    hardcode a file id and assume it still names the current object.
   * To stay robust across yearly course copies (ids change), we DISCOVER the
     existing file by display name and overwrite it in its current folder. If a
     PDF has no counterpart on Canvas yet, we upload it to the fallback folder.
+  * The `all_lectures.pdf` bundle is only touched with --mega, so it goes stale
+    silently while the individual PDFs stay current. See canvas/README.md.
 
 Usage:
     python canvas/push_lectures.py --dry-run      # show plan, change nothing

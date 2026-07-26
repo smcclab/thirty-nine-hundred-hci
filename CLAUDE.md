@@ -89,7 +89,9 @@ The SCSS theme (`css/charles_reveal_dark.scss`) defines content box classes used
 
 These targets are **deliberately outside `all` and `public`**, and are never invoked by CI — pushing to Canvas is always a manual, local action.
 
-Uploads use `on_duplicate=overwrite` and discover each target by display name, so re-uploading keeps the Canvas file id and existing Home-page links serve the refreshed slides with no page editing. The token comes from `CANVAS_TOKEN` or `~/.config/canvas/anu-token` and must never be committed.
+Uploads use `on_duplicate=overwrite` and discover each target by display name, so existing Home-page links serve the refreshed slides with no page editing. The Canvas file id is **not** reliably preserved across an overwrite (7 of 12 changed on the 2026-07-26 push), so never hardcode or cache one — Canvas resolves page links forward to the current object regardless. The token comes from `CANVAS_TOKEN` or `~/.config/canvas/anu-token` and must never be committed.
+
+The `all_lectures.pdf` bundle linked from the Canvas Home page is only updated by `push_lectures.py --mega` (after `make bigfiles`), so it goes stale silently while the individual lecture PDFs stay current. See `canvas/README.md`.
 
 ## Python / Notebooks
 
