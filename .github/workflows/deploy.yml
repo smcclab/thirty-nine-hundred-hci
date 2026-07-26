@@ -27,6 +27,9 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # A normal build is ~7 min (~1 min on a cache hit). This only bounds a hung
+    # step — a stuck tlmgr or lualatex would otherwise burn the 6 hour default.
+    timeout-minutes: 30
 
     container:
       image: pandoc/latex:3.10.0.0-alpine
@@ -139,6 +142,15 @@ jobs:
     if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    # Pages rejects overlapping deployments, so two pushes landing close together
+    # can lose one. Serialise here rather than at workflow level, so PR builds
+    # still run in parallel. Never cancel in progress: a half-finished deploy is
+    # worse than a queued one.
+    concurrency:
+      group: pages
+      cancel-in-progress: false
 
     environment:
       name: github-pages

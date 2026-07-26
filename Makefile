@@ -267,7 +267,7 @@ $(ALL_WORKSHOPS_MD): $(WORKSHOPS_MDS)
 # See canvas/README.md. Uploads use on_duplicate=overwrite so existing Home-page
 # links keep pointing at the refreshed slides.
 
-.PHONY: canvas-lectures canvas-lectures-dry canvas-inspect
+.PHONY: canvas-lectures canvas-lectures-dry canvas-lectures-mega canvas-inspect
 
 # Preview what would be pushed (reads Canvas, uploads nothing):
 canvas-lectures-dry:
@@ -276,6 +276,12 @@ canvas-lectures-dry:
 # Build the lecture PDFs, then push them to Canvas:
 canvas-lectures: beamer
 	python3 canvas/push_lectures.py
+
+# As above, plus the all_lectures.pdf / all_workshops.pdf bundles that the Canvas
+# Home page links. Those are NOT refreshed by canvas-lectures, so without this
+# they silently keep serving whatever year they were last built in.
+canvas-lectures-mega: beamer bigfiles
+	python3 canvas/push_lectures.py --mega
 
 # Read-only dump of the current Canvas course structure:
 canvas-inspect:
