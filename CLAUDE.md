@@ -86,12 +86,13 @@ The SCSS theme (`css/charles_reveal_dark.scss`) defines content box classes used
 | `make canvas-inspect` | Read-only dump of the Canvas course structure |
 | `make canvas-lectures-dry` | Preview the push plan — reads Canvas, uploads nothing |
 | `make canvas-lectures` | Runs `make beamer`, then pushes `build/lectures/*.pdf` |
+| `make canvas-lectures-mega` | As above plus `bigfiles`, and also pushes the `all_lectures.pdf` / `all_workshops.pdf` bundles |
 
 These targets are **deliberately outside `all` and `public`**, and are never invoked by CI — pushing to Canvas is always a manual, local action.
 
-Uploads use `on_duplicate=overwrite` and discover each target by display name, so existing Home-page links serve the refreshed slides with no page editing. The Canvas file id is **not** reliably preserved across an overwrite (7 of 12 changed on the 2026-07-26 push), so never hardcode or cache one — Canvas resolves page links forward to the current object regardless. The token comes from `CANVAS_TOKEN` or `~/.config/canvas/anu-token` and must never be committed.
+Uploads use `on_duplicate=overwrite` and discover each target by display name, so existing Home-page links serve the refreshed slides with no page editing. Canvas's replacement chain means an old file id keeps resolving and resolves *forward* to the new content (verified 2026-07-26). The id an upload **returns** does change whenever the bytes change, though — 7 of 12 lectures got new ids on a content-changing push, all 12 kept theirs on a following no-op push — so never hardcode or cache a file id. The token comes from `CANVAS_TOKEN` or `~/.config/canvas/anu-token` and must never be committed.
 
-The `all_lectures.pdf` bundle linked from the Canvas Home page is only updated by `push_lectures.py --mega` (after `make bigfiles`), so it goes stale silently while the individual lecture PDFs stay current. See `canvas/README.md`.
+The `all_lectures.pdf` and `all_workshops.pdf` bundles linked from the Canvas Home page are **not** refreshed by `make canvas-lectures` — use `make canvas-lectures-mega` for a full refresh. Left to a plain push they go stale silently while the individual lecture PDFs stay current; on 2026-07-26 the live `all_lectures.pdf` was still the December 2025 build. See `canvas/README.md`.
 
 ## Python / Notebooks
 

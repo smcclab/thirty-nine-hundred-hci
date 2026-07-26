@@ -4,22 +4,25 @@ Strategy (matches the 2025 site, keeps front-page links live):
 
   * The Home page links each lecture PDF by Canvas *file id*.
   * `on_duplicate=overwrite` makes re-uploading a PDF with the same name update
-    the slides everywhere they're linked, with zero page editing. Note the id is
-    NOT reliably preserved: on the 2026-07-26 push, 7 of 12 files came back with
-    a new id and 5 kept theirs. Canvas resolves Home-page file links forward to
-    the current object either way, so the links keep working — but never cache or
-    hardcode a file id and assume it still names the current object.
+    the slides everywhere they're linked, with zero page editing. Verified on
+    2026-07-26: querying a bundle's pre-push id after the overwrite returned the
+    NEW content, so old ids keep resolving and resolve forward.
+    The id the upload *returns*, though, changes whenever the bytes change — 7 of
+    12 lectures got new ids on a content-changing push, and all 12 kept theirs on
+    an immediately following no-op push. So never assume the returned id matches
+    what you saw before, and don't hardcode ids.
   * To stay robust across yearly course copies (ids change), we DISCOVER the
     existing file by display name and overwrite it in its current folder. If a
     PDF has no counterpart on Canvas yet, we upload it to the fallback folder.
-  * The `all_lectures.pdf` bundle is only touched with --mega, so it goes stale
-    silently while the individual PDFs stay current. See canvas/README.md.
+  * The all_lectures.pdf / all_workshops.pdf bundles are only touched with --mega,
+    so without it they go stale silently while the individual PDFs stay current.
+    They need `make bigfiles` built first. See canvas/README.md.
 
 Usage:
     python canvas/push_lectures.py --dry-run      # show plan, change nothing
     python canvas/push_lectures.py                # upload/overwrite
     python canvas/push_lectures.py --only 07 12   # just those lectures
-    python canvas/push_lectures.py --mega         # also push the all-lectures bundle
+    python canvas/push_lectures.py --mega         # also push the all_* bundles
 
 Environment: CANVAS_TOKEN / CANVAS_API_URL / CANVAS_COURSE_ID (see canvas_api.py).
 """
@@ -37,9 +40,17 @@ LECTURES_DIR = REPO_ROOT / "build" / "lectures"
 # is not already present on Canvas. Matches where the 2025 copy landed.
 FALLBACK_FOLDER_PATH = "Uploaded Media 2"
 
-# Optional all-in-one bundle: local bigfile -> Canvas display name to overwrite.
-# The local path must match `make bigfiles` output ($(OUTPUT_DIR)/all_lectures.pdf).
-MEGA_FILE = (REPO_ROOT / "build" / "all_lectures.pdf", "all_lectures.pdf")
+# Optional all-in-one bundles: local bigfile -> Canvas display name to overwrite.
+# Local paths must match `make bigfiles` output ($(OUTPUT_DIR)/*.pdf).
+#
+# Only the bundles that actually exist on Canvas and are linked from the Home page
+# are listed. `make bigfiles` also builds all_assessments.pdf, which has no Canvas
+# counterpart — adding it here would create an unlinked file rather than refresh
+# anything, so it is deliberately omitted.
+MEGA_FILES = [
+    (REPO_ROOT / "build" / "all_lectures.pdf", "all_lectures.pdf"),
+    (REPO_ROOT / "build" / "all_workshops.pdf", "all_workshops.pdf"),
+]
 
 
 def lecture_pdfs(only):
@@ -61,7 +72,7 @@ def main():
     ap.add_argument("--only", nargs="*", default=None,
                     help="filename prefixes to include, e.g. 07 12")
     ap.add_argument("--mega", action="store_true",
-                    help="also push the concatenated all-lectures bundle")
+                    help="also push the all_lectures.pdf and all_workshops.pdf bundles")
     args = ap.parse_args()
 
     c = Canvas()
@@ -73,11 +84,12 @@ def main():
 
     jobs = [(p, p.name) for p in pdfs]
     if args.mega:
-        mega_path, mega_name = MEGA_FILE
-        if mega_path.exists():
-            jobs.append((mega_path, mega_name))
-        else:
-            print(f"! --mega requested but {mega_path.name} not found (run `make bigfiles`); skipping")
+        for mega_path, mega_name in MEGA_FILES:
+            if mega_path.exists():
+                jobs.append((mega_path, mega_name))
+            else:
+                print(f"! --mega requested but {mega_path.name} not found "
+                      f"(run `make bigfiles`); skipping")
 
     index = build_name_index(c, cid)
 

@@ -11,20 +11,25 @@ The Home page links each lecture PDF **by Canvas file id**, e.g.
 
 The push uses **`on_duplicate=overwrite`**, and the net effect is that **every
 existing Home-page link serves the refreshed slides** — no page editing, no
-re-linking. That outcome is confirmed. The mechanism, however, is not "the file
-id is preserved". Measured on the 2026-07-26 push of all 12 lectures:
+re-linking. Measured across two pushes on 2026-07-26:
 
-- **7 of 12 files came back with a new id** (e.g. `01-intro-to-hci.pdf`
-  `1948778` → `1969776`); the other 5 kept theirs. Which way a given file goes
-  is not predictable from anything the API tells us beforehand.
-- Re-reading the Home page afterwards showed it referencing the **new** ids, so
-  Canvas resolves page file links forward to the current object rather than
-  relying on the old id alone.
-- All 15 file ids referenced by the Home page still resolved after the push.
+- **The replacement chain works.** Querying the *pre-push* id of a bundle
+  (`1900987`) after overwriting it returned the **new** content — 110.6 MB,
+  `modified=2026-07-26`, where before it was 111 MB from 2025-12-11. So an old id
+  captured earlier keeps resolving, and resolves *forward*. This is the property
+  the whole approach rests on.
+- **But the upload response returns a different id when the bytes change.** First
+  push (content genuinely changed): 7 of 12 lectures came back with a new id, 5
+  kept theirs. Second push minutes later (identical lecture bytes): all 12 kept
+  their ids, while the two bundles — whose bytes *had* changed — both got new
+  ones. So a new id tracks a content change, not randomness.
+- Re-reading the Home page afterwards showed it referencing the **new** ids, and
+  all 15 ids it references resolved. Both the old and new ids work.
 
-So don't hardcode file ids anywhere, and don't assume an id you captured earlier
-still names the current object — re-read it. `inspect_course.py` prints current
-ids.
+Practical rule: don't hardcode a file id, and don't assume the id an upload
+returns matches the one you saw before it. Old ids stay valid, so a stale id is
+not a broken link — but it is a misleading label. `inspect_course.py` prints
+current ids.
 
 To stay robust across yearly course copies (file/folder ids change on each copy),
 `push_lectures.py` **discovers the target file by display name** and overwrites it
@@ -60,10 +65,14 @@ make canvas-lectures-dry     # or: python3 canvas/push_lectures.py --dry-run
 # Build the lecture PDFs, then push them:
 make canvas-lectures         # runs `make beamer` first
 
-# Push without rebuilding, or push a subset / the mega-bundle:
+# As above PLUS the all_lectures.pdf / all_workshops.pdf bundles the Home page
+# links. Use this for a full refresh — canvas-lectures alone leaves them stale:
+make canvas-lectures-mega    # runs `make beamer bigfiles` first
+
+# Push without rebuilding, or push a subset / preview the bundles:
 python3 canvas/push_lectures.py
 python3 canvas/push_lectures.py --only 07 12
-python3 canvas/push_lectures.py --mega      # also overwrites all_lectures.pdf
+python3 canvas/push_lectures.py --dry-run --mega   # preview incl. bundles
 ```
 
 ## Files
@@ -77,23 +86,45 @@ python3 canvas/push_lectures.py --mega      # also overwrites all_lectures.pdf
 ## Notes & gotchas
 
 - **Course file quota.** The 12 lecture PDFs total ~119 MB (largest,
-  `07-interfaces.pdf`, is ~34 MB). Course 11488 was observed on 2026-07-26 with
-  a 2000 MB quota and 125 MB used, so a full push has ample room. Don't rely on
-  that figure — quotas differ per course and per year, and `make canvas-inspect`
-  prints the live `used / quota` so you never have to guess. If a push ever does
+  `07-interfaces.pdf`, is ~34 MB); the two bundles add ~115 MB. Course 11488 has
+  a 2000 MB quota, so a full `canvas-lectures-mega` fits comfortably. Quotas
+  differ per course and per year — `make canvas-inspect` prints the live
+  `used / quota`, so don't trust a figure written down here. If a push ever does
   fail with a quota error, ask the edtech team to raise it.
-- **Overwrites do not accumulate quota.** Measured across the 2026-07-26 push of
-  all 12 lectures (119 MB): course file count stayed at 35 and storage used went
-  *down* slightly, 125 MB → 124 MB. So superseded objects are not billed against
-  the quota and repeated pushes do not creep upward. Re-measure with
-  `make canvas-inspect` if this ever looks doubtful.
-- **The `all_lectures.pdf` / `all_workshops.pdf` bundles go stale silently.** Both
-  are linked from the Home page but are *not* touched by a normal
-  `make canvas-lectures`. As of 2026-07-26 the live `all_lectures.pdf` (file
-  `1900987`, 111 MB) had `modified=2025-12-11` — students clicking it get the
-  previous year's slides while the 12 individual PDFs are current. To refresh it:
-  `make bigfiles && python3 canvas/push_lectures.py --mega`. Nothing in this
-  tooling updates `all_workshops.pdf` at all.
+- **Expect a one-time step up in usage on the first real push, and don't measure
+  it too early.** Observed on 2026-07-26:
+
+  | point | reported used |
+  |---|---|
+  | before any push | 125 MB |
+  | immediately after pushing 119 MB | 124 MB |
+  | after both pushes, settled | 245 MB |
+
+  Two things are going on. First, **the accounting lags** — the 124 MB reading was
+  taken seconds after a 119 MB upload and was simply stale, so a before/after
+  comparison right around a push proves nothing. Second, a freshly copied course
+  reports far less than its files actually weigh: 125 MB against 246 MB of files,
+  because course-copy files still share storage with the source course. Your first
+  real upload converts them into this course's own bytes, which is the step up.
+
+  Superseded objects are *not* billed: settled usage (245 MB) matches the sum of
+  the 35 current files (246 MB), so repeated pushes should hold roughly steady
+  rather than creep. Verify with `make canvas-inspect` a few minutes afterwards,
+  not immediately.
+- **The bundles go stale unless you ask for them.** `all_lectures.pdf` and
+  `all_workshops.pdf` are linked from the Home page but are *not* touched by a
+  plain `make canvas-lectures` — use **`make canvas-lectures-mega`**, which builds
+  `bigfiles` too and pushes both. This bit us: on 2026-07-26 the live
+  `all_lectures.pdf` (file `1900987`) was 111 MB with `modified=2025-12-11`, so
+  students clicking it got the *previous year's* slides while the 12 individual
+  PDFs were current. Refreshed the same day.
+- **`all_assessments.pdf` is built but not pushed.** `make bigfiles` produces it,
+  but there is no counterpart on Canvas to overwrite, so pushing it would create
+  an unlinked file rather than refresh anything. Add it to `MEGA_FILES` in
+  `push_lectures.py` if a Canvas link for it is ever created.
+- **`--dry-run` and `--mega` compose, but the make targets don't.**
+  `canvas-lectures-dry` previews lectures only. To preview the bundles too, call
+  the script directly: `python3 canvas/push_lectures.py --dry-run --mega`.
 - **`hidden: true` is normal here.** The edtech team loaded the lecture PDFs
   hidden from the student *Files* browser but reachable via the Home-page links
   (`hidden_for_user: false`). The push preserves this state.
