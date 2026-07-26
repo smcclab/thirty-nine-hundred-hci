@@ -309,12 +309,31 @@ Learning theory concept: "zone of proximal development"---we should get users in
 
 # Cognitive Frameworks
 
-- **Mental models**
+- **Conceptual models** (the designer's side) and **mental models** (the user's side)
 - **Gulfs of Execution and Evaluation**
 - **Information Processing**
 - **Distributed Cognition**
 - **External Cognition**
 - **Embodied Interaction**
+
+## Conceptual Models
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+- **Model:** a simplified description of a system or process
+- **Conceptual model:** high-level description of how a system is organized and operates
+- Includes:
+  - Metaphors, analogies
+  - Concepts and their relationships
+  - Mappings
+- This is the _designer's_ model, expressed through the interface — the user builds their own _mental_ model from it
+
+:::
+::: {.column width="40%"}
+![[Understanding conceptual models](https://uxdesign.cc/understanding-mental-and-conceptual-models-in-product-design-7d69de3cae26)](img/01_02_conceptualising_interaction_1.png)
+:::
+::::::::::::::
 
 ## Mental Models
 
@@ -332,6 +351,11 @@ A mental model is our internal understanding of how a system works.
 ![[Mental Models (nngroup)](https://www.nngroup.com/articles/mental-models/)](img/mental-models-nngroup.jpg){width=80%}
 :::
 ::::::::::::::
+
+## Video: What is a mental model?
+
+![[What is a mental model? (NNGroup)](https://www.youtube.com/watch?v=nAgXISssAws)
+](img/01_02_conceptualising_interaction_0.png){width=60%}
 
 ## Gulfs of Execution and Evaluation
 

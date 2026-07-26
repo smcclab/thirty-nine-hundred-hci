@@ -539,63 +539,25 @@ Images from the paper "Never Too Old: Engaging Retired People Inventing the Futu
 :::
 ::::::::::::::
 
-## Conceptual Models
+## So, what can we do?
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+_Back to the three things from the start of the lecture._
 
-- **Model:** a simplified description of a system or process
-- **Conceptual model:** high-level description of how a system is organized and operates
-- Includes:
-  - Metaphors, analogies
-  - Concepts and their relationships
-  - Mappings
-- These elements inform the interaction design and user experiences
+1. **Understanding** how people use computers
+    - interviewing, observing, surveying, analysing
+2. **Designing** interfaces
+    - the design process, ideation, prototyping, interface types
+3. **Evaluating** interfaces
+    - usability goals, user experience, testing with people
 
+Your three assignments are one of each: **Prototype**, **User Research**, **Final Project**.
+
+Next week: how do we actually _do_ design?
 :::
 ::: {.column width="40%"}
-![[Understanding conceptual models](https://uxdesign.cc/understanding-mental-and-conceptual-models-in-product-design-7d69de3cae26)](img/01_02_conceptualising_interaction_1.png)
-:::
-::::::::::::::
-
-## Video: What is a conceptual model?
-
-![[What is a mental model? (NNGroup)](https://www.youtube.com/watch?v=nAgXISssAws)
-](img/01_02_conceptualising_interaction_0.png){width=60%}
-
-## Interface Metaphors
-
-:::::::::::::: {.columns}
-::: {.column width="40%"}
-Exploit similarities to user's knowledge of other domains. E.g.,
-
-- **Cards:**  Familiar, strong associations (playing, business, credit), flick through, sort, themed, structured
-- **Desktop** and **Recycle bin**
-- **Shopping trolley** and **checkout**
-- **_Surfing the web_**
-:::
-::: {.column width="60%"}
-![A highly metaphorical interface. [@gentner-anti-mac:1996]](img/gentner-anti-mac-interface.jpg){width=100%}
-:::
-::::::::::::::
-
-## Interaction Types
-
-:::::::::::::: {.columns}
-::: {.column width="40%"}
-Five types of interaction models:
-
-- Instructing
-- Conversing
-- Manipulating
-- Exploring
-- Responding
-
-:::
-::: {.column width="60%"}
-![Image source: [Uriel Soberanes](https://unsplash.com/@soberanes)](img/01_02_conceptualising_interaction_7.jpg){width=30%}
-![Image source: [Fikri Rasyid](https://unsplash.com/@fikrirasyid)](img/01_02_conceptualising_interaction_8.jpg){width=30%}
-![Image source: [Szabo Viktor](https://unsplash.com/@vmxhu)](img/01_02_conceptualising_interaction_9.jpg){width=30%}
+![Human meets computer?](img/human-robot-interaction.jpg)
 :::
 ::::::::::::::
 

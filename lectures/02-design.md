@@ -572,6 +572,22 @@ Prepare for this question: "Why is that bad?"
 :::
 ::::::::::::::
 
+## Analogies in practice: interface metaphors
+
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+Exploit similarities to user's knowledge of other domains. E.g.,
+
+- **Cards:**  Familiar, strong associations (playing, business, credit), flick through, sort, themed, structured
+- **Desktop** and **Recycle bin**
+- **Shopping trolley** and **checkout**
+- **_Surfing the web_**
+:::
+::: {.column width="60%"}
+![A highly metaphorical interface. [@gentner-anti-mac:1996]](img/gentner-anti-mac-interface.jpg){width=100%}
+:::
+::::::::::::::
+
 ## 13. SCAMPER
 
 > Substitute,  Combine, Adapt, Modify, Put to another use, Eliminate, Reverse (SCAMPER)
