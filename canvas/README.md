@@ -65,8 +65,13 @@ python3 canvas/push_lectures.py --mega      # also overwrites all_lectures.pdf
 ## Notes & gotchas
 
 - **Course file quota.** The 12 lecture PDFs total ~119 MB (largest,
-  `07-interfaces.pdf`, is ~34 MB). If a push fails with a quota error, ask the
-  edtech team to raise the course file quota.
+  `07-interfaces.pdf`, is ~34 MB) against a course quota of 1 GB, so a single
+  full push has plenty of room. What is *not* confirmed is whether superseded
+  files in overwrite replacement chains keep consuming quota — if they do,
+  repeated full pushes could add up over a semester. `make canvas-inspect`
+  prints storage used/free, so run it before and after a push to see whether
+  usage grows by the pushed size or stays flat. If a push ever does fail with a
+  quota error, ask the edtech team to raise it.
 - **Replacement chains accumulate.** Each overwrite leaves the superseded file
   object behind (hidden) with the id redirecting forward. This is harmless and
   invisible to students; Canvas resolves the original linked id to the latest
