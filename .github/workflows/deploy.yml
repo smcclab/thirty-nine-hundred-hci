@@ -37,7 +37,7 @@ jobs:
         run: apk add --no-cache bash git python3 py3-pip py3-yaml make
 
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
@@ -45,7 +45,7 @@ jobs:
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
       - name: Restore build cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ./build
           key: build-v1-${{ hashFiles('Makefile', '_config.toml', 'references.bib', 'apa.csl') }}-${{ github.sha }}
@@ -125,10 +125,12 @@ jobs:
           make public
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        # v4+ excludes dotfiles from the artifact. Nothing in build/ is a dotfile
+        # and Pages runs no Jekyll here (build_type=workflow), so no .nojekyll needed.
+        uses: actions/upload-pages-artifact@v5
         with:
           path: './build'
 
@@ -145,4 +147,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
