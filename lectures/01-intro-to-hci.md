@@ -199,19 +199,37 @@ TL;DR: Animals are smart now. Sketch and prototype a computer system for an ever
 
 ![How can this dog play the GBA SP? (Alison Pan, Unsplash)](img/alison-pang-YJVD4Ddczjo-unsplash.jpg){width=40%}
 
-## last thing: referencing
+## referencing
 
 Every assessment submission has a place for references.
 
 You **must** provide at least two references (more for later assignments)
 
-You **must** reference any code/ideas taken from other places (internet, books, classmates)
+You **must** reference any code/ideas taken from other places (internet, books, classmates, AI)
 
 You **must** use ACM referencing format, look on the assessment pages for examples
 
 <!-- You **must** reference text/code/ideas drawn from generative AI systems -->
 
 This is about integrity: **respect** for your **sources** and your **classmates**.
+
+## using AI in this class
+
+This is **not** a class where you are banned from using AI; however, you won't be able to rely on it for in-class tasks or your oral presentation. We design assessments around your critical thinking and authentic interaction!
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+> Whatever tools you use, your work needs to meet the
+> expectations of the task. Work that is incomplete, incorrect,
+> fabricated, off-topic, or otherwise not aligned with the course's
+> expectations will be marked accordingly.
+:::
+::: {.column width="50%"}
+> I use AI all the time for software prototyping, editing and planning classes, creating learning resources, developing tooling, etc; however, I value my own voice in my teaching and my personal style in slides!
+:::
+::::::::::::::
+
+**If you want:** Share how you used AI in your take-home work via the course forum and in-class discussions. This is optional, won't affect your mark, and helps us understand how to teach in a changing landscape.
 
 ## who has a question?
 
@@ -538,6 +556,29 @@ Which mapping is _natural_? (Source: Wikimedia)
 Images from the paper "Never Too Old: Engaging Retired People Inventing the Future with MaKey MaKey" [@rogers-never-old:2014]
 :::
 ::::::::::::::
+
+## Evaluation
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+There's lots of ways to understand the success of a system.
+
+- controlled studies
+- in-the-wild studies
+- first-person studies
+- surveys
+- interviews
+- interaction data
+
+In this class we will learn about ways to evaluate computer systems success with people, to understand what works and why.
+:::
+::: {.column width="40%"}
+![Musicians evaluating an iPad application in a controlled study [@martin-intelligent-agents:2016]](img/2015-study-observation.jpg)
+:::
+::::::::::::::
+
+
 
 ## So, what can we do?
 
