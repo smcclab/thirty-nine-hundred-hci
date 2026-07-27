@@ -233,11 +233,20 @@ This is **not** a class where you are banned from using AI; however, you won't b
 
 ## who has a question?
 
-> ????
+::: {.questions}
+**Who has a question about:**
 
-# Usability
+- course plan
+- assessments
+- using AI
+- referencing
+- history of HCI
+- anything else so far!
+:::
 
-![A familiar interface. (Image: Leon Seibert on Unsplash)](img/leon-seibert-LJypKPEBt4I-unsplash.jpg){width=60%}
+# Usability {background-image="img/leon-seibert-LJypKPEBt4I-unsplash.jpg" background-size="cover"}
+
+A familiar interface. (Image: Leon Seibert on Unsplash)
 
 ## Another interface
 
@@ -247,13 +256,14 @@ This is **not** a class where you are banned from using AI; however, you won't b
 
 ![Oh boy.](img/mytimetable.png){width=60%}
 
-## More interfaces
+## More interfaces {background-image="img/charles-synthesiser.jpg" background-size="cover"}
 
-![A technology Charles likes. Why?](img/charles-synthesiser.jpg){width=60%}
+A technology Charles likes. Why?
 
 ## Activity: Positive and Negative Experiences with Technology
 
-Turn to the person next to you, find out their name, and then discuss:
+::: {.talk-box}
+**Talk:** Turn to the person next to you, find out their name, and then discuss:
 
 > An example of a technology you find easy/interesting/enjoyable to use (and why)
 
@@ -262,6 +272,7 @@ and:
 > An example of a technology you find difficult/annoying/frustrating to use (and why)
 
 We'll chat for 3 minutes and then share a few with the room.
+:::
 
 ## How do we create computing systems for people?
 
@@ -395,9 +406,9 @@ This version from: [@rogers-beyond-hci:2023]
 :::
 ::::::::::::::
 
-# User Experience
+# User Experience {background-image="img/charles-synthesiser.jpg" background-size="cover"}
 
-![Charles finds this technology joyful.](img/charles-synthesiser.jpg){width=60%}
+Charles finds this technology joyful.
 
 ## Usability vs Joy
 
@@ -487,7 +498,9 @@ Processes
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![[The marble answering machine](https://vimeo.com/19930744). (Durrell Bishop, 1992)](img/01_01_usability_1.png){width=100%}
+![[The marble answering machine](https://vimeo.com/19930744) [@moggridge-designing-interactions:2007]. (Durrell Bishop, 1992)](img/durrell-bishop-marble-answering-machine.png){width=100%}
+
+([more](https://www.bigideainitiative.org/ideas/marble-answering-machine))
 :::
 ::: {.column width="50%"}
 ![A desk phone. Image Source: Photo by [Dan Dennis](https://unsplash.com/@cameramandan83) on [Unsplash](https://unsplash.com/s/photos/landline)](img/01_01_usability_2.jpg){width=100%}
@@ -496,13 +509,15 @@ Processes
 
 ## Poll Time
 
-> Is the marble answering machine a good design?
+::: {.think-box}
+**Think:** Is the marble answering machine a good design?
 
 - Yes?
 - No?
 - Maybe?
 
-> Why?
+**Why?**
+:::
 
 ## Video: Usefulness, Utility, Usability
 
@@ -606,12 +621,14 @@ Next week: how do we actually _do_ design?
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+:::: {.questions}
 **Who has a question?**
 
 - I can take _cathchbox_ question up until end of the lecture
 - For after class questions: meet me outside the classroom at the bar (for 30 minutes)
 - Feel free to ask about **any aspect of the course**
 - Also feel free to ask about **any aspect of computing at ANU**! I may not be able to help, but I can listen.
+::::
 
 :::
 ::: {.column width="40%"}
