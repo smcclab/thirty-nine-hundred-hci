@@ -66,6 +66,49 @@ Seems too easy... let's try it together.
 
 Encodes the broad area, the problem, the justification, the context, etc.
 
+## Is the problem worth solving?
+
+The four steps get you a well-formed question. They don't tell you if it's a question worth asking.
+
+Two useful ways to find a gap [@hornbaek-intro-hci:2025, section 45.2]:
+
+- **Knowledge gap:** what do we not understand yet, given our present understanding?
+- **Capability gap:** what are we not able to *do* yet?
+
+Try working backwards: instead of starting with a problem and then asking who cares, start from **what people need to understand or do better**.
+
+> "Good research produces results that improve stakeholders' capacity to solve important problems."
+
+## Three ways a research question goes wrong
+
+**1. Wrong level of abstraction.** Too specific and almost nobody is affected:
+
+> Why do aging users make errors in Microsoft Word 17.3 when sitting near a pool in Belize?
+
+Raise it until it covers many people --- but not so far that it can't be answered in one study.
+
+## Three ways a research question goes wrong (2)
+
+**2. Confounded with a solution.** This one has the method baked in before any thinking has happened:
+
+> What does the *interview method* tell us about children's motivation to use tablets in schools?
+
+Better --- solution-neutral, so the method is still an open choice:
+
+> What motivations do children have for using tablets in schools?
+
+## Three ways a research question goes wrong (3)
+
+**3. Not refutable.** A question that presupposes its own answer isn't a question.
+
+Very easy to do accidentally when you're attached to a pet theory, or want to show your system beats the baseline. Your RQ should allow **more than one** answer --- including one you won't like.
+
+And on novelty:
+
+> "Off-hand comments about a problem being novel are almost always wrong." [@hornbaek-intro-hci:2025, section 45.2]
+
+Nearly every HCI problem has precursors. Finding them is your job, not an optional extra.
+
 ## Research Question Bingo
 
 <!-- Could try a dual spinning wheel research question writing task: https://spinthewheel.io/wheels/wlzQX7r6A5GpkW4MExxW -->
@@ -116,6 +159,8 @@ Remember that the RQ should include the broad area, the problem, and the justifi
 Use the poll everywhere link to suggest research questions and vote on the best ones.
 
 **Write** for 2-3 minutes, **vote** for 1 minute, then let's discuss.
+
+Before you vote, run the candidates past the three failure modes: is the **abstraction** right, is a **solution** smuggled in, and is it **refutable**?
 :::
 ::: {.column width="40%"}
 ![PollEverywhere link: <https://pollev.com/charlesmarti205>](img/polleverywhere-charles-qr.png)

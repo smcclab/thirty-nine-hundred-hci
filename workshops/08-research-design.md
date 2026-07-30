@@ -27,12 +27,29 @@ Choose an example of a evaluation study from either [CHI](https://dl.acm.org/con
 7. Did the evaluation focus on usability goals or user experience goals? (which ones)
 8. Were there any notable issues?
 
+### Then read it *critically*
+
+The questions above describe what the researchers did. Reading critically means asking whether it holds up. Hornbæk, Kristensson and Oulasvirta [-@hornbaek-intro-hci:2025, section 45.1] boil critical reading down to five aspects --- and note that these map closely onto the criteria reviewers actually use at HCI conferences:
+
+| Aspect | Ask yourself |
+|---|---|
+| **Argumentation** | Are the conclusions based on solid reasoning? What alternative arguments could explain them? |
+| **Evidence** | What is the evidence for the claims, and where did it come from? How does it compare with earlier research? |
+| **Contribution** | What is now known about HCI that was not known before? |
+| **Impact** | Who benefits, and how? Could anyone be *harmed* in a way the authors did not acknowledge? |
+| **Significance** | Weighing positive and negative effects on different stakeholders, how significant is the result --- technically, economically, socially, ethically? |
+
+**Choose two of the five** and write a sentence or two on each for your paper. (Two, not five --- the forum post is still only 100--200 words.)
+
+Being critical does not mean being dismissive: a paper can be excellent and still have limits worth naming. It is worth knowing that only about 5% of citations in HCI papers engage critically with what they cite [@hornbaek-intro-hci:2025, section 45.1] --- most just pass claims along. That is how errors spread: "muscle memory" is not a thing psychology recognises, and the often-repeated claim that 93% of communication is nonverbal comes from a study of far narrower scope than the claim suggests.
+
 ### Post on the forum:
 
 1. An image of the paper's first page or of the system/app analysed.
 2. A clear citation to the paper you have analysed (in ACM format)
 3. The answers to the above questions
-4. Make sure you have studied [the lecture notes from week 8 (evaluation)](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html)
+4. Your critical read on **two** of the five aspects
+5. Make sure you have studied [the lecture notes from week 8 (evaluation)](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html)
 
 ## Plan for the Class
 
@@ -50,6 +67,7 @@ In this task, you will work in groups using a shared document provided by your t
 
 - You will complete one row of the table in the shared document, starting with the name of the paper you found in the pre-class task and then filling in each column with your answers.
 - Once you have entered your analysis, you will discuss your findings with peers in your group, highlighting any interesting insights.
+- Then compare your **critical** reads. Use the five aspects from the pre-class task --- argumentation, evidence, contribution, impact, significance --- as the frame for the discussion. Where did people in your group pick different aspects for the same kind of paper, and did anyone spot an *impact* the authors left unmentioned?
 
 ### Task 2: Develop Research Questions (20m)
 
@@ -101,6 +119,7 @@ You may use the format below as a guide (but you are not limited to it):
 
 - CHI proceeding: <https://dl.acm.org/conference/chi/proceedings>
 - DIS proceeding: <https://dl.acm.org/conference/dis/proceedings>
+- *Introduction to Human-Computer Interaction* --- chapter 45, "Growing into the HCI discipline". **Free to read**, the whole book is open access: <https://doi.org/10.1093/oso/9780192864543.001.0001>
 - How to choose a research question: <https://lennartnacke.com/how-to-choose-a-good-research-question/#research-questions-are-survival-beacons>
 - Four steps to write a research question: <https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/four-steps-to-write-a-research-question>
 - Spin the wheels for an HCI research project: <https://spinthewheel.io/wheels/6QtocP77prRkdHZ66s0hcz0xJmU9MA==>
