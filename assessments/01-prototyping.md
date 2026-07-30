@@ -40,7 +40,7 @@ Your submission will include documentation of your prototype and design process 
 Your submission must:
 
 - include at least three sketches
-- include visual documentation of a prototype (any level of fidelity)
+- include visual documentation (i.e., a photograph) of a paper based prototype
 - include at least two references to external sources in ACM format
 - be written in markdown format
 - be a maximum of 1500 words + 10% acceptable buffer (i.e., no more than 1650 words)
