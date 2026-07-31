@@ -384,71 +384,78 @@ Generating **many** ideas: high probability that _at least one_ is close to idea
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-1. Brainstorm
-2. Braindump
-3. Brainwrite
-4. Brainwalk
-5. Worst possible idea
-6. Challenge Assumptions
-7. Mindmap
-8. Sketch
-9. Storyboard
-10. Bodystorm
+**Most used by professional designers** [@hornbaek-intro-hci:2025, section 31.2]:
+
+1. Brainstorming
+2. Morphological analysis
+3. Scenarios
+4. Conceptual maps
+5. Checklists
+6. Analogies
+7. Metaphors
+8. Storyboards
 :::
 ::: {.column width="50%"}
-11. Analogies
-12. Provocation
-13. SCAMPER
-14. Movement
-15. Gamestorming
-16. Cheatstorm
-17. Crowdstorm
-18. Co-creation
-19. Prototype
-20. Creative pause
+**Variants and others you'll meet:**
+
+Braindump, brainwrite, brainwalk, worst possible idea, challenge assumptions, mindmap, sketchstorm, bodystorm, provocation, SCAMPER, movement, gamestorming, cheatstorm, crowdstorm, co-creation, prototyping, creative pause
+
+Most are variations on the left-hand column. Don't memorise the list --- learn what makes them differ.
 :::
 ::::::::::::::
 
-<!-- 
-| 1. Brainstorm | 8.  __Sketch/Sketchstorm__ | 15.  __Gamestorming__ |
-| :-: | :-: | :-: |
-| 2. Braindump | 9.  __Storyboard__ | 16.  __Cheatstorm__ |
-| 3. Brainwrite | 10.  __Bodystorm__ | 17.  __Crowdstorm__ |
-| 4. Brainwalk | 11.  __Analogies__ | 18.  __Co-Creation Workshops__ |
-| 5. Worst Possible Idea | 12.  __Provocation__ |  |
-| 6. Challenge Assumptions | 13.  __SCAMPER__ | __19. Prototype__ |
-| 7.  __Mindmap__ | 14.  __Movement__ | 20. Creative Pause | -->
+## Three ways ideation methods differ
 
-## How Ideation Techniques Can Help with Creative Blocks
+Rather than 20 techniques to remember, three dials to turn [@hornbaek-intro-hci:2025, section 31.2]:
 
-![[Beating Creative Blocks in UX Design Through Reframing](https://www.youtube.com/watch?v=-GC8a5sRfC0&list=PLJOFJ3Ok_idsd431mj7czplN1PNEaJbHE&index=2)](img/06_ideation_2.png){width=50%}
+1. **How far you reach for associations.** The further out, the more novel the ideas --- *but* "the proportion of valuable ideas decreases the more distant the ideas are from known solutions."
+2. **How other people are involved.** Careful: "having more people generating ideas does not automatically translate into more or better ideas."
+3. **What representation you use.** Brainstorming is mostly **verbal**; sketching and storyboarding are **visuospatial**; bodystorming is **physical**.
 
-## 1. Brainstorm / 2. Braindump
+Pick a technique by deciding where you want those three dials --- not by working down a list.
 
-- **Brainstorm:** leverage the synergy of the group
-- new ideas by building on others' ideas
-- blend ideas to create good ideas
-- discuss ideas without fear of criticism
-- **Braindump:** similar, but individual
-- write ideas on post-its, then share ideas with group
+## Brainstorming and its variants
 
-## 3. Brainwrite / 4. Brainwalk
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+Shared principles across nearly all the variants:
+
+- **Postpone criticism** --- don't throttle the generative phase
+- **Divergence** --- encourage wild, diverse ideas
+- **Quantity** --- as many as possible
+- **Build** on others' ideas
+- **Equal significance** --- every participant and idea counts
+
+The named variants mostly change *who writes when*: **braindump** (individually, then share), **brainwrite** (write, pass on, elaborate), **brainwalk** (move between ideation stations).
+:::
+::: {.column width="45%"}
+![HCI tutorial tables in 2025](img/tables-2025.jpg)
+
+**Do this:** give people time to think **alone first**, before the group starts --- it stops everyone anchoring on the first idea spoken [@hornbaek-intro-hci:2025, section 31.2].
+:::
+::::::::::::::
+
+## How to run a brainstorm
+
+Kelley's recommendations, via [@hornbaek-intro-hci:2025, section 31.2]:
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- **Brainwrite:** write ideas individually
-- then pass ideas to someone else
-- elaborate on the first person's ideas
-- then pass to the next person etc
-- after 15 minutes discuss
-- **Brainwalk:** walk around “ideation stations”
+1. **Sharpen the focus** --- clear, but not so narrow it limits solutions
+2. **Playful rules** --- no criticism, no debating the brief
+3. **Number your ideas** --- aim for ~100 in an hour
+4. **Build and jump** --- when the rate drops, jump to another part of the problem
 :::
 ::: {.column width="50%"}
-![HCI tutorial tables in 2025](img/tables-2025.jpg)
+5. **The space remembers** --- spread ideas over tables, walls, whiteboards
+6. **Stretch first** --- warm up with a word game
+7. **Get physical** --- bring props, materials, competitors' products
+
+**Brainstorm killers:** letting the most senior person speak first (or most), insisting on experience, not being playful.
 :::
 ::::::::::::::
 
-## 5. Worst Possible Idea
+## Worst Possible Idea
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
@@ -476,96 +483,34 @@ Prepare for this question: "Why is that bad?"
 
 ## Why bad is the new good
 
-!["Why bad ideas are a good idea" [@dix2006bad] ([PDF link](https://alandix.com/academic/papers/HCIed2006-badideas/HCIED2006-badideas-CRC-v2.pdf))](img/06_ideation_3.png)
-
-## Bad ideas: what why and when not
-
-![What, why and when not to. [@dix2006bad] ([PDF link](https://alandix.com/academic/papers/HCIed2006-badideas/HCIED2006-badideas-CRC-v2.pdf))](img/06_ideation_4.png)
-
-## 6. Challenge Assumptions
-
-- take a step back from the challenge
-- what assumptions were made?
-- what were the users, context, activities 
-- are these decisions accurate and important?
-- could re-boot a struggling ideation session
-
-## 7. Mindmap
-
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- graphical technique
-- build a web of relationships
-- write a problem statement in the middle
-- write solutions and ideas on the same page
-- connect solutions and ideas with lines
+!["Why bad ideas are a good idea" [@dix2006bad]](img/06_ideation_3.png)
 :::
 ::: {.column width="50%"}
-![Photo by [charlesdeluvio](https://unsplash.com/@charlesdeluvio)](img/06_ideation_5.png)
+![What, why and when not to. [@dix2006bad] ([PDF](https://alandix.com/academic/papers/HCIed2006-badideas/HCIED2006-badideas-CRC-v2.pdf))](img/06_ideation_4.png)
 :::
 ::::::::::::::
 
-## 8. Sketch / Sketchstorm
+## But does forcing ideas work?
+
+Worth being honest about the evidence [@hornbaek-intro-hci:2025, section 31.2]:
+
+- **Lateral thinking** techniques (provocation, random words, worst possible idea) are *controversial* --- "there is a lack of solid evidence of the efficacy of such methods."
+- "Methods forcing idea generation may fail to produce creative ideas."
+- "It is easy to generate wild ideas, it is difficult to create wild ideas that are also **valuable**." Forced ideas are often just simple variations of existing solutions.
+
+So why do we do it? Because it gets a room talking and lowers the stakes for contributing --- a **teaching** and **team** benefit. Just don't confuse that with evidence that it produces better designs.
+
+## Analogies and metaphors
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- useful to express ideas as diagrams or sketches
-- visuals can provoke further ideas
-- sketches should be simple and rough
-- enough detail to convey meaning
-- but not supposed to be amazing
-- think openly and creatively about ideas
-- quantity over quality
-- easier to discuss, critique, share ideas
-:::
-::: {.column width="50%"}
-![Doing some circuit ideation at NIME2024.](img/nime2024-ideating.jpg){width=100%}
-:::
-::::::::::::::
+- **Analogy:** a comparison between two things --- powerful for both communication and sparking ideas
+- **Metaphor:** carry a structure from a domain the user *already knows* into your interface
+- **Provocation:** challenge the status quo to explore new realities (a lateral thinking technique)
 
-## 9. Storyboard
-
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-- stories for communication, learning, exploring
-- storyboard is a visual story
-- can add details, show time progression
-- understand people's lives and draw out stories
-- research: scenarios with pictures and user quotes
-- ideation: play with ideas, develop storyline, actors, plot
-- tension, surprises, emotions, struggle, resolution
-:::
-::: {.column width="50%"}
-![Image source: [Storyboards Help Visualise UX Ideas (NNgroup)](https://www.nngroup.com/articles/storyboards-visualize-ideas/)](img/06_ideation_6.png)
-:::
-::::::::::::::
-
-## 10. Bodystorm
-
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-- physically acting out processes, scenarios
-- express solutions to ideas through physical activity
-- enact problem scenarios
-- get physically involved in theorising
-- combines empathy, brainstorming, prototyping
-- increased energy and movement
-- could include a space with props
-:::
-::: {.column width="50%"}
-![Bodystorming some art in 2008.](img/bodystorm.jpg)
-:::
-::::::::::::::
-
-## 11. Analogies / 12. Provocation
-
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-- **Analogies:** comparison between two things
-- Powerful tool for communication and sparking ideas
-- Express complex ideas clearly
-- **Provocation:** lateral thinking technique
-- [challenges the status quo, explore new realities](https://www.justinmind.com/blog/8-ux-ideation-techniques-to-try-out/)
+Both analogy and metaphor are in the professional top eight --- these are not warm-up games.
 :::
 ::: {.column width="50%"}
 ![What if the microbit was really REALLY big.](img/macrobit.jpg)
@@ -582,106 +527,86 @@ Exploit similarities to user's knowledge of other domains. E.g.,
 - **Desktop** and **Recycle bin**
 - **Shopping trolley** and **checkout**
 - **_Surfing the web_**
+
+We'll come back to design metaphors for AI in week 12.
 :::
 ::: {.column width="60%"}
 ![A highly metaphorical interface. [@gentner-anti-mac:1996]](img/gentner-anti-mac-interface.jpg){width=100%}
 :::
 ::::::::::::::
 
-## 13. SCAMPER
-
-> Substitute,  Combine, Adapt, Modify, Put to another use, Eliminate, Reverse (SCAMPER)
-
-- Lateral ideation technique, utilises action verbs as stimuli
-- Asks seven kinds of questions to generate ideas
-- Take a product/service, work through the list and ask questions, are any of the answers viable?
-- [Scamper: How to Use the Best Ideation Methods (Interaction Design Foundation)](https://www.interaction-design.org/literature/article/learn-how-to-use-the-best-ideation-methods-scamper)
-
-## 14. Movement
+## Inspiration cards
 
 :::::::::::::: {.columns}
-::: {.column width="50%"}
-- Help if blocked in idea generation
-- Follows on from lateral thinking techniques
-- Might not result in concrete/usable ideas
-- Create a range of thinking stimuli
-- Making use of stimuli requires movement
-- Movement is a process to turn provocation into usable ideas
-- [https://thoughtegg.com/provocations-creative-technique/](https://thoughtegg.com/provocations-creative-technique/)
+::: {.column width="55%"}
+A structured way to force distant associations [@hornbaek-intro-hci:2025, section 31.2]:
+
+- **Technology cards** --- a technical opportunity or threat
+- **Domain cards** --- an experience or activity from users' lives
+- Draw at random, **pair them**, and ideate from the collision
+
+E.g., *distributed smart speakers* × *a family dinner*.
+
+Keeps ideas metaphorical **and** technically realistic. Card decks are a real HCI research contribution --- see the SMeFT Decks for hybrid boardgames [@rogerson-smeft-decks:2022].
 :::
-::: {.column width="50%"}
-![Photo by Asher Legg on Unsplash](img/asher-legg-MiintsWweZI-unsplash.jpg)
+::: {.column width="45%"}
+![Prototyping weird stuff at NIME2015](img/nime2015-cardboard-prototypes.jpg){width=100%}
 :::
 ::::::::::::::
 
-## 15. Gamestorming
+## Ideating in other representations
 
-[Gamified ideation](https://gamestorming.com/) aimed to increase engagement, energy, collaboration (gamified versions of other methods), e.g.,
-
-- Fishbowl: inner (discussion) and outer (observation) circles with different roles
-- Anti-Problem: flips the problem to consider the opposite
-- Cover Story: what future state would get on a magazine cover?
-- More here: [https://gamestorming.com/](https://gamestorming.com/)
-
-## 16. Cheatstorm
-
-- Re-using ideas from previous brainstorming sessions
-- Existing ideas leveraged as input or stimulus
-- Promotes "cognitive sustainability through reuse"
-- <https://www.interaction-design.org/literature/topics/cheatstorming>
-
-## 17. Crowdstorm
-
-- Involves target audience generates/approves ideas
-- Can be helpful to involve users in ideation process
-- Methods include social media, customer surveys, focus groups, co-design workshops
-- Can provide insights on which ideas to choose
-- Can find ideas that the team might have missed
-
-## 18. Co-Creation Workshops
+Not everything is a sticky note. Change the **representation** and you change the ideas:
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Combines different methods over hours, days, or weeks
-- Can be condensed into full day workshops
-- Full day workshops usually follow a sequence like:
-- Introductions and Icebreakers, Vision and Values Exercises, Empathy Exercises, Insight Mining, Challenge Framing, Ideation, Prototyping
+- **Sketch / sketchstorm:** simple, rough, quantity over quality --- enough detail to convey meaning, no more (much more next week)
+- **Storyboard:** a visual story --- time progression, actors, plot, tension, resolution
 :::
 ::: {.column width="50%"}
-![Co-creation in 2010.](img/cocreation.jpg)
+- **Bodystorm:** physically act out the scenario, with props --- combines empathy, brainstorming and prototyping
+- **Prototype:** building forces decisions and provokes new ideas. Thinking by doing.
 :::
 ::::::::::::::
 
-## 19. Prototype
+![Bodystorming some art in 2008.](img/bodystorm.jpg){width=30%}
+
+## Unsticking a blocked session
+
+Ideation gets stuck: you hit a wall, or anchor on an early idea (**design fixation** --- more next week).
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Prototyping can be an ideation technique
-- Creating a physical object requires decisions to be made
-- Encourages generation of new ideas
-- Explore alternative solutions
-- Building to think, thinking by doing
+- **Challenge assumptions:** step back --- what did we assume about users, context, activities? Are those accurate *and* important?
+- **Mindmap:** problem in the middle, ideas around it, connect with lines
+- **[SCAMPER](https://www.interaction-design.org/literature/article/learn-how-to-use-the-best-ideation-methods-scamper):** Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse
 :::
 ::: {.column width="50%"}
-![Prototyping weird stuff at NIME2015](img/nime2015-cardboard-prototypes.jpg){width=50%}
+- **[Movement](https://thoughtegg.com/provocations-creative-technique/):** turn a provocation into something usable
+- **Creative pause:** step back, reflect, go outside. Proactive rather than reactive thinking
+
+![[Beating Creative Blocks Through Reframing](https://www.youtube.com/watch?v=-GC8a5sRfC0&list=PLJOFJ3Ok_idsd431mj7czplN1PNEaJbHE&index=2)](img/06_ideation_2.png){width=80%}
 :::
 ::::::::::::::
 
-## 20. Creative Pause
+## Involving other people
+
+Remember dial 2: more people does **not** automatically mean more or better ideas. Choose deliberately.
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- ideation can get stuck.
-- block of ideas, hit a wall,
-- anchored to an early idea
-- caught up in negative thoughts
-- **creative pause:** step back, reflect, extract ourselves
-- proactive thinking, not reactive (can be negative)
+- **[Gamestorming](https://gamestorming.com/):** gamified ideation for energy and engagement --- Fishbowl, Anti-Problem, Cover Story
+- **[Cheatstorm](https://www.interaction-design.org/literature/topics/cheatstorming):** reuse ideas from earlier sessions as stimulus
 :::
 ::: {.column width="50%"}
-![Touch grass and look at the sky.](img/sky-and-sea.jpg)
+- **Crowdstorm:** the target audience generates or approves ideas --- social media, surveys, focus groups
+- **Co-creation workshops:** combine methods over hours or days --- icebreakers, vision, empathy, insight mining, framing, ideation, prototyping
 :::
 ::::::::::::::
+
+Most collaborative methods need a **facilitator**: someone keeping time and holding the group to the agreed principles.
+
+![Co-creation in 2010.](img/cocreation.jpg){width=30%}
 
 ## Online Ideation Tools
 
