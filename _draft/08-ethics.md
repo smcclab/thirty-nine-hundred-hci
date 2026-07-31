@@ -3,6 +3,8 @@ title: Human Ethics in HCI Research
 author: Dr Jennyfer Lawrence Taylor
 ---
 
+<!-- Note this is an old tutorial related to the human ethics approval procedure, not ethical AI in general. -->
+
 The purpose of this tutorial is to introduce you to the *ANU Responsible
 Conduct of Research Policy* and NHMRC *National Statement on Ethical
 Conduct in Human Research.* You will learn how to apply these principles

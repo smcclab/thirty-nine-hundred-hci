@@ -3,6 +3,7 @@ title: Design Sustainability
 author: Dr Jennyfer Lawrence Taylor
 ---
 
+<!-- older tutorial on sustainability in design -->
 
 The purpose of this tutorial is to help you think through the
 environmental dimensions of technology design and use, and how to
