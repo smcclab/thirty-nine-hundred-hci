@@ -30,8 +30,6 @@ To accomplish this task, you will need to have a strong understanding of _usabil
 
 Your submission will include documentation of your prototype, sketches, and a written design rationale. Your design rationale presents _the argument behind your design_ [@maclean-argument-behind-artifact:1989]: why it is appropriate, why it is likely to succeed compared with the other options you considered, and what trade-offs you have accepted. It explains the user's needs, their context of use, and their individual capacity and perspective, and it shows how your sketching and ideation led you to this prototype rather than another.
 
-A design rationale is **not a record of your design process**. You do not need to narrate what you did in the order you did it. You need to make an argument a reader could disagree with --- which means being explicit about the options you set aside and why.
-
 Your written rationale should have the following sections:
 
 - **Task, problem, and users:** explain the everyday task, the users you are targeting (i.e., the animal and the human), and the problems that these users will encounter at present.
