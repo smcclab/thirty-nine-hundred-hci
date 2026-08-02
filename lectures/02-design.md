@@ -527,6 +527,9 @@ Is this the opposite of brainstorming?
 - Come up with the worst ideas you can think of
 - Playful, fun, adventurous, effective
 - Know that ideas won't be scrutinised for being wrong
+
+Dix argued that _bad is the new good_ [@dix2006bad] using this as a class exercise.
+
 :::
 ::: {.column width="50%"}
 ![Photo by Andre Hunter on Unsplash](img/andre-hunter-5otlbgWJlLs-unsplash.jpg){width=100%}
@@ -545,26 +548,15 @@ Think for a minute or two and then we'll hear some answers. ⭐️🎙️🗣️
 Prepare for this question: "Why is that bad?"
 :::
 
-## Why bad is the new good
-
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-!["Why bad ideas are a good idea" [@dix2006bad]](img/06_ideation_3.png)
-:::
-::: {.column width="50%"}
-![What, why and when not to. [@dix2006bad] ([PDF](https://alandix.com/academic/papers/HCIed2006-badideas/HCIED2006-badideas-CRC-v2.pdf))](img/06_ideation_4.png)
-:::
-::::::::::::::
-
 ## Does lateral thinking work?
 
-Worth being honest about the evidence [@hornbaek-intro-hci:2025, section 31.2]:
+Not everybody likes lateral thinking.
 
-- **Lateral thinking** techniques (provocation, random words, worst possible idea) are *controversial* --- "there is a lack of solid evidence of the efficacy of such methods."
-- "Methods forcing idea generation may fail to produce creative ideas."
-- "It is easy to generate wild ideas, it is difficult to create wild ideas that are also **valuable**." Forced ideas are often just simple variations of existing solutions.
+- **Lateral thinking** techniques (provocation, random words, worst possible idea) are a bit controversial [@hornbaek-intro-hci:2025, section 31.2]
+- Wild ideas can be easy to find, but it's not clear that they are valuable.
+- Forced ideas are often variations on existing solutions.
 
-So why do we do it? Because it gets a room talking and lowers the stakes for contributing --- a **teaching** and **team** benefit. Just don't confuse that with evidence that it produces better designs.
+So why do we do it? Because it gets a room talking and lowers the stakes for contributing; but it may not lead to better designs.
 
 ## Analogies and metaphors
 
