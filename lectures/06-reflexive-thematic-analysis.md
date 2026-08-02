@@ -8,7 +8,7 @@ title-slide-attributes:
 
 ## Announcements
 
-assignment 2 published [on Canvas](https://canvas.anu.edu.au/courses/2781/assignments/11550):
+assignment 2 published [on Canvas](https://canvas.anu.edu.au/courses/11488/assignments/43580):
 
 > Your challenge is to run a small **needs finding study** with 3--5 participants focused on your classmates' use of AI tools. You will answer the research question: "What are the unmet needs, frustrations, and desired capabilities that students experience when using AI tools in a specific context of their life?"
 

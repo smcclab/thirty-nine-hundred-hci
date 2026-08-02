@@ -24,7 +24,7 @@ You should complete the following activities prior to attending your tutorial:
 
 2.  Read the following chapters from *Interaction Design: Beyond Human-Computer Interaction* **Chapter 14 Introducing Evaluation**, **Chapter 15 Evaluation Studies: From Controlled to Natural Settings** [@rogers-beyond-hci:2023].
 
-3. Write a forum post (100-200 words) summarising your research plan in preparation for [Assignment 2](https://canvas.anu.edu.au/courses/2781/assignments/11550). In your post, name the AI use context you have chosen to investigate, and explain why you selected it. Then briefly outline your research plan, including your strategies for data collection and the analysis framework(s) you intend to use. You must also include at least two references from relevant HCI literature---these could relate to prior studies in similar areas, research methodologies, conceptual frameworks, or other scholarly resources relevant to your topic.
+3. Write a forum post (100-200 words) summarising your research plan in preparation for Assignment 2. In your post, name the AI use context you have chosen to investigate, and explain why you selected it. Then briefly outline your research plan, including your strategies for data collection and the analysis framework(s) you intend to use. You must also include at least two references from relevant HCI literature---these could relate to prior studies in similar areas, research methodologies, conceptual frameworks, or other scholarly resources relevant to your topic.
 
 Following on from the assignment work last week you should have:
 

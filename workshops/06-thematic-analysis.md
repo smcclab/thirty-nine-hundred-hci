@@ -18,7 +18,7 @@ You must complete these tasks before the start of your tutorial.
 3. Find _your_ pre-class forum posts from the Week 1 and 2 tutorials and copy the text into a new file. Recall that these tasks were about technology in your early life and observing someone else's use of technology.
 4. _Code_ the data according to the [instructions in the week 6 lecture](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/06-reflexive-thematic-analysis.html#/phase-2-code-the-data). You should add your code(s) in square brackets at the end of each sentence of part of the text.
 5. Post your coded text on the course forum including a list of the codes you used at the end.
-6. Make sure you have read and understood [Assignment 2](https://canvas.anu.edu.au/courses/2781/assignments/11550), choose 3 possible AI use contexts that you might like to investigate.
+6. Make sure you have read and understood [Assignment 2](https://canvas.anu.edu.au/courses/11488/assignments/43580), choose 3 possible AI use contexts that you might like to investigate.
 
 ## Plan for the Class
 
