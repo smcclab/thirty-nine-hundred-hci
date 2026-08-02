@@ -37,13 +37,17 @@ INDEX_GENERATOR = generate_index.py
 PANDOC = pandoc
 
 # -V revealjs-url=https://unpkg.com/reveal.js@4.5.0
-PANDOC_COMMON_OPTS = --standalone \
-                     --slide-level 2 \
-                     --citeproc \
-                     --bibliography=$(REFERENCES) \
-                     --csl=apa.csl \
-                     -M link-citations=true \
-                     --resource-path=.:$(LECTURES_DIR):$(ASSESSMENTS_DIR):$(RESOURCES_DIR):$(WORKSHOPS_DIR)
+# Everything except --standalone. The Canvas fragment build (see canvas-html)
+# needs the same citation/resource handling but must NOT be standalone, so the
+# shared part lives here and --standalone is added back on the next line.
+PANDOC_BASE_OPTS = --slide-level 2 \
+                   --citeproc \
+                   --bibliography=$(REFERENCES) \
+                   --csl=apa.csl \
+                   -M link-citations=true \
+                   --resource-path=.:$(LECTURES_DIR):$(ASSESSMENTS_DIR):$(RESOURCES_DIR):$(WORKSHOPS_DIR)
+
+PANDOC_COMMON_OPTS = --standalone $(PANDOC_BASE_OPTS)
 
 REVEAL_OPTS = -t revealjs \
               -V controls=true \
@@ -268,13 +272,14 @@ $(ALL_WORKSHOPS_MD): $(WORKSHOPS_MDS)
 	cat $^ > $@
 
 # =============================================================================
-# Canvas — push built PDFs to the ANU Canvas course (canvas/ tooling)
+# Canvas — push built content to the ANU Canvas course (canvas/ tooling)
 # =============================================================================
 # Requires a Canvas API token (CANVAS_TOKEN env var or ~/.config/canvas/anu-token).
 # See canvas/README.md. Uploads use on_duplicate=overwrite so existing Home-page
 # links keep pointing at the refreshed slides.
 
 .PHONY: canvas-lectures canvas-lectures-dry canvas-lectures-mega canvas-inspect
+.PHONY: canvas-html canvas-assignments canvas-assignments-dry
 
 # Preview what would be pushed (reads Canvas, uploads nothing):
 canvas-lectures-dry:
@@ -293,3 +298,40 @@ canvas-lectures-mega: beamer bigfiles
 # Read-only dump of the current Canvas course structure:
 canvas-inspect:
 	python3 canvas/inspect_course.py
+
+# -----------------------------------------------------------------------------
+# Assignment descriptions (assessments/ + workshops/ -> Canvas Assignment pages)
+# -----------------------------------------------------------------------------
+# Canvas stores an assignment description as an HTML *fragment* — no <html>,
+# <head> or <body>, and no title (the assignment name supplies that). So these
+# builds deliberately drop --standalone, unlike every other HTML target here.
+# --wrap=none keeps the payload on one line per block, which makes the dry-run
+# diff against the live page readable.
+#
+# Image srcs are left as-is (img/foo.jpg); push_assignments.py rewrites them to
+# Canvas file URLs at push time, since only it knows the Canvas file ids.
+
+CANVAS_OUT = $(OUTPUT_DIR)/canvas
+
+CANVAS_PANDOC_OPTS = $(PANDOC_BASE_OPTS) --wrap=none
+
+CANVAS_ASSESSMENTS_HTMLS = $(patsubst $(ASSESSMENTS_DIR)/%.md,$(CANVAS_OUT)/$(ASSESSMENTS_DIR)/%.html,$(ASSESSMENTS_MDS))
+CANVAS_WORKSHOPS_HTMLS   = $(patsubst $(WORKSHOPS_DIR)/%.md,$(CANVAS_OUT)/$(WORKSHOPS_DIR)/%.html,$(WORKSHOPS_MDS))
+
+canvas-html: $(CANVAS_ASSESSMENTS_HTMLS) $(CANVAS_WORKSHOPS_HTMLS)
+
+$(CANVAS_OUT)/$(ASSESSMENTS_DIR)/%.html: $(ASSESSMENTS_DIR)/%.md $(REFERENCES)
+	@mkdir -p $(dir $@)
+	$(PANDOC) $(CANVAS_PANDOC_OPTS) $< -o $@
+
+$(CANVAS_OUT)/$(WORKSHOPS_DIR)/%.html: $(WORKSHOPS_DIR)/%.md $(REFERENCES)
+	@mkdir -p $(dir $@)
+	$(PANDOC) $(CANVAS_PANDOC_OPTS) $< -o $@
+
+# Preview the description changes as a diff against what is live (uploads nothing):
+canvas-assignments-dry: canvas-html
+	python3 canvas/push_assignments.py --dry-run
+
+# Build the fragments, then overwrite the Canvas assignment descriptions:
+canvas-assignments: canvas-html
+	python3 canvas/push_assignments.py

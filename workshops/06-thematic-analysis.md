@@ -5,7 +5,7 @@ author: Dr Charles Martin and Karla Kelly
 
 # Thematic Analysis
 
-![OMG All That Data. What are we going to do with it?](img/omg-data.png)
+![OMG All That Data. What are we going to do with it?](img/omg-data.png){width=80%}
 
 The purpose of this tutorial is to give you hands-on experience in conducting thematic analysis on qualitative data. You will use your own pre-class tasks as qualitative data and go through a process of coding, themeing, and refining themes to develop clear findings. You will also get organised to complete Assignment 2.
 
@@ -14,11 +14,11 @@ The purpose of this tutorial is to give you hands-on experience in conducting th
 You must complete these tasks before the start of your tutorial.
 
 1. Read Chapter 9: Interpretation, Data Analysis, and Presentation in [@rogers-beyond-hci:2023]. Available as an e-book through the library.
-2. Read this resource: <https://www.nngroup.com/articles/affinity-diagram/> and watch this video: <https://youtu.be/C4nYxZxteJY>  
+2. Read this resource: <https://www.nngroup.com/articles/affinity-diagram/> and watch this video: <https://youtu.be/C4nYxZxteJY>
 3. Find _your_ pre-class forum posts from the Week 1 and 2 tutorials and copy the text into a new file. Recall that these tasks were about technology in your early life and observing someone else's use of technology.
 4. _Code_ the data according to the [instructions in the week 6 lecture](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/06-reflexive-thematic-analysis.html#/phase-2-code-the-data). You should add your code(s) in square brackets at the end of each sentence of part of the text.
 5. Post your coded text on the course forum including a list of the codes you used at the end.
-6. Make sure you have read and understood [Assignment 2](https://canvas.anu.edu.au/courses/2781/assignments/11550), choose 3 possible AI use contexts that you might like to investigate. 
+6. Make sure you have read and understood [Assignment 2](https://canvas.anu.edu.au/courses/2781/assignments/11550), choose 3 possible AI use contexts that you might like to investigate.
 
 ## Plan for the Class
 
@@ -33,7 +33,7 @@ The tutorial will follow this structure:
 
 ### 0. Discuss pre-class tasks (10 minutes)
 
-As a class, or in groups of 4--5, discuss how your coding process went. 
+As a class, or in groups of 4--5, discuss how your coding process went.
 
 - What codes did you choose?
 - Do these meet the criteria for codes?
@@ -59,7 +59,7 @@ For each theme:
 - Add any further context
 - What is the impact of your theme? What important knowledge does it tell you about technology use? "So what?"
 
-Your tutor will drop into each group to discuss your themes and mapping process. Remember that this is a key skill for the assignment so you need to practice! 
+Your tutor will drop into each group to discuss your themes and mapping process. Remember that this is a key skill for the assignment so you need to practice!
 
 Take a photo of your wall and findings and post on the forum!
 

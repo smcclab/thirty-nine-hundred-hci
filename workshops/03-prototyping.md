@@ -4,7 +4,7 @@ title: Prototyping
 
 # Prototyping
 
-![Collaborative Sketching and Ideating](img/sketching.jpg)
+![Collaborative Sketching and Ideating](img/sketching.jpg){width=50%}
 
 The purpose of this tutorial is to give you hands-on experience in low-fidelity prototyping, which is a key task in the assignment.
 
@@ -18,14 +18,14 @@ The purpose of this tutorial is to give you hands-on experience in low-fidelity 
 
 2. Read this resource: <https://www.nngroup.com/articles/ux-prototype-hi-lo-fidelity/>
 
-3. Post a forum post following the instructions below. 
+3. Post a forum post following the instructions below.
 
 Choose one object/interface that you have come across in your life that you think has a _bad_ design. Consider its use cases, functionalities, forms, and overall design features.
 
 **Sketch**[^sketch] and annotate the bad design, and upload it with your forum post (100-200 words) about this object/interface using these prompts:
 
 - Briefly introduce your chosen object/interface and how you came across it.
-- What is its core functionality? What form of interaction is it designed for? 
+- What is its core functionality? What form of interaction is it designed for?
 - Why is it bad? What would you do to improve the design?
 
 Bring your sketch and/or the object/interface in to class this week if possible for discussion.
@@ -36,10 +36,10 @@ Bring your sketch and/or the object/interface in to class this week if possible 
 
 The tutorial will follow this structure:
 
-0.  Discuss pre-class tasks 
-1.  Ideation 
-2.  Paper Prototypes 
-3.  Discussion 
+0.  Discuss pre-class tasks
+1.  Ideation
+2.  Paper Prototypes
+3.  Discussion
 
 ## In-Class Tasks
 
@@ -47,8 +47,8 @@ The tutorial will follow this structure:
 
 As a class or in groups of 4-5, introduce your chosen objects/interfaces to each other and consider the following prompts:
 
-- What is its intended functionality? 
-- In what context or situation might someone need this functionality? 
+- What is its intended functionality?
+- In what context or situation might someone need this functionality?
 - Who are the actors (personas) using this object/interface?
 - What is motivating these actors in the scenario?
 - What specific intention do they have in this situation?
@@ -61,24 +61,24 @@ Responding to those will help construct one scenario we will be ideating and pro
 
 In groups, we will do some rapid brainstorming to generate design ideas. Guided by your discussion above, choose **one object or interface to redesign**. You may want to come up with changes to the existing interface, or come up with a completely new solution. Our only request here is that your solution should be computer-based. This doesn't have to be just a desktop/mobile application or website, it could be a tangible interface, a hardware product, a robot, a smart home appliance, etc. Whatever it is, the interaction should be facilitated by a computer in some way.
 
-One methodology often used in design thinking is called "Crazy 8's" where you have 8 minutes to sketch out 8 ideas. [@google-crazy8] The ideas can be as good or bad as you want them to be. Your main objective is to come up with eight distinct ideas. The sketches don't have to be perfect, as long as they communicate your idea. 
+One methodology often used in design thinking is called "Crazy 8's" where you have 8 minutes to sketch out 8 ideas. [@google-crazy8] The ideas can be as good or bad as you want them to be. Your main objective is to come up with eight distinct ideas. The sketches don't have to be perfect, as long as they communicate your idea.
 
-- Each person will get one A3 piece of paper, and they will fold it into 8 sections. 
+- Each person will get one A3 piece of paper, and they will fold it into 8 sections.
 - Your tutor will start an 8 minute timer for you to begin sketching your ideas.
-- Individually, each person will sketch one idea in each of the 8 rectangles. Sketches can be either drawn or written (or both!). 
-- When the timer is up, all pens down. 
+- Individually, each person will sketch one idea in each of the 8 rectangles. Sketches can be either drawn or written (or both!).
+- When the timer is up, all pens down.
 
-After you finish, lay out all your ideas and walk around to read each of your other group members' ideas. Give yourself a few minutes to understand everyone's ideas. Now it's time to vote on your best idea. 
+After you finish, lay out all your ideas and walk around to read each of your other group members' ideas. Give yourself a few minutes to understand everyone's ideas. Now it's time to vote on your best idea.
 
 - Each person will get 3 votes.
-- You vote by drawing a star in the idea's rectangle, you can vote for an idea more than once if you think it deserves two or all three of your votes. 
+- You vote by drawing a star in the idea's rectangle, you can vote for an idea more than once if you think it deserves two or all three of your votes.
 - Come back together and finalise your best design.
 
 ### 2. Sketch out storyboards based on scenarios (10 mins)
 
-We will now work towards creating a lo-fi paper prototype of the sketch with the most votes. 
+We will now work towards creating a lo-fi paper prototype of the sketch with the most votes.
 
-In your group, create a story board of the proposed interaction in the winning sketch. You should have at least 5 but no more than 8 steps. Think through the steps that might be involved in the scenario and the personas involved, and draw up rough sketches to illustrate each step. Consider all moving parts discussed above, and try and decide on the key steps. 
+In your group, create a story board of the proposed interaction in the winning sketch. You should have at least 5 but no more than 8 steps. Think through the steps that might be involved in the scenario and the personas involved, and draw up rough sketches to illustrate each step. Consider all moving parts discussed above, and try and decide on the key steps.
 
 You'll only have 10 minutes so these do not have to be perfect in any way. The idea here is to break down the out the steps for interacting with your design/idea.
 

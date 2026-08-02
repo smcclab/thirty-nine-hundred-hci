@@ -45,15 +45,15 @@ Remember, for your study plan you need to collect quantitative and qualitative d
 
 ### 0. Discuss pre-class tasks (10 mins)
 
-Your pre-class task asked you to describe your planned study for Assignment 2. 
+Your pre-class task asked you to describe your planned study for Assignment 2.
 
 Recall that the research question you will investigate is:
 
 > "What are the unmet needs, frustrations, and desired capabilities that students experience when using AI tools in a specific context of their life?"
 
-As a class, discuss the following questions: 
+As a class, discuss the following questions:
 
-- How does your study plan address this research question? 
+- How does your study plan address this research question?
 - How have you ensured your study plan is feasible within the time constraints?
 - Why does your chosen AI use context make sense for this research question?
 
@@ -75,7 +75,7 @@ Consider the goal of your evaluation and a task that your might ask users to com
 
 Now it's time to consider your data collection. Recall that we are expecting both quantitative and qualitative data collection and analysis.
 
-- How will you collect your data? Why have you chosen these methods? 
+- How will you collect your data? Why have you chosen these methods?
 - Write up your means of data gathering. Consider what data you are trying to gather and how it contributes to your evaluation goal.
 - What kind of data will you be collecting? Will this involve identifiable information from participants?
 - What analysis methods will you use on your data? Why are these appropriate within your research context.
@@ -84,13 +84,13 @@ Now it's time to consider your data collection. Recall that we are expecting bot
 
 After you have gathered your data, it's time to analyse it.
 
-- What kind of analysis will you do for each type of data you collect? 
+- What kind of analysis will you do for each type of data you collect?
 - Are your chosen analysis methods appropriate within the context of your research?
 - Would any [personal or sensitive data](https://www.oaic.gov.au/privacy/your-privacy-rights/your-personal-information/what-is-personal-information) be stored as part of your analysis? Read the link to make sure you know what those terms mean!
 
 ### 2. Considering Ethics (20 mins)
 
-As makers/learners/developers/academics/humans, it's important to consider the ethical implications of any of our work. 
+As makers/learners/developers/academics/humans, it's important to consider the ethical implications of any of our work.
 The key ethical questions for an HCI evaluation with human participants are [@national-statement-ethical-conduct:2025]:
 
 1. What is the research activity that the participant will do?
@@ -111,13 +111,13 @@ Summarise your ethical considerations in 4-5 sentences and post it on the forum.
 
 ### Research cluster meeting (30 mins)
 
-The last 30 minutes of this workshop is dedicated to meeting with your group and working out the logistics of completing your evaluations. 
+The last 30 minutes of this workshop is dedicated to meeting with your group and working out the logistics of completing your evaluations.
 
-As a group you should: 
+As a group you should:
 
 - Talk through your overall assignment research plans with your group, and make sure to address any concerns your participants might have. You don't need to go into the details of your specific data collection questions (that will come during the actual mini study), but be clear about what you'll be asking participants to do and what their involvement will look like.
-- Decide on the time and place when you will conduct your data gathering. Remember that every tutorial in the course is followed by a 30 minute drop-in --- this means the room is booked and free to use for this course! 
-- Do your user research! If you have time and are prepared, you might like to take turns to conduct and participate in your assignment research activities in pairs. 
+- Decide on the time and place when you will conduct your data gathering. Remember that every tutorial in the course is followed by a 30 minute drop-in --- this means the room is booked and free to use for this course!
+- Do your user research! If you have time and are prepared, you might like to take turns to conduct and participate in your assignment research activities in pairs.
 
 ## Resources
 

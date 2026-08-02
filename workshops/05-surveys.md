@@ -5,9 +5,9 @@ author: Dr Charles Martin and Karla Kelly
 
 # Surveys
 
-In this class, we will practice administering one of the classic questionnaires in usability, the SUS (System Usability Scale). 
+In this class, we will practice administering one of the classic questionnaires in usability, the SUS (System Usability Scale).
 
-Questionnaires like the SUS and TLX are widely used in assessing how users perceive a user interface. Questionnaires are useful in gaining numerical information from a medium to large group of users quickly. They can be particularly useful in comparing different interactive systems, situations or user types as you can use statistical techniques to assess differences between samples. 
+Questionnaires like the SUS and TLX are widely used in assessing how users perceive a user interface. Questionnaires are useful in gaining numerical information from a medium to large group of users quickly. They can be particularly useful in comparing different interactive systems, situations or user types as you can use statistical techniques to assess differences between samples.
 
 In today's tutorial, you will do a mock survey with a user interface and the SUS. You will collect data together with others in the class and calculate descriptive statistics, generate plots, and perform significance testing using Python.
 
@@ -18,10 +18,10 @@ In today's tutorial, you will do a mock survey with a user interface and the SUS
 1. Read the following article from NNgroup on the SUS and TLX: <https://www.nngroup.com/articles/measuring-perceived-usability/>
 2. Find a quantitative or rating-scale style survey somewhere in the world, take a photo or screenshot.
 3. Post on the forum with your image and explain: 1) what the survey is and where you found it, 2) what type of data is captured, 3) how it is similar or different to the SUS and NASA TLX discussed in the article.
-4. In this tutorial, we will be using **Python**.  
-   You will need either:  
-   1) An active **Google account** to use [Google Colab](https://colab.google/) (runs in your browser, no installation required), **OR**  
-   2) **Python installed on your laptop** along with a notebook environment of your choice (we recommend [Jupyter Notebook](https://jupyter.org/)). 
+4. In this tutorial, we will be using **Python**.
+   You will need either:
+   1) An active **Google account** to use [Google Colab](https://colab.google/) (runs in your browser, no installation required), **OR**
+   2) **Python installed on your laptop** along with a notebook environment of your choice (we recommend [Jupyter Notebook](https://jupyter.org/)).
 
 ## Plan for the Class
 
@@ -66,7 +66,7 @@ Your tutor will also give you:
 
 ### 2. Collate your data (5 minutes)
 
-Your tutor will provide a **shared spreadsheet** for the whole class to enter results.  
+Your tutor will provide a **shared spreadsheet** for the whole class to enter results.
 This will allow us to compare SUS scores across groups to see which technology had better or worse usability.
 
 - Enter the results from the SUS survey you administered into the **shared** spreadsheet (e.g., Microsoft Excel).
@@ -93,38 +93,38 @@ This will allow us to compare SUS scores across groups to see which technology h
    SUS = [f"SUS{i}" for i in range(1, 11)]
    df  # show the DataFrame
    ```
-   
+
 4. Recode the positively worded SUS items (items 1, 3, 5, 7, and 9) by subtracting 1 from each response, so that their values range from 0 (“Strongly Disagree”) to 4 (“Strongly Agree”):
 
    ```python
    POS = ["SUS1","SUS3","SUS5","SUS7","SUS9"]
    df[POS] = df[POS] - 1
    ```
-   
-5. **Reverse code** the negatively worded items (for the SUS, these are the even-numbered items: 2, 4, 6, 8, 10).  
+
+5. **Reverse code** the negatively worded items (for the SUS, these are the even-numbered items: 2, 4, 6, 8, 10).
    This makes the scale consistent so that higher numbers always indicate better usability.
 
    ```python
    NEG = ["SUS2","SUS4","SUS6","SUS8","SUS10"]
    df[NEG] = 5 - df[NEG]
    ```
-   
-6. **Calculate the SUS score for each participant**  
+
+6. **Calculate the SUS score for each participant**
    Make sure all 10 items have been recoded to the 0–4 scale before this step.
    We'll remove any rows with missing items, then sum the items (0–40) and scale to 0–100.
 
    ```python
    # Remove rows with missing SUS items
    df = df.dropna(subset=SUS)
-   
+
    # Sum (0–40) and scale to 0–100
    df["SUS_score"] = df[SUS].sum(axis=1) * 2.5
-   
+
    # (Optional) quick check of the results
    print(df["SUS_score"].describe())
    ```
-   
-7. **Get the descriptive statistics**  
+
+7. **Get the descriptive statistics**
    Find the minimum, maximum, mean, and standard deviation of the SUS scores for each group.
 
    ```python
@@ -133,8 +133,8 @@ This will allow us to compare SUS scores across groups to see which technology h
    print(df.groupby("group")["SUS_score"].describe().round(2))
    ```
 
-8. **Plot a histogram of your data**  
-   Look at the shape of the distribution for each group.  
+8. **Plot a histogram of your data**
+   Look at the shape of the distribution for each group.
    Is the data evenly spread, skewed, or clustered?
 
    ```python
@@ -144,8 +144,8 @@ This will allow us to compare SUS scores across groups to see which technology h
    plt.show()
    ```
 
-9. **Create a boxplot**  
-   Compare the median, quartiles, and range of SUS scores for each group.  
+9. **Create a boxplot**
+   Compare the median, quartiles, and range of SUS scores for each group.
    Look for any outliers (points that sit far from the rest of the data).
 
    ```python
@@ -157,11 +157,11 @@ This will allow us to compare SUS scores across groups to see which technology h
    plt.show()
    ```
 
-10. **Compare the findings**  
-    Use Welch's t-test to check whether there is a statistically significant difference in SUS scores between the two groups.  
-    The output will also show which group had the higher average score.  
-    **Interpretation guide:**  
-    - If `p < 0.05`: The difference is considered statistically significant (unlikely due to chance).  
+10. **Compare the findings**
+    Use Welch's t-test to check whether there is a statistically significant difference in SUS scores between the two groups.
+    The output will also show which group had the higher average score.
+    **Interpretation guide:**
+    - If `p < 0.05`: The difference is considered statistically significant (unlikely due to chance).
     - If `p >= 0.05`: The difference is *not* statistically significant (could be due to random variation).
 
     ```python
@@ -198,9 +198,9 @@ This will allow us to compare SUS scores across groups to see which technology h
     else:
         print("Need exactly two groups for comparison.")
     ```
-       
-11. **Summarise your findings in plain language**  
-    After running the t-test and checking your descriptive statistics, write a short summary that anyone could understand.  
+
+11. **Summarise your findings in plain language**
+    After running the t-test and checking your descriptive statistics, write a short summary that anyone could understand.
     Post your summary in the class thread!
 
     **Example reporting template:**
@@ -213,7 +213,7 @@ This will allow us to compare SUS scores across groups to see which technology h
 
 ### 4. Discuss your key learnings (10 minutes)
 
-Your tutor will lead you in a discussion about what you learned from using the SUS and the analysis process. 
+Your tutor will lead you in a discussion about what you learned from using the SUS and the analysis process.
 
 - What did you find?
 - How easy or difficult was it to use the scale?
@@ -221,8 +221,8 @@ Your tutor will lead you in a discussion about what you learned from using the S
 
 ## Important Notes
 
-This activity is a **quick introduction** to using the System Usability Scale (SUS) and basic statistical comparison in Python.  
-In real usability studies, **statistical tests have specific conditions and assumptions** that must be checked before deciding which analysis is appropriate.  
+This activity is a **quick introduction** to using the System Usability Scale (SUS) and basic statistical comparison in Python.
+In real usability studies, **statistical tests have specific conditions and assumptions** that must be checked before deciding which analysis is appropriate.
 
 For example:
 

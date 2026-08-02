@@ -3,7 +3,7 @@ title: Prototype Design and Research Project
 author: Dr Charles Martin
 ---
 
-![Using non-standard interactions to enhance everyday sustainable living.](img/2020-ar-interaction.jpg)
+![Using non-standard interactions to enhance everyday sustainable living.](img/2020-ar-interaction.jpg){alt="Two people using AR interfaces in an urban environment to interact with a physical sculpture." width=80%}
 
 ## Outline {#outline}
 
@@ -15,10 +15,10 @@ author: Dr Charles Martin
 
 ## Description {#description}
 
-The final project involves a complete design and evaluation process for a prototype interactive system. 
+The final project involves a complete design and evaluation process for a prototype interactive system.
 You must design a prototype system in response to a real-world problem. You will evaluate this system and report on the results using HCI research methods. Your design and evaluation challenge is as follows:
 
-> **Sustainable living through technology**: You woke up this morning, checked your email, and found that you have a new job---_ANU Student Lead for Sustainable Living_! Your challenge is to help university students adopt sustainable behaviours in their everyday lives guided by the [UN Sustainable Development Goals (SDG)](https://sdgs.un.org/goals) which call for urgent action on climate change, responsible consumption, and sustainable communities. You will need to _choose a focus_ (e.g., energy use, waste reduction, transportation, consumption), _prototype_ and _evaluate_ an interface to make sustainable living more accessible, engaging or effective. Your system should involve a level of non-standard interaction[^nonstandardinteraction], either through unusual use of standard computer IO hardware, or a novel interface. 
+> **Sustainable living through technology**: You woke up this morning, checked your email, and found that you have a new job---_ANU Student Lead for Sustainable Living_! Your challenge is to help university students adopt sustainable behaviours in their everyday lives guided by the [UN Sustainable Development Goals (SDG)](https://sdgs.un.org/goals) which call for urgent action on climate change, responsible consumption, and sustainable communities. You will need to _choose a focus_ (e.g., energy use, waste reduction, transportation, consumption), _prototype_ and _evaluate_ an interface to make sustainable living more accessible, engaging or effective. Your system should involve a level of non-standard interaction[^nonstandardinteraction], either through unusual use of standard computer IO hardware, or a novel interface.
 
 [^nonstandardinteraction]: Non-standard interaction is a bit difficult to define but should be something that goes beyond a standard web-application operated only by keyboard, mouse, or touchscreen. Your prototype can involve these standard technologies, it should also involve interaction beyond them in some way.
 
@@ -66,7 +66,7 @@ You must record a 5-minute presentation that articulates your work in the format
 
 The easiest way to create a five-minute presentation would be to use Microsoft Powerpoint, and record the presentation using the built in recording tool. Instructions for [recording the presentation are here (link)](https://support.microsoft.com/en-au/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33). Microsoft 365 applications [are provided to all ANU students](https://services.anu.edu.au/information-technology/software-systems/microsoft-office-365).
 
-**Important:** Note that you **must not** use generative AI or text-to-speech software to create or record your presentation. It must be you presenting your research and you must be identifiable in the video recording. 
+**Important:** Note that you **must not** use generative AI or text-to-speech software to create or record your presentation. It must be you presenting your research and you must be identifiable in the video recording.
 
 Submissions that do not clearly meet these requirements may be aligned with the "N" standard in one or more rubric criteria and may be required to complete a supplementary presentation before grades are finalised.
 

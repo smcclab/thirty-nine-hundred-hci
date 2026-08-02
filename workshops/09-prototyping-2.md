@@ -5,7 +5,7 @@ author: Dr Charles Martin
 
 # Prototyping for Evaluation
 
-![Testing a prototype electronic carillon key (a [carillon is a big bell tower](https://www.nca.gov.au/attractions/national-carillon) with bells controlled from a big keyboard). This prototype was interactive, clear, evaluative and focused.](img/prototype-carillon-2019.jpg)
+![Testing a prototype electronic carillon key (a [carillon is a big bell tower](https://www.nca.gov.au/attractions/national-carillon) with bells controlled from a big keyboard). This prototype was interactive, clear, evaluative and focused.](img/prototype-carillon-2019.jpg){alt="A wooden prototype carillon key on a desk with electronic sensor and spring to simulate the carillon action. A Bela embedded computer sits next to it. A man's hand presses the key down."}
 
 This tutorial will guide you in building prototypes that move beyond expressing a design concept and are prepared for evaluation. We will particularly focus on what makes a prototype testable and criteria that you might apply to prototypes you create for your final project.
 
@@ -18,9 +18,9 @@ This tutorial will guide you in building prototypes that move beyond expressing 
 3. Post a forum post (100–200 words) answering:
 
    - **What is the system and what does it do?**
-   - **Which parts of the interface are interactive?** How does the user engage with the system?  
-   - **What steps/tasks did participants do in the user study?**  
-   - **If you made a prototype of this interface, what would you need to include to test it?**  
+   - **Which parts of the interface are interactive?** How does the user engage with the system?
+   - **What steps/tasks did participants do in the user study?**
+   - **If you made a prototype of this interface, what would you need to include to test it?**
    - Include **one image or sketch** to illustrate the interface (figure from paper, screenshot, or your annotated sketch highlighting key interactive components).
 
 N.B., for this task, make sure you choose a paper from CHI or UIST that actually describes a novel interface. If your answer to "what is the system" is "this paper did not introduce a system" then you did not choose an appropriate paper!
@@ -28,8 +28,8 @@ N.B., for this task, make sure you choose a paper from CHI or UIST that actually
 ## Plan for the Class
 
 1. Task 1: Understand the Concept of Testable Interactions (10m)
-2. Task 2: Build a Testable Prototype (50 min)  
-3. Task 3: Prototype Showcase and Peer Feedback (30 min)  
+2. Task 2: Build a Testable Prototype (50 min)
+3. Task 3: Prototype Showcase and Peer Feedback (30 min)
 
 ## In-Class Tasks
 
@@ -49,23 +49,23 @@ Read through the criteria, and keep them in mind for the activity below:
 2. **Clear:** Can users understand what the system is, what to do, and how it works?
    - Make the system's state and feedback obvious.
    - Examples: highlighting selections, showing confirmation messages, or providing visual cues for next steps.
-   - Ask: “Will a new user generally know what to do next without explanation?” 
+   - Ask: “Will a new user generally know what to do next without explanation?”
 3. **Evaluative:** Can you observe users, gather feedback, or identify what works and what doesn't?
    - Decide what success looks like and what errors or hesitation mean.
    - Examples: did the user complete the action correctly? Did they get confused or hesitate?
-   - Ask: “What can I measure or observe that tells me if this interaction is effective?”  
+   - Ask: “What can I measure or observe that tells me if this interaction is effective?”
 4. **Focused:** Are you including only what's needed to test the intended interaction or task?
    - Include the elements needed to test the key task; less focus on aesthetics or extra features.
    - Ask: “Does every part of this prototype help answer my testing question, or can something be removed?”
 
 Now, complete this **activity**:
 
-1. In your group, look at the pre-class forum posts.  
-2. Choose **the most interesting system or interface** posted by a group member.  
-3. Discuss:  
-   - Which part of the system could you prototype?  
-   - What is the key interaction?  
-   - What feedback would make it **clear** to users?  
+1. In your group, look at the pre-class forum posts.
+2. Choose **the most interesting system or interface** posted by a group member.
+3. Discuss:
+   - Which part of the system could you prototype?
+   - What is the key interaction?
+   - What feedback would make it **clear** to users?
    - How could you **observe success**?
    - Would your prototype meet the **four criteria** above?
 
@@ -87,15 +87,15 @@ In groups, your tutor will give you a **random user problem**. Focus on **one ke
 
 Here's the activity:
 
-1. In your group, **identify the key interaction** you want to focus on testing.  
+1. In your group, **identify the key interaction** you want to focus on testing.
 2. **Sketch and build a testable prototype** based on that key interaction.
 3. Build your prototype!
 4. Assess whether your prototype is _interactive_, _clear_, _evaluative_, and _focused_ (you can use the mapping table below to help structure your responses). If it isn't, change it until it is!
 
 A few prototyping notes:
 
-- Focus only on the **essential elements needed to test the interaction** — do not worry about polish or aesthetics.  
-- Materials can include **paper, printed screens, simple click-through slides, or other low-fidelity tools**.  
+- Focus only on the **essential elements needed to test the interaction** — do not worry about polish or aesthetics.
+- Materials can include **paper, printed screens, simple click-through slides, or other low-fidelity tools**.
 - Use a **Wizard of Oz** approach if needed to simulate system responses [@porcheron-wizard:2020].
 
 #### Mapping Table
@@ -106,19 +106,19 @@ A few prototyping notes:
 
 ### Task 3: Prototype Showcase & Peer Feedback (30 mins)
 
-Groups will **present and demonstrate their testable prototypes** to the class, allowing peers to interact and provide feedback. The focus is on **observing real user interactions**, not just explaining how the prototype works. Follow these steps:  
+Groups will **present and demonstrate their testable prototypes** to the class, allowing peers to interact and provide feedback. The focus is on **observing real user interactions**, not just explaining how the prototype works. Follow these steps:
 
-1. **Group Demo (1–2 min per group)**  
-   - Introduce the **scenario and user problem**.  
-   - Highlight the **key interaction**.  
+1. **Group Demo (1–2 min per group)**
+   - Introduce the **scenario and user problem**.
+   - Highlight the **key interaction**.
 
-2. **Peer Interaction (2–3 min per group)**  
-   - Each **other group** tries the interaction.  
-   - Observers record **one positive observation** and **one question or point of confusion** about the interaction.  
+2. **Peer Interaction (2–3 min per group)**
+   - Each **other group** tries the interaction.
+   - Observers record **one positive observation** and **one question or point of confusion** about the interaction.
    - Use a **feedback sheet** or notebook to capture responses.
 
-3. **Group Reflection (1–2 min per group)**  
-   - Each presenting group reads aloud **the one positive and one question** received from peers.  
+3. **Group Reflection (1–2 min per group)**
+   - Each presenting group reads aloud **the one positive and one question** received from peers.
    - Discuss briefly how they might **improve the prototype** based on this feedback.
 
 ## Resources

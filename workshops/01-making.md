@@ -5,7 +5,7 @@ author: Dr Charles Martin
 
 # Making
 
-![Using arts and crafts to develop ideas.](img/making.jpg)
+![Using arts and crafts to develop ideas.](img/making.jpg){alt="A box of arts and crafts materials on a studio floor."}
 
 This week we are going to start thinking about user experience and the meaning that computer systems have for us. Your pre-class task is going to start the process of reflecting on our own interests and patterns of computer use. In-class we will discuss and express our personal computing journeys through making.
 
@@ -42,7 +42,7 @@ Your tutor will introduce themselves and start to look through pre-class tasks o
 
 ### 1. Reflecting on Meaningful Technologies
 
-Going beyond the technicalities of how we may facilitate human-computer interaction, let's consider how computers have already interacted with us in our lives. Today's lab is all about reflecting on our experiences with computers and how that impacts the work we do with computers and what we may create in future. 
+Going beyond the technicalities of how we may facilitate human-computer interaction, let's consider how computers have already interacted with us in our lives. Today's lab is all about reflecting on our experiences with computers and how that impacts the work we do with computers and what we may create in future.
 
 Reflection is a cyclic and integral part of the creative process. There are many different frameworks of reflection for different use cases. [Driscoll's “What?” Model](https://reflection.ed.ac.uk/reflectors-toolkit/reflecting-on-experience/what-so-what-now-what) was developed in the mid-1990s [@reflection-toolkit-driscoll], creating a cycle of the following three questions:
 
@@ -95,6 +95,6 @@ Your zine might include:
 
 You can make this by folding and cutting a single A3 sheet (We'll show you how), or by stapling pages together if you prefer. If you want to follow the instructions yourself for folding, you can find them here: <https://www.42ndstreet.org.uk/support/read/how-to-make-your-own-zine/>. You can also watch [a video about how to do the folding](https://www.youtube.com/watch?v=Sz0BXlqa7dc).
 
-Take your time with this — it's not about making something perfect, but something meaningful. We've brought in different materials you're welcome to use to create your responses. 
+Take your time with this — it's not about making something perfect, but something meaningful. We've brought in different materials you're welcome to use to create your responses.
 
 ## References

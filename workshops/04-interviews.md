@@ -5,11 +5,11 @@ author: Erika Wood
 
 # Interviews
 
-![Interviewing to gather data (Photo by Antenna on Unsplash)](img/antenna-cw-cj_nFa14-unsplash.jpg)
+![Interviewing to gather data (Photo by Antenna on Unsplash)](img/antenna-cw-cj_nFa14-unsplash.jpg){width=70%}
 
 This week you will gain hands-on experience with designing and conducting semi-structured interviews. This is one of the most common data collection methods in HCI research. Importantly, interviews help us to gather information related to our known research goals as well as information that we don't know to ask about.
 
-<!-- 
+<!--
 - Define and identify the features of a semi-structured user interview
 - Design an interview guide with well-defined themes and questions
 - Evaluate interview questions through practice with other participants
@@ -41,12 +41,12 @@ Answer one of the interview questions as a comment on their question. Make sure 
 
 Design a semi-structured interview guide on the topic of the pre-class task that you submitted last Week (Week 4). Last week you identified bad design features. This week, your goal is to explore the experience that someone else had with that object/interface or a similar one.
 
-[^1]: If you did not complete the task last week or want to change interface/object, that's ok. 
+[^1]: If you did not complete the task last week or want to change interface/object, that's ok.
 
 ## Plan for the Class
 
 <!-- 3.  Read the following paper to see an example of an interview guide
-    (accessible through the ACM Digital Library): 
+    (accessible through the ACM Digital Library):
     [Sara Ljungblad et al. 2021. What Matters in Professional Drone Pilots' Practice? An Interview Study to Understand the Complexity of Their Work and Inform Human-Drone Interaction Research. In Proc. CHI \'21.](https://doi-org.virtual.anu.edu.au/10.1145/3411764.3445737) [@ljungblad-what-matters:2021] -->
 
 

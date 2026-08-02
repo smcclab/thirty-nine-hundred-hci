@@ -5,9 +5,9 @@ author: Dr Charles Martin
 
 # Research Design
 
-![The physical setup for a lab-based HCI study at ANU.](img/08_yichen_study_setup.jpg)
+![The physical setup for a lab-based HCI study at ANU.](img/08_yichen_study_setup.jpg){alt="Setup for a controlled HCI study at ANU. Includes two tables with musical instruments, laptops, and chairs in a recording studio." width=80%}
 
-This tutorial will guide you through the process of designing a research project. You will learn how to identify real-world problems, recognise research gaps, and frame a strong research question. These skills connect directly to your final project. 
+This tutorial will guide you through the process of designing a research project. You will learn how to identify real-world problems, recognise research gaps, and frame a strong research question. These skills connect directly to your final project.
 
 As a pre-class task, you will analyse an existing evaluation study. In the in-class tasks, you will collaboratively discuss evaluation analyses, develop research questions, and plan an evaluation, along with an overall reflection.
 
@@ -101,7 +101,7 @@ Create an evaluation plan based on [this slide](https://smcclab.github.io/thirty
 The activity can be divided into two parts:
 
 - Define the overall evaluation goals, decide on suitable participants, select appropriate methods and settings, and identify the data you will collect and analyse.
-- Refine your plans further, including ethical considerations and consent, strategies for capturing and storing data, and the expected outputs of the evaluation process. 
+- Refine your plans further, including ethical considerations and consent, strategies for capturing and storing data, and the expected outputs of the evaluation process.
 
 Work with your group to go through each aspect, using the lecture slide for guidance. Your goal is to create an evaluation plan that clearly addresses your research questions.
 
@@ -124,5 +124,5 @@ You may use the format below as a guide (but you are not limited to it):
 - Four steps to write a research question: <https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/four-steps-to-write-a-research-question>
 - Spin the wheels for an HCI research project: <https://spinthewheel.io/wheels/6QtocP77prRkdHZ66s0hcz0xJmU9MA==>
 - Developing an evaluation plan: <https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/developing-an-evaluation-plan>
-  
+
 ## References

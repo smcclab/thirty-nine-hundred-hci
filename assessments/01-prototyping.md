@@ -3,7 +3,7 @@ title: Prototyping Animal-Computer Interaction
 author: Dr Charles Martin
 ---
 
-![Photo by [Alison Pang](https://unsplash.com/@alisonpang) on [Unsplash](https://unsplash.com/photos/brown-poodle-puppy-on-white-bed-linen-YJVD4Ddczjo)](img/alison-pang-YJVD4Ddczjo-unsplash.jpg)
+![Photo by [Alison Pang](https://unsplash.com/@alisonpang) on [Unsplash](https://unsplash.com/photos/brown-poodle-puppy-on-white-bed-linen-YJVD4Ddczjo)](img/alison-pang-YJVD4Ddczjo-unsplash.jpg){width=80%}
 
 ## Outline {#outline}
 
@@ -15,7 +15,7 @@ author: Dr Charles Martin
 
 ## Description {#description}
 
-Assignment 1 involves creating a prototype that solves a problem. 
+Assignment 1 involves creating a prototype that solves a problem.
 Your prototype must engage with an interaction design challenge and consider multiple perspectives.
 
 The interaction design challenge is as follows:
@@ -69,7 +69,7 @@ Here's how to get started with the work in this assignment:
 
 2. **Find out what your users can actually do.** Use your [research skills](https://scholar.google.com) to learn about your animal's senses, physical capabilities, and social behaviour. You can imagine that your animal is at least as intelligent as people and, if they have the physical ability to read, write, understand speech, or speak, they can.
 
-3. **Ideate and sketch at least three different options.** Use ideation techniques from week 2. The different sketches map out a design space for your rationale. 
+3. **Ideate and sketch at least three different options.** Use ideation techniques from week 2. The different sketches map out a design space for your rationale.
 
 4. **Choose one option, and articulate why.** What criteria did you judge the options against? What did you give up by choosing this one? See [design rationale](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/02-design.html#/design-rationale) from week 2.
 
