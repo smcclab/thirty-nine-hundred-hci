@@ -149,6 +149,19 @@ Some HCI research is technical or speculative, inventing technologies that are _
 :::
 ::::::::::::::
 
+## Research through Design
+
+Design isn't only the thing we _study_, it can be the _way the research is done_ [@frayling-research-art-design:1993]:
+
+_In research **through** design: **making** the artefact _is_ the enquiry_
+
+- Zimmerman et al. argued this counts as a method for HCI
+- build something that **reframes** a messy problem and embodies a preferred future
+- then judge it on _process, invention, relevance_ and _extensibility_ [@zimmerman-research-through-design:2007].
+- the formality of this process is still argued [@zimmerman-rtd-critique:2010].
+
+Gaver's caution: what RtD produces is **provisional, contingent and aspirational;** a portfolio of artefacts and annotations, not one tidy truth [@gaver-expectations-rtd:2012].
+
 # Design Rationales {background-image="img/sketch-2010.jpg" background-size="cover" background-opacity="0.35"}
 
 The assignment asks you to write a _design rationale_, but what is that?
@@ -543,7 +556,7 @@ Prepare for this question: "Why is that bad?"
 :::
 ::::::::::::::
 
-## But does forcing ideas work?
+## Does lateral thinking work?
 
 Worth being honest about the evidence [@hornbaek-intro-hci:2025, section 31.2]:
 
