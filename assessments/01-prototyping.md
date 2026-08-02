@@ -26,39 +26,66 @@ The interaction design challenge is as follows:
 
 [^int]: This bit is not real. I made this bit up.
 
-To accomplish this task, you will need to have a strong understanding of _usability_, _design_, and _prototyping_ as discussed in the first four weeks of this course. Your submission must demonstrate sophisticated engagement with these concepts.
+To accomplish this task, you will need to have a strong understanding of _usability_, _user experience_, _design_, and _prototyping_ as discussed in the first four weeks of this course. Your submission must demonstrate sophisticated engagement with these concepts.
 
-Your submission will include documentation of your prototype and design process as well as a written design rationale. Your written rationale should have the following sections:
+Your submission will include documentation of your prototype, sketches, and a written design rationale. Your design rationale presents _the argument behind your design_ [@maclean-argument-behind-artifact:1989]: why it is appropriate, why it is likely to succeed compared with the other options you considered, and what trade-offs you have accepted. It explains the user's needs, their context of use, and their individual capacity and perspective, and it shows how your sketching and ideation led you to this prototype rather than another.
 
-- **Task, problem, and users:** explain the task, the users you are targeting (i.e., the animal), and the problems that these users will encounter at present
-- **Design process:** explain the process you have followed to come up with a prototype including documentation of your sketching and ideation
-- **Prototype features:** explain your prototype and how it meets the needs of the users (animal and human) in this context of use
-- **References:** include at least two references in ACM format
+A design rationale is **not a record of your design process**. You do not need to narrate what you did in the order you did it. You need to make an argument a reader could disagree with --- which means being explicit about the options you set aside and why.
+
+Your written rationale should have the following sections:
+
+- **Task, problem, and users:** explain the everyday task, the users you are targeting (i.e., the animal and the human), and the problems that these users will encounter at present.
+- **Sketches and ideation:** present your sketches and annotations, articulate what differs between them and what the options would mean for your users.
+- **Prototype:** present and explain your prototype and how it meets the needs of the users (animal and human) in this context of use, explain the criteria used to choose this prototype and its limitations compared to other ideas.
+- **Acknowledgements:** acknowledge any external help you received, and any use of generative AI including the scope to which it was applied.
+- **References:** include at least two references in ACM format.
 
 ## Specification {#specification}
 
 Your submission must:
 
-- include at least three sketches
-- include visual documentation (i.e., a photograph) of a paper based prototype
+- be a **single markdown file**, `prototype-documentation.md`, using the headings provided in the template
+- include at least three sketches, embedded as images in that file
+- include visual documentation (i.e., at least one photograph) of a paper based prototype, also embedded
 - include at least two references to external sources in ACM format
-- be written in markdown format
-- be a maximum of 1500 words + 10% acceptable buffer (i.e., no more than 1650 words)
+- be a maximum of 1500 words + 10% acceptable buffer (i.e., no more than 1650 words), and at least 400 words. Image captions and the reference list do not count towards the total
+- image and media files go in the `materials/` folder of your fork
 - must be uploaded to _your fork_ of the [`comp3900-2026-A1-prototyping`](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A1-prototyping) repository on Gitlab by the due date
 
 ## Submission Process {#submission-process}
 
 1. Fork the template repository.
 2. Follow a design process of ideation, sketching, and prototyping to address the design challenge.
-3. Document your design process (e.g., with photos, screenshots, other media) and upload the documentation to _your fork_ of the template repository.
-4. Write a design rationale and reflection following the template in the design repository.
-5. Don't forget to include at least two references to external sources in ACM format in your documentation.
+3. Photograph your sketches and prototype, and add the image files to the `materials/` folder of _your fork_.
+4. Write your design rationale in `prototype-documentation.md`, using the headings provided and embedding your images where they support the argument.
+5. Don't forget to include at least two references to external sources in ACM format.
+6. Commit and **push** your changes to GitLab, and check that the CI jobs pass (green ticks).
 
 ## Notes {#notes}
 
-- Don't forget to ask for help or advice on the course forum: [Edstem discussions](https://edstem.org/au/courses/24905/discussion)
-- Generative AI is not banned in this course, but sketches, prototypes and written work is expected to be primarily your own work. Any use of generative AI must be cited including the scope to which it is applied. Use of generative AI without appropriate explanation and referencing comes under the _N_ category in the marking rubric.
+Here's how to get started with the work in this assignment:
 
+1. **Choose one animal and one everyday task.** Pick a single kind of non-human animal, and a single everyday task that a person currently uses a computer system for; e.g., ordering food, booking an appointment, checking a timetable. Specific is good.
+
+2. **Find out what your users can actually do.** Use your [research skills](https://scholar.google.com) to learn about your animal's senses, physical capabilities, and social behaviour. You can imagine that your animal is at least as intelligent as people and, if they have the physical ability to read, write, understand speech, or speak, they can.
+
+3. **Ideate and sketch at least three different options.** Use ideation techniques from week 2. The different sketches map out a design space for your rationale. 
+
+4. **Choose one option, and articulate why.** What criteria did you judge the options against? What did you give up by choosing this one? See [design rationale](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/02-design.html#/design-rationale) from week 2.
+
+5. **Build a paper prototype and photograph it.** Low fidelity is expected. Your prototype needs to show how the _interaction_ works, not how a finished product would look.
+
+6. **Write it up** in `prototype-documentation.md` using the provided headings. Refer to each image from your text (e.g., "my first sketch is shown in Figure 1") so your reader knows what they are looking at and why.
+
+7. **Push early and push often.** Check that the CI jobs pass before the deadline --- they check your word count and markdown formatting.
+
+Here's some general advice:
+
+- Don't forget to ask for help or advice on the course forum: [Edstem discussions](https://edstem.org/au/courses/37143/discussion)
+- Your rationale is an argument, not a report. If a reader could not possibly disagree with anything in it, you have written a description instead.
+- Generative AI is not banned in this course, but sketches, prototypes and written work is expected to be primarily your own work. Any use of generative AI must be cited including the scope to which it is applied. Use of generative AI without appropriate explanation and referencing comes under the _N_ category in the marking rubric.
+- "magical" solutions lack sophistication; sure, a magical brain-computer interface that understands all user intentions perfectly solves the task, but the prototype and rationale will be weak.
+- the gitlab template repository gives you feedback about your markdown formatting and word length. We grade your work from the gitlab repo, so make sure your submission looks good in gitlab's "preview" of the markdown text.
 
 ## Marking Rubric {#rubric}
 
