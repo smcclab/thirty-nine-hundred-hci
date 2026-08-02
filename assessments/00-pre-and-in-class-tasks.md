@@ -7,7 +7,7 @@ author: Dr Charles Martin
 
 - **Due date**: due at the start of _your_ tutorial
 - **Mark weighting**: 1% per tutorial (total of 10%)
-- **Submission**: submit your pre-lab tasks on [Edstem discussions](https://edstem.org/au/courses/24905/discussion)
+- **Submission**: submit your pre-lab tasks on [Edstem discussions](https://edstem.org/au/courses/37143/discussion)
 - **Policies**: late submissions not accepted without an extension
 
 ## Description
@@ -33,7 +33,7 @@ Each week's pre-class task must:
 _Before_ your tutorial for the week:
 
 1. Read the weekly tutorial materials to find out what specific tasks are required. You can find the pre-class tasks in a section under the heading "Pre-Class Tasks" and the in-class tasks in a section under the heading "In-Class Tasks".
-2. Go to the course forum ([Edstem discussions](https://edstem.org/au/courses/24905/discussion))
+2. Go to the course forum ([Edstem discussions](https://edstem.org/au/courses/37143/discussion))
 3. Create a new post the category of your post set to "Tutorials" and the subcategory set to the correct week (e.g., "Week2") so that we can find it easily.
 4. Don't forget to add any necessary images and at least two references.
 

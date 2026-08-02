@@ -3,7 +3,7 @@ title: Policies
 description: Expectations and rules for aspects of the course
 author: Dr Charles Martin
 ext_app_link: https://quicklink.anu.edu.au/101o
-course_forum: https://edstem.org/au/courses/24905/discussion
+course_forum: https://edstem.org/au/courses/37143/discussion
 ---
 
 This page extends and gives further context to information on the class
@@ -75,7 +75,7 @@ If you have accessibility issues that impact your attendance or ability to acces
 Any communication in this course will happen over one of two channels:
 
 1. your student email account
-2. the [course forum](https://edstem.org/au/courses/24905/discussion) (you will be added to this in this in week 1)
+2. the [course forum](https://edstem.org/au/courses/37143/discussion) (you will be added to this in this in week 1)
 
 If you need to ask a question about the course, here's how to do it:
 

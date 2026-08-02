@@ -79,7 +79,7 @@ Here's how to get started with the work in this assignment:
 
 Here's some general advice:
 
-- Don't forget to ask for help or advice on the course forum: [Edstem discussions](https://edstem.org/au/courses/24905/discussion)
+- Don't forget to ask for help or advice on the course forum: [Edstem discussions](https://edstem.org/au/courses/37143/discussion)
 - Generative AI is not banned in this course, but submitted assignments are expected to be primarily your own work. Any use of generative AI must be explained in your _Acknowledgements_ section including the scope to which it is applied. Use of generative AI without appropriate explanation and referencing comes under the _N_ category in the marking rubric.
 - You may use generative AI to help with aspects of data analysis (see lectures!) but you are responsible for the output and whether findings are justified or not; we may re-run analyses to check your data.
 
