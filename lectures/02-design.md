@@ -22,9 +22,9 @@ title-slide-attributes:
 - Discovering Requirements
 - Ideation
 
-# The Interaction Design Process
+# The Interaction Design Process {background-image="img/nime2024-elastic-prototype.jpg" background-size="cover" background-opacity="0.5"}
 
-![Designing an interactive system.](img/nime2024-elastic-prototype.jpg){width=50%}
+How do you get from a problem to something people can actually use?
 
 ## Creating systems that work for people
 
@@ -120,14 +120,14 @@ Expanding from "users" to "people" with more details [@rogers-beyond-hci:2023]
 
 ## Activity: People vs Users
 
-🙋🏽‍♀️🤷💁🏻🧠🗣️
-
-Find someone near you, ask who they are and discuss these questions:
+::: {.talk-box}
+**Talk:** 🙋🏽‍♀️🤷💁🏻🧠🗣️ Find someone near you, ask who they are, and discuss:
 
 1. Who is the most important stakeholder? Users? Managers? People? And why?
 2. How would you get information from this stakeholder?
 
 Chat for 3 minutes and we'll hear a few responses.
+:::
 
 ## Interaction Design Lifecycle
 
@@ -149,7 +149,7 @@ Some HCI research is technical or speculative, inventing technologies that are _
 :::
 ::::::::::::::
 
-# Design Rationales
+# Design Rationales {background-image="img/sketch-2010.jpg" background-size="cover" background-opacity="0.35"}
 
 The assignment asks you to write a _design rationale_, but what is that?
 
@@ -169,7 +169,7 @@ _could a reader disagree with you?_
 - **Not a rationale:** "the button is paw-sized, because dogs have paws" (nothing here to argue with)
 - **A rationale:** "I chose paw contact over nose contact because _..._, accepting that _..._" (now we can argue)
 
-## Your sketches are part of the argument
+## Sketches as argument
 
 Bill Gaver and John Bowers argued that an **annotated** portfolio of design work carries knowledge that _doesn't_ reduce to a list of findings [@gaver-annotated-portfolios:2012].
 
@@ -200,9 +200,9 @@ Your rationale does **not** have to reproduce that mess chronologically. Parnas 
 
 In **Assignment 1**: your _portfolio_ (sketches, prototype photos) shows the process. Your _rationale_ makes the argument.
 
-# Discovering Requirements
+# Discovering Requirements {background-image="img/2015-study-observation.jpg" background-size="cover" background-opacity="0.5"}
 
-![Image: [@rogers-beyond-hci:2023, s11.2]](img/design_1_requirements.png){width=50%}
+Where do requirements come from?
 
 ## What is a requirement?
 
@@ -269,7 +269,8 @@ A user story is a simple way to connect a requirement to a particular type of us
 
 ## Activity: Requirements
 
-Let's think of some design requirements for one of the following products:
+::: {.think-box}
+**Think:** Come up with a design requirement for **one** of the following products:
 
 - 🗣️ A voice-activated smart home assistant that helps individuals control lighting and temperature.
 
@@ -278,6 +279,7 @@ Let's think of some design requirements for one of the following products:
 - 🤖 A humanoid robot for assisting computer science students in computer labs.
 
 Spend 2-3 minutes developing one requirement and then let's hear a few. 🎤🎤🎤
+:::
 
 ## Data Gathering
 
@@ -391,13 +393,13 @@ Components:
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-🗺️💁🏻🎤 
-
-- Let's scenario map. 
+:::: {.activity}
+**Activity:** Let's scenario map 🗺️💁🏻🎤
 
 - Have a look at the following miro board and add a post it. (how many students are here? can we break miro?)
 
 - <https://miro.com/app/board/uXjVJa-m2gU=/?share_link_id=689171092569>
+::::
 :::
 ::: {.column width="50%"}
 ![The miro board](img/scenario-map-miro.png){width=80%}
@@ -405,9 +407,9 @@ Components:
 ::::::::::::::
 
 
-# Ideation
+# Ideation {background-image="img/nime2024-ideating.jpg" background-size="cover" background-opacity="0.5"}
 
-![Doing some circuit ideation at NIME2024.](img/nime2024-ideating.jpg){width=50%}
+How do you get from one idea to many?
 
 ## What is Ideation?
 
@@ -436,7 +438,7 @@ Generating **many** ideas: high probability that _at least one_ is close to idea
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-**Most used by professional designers** [@hornbaek-intro-hci:2025, section 31.2]:
+**Eight most used by professional designers** [@hornbaek-intro-hci:2025, section 31.2]:
 
 1. Brainstorming
 2. Morphological analysis
@@ -448,23 +450,19 @@ Generating **many** ideas: high probability that _at least one_ is close to idea
 8. Storyboards
 :::
 ::: {.column width="50%"}
-**Variants and others you'll meet:**
+**Variants:**
 
-Braindump, brainwrite, brainwalk, worst possible idea, challenge assumptions, mindmap, sketchstorm, bodystorm, provocation, SCAMPER, movement, gamestorming, cheatstorm, crowdstorm, co-creation, prototyping, creative pause
-
-Most are variations on the left-hand column. Don't memorise the list --- learn what makes them differ.
+Braindump, brainwrite, brainwalk, **worst possible idea**, challenge assumptions, mindmap, sketchstorm, **bodystorm**, provocation, SCAMPER, movement, gamestorming, cheatstorm, crowdstorm, co-creation, prototyping, creative pause
 :::
 ::::::::::::::
 
 ## Three ways ideation methods differ
 
-Rather than 20 techniques to remember, three dials to turn [@hornbaek-intro-hci:2025, section 31.2]:
+Three dials to turn [@hornbaek-intro-hci:2025, section 31.2]:
 
-1. **How far you reach for associations.** The further out, the more novel the ideas --- *but* "the proportion of valuable ideas decreases the more distant the ideas are from known solutions."
-2. **How other people are involved.** Careful: "having more people generating ideas does not automatically translate into more or better ideas."
+1. **How far you reach for associations.** The further out, the more novel the ideas, but the value might decrease
+2. **How other people are involved.** Groups can generate more ideas but very large groups are difficult to manage.
 3. **What representation you use.** Brainstorming is mostly **verbal**; sketching and storyboarding are **visuospatial**; bodystorming is **physical**.
-
-Pick a technique by deciding where you want those three dials --- not by working down a list.
 
 ## Brainstorming and its variants
 
@@ -472,46 +470,47 @@ Pick a technique by deciding where you want those three dials --- not by working
 ::: {.column width="55%"}
 Shared principles across nearly all the variants:
 
-- **Postpone criticism** --- don't throttle the generative phase
-- **Divergence** --- encourage wild, diverse ideas
-- **Quantity** --- as many as possible
+- **Postpone criticism:** don't throttle the generative phase
+- **Divergence:** encourage wild, diverse ideas
+- **Quantity:** as many as possible
 - **Build** on others' ideas
-- **Equal significance** --- every participant and idea counts
+- **Equal significance:** every participant and idea counts
 
 The named variants mostly change *who writes when*: **braindump** (individually, then share), **brainwrite** (write, pass on, elaborate), **brainwalk** (move between ideation stations).
 :::
 ::: {.column width="45%"}
 ![HCI tutorial tables in 2025](img/tables-2025.jpg)
 
-**Do this:** give people time to think **alone first**, before the group starts --- it stops everyone anchoring on the first idea spoken [@hornbaek-intro-hci:2025, section 31.2].
 :::
 ::::::::::::::
 
 ## How to run a brainstorm
 
-Kelley's recommendations, via [@hornbaek-intro-hci:2025, section 31.2]:
+Some ecommendations [@hornbaek-intro-hci:2025, section 31.2]:
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-1. **Sharpen the focus** --- clear, but not so narrow it limits solutions
-2. **Playful rules** --- no criticism, no debating the brief
-3. **Number your ideas** --- aim for ~100 in an hour
-4. **Build and jump** --- when the rate drops, jump to another part of the problem
+
+1. **Sharpen the focus:** clear, but not so narrow it limits solutions
+2. **Playful rules:** no criticism, no debating the brief
+3. **Number your ideas:** aim for ~100 in an hour
+4. **Build and jump:** when the rate drops, jump to another part of the problem
 :::
 ::: {.column width="50%"}
-5. **The space remembers** --- spread ideas over tables, walls, whiteboards
-6. **Stretch first** --- warm up with a word game
-7. **Get physical** --- bring props, materials, competitors' products
+5. **Use the space to remember:** spread ideas over tables, walls, whiteboards
+6. **Stretch first:** warm up with a word game
+7. **Props:** bring physical props, materials, competitors' products
 
-**Brainstorm killers:** letting the most senior person speak first (or most), insisting on experience, not being playful.
 :::
 ::::::::::::::
 
-## Worst Possible Idea
+## Lateral Thinking: Worst Possible Idea
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Flip brainstorming
+
+Is this the opposite of brainstorming?
+
 - Come up with the worst ideas you can think of
 - Playful, fun, adventurous, effective
 - Know that ideas won't be scrutinised for being wrong
@@ -521,17 +520,17 @@ Kelley's recommendations, via [@hornbaek-intro-hci:2025, section 31.2]:
 :::
 ::::::::::::::
 
-## Activity: What's the worst possible idea
+## Activity: What's the worst possible idea {background-image="img/andre-hunter-5otlbgWJlLs-unsplash.jpg" background-size="cover" background-opacity="0.3"}
 
-**(let's try it!)**
-
-What's the worst idea for:
+::: {.think-box}
+**Think:** (let's try it!) What's the worst idea for:
 
 > A way to help students balance work and study.
 
 Think for a minute or two and then we'll hear some answers. ⭐️🎙️🗣️
 
 Prepare for this question: "Why is that bad?"
+:::
 
 ## Why bad is the new good
 
@@ -608,69 +607,86 @@ Keeps ideas metaphorical **and** technically realistic. Card decks are a real HC
 
 ## Ideating in other representations
 
-Not everything is a sticky note. Change the **representation** and you change the ideas:
+Not everything is a sticky note.
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- **Sketch / sketchstorm:** simple, rough, quantity over quality --- enough detail to convey meaning, no more (much more next week)
-- **Storyboard:** a visual story --- time progression, actors, plot, tension, resolution
+
+- **Sketch:** simple, rough, quantity over quality enough detail to convey meaning, no more (much more next week)
+- **Storyboard:** a visual story
+- **Prototype:** building forces decisions and provokes new ideas. Thinking by doing.
+- **Bodystorm:** physically act out the scenario, with props --- combines empathy, brainstorming and prototyping
+
 :::
 ::: {.column width="50%"}
-- **Bodystorm:** physically act out the scenario, with props --- combines empathy, brainstorming and prototyping
-- **Prototype:** building forces decisions and provokes new ideas. Thinking by doing.
+![Bodystorming some art in 2008.](img/bodystorm.jpg)
+
 :::
 ::::::::::::::
 
-![Bodystorming some art in 2008.](img/bodystorm.jpg){width=30%}
-
 ## Unsticking a blocked session
 
-Ideation gets stuck: you hit a wall, or anchor on an early idea (**design fixation** --- more next week).
+Ideation gets stuck: you hit a wall, or anchor on an early idea (**design fixation**, more next week).
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- **Challenge assumptions:** step back --- what did we assume about users, context, activities? Are those accurate *and* important?
+
+- **Challenge assumptions:** what did we assume about users, context, activities? Are those accurate *and* important?
 - **Mindmap:** problem in the middle, ideas around it, connect with lines
 - **[SCAMPER](https://www.interaction-design.org/literature/article/learn-how-to-use-the-best-ideation-methods-scamper):** Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse
-:::
-::: {.column width="50%"}
 - **[Movement](https://thoughtegg.com/provocations-creative-technique/):** turn a provocation into something usable
 - **Creative pause:** step back, reflect, go outside. Proactive rather than reactive thinking
+:::
+::: {.column width="50%"}
 
-![[Beating Creative Blocks Through Reframing](https://www.youtube.com/watch?v=-GC8a5sRfC0&list=PLJOFJ3Ok_idsd431mj7czplN1PNEaJbHE&index=2)](img/06_ideation_2.png){width=80%}
+![[Beating Creative Blocks Through Reframing](https://www.youtube.com/watch?v=-GC8a5sRfC0&list=PLJOFJ3Ok_idsd431mj7czplN1PNEaJbHE&index=2)](img/06_ideation_2.png)
 :::
 ::::::::::::::
 
 ## Involving other people
 
-Remember dial 2: more people does **not** automatically mean more or better ideas. Choose deliberately.
-
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
+
 - **[Gamestorming](https://gamestorming.com/):** gamified ideation for energy and engagement --- Fishbowl, Anti-Problem, Cover Story
 - **[Cheatstorm](https://www.interaction-design.org/literature/topics/cheatstorming):** reuse ideas from earlier sessions as stimulus
-:::
-::: {.column width="50%"}
 - **Crowdstorm:** the target audience generates or approves ideas --- social media, surveys, focus groups
 - **Co-creation workshops:** combine methods over hours or days --- icebreakers, vision, empathy, insight mining, framing, ideation, prototyping
 :::
+::: {.column width="50%"}
+
+![Co-creation in 2010.](img/cocreation.jpg)
+:::
 ::::::::::::::
 
-Most collaborative methods need a **facilitator**: someone keeping time and holding the group to the agreed principles.
-
-![Co-creation in 2010.](img/cocreation.jpg){width=30%}
-
-## Online Ideation Tools
+<!-- ## Online Ideation Tools
 
 - Miro:  _[https://miro.com/online-brainstorm-tool/](https://miro.com/online-brainstorm-tool/)_
 - Mural:  _[https://www.mural.co/](https://www.mural.co/)_
-- Collections and Templates:
+
+Collections and Templates:
+
 - _[https://www.sessionlab.com/library/idea_generation](https://www.sessionlab.com/library/idea_generation)_
 - _[https://uxdesign.cc/the-master-online-ideation-toolbox-part-1-2-47401c3ad861](https://uxdesign.cc/the-master-online-ideation-toolbox-part-1-2-47401c3ad861)_
-- _[https://uxdesign.cc/the-master-online-ideation-toolbox-part-2-2-414f5122f8b7](https://uxdesign.cc/the-master-online-ideation-toolbox-part-2-2-414f5122f8b7)_
+- _[https://uxdesign.cc/the-master-online-ideation-toolbox-part-2-2-414f5122f8b7](https://uxdesign.cc/the-master-online-ideation-toolbox-part-2-2-414f5122f8b7)_ -->
 
-## Questions
+## Questions: Who has a question?
 
-Who has a question?
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+:::: {.questions}
+**Who has a question?**
+
+- I can take _cathchbox_ question up until end of the lecture
+- For after class questions: meet me outside the classroom at the bar (for 30 minutes)
+- Feel free to ask about **any aspect of the course**
+- Also feel free to ask about **any aspect of computing at ANU**! I may not be able to help, but I can listen.
+::::
+
+:::
+::: {.column width="40%"}
+![Meet you _at the bar_ for questions. 🍸🥤🫖☕️ Unfortunately no drinks served! 🙃](img/kambri-bar.jpg)
+:::
+::::::::::::::
 
 # References {.allowframebreaks}
