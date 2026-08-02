@@ -49,7 +49,13 @@ PANDOC_BASE_OPTS = --slide-level 2 \
 
 PANDOC_COMMON_OPTS = --standalone $(PANDOC_BASE_OPTS)
 
+# `# References {.allowframebreaks}` splits itself over as many frames as it
+# needs in Beamer. Reveal.js has no equivalent, so a filter chunks the
+# bibliography into slides; without it the entries overflow off the slide.
+REVEAL_FILTER = $(FILTERS_DIR)/reveal-refs-split.lua
+
 REVEAL_OPTS = -t revealjs \
+              --lua-filter=$(REVEAL_FILTER) \
               -V controls=true \
               -V progress=true \
               -V center=false \
@@ -122,7 +128,7 @@ BEAMER_PDFS  = $(patsubst $(LECTURES_DIR)/%.md,$(LECTURES_OUT)/%.pdf,$(LECTURE_M
 .PHONY: reveal
 reveal: $(LECTURES_OUT) $(REVEAL_HTMLS) images $(LECTURES_OUT)/charles_reveal_dark.css
 
-$(LECTURES_OUT)/%.html: $(LECTURES_DIR)/%.md
+$(LECTURES_OUT)/%.html: $(LECTURES_DIR)/%.md $(REVEAL_FILTER)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(REVEAL_OPTS) $< -o $@
 
 .PHONY: beamer

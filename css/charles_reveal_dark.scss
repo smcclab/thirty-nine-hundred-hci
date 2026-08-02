@@ -252,6 +252,21 @@ $extensionColour: #9b59b6;
 		font-style: normal;
     }
 
+	// bibliography (citeproc's #refs div)
+	// Entries are set smaller than body text so a reasonable number fit per
+	// slide; filters/reveal-refs-split.lua breaks the remainder onto further
+	// slides, and its line-fitting constants are tuned to this font size.
+	.csl-bib-body {
+		font-size: 0.5rem;
+		line-height: 1.2;
+
+		.csl-entry { margin-bottom: 0.4em; }
+
+		// a bibliography is mostly links; the bold sienna used elsewhere makes
+		// the whole list read as emphasis
+		a { font-weight: 400; }
+	}
+
 	.image-credit {
 		  $creditOpacity: 0.5;
       $linkOpacity: 0.1;

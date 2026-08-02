@@ -39,7 +39,7 @@ Beamer PDFs are built with `lualatex` and require these fonts: Linux Libertine O
 - `assessments/` — Assessment specs (`.md`), built to HTML + PDF
 - `workshops/` — Tutorial/workshop activities (`.md`), built to HTML only
 - `resources/` — Supplementary resources (`.md`), built to HTML only
-- `filters/` — pandoc Lua filters (`beamer-background.lua`), applied via `BEAMER_OPTS`
+- `filters/` — pandoc Lua filters: `beamer-background.lua` (applied via `BEAMER_OPTS`), `reveal-refs-split.lua` (via `REVEAL_OPTS`)
 - Each content directory has its own `img/` subdirectory — images **cannot be shared across directories**
 - `references.bib` — Shared BibTeX references (APA citation style via `apa.csl`)
 - `_config.toml` — Course metadata (title, institution, author, year) used by `generate_index.py`
@@ -82,12 +82,20 @@ One known gap: a background on an `{.unnumbered}` `#` heading is skipped (with a
 
 Citations use pandoc format: `[@bibtex-key]`, `[@bibtex-key, p26]`. References go in `references.bib`; referencing style is APA (`apa.csl`).
 
+### The References slide
+
+Each lecture ends with `# References {.allowframebreaks}`. That attribute is native to Beamer, which measures the bibliography and breaks it over as many frames as it needs. Reveal.js has no equivalent, so `filters/reveal-refs-split.lua` (wired in through `REVEAL_OPTS`) does the breaking by hand: it chunks the `#refs` div into slide-sized groups and inserts a `References (cont.)` heading before each group after the first. Without it, a deck with more than about eight citations runs its entries off the bottom of the slide, where they are invisible and unreachable.
+
+A Lua filter cannot measure rendered height, so the two constants at the top of the filter estimate it from entry text length. They were calibrated by measuring the rendered bibliography in a headless browser, and they assume both the 1920x1080 slide size set in `REVEAL_OPTS` and the `.csl-bib-body` font size in `css/charles_reveal_dark.scss` — **change either and they need recalibrating.** Getting them too large overflows silently, which is the bug the filter exists to fix, so both are set with slack; as of 2026-08-02 the fullest References slide across the twelve lectures uses 794px of the 1080 available.
+
 ## Custom Slide Styles
 
 The SCSS theme (`css/charles_reveal_dark.scss`) defines content box classes used in lectures:
 - `.activity`, `.questions` — section types with colored headers (green and burnt sienna)
 - `.info-box`, `.warn-box`, `.error-box`, `.success-box` — callout boxes
 - `.think-box`, `.talk-box`, `.push-box`, `.extension-box` — activity instruction boxes
+
+It also sets `.csl-bib-body` (citeproc's bibliography) smaller than body text. `filters/reveal-refs-split.lua` is calibrated against that font size — see [The References slide](#the-references-slide).
 
 ## Utility Scripts
 
