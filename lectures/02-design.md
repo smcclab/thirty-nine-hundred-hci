@@ -224,12 +224,13 @@ In **Assignment 1**: your _portfolio_ (sketches, prototype photos) shows the pro
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
+
 - Requirements can be captured casually, e.g., "app needs to be fast"
 - Can be useful to have more details, precision about the requirements, who needs them, and why.
 - Formal methods exist for capturing requirements in complex projects
 - Epics, user stories in Agile methodologies
 - Volere "Atomic Requirements Shell" (see figure)
-- _"Description, Rationale, Source, Fit criterion, Customer satisfaction..."_ 
+- _"Description, Rationale, Source, Fit criterion, Customer satisfaction..."_
 :::
 ::: {.column width="50%"}
 ![[@rogers-beyond-hci:2023, s11.3]](img/design_2_volere.png){width=60%}
