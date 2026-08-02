@@ -48,7 +48,7 @@ Your submission must:
 - include at least three sketches, embedded as images in that file
 - include visual documentation (i.e., at least one photograph) of a paper based prototype, also embedded
 - include at least two references to external sources in ACM format
-- be a maximum of 1500 words + 10% acceptable buffer (i.e., no more than 1650 words), and at least 400 words. Image captions and the reference list do not count towards the total
+- be a maximum of 1500 words + 10% acceptable buffer (i.e., no more than 1650 words), and at least 400 words. Acknowledgements, the reference list, commented text, numbers and other non-alphabet characters, and code blocks do not count towards the total; captions and tables do count.
 - image and media files go in the `materials/` folder of your fork
 - must be uploaded to _your fork_ of the [`comp3900-2026-A1-prototyping`](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A1-prototyping) repository on Gitlab by the due date
 
