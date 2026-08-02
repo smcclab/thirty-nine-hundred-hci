@@ -8,12 +8,12 @@ title-slide-attributes:
 
 ## Announcements
 
-- **Class reps!** Needed now! (need at least 4 in total, ~2 UG and ~2 PG)
+- **Class reps!** Needed now! (need at least 2 in total, ~1-2 UG and ~1-2 PG)
   - If you would like to nominate as a class rep, please make a private post on the class forum.
 - **Tutorial 1**: Making, this week make a zine!
 - **Big class!**
-  - keep showing up, 
-  - keep asking questions, 
+  - keep showing up,
+  - keep asking questions,
   - stay constructive and positive (especially with your tutors!)
 
 ## Plan for the class
@@ -148,6 +148,57 @@ Some HCI research is technical or speculative, inventing technologies that are _
 ![An uncommon technology: a VR walkable interface [@je-elevate:2021]](img/elevate_je2021.png){width=80%}
 :::
 ::::::::::::::
+
+# Design Rationales
+
+The assignment asks you to write a _design rationale_, but what is that?
+
+## What is a Design Rationale? {#design-rationale}
+
+- A design rationale is the **argument** behind your design: why **this** design and not other options [@maclean-argument-behind-artifact:1989]
+- Contrast with a _description_ of what you made.
+
+A design is one point in a _space_ of possibilities. The rationale is what maps the space [@maclean-qoc:1991].
+
+> "A Design Rationale is **not a record of the design process** --- it is a co-product of design along with the artifact and itself has to be designed." [@maclean-argument-behind-artifact:1989]
+
+## A quick unit test
+
+_could a reader disagree with you?_
+
+- **Not a rationale:** "the button is paw-sized, because dogs have paws" (nothing here to argue with)
+- **A rationale:** "I chose paw contact over nose contact because _..._, accepting that _..._" (now we can argue)
+
+## Your sketches are part of the argument
+
+Bill Gaver and John Bowers argued that an **annotated** portfolio of design work carries knowledge that _doesn't_ reduce to a list of findings [@gaver-annotated-portfolios:2012].
+
+- annotations capture the **family resemblances** between designs --- "a mesh of similarities and differences"
+- a _set_ of artefacts with commentary supports an argument that one might be a better choice than another.
+- three sketches with commentary is evidence of a design space you actually explored [@buxton-sketching:2007]
+
+Your sketches are the **evidence** that your writing interprets, not just decoration.
+
+## Components of a rationale
+
+1. **Questions:** what did you actually have to decide? (not "how do I design for cows", but "how does a cow select from a list?")
+2. **Options:** what _could_ you have done? At least two per question.
+3. **Criteria:** what did you judge them on? _This is where HCI concepts earn their place._
+4. **Trade-offs:** what did you give up? Every choice has limitations.
+
+Questions/options/criteria come from design space analysis [@maclean-qoc:1991]. The insistence on writing the **downside** of every feature alongside its upside comes from claims analysis [@carroll-task-artifact:1992].
+
+## You're allowed to tidy up
+
+Real design is messy. You double back, change your mind, and often discover the real problem while solving the wrong one. Our tidy lifecycle diagram is a _tidied-up_ version of a scruffy reality.
+
+Your rationale does **not** have to reproduce that mess chronologically. Parnas and Clements: we will never design in a perfectly rational way, but we can _present_ the work as though we had [@parnas-fake-it:1986].
+
+- **Do** reconstruct your reasoning clearly, so a reader can follow it and challenge it
+- **Do** report dead ends that taught you something --- they are evidence of a space explored
+- **Don't** invent a process you didn't follow, tidying is not the same as fabrication
+
+In **Assignment 1**: your _portfolio_ (sketches, prototype photos) shows the process. Your _rationale_ makes the argument.
 
 # Discovering Requirements
 
