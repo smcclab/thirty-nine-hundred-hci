@@ -28,9 +28,7 @@ title-slide-attributes:
 - Think about _natural_ user interfaces
 - Think about which interface is _best_ for a given application or activity
 
-# Research Skills
-
-![Finding information when you need it (Source: Charles 2024)](img/2024-seoul-library.jpg){width=50%}
+# Research Skills {background-image="img/2024-seoul-library.jpg" background-size="cover" background-opacity="0.4"}
 
 ## Finding a source
 
@@ -51,10 +49,12 @@ In scholarly writing, we need to **support** every statement we make. Support ca
 - add more search terms to get more specific
 - you can use the "time" selector on the left column to find recent work
 
-**Careful:** 
+::: {.warn-box}
+**Careful:**
 
 - Google Scholar indexes anything that _looks_ like scholarly research (e.g., any PDFs on a website in a conference/journal format). Need to use critical thinking to decide whether sources are good quality or not.
 - Google Scholar can give you a formatted citation but it may not have all information (e.g., URL, DOI)
+:::
 :::
 ::: {.column width="40%"}
 ![Finding sources with Google Scholar](img/sources-google-scholar.png)
@@ -68,10 +68,12 @@ In scholarly writing, we need to **support** every statement we make. Support ca
 - ACM Digital Library archives proceedings of ACM conferences and journals.
 - not as good at searching, but will show you only peer-reviewed works
 
-**Careful:** 
+::: {.warn-box}
+**Careful:**
 
 - Works best on-campus or via `virtual.anu.edu.au` so that you can access all papers.
 - CHI and ACM are centres of HCI research, but there are other non-ACM venues that could be missed.
+:::
 :::
 ::: {.column width="40%"}
 ![Finding sources with ACM Digital Library](img/sources-acm-dl.png)
@@ -171,20 +173,18 @@ Big reference libraries are part of academic work.
 
 ## Who has a question about referencing and finding sources?
 
-🙋🏽‍♀️🤷💁🏻🧠🗣️
+::: {.warn-box}
+**Careful:** mucking up citations is a risk to lose marks unnecessarily. Easy to do, but looks really bad to markers.
+:::
 
-Mucking up citations is a risk to lose marks unnecessarily.
-
-Easy to do, but looks really bad to markers.
-
-Let's clear up some questions now if you have them!
+::: {.talk-box}
+**Talk:** 🙋🏽‍♀️🤷💁🏻🧠🗣️ Let's clear up some questions now if you have them!
+:::
 
 _I commit to finding ways to help you do this better!_
 
-# Interface Types
+# Interface Types {background-image="img/interfaces_1_hololens.jpg" background-size="cover" background-opacity="0.35"}
 
-:::::::::::::: {.columns}
-::: {.column width="60%"}
 How would you describe a computer interface?
 
 > graphical, command, speech, ambient, intelligent, tangible, touch free, natural, etc.
@@ -197,12 +197,6 @@ Focus of interface can change:
 - **platform** e.g., tablet, mobile, PC, or wearable
 
 <!-- now with ML algorithms that are intended to recognise faces, objects, and the like 🤖! -->
-  
-:::
-::: {.column width="40%"}
-![Yichen Wang using a touchless, natural, AR interface, 2021.](img/interfaces_1_hololens.jpg){width=60%}
-:::
-::::::::::::::
 
 ## Interaction Types
 
@@ -281,7 +275,9 @@ Back in 1980s, much research investigated command interfaces' optimisation:
 - syntax (e.g., how best to combine different commands), and organisation (e.g., how to structure options), are examples of some of the main areas that have been investigated [@scneiderman1992designing].
 - Findings showed no universal optimal methods on command naming!
 
-**Design principle**: labeling/naming the commands should be chosen to be as *consistent* as possible!
+::: {.info-box}
+**Design principle:** labeling/naming the commands should be chosen to be as *consistent* as possible!
+:::
 
 ## Graphical User Interfaces
 
@@ -425,14 +421,14 @@ Emerged in 1970s with computer-generated graphical simulations.
 
 ## Activity: Thinking about AR and VR
 
-🙋🏽‍♀️🤷💁🏻🧠🗣️
-
-Find someone near you, and discuss these questions:
+::: {.talk-box}
+**Talk:** 🙋🏽‍♀️🤷💁🏻🧠🗣️ Find someone near you, and discuss these questions:
 
 1. Have you ever tried an AR VR system? (phone, headset, audio-only, whatever)
 2. What was the experience like? Do you see it as a useful technology?
 
 Chat for 3 minutes and we'll hear a few responses.
+:::
 
 ## Website Design
 
@@ -901,21 +897,21 @@ Aim to transfer mental states (e.g., “focused,” “relaxed”) between peopl
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-🙋🏽‍♀️🤷💁🏻🧠🗣️
-
-Imagine you are developing a new interface for the classic game "connect four" 
+::: {.talk-box}
+**Talk:** 🙋🏽‍♀️🤷💁🏻🧠🗣️ Imagine you are developing a new interface for the classic game "connect four"
 
 1. what interface what would you choose?
 2. how do you think it would evaluate in terms of usability and user experience?
 
-_Chat for 3 minutes with someone next to you then let's hear some ideas._
+Chat for 3 minutes with someone next to you then let's hear some ideas.
+:::
 :::
 ::: {.column width="40%"}
 ![The classic game, COnnect Four. [By Jonathan Kellenberg, Flickr, CC BY 2.0](https://commons.wikimedia.org/w/index.php?curid=521287)](img/connect-four.jpg)
 :::
 ::::::::::::::
 
-# Coda
+# Coda {background-image="img/tech-gadget-array-stockcake.jpg" background-size="cover" background-opacity="0.4"}
 
 What makes these interfaces good or bad?
 

@@ -25,20 +25,13 @@ assignment 2 published [on Canvas](https://canvas.anu.edu.au/courses/11488/assig
 - Deep dive on _Reflexive Thematic Analysis_ (needed for the assignment)
 - Reflexivity and positionality statements
 
-# Analytical Frameworks
+# Analytical Frameworks {background-image="img/mael-gramain-TyRcLajqJJ4-unsplash.jpg" background-size="cover" background-opacity="0.35"}
 
-:::::::::::::: {.columns}
-::: {.column width="60%"}
 - different approaches can guide qualitative analysis 
 - **granularity:** from fine-grained detailed analysis to broader scope examinations
 - conversation analysis: fine granularity, examines detailed interactions in short conversation fragments
 - systems-based frameworks: coarse granularity, broad group or organisation level analysis
 - useful depending on the research goals
-:::
-::: {.column width="40%"}
-![A framework. May not be analytical. (Photo by Maël GRAMAIN on Unsplash)](img/mael-gramain-TyRcLajqJJ4-unsplash.jpg)
-:::
-::::::::::::::
 
 ## Conversation Analysis (CA)
 
@@ -189,9 +182,7 @@ Grounded Theory (GT) is an _old and important_ qualitative analysis technique [@
 
 adapted from @rogers-beyond-hci:2023 table 9.6
 
-# Interpreting and Presenting Findings
-
-![Here's all the data, enjoy! (Photo by Sear Greyson on Unsplash)](img/sear-greyson-K-ZsC7YdJ6Y-unsplash.jpg){width=50%}
+# Interpreting and Presenting Findings {background-image="img/sear-greyson-K-ZsC7YdJ6Y-unsplash.jpg" background-size="cover" background-opacity="0.5"}
 
 ## Big Research Writing Tip: Cite your methods
 
@@ -228,9 +219,7 @@ Overall advice about findings...
 - Reviewers hate over-generalisation: careful with terms like "most," "all," "majority," and "none" without justification
 - Statistical claims require care to avoid misleading the reader
 
-# What even is knowledge anyway?
-
-![Photo by Patrick Tomasso on Unsplash](img/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg){width=50%}
+# What even is knowledge anyway? {background-image="img/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg" background-size="cover" background-opacity="0.4"}
 
 ## What is knowledge?
 
@@ -261,11 +250,13 @@ This may feel firmly off topic, but we need to surface some friction about _know
 - New-Materialism/Agential-realism [@barad-meeting-universe:2007] is emerging in HCI as a relevant mode of inquiry
 - _but_ this has some implications in terms of how findings are described!
 
-> Does any of this make sense? What kind of knowledge would you want to deal with? 
+::: {.talk-box}
+**Talk:** 🧠🗣️ Does any of this make sense? What kind of knowledge would you want to deal with?
 
-**Discuss with someone near you for 2 minutes, then let's hear some answers.**
+Discuss with someone near you for 2 minutes, then let's hear some answers.
+:::
 
-# Thematic analysis
+# Thematic analysis {background-image="img/reflexive-thematic-analysis-yichen-wang-miro-2025.png" background-size="cover" background-opacity="0.3"}
 
 - Let's get into some more detail how to do _thematic analysis_
 - Remember that this is a group of techniques!
@@ -384,12 +375,13 @@ A code is: _a name or label applied to a chunk of data_
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Let's code some interview data.
+::: {.push-box}
+**Do:** Let's code some interview data.
 
 > **David** is explaining how orders groceries online.
 
 Use the poll everywhere link to code statements and we will see them all together. We'll code each statement for 1 minute and then discuss the results.
-
+:::
 
 :::
 ::: {.column width="40%"}
@@ -511,17 +503,20 @@ Source: Charles, 2025. 😬
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-
-**Let's cluster some codes from the HCI grocery interview.**
+::: {.push-box}
+**Do:** Let's cluster some codes from the HCI grocery interview.
 
 - Use this miro board link: <https://quicklink.anu.edu.au/o095>
-
-This is fairly uncontrolled so be kind 😇
 
 1. Yellow notes are "codes", cluster them.
 2. Make red notes to represent prototype themes.
 
 Cluster for 2-3 minutes, discuss, theme for 2-3 minutes, discuss.
+:::
+
+::: {.warn-box}
+**Careful:** this is fairly uncontrolled so be kind 😇
+:::
 
 :::
 ::: {.column width="40%"}
@@ -558,9 +553,7 @@ A bingo card of potential researcher problems with (R)TA... which make sense so 
 | Implicitly realist TA (not acknowledged) | Braun pronounced BRAWN (not Brown) | Mismatch between extracts and analytic claims | Use of a codebook | Data are just paraphrased without interpretation |
 :::
 
-# Reflexivity
-
-![Reflections by Charles, 2023](img/reflection.jpg){width=50%}
+# Reflexivity {background-image="img/reflection.jpg" background-size="cover" background-opacity="0.5"}
 
 ## What is reflexivity?
 
@@ -630,11 +623,13 @@ A bingo card of potential researcher problems with (R)TA... which make sense so 
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Let's try it:
+::: {.think-box}
+**Think:** Let's try it:
 
 > What is your 1-sentence statement of positionality as a researcher?
 
 Use the poll everywhere link to provide it.
+:::
 :::
 ::: {.column width="40%"}
 ![PollEverywhere link: <https://pollev.com/charlesmarti205>](img/polleverywhere-charles-qr.png)

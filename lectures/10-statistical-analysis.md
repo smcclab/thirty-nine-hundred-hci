@@ -26,7 +26,9 @@ Reference book this class is @lazar-research-methods:2017 chapter 4 "Statistical
 
 ## Preparing Data for Analysis
 
-Week 5 content recap: What data pre-processing do we need to do?
+::: {.think-box}
+**Think:** Week 5 content recap---what data pre-processing do we need to do?
+:::
 
 - Manually entered, errors, inconsistent formats.
 - Primitive which need higher level coding.
@@ -110,7 +112,9 @@ So what do we do?
 - low _p_-value = low probability difference occurred by chance: likely a real effect
 - low _p_-value is evidence supporting a hypothesis
 
-A typical cut-off for "significance" is $p=0.05$. Is this the best choice?
+::: {.think-box}
+**Think:** a typical cut-off for "significance" is $p=0.05$. Is this the best choice?
+:::
 
 :::
 ::: {.column width="40%"}
@@ -211,7 +215,10 @@ Types of ANOVAs:
 
 - Homogeneity of variance: when multiple groups are compared, tests are more accurate if variances of the sample population are nearly equal.
 - Use transformation techniques when not.
-- Errors should be normally distributed, otherwise highly skewed data result in false results!
+
+::: {.warn-box}
+**Careful:** errors should be normally distributed, otherwise highly skewed data result in false results!
+:::
 
 ## ANOVA examples
 
@@ -260,7 +267,9 @@ Pearson's $r^2$ (Coefficient of Determination)
 
 :::
 ::: {.column width="40%"}
-Note: correlation not equal to causation!
+::: {.warn-box}
+**Careful:** correlation is not causation!
+:::
 
 Imagine an experiment measuring time spent in an online shopping app vs income.
 
@@ -307,7 +316,9 @@ Non-parametric tests can help with this data:
 ::: {.column width="60%"}
 Helps to analyse categorical data: e.g., a yes/no choice.
 
-Does this look random?
+::: {.think-box}
+**Think:** does this look random?
+:::
 
 | Group | Yes | No |
 | - | - | - |
@@ -338,9 +349,7 @@ print(f"P-value: {p:.4f}")
 :::
 ::::::::::::::
 
-# Case Studies
-
-![Studying different kinds of musical instruments.](img/2015-study-observation.jpg){width=50%}
+# Case Studies {background-image="img/2015-study-observation.jpg" background-size="cover" background-opacity="0.4"}
 
 ## Comparing AI models on a physical musical instrument
 
@@ -427,16 +436,12 @@ Research question:
 :::
 ::::::::::::::
 
-# Questions: Who has a question?
+# Questions: Who has a question? {background-image="img/kambri-bar.jpg" background-size="cover" background-opacity="0.4"}
 
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-**Who has a question?**
+::: {.talk-box}
+**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ Who has a question?
 
+Meet you _at the bar_ afterwards. 🍸🥤🫖☕️ Unfortunately no drinks served! 🙃
 :::
-::: {.column width="40%"}
-![Meet you _at the bar_ for questions. 🍸🥤🫖☕️ Unfortunately no drinks served! 🙃](img/kambri-bar.jpg)
-:::
-::::::::::::::
 
 # References {.allowframebreaks}

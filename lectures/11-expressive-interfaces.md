@@ -149,9 +149,7 @@ how is output from one connected to input? what happens in each step?
 - not _just_ for creative applications, expressive interaction is applicable in other devices
 - expressive interactions -->
 
-# Drawing Interaction
-
-![MicroJam drawing/music app in 2018 [@martin-tiny-touchscreen:2020]](img/2018-microjam.jpg){width=50%}
+# Drawing Interaction {background-image="img/2018-microjam.jpg" background-size="cover" background-opacity="0.4"}
 
 ## Surface Drawing System
 
@@ -201,22 +199,14 @@ App for making short (5s) musical performances with a sketch ([video](https://yo
 :::
 ::::::::::::::
 
-# Music Interaction
+# Music Interaction {background-image="img/mrp.jpg" background-size="cover" background-opacity="0.3"}
 
-:::::::::::::: {.columns}
-::: {.column width="60%"}
 The [New Interface for Musical Expression (NIME)](https://nime.org) research community.
 
 - Research into musical instrument design that explores how technological innovation can enable new musical expression, enhance performer control and intimacy, and shape the musician-instrument relationship.
 - Digital Musical Instruments(DMIs): digital piano, drum pad.
-- Augmented instruments: magnetic resonator piano (grand piano -> string instruments).
+- Augmented instruments: magnetic resonator piano (grand piano -> string instruments), pictured.
 - Novel instrument: [lady's glove](https://sonami.net/portfolio/items/ladys-glove/), magnetic AI instrument *thales* [@privato2023thales], percussive instrument [PhaseRings](https://charlesmartin.au/projects/phaserings/) [@martin2018phaserings], AR instrument *cube* [@wang-cubing-sound:2022].
-
-:::
-::: {.column width="40%"}
-![Magnetic Resonator Piano](img/mrp.jpg){width="80%"}
-:::
-::::::::::::::
 
 ## PhaseRings: natural gestures on big touchscreens
 
@@ -290,11 +280,9 @@ ing the input interface and sound engine [@magnusson2010designconstrain].](img/m
 :::
 ::::::::::::::
 
-# Dance Interaction
+# Dance Interaction {background-image="img/coda-system.jpg" background-size="cover" background-opacity="0.35"}
 
-From gestures to body (embodied) movements.
-
-![CO/DA System [@coda2022chi]](img/coda-system.jpg){width="70%"}
+From gestures to body (embodied) movements. Pictured: the CO/DA system [@coda2022chi].
 
 - Support real-time manipulation of continuous streams of the dancers' motion data for interactive sound synthesis.
 - Enable novel dance improvisations through live coding.
@@ -315,16 +303,9 @@ From gestures to body (embodied) movements.
 :::
 ::::::::::::::
 
-# Installed Interactions
+# Installed Interactions {background-image="img/constructions-nime2017.jpg" background-size="cover" background-opacity="0.4"}
 
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-Putting expressive interactions into public places.
-:::
-::: {.column width="50%"}
-![[Bellyhorn](https://dianneverdonk.com/bellyhorn/) by Dianne Verdonk (image: Charles Martin)](img/constructions-nime2017.jpg)
-:::
-::::::::::::::
+Putting expressive interactions into public places. Pictured: [Bellyhorn](https://dianneverdonk.com/bellyhorn/) by Dianne Verdonk.
 
 ## Dinosaur Choir
 
@@ -354,7 +335,9 @@ Putting expressive interactions into public places.
 - Glass and sound (now movement) activated lighting
 - Location: Ainslie Avenue, Canberra
 
-Playful installed interaction can lead to unwanted behaviour! Noise from folks exiting civic pubs!
+::: {.warn-box}
+**Careful:** playful installed interaction can lead to unwanted behaviour! Noise from folks exiting civic pubs!
+:::
 
 :::
 ::: {.column width="50%"}
@@ -362,20 +345,15 @@ Playful installed interaction can lead to unwanted behaviour! Noise from folks e
 :::
 ::::::::::::::
 
-# Playful Interaction
+# Playful Interaction {background-image="img/headgear-nime2015.jpg" background-size="cover" background-opacity="0.35"}
 
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-Can silly or playful ideas turn into interesting interactions?
+Pictured: the Phox Ears listening helmet by @kleinberger-phoxears:2015
 
-Can we use play to examine more serious HCI concepts?
+::: {.think-box}
+**Think:** can silly or playful ideas turn into interesting interactions? Can we use play to examine more serious HCI concepts?
+:::
 
 It's fun to make the world more fun.
-:::
-::: {.column width="50%"}
-![The Phox Ears listening helmet by @kleinberger-phoxears:2015](img/headgear-nime2015.jpg)
-:::
-::::::::::::::
 
 ## Breath Controlled Amusement Ride
 
@@ -414,20 +392,11 @@ It's fun to make the world more fun.
 :::
 ::::::::::::::
 
-# Human-AI Creative Interaction
-
-:::::::::::::: {.columns}
-::: {.column width="50%"}
+# Human-AI Creative Interaction {background-image="img/2023-autolume-performances.png" background-size="cover" background-opacity="0.4"}
 
 Interest incorporating AI into creative interaction since computing began.
 
-Recent work often focuses on current genAI breakthroughs, e.g. [Autolume visual generator system](https://www.metacreation.net/projects/autolume-automating-live-music-visualisation-technical-report?rq=autolume) and [Reprising Elements performance (2023)](https://arshiasobhan.com/works/reprising-elements)
-
-:::
-::: {.column width="50%"}
-![Musicians performing with a genAI visualisation ([link](https://arshiasobhan.com/works/reprising-elements))](img/2023-autolume-performances.png)
-:::
-::::::::::::::
+Recent work often focuses on current genAI breakthroughs, e.g. [Autolume visual generator system](https://www.metacreation.net/projects/autolume-automating-live-music-visualisation-technical-report?rq=autolume) and [Reprising Elements performance (2023)](https://arshiasobhan.com/works/reprising-elements) --- pictured.
 
 ## Why introduce AI into expressive interaction?
 
@@ -498,7 +467,9 @@ For the final project you need to record an upload a presentation video. The spe
 - must be narrated with your voice
 - must show video of you speaking
 
-You can do this easily with [Powerpoint](https://support.microsoft.com/en-au/office/record-a-slide-show-with-narration-and-slide-timings-0b9502c6-5f6c-40ae-b1e7-e47d8741161c#OfficeVersion=2013%2C_2016&officeversion=newer_versions), so let's give it a try.
+::: {.push-box}
+**Do:** You can do this easily with [Powerpoint](https://support.microsoft.com/en-au/office/record-a-slide-show-with-narration-and-slide-timings-0b9502c6-5f6c-40ae-b1e7-e47d8741161c#OfficeVersion=2013%2C_2016&officeversion=newer_versions), so let's give it a try.
+:::
 :::
 ::: {.column width="50%"}
 ![recording a presentation video in powerpoint](img/powerpoint-video.png)

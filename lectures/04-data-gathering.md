@@ -26,7 +26,7 @@ title-slide-attributes:
 3. design a questionnaire
 4. understand observation studies
 
-# Main issues in data gathering
+# Main issues in data gathering {background-image="img/2015-11-28-Electrofringe-Workshop.jpg" background-size="cover" background-opacity="0.35"}
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -145,7 +145,7 @@ A small initial study to help plan a larger study.
 :::
 ::::::::::::::
 
-# Interviews {background-image="img/sam-mcghee-KieCLNzKoBo-unsplash.jpg"}
+# Interviews {background-image="img/sam-mcghee-KieCLNzKoBo-unsplash.jpg" background-size="cover" background-opacity="0.5"}
 
 > Conversation with a purpose [@kahn1957dynamics]
 
@@ -248,13 +248,15 @@ A small initial study to help plan a larger study.
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Let's plan a _semi-structured_ interview!
+::: {.push-box}
+**Do:** Let's plan a _semi-structured_ interview!
 
 > What questions should be asked in a semi structured interview about student's user experience with the "catchbox" (soft microphone used during lectures)?
 
 Use the poll everywhere link to suggest interview questions and vote on the best ones.
 
 **Ideate** for 2-3 minutes, **vote** for 1 minute, then let's discuss.
+:::
 :::
 ::: {.column width="40%"}
 ![PollEverywhere link: <https://pollev.com/charlesmarti205>](img/polleverywhere-charles-qr.png)
@@ -269,7 +271,9 @@ Use the poll everywhere link to suggest interview questions and vote on the best
 - questions need to support data gathering **goals**
 - may not need to ask questions not related to goals
 
-Easy to (accidentally) write bad interview questions!
+::: {.warn-box}
+**Careful:** it's easy to (accidentally) write bad interview questions!
+:::
 
 ## Running the Interview
 
@@ -305,9 +309,7 @@ Easy to (accidentally) write bad interview questions!
 ::::::::::::::
 
 
-# Questionnaires
-
-![Rating scales, and more (image by Towfique Barbhuiya on Unsplash)](img/towfiqu-barbhuiya-0ZUoBtLw3y4-unsplash.jpg){width=60%}
+# Questionnaires {background-image="img/towfiqu-barbhuiya-0ZUoBtLw3y4-unsplash.jpg" background-size="cover" background-opacity="0.5"}
 
 ## Structure and Format
 
@@ -475,7 +477,8 @@ Questions might be something like:
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Let's write a questionnaire about ANU students' class enrolment experience.
+::: {.talk-box}
+**Talk:** 🙋🏽‍♀️🗣️ Let's write a questionnaire about ANU students' class enrolment experience.
 
 - What questions should we ask on a questionnaire about ANU student's enrolment experience? If closed list options, if open write "(open question)"
 
@@ -483,14 +486,13 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
 
 <https://PollEv.com​/charlesmarti205>
 :::
+:::
 ::: {.column width="40%"}
 ![ANU course enrolment.](img/anu-enrolment-experience.jpg)
 :::
 ::::::::::::::
 
-# Observation
-
-![What are they doing and why? (Photo by Philippe Bout on Unsplash)](img/philippe-bout-93W0xn4961g-unsplash.jpg){width=50%}
+# Observation {background-image="img/philippe-bout-93W0xn4961g-unsplash.jpg" background-size="cover" background-opacity="0.5"}
 
 ## Direct Observation in the Wild
 
@@ -601,7 +603,9 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
 - scraping data from public sources (e.g., social media) can be observation
 
 
-**N.B. scraping large amounts of data raises ethical concerns!**
+::: {.warn-box}
+**Careful:** scraping large amounts of data raises ethical concerns!
+:::
 :::
 ::: {.column width="40%"}
 ![Interaction data from a concert (2014)](img/2014-study-in-bowls.jpg){width=100%}
@@ -614,7 +618,8 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-As an HCI researcher, would you rather:
+::: {.talk-box}
+**Talk:** 🤷🧠🗣️ As an HCI researcher, would you rather:
 
 1. observe directly in the wild
 2. observe directly in a lab
@@ -623,16 +628,15 @@ As an HCI researcher, would you rather:
 
 Discuss for 2-3 minutes in groups, rank on [PollEverywhere](https://pollev.com/charlesmarti205), and then we will hear some responses!
 :::
+:::
 ::: {.column width="40%"}
 ![PollEverywhere link: <https://pollev.com/charlesmarti205>](img/polleverywhere-charles-qr.png)
 :::
 ::::::::::::::
 
 
-# Data Gathering in Practice
+# Data Gathering in Practice {background-image="img/2018-bernt-midi-data.jpg" background-size="cover" background-opacity="0.35"}
 
-:::::::::::::: {.columns}
-::: {.column width="60%"}
 Back to our issues:
 
 1. goals
@@ -641,11 +645,6 @@ Back to our issues:
 4. ethics of data
 5. triangulation
 6. pilot studies vs main studies
-:::
-::: {.column width="40%"}
-![Collecting some MIDI and audio data in 2018 (artist: Bernt-Isak Waerstad)](img/2018-bernt-midi-data.jpg)
-:::
-::::::::::::::
 
 ## Choosing Techniques [@rogers-beyond-hci:2023]
 

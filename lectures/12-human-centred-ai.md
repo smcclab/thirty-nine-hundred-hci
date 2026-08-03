@@ -11,15 +11,21 @@ title-slide-attributes:
 - all tutorial marks have been entered.
 - congrats to those (107) legends who **maxed** out 100% on tutorials!
 - [SELT](https://services.anu.edu.au/learning-teaching/education-data/student-experience-of-learning-teaching-selt/information-for-students) should be open this Week (??) --- fill in your SELT!
-- Your SELT is a gift to future students, and gives me confidence to advocate for good practice!
+
+::: {.info-box}
+**Note:** your SELT is a gift to future students, and gives me confidence to advocate for good practice!
+:::
 
 ### Final Project
 
 - brings all skills from the course together
 - idea is that these are mini HCI-research papers
 - prepare you for further research, exploration in HCI and assess all skills in the course
-- **one week left for your final project**
 - let's look at the forking numbers for the [assignment repo](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A3-final-project)
+
+::: {.warn-box}
+**Deadline:** one week left for your final project.
+:::
 
 ## Plan for the class
 
@@ -161,9 +167,7 @@ Rather than anthropomorphic systems: argues for Creativity Support Tools (CSTs) 
 :::
 ::::::::::::::
 
-# HCAI frameworks
-
-![All systems need a framework to hold it up...](img/2024-seoul-framework.jpg){width=50%}
+# HCAI frameworks {background-image="img/2024-seoul-framework.jpg" background-size="cover" background-opacity="0.4"}
 
 ## Why start with a framework?
 
@@ -320,7 +324,7 @@ Shneiderman, famous for the *Eight Golden Rules for Design* proposes a new set!
   - openness to feedback leads to technology improvement
   - something like "bug bounties" for HCAI systems
 
-# Design Metaphors
+# Design Metaphors {background-image="img/hal-9000.jpg" background-size="cover" background-opacity="0.35"}
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -427,7 +431,9 @@ Teammate approach has many challenges [@klien2004ten]:
 ::: {.column width="40%"}
 ![The DaVinci surgical robot is a successful telebot application](img/hcai-davinci.png)
 
-**Question:** is agentic coding AI (e.g., CoPilot) a telebot or teammate?
+::: {.think-box}
+**Think:** is agentic coding AI (e.g., CoPilot) a telebot or teammate?
+:::
 :::
 ::::::::::::::
 

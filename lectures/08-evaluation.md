@@ -23,7 +23,7 @@ title-slide-attributes:
 - planning evaluations
 - evaluation by inspection
 
-# Research Questions
+# Research Questions {background-image="img/kaleidico-3V8xo5Gbusk-unsplash.jpg" background-size="cover" background-opacity="0.35"}
 
 For the final project you will have to choose a research question to explore.
 
@@ -148,19 +148,21 @@ Nearly every HCI problem has precursors. Finding them is your job, not an option
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Let's write a research question!
+::: {.push-box}
+**Do:** Let's write a research question!
 
 > Together, let's [Spin the wheels](https://spinthewheel.io/wheels/6QtocP77prRkdHZ66s0hcz0xJmU9MA==) to decide on a broad area and a problem.
 
-Then, decide on a "justification" and write a research question.
-
-Remember that the RQ should include the broad area, the problem, and the justification. 
+Then, decide on a "justification" and write a research question. Remember that the RQ should include the broad area, the problem, and the justification.
 
 Use the poll everywhere link to suggest research questions and vote on the best ones.
 
 **Write** for 2-3 minutes, **vote** for 1 minute, then let's discuss.
+:::
 
-Before you vote, run the candidates past the three failure modes: is the **abstraction** right, is a **solution** smuggled in, and is it **refutable**?
+::: {.extension-box}
+**Extension:** Before you vote, run the candidates past the three failure modes: is the **abstraction** right, is a **solution** smuggled in, and is it **refutable**?
+:::
 :::
 ::: {.column width="40%"}
 ![PollEverywhere link: <https://pollev.com/charlesmarti205>](img/polleverywhere-charles-qr.png)
@@ -168,9 +170,7 @@ Before you vote, run the candidates past the three failure modes: is the **abstr
 ::::::::::::::
 
 
-# About Evaluation
-
-![Testing things to find out if they work.](img/microjam-evaluation.jpg){width=50%}
+# About Evaluation {background-image="img/microjam-evaluation.jpg" background-size="cover" background-opacity="0.4"}
 
 ## What is evaluation?
 
@@ -281,7 +281,7 @@ Evaluation serves different purposes at different stages of the design process
 :::
 ::::::::::::::
 
-# Types of Evaluation
+# Types of Evaluation {background-image="img/2015-study-observation.jpg" background-size="cover" background-opacity="0.4"}
 
 ## Controlled settings (e.g., Usability testing)
 
@@ -394,7 +394,8 @@ The evaluation setting guides certain dimensions of developed artefacts.
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-You're all HCI researchers and we need to evaluate this interactive toy.
+::: {.talk-box}
+**Talk:** 🗣️🎤⭐️ You're all HCI researchers and we need to evaluate this interactive toy.
 
 We need to choose:
 
@@ -403,7 +404,8 @@ We need to choose:
 - what information do we need and why?
 - what _research questions_ are being asked?
 
-Talk for 2-3 minutes and then we will hear some answers 🗣️🎤⭐️
+Talk for 2-3 minutes and then we will hear some answers.
+:::
 :::
 ::: {.column width="40%"}
 ![Where and why will we evaluate this toy? (Photo by COSMOH LOVE on Unsplash)](img/cosmoh-love-unlm6Fxxvjw-unsplash.jpg)
@@ -411,16 +413,9 @@ Talk for 2-3 minutes and then we will hear some answers 🗣️🎤⭐️
 ::::::::::::::
 
 
-# Planning Evaluations
+# Planning Evaluations {background-image="img/2015-planning-study.jpg" background-size="cover" background-opacity="0.4"}
 
-:::::::::::::: {.columns}
-::: {.column width="60%"}
 What do we need to keep in mind to plan evaluations?
-:::
-::: {.column width="40%"}
-![Planning a study in 2015.](img/2015-planning-study.jpg){width="60%"}
-:::
-::::::::::::::
 
 ## Design and Conduct Issues
 

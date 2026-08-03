@@ -22,7 +22,7 @@ title-slide-attributes:
 - Analytical Frameworks
 - Interpreting and Presenting Findings
 
-# Analysis, Interpretation, Presentation
+# Analysis, Interpretation, Presentation {background-image="img/claudio-schwarz-fyeOxvYvIyY-unsplash.jpg" background-size="cover" background-opacity="0.35"}
 
 - last week we talked about getting data
 - once we have it, what can we do with it?
@@ -92,11 +92,13 @@ title-slide-attributes:
 - This can particularly happen when transforming the type of data (e.g., agreement ratings to a numerical code)
 - Qualitative data can also be misused, e.g., content of questions reported as a finding.
 
-### Some example problems
+::: {.warn-box}
+**Careful:** some example problems
 
 - "50% of users took longer than 30 minutes" vs "2 out of 4 users..."
 - The mean agreement was 3.67
 - (In a study about mobile phone use with many questions about mobile phones) "Participants noted frequent use of mobile phones for many tasks".
+:::
 
 ## First Steps
 
@@ -104,7 +106,7 @@ title-slide-attributes:
 - Questionnaires: enter into spreadsheets, clean up data, filter into datasets
 - Observations: expand notes, transcribe recordings, edit videos, synchronise and clean up interaction data
 
-# Basic Quantitative Analysis
+# Basic Quantitative Analysis {background-image="img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" background-size="cover" background-opacity="0.35"}
 
 What do we do with quantitative data once we have some?
 
@@ -172,7 +174,9 @@ Second thing to do when loading up data for analysis, calculate:
 - median and mean
 - number of data points (count)
 
-**Ask:** are these values what you expected? do they suggest any _interesting_ points about your data?
+::: {.think-box}
+**Think:** are these values what you expected? do they suggest any _interesting_ points about your data?
+:::
 :::
 ::: {.column width="40%"}
 | stat  | interactive activities | attend in person | watch online |
@@ -262,21 +266,21 @@ In this class we'll use Python, numpy, pandas, scipy, seaborn, and matplotlib as
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Let's do some _data analysis_
+::: {.push-box}
+**Do:** Let's do some _data analysis_
 
 1. Deploy a short questionnaire on PollEverywhere
 2. Download the data from pollev and load it into Google Colab
 3. View descriptive statistics
 4. Plot the data in a few ways
 :::
+:::
 ::: {.column width="40%"}
 ![PollEverywhere link: <https://pollev.com/charlesmarti205>](img/polleverywhere-charles-qr.png)
 :::
 ::::::::::::::
 
-# Basic Qualitative Analysis
-
-![Qualitative analysis, fewer numbers, still a lot of work. (Photo by Jessica Lewis 🦋 thepaintedsquare on Unsplash)](img/jessica-lewis-thepaintedsquare--W1TjrjSycI-unsplash.jpg){width=50%}
+# Basic Qualitative Analysis {background-image="img/jessica-lewis-thepaintedsquare--W1TjrjSycI-unsplash.jpg" background-size="cover" background-opacity="0.5"}
 
 ## Coding in Qualitative Analysis
 

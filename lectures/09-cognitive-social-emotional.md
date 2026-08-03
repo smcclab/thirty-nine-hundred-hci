@@ -16,21 +16,16 @@ author: Dr Charles Martin
 3. Social Interaction
 4. Emotional Interaction
 
-# Final Project Details
+# Final Project Details {background-image="img/2020-ar-interaction.jpg" background-size="cover" background-opacity="0.35"}
 
-:::::::::::::: {.columns}
-::: {.column width="50%"}
 - a complete design and evaluation process for a prototype interactive system.
 - design a prototype in response to a real-world problem
 - evaluate this system using HCI research methods
 - report on the results
 
-**primary submission document: a 5-minute recorded presentation**
+::: {.info-box}
+**Note:** the primary submission document is a 5-minute recorded presentation.
 :::
-::: {.column width="50%"}
-![Two users evaluating an interface in an office foyer.](img/2020-ar-interaction.jpg)
-:::
-::::::::::::::
 
 ## Final Project Research Challenge
 
@@ -71,26 +66,23 @@ Your presentation and documentation will have the following sections:
 ::: {.column width="50%"}
 Suggested recording method: [Microsoft Powerpoint's built-in recording tool](https://support.microsoft.com/en-au/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33)
 
-**no genAI or text-to-speech allowed for the video presentation!**
+::: {.error-box}
+**Not allowed:** no genAI or text-to-speech for the video presentation!
+:::
 :::
 ::::::::::::::
 
 ## Questions on the Final Project
 
-Who has a question about the final project? (Or anything else?)
+::: {.talk-box}
+**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ Who has a question about the final project? (Or anything else?)
+:::
 
-# Cognitive Aspects
+# Cognitive Aspects {background-image="img/stefano-bucciarelli-59HOF9zHKNs-unsplash.jpg" background-size="cover" background-opacity="0.35"}
 
-:::::::::::::: {.columns}
-::: {.column width="60%"}
 The way we think affects how we act and interact in our life.
 
 We can design systems to cope well with human cognition to fit well with our capacity for remembering, deciding, perceiving, and attending.
-:::
-::: {.column width="50%"}
-![COGNITION (Photo by Stefano Bucciarelli on Unsplash)](img/stefano-bucciarelli-59HOF9zHKNs-unsplash.jpg)
-:::
-::::::::::::::
 
 ## Cognition
 
@@ -307,7 +299,7 @@ Learning theory concept: "zone of proximal development"---we should get users in
 :::
 ::::::::::::::
 
-# Cognitive Frameworks
+# Cognitive Frameworks {background-image="img/luke-jones-DHR8LQRY-fU-unsplash.jpg" background-size="cover" background-opacity="0.35"}
 
 - **Conceptual models** (the designer's side) and **mental models** (the user's side)
 - **Gulfs of Execution and Evaluation**
@@ -426,17 +418,19 @@ our bodies and experiences shape how we perceive, feel, and think [@hornecker200
 - movement instrumental in thought evolution and spatial thinking development
 - abbreviated actions more effective than full simulation for learning skills
 
-# Social Interaction
+# Social Interaction {background-image="img/aaron-blanco-tejedor-aocUkMcxeqI-unsplash.jpg" background-size="cover" background-opacity="0.4"}
 
 ## Activity: Social human computer interactions
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Let's consider one angle on social computer use.
+::: {.think-box}
+**Think:** Let's consider one angle on social computer use.
 
 > What are the kinds of situations in which you would phone someone (rather than text)?
 
 **Write** for 2-3 minutes, **vote** for 1 minute, then let's discuss.
+:::
 :::
 ::: {.column width="40%"}
 ![PollEverywhere link: <https://pollev.com/charlesmarti205>](img/polleverywhere-charles-qr.png)
@@ -522,18 +516,11 @@ games designed to facilitate social interaction between two or more players who 
 :::
 ::::::::::::::
 
-# Emotional Interaction
+# Emotional Interaction {background-image="img/02_theory_and_concepts_49.jpg" background-size="cover" background-opacity="0.4"}
 
-:::::::::::::: {.columns}
-::: {.column width="60%"}
 How do our emotions manifest in interaction?
 
 Can designing for emotions help us in our tasks, or help us manage them?
-:::
-::: {.column width="40%"}
-![Pepper Robot (Photo by [Alex Knight](https://unsplash.com/@agk42)](img/02_theory_and_concepts_49.jpg)
-:::
-::::::::::::::
 
 ## Emotions and Behaviour
 

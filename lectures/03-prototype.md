@@ -41,7 +41,7 @@ The framing this week around _sketches_ and _prototypes_ as different things wit
 :::
 ::::::::::::::
 
-# Sketching Design Ideas
+# Sketching Design Ideas {background-image="img/sketch-2010.jpg" background-size="cover" background-opacity="0.35"}
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -109,9 +109,11 @@ This is up to you, but it could have
 
 ## Activity: Sketching toolkit?
 
-What's your sketching toolkit? How do you develop ideas?
+::: {.talk-box}
+**Talk:** ✏️📓🖊️ What's your sketching toolkit? How do you develop ideas?
 
-- Discuss with someone for 2 minutes then we'll hear some answers.
+Discuss with someone for 2 minutes then we'll hear some answers.
+:::
 
 I give you permission to buy expensive notebooks and pens for this course.
 
@@ -148,12 +150,14 @@ Bill Buxton sez! So do it! [@buxton-sketching:2007]
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Let's sketch something:
+::: {.push-box}
+**Do:** Let's sketch something:
 
 > How can tutors keep track of student questions, pain-points and successes during a tutorial?
 
 1. Suggest a design idea on PollEverywhere: https://PollEv.com​/charlesmarti205
 2. Help me sketch it.
+:::
 
 :::
 ::: {.column width="40%"}
@@ -163,9 +167,7 @@ Let's sketch something:
 :::
 ::::::::::::::
 
-# Prototyping
-
-![Bits and pieces for a hardware prototype.](img/2017-hardware-proto.jpg){width=50%}
+# Prototyping {background-image="img/2017-hardware-proto.jpg" background-size="cover" background-opacity="0.5"}
 
 ## What is a prototype
 
@@ -276,7 +278,7 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 - _low-fidelity:_ (low-fi) rough, quick, not like a final product
 - _high-fidelity:_ (high-fi) more polished, slower to make, more like a final product
 
-# Prototype Definitions and Analysis
+# Prototype Definitions and Analysis {background-image="img/nime2015-cardboard-prototypes.jpg" background-size="cover" background-opacity="0.5"}
 
 ## Filters and Manifestations
 
@@ -491,9 +493,7 @@ Can we test a product that doesn't exist?
 <!-- - horizontal vs vertical prototyping -->
 - robustness vs flexibility
 
-# Prototyping Starter Kit
-
-![Prototyping workshop for AI musical instruments at NIME 2024.](img/workshop-nime-2024.jpg){width=50%}
+# Prototyping Starter Kit {background-image="img/workshop-nime-2024.jpg" background-size="cover" background-opacity="0.5"}
 
 ## Post-its, notebooks, arts and craft materials
 
@@ -504,7 +504,9 @@ Can we test a product that doesn't exist?
 - low tech, low-fi, low risk, low cost
 - from storyboards to cardboard mockups with moving parts
 
-**You'll do this in the tutorial next week!**
+::: {.info-box}
+**Note:** You'll do this in the tutorial next week!
+:::
 :::
 ::: {.column width="40%"}
 ![Paper AR app by Kevin Zhu, 2024.](img/prototype-paper-kevin-zhu-2024.jpg){width=70%}
@@ -610,13 +612,14 @@ Not necessarily bad in HCI: can we vibe code _way more_ prototypes than we could
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Can we live-code a prototype before the end of this lecture?
+::: {.push-box}
+**Do:** Can we live-code a prototype before the end of this lecture?
 
 1. Choose a prototype idea on PollEverywhere: <PollEv.com​/charlesmarti205>
 2. Help me figure out how to prototype it.
 3. ???
 4. 💸💸💰💲
-
+:::
 
 :::
 ::: {.column width="40%"}
@@ -632,15 +635,32 @@ Can we live-code a prototype before the end of this lecture?
   - **sketches:** part of ideation process, quickly find lots of ideas, explore the needs and solutions
   - **prototypes:** lead to something _testable_, should articulate an interaction
 
-###  **Highest-fidelity is not necessarily better!**
+::: {.warn-box}
+**Watch out:** Highest-fidelity is not necessarily better!
+:::
 
 - best prototypes demonstrate a design process
 - allow the important aspects of interaction to be evaluated
 - I want to see evidence (through your prototypes) of a considered design process
 - different prototypes may be appropriate for different designs
 
-## Questions
+## Questions: Who has a question?
 
-Who has a question?
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+:::: {.questions}
+**Who has a question?**
+
+- I can take _cathchbox_ question up until end of the lecture
+- For after class questions: meet me outside the classroom at the bar (for 30 minutes)
+- Feel free to ask about **any aspect of the course**
+- Also feel free to ask about **any aspect of computing at ANU**! I may not be able to help, but I can listen.
+::::
+
+:::
+::: {.column width="40%"}
+![Meet you _at the bar_ for questions. 🍸🥤🫖☕️ Unfortunately no drinks served! 🙃](img/kambri-bar.jpg)
+:::
+::::::::::::::
 
 # References {.allowframebreaks}
