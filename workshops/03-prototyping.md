@@ -102,7 +102,7 @@ When creating your prototype, consider:
 As a group, present your prototype to the class and discuss:
 
 1. Does your prototype match your storyboard and design concept?
-2. Is your prototype _testable_?
+2. Is your prototype _testable_? Recall the four criteria from the lecture: is it _interactive_, _clear_, _evaluative_, and _focused_?
 3. What design decisions were made at the sketching, storyboarding, and prototyping stages?
 
 ## Resources

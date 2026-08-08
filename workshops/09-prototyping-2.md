@@ -37,7 +37,7 @@ N.B., for this task, make sure you choose a paper from CHI or UIST that actually
 
 In this task, you will think about **what makes a prototype testable** and apply these criteria to a prototyping plan.
 
-A prototype is testable if it lets you **observe and learn from real user interactions**. Below, we have set out some criteria for a testable prototype that we developed within the tutors. While these criteria aren't identical to others found in HCI literature [e.g., @houde1997prototypes; @lim-prototypes:2008; @odom-research-prototype:2016], we feel that our criteria work for the context of this class and the needs of our assessment.
+A prototype is testable if it lets you **observe and learn from real user interactions**. Below, we have set out some criteria for a testable prototype that we developed within the tutors. While these criteria aren't identical to others found in HCI literature [e.g., @houde1997prototypes; @lim-prototypes:2008; @odom-research-prototype:2016], we feel that our criteria work for the context of this class and the needs of our assessment. Each criterion does have close relatives in that literature, noted below as _scholarly kin_.
 
 Read through the criteria, and keep them in mind for the activity below:
 
@@ -46,17 +46,23 @@ Read through the criteria, and keep them in mind for the activity below:
    - Examples: pressing a paper button triggers a screen change, dragging a card moves it to a new location, or speaking a command triggers a response.
    - Ask: “Can someone unfamiliar with this prototype actually perform the task I want to test?”
    - _Tip: A static sketch is not enough---the user must act on the prototype._
+   - _Scholarly kin:_ a prototype is a manifestation of a design that stakeholders can **interact** with [@rogers-beyond-hci:2023]; where a sketch _suggests_ and _questions_, a prototype _tests_ and _answers_ [@buxton-sketching:2007].
 2. **Clear:** Can users understand what the system is, what to do, and how it works?
    - Make the system's state and feedback obvious.
    - Examples: highlighting selections, showing confirmation messages, or providing visual cues for next steps.
    - Ask: “Will a new user generally know what to do next without explanation?”
+   - _Scholarly kin:_ a classic weakness of low-fidelity prototypes is being _facilitator-driven_ --- only working while their maker narrates [@rudd-fidelity-debate:1996].
 3. **Evaluative:** Can you observe users, gather feedback, or identify what works and what doesn't?
    - Decide what success looks like and what errors or hesitation mean.
    - Examples: did the user complete the action correctly? Did they get confused or hesitate?
    - Ask: “What can I measure or observe that tells me if this interaction is effective?”
+   - _Scholarly kin:_ a good prototype makes the possibilities and limitations of a design idea **visible and measurable** [@lim-prototypes:2008].
 4. **Focused:** Are you including only what's needed to test the intended interaction or task?
    - Include the elements needed to test the key task; less focus on aesthetics or extra features.
    - Ask: “Does every part of this prototype help answer my testing question, or can something be removed?”
+   - _Scholarly kin:_ the _economic principle of prototyping_: the best prototype is the **simplest** one that does the job [@lim-prototypes:2008]; prototype one question at a time, whether _role_, _look and feel_, or _implementation_ [@houde1997prototypes].
+
+If you're curious how far this thinking goes: @odom-research-prototype:2016 push prototypes all the way to _research products_, judged on being _inquiry driven_ and on their _finish_, _fit_, and _independence_.
 
 Now, complete this **activity**:
 

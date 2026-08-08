@@ -8,12 +8,10 @@ title-slide-attributes:
 
 ## Announcements
 
-- **Assignment updates**:
-  - template repo will be available this afternoon I promise
-  - class reps: I'll get invites out this afternoon I promise!
+- **Assignment 1: Prototyping** is out --- due Monday 24 August, 23:59 AEST.
+  - fork the template repo and push early: the CI checks your formatting and word count
   - questions on the forum welcome, look in the "assignments" category.
-
-Apology: I completely changed what I planned to do in this lecture. This will be more fun / relevant to the assignment.
+- Today's lecture (sketching and prototyping) is the practical core of Assignment 1.
 
 ## Plan for the class
 
@@ -31,7 +29,7 @@ The _maker_ identity is really relevant to me.
 
 Making things to find out what, whether, how, and why.
 
-Making as research methodology.
+Making as research methodology [@frayling-research-art-design:1993; @zimmerman-research-through-design:2007].
 
 The framing this week around _sketches_ and _prototypes_ as different things with **rules** may not be something I agree with!
 
@@ -49,7 +47,7 @@ The framing this week around _sketches_ and _prototypes_ as different things wit
 - What makes something a sketch?
 :::
 ::: {.column width="40%"}
-![(@buxton-sketching:2007 p.104)](img/prototype_1_sketch.png)
+![[@buxton-sketching:2007, p. 104]](img/prototype_1_sketch.png)
 :::
 ::::::::::::::
 
@@ -67,8 +65,9 @@ The framing this week around _sketches_ and _prototypes_ as different things wit
 - minimal detail
 - appropriate degree of refinement
 - suggest and explore rather than confirm
+- **ambiguous**: you can get more out of a sketch than you put in!
 
-(@buxton-sketching:2007, p.111-113)
+[@buxton-sketching:2007, pp. 111--113]
 :::
 ::: {.column width="40%"}
 ![Sketching a stage in 2010](img/sketch-2010.jpg){width=80%}
@@ -151,11 +150,11 @@ Bill Buxton sez! So do it! [@buxton-sketching:2007]
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 ::: {.push-box}
-**Do:** Let's sketch something:
+**Do:** Let's sketch something (sound familiar?):
 
-> How can tutors keep track of student questions, pain-points and successes during a tutorial?
+> How can a magpie order takeaway online?
 
-1. Suggest a design idea on PollEverywhere: https://PollEv.com​/charlesmarti205
+1. Suggest a design idea on PollEverywhere: https://PollEv.com/charlesmarti205
 2. Help me sketch it.
 :::
 
@@ -220,7 +219,7 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 - manage solution-building [@design-thinking-bootleg:2018]
 :::
 ::: {.column width="40%"}
-![How t prototype from @design-thinking-bootleg:2018](img/dschool-prototyping.png){width=50%}
+![How to prototype from @design-thinking-bootleg:2018](img/dschool-prototyping.png){width=50%}
 :::
 ::::::::::::::
 
@@ -277,6 +276,7 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 - we use the word "fidelity" to mean how close a prototype is like a final product
 - _low-fidelity:_ (low-fi) rough, quick, not like a final product
 - _high-fidelity:_ (high-fi) more polished, slower to make, more like a final product
+- a better question than "how much fidelity?": what does your prototype _prototype_? its **role**, its **look and feel**, or its **implementation**? [@houde1997prototypes]
 
 # Prototype Definitions and Analysis {background-image="img/nime2015-cardboard-prototypes.jpg" background-size="cover" background-opacity="0.5"}
 
@@ -284,7 +284,7 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-**Filters:** emphasise some aspects of a design, omit others. [@lim-prototypes:2008], [@rogers-beyond-hci:2023 Box 12.2]
+**Filters:** emphasise some aspects of a design, omit others. [@lim-prototypes:2008; @rogers-beyond-hci:2023, Box 12.2]
 
 - **Appearance:** size, colour, shape, form, texture, sound
 - **Data:** size, type, use, privacy, organisation
@@ -293,7 +293,7 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 - **Spatial Structure:** arrangement of interface, intangible, tangible, 2D, 3D
 :::
 ::: {.column width="50%"}
-**Manifestations:** an external representation of the design [@lim-prototypes:2008], [@rogers-beyond-hci:2023 Box 12.2]
+**Manifestations:** an external representation of the design [@lim-prototypes:2008; @rogers-beyond-hci:2023, Box 12.2]
 
 - **Material:** media used, physical, code, hardware etc
 - **Resolution:** level of detail and sophistication (fidelity)
@@ -358,7 +358,7 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
 - Sketching - a key part of low-fidelity prototyping
-- “Sketching is not about drawing. Rather, it is about design” Saul Greenberg et al. (2012)
+- “Sketching is not about drawing. Rather, it is about design” [@greenberg-sketching-workbook:2012]
 - Sketching vocabulary, required elements
 
 So a sketch _is_ a prototype? Which is it?
@@ -367,6 +367,23 @@ So a sketch _is_ a prototype? Which is it?
 ![@rogers-beyond-hci:2023 Figure 12.5: simple sketches for low-fidelity prototyping](img/prototype_9_sketching.png)
 :::
 ::::::::::::::
+
+## The sketch-to-prototype continuum
+
+Buxton's own answer: the difference is one of **purpose, or intent** --- "a continuum, not an either/or proposition" [@buxton-sketching:2007, Figure 52]:
+
+| a sketch is... | a prototype is... |
+|---|---|
+| evocative | didactic |
+| suggest | describe |
+| explore | refine |
+| question | answer |
+| propose | test |
+| provoke | resolve |
+| tentative | specific |
+| noncommittal | depiction |
+
+So: don't ask "is this a sketch or a prototype?" --- ask **what it's for**.
 
 ## Low-Fi: Card-Based Prototypes
 
@@ -426,6 +443,7 @@ Can we test a product that doesn't exist?
 - user interacts with the software
 - a human simulates the software's response
 - assumes a software product or app
+- see @porcheron-wizard:2020 for a look behind the curtain
 
 :::
 ::: {.column width="60%"}
@@ -485,6 +503,8 @@ Can we test a product that doesn't exist?
 | low-fi | - quick revision<br>- multiple ideas<br>- good for communication<br>- good proof of concept | - limited error checking<br>- poor specification for dev<br>- facilitator driven<br>- usability not clear<br>- flow limitations |
 | high-fi | - more functionality<br>- more interactive<br>- user driven<br>- exploration and test<br>- look and feel<br>- marketing/convincing | - hard work<br>- time consuming to fix<br>- inefficient for proof of concepts<br>- could be mistaken for a product<br>- could set poor expectations |
 
+(adapted from @rogers-beyond-hci:2023; the original debate is @rudd-fidelity-debate:1996)
+
 ## Compromises
 
 - compromise is inherent to prototyping
@@ -492,6 +512,17 @@ Can we test a product that doesn't exist?
 - prototype must be built with the key issues in mind
 <!-- - horizontal vs vertical prototyping -->
 - robustness vs flexibility
+
+## What makes a prototype _testable_?
+
+Four criteria the tutors and I worked out for this course --- not straight from the literature, but they rhyme with it [@houde1997prototypes; @lim-prototypes:2008]:
+
+1. **Interactive:** users can actually perform the task --- take an action and see a response (even simulated)
+2. **Clear:** users can tell what the system is, what to do, and what just happened
+3. **Evaluative:** you can observe success, hesitation, or confusion --- something to learn from
+4. **Focused:** every part helps answer your testing question; the best prototype is the _simplest_ one that makes an idea's possibilities and limitations visible [@lim-prototypes:2008]
+
+For Assignment 1, **interactive** and **focused** matter most: show how the _interaction_ works. We'll return to all four when we prototype for _evaluation_ later in the course.
 
 # Prototyping Starter Kit {background-image="img/workshop-nime-2024.jpg" background-size="cover" background-opacity="0.5"}
 
@@ -615,7 +646,7 @@ Not necessarily bad in HCI: can we vibe code _way more_ prototypes than we could
 ::: {.push-box}
 **Do:** Can we live-code a prototype before the end of this lecture?
 
-1. Choose a prototype idea on PollEverywhere: <PollEv.com​/charlesmarti205>
+1. Choose a prototype idea on PollEverywhere: <PollEv.com/charlesmarti205>
 2. Help me figure out how to prototype it.
 3. ???
 4. 💸💸💰💲
@@ -628,6 +659,16 @@ Not necessarily bad in HCI: can we vibe code _way more_ prototypes than we could
 <!-- ![Good vibes? (Image: Vicko Mozara on Unsplash)](img/vicko-mozara-m82uh_vamhg-unsplash.jpg){width=70%} -->
 :::
 ::::::::::::::
+
+## Prototyping when your user isn't human
+
+Animal-Computer Interaction (ACI) is a real research field [@mancini-aci:2017; @aci-conference:2024].
+
+- your user's senses, body, and behaviours are different --- which _filters_ matter changes [@lim-prototypes:2008]
+  - **appearance:** colour vision, hearing range, smell
+  - **interactivity:** input without hands, feedback they can perceive
+- you can't interview your user (yet) --- observe, role-play, Wizard of Oz
+- design for the animal's capabilities, not a furry human's
 
 ## Sketching and Prototyping in your Assessment
 
@@ -644,6 +685,15 @@ Not necessarily bad in HCI: can we vibe code _way more_ prototypes than we could
 - I want to see evidence (through your prototypes) of a considered design process
 - different prototypes may be appropriate for different designs
 
+## Your prototype concludes an argument
+
+- your design rationale is _the argument behind the artifact_ [@maclean-argument-behind-artifact:1989] (week 2!)
+  - each **sketch** is an _option_ in your design space
+  - the _filters_ you chose to emphasise are your _criteria_ [@maclean-qoc:1991; @lim-prototypes:2008]
+  - your **prototype** is the conclusion: why _this_ design and not the others?
+- so the sketches aren't decoration --- they are the evidence for your argument
+- state what you gave up: a rationale nobody could disagree with is a description
+
 ## Questions: Who has a question?
 
 :::::::::::::: {.columns}
@@ -651,7 +701,7 @@ Not necessarily bad in HCI: can we vibe code _way more_ prototypes than we could
 :::: {.questions}
 **Who has a question?**
 
-- I can take _cathchbox_ question up until end of the lecture
+- I can take _catchbox_ questions up until end of the lecture
 - For after class questions: meet me outside the classroom at the bar (for 30 minutes)
 - Feel free to ask about **any aspect of the course**
 - Also feel free to ask about **any aspect of computing at ANU**! I may not be able to help, but I can listen.
