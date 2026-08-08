@@ -108,19 +108,43 @@ This is up to you, but it could have
 
 ## Activity: Sketching toolkit?
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
 ::: {.talk-box}
 **Talk:** ✏️📓🖊️ What's your sketching toolkit? How do you develop ideas?
 
 Discuss with someone for 2 minutes then we'll hear some answers.
 :::
 
-I give you permission to buy expensive notebooks and pens for this course.
+_I give you permission to buy expensive notebooks and pens for this course._
+
+:::
+::: {.column width="40%"}
+![Charles' usual notebook.](img/2025-charles-diary.jpg)
+:::
+::::::::::::::
 
 ## Is a sketch a prototype?
 
-No (apparently).
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+
+No.
+
+_Why not?_
+
+_Is sketching still relevant when LLMs make implementation cheap?_
+
+Yes! (I argue).
+
+:::
+::: {.column width="60%"}
 
 ![[Sketching in interaction design](https://www.interaction-design.org/literature/article/etch-a-sketch-how-to-use-sketching-in-user-experience-design)](img/06_ideation_9.jpg)
+
+:::
+::::::::::::::
 
 <!-- ## How to Choose your Best Ideas
 
@@ -303,6 +327,8 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 
 ## The prototyping spectrum
 
+<!-- This is not a great slide. WHere is the citation? The two links don't go great places and I won't visit them in the lecture. -->
+
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 - High Fidelity Prototype
@@ -312,15 +338,15 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 :::
 ::: {.column width="50%"}
 ![](img/prototype_5_spectrum_a.jpg)
-
 ![](img/prototype_6_spectrum_b.jpg)
-
 ![Photo by [Manik Roy](https://unsplash.com/@pixnum) on [Unsplash](https://unsplash.com/s/photos/toaster)
 ](img/07_prototyping_8.jpg)
 :::
 ::::::::::::::
 
 ## Prototyping - Low-Fidelity
+
+<!-- the story here is about the (famous) wooden palmpilot prototype. Where is that sourced? -->
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
@@ -445,6 +471,8 @@ Can we test a product that doesn't exist?
 - assumes a software product or app
 - see @porcheron-wizard:2020 for a look behind the curtain
 
+<!-- can we more clearly explain how this will work? rather than the cutesy "behind the curtain" thing. -->
+
 :::
 ::: {.column width="60%"}
 ![[Testing a system that doesn't exist.](https://www.simpleusability.com/inspiration/2018/08/wizard-of-oz-testing-a-method-of-testing-a-system-that-does-not-yet-exist/)](img/07_prototyping_23.jpg){width=70%}
@@ -515,14 +543,14 @@ Can we test a product that doesn't exist?
 
 ## What makes a prototype _testable_?
 
-Four criteria the tutors and I worked out for this course --- not straight from the literature, but they rhyme with it [@houde1997prototypes; @lim-prototypes:2008]:
+Four criteria the tutors and I worked out for this course --- a synthesis of ideas from the literature [@houde1997prototypes; @lim-prototypes:2008]:
 
 1. **Interactive:** users can actually perform the task --- take an action and see a response (even simulated)
 2. **Clear:** users can tell what the system is, what to do, and what just happened
 3. **Evaluative:** you can observe success, hesitation, or confusion --- something to learn from
 4. **Focused:** every part helps answer your testing question; the best prototype is the _simplest_ one that makes an idea's possibilities and limitations visible [@lim-prototypes:2008]
 
-For Assignment 1, **interactive** and **focused** matter most: show how the _interaction_ works. We'll return to all four when we prototype for _evaluation_ later in the course.
+For Assignment 1, **interactive**, **clear**, **focused** matter most: show how the _interaction_ works. We'll return to all four when we prototype for _evaluation_ later in the course.
 
 # Prototyping Starter Kit {background-image="img/workshop-nime-2024.jpg" background-size="cover" background-opacity="0.5"}
 
@@ -537,6 +565,9 @@ For Assignment 1, **interactive** and **focused** matter most: show how the _int
 
 ::: {.info-box}
 **Note:** You'll do this in the tutorial next week!
+:::
+::: {.success-box}
+**Instruction:** Use this method for assignment 1!
 :::
 :::
 ::: {.column width="40%"}
@@ -554,6 +585,10 @@ For Assignment 1, **interactive** and **focused** matter most: show how the _int
 - [wireframe.cc](https://wireframe.cc/)
 
 Established part of UX design process. Can walk through details of an interactive system with stakeholders.
+
+::: {.warn-box}
+**Warn:** Don't do this for assignment 1!
+:::
 
 :::
 ::: {.column width="40%"}
@@ -594,7 +629,7 @@ Sketch in hardware.
 Convincing to test with a "real" product, can be used in real-world experiences.
 :::
 ::: {.column width="40%"}
-![Alistair Riddell testing an [electronic carillon key](https://charlesmartin.au/blog/2019/12/23/christmas-carillon).](img/prototype-carillon-2019.jpg)
+![Alistair Riddell testing an [electronic carillon key](https://charlesmartin.au/blog/2019/12/23/christmas-carillon).](img/2019-carillon-key.jpg)
 :::
 ::::::::::::::
 
@@ -622,41 +657,19 @@ Need to be careful to focus on _prototyping_. What does a prototype _not need_?
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-GenAI is pretty good at making interactive websites!
+Claude/Chattie G and even `gemma4:e4b` are pretty good at making interactive websites!
 
-- just ask chattie to build a prototype of your idea.
+- agentically build a prototype of your idea.
 - fast, cheap
-- possibly a bit broken (bad if you don't know how to fix)
 - risks?
 - problems?
 - affordances?
 
-Not necessarily bad in HCI: can we vibe code _way more_ prototypes than we could afford to build?
+Changes the value calculations in HCI: we can build more/better prototypes faster. What are the new friction points?
 :::
 ::: {.column width="40%"}
 
 ![[Vibe coding.](https://www.technologyreview.com/2025/04/16/1115135/what-is-vibe-coding-exactly/) Source: MIT Technology Review, April 2025.](img/prototyping-vibecoding.png){width=100%}
-:::
-::::::::::::::
-
-## Activity: prototyping by request
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-::: {.push-box}
-**Do:** Can we live-code a prototype before the end of this lecture?
-
-1. Choose a prototype idea on PollEverywhere: <PollEv.com/charlesmarti205>
-2. Help me figure out how to prototype it.
-3. ???
-4. 💸💸💰💲
-:::
-
-:::
-::: {.column width="40%"}
-![Poll Everywhere QR code](img/polleverywhere-charles-qr.png)
-
-<!-- ![Good vibes? (Image: Vicko Mozara on Unsplash)](img/vicko-mozara-m82uh_vamhg-unsplash.jpg){width=70%} -->
 :::
 ::::::::::::::
 
@@ -693,6 +706,27 @@ Animal-Computer Interaction (ACI) is a real research field [@mancini-aci:2017; @
   - your **prototype** is the conclusion: why _this_ design and not the others?
 - so the sketches aren't decoration --- they are the evidence for your argument
 - state what you gave up: a rationale nobody could disagree with is a description
+
+## Activity: prototyping by request
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+::: {.push-box}
+**Do:** Can we live-code a prototype before the end of this lecture?
+
+1. Choose a prototype idea on PollEverywhere: <PollEv.com/charlesmarti205>
+2. Help me figure out how to prototype it.
+3. ???
+4. 💸💸💰💲
+:::
+
+:::
+::: {.column width="40%"}
+![Poll Everywhere QR code](img/polleverywhere-charles-qr.png)
+
+<!-- ![Good vibes? (Image: Vicko Mozara on Unsplash)](img/vicko-mozara-m82uh_vamhg-unsplash.jpg){width=70%} -->
+:::
+::::::::::::::
 
 ## Questions: Who has a question?
 
