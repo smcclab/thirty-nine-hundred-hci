@@ -179,7 +179,7 @@ Bill Buxton sez! So do it! [@buxton-sketching:2007]
 > How can a magpie order takeaway online?
 
 1. Suggest a design idea on PollEverywhere: https://PollEv.com/charlesmarti205
-2. Help me sketch it.
+2. Help me [sketch it](https://www.tldraw.com/f/7-3RhpgyJxN1xhj_rFW2R?d=v1077.-327.1171.1648.page).
 :::
 
 :::
