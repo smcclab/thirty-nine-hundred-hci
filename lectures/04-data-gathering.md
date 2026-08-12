@@ -47,6 +47,7 @@ title-slide-attributes:
 ::: {.column width="60%"}
 Get information about people, their behaviour and experiences with technology.
 
+- remember: **you are not the user!** user research aims at design-neutral descriptions of real users [@hornbaek-intro-hci:2025]
 - What information and why?
 - Depends on research problem and phase of research/design process, e.g.,
     - Comparing two alternative interfaces
@@ -580,6 +581,7 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
   - embedding systems in people's everyday life
   - interacting with participants remotely
   - tracking more participants than you could directly observe
+- **nonreactive:** avoids _reactivity_, where being studied changes what participants do [@hornbaek-intro-hci:2025]
 
 ## Diaries
 
@@ -703,6 +705,7 @@ Back to our issues:
 - Questionnaires are fast and can address lots of participants---a broad approach
 - Interviews are slow but are a deep approach.
 - Interviews also require good conversational skills and experience to conduct well.
+- Both collect what people _say_: beware the **say--do gap** between reports and behaviour [@hornbaek-intro-hci:2025]---observation fills it in.
 
 ## Questions: Who has a question?
 
