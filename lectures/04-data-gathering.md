@@ -122,6 +122,7 @@ A data provider _gives_ us data. What do they get back?
 - _investigator triangulation:_ different researchers (observers, interviewers, etc)
 - _triangulation of theories:_ different theoretical frameworks
 - _methodological triangulation:_ different data gathering or research techniques
+- this typology is a classic idea from sociology [@denzin-research-act:2017]: no single method is bias-free, so combine them
 :::
 ::: {.column width="40%"}
 ![Triangles support strong conclusions. (Photo by Charles 2010)](img/2010-belconnen-triangles.jpg)
@@ -316,6 +317,7 @@ Use the poll everywhere link to suggest interview questions and vote on the best
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 - written method of gathering structured data
+- ask questions of a subset of people to generalise to a wider population [@mueller-survey-research:2014]
 - sometimes called a "survey", technically a survey is the whole study
 - _questionnaire_ or _survey instrument_ is the paper form with questions
 - questions can be open or closed
@@ -437,7 +439,7 @@ Questions might be something like:
 5. How hard did you have to work to accomplish your level of performance?
 6. How insecure, discouraged, irritated, stressed and annoyed were you?
 
-[Worksheets provided!](https://ntrs.nasa.gov/citations/20000021488), [@hart-nasa-tlx:1988], extra questions [weight the ratings](https://humansystems.arc.nasa.gov/groups/tlx/).
+[Worksheets provided!](https://ntrs.nasa.gov/citations/20000021488), [@hart-nasa-tlx:1988], extra questions [weight the ratings](https://humansystems.arc.nasa.gov/groups/tlx/)---though 20 years on, most studies skip the weighting and use "Raw TLX" [@hart-tlx-20-years:2006].
 :::
 ::: {.column width="40%"}
 ![NASA TLX](img/NasaTLX.png)
@@ -448,7 +450,7 @@ Questions might be something like:
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- **Idea:** measure how well a system can support creativity [@carroll-csi:2009, @cherry-csi:2014]
+- **Idea:** measure how well a system can support creativity [@carroll-csi:2009; @cherry-csi:2014]
 - **creativity support tools:** writing, visualisation, video editing, music tools etc
 - creativity is a bit hard to define, but the CSI includes:
   - exploration, expressiveness, immersion, enjoyment, results worth effort, collaboration
@@ -465,7 +467,7 @@ Questions might be something like:
 ::: {.column width="60%"}
 - It's hard to write survey questions! It may be good for beginners to use a standard questionnaire.
 - The more questions you ask, the more work it can be to analyse. It can be counter-productive to have lots of questions without a way to aggregate them.
-- Rating scale data is generally not continuous and so you need to use non-parametric significance tests. 
+- Rating scale data is generally not continuous and so you need to use non-parametric significance tests---at typical HCI sample sizes these are more powerful and consistent than t-tests on rating data [@kaptein-likert-analysis:2010].
 - The distribution of survey data is usually important, good to use plots such as box plots rather than a mean and standard error chart.
 :::
 ::: {.column width="40%"}
@@ -524,6 +526,7 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
 - ethnography is often used in relation to specific workplaces, e.g.: factories, hospitals etc
 - being within the context of the participants rather than bringing them to a lab/classroom for study
 - ethnography as a methodology connected with anthropology (i.e., as “the study of culture”), but it's not identical
+- its job in HCI is debated: detailed studies of what people actually do, not just a list of "implications for design" [@dourish-implications:2006; @crabtree-ethnography-harmful:2009]
 :::
 ::: {.column width="40%"}
 ![(Photo by Homa Appliances on Unsplash)](img/homa-appliances-ERXFD4jLpJc-unsplash.jpg)
@@ -548,9 +551,11 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
 
 - **Problem:** observers don't know what participants are thinking
 - **Solution:** ask participants to say everything they are thinking and trying to do when using an interface, so we know!
+- theory from psychology: participants verbalise the contents of their working memory, concurrently or retrospectively [@ericsson-verbal-reports:1980]
 - can produce very useful data
 - hard work for the participant
 - needs careful facilitation from the observer
+- the standard tool of industry UX practice, in both lab and remote testing [@fan-think-aloud-industry:2020]
 
 - more: [Thinking aloud, the #1 usability tool](https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/)
 
@@ -584,6 +589,7 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
 - takes continuous effort from the participants (reminders? structure?)
 - relies on participant's memory and subjective account
 - video and photos can reinforce written accounts
+- the capture medium (photos, audio, tangible objects) shapes what participants record and later recall [@carter-diary-media:2005]
 :::
 ::: {.column width="40%"}
 ![The participant just writes down their experience! (2025)](img/2025-charles-diary.jpg)
@@ -604,7 +610,7 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
 
 
 ::: {.warn-box}
-**Careful:** scraping large amounts of data raises ethical concerns!
+**Careful:** scraping large amounts of data raises ethical concerns! Few social media users know researchers use their public posts, and most think consent should be asked [@fiesler-twitter-ethics:2018].
 :::
 :::
 ::: {.column width="40%"}
