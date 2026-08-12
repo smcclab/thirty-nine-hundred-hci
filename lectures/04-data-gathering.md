@@ -504,8 +504,9 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
 - using system or technology in the normal context of use
   - e.g., a researcher joins a tour group to observe use of a travel navigation app
   - e.g., a researcher watches a concert carefully to observe the performer's use of music technology
+- "in the wild" is a real HCI term: studying technology in everyday contexts, not the lab [@chamberlain-research-wild:2012]
 
-### Example framework:
+### Example framework from @rogers-beyond-hci:2023:
 
 - **The person:** who is using the technology at any given point?
 - **The place:** where are they using it?
