@@ -10,7 +10,7 @@ title-slide-attributes:
 
 - template for assignment 1 is [available](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A1-prototyping)
 - assignment 1 [due **Monday 24 August, 23:59 on GitLab**](https://canvas.anu.edu.au/courses/2781/assignments/11544)
-- assignment 2 specification will be published next week, [you can see the "main idea" already on Canvas](https://canvas.anu.edu.au/courses/11488/assignments/43580)
+- assignment 2 specification will be properly available after the A1 is in, [you can see the draft already on Canvas](https://smcclab.au/thirty-nine-hundred-hci/assessments/02-needs-finding.html)
 - keep attending labs, if issues, apply for an [extension (see course policies on Canvas)](https://canvas.anu.edu.au/courses/2781/pages/policies)
 - any questions, problems, [**use the forum**](https://edstem.org/au/courses/37143/discussion)!
 - lab marks come out weekly via Canvas
@@ -440,10 +440,10 @@ Questions might be something like:
 5. How hard did you have to work to accomplish your level of performance?
 6. How insecure, discouraged, irritated, stressed and annoyed were you?
 
-[Worksheets provided!](https://ntrs.nasa.gov/citations/20000021488), [@hart-nasa-tlx:1988], extra questions [weight the ratings](https://humansystems.arc.nasa.gov/groups/tlx/)---though 20 years on, most studies skip the weighting and use "Raw TLX" [@hart-tlx-20-years:2006].
+[Worksheets provided!](https://ntrs.nasa.gov/citations/20000021488) [@hart-nasa-tlx:1988]. Extra questions [weight the ratings](https://humansystems.arc.nasa.gov/groups/tlx/), though most studies now skip weighting and use "Raw TLX" [@hart-tlx-20-years:2006].
 :::
 ::: {.column width="40%"}
-![NASA TLX](img/NasaTLX.png)
+![NASA TLX](img/NasaTLX.png){width=45%}
 :::
 ::::::::::::::
 
@@ -466,10 +466,10 @@ Questions might be something like:
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- It's hard to write survey questions! It may be good for beginners to use a standard questionnaire.
-- The more questions you ask, the more work it can be to analyse. It can be counter-productive to have lots of questions without a way to aggregate them.
-- Rating scale data is generally not continuous and so you need to use non-parametric significance tests---at typical HCI sample sizes these are more powerful and consistent than t-tests on rating data [@kaptein-likert-analysis:2010].
-- The distribution of survey data is usually important, good to use plots such as box plots rather than a mean and standard error chart.
+- It's hard to write survey questions! Beginners may do better with a standard questionnaire.
+- More questions means more analysis work---counter-productive without a way to aggregate them.
+- Rating scale data isn't continuous: use non-parametric significance tests---more powerful and consistent than t-tests at typical HCI sample sizes [@kaptein-likert-analysis:2010].
+- The distribution matters: prefer box plots over mean and standard error charts.
 :::
 ::: {.column width="40%"}
 ![Some boxplots from a survey.](img/survey_boxplot_results.jpg)
@@ -502,14 +502,14 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 - watching people for science
-- using system or technology in the normal context of use
-  - e.g., a researcher joins a tour group to observe use of a travel navigation app
-  - e.g., a researcher watches a concert carefully to observe the performer's use of music technology
-- "in the wild" is a real HCI term: studying technology in everyday contexts, not the lab [@chamberlain-research-wild:2012]
+- observing system use in its normal context
+  - e.g., join a tour group to observe a navigation app
+  - e.g., watch a concert to observe music technology
+- "in the wild": everyday contexts, not the lab [@chamberlain-research-wild:2012]
 
 ### Example framework from @rogers-beyond-hci:2023:
 
-- **The person:** who is using the technology at any given point?
+- **The person:** who is using the technology?
 - **The place:** where are they using it?
 - **The thing:** what are they doing with it?
 :::
@@ -524,11 +524,10 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
 ::: {.column width="60%"}
 - Literally “study of culture”
 - immersion and participation in a research context.
-- e.g., to create a factory management system, a researcher might embed themself in a factory, talk to workers and perform tasks
-- ethnography is often used in relation to specific workplaces, e.g.: factories, hospitals etc
-- being within the context of the participants rather than bringing them to a lab/classroom for study
-- ethnography as a methodology connected with anthropology (i.e., as “the study of culture”), but it's not identical
-- its job in HCI is debated: detailed studies of what people actually do, not just a list of "implications for design" [@dourish-implications:2006; @crabtree-ethnography-harmful:2009]
+- e.g., embed in a factory (talk to workers, perform tasks) to create a factory management system
+- often applied to workplaces: factories, hospitals, etc
+- study participants in their own context rather than in a lab/classroom
+- its job in HCI is debated: study what people actually do, not just "implications for design" [@dourish-implications:2006; @crabtree-ethnography-harmful:2009]
 :::
 ::: {.column width="40%"}
 ![(Photo by Homa Appliances on Unsplash)](img/homa-appliances-ERXFD4jLpJc-unsplash.jpg)
@@ -557,7 +556,7 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
 - can produce very useful data
 - hard work for the participant
 - needs careful facilitation from the observer
-- the standard tool of industry UX practice, in both lab and remote testing [@fan-think-aloud-industry:2020]
+- the standard tool of industry UX practice [@fan-think-aloud-industry:2020]
 
 - more: [Thinking aloud, the #1 usability tool](https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/)
 
@@ -604,16 +603,15 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- **Interaction log:** a log of data captured from a system showing exactly what the participant did at any given time
-- e.g.: key presses, mouse movements, interactions with GUI components, sensor data
-- time spent on actions or using software (e.g., playing a game, using instagram)
-- unobtrusive, automatic
-- lots of data, should be visualised or analysed to develop findings
-- scraping data from public sources (e.g., social media) can be observation
+- **Interaction log:** system data showing exactly what the participant did and when
+- e.g., key presses, mouse moves, GUI events, sensor data
+- time spent on actions or software
+- unobtrusive and automatic, but lots of data: needs visualisation or analysis to develop findings
+- scraping public sources (e.g., social media) can also be observation
 
 
 ::: {.warn-box}
-**Careful:** scraping large amounts of data raises ethical concerns! Few social media users know researchers use their public posts, and most think consent should be asked [@fiesler-twitter-ethics:2018].
+**Careful:** scraping raises ethical concerns! Few social media users know researchers use their public posts, and most think consent should be asked [@fiesler-twitter-ethics:2018].
 :::
 :::
 ::: {.column width="40%"}
@@ -688,10 +686,10 @@ Back to our issues:
 - can access participants in different countries, age groups, abilities, specific or expert users
 - observation could be recorded and then analysed later
 - best practices might include [@mastrianni-remote:2021]:
-  - running pilot tests before conducting sessions
+  - run pilot tests before sessions
   - have backups in place in case of issues
-  - informing participants of technical requierments
-  - use respective questioning if issues with think-aloud.
+  - inform participants of technical requirements
+  - use retrospective questioning if think-aloud has issues
 :::
 ::: {.column width="40%"}
 ![Interviews and observations can happen remotely! (Photo by Chris Montgomery on Unsplash)](img/chris-montgomery-smgTvepind4-unsplash.jpg)
