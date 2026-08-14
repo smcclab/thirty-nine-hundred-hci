@@ -124,11 +124,16 @@ A data provider _gives_ us data. What do they get back?
 - _triangulation of theories:_ different theoretical frameworks
 - _methodological triangulation:_ different data gathering or research techniques
 - this typology is a classic idea from sociology [@denzin-research-act:2017]: no single method is bias-free, so combine them
+- but debated: does combining methods assume there is one "true" picture for them to converge on? [@blaikie-triangulation-critique:1991]
 :::
 ::: {.column width="40%"}
 ![Triangles support strong conclusions. (Photo by Charles 2010)](img/2010-belconnen-triangles.jpg)
 :::
 ::::::::::::::
+
+::: notes
+Blaikie's critique: triangulation quietly imports a positivist assumption — that different methods are views of one underlying reality and should converge on it. Interpretivists reply that different methods constitute different objects of study, not angles on the same one, so "agreement" between methods isn't automatically validation. Hold this thought — we come back to epistemology later in the course.
+:::
 
 ## Pilot Studies
 
@@ -468,13 +473,17 @@ Questions might be something like:
 ::: {.column width="60%"}
 - It's hard to write survey questions! Beginners may do better with a standard questionnaire.
 - More questions means more analysis work---counter-productive without a way to aggregate them.
-- Rating scale data isn't continuous: use non-parametric significance tests---more powerful and consistent than t-tests at typical HCI sample sizes [@kaptein-likert-analysis:2010].
+- Rating scale data isn't continuous: use non-parametric significance tests---more powerful and consistent than t-tests at typical HCI sample sizes [@kaptein-likert-analysis:2010]---though statisticians still argue about this [@norman-likert-parametric:2010].
 - The distribution matters: prefer box plots over mean and standard error charts.
 :::
 ::: {.column width="40%"}
 ![Some boxplots from a survey.](img/survey_boxplot_results.jpg)
 :::
 ::::::::::::::
+
+::: notes
+The Likert analysis question is a live argument, not settled: Kaptein, Nass & Markopoulos (CHI 2010) show non-parametric tests are more powerful and consistent at typical HCI sample sizes, while Geoff Norman (2010, health sciences education) argues parametric tests are robust to ordinal data and skewed distributions, and that the "you can't do that with Likert data" objection is overblown. Both papers are from the same year and both are highly cited. Students will meet both positions in the literature — the honest advice is to know why you chose your test, not to treat either rule as gospel.
+:::
 
 ## Activity: Write a questionnaire
 
@@ -527,12 +536,16 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
 - e.g., embed in a factory (talk to workers, perform tasks) to create a factory management system
 - often applied to workplaces: factories, hospitals, etc
 - study participants in their own context rather than in a lab/classroom
-- its job in HCI is debated: "implications for design" vs "what people actually do" vs interpretation [@dourish-implications:2006; @crabtree-ethnography-harmful:2009]
+- its job in HCI is debated: "implications for design" vs "what people actually do" vs interpretation [@suchman:1987; @dourish-implications:2006; @crabtree-ethnography-harmful:2009]
 :::
 ::: {.column width="40%"}
 ![(Photo by Homa Appliances on Unsplash)](img/homa-appliances-ERXFD4jLpJc-unsplash.jpg)
 :::
 ::::::::::::::
+
+::: notes
+Suchman's Plans and Situated Actions (1987, Xerox PARC) is where this tradition starts in HCI: work as actually done differs from work as officially described. Twenty years on, the field was still arguing about what ethnography is for. These two papers actually disagree — Dourish says ethnography's value is analytic, not a requirements bullet-list; Crabtree et al. say the interpretive turn went too far and ethnography should stick to describing what people observably do.
+:::
 
 ## Direct Observation in Controlled Environments
 
@@ -557,8 +570,13 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
 - hard work for the participant
 - needs careful facilitation from the observer
 - the standard tool of industry UX practice [@fan-think-aloud-industry:2020]
+- but theory and practice disagree: the strict protocol is rarely followed in the field [@boren-thinking-aloud:2000]
 
 - more: [Thinking aloud, the #1 usability tool](https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/)
+
+::: notes
+Ericsson & Simon's theory demands a strict protocol: participants verbalise only, no probing, and the only permitted intervention is "keep talking". Boren & Ramey watched practitioners at work and found they systematically break these rules — chatting, probing, reassuring — so the method as actually practised isn't licensed by the theory it cites for validity. Their proposal: ground it in speech communication theory instead, since the observer is unavoidably a listener in a conversation, and manage that role deliberately rather than pretending to be absent. Another science-vs-practice tension, like Raw TLX.
+:::
 
 ## Video-cued Recall
 
