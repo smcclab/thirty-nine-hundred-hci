@@ -43,7 +43,7 @@ Your written rationale should have the following sections:
 Your submission must:
 
 - be a **single markdown file**, `prototype-documentation.md`, using the headings provided in the template
-- include at least three sketches, embedded as images in that file
+- include at least three hand-drawn sketches, embedded as images in that file
 - include visual documentation (i.e., at least one photograph) of a paper based prototype, also embedded
 - include at least two references to external sources in ACM format
 - be a maximum of 1500 words + 10% acceptable buffer (i.e., no more than 1650 words), and at least 400 words. Acknowledgements, the reference list, commented text, numbers and other non-alphabet characters, and code blocks do not count towards the total; captions and tables do count.
@@ -67,7 +67,7 @@ Here's how to get started with the work in this assignment:
 
 2. **Find out what your users can actually do.** Use your [research skills](https://scholar.google.com) to learn about your animal's senses, physical capabilities, and social behaviour. You can imagine that your animal is at least as intelligent as people and, if they have the physical ability to read, write, understand speech, or speak, they can.
 
-3. **Ideate and sketch at least three different options.** Use ideation techniques from week 2. The different sketches map out a design space for your rationale.
+3. **Ideate and sketch at least three different options.** Use ideation techniques from week 2. The different sketches map out a design space for your rationale. Sketches should be hand-drawn either on paper or a tablet screen.
 
 4. **Choose one option, and articulate why.** What criteria did you judge the options against? What did you give up by choosing this one? See [design rationale](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/02-design.html#/design-rationale) from week 2.
 
