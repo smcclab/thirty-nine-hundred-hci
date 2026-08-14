@@ -527,7 +527,7 @@ Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.co
 - e.g., embed in a factory (talk to workers, perform tasks) to create a factory management system
 - often applied to workplaces: factories, hospitals, etc
 - study participants in their own context rather than in a lab/classroom
-- its job in HCI is debated: study what people actually do, not just "implications for design" [@dourish-implications:2006; @crabtree-ethnography-harmful:2009]
+- its job in HCI is debated: "implications for design" vs "what people actually do" vs interpretation [@dourish-implications:2006; @crabtree-ethnography-harmful:2009]
 :::
 ::: {.column width="40%"}
 ![(Photo by Homa Appliances on Unsplash)](img/homa-appliances-ERXFD4jLpJc-unsplash.jpg)
