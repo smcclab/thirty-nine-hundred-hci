@@ -21,6 +21,7 @@ Requires: `pandoc`, a TeX environment (MacTeX or TeX Live), `sass`, `python3`, a
 | `make workshops` | Workshop HTML only |
 | `make resources` | Resource HTML only |
 | `make bigfiles` | Concatenated mega-PDFs for all lectures, assessments, and workshops |
+| `make bigmd` | Concatenated markdown of all lectures / assessments / workshops (handy for whole-course review) |
 | `make canvas-html` | Non-standalone HTML fragments of assessments + workshops, for Canvas |
 | `make clean` | Remove the `build/` output directory |
 
@@ -31,7 +32,7 @@ CSS for reveal.js is compiled from SCSS:
 sass css/charles_reveal_dark.scss build/lectures/charles_reveal_dark.css
 ```
 
-Beamer PDFs are built with `lualatex` and require these fonts: Linux Libertine O, Noto Sans, Noto Color Emoji. Presentations use the metropolis theme with owl color scheme at 16:9 aspect ratio. They also require `pgf`/`tikz` and `etoolbox` (both are beamer dependencies, so a standard beamer install already has them) for slide background images — see `filters/beamer-background.lua`.
+All PDFs are built with `lualatex`. Beamer slides use Noto Sans with Noto Color Emoji fallback; the print PDFs (assessments, bigfiles) use Linux Libertine O with Noto Sans as the sans font — so all three fonts must be installed. Presentations use the metropolis theme with owl color scheme at 16:9 aspect ratio. They also require `pgf`/`tikz` and `etoolbox` (both are beamer dependencies, so a standard beamer install already has them) for slide background images — see `filters/beamer-background.lua`.
 
 ## Content Structure
 
@@ -44,6 +45,7 @@ Beamer PDFs are built with `lualatex` and require these fonts: Linux Libertine O
 - `references.bib` — Shared BibTeX references (APA citation style via `apa.csl`)
 - `_config.toml` — Course metadata (title, institution, author, year) used by `generate_index.py`
 - `_draft/` — Experimental/unused materials, not included in any build target
+- `course-entry/` — Scraped ANU Programs & Courses entries (COMP3900/COMP6390) and an accreditation-handbook summary; reference material only, not built. The learning outcomes, week-by-week schedule, and assessment weightings also live in `README.md`
 
 ## Markdown Conventions
 
@@ -80,7 +82,9 @@ The PDF side is `filters/beamer-background.lua`, wired in through `BEAMER_OPTS`.
 
 One known gap: a background on an `{.unnumbered}` `#` heading is skipped (with a warning on stderr), because section pages are keyed by section number and unnumbered sections don't advance the counter.
 
-Citations use pandoc format: `[@bibtex-key]`, `[@bibtex-key, p26]`. References go in `references.bib`; referencing style is APA (`apa.csl`).
+Citations use pandoc format: `[@bibtex-key]`, `[@bibtex-key, p26]`. References go in `references.bib`; referencing style is APA (`apa.csl`) — a deliberate choice over ACM style, since author/date citations are readable without a lookup (`acm-sig-proceedings.csl` sits in the repo root but is unused by the build).
+
+Markdown linting is configured in `.markdownlint.json`: long lines, unindented list nesting, and multiple `#` headings per file are all intentionally allowed (the latter because `#` means a section slide, not a document title).
 
 ### The References slide
 
@@ -101,6 +105,7 @@ It also sets `.csl-bib-body` (citeproc's bibliography) smaller than body text. `
 
 - `find_unused_images.py` — finds images in `lectures/img/` not referenced by any lecture markdown
 - `count_slides.sh` — counts slides, words, and images per lecture with totals
+- `restore-removed-file.sh <path>` — restores a deleted file from the commit before its deletion, or reverts an existing file to its last committed state
 
 ## Canvas Publishing
 
