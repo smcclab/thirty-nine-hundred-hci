@@ -8,9 +8,9 @@ title-slide-attributes:
 
 ## Announcements
 
-- **TODAY: **assignment 1 [due **Monday 24 August, 23:59 on GitLab**](https://canvas.anu.edu.au/courses/2781/assignments/11544) ([template](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A1-prototyping))
+- **TODAY:** assignment 1 [due **Monday 24 August, 23:59 on GitLab**](https://canvas.anu.edu.au/courses/11488/assignments/43579) ([template](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A1-prototyping))
 - assignment 2 specification will be published soon, [you can see the "main idea" already on Canvas](https://canvas.anu.edu.au/courses/11488/assignments/43580)
-- keep attending labs, if issues, apply for an [extension (see course policies on Canvas)](https://canvas.anu.edu.au/courses/2781/pages/policies)
+- keep attending labs, if issues, apply for an [extension (see course policies on Canvas)](https://canvas.anu.edu.au/courses/11488/pages/policies)
 - any questions, problems, [**use the forum**](https://edstem.org/au/courses/37143/discussion) - more questions allowed (no limits!), public questions preferred.
 - lab marks come out weekly via Canvas
 
@@ -18,9 +18,8 @@ title-slide-attributes:
 
 - Overview of analysis, interpretation, presentation
 - Quantitative Analysis (demos!)
-- Qualitative Analysis (demos!)
-- Analytical Frameworks
-- Interpreting and Presenting Findings
+- Qualitative Analysis (coding, themes, affinity diagrams)
+- (next week: analytical frameworks and a deep dive on reflexive thematic analysis)
 
 # Analysis, Interpretation, Presentation {background-image="img/claudio-schwarz-fyeOxvYvIyY-unsplash.jpg" background-size="cover" background-opacity="0.35"}
 
@@ -29,6 +28,7 @@ title-slide-attributes:
 - quantitative approaches
 - qualitative approaches
 - or a combination (common in HCI!)
+- this lecture follows chapter 9 of the course textbook [@rogers-beyond-hci:2023]
 
 ## Processes
 
@@ -147,13 +147,13 @@ This matters because statistical tests often assume data is _normal_ so findings
 ::: {.column width="40%"}
 ![Normal distribution](img/normal_distribution_plot.png){width=70%}
 
-![Bimodel distribution](img/bimodal_distribution_plot.png){width=70%}
+![Bimodal distribution](img/bimodal_distribution_plot.png){width=70%}
 :::
 ::::::::::::::
 
 ## Looking at the data
 
-First think to do after loading it in. May not be the most helpful approach... but still important to check it's not garbled and the columns make sense.
+First thing to do after loading it in. May not be the most helpful approach... but still important to check it's not garbled and the columns make sense.
 
 | interactive activities | attend in person | watch online | degree        | time in CBR |
 |------------------------|------------------|--------------|---------------|-------------|
@@ -246,7 +246,7 @@ plt.show()
 - We use statistical significance to help ascertain meaningful differences that might be a research finding.
 - A classic test is the _t_-test which compares the _means_ of two sets of data, the output of a _t_-test can tell us how likely differences are to be random or **significant** (meaningful)
 
-### Signficance test notes
+### Significance test notes
 
 - we will come back to this later...
 - _t_-tests assume normality and can only compare simple situations
@@ -288,9 +288,9 @@ In this class we'll use Python, numpy, pandas, scipy, seaborn, and matplotlib as
 ::: {.column width="60%"}
 - in **qualitative research** the word _coding_ has nothing to do with programming
 - **coding:** annotating data with key words or phrases that provide a means for analysis over a large corpus
-- codes can be inductive (bottom up, from the data) or deductive (top-down start with a framework of codes)
+- codes can be inductive (bottom up, from the data) or deductive (top-down start with a framework of codes) [@braun-thematic-analysis:2006]
 - challenges: creating meaningful, non-overlapping codes that are clearly defined and determining granularity
-- inter-rater reliability measures the clarity and reliability of the coding scheme rather than correctness of analysis
+- inter-rater reliability measures the clarity and reliability of the coding scheme rather than correctness of analysis [@mcdonald-interrater-reliability:2019]
 - can be done with a text editor or dedicated software (NVivo, MAXQDA)
 :::
 ::: {.column width="40%"}
@@ -349,7 +349,7 @@ A theme is a high level finding from qualitative analysis, but what that means c
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- **affinity diagrams** used for organising large amounts of data and identifying themes and overall narratives
+- **affinity diagrams** used for organising large amounts of data and identifying themes and overall narratives, a core part of contextual design [@contextual-design:1997]
 - both digital (e.g., Miro) and physical (e.g., sticky notes) diagramming approaches
 - not necessarily a lot to this: summarise the data on notes, and arrange to find relationships between them.
 - my PhD/master/Honours students tend to do this with Miro
@@ -367,7 +367,7 @@ A theme is a high level finding from qualitative analysis, but what that means c
 - e.g.: take a specific categorisation scheme from previous research (interface problems, or design recommendations), apply to new situation
 - taking a quantitative approach: counting occurrences of categories per participant, identifying specific situations or issues
 
-## Critical Incident Analysis
+## Critical Incident Analysis [@flanagan-critical-incident:1954]
 
 - focus on significant behavioral incidents rather than general impressions
 - identifying specific moments that are pivotal in either positive or negative ways
@@ -384,7 +384,7 @@ A theme is a high level finding from qualitative analysis, but what that means c
 ::: {.column width="60%"}
 **Who has a question?**
 
-- I can take _cathchbox_ question up until 2:55
+- I can take _catchbox_ questions up until 2:55
 - For after class questions: meet me outside the classroom at the bar (for 30 minutes)
 - Feel free to ask about **any aspect of the course**
 - Also feel free to ask about **any aspect of computing at ANU**! I may not be able to help, but I can listen.
