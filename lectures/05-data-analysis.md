@@ -21,6 +21,22 @@ title-slide-attributes:
 - Qualitative Analysis (coding, themes, affinity diagrams)
 - (next week: analytical frameworks and a deep dive on reflexive thematic analysis)
 
+## Before we start: answer a quick questionnaire
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+::: {.push-box}
+**Do:** Answer a short questionnaire about this class (2 minutes)
+
+- go to <https://pollev.com/charlesmarti205> or scan the QR code
+- we'll use _your_ responses as the dataset for a live analysis demo later in the lecture
+:::
+:::
+::: {.column width="40%"}
+![PollEverywhere link: <https://pollev.com/charlesmarti205>](img/polleverywhere-charles-qr.png)
+:::
+::::::::::::::
+
 # Analysis, Interpretation, Presentation {background-image="img/claudio-schwarz-fyeOxvYvIyY-unsplash.jpg" background-size="cover" background-opacity="0.35"}
 
 - last week we talked about getting data
@@ -92,12 +108,22 @@ title-slide-attributes:
 - This can particularly happen when transforming the type of data (e.g., agreement ratings to a numerical code)
 - Qualitative data can also be misused, e.g., content of questions reported as a finding.
 
-::: {.warn-box}
-**Careful:** some example problems
+::: {.talk-box}
+**Talk:** What's wrong with each of these claims? (2 minutes, discuss with your neighbour)
 
-- "50% of users took longer than 30 minutes" vs "2 out of 4 users..."
-- The mean agreement was 3.67
-- (In a study about mobile phone use with many questions about mobile phones) "Participants noted frequent use of mobile phones for many tasks".
+1. "50% of users took longer than 30 minutes to complete the task."
+2. "The mean agreement was 3.67."
+3. (In a study about mobile phone use with many questions about mobile phones) "Participants noted frequent use of mobile phones for many tasks."
+:::
+
+## Use and Misuse of Data: what was wrong?
+
+::: {.warn-box}
+**Careful:** here's the problems
+
+1. Percentages can hide a tiny sample: "50% of users" was really "2 out of 4 users..."
+2. False precision: agreement ratings are ordinal, so a mean to two decimal places implies rigour the data doesn't have (a median or distribution would be more honest)
+3. The "finding" just echoes the questions that were asked --- asking lots about mobile phones and then reporting that participants talked about mobile phones isn't a discovery
 :::
 
 ## First Steps
@@ -262,23 +288,31 @@ Lots of ways to do data analysis:
 
 In this class we'll use Python, numpy, pandas, scipy, seaborn, and matplotlib as a default stack for data analysis (yes, libraries are a problem in python...)
 
-## Demo time: analysing and plotting data in Python
+## Last chance: answer the questionnaire!
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 ::: {.push-box}
-**Do:** Let's do some _data analysis_
+**Do:** Did you miss the questionnaire at the start of class? Answer it now! (1 minute)
 
-1. Deploy a short questionnaire on PollEverywhere
-2. Download the data from pollev and load it into Google Colab
-3. View descriptive statistics
-4. Plot the data in a few ways
+- go to <https://pollev.com/charlesmarti205> or scan the QR code
+- your answers are about to become our live demo dataset...
 :::
 :::
 ::: {.column width="40%"}
 ![PollEverywhere link: <https://pollev.com/charlesmarti205>](img/polleverywhere-charles-qr.png)
 :::
 ::::::::::::::
+
+## Demo time: analysing and plotting data in Python
+
+::: {.push-box}
+**Do:** Let's do some _data analysis_ --- on **your** answers from the start of class!
+
+1. Download the data from pollev and load it into Google Colab
+2. View descriptive statistics
+3. Plot the data in a few ways
+:::
 
 # Basic Qualitative Analysis {background-image="img/jessica-lewis-thepaintedsquare--W1TjrjSycI-unsplash.jpg" background-size="cover" background-opacity="0.5"}
 
