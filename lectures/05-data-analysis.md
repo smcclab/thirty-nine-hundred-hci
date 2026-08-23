@@ -310,9 +310,113 @@ In this class we'll use Python, numpy, pandas, scipy, seaborn, and matplotlib as
 **Do:** Let's do some _data analysis_ --- on **your** answers from the start of class!
 
 1. Download the data from pollev and load it into Google Colab
-2. View descriptive statistics
-3. Plot the data in a few ways
+2. Wrangle it into a **tidy** table (one row per participant)
+3. View descriptive statistics
+4. Plot the data in a few ways
 :::
+
+## Real data is messy: the PollEverywhere export
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+- one `.csv` file, but **six tables stacked on top of each other**
+- each question: a title line, a header line, then the responses
+- questions separated by a lonely `""` line
+- `pd.read_csv()` on the whole file will _not_ do what we want!
+
+**First rule of data analysis: look at the raw data before you load it.**
+:::
+::: {.column width="45%"}
+```text
+HCI Lecture Interaction Questionnaire
+I enjoy interactive activities in lectures.
+Response,Via,Screen name,...,Created At
+Agree,...,User: Web_06529,"",2025-08-17 22:44:30
+Strongly Agree,...,User: Web_aa2e2,"",...
+""
+I usually attend lectures in person
+Response,Via,Screen name,...,Created At
+...
+```
+:::
+::::::::::::::
+
+## Step 1: split the file into its six tables
+
+```python
+from io import StringIO
+import pandas as pd
+
+raw = open("questionnaire_results.csv").read()
+blocks = raw.split('\n""\n')             # split on the "" lines
+blocks[0] = blocks[0].split("\n", 1)[1]  # drop the report title
+frames = []
+for block in blocks:
+    question, table = block.split("\n", 1)  # question, then CSV
+    df = pd.read_csv(StringIO(table))
+    df["question"] = question.strip()
+    frames.append(df)
+# long format: one row per answer, tagged with its question
+responses = pd.concat(frames, ignore_index=True)
+```
+
+## Step 2: pivot to a tidy table
+
+```python
+short_names = {
+    "I enjoy interactive activities in lectures.":   "enjoy_interactive",
+    "I usually attend lectures in person":           "attend_in_person",
+    "I usually watch lectures online":               "watch_online",
+    "Select the interactive activities you prefer:": "preferred_activity",
+    "What kind of degree program are you in?":       "degree_program",
+    "How long have you lived in Canberra?":          "time_in_canberra",
+}
+# .replace() is safe to re-run; .map() would NaN unmatched values
+responses["question"] = responses["question"].replace(short_names)
+survey = responses.pivot(index="Screen name", columns="question",
+                         values="Response").dropna()
+```
+
+**Tidy data:** one row per participant, one column per question.
+
+## Step 3: tell pandas the Likert answers are ordered
+
+```python
+likert = ["Strongly Disagree", "Disagree", "Neutral",
+          "Agree", "Strongly Agree"]
+for col in ["enjoy_interactive", "attend_in_person", "watch_online"]:
+    survey[col] = pd.Categorical(survey[col],
+                                 categories=likert, ordered=True)
+```
+
+- as plain strings, the answers sort **alphabetically**: `Agree < Disagree < Neutral < ...` 🙃
+- an ordered categorical fixes value counts, plots, and comparisons
+- want numbers (1--5)? `survey[col].cat.codes + 1` --- boxplots and stats need numeric data, not categories
+- (should you take a _mean_ of Likert data? statisticians argue about this --- more in week 10)
+
+## Step 4: explore!
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+```python
+survey["enjoy_interactive"].value_counts()
+survey.describe()
+
+sns.countplot(data=survey,
+              x="enjoy_interactive")
+
+# compare groups
+pd.crosstab(survey["degree_program"],
+            survey["attend_in_person"])
+```
+:::
+::: {.column width="45%"}
+- start with **one variable at a time**: counts and distributions
+- then look for **contrasts** between groups (degree program? time in Canberra?)
+- Likert scale on `y`? the first category lands at the _top_ --- flip with `order=likert[::-1]` (careful: `order=` labels the plot's _grouping_ axis)
+- if a plot shows something _interesting_, investigate --- don't stop at the first pretty picture
+:::
+::::::::::::::
 
 # Basic Qualitative Analysis {background-image="img/jessica-lewis-thepaintedsquare--W1TjrjSycI-unsplash.jpg" background-size="cover" background-opacity="0.5"}
 
