@@ -45,9 +45,9 @@ The tutor will bring up the pre-class responses on the big screen and lead you i
 
 ### 1. Administer the SUS (20 minutes)
 
-Your tutor will allocate a **technology** for you to evaluate, along with a **task** to complete using that technology. For example:
+Work in pairs (or a group of three if needed). Your tutor will assign one of the two technologies to each person. In each pair, the two students will use different technologies. Everyone will follow the same task instructions using their assigned technology. For example:
 
-- **Technology:** Qantas (Group 1) or Virgin Australia (Group 2) — or another comparable technology
+- **Technology:** Qantas (Technology A / Group 1) or Virgin Australia (Technology B / Group 2) — or another pair of comparable technologies
 - **User Task:** Book a domestic flight from Canberra to Hobart (*Do not proceed to payment!*)
 
 Your tutor will also give you:
@@ -55,18 +55,18 @@ Your tutor will also give you:
 - A **participant identifier (participant ID)**
 - A **paper copy of the SUS questionnaire**
 
-**In pairs:**
+**In your pair or group:**
 
-1. Take turns acting as the **user** and the **researcher**.
+1. Student A acts as the **user** and completes the task using Technology A, while Student B acts as the **researcher**.
 2. As the **researcher**:
    - Welcome the user to the study.
    - Ask for their consent to participate.
    - Give the task instructions (e.g., *"Please complete the task, then fill in the SUS questionnaire to rate your experience"*).
-   - **Observe** while your participant fills in the questionnaire: do they hesitate on any items? Do they ask you what a question means? Jot these observations down. They are data too, and we will come back to them in the final discussion.
 3. Make sure the user:
    - Completes the task.
-   - Records their answers on the SUS questionnaire.
-4. Ensure the **participant ID** is written on the completed questionnaire — you will need this for the data entry step.
+   - Records their answers on the SUS questionnaire for the technology they used.
+4. Swap roles. Student B acts as the **user** and completes the same task using Technology B, while Student A acts as the **researcher**.
+5. Ensure the **participant ID** is written on the completed questionnaire — you will need this for the data entry step.
 
 ### 2. Score your SUS by hand (10 minutes)
 
@@ -273,31 +273,64 @@ Work through this individually, but **sit with your pair**, several steps ask yo
         print("Need exactly two groups for comparison.")
     ```
 
-    The `t(24.3)` part of the output is the *degrees of freedom*. You'll learn what it means in the statistical analysis lecture later in the course; for now, just include it when you report the test, as in the template below.
+    The `t(24.3)` part of the output is the *degrees of freedom*. You'll learn what it means in the statistical analysis lecture later in the course; for now, just include it when you report the test.
 
     **A note on test choice:** in the data gathering lecture we said rating-scale data isn't really continuous and suggested non-parametric tests [@kaptein-likert-analysis:2010]. That advice applies to *individual* Likert items. A SUS score is the *sum of ten items* on a 0-100 scale, which behaves much more like continuous data, so parametric tests like the t-test are commonly used and defensible here although statisticians still argue about this [@norman-likert-parametric:2010]. The important thing is to know *why* you chose your test (and the answer is not "my teacher/Claude/chatGPT told me to"). We'll meet the non-parametric alternative (the Mann-Whitney U test) in the statistical analysis lecture.
 
-12. **Summarise your findings in plain language.**
-    After running the t-test and checking your descriptive statistics, write a short summary that anyone could understand.
-    Post your summary in the class thread!
+### 5. Reporting results: Claim or overclaim? (20 minutes)
 
-    **Example reporting template:**
+#### Part 1: Evaluate the claims (15 minutes)
 
-    ```text
-    The mean SUS score for Group 1 (Technology A) was 82.3, which falls in the "Good" range, close to "Excellent".
-    The mean SUS score for Group 2 (Technology B) was 71.5, at the bottom of the "Good" range.
-    A Welch's t-test found that the difference was statistically significant (t(24.3) = 2.30, p = .030), with a large effect size (d = 0.88), indicating that Technology A was rated as more usable for the given task.
-    This suggests that, for this context and task, Technology A may offer a better user experience than Technology B.
-    ```
+Work with your partner. The statements below are based on hypothetical results. For each statement:
 
-### 5. Discuss: from class data to your assignment (15 minutes)
+1. Decide whether it is **supported by the data** or is an **overclaim**.
+2. Identify what makes any overclaim go beyond the result being reported.
+
+After you have finished, your tutor will review the answers and reasoning with the class.
+
+##### Group means and adjective ratings
+
+**Result:** Technology A mean SUS = 75 (*Good*); Technology B mean SUS = 68 (*OK*).
+
+1. The mean SUS score was higher for Technology A (*M* = 75) than for Technology B (*M* = 68).
+2. The higher mean score indicates that participants were more satisfied with Technology A than with Technology B.
+3. The results indicate that participants had a positive usability experience with Technology A, whereas their experience with Technology B was merely acceptable.
+4. The mean SUS score for Technology A fell in the ‘Good’ range, while the mean for Technology B fell in the ‘OK’ range.
+
+##### Statistical significance and effect size
+
+**Result:** Welch’s t-test, *t*(24.3) = 2.30, *p* = .030; Cohen’s *d* = 0.88.
+
+5. The difference in SUS scores between Technology A and Technology B was statistically significant (*p* < .05).
+6. The statistically significant result indicates that Technology A offers a meaningful usability improvement over Technology B.
+7. The large effect size suggests that Technology A would offer a meaningful usability advantage in practice.
+8. The difference between the groups had a large effect size (Cohen’s *d* = 0.88).
+
+##### Overall finding and scope
+
+9. Overall, Technology A was perceived as more usable than Technology B.
+10. Overall, the results indicate that participants preferred Technology A to Technology B.
+11. Overall, the higher SUS score reflects a better overall user experience with Technology A.
+12. For the flight-booking task, participants who used Technology A reported higher perceived usability than those who used Technology B.
+
+#### Part 2: Summarise your own results (5 minutes)
+
+Drawing on the claim-or-overclaim examples above, write a short plain-language summary of your class results that is supported by your data. Your summary should include:
+
+- the mean SUS score and adjective rating for each technology;
+- whether the difference was statistically significant, and the effect size;
+- one overall finding about perceived usability; and
+- optionally, a brief description of any notable patterns shown in your plots.
+
+Post your summary in the class thread. 
+
+### 6. Discuss: from class data to your assignment (10 minutes)
 
 Your tutor will lead a discussion about what you learned — and about what carries over to your own studies. Some questions:
 
-- What did you find? Did the data match the prediction you wrote down in step 2?
-- What did you observe while administering the questionnaire? Did participants hesitate or ask questions? What would that mean for data quality in a real study?
-- Was the difference between the groups *practically* meaningful, or only *statistically* detectable (or neither)? What do the effect size and the adjective ratings add that the p-value doesn't?
-- **Assignment 2 will be different from today.** In your needs-finding study you'll have **3–5 participants and no comparison groups** — so a significance test like today's t-test isn't appropriate there. Discuss: which parts of today's process *do* transfer? (Using a validated instrument, careful scoring, descriptive statistics, plots, and honest plain-language reporting all do.) With 3–5 participants, report **individual scores and ranges** rather than hiding them behind a mean — recall the "use and misuse of data" warning from the data analysis lecture about statements like *"50% of users"* when n = 4.
+- What do the results suggest about the two technologies? Was the difference *statistically* significant, *practically* meaningful, both, or neither? What do the effect size and adjective ratings tell you beyond the p-value?
+- **Assignment 2 will be different from today.** Your needs-finding study will involve **3–5 participants and no comparison groups**, so a significance test such as today’s t-test will not be appropriate. Which parts of today’s process could still be useful in Assignment 2? How should results from such a small sample be reported?  
+   Consider using a validated instrument, careful scoring, descriptive statistics, plots, and honest plain-language reporting. With 3–5 participants, report individual scores and ranges rather than relying only on a mean — recall the "use and misuse of data" warning from the data analysis lecture about statements such as *“50% of users”* when *n* = 4.
 - What would you do differently next time?
 
 ## Important Notes
