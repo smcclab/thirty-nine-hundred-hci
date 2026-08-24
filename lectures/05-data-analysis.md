@@ -309,10 +309,19 @@ In this class we'll use Python, numpy, pandas, scipy, seaborn, and matplotlib as
 ::: {.push-box}
 **Do:** Let's do some _data analysis_ --- on **your** answers from the start of class!
 
-1. Download the data from pollev and load it into Google Colab
+1. Load the PollEV export into Google Colab
 2. Wrangle it into a **tidy** table (one row per participant)
-3. View descriptive statistics
-4. Plot the data in a few ways
+3. Convert the Likert answers to numbers
+4. Descriptive statistics and simple plots
+5. **Facet** the plots to compare groups
+6. A statistical test: is the difference _meaningful_?
+:::
+
+::: {.info-box}
+**Follow along (or try at home):**
+
+- [open the demo notebook in Google Colab](https://colab.research.google.com/github/smcclab/thirty-nine-hundred-hci/blob/main/notebooks/comp3900_hci_analysing_data_examples.ipynb) --- one click, runs in your browser
+- no live data? [download the 2025 lecture's (deidentified) responses](https://raw.githubusercontent.com/smcclab/thirty-nine-hundred-hci/main/notebooks/hci_lecture_questionnaire_2025.csv) --- the notebook can also fetch this itself as a fallback
 :::
 
 ## Real data is messy: the PollEverywhere export
@@ -341,13 +350,28 @@ Response,Via,Screen name,...,Created At
 :::
 ::::::::::::::
 
+## Step 0: set up Colab
+
+```python
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import scipy.stats as stats
+
+from google.colab import files
+upload = files.upload()   # choose the PollEV .csv export
+data_file = list(upload.keys())[0]
+```
+
+- our default stack: `pandas` (tables), `seaborn` (plots), `matplotlib` (plot plumbing), `scipy.stats` (tests)
+- `files.upload()` is Colab-only --- no live data? the notebook has a fallback cell that downloads the 2025 responses instead
+
 ## Step 1: split the file into its six tables
 
 ```python
 from io import StringIO
-import pandas as pd
 
-raw = open("questionnaire_results.csv").read()
+raw = open(data_file).read()
 blocks = raw.split('\n""\n')             # split on the "" lines
 blocks[0] = blocks[0].split("\n", 1)[1]  # drop the report title
 frames = []
@@ -360,9 +384,11 @@ for block in blocks:
 responses = pd.concat(frames, ignore_index=True)
 ```
 
-## Step 2: pivot to a tidy table
+## Step 2: keep what we need, name it sensibly
 
 ```python
+responses = responses[["Response", "Screen name", "question"]]
+
 short_names = {
     "I enjoy interactive activities in lectures.":   "enjoy_interactive",
     "I usually attend lectures in person":           "attend_in_person",
@@ -371,52 +397,124 @@ short_names = {
     "What kind of degree program are you in?":       "degree_program",
     "How long have you lived in Canberra?":          "time_in_canberra",
 }
-# .replace() is safe to re-run; .map() would NaN unmatched values
 responses["question"] = responses["question"].replace(short_names)
-survey = responses.pivot(index="Screen name", columns="question",
-                         values="Response").dropna()
+responses.describe()   # count / unique / top --- does it look right?
+```
+
+## Step 3: pivot to a tidy table
+
+```python
+survey_data = responses.pivot(index="Screen name",
+                              columns="question",
+                              values="Response").dropna()
 ```
 
 **Tidy data:** one row per participant, one column per question.
 
-## Step 3: tell pandas the Likert answers are ordered
+- `pivot` turns the long "one row per answer" table into a wide one
+- `.dropna()` keeps only participants who answered _everything_ --- careful, that's an analysis **choice**, and you should report it
+
+## Step 4: turn the Likert answers into numbers
 
 ```python
 likert = ["Strongly Disagree", "Disagree", "Neutral",
           "Agree", "Strongly Agree"]
 for col in ["enjoy_interactive", "attend_in_person", "watch_online"]:
-    survey[col] = pd.Categorical(survey[col],
-                                 categories=likert, ordered=True)
+    survey_data[col] = pd.Categorical(survey_data[col],
+                                      categories=likert, ordered=True)
+    survey_data[col] = survey_data[col].cat.codes + 1
 ```
 
 - as plain strings, the answers sort **alphabetically**: `Agree < Disagree < Neutral < ...` 🙃
-- an ordered categorical fixes value counts, plots, and comparisons
-- want numbers (1--5)? `survey[col].cat.codes + 1` --- boxplots and stats need numeric data, not categories
+- an **ordered categorical** knows the real order; `.cat.codes + 1` maps it to 1--5
+- boxplots and stats need numeric data, not strings
 - (should you take a _mean_ of Likert data? statisticians argue about this --- more in week 10)
 
-## Step 4: explore!
+## Step 5: explore, one variable at a time
 
 :::::::::::::: {.columns}
 ::: {.column width="55%"}
 ```python
-survey["enjoy_interactive"].value_counts()
-survey.describe()
+survey_data["degree_program"].value_counts()
+survey_data["time_in_canberra"].value_counts()
+survey_data.describe()
 
-sns.countplot(data=survey,
-              x="enjoy_interactive")
-
-# compare groups
-pd.crosstab(survey["degree_program"],
-            survey["attend_in_person"])
+# distribution of one question
+sns.set_theme(style="ticks", palette="Set2")
+sns.histplot(data=survey_data,
+             x="enjoy_interactive", bins=5)
 ```
 :::
 ::: {.column width="45%"}
-- start with **one variable at a time**: counts and distributions
-- then look for **contrasts** between groups (degree program? time in Canberra?)
-- Likert scale on `y`? the first category lands at the _top_ --- flip with `order=likert[::-1]` (careful: `order=` labels the plot's _grouping_ axis)
-- if a plot shows something _interesting_, investigate --- don't stop at the first pretty picture
+- start with **counts**: who actually answered? are the groups big enough to compare?
+- `.describe()` now gives real descriptive statistics for the Likert columns (they're numeric!)
+- a **histogram** shows the distribution: normal-ish? skewed? bimodal?
+- if something looks _interesting_, investigate --- don't stop at the first pretty picture
 :::
 ::::::::::::::
+
+## Step 6: compare groups
+
+```python
+sns.boxplot(data=survey_data,
+            x="degree_program", y="enjoy_interactive",
+            medianprops={"linewidth": 2, "color": "black"})
+
+# add a third variable with hue
+sns.boxplot(data=survey_data,
+            x="degree_program", y="enjoy_interactive",
+            hue="time_in_canberra",
+            medianprops={"linewidth": 2, "color": "black"})
+```
+
+- **boxplots** compare distributions between groups at a glance
+- `hue=` splits each box again by a second grouping --- but it gets crowded fast...
+
+## Step 7: melt back to long format
+
+```python
+survey_long = pd.melt(
+    survey_data,
+    id_vars=["degree_program", "time_in_canberra", "preferred_activity"],
+    value_vars=["enjoy_interactive", "attend_in_person", "watch_online"],
+    var_name="question", value_name="score")
+
+sns.boxplot(data=survey_long, x="question", y="score",
+            hue="degree_program",
+            medianprops={"linewidth": 2, "color": "black"})
+```
+
+- `melt` is the inverse of the `pivot` in step 3: wide → long
+- why bother? seaborn wants **one column of scores** to plot all three Likert questions side by side
+
+## Step 8: facet to _really_ see the groups
+
+```python
+g = sns.FacetGrid(survey_long, col="time_in_canberra")
+g.map_dataframe(sns.boxplot, x="question", y="score",
+                hue="degree_program",
+                medianprops={"linewidth": 2, "color": "black"})
+g.add_legend(title="Degree")
+```
+
+- **faceting:** one small plot per group, with **shared axes** --- differences between groups jump out
+- swap `col=` and `hue=` to ask a _different question_ of the same data
+- "small multiples" is a classic visualisation idea --- every plotting library has a version of it
+
+## Step 9: is the difference meaningful?
+
+```python
+undergrad = survey_data[survey_data["degree_program"] ==
+    "Undergraduate student (Bachelor degree)"]["enjoy_interactive"]
+postgrad = survey_data[survey_data["degree_program"] ==
+    "Postgraduate student (Master degree)"]["enjoy_interactive"]
+
+t_stat, p_value = stats.ttest_ind(undergrad, postgrad)
+```
+
+- the boxplots _suggested_ a difference between groups --- the _t_-test asks how likely that gap is under pure chance
+- convention: `p < 0.05` counts as **significant**
+- caveats: small samples, Likert data isn't really interval, _t_-tests assume normality --- much more on this in week 10
 
 # Basic Qualitative Analysis {background-image="img/jessica-lewis-thepaintedsquare--W1TjrjSycI-unsplash.jpg" background-size="cover" background-opacity="0.5"}
 
