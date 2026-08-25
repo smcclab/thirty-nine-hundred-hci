@@ -86,13 +86,21 @@ In this class, we are going to standardise on numerical citations. When you stat
 
 ### References
 
-- [1] Kazuhiro Wada, Masaya Tsunokake, and Shigeki Matsubara. 2025. Citation-Worthy Detection of URL Citations in Scholarly Papers. Proceedings of the 24th ACM/IEEE Joint Conference on Digital Libraries. Association for Computing Machinery, New York, NY, USA, Article 28, 1–5. <https://doi.org/10.1145/3677389.3702570>
+1. Kazuhiro Wada, Masaya Tsunokake, and Shigeki Matsubara. 2025. Citation-Worthy Detection of URL Citations in Scholarly Papers. Proceedings of the 24th ACM/IEEE Joint Conference on Digital Libraries. Association for Computing Machinery, New York, NY, USA, Article 28, 1–5. <https://doi.org/10.1145/3677389.3702570>
 
-### Write the references in Markdown like this:
+## Writing references in Markdown
 
+Write your reference list as a **numbered Markdown list**, and end every entry with a working link — a DOI written as a URL, or `Retrieved Month Day, Year from <URL>` for web sources:
+
+```markdown
+### References
+
+1. Kazuhiro Wada, Masaya Tsunokake, and Shigeki Matsubara. 2025. Citation-Worthy Detection of URL Citations in Scholarly Papers. Proceedings of the 24th ACM/IEEE Joint Conference on Digital Libraries. Association for Computing Machinery, New York, NY, USA, Article 28, 1–5. <https://doi.org/10.1145/3677389.3702570>
 ```
-- [1] Kazuhiro Wada, Masaya Tsunokake, and Shigeki Matsubara. 2025. Citation-Worthy Detection of URL Citations in Scholarly Papers. Proceedings of the 24th ACM/IEEE Joint Conference on Digital Libraries. Association for Computing Machinery, New York, NY, USA, Article 28, 1–5. <https://doi.org/10.1145/3677389.3702570>
-```
+
+::: {.warn-box}
+**Careful:** don't type `[1]` yourself at the start of a line. `[1]: ...` is Markdown link-definition syntax — the line **vanishes** from the rendered page — and `[1] ...` paragraphs merge together unless you leave blank lines between them. A numbered list avoids both. (A bare `[1]` in your sentences is fine — that's how you cite.)
+:::
 
 ## Metadata vs citation format
 
@@ -163,13 +171,14 @@ Big reference libraries are part of academic work.
 
 ## Rules for this course:
 
-1. all references **must exist!** (!!!)
+1. all references **must exist!** (!!!) -- every entry ends with a working link (DOI as a URL, or `Retrieved ... from <URL>`) so we can check
 2. use ACM format
 3. use numerical citation (not author date) -- saves words in your word count
-4. all references in your list should be cited in text
-5. you have actually read references and that they are relevant to your work
-6. at least two references should be _scholarly_ (so not a medium article) and _external_ (so not course lecture notes or textbook)
-7. expectation: ✨✨_perfection_✨✨
+4. write your list as a numbered Markdown list (`1.`, `2.`, ...) under a References heading
+5. all references in your list should be cited in text
+6. you have actually read references and that they are relevant to your work
+7. at least two references should be _scholarly_ (so not a medium article) and _external_ (so not course lecture notes or textbook)
+8. expectation: ✨✨_perfection_✨✨
 
 ## Who has a question about referencing and finding sources?
 

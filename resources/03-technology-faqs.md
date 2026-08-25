@@ -47,21 +47,25 @@ You may find the resources on this page helpful, and if you have any further iss
 
 ## What reference format is used in this course? {#reference-format}
 
-We use ACM reference format: <https://www.acm.org/publications/authors/reference-formatting>
+We use ACM reference format (<https://www.acm.org/publications/authors/reference-formatting>) with **numerical citations**. In your Markdown documents, follow these four rules:
 
-Some example references in Markdown format are as follows:
+1. **Write your references as a numbered Markdown list** (`1.`, `2.`, ...) under a `## References` heading. Don't write bracketed numbers by hand at the start of a line: `[1]: ...` is Markdown link-definition syntax and the whole line will silently disappear from the rendered page, and `[1] ...` entries need blank lines between them or they merge into one paragraph. A numbered list avoids both problems.
+2. **Cite in your text with the number in square brackets**, e.g. "dogs are dichromats [2]". A bare `[1]` renders as-is in Markdown, so no special syntax is needed. Keep the list order matched to your in-text numbers, and cite every listed reference somewhere in your text.
+3. **End every reference with a working link**: published work ends with its DOI written as a URL (e.g. `<https://doi.org/10.1145/1978822.1978836>`); web sources end with `Retrieved Month Day, Year from <URL>`. We check these links — a reference that can't be found is a serious problem (see the academic integrity policy).
+4. **The rest of the entry follows ACM style**: full author first names (not initials), year, title, venue, volume/issue and pages. The easiest way to get this exactly right is the ACM Digital Library's "Export Citation → ACM Ref" button; for non-ACM papers, search the DOI at <https://doi.org/> or use Google Scholar's cite button and add the missing DOI/URL yourself.
 
+An example References section in Markdown:
+
+```markdown
+## References
+
+1. Clara Mancini. 2011. Animal-computer interaction (ACI): a manifesto. *Interactions* 18, 4 (2011), 69-73. <https://doi.org/10.1145/1978822.1978836>
+2. Allan MacLean, Richard M. Young, and Thomas P. Moran. 1989. Design rationale: the argument behind the artifact. *ACM SIGCHI Bulletin* 20, SI (1989), 247-252. <https://doi.org/10.1145/67450.67497>
+3. Howzit (StackOverflow user). 2018. p5js-image-array (CC BY-SA 2.5). Retrieved August 25, 2026 from <https://stackoverflow.com/questions/51233447/p5js-image-array>
+4. Scott Bauer. 2004. Photo of Potatoes (Public Domain). Retrieved August 25, 2026 from <https://en.wikipedia.org/wiki/Potato#/media/File:Patates.jpg>
 ```
-# References
 
-1. Alice McGuffing. 2022. Ideas for creating the animated ripple effect
-2. Jerry Wang. 2022. Background Artwork (artwork.jpg)
-3. Howzit (StackOverflow user). 2018. p5js-image-array (CC BY-SA 2.5). Retrieved from: <https://stackoverflow.com/questions/51233447/p5js-image-array>
-4. p5 Reference. No Date. MouseWheel Example (CC BY-NC 4.0). Retrieved from: <https://p5js.org/reference/#/p5.Element/mouseWheel>
-5. Scott Bauer. 2004. Photo of Potatoes (Public Domain). Retrieved from: <https://en.wikipedia.org/wiki/Potato#/media/File:Patates.jpg>
-6. Aaron Wu. 2018. Boat Photo on Unsplash. Retrieved from: <https://unsplash.com/photos/_8rjlHwN4uk>
-7. Wikipedia. 2022. J M W Turner Article. Retrieved from: <https://en.wikipedia.org/wiki/J._M._W._Turner>
-```
+Entries 3 and 4 show the pattern for web sources, code snippets, and images/assets: credit the author (a username is fine if that's all there is), note the licence, and give the retrieval date and URL.
 
 ## General writing style {#writing-style}
 
