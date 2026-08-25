@@ -161,11 +161,19 @@ $(ASSESSMENTS_OUT)/%.pdf: $(ASSESSMENTS_DIR)/%.md
 WORKSHOPS_MDS   = $(wildcard $(WORKSHOPS_DIR)/*.md)
 WORKSHOPS_HTMLS = $(patsubst $(WORKSHOPS_DIR)/%.md,$(WORKSHOPS_OUT)/%.html,$(WORKSHOPS_MDS))
 
+# Hand-written standalone pages (e.g. interview-question-cards.html) are
+# copied verbatim rather than built with pandoc.
+WORKSHOPS_STATIC      = $(wildcard $(WORKSHOPS_DIR)/*.html)
+WORKSHOPS_STATIC_OUT  = $(patsubst $(WORKSHOPS_DIR)/%.html,$(WORKSHOPS_OUT)/%.html,$(WORKSHOPS_STATIC))
+
 .PHONY: workshops
-workshops: $(WORKSHOPS_OUT) $(WORKSHOPS_HTMLS)
+workshops: $(WORKSHOPS_OUT) $(WORKSHOPS_HTMLS) $(WORKSHOPS_STATIC_OUT)
 
 $(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.md $(REFERENCES)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
+
+$(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.html
+	cp $< $@
 
 # =============================================================================
 # Resources — HTML only

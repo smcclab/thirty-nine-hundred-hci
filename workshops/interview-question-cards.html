@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interview Question Cards</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+  :root {
+    --ground: #f7ddc0;
+    --card: #fffdf7;
+    --card-edge: #3a2c1c;
+    --ink: #33261a;
+    --ink-soft: #6b5843;
+    --accent: #0b8a6d;
+    --accent-ink: #ffffff;
+    --good: #0b8a6d;
+    --bad: #b23c2a;
+    --maybe: #a06a00;
+    --chip-open: #d7efe7;    --chip-open-ink: #0a5c49;
+    --chip-closed: #dde6f2;  --chip-closed-ink: #2f4a6b;
+    --chip-lead: #f6dcd6;    --chip-lead-ink: #8c2f20;
+    --chip-neutral: #eae4da; --chip-neutral-ink: #5c5245;
+    --chip-probe: #e9def2;   --chip-probe-ink: #5b3a78;
+    --chip-flaw: #f6e6c8;    --chip-flaw-ink: #7c5300;
+    --shadow: #3a2c1c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #241b12;
+      --card: #322619;
+      --card-edge: #14100a;
+      --ink: #f3e8d7;
+      --ink-soft: #bda88d;
+      --accent: #3cc9a2;
+      --accent-ink: #10261f;
+      --good: #4ecfa8;
+      --bad: #f0907e;
+      --maybe: #e5b45c;
+      --chip-open: #14453a;    --chip-open-ink: #8fe0c8;
+      --chip-closed: #263a52;  --chip-closed-ink: #a9c4e4;
+      --chip-lead: #56271e;    --chip-lead-ink: #f2b0a3;
+      --chip-neutral: #40372b; --chip-neutral-ink: #cfc2ae;
+      --chip-probe: #3d2b50;   --chip-probe-ink: #cfb3e8;
+      --chip-flaw: #4a3a14;    --chip-flaw-ink: #ecc87e;
+      --shadow: #14100a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #241b12;
+    --card: #322619;
+    --card-edge: #14100a;
+    --ink: #f3e8d7;
+    --ink-soft: #bda88d;
+    --accent: #3cc9a2;
+    --accent-ink: #10261f;
+    --good: #4ecfa8;
+    --bad: #f0907e;
+    --maybe: #e5b45c;
+    --chip-open: #14453a;    --chip-open-ink: #8fe0c8;
+    --chip-closed: #263a52;  --chip-closed-ink: #a9c4e4;
+    --chip-lead: #56271e;    --chip-lead-ink: #f2b0a3;
+    --chip-neutral: #40372b; --chip-neutral-ink: #cfc2ae;
+    --chip-probe: #3d2b50;   --chip-probe-ink: #cfb3e8;
+    --chip-flaw: #4a3a14;    --chip-flaw-ink: #ecc87e;
+    --shadow: #14100a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: "Avenir Next", "Segoe UI", system-ui, sans-serif;
+    line-height: 1.55;
+    min-height: 100vh;
+  }
+  .wrap {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  header { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+  .eyebrow {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  h1 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 600;
+    font-size: 1.35rem;
+    margin: 0.1rem 0 0;
+    text-wrap: balance;
+  }
+  .counter {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    font-variant-numeric: tabular-nums;
+  }
+  .card {
+    background: var(--card);
+    border: 2px solid var(--card-edge);
+    border-radius: 6px;
+    box-shadow: 5px 5px 0 var(--shadow);
+    padding: 2rem 1.75rem 1.75rem;
+  }
+  .card-num {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+    letter-spacing: 0.06em;
+  }
+  .question {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 500;
+    font-size: clamp(1.45rem, 4.5vw, 2.1rem);
+    line-height: 1.3;
+    margin: 0.75rem 0 1.5rem;
+    text-wrap: balance;
+    min-height: 3.5em;
+  }
+  .controls { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+  button {
+    font: inherit;
+    font-weight: 600;
+    padding: 0.55rem 1.2rem;
+    border-radius: 6px;
+    border: 2px solid var(--card-edge);
+    cursor: pointer;
+    background: var(--card);
+    color: var(--ink);
+  }
+  button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--card-edge); }
+  button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .hint { font-size: 0.8rem; color: var(--ink-soft); margin-top: 0.75rem; }
+  .analysis { border-top: 2px dashed var(--ink-soft); margin-top: 1.5rem; padding-top: 1.25rem; }
+  .analysis[hidden] { display: none; }
+  .chips { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.9rem; }
+  .chip {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.78rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+  }
+  .chip b { font-weight: 700; }
+  .c-O { background: var(--chip-open); color: var(--chip-open-ink); }
+  .c-C { background: var(--chip-closed); color: var(--chip-closed-ink); }
+  .c-L { background: var(--chip-lead); color: var(--chip-lead-ink); }
+  .c-N { background: var(--chip-neutral); color: var(--chip-neutral-ink); }
+  .c-P { background: var(--chip-probe); color: var(--chip-probe-ink); }
+  .c-D, .c-H, .c-S, .c-M, .c-V { background: var(--chip-flaw); color: var(--chip-flaw-ink); }
+  .verdict { font-weight: 700; margin: 0 0 0.4rem; }
+  .verdict.good { color: var(--good); }
+  .verdict.flawed { color: var(--bad); }
+  .verdict.discuss { color: var(--maybe); }
+  .note { margin: 0 0 0.75rem; }
+  .showfix-hint { font-size: 0.8rem; color: var(--ink-soft); margin: 0.5rem 0 0; }
+  .fix { margin: 0; color: var(--ink-soft); }
+  .fix strong { color: var(--ink); }
+  details.legend, .browse {
+    background: var(--card);
+    border: 2px solid var(--card-edge);
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+  }
+  details.legend summary { cursor: pointer; font-weight: 600; }
+  details.legend ul { margin: 0.75rem 0 0.25rem; padding-left: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: 0.4rem 1rem; font-size: 0.9rem; }
+  .footer-links { display: flex; gap: 1.5rem; font-size: 0.85rem; }
+  .footer-links a { color: var(--accent); }
+  .browse h2 { font-family: "Fraunces", Georgia, serif; font-size: 1.15rem; margin: 1.5rem 0 0.5rem; }
+  .browse ol { padding-left: 1.4rem; margin: 0; }
+  .browse li { margin: 0 0 1rem; }
+  .browse .q { font-family: "Fraunces", Georgia, serif; font-size: 1.05rem; }
+  .browse .meta { font-size: 0.88rem; }
+  .browse[hidden], #deck[hidden] { display: none; }
+  @media (prefers-reduced-motion: no-preference) {
+    .analysis { animation: rise 0.25s ease-out; }
+    @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <div class="eyebrow">COMP3900 / COMP6390 · Interviews tutorial</div>
+      <h1>Interview Question Cards</h1>
+    </div>
+    <div class="counter" id="counter" aria-live="polite"></div>
+  </header>
+
+  <main class="card" id="deck">
+    <div class="card-num" id="cardnum"></div>
+    <p class="question" id="question"></p>
+    <div class="controls">
+      <button class="primary" id="reveal">Reveal analysis</button>
+      <button id="next">Next card</button>
+    </div>
+    <p class="hint">Decide your codes out loud before revealing. Keys: <kbd>space</kbd> reveal · <kbd>→</kbd> next.</p>
+    <section class="analysis" id="analysis" hidden aria-live="polite">
+      <div class="chips" id="chips"></div>
+      <p class="verdict" id="verdict"></p>
+      <p class="note" id="note"></p>
+      <button id="showfix" hidden>Reveal our rewrite</button>
+      <p class="showfix-hint" id="showfix-hint" hidden>Draft your own fix out loud first — then compare.</p>
+      <p class="fix" id="fix" hidden></p>
+    </section>
+  </main>
+
+  <details class="legend">
+    <summary>Code legend</summary>
+    <ul>
+      <li><span class="chip c-O">O</span> Open</li>
+      <li><span class="chip c-C">C</span> Closed</li>
+      <li><span class="chip c-N">N</span> Neutral</li>
+      <li><span class="chip c-L">L</span> Leading / biased</li>
+      <li><span class="chip c-P">P</span> Probing</li>
+      <li><span class="chip c-D">D</span> Double-barreled</li>
+      <li><span class="chip c-H">H</span> Hypothetical</li>
+      <li><span class="chip c-S">S</span> Solution-asking</li>
+      <li><span class="chip c-M">M</span> Memory-taxing</li>
+      <li><span class="chip c-V">V</span> Vague / jargon</li>
+    </ul>
+  </details>
+
+  <nav class="footer-links">
+    <a href="#" id="toggle-browse">Browse all cards</a>
+    <a href="#" id="reshuffle">Reshuffle deck</a>
+  </nav>
+
+  <section class="browse" id="browse" hidden>
+    <p><em>Tutor reference: the full deck with codes. In class, use the card view above.</em></p>
+    <div id="browse-list"></div>
+  </section>
+</div>
+
+<script>
+const CODE_NAMES = { O: "Open", C: "Closed", N: "Neutral", L: "Leading", P: "Probing",
+  D: "Double-barreled", H: "Hypothetical", S: "Solution-asking", M: "Memory-taxing", V: "Vague/jargon" };
+const VERDICTS = { good: "Well formed", flawed: "Needs work", discuss: "It depends — discuss" };
+
+// verdict: good | flawed | discuss. fix is optional.
+const CARDS = [
+ {q:"What was your experience using the library website to search for a book?", codes:["O","N"], verdict:"good", group:"Well-formed questions",
+  note:"Open, neutral, and anchored to one specific task the participant has actually done. This is the shape most main questions should take."},
+ {q:"Tell me about the last time you ordered food through a delivery app.", codes:["O","N"], verdict:"good", group:"Well-formed questions",
+  note:"A critical-incident question: one recent, concrete event. Specific memories produce far more reliable data than generalisations about 'usually'."},
+ {q:"Walk me through how you usually submit an assignment on Canvas.", codes:["O","N"], verdict:"good", group:"Well-formed questions",
+  note:"A task walkthrough. Asking someone to narrate their process step by step surfaces workarounds and pain points they would never volunteer directly."},
+ {q:"You mentioned the checkout felt slow — what was happening when it felt slowest?", codes:["O","N","P"], verdict:"good", group:"Well-formed questions",
+  note:"A probe built from the participant's own words, steering toward a specific moment rather than an opinion. This is what good follow-up looks like."},
+ {q:"Can you tell me more about that?", codes:["O","N","P"], verdict:"good", group:"Well-formed questions",
+  note:"The universal probe. It adds no content of the interviewer's own, so it cannot lead — it just hands the floor back to the participant."},
+ {q:"What happened next?", codes:["O","N","P"], verdict:"good", group:"Well-formed questions",
+  note:"Keeps a story moving without steering it. Narrative probes like this are how you get the sequence of events rather than a summary judgement."},
+ {q:"How did you feel when the payment failed?", codes:["O","N","P"], verdict:"good", group:"Well-formed questions",
+  note:"Asks about emotion attached to a real event the participant already raised. Feelings about specific moments are data; feelings in the abstract are noise."},
+ {q:"Do you currently use a fitness tracker?", codes:["C","N"], verdict:"good", group:"Well-formed questions",
+  note:"Closed — and that's fine. A screening question routes the interview ('closed' is a form, not a sin). The mistake is stopping here instead of following up."},
+ {q:"When did you last use the campus printers?", codes:["C","N"], verdict:"good", group:"Well-formed questions",
+  note:"A recency anchor. Establishing when the last real experience happened lets every later question point at that concrete event instead of a vague average."},
+ {q:"What, if anything, frustrated you about the checkout?", codes:["O","N"], verdict:"good", group:"Well-formed questions",
+  note:"The 'if anything' matters: it licenses the answer 'nothing', so the question doesn't presume frustration. Compare it with 'How annoying is it when…'."},
+ {q:"You said it felt 'clunky' — what does 'clunky' mean for you?", codes:["O","N","P"], verdict:"good", group:"Well-formed questions",
+  note:"Unpacks the participant's own vocabulary instead of assuming you share a definition. One of the highest-value probes in usability interviews."},
+ {q:"Could you show me how you would normally do that?", codes:["O","N"], verdict:"good", group:"Well-formed questions",
+  note:"Swaps recollection for demonstration. Watching someone do the task catches the things they do automatically and can't describe."},
+ {q:"How does the paper form compare with the online form for you?", codes:["O","N"], verdict:"good", group:"Well-formed questions",
+  note:"A grounded comparison of two things the participant has actually used, with no hint about which answer the interviewer wants."},
+ {q:"Is there anything I haven't asked about that you think I should know?", codes:["O","N"], verdict:"good", group:"Well-formed questions",
+  note:"The classic closer. Interviews exist partly to learn what you didn't know to ask — this question is the formal invitation for that."},
+ {q:"Tell me about a time the app didn't do what you expected.", codes:["O","N"], verdict:"good", group:"Well-formed questions",
+  note:"Expectation violations are gold: they expose the participant's mental model of the system and exactly where the design breaks it."},
+ {q:"What were you trying to get done when you opened the site yesterday?", codes:["O","N"], verdict:"good", group:"Well-formed questions",
+  note:"Asks about the goal, not the tool. Understanding what people are actually trying to accomplish matters more than their opinion of the interface."},
+ {q:"How did you work around that problem?", codes:["O","N","P"], verdict:"good", group:"Well-formed questions",
+  note:"Workarounds are needs made visible. Whenever a participant mentions a problem, the workaround question tells you how much it really matters to them."},
+ {q:"You sighed just then — what was going through your mind?", codes:["O","N","P"], verdict:"good", group:"Well-formed questions",
+  note:"A probe built on observed behaviour rather than words. Noticing and gently naming a reaction often unlocks things the participant wouldn't volunteer."},
+ {q:"Who else is involved when you organise a group assignment online?", codes:["O","N"], verdict:"good", group:"Well-formed questions",
+  note:"Surfaces the social context of use. Many 'usability' problems turn out to be coordination problems between people, not problems with buttons."},
+ {q:"Walk me through your most recent visit to the site, start to finish.", codes:["O","N"], verdict:"good", group:"Well-formed questions",
+  note:"Anchored to the most recent real visit — not 'a typical visit', which invites an idealised routine that may never actually happen."},
+ {q:"What would you tell a friend who was about to use this system for the first time?", codes:["O","N"], verdict:"good", group:"Well-formed questions",
+  note:"An indirect elicitation: advice for a friend distils real experience — the traps, the tricks, the things worth knowing — without asking for a review."},
+ {q:"When the upload failed, what did you do next?", codes:["O","N","P"], verdict:"good", group:"Well-formed questions",
+  note:"Follows behaviour through a breakdown. What people do after something fails (retry, give up, switch tools, ask someone) is high-value design data."},
+ {q:"Could you describe where you usually are when you use the app to study?", codes:["O","N"], verdict:"good", group:"Well-formed questions",
+  note:"Contextual inquiry in one question: physical setting, noise, other screens, other people. Context shapes use in ways lab thinking misses."},
+ {q:"What surprised you the first time you used the kiosk?", codes:["O","N"], verdict:"good", group:"Well-formed questions",
+  note:"Surprise marks a mismatch between expectation and design. Asking for it directly is a neutral way in — it licenses good and bad answers equally."},
+ {q:"How do you decide which search result to click?", codes:["O","N"], verdict:"good", group:"Well-formed questions",
+  note:"Targets a decision process rather than an opinion. Answers reveal what information people actually use — titles, snippets, familiarity, position."},
+
+ {q:"Would you agree that the new library website is easier to use than the old one?", codes:["C","L"], verdict:"flawed", group:"Leading questions",
+  note:"'Would you agree' invites agreement — participants tend to say yes to be agreeable (acquiescence bias), and the yes/no form gives them nowhere else to go.",
+  fix:"How does the new site compare with the old one for you?"},
+ {q:"How much time does the self-checkout save you?", codes:["O","L"], verdict:"flawed", group:"Leading questions",
+  note:"Open in form, but the premise is smuggled in: it presumes the self-checkout saves time. The participant can only answer within your assumption.",
+  fix:"How has self-checkout changed how long shopping takes you, if at all?"},
+ {q:"What do you love about the new campus app?", codes:["O","L"], verdict:"flawed", group:"Leading questions",
+  note:"Presumes love and only licenses positives. Someone who dislikes the app now has to contradict you to answer honestly.",
+  fix:"What stands out to you about the new campus app?"},
+ {q:"Don't you find the ads on the free version annoying?", codes:["C","L"], verdict:"flawed", group:"Leading questions",
+  note:"A negative presupposition phrased as a tag question — it practically begs for 'yes'. The data you collect is your own opinion, echoed back.",
+  fix:"How do the ads affect your experience, if at all?"},
+ {q:"How annoying is it when the wifi drops out during lectures?", codes:["O","L"], verdict:"flawed", group:"Leading questions",
+  note:"Presumes annoyance and asks the participant to rate it. Compare with 'What, if anything, frustrated you…' — one small phrase changes everything.",
+  fix:"Tell me about a time the wifi dropped out during a lecture."},
+ {q:"Most students prefer the app over the website — which do you prefer?", codes:["C","L"], verdict:"flawed", group:"Leading questions",
+  note:"Leads with a social norm. Telling people what 'most students' think applies conformity pressure before they answer.",
+  fix:"Which do you use more — the app or the website? Tell me about that."},
+ {q:"Our team spent months redesigning this menu — what do you think of it?", codes:["O","L"], verdict:"flawed", group:"Leading questions",
+  note:"Social desirability bias: once the participant knows you made it and it was hard work, they will protect your feelings. Never reveal ownership or effort.",
+  fix:"What do you think of this menu?  (and don't mention whose work it is)"},
+ {q:"You do read the terms and conditions before signing up, don't you?", codes:["C","L"], verdict:"flawed", group:"Leading questions",
+  note:"Moralised phrasing guarantees a dishonest answer — nobody admits to skipping the 'right' behaviour when the question implies judgement.",
+  fix:"What do you usually do when the terms and conditions screen appears?"},
+ {q:"How often do you back up your files, like you're supposed to?", codes:["C","L"], verdict:"flawed", group:"Leading questions",
+  note:"'Like you're supposed to' turns a behaviour question into a virtue test. Expect inflated, socially acceptable answers.",
+  fix:"Tell me about the last time you backed up — or lost — some files."},
+ {q:"Wouldn't it be better if the menu was at the top?", codes:["C","L","S"], verdict:"flawed", group:"Leading questions",
+  note:"Leads toward agreement and smuggles in the interviewer's own design idea — two flaws in nine words.",
+  fix:"Where do you look first when you want to get somewhere else on the site?"},
+ {q:"How easy was the setup process?", codes:["O","L"], verdict:"flawed", group:"Leading questions",
+  note:"'How easy' presumes ease and asks the participant to grade within that frame. The neutral version costs nothing and biases nothing.",
+  fix:"How did the setup process go?"},
+ {q:"As a tech-savvy student, how quickly did you master the interface?", codes:["O","L"], verdict:"flawed", group:"Leading questions",
+  note:"Flattery is bias: once labelled 'tech-savvy', the participant can't admit confusion without losing face. It also presumes mastery happened.",
+  fix:"Tell me about learning to use the interface."},
+ {q:"You'd recommend this app to friends, right?", codes:["C","L"], verdict:"flawed", group:"Leading questions",
+  note:"A tag question ('…, right?') is the purest form of leading — it states the desired answer and asks for a signature.",
+  fix:"Have you mentioned this app to anyone? What did you say about it?"},
+ {q:"Isn't the new timetable view clearer than the old list?", codes:["C","L"], verdict:"flawed", group:"Leading questions",
+  note:"Negative-interrogative framing ('Isn't…') presupposes the answer. Compare with the neutral comparison question — same topic, opposite data quality.",
+  fix:"How does the new timetable view compare with the old list for you?"},
+ {q:"What problems did the confusing settings page cause you?", codes:["O","L"], verdict:"flawed", group:"Leading questions",
+  note:"The adjective does the leading: 'confusing' is asserted as fact before the participant has said anything. Adjectives in questions are opinions in disguise.",
+  fix:"Tell me about using the settings page."},
+ {q:"Everyone struggles with the export feature — what happened when you tried it?", codes:["O","L"], verdict:"flawed", group:"Leading questions",
+  note:"Priming with a norm ('everyone struggles') invites the participant to report a struggle whether or not they had one.",
+  fix:"Have you used the export feature? Walk me through what happened."},
+ {q:"How disappointed were you when the feature was removed?", codes:["O","L"], verdict:"flawed", group:"Leading questions",
+  note:"Presumes disappointment and asks only for its intensity. A participant who didn't care, or was relieved, has no honest way to answer.",
+  fix:"The feature was removed recently — what, if anything, changed for you?"},
+ {q:"Given how cheap the subscription is, why haven't you upgraded?", codes:["O","L"], verdict:"flawed", group:"Leading questions",
+  note:"'Cheap' is the interviewer's judgement, and 'why haven't you' puts the participant on the defensive about a perfectly reasonable choice.",
+  fix:"Tell me about deciding to stay on the free plan."},
+
+ {q:"Was the sign-up process easy?", codes:["C","N"], verdict:"flawed", group:"Closed questions that should be open",
+  note:"A yes/no with acquiescence bias built in, and 'easy' quietly proposes the answer. You'll get 'yeah, pretty easy' and learn nothing.",
+  fix:"How did the sign-up process go?"},
+ {q:"Did you like the new layout?", codes:["C","N"], verdict:"flawed", group:"Closed questions that should be open",
+  note:"Binary like/dislike flattens a rich reaction into one bit of data. What they noticed, expected, and struggled with is all lost.",
+  fix:"What was your reaction when you first saw the new layout?"},
+ {q:"Do you find the search filters useful?", codes:["C","N"], verdict:"discuss", group:"Closed questions that should be open",
+  note:"Alone, it collects a 'yes'. But as a deliberate springboard — with 'how so?' planned as the follow-up — a closed opener like this can work well. The guide should show the follow-up.",
+  fix:"Follow it immediately with: 'Tell me about a time you used them.'"},
+ {q:"Do you find the new search easier or harder to use than the old one?", codes:["C","N"], verdict:"discuss", group:"Closed questions that should be open",
+  note:"Closed in form but naturally prompts elaboration — a springboard into open follow-ups. The forced choice does hide 'about the same' and 'mixed', though.",
+  fix:"How does the new search compare with the old one for you?"},
+ {q:"Is the text big enough to read comfortably?", codes:["C","N"], verdict:"discuss", group:"Closed questions that should be open",
+  note:"Fine as a targeted accessibility check late in a session; weak as a conversation starter. Whether it belongs depends on the goal of the study.",
+  fix:"If reading comfort is the topic: 'How is reading on this screen for you?'"},
+ {q:"On a scale of 1 to 5, how would you rate the app?", codes:["C","N"], verdict:"flawed", group:"Closed questions that should be open",
+  note:"A survey question wandering into an interview. The number arrives without the story behind it — which is the only thing an interview can get that a survey can't.",
+  fix:"What stands out about the app for you — good or bad?"},
+ {q:"Did the error message help you fix the problem?", codes:["C","N"], verdict:"discuss", group:"Closed questions that should be open",
+  note:"Targeted and answerable — a reasonable check if the follow-up ('what did you do then?') is planned. Alone, it collects a yes/no and moves on too fast.",
+  fix:"Follow with: 'What did you do after you saw it?'"},
+ {q:"Do you use the calendar feature?", codes:["C","N"], verdict:"flawed", group:"Closed questions that should be open",
+  note:"Fine as a screener at the top of an interview; a dead end as a main question. Where it sits in the guide decides whether it earns its place.",
+  fix:"As a main question: 'How do you keep track of your deadlines?'"},
+ {q:"Was there anything you couldn't find?", codes:["C","N"], verdict:"discuss", group:"Closed questions that should be open",
+  note:"Closed in form, but it invites recall of a breakdown, and people who had one almost always elaborate. A defensible springboard — with the probe ready.",
+  fix:"If they say yes: 'Tell me about that — what were you looking for?'"},
+ {q:"Are you satisfied with the service?", codes:["C","N"], verdict:"flawed", group:"Closed questions that should be open",
+  note:"The bluntest satisfaction binary. Acquiescence bias says most people answer yes; the interview learns nothing it couldn't have guessed.",
+  fix:"How has the service been working out for you?"},
+
+ {q:"How easy was it to find and borrow a book on the library site?", codes:["O","L","D"], verdict:"flawed", group:"Double-barreled questions",
+  note:"Two flaws at once: 'find and borrow' are separate tasks answered as one blur, and 'how easy' presumes ease. Rich card — most groups spot one flaw and miss the other.",
+  fix:"How did finding a book go? … And then borrowing it?"},
+ {q:"How satisfied are you with the app's speed and reliability?", codes:["C","D"], verdict:"flawed", group:"Double-barreled questions",
+  note:"Speed and reliability are different qualities; one rating can't carry both. If the app is fast but crashes, what does 'somewhat satisfied' mean?",
+  fix:"Ask about speed and reliability as two separate questions."},
+ {q:"Was the tutorial helpful and easy to follow?", codes:["C","D"], verdict:"flawed", group:"Double-barreled questions",
+  note:"Helpful and easy are independent — a tutorial can be easy to follow and useless, or valuable and confusing. The 'and' hides which one you're measuring.",
+  fix:"What did you get out of the tutorial? … How was it to follow?"},
+ {q:"What do you think about the colours and the navigation of the site?", codes:["O","D"], verdict:"flawed", group:"Double-barreled questions",
+  note:"Aesthetics and wayfinding are different conversations. In practice the participant answers whichever was mentioned last, and the other topic vanishes.",
+  fix:"One topic per question — start with the one that matters to your goal."},
+ {q:"How well does the app work for you when you're commuting or at home?", codes:["O","D"], verdict:"flawed", group:"Double-barreled questions",
+  note:"Two contexts folded into one answer. Context is usually the interesting variable in HCI — don't average it away in the question itself.",
+  fix:"Tell me about using the app on your commute. … And at home?"},
+ {q:"How clear and helpful was the onboarding?", codes:["C","D"], verdict:"flawed", group:"Double-barreled questions",
+  note:"Clear and helpful are different judgements — onboarding can be perfectly clear about things that don't help. One rating scale, two constructs.",
+  fix:"How did the onboarding go? … What did it actually help you do?"},
+ {q:"Did you find the map feature accurate, and did it load quickly?", codes:["C","D"], verdict:"flawed", group:"Double-barreled questions",
+  note:"At least this one is honest about being two questions — but the answer still comes back as one, and you won't know which half it belongs to.",
+  fix:"Ask accuracy and loading speed as two separate questions."},
+ {q:"What do you like about the app, and what would you change?", codes:["O","D","S"], verdict:"flawed", group:"Double-barreled questions",
+  note:"An interview staple that's still two questions — and the second half is solution-asking. Participants usually answer one half, briefly, and skip the other.",
+  fix:"What's working well for you? … And separately: what frustrates you?"},
+ {q:"How was your experience booking a room and inviting your group?", codes:["O","D"], verdict:"flawed", group:"Double-barreled questions",
+  note:"Booking and inviting are separate tasks that can fail independently — folding them together blurs which one caused whatever the participant reports.",
+  fix:"How did booking the room go? … And inviting your group?"},
+ {q:"Tell me about using the app at night, and whether the brightness bothered you.", codes:["O","D","L"], verdict:"flawed", group:"Double-barreled questions",
+  note:"A good open opener with a leading yes/no stapled to it. The second clause tells the participant what the interviewer expects them to say.",
+  fix:"Tell me about using the app at night.  (then probe what they raise)"},
+ {q:"How do the website and the app compare in terms of speed, layout, and ease of use?", codes:["O","D"], verdict:"flawed", group:"Double-barreled questions",
+  note:"A triple-barreled comparison — six cells of a matrix in one breath. Nobody answers all of it; you get a mush of whichever cells came to mind.",
+  fix:"One dimension at a time, starting with the one your research goal needs."},
+
+ {q:"Would you use a mobile app if the library made one?", codes:["C","H"], verdict:"flawed", group:"Hypothetical questions",
+  note:"People are poor predictors of their future behaviour, and saying 'yes' costs nothing. Stated intent is not evidence of demand.",
+  fix:"How do you use the library site on your phone now, if at all?"},
+ {q:"If we added a dark mode, would you use the app more often?", codes:["C","H","L"], verdict:"flawed", group:"Hypothetical questions",
+  note:"Speculative and mildly leading — the framing implies more use is the hoped-for answer. Ask about current behaviour instead of imagined behaviour.",
+  fix:"When do you typically use the app, and what's the lighting like around you?"},
+ {q:"How much would you be willing to pay for an ad-free version?", codes:["O","H"], verdict:"flawed", group:"Hypothetical questions",
+  note:"Stated willingness to pay is notoriously unrelated to actual purchasing. The number you collect is fiction with decimal places.",
+  fix:"Have you ever paid to remove ads in an app? Tell me about that."},
+ {q:"How often would you use a feature that let you split bills with friends?", codes:["O","H"], verdict:"flawed", group:"Hypothetical questions",
+  note:"Imagined frequency of using an imagined feature — two layers of speculation. Ask about the real behaviour the feature would replace.",
+  fix:"Tell me about the last time you split a bill — how did you actually do it?"},
+ {q:"Imagine the timetable app could read your mind — how would that change your week?", codes:["O","H"], verdict:"discuss", group:"Hypothetical questions",
+  note:"Useless for understanding current experience — but envisioning prompts like this have a legitimate place in generative design work. The question is whether it matches the goal of this interview.",
+  fix:"Keep it for ideation sessions; in an experience interview, ask about the week they actually had."},
+ {q:"If this feature disappeared tomorrow, how would you feel?", codes:["O","H"], verdict:"discuss", group:"Hypothetical questions",
+  note:"Speculative — but a known product-research move for gauging attachment. The answer is a feeling about an imagined loss, not evidence of use; treat it as a conversation opener, not a measurement.",
+  fix:"When did you last use the feature, and what for?"},
+ {q:"Would you switch from your current app if ours was faster?", codes:["C","H","L"], verdict:"flawed", group:"Hypothetical questions",
+  note:"A prediction about an imagined product, framed so 'yes' flatters the interviewer. Switching costs are invisible in hypotheticals and decisive in reality.",
+  fix:"Have you ever switched apps like this before? What made you do it?"},
+ {q:"Suppose you had unlimited storage — how would you organise your files?", codes:["O","H"], verdict:"flawed", group:"Hypothetical questions",
+  note:"An imagined self in an imagined world. The interesting data is how they organise files now, under real constraints — and where that breaks down.",
+  fix:"How do you organise your files now? Where does it get hard?"},
+ {q:"Will you keep using the app after this study?", codes:["C","H"], verdict:"flawed", group:"Hypothetical questions",
+  note:"A prediction wrapped in politeness — participants say yes to be kind to the researcher. If retention matters, measure actual use later.",
+  fix:"Don't ask — instrument it, or follow up in a month."},
+ {q:"If you were the designer, what would you do differently?", codes:["O","H","S"], verdict:"flawed", group:"Hypothetical questions",
+  note:"Hypothetical role-play plus solution-asking. It feels empowering to ask, but it converts the participant's experience into amateur design work you then have to reverse-engineer.",
+  fix:"What's the most frustrating part of using it as it is now?"},
+ {q:"How likely would you be to attend events if they were listed in the app?", codes:["C","H"], verdict:"flawed", group:"Hypothetical questions",
+  note:"Imagined likelihood of an imagined feature changing real behaviour. Ask how they hear about events now, and what they actually attended.",
+  fix:"Tell me about the last campus event you went to — how did you hear about it?"},
+ {q:"What would you do if the payment failed at the last step?", codes:["O","H"], verdict:"discuss", group:"Hypothetical questions",
+  note:"Hypothetical — but scenario walkthroughs can expose expectations and mental models, which is sometimes exactly the goal. Ask whether it has actually happened first; the real story always beats the imagined one.",
+  fix:"Has a payment ever failed on you? What happened?"},
+ {q:"Why do you think other students don't use the library app?", codes:["O","H"], verdict:"flawed", group:"Hypothetical questions",
+  note:"Asks the participant to speculate about other people's minds. You get folk theories, not data. If you want to know about non-users, interview non-users.",
+  fix:"Ask this participant about their own use — and recruit non-users separately."},
+
+ {q:"What features would you like us to add to the search page?", codes:["O","S"], verdict:"flawed", group:"Solution-asking questions",
+  note:"Asks the participant to do the designer's job. You'll collect feature requests shaped by what they've seen elsewhere, not the underlying needs.",
+  fix:"What are you usually trying to do when you search — and where does that break down?"},
+ {q:"How should we redesign the homepage?", codes:["O","S"], verdict:"flawed", group:"Solution-asking questions",
+  note:"Outsources design wholesale. Participants are experts in their own experience, not in interaction design — interview them about the former.",
+  fix:"What do you come to the homepage to do? What gets in the way?"},
+ {q:"Would a chatbot solve this problem for you?", codes:["C","H","S"], verdict:"flawed", group:"Solution-asking questions",
+  note:"Proposes a solution and asks for a prediction about it — solution-asking and hypothetical in one breath, before the problem is even understood.",
+  fix:"Walk me through the last time you hit this problem. What did you do?"},
+ {q:"What would make you give the app five stars?", codes:["O","S"], verdict:"discuss", group:"Solution-asking questions",
+  note:"Sometimes surfaces the single biggest blocker, which is useful — but the answers arrive as features and must be re-interpreted back into needs. Use with care.",
+  fix:"What's the main thing holding the app back for you right now?"},
+ {q:"Should we add a search bar to this page?", codes:["C","S"], verdict:"flawed", group:"Solution-asking questions",
+  note:"Design by vote: saying yes costs the participant nothing and commits you to a feature. The need behind the request is the thing worth interviewing for.",
+  fix:"When you land on this page, how do you find what you're after?"},
+ {q:"What's missing from the app?", codes:["O","S"], verdict:"flawed", group:"Solution-asking questions",
+  note:"Sounds open, but the answers arrive as a feature wishlist copied from other apps. Ask about thwarted goals instead — the needs come out directly.",
+  fix:"What did you want to do recently that the app couldn't help you with?"},
+ {q:"How could we make the checkout faster for you?", codes:["O","S","L"], verdict:"flawed", group:"Solution-asking questions",
+  note:"Solution framing plus a hidden premise: it assumes speed is the problem. Maybe the checkout is fast and confusing. Watch a real checkout first.",
+  fix:"Walk me through your last checkout, step by step."},
+ {q:"Which of these three designs should we build?", codes:["C","S"], verdict:"discuss", group:"Solution-asking questions",
+  note:"Preference tests have a legitimate place — but 'should we build' outsources a design decision to a sample of one. Useful if you probe the reasons behind the pick; hollow as a vote.",
+  fix:"Which of these fits how you work — and what about it fits?"},
+ {q:"Would it help if the app sent you reminders?", codes:["C","H","S"], verdict:"flawed", group:"Solution-asking questions",
+  note:"Proposes a solution, asks for a prediction, and 'help' begs a yes — three flaws stacked. Ask how they remember things now; the answer designs the reminder for you.",
+  fix:"How do you currently remember your deadlines? When does that fail?"},
+
+ {q:"How many times did you log in to the portal last semester?", codes:["C","M"], verdict:"flawed", group:"Memory-taxing & vague questions",
+  note:"Nobody can retrieve this number; they'll invent one to be helpful. Counts and frequencies belong in analytics, not interviews.",
+  fix:"Tell me about the last time you logged in to the portal."},
+ {q:"On average, how many minutes a day do you spend on social media?", codes:["C","M"], verdict:"flawed", group:"Memory-taxing & vague questions",
+  note:"Self-estimates of screen time are systematically wrong. Get the number from the device; spend the interview on the experience behind it.",
+  fix:"What were you doing the last time you opened social media?"},
+ {q:"What did you think of the website when you first used it, back in first year?", codes:["O","M"], verdict:"flawed", group:"Memory-taxing & vague questions",
+  note:"Distant memories aren't retrieved, they're reconstructed — coloured by everything since. First impressions have to be captured near the moment.",
+  fix:"Anchor to a recent visit — or observe an actual first-time user."},
+ {q:"What do you usually do on the internet?", codes:["O","N","V"], verdict:"flawed", group:"Memory-taxing & vague questions",
+  note:"Open and neutral, yet nearly useless: the scope is so broad that any answer is a shrug. Open questions still need a subject.",
+  fix:"Think about yesterday evening — what did you use your browser for?"},
+ {q:"How intuitive is the information architecture of the site?", codes:["O","V"], verdict:"flawed", group:"Memory-taxing & vague questions",
+  note:"'Intuitive' and 'information architecture' are designer jargon. The participant either guesses at your meaning or performs expertise they don't have.",
+  fix:"When you need to find something on the site, how do you go about it?"},
+ {q:"Do you engage with the platform's ecosystem regularly?", codes:["C","V"], verdict:"flawed", group:"Memory-taxing & vague questions",
+  note:"Three vague words in a row — 'engage', 'ecosystem', 'regularly' — each meaning something different to every participant. The answers can't be compared.",
+  fix:"Which of the platform's apps have you used in the past week?"},
+ {q:"Why didn't you read the instructions?", codes:["O","L"], verdict:"flawed", group:"Memory-taxing & vague questions",
+  note:"'Why didn't you…' is accusatory — it puts the participant on trial for the design's failure and triggers defensive rationalisation.",
+  fix:"What did you do first when you opened it?"},
+ {q:"Why did you stop using the app?", codes:["O","N"], verdict:"discuss", group:"Memory-taxing & vague questions",
+  note:"Reasonable on its face, but a bare 'why' invites a tidy, rationalised story. Asking for the circumstances usually gets closer to what actually happened.",
+  fix:"What was going on around the time you stopped using it?"},
+ {q:"How has your use of the platform changed over the past five years?", codes:["O","M"], verdict:"flawed", group:"Memory-taxing & vague questions",
+  note:"Long-range self-report isn't memory, it's storytelling — people narrate a tidy arc that fits who they are now. Longitudinal questions need longitudinal methods.",
+  fix:"Compare two recent concrete instances — or run a diary study."},
+ {q:"What percentage of your tasks do you complete on mobile versus desktop?", codes:["C","M"], verdict:"flawed", group:"Memory-taxing & vague questions",
+  note:"An invented statistic delivered with confidence. Nobody tracks this; everybody answers anyway. Precision in the question creates false precision in the data.",
+  fix:"Think of your last few tasks — which device did you use for each, and why?"},
+ {q:"Generally speaking, what's your workflow?", codes:["O","V","M"], verdict:"flawed", group:"Memory-taxing & vague questions",
+  note:"'Generally speaking' asks for the idealised routine, not the real one — and 'workflow' assumes they think of their work as one. The specific instance is always more honest.",
+  fix:"Walk me through exactly what you did last time, from the start."},
+ {q:"How accessible do you find the interface?", codes:["O","V"], verdict:"flawed", group:"Memory-taxing & vague questions",
+  note:"'Accessible' is a term of art — participants will guess at what you mean, and the answers won't be comparable. Ask about concrete barriers instead.",
+  fix:"Is there anything about the interface that's hard for you to read or operate?"},
+ {q:"What are your thoughts on the UX of the onboarding flow?", codes:["O","V"], verdict:"flawed", group:"Memory-taxing & vague questions",
+  note:"'UX' and 'flow' are designer vocabulary. Participants either perform expertise or defer to yours — both contaminate the answer.",
+  fix:"How did your first session with the app go?"},
+ {q:"Describe your relationship with technology.", codes:["O","V"], verdict:"flawed", group:"Memory-taxing & vague questions",
+  note:"A grand-tour question so broad it's an essay prompt. Open questions still need a scope the participant can stand inside.",
+  fix:"Tell me about the apps you used before 9am today."}
+];
+
+const $ = id => document.getElementById(id);
+let order = [], pos = 0, seen = 0;
+
+function shuffle(a) {
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function newDeck() {
+  order = shuffle(CARDS.map((_, i) => i));
+  pos = 0; seen = 0;
+}
+
+function chipHTML(code) {
+  return `<span class="chip c-${code}"><b>${code}</b> ${CODE_NAMES[code]}</span>`;
+}
+
+function show(idx, revealed) {
+  const c = CARDS[idx];
+  $("cardnum").textContent = `Card ${String(idx + 1).padStart(2, "0")} of ${CARDS.length}`;
+  $("question").textContent = c.q;
+  $("chips").innerHTML = c.codes.map(chipHTML).join("");
+  const v = $("verdict");
+  v.textContent = VERDICTS[c.verdict];
+  v.className = `verdict ${c.verdict}`;
+  $("note").textContent = c.note;
+  const hasFix = !!c.fix;
+  $("fix").innerHTML = hasFix ? `<strong>Our rewrite:</strong> “${c.fix}”` : "";
+  $("fix").hidden = true;
+  $("showfix").hidden = !hasFix;
+  $("showfix-hint").hidden = !hasFix;
+  $("analysis").hidden = !revealed;
+  $("reveal").hidden = !!revealed;
+  $("counter").textContent = `drawn ${seen} / ${CARDS.length}`;
+  location.hash = String(idx + 1);
+}
+
+function draw() {
+  if (pos >= order.length) newDeck();
+  seen = Math.min(seen + 1, CARDS.length);
+  show(order[pos++], false);
+}
+
+$("reveal").addEventListener("click", () => {
+  $("analysis").hidden = false;
+  $("reveal").hidden = true;
+});
+$("showfix").addEventListener("click", () => {
+  $("fix").hidden = false;
+  $("showfix").hidden = true;
+  $("showfix-hint").hidden = true;
+});
+$("next").addEventListener("click", draw);
+$("reshuffle").addEventListener("click", e => { e.preventDefault(); newDeck(); draw(); });
+
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "BUTTON" && e.key === "Enter") return;
+  if (e.key === " ") {
+    e.preventDefault();
+    if ($("analysis").hidden) $("reveal").click();
+    else if (!$("showfix").hidden) $("showfix").click();
+  }
+  if (e.key === "ArrowRight") draw();
+});
+
+$("toggle-browse").addEventListener("click", e => {
+  e.preventDefault();
+  const b = $("browse"), showing = b.hidden;
+  b.hidden = !showing;
+  $("deck").hidden = showing;
+  e.target.textContent = showing ? "Back to card view" : "Browse all cards";
+  if (showing && !b.dataset.built) {
+    let html = "", group = "";
+    CARDS.forEach((c, i) => {
+      if (c.group !== group) {
+        if (group) html += "</ol>";
+        group = c.group;
+        html += `<h2>${group}</h2><ol start="${i + 1}">`;
+      }
+      html += `<li value="${i + 1}"><span class="q">${c.q}</span><br>
+        <span class="meta">${c.codes.map(chipHTML).join(" ")} — <span class="verdict ${c.verdict}" style="display:inline">${VERDICTS[c.verdict]}</span>. ${c.note}${c.fix ? ` <em>Our rewrite: “${c.fix}”</em>` : ""}</span></li>`;
+    });
+    html += "</ol>";
+    $("browse-list").innerHTML = html;
+    b.dataset.built = "1";
+  }
+});
+
+// Deep link: #23 opens card 23 (revealed for tutor reference).
+newDeck();
+const h = parseInt(location.hash.slice(1), 10);
+if (h >= 1 && h <= CARDS.length) {
+  pos = order.indexOf(h - 1) + 1;
+  seen = 1;
+  show(h - 1, false);
+} else {
+  draw();
+}
+</script>
+</body>
+</html>

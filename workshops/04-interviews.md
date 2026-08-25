@@ -74,11 +74,24 @@ As a group, look through the pre-class tasks, you tutor will check your understa
 
 ### 1: Analysing sample questions (20 minutes)
 
-You will work in small groups of 3-5 students. Each group will receive a set of cards containing a mix of interview questions. Analyse each question as follows
+You will work in small groups of 3-5 students using the [interview question card deck](https://smcclab.au/thirty-nine-hundred-hci/workshops/interview-question-cards.html) — open it on one group member's laptop or phone. Each card shows one interview question drawn at random from a deck of 100; the codes and analysis stay hidden until you reveal them.
 
-- **Card 1:** Is it a closed question or an open question? Mark the card with a C for closed and an O for open.
-- **Card 2:** Check for bias. Is it a leading question or is it neutral? Mark the card with an L for leading and N for neutral.
-- **Card 3:** Identify probing questions. Mark the card with a P.
+For each card, **before revealing**, agree as a group on:
+
+- Is it **open (O)** or **closed (C)**?
+- Is it **leading (L)** or **neutral (N)**?
+- Is it a **probing (P)** question?
+- Does it have another flaw: **double-barreled (D)**, **hypothetical (H)**, **solution-asking (S)**, **memory-taxing (M)**, or **vague/jargon (V)**? (The legend on the page explains each code.)
+
+Then reveal the analysis and compare. For flawed questions the deck also holds a suggested rewrite behind a second reveal — **say your own fix out loud before revealing it**, then argue about whose version is better. Some cards are deliberately debatable — if your group disagrees with the card's verdict, argue your case; that discussion is the point.
+
+Work through cards for about 10 minutes, then:
+
+1. Pick the **two worst questions** you saw and agree on _why_ they are the worst.
+2. **Rewrite both** so they would elicit useful data about a real experience.
+3. Swap your rewrites with a neighbouring group and check each other's work: did the fix introduce a new flaw (e.g., did an open rewrite become double-barreled)?
+
+Your tutor may also call out a card number for the whole class to analyse together.
 
 ### 2. Designing an interview guide individually (10 mins)
 
