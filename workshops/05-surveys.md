@@ -30,7 +30,8 @@ In this class, you will:
 1. Practice administering the SUS
 2. Score a SUS response by hand
 3. Analyse the whole class's data in Python
-4. Discuss what the results do (and don't) tell you and what this means for your assignment.
+4. Interpret and report the survey results accurately
+5. Discuss what the results do (and don't) tell you and what this means for your assignment.
 
 ## In-Class Tasks
 
@@ -57,15 +58,16 @@ Your tutor will also give you:
 
 **In your pair or group:**
 
-1. Student A acts as the **user** and completes the task using Technology A, while Student B acts as the **researcher**.
+1. One student acts as the **user** and completes the task using their assigned technology, while the other acts as the **researcher**.
 2. As the **researcher**:
    - Welcome the user to the study.
    - Ask for their consent to participate.
    - Give the task instructions (e.g., *"Please complete the task, then fill in the SUS questionnaire to rate your experience"*).
+   - Notice whether the participant hesitates while completing the questionnaire. After they finish, ask whether any items were unclear or difficult to answer; mention any observations in the final discussion.
 3. Make sure the user:
    - Completes the task.
    - Records their answers on the SUS questionnaire for the technology they used.
-4. Swap roles. Student B acts as the **user** and completes the same task using Technology B, while Student A acts as the **researcher**.
+4. Swap roles. The other student then completes the same task using their assigned technology.
 5. Ensure the **participant ID** is written on the completed questionnaire — you will need this for the data entry step.
 
 ### 2. Score your SUS by hand (10 minutes)
@@ -110,7 +112,7 @@ Your tutor will provide a **shared spreadsheet** for the whole class to enter re
 
 Your tutor will then export the spreadsheet as a **CSV file** (e.g., `sus_class_data.csv`) and share it with the class.
 
-### 4. Analyse the class's data (30 minutes)
+### 4. Analyse the class's data (25 minutes)
 
 Work through this individually, but **sit with your pair**, several steps ask you to stop and compare notes before moving on.
 
@@ -277,9 +279,9 @@ Work through this individually, but **sit with your pair**, several steps ask yo
 
     **A note on test choice:** in the data gathering lecture we said rating-scale data isn't really continuous and suggested non-parametric tests [@kaptein-likert-analysis:2010]. That advice applies to *individual* Likert items. A SUS score is the *sum of ten items* on a 0-100 scale, which behaves much more like continuous data, so parametric tests like the t-test are commonly used and defensible here although statisticians still argue about this [@norman-likert-parametric:2010]. The important thing is to know *why* you chose your test (and the answer is not "my teacher/Claude/chatGPT told me to"). We'll meet the non-parametric alternative (the Mann-Whitney U test) in the statistical analysis lecture.
 
-### 5. Reporting results: Claim or overclaim? (20 minutes)
+### 5. Reporting results: Claim or overclaim? (15 minutes)
 
-#### Part 1: Evaluate the claims (15 minutes)
+#### Part 1: Evaluate the claims (10 minutes)
 
 Work with your partner. The statements below are based on hypothetical results. For each statement:
 
@@ -295,23 +297,19 @@ After you have finished, your tutor will review the answers and reasoning with t
 1. The mean SUS score was higher for Technology A (*M* = 75) than for Technology B (*M* = 68).
 2. The higher mean score indicates that participants were more satisfied with Technology A than with Technology B.
 3. The results indicate that participants had a positive usability experience with Technology A, whereas their experience with Technology B was merely acceptable.
-4. The mean SUS score for Technology A fell in the ‘Good’ range, while the mean for Technology B fell in the ‘OK’ range.
+4. The mean SUS score for Technology A fell in the 'Good' range, while the mean for Technology B fell in the 'OK' range.
 
 ##### Statistical significance and effect size
 
-**Result:** Welch’s t-test, *t*(24.3) = 2.30, *p* = .030; Cohen’s *d* = 0.88.
+**Result:** Welch's t-test, *t*(24.3) = 2.30, *p* = .030; Cohen's *d* = 0.88.
 
-5. The difference in SUS scores between Technology A and Technology B was statistically significant (*p* < .05).
+5. The difference in SUS scores between Technology A and Technology B was statistically significant (*p* < .05), with a large effect size (Cohen's *d* = 0.88).
 6. The statistically significant result indicates that Technology A offers a meaningful usability improvement over Technology B.
-7. The large effect size suggests that Technology A would offer a meaningful usability advantage in practice.
-8. The difference between the groups had a large effect size (Cohen’s *d* = 0.88).
 
 ##### Overall finding and scope
 
-9. Overall, Technology A was perceived as more usable than Technology B.
-10. Overall, the results indicate that participants preferred Technology A to Technology B.
-11. Overall, the higher SUS score reflects a better overall user experience with Technology A.
-12. For the flight-booking task, participants who used Technology A reported higher perceived usability than those who used Technology B.
+7. Overall, the higher SUS score reflects a better overall user experience with Technology A.
+8. For the flight-booking task, participants who used Technology A reported higher perceived usability than those who used Technology B.
 
 #### Part 2: Summarise your own results (5 minutes)
 
@@ -322,15 +320,18 @@ Drawing on the claim-or-overclaim examples above, write a short plain-language s
 - one overall finding about perceived usability; and
 - optionally, a brief description of any notable patterns shown in your plots.
 
-Post your summary in the class thread. 
+**Example:** The mean SUS score for Technology X was 71.61 (*SD* = 6.69), which fell in the 'Good' range, while the mean for Technology Y was 70.00 (*SD* = 8.60), which fell in the 'OK' range. The difference was not statistically significant (*t*(24.5) = 0.55, *p* = .59), with a small effect size (Cohen's *d* = 0.2). Overall, Technology X had a slightly higher mean SUS score, but the two technologies did not differ significantly in perceived usability.
+
+Post your summary in the class thread.
 
 ### 6. Discuss: from class data to your assignment (10 minutes)
 
 Your tutor will lead a discussion about what you learned — and about what carries over to your own studies. Some questions:
 
 - What do the results suggest about the two technologies? Was the difference *statistically* significant, *practically* meaningful, both, or neither? What do the effect size and adjective ratings tell you beyond the p-value?
-- **Assignment 2 will be different from today.** Your needs-finding study will involve **3–5 participants and no comparison groups**, so a significance test such as today’s t-test will not be appropriate. Which parts of today’s process could still be useful in Assignment 2? How should results from such a small sample be reported?  
-   Consider using a validated instrument, careful scoring, descriptive statistics, plots, and honest plain-language reporting. With 3–5 participants, report individual scores and ranges rather than relying only on a mean — recall the "use and misuse of data" warning from the data analysis lecture about statements such as *“50% of users”* when *n* = 4.
+- **Assignment 2 will be different from today.** Your needs-finding study will involve **3–5 participants and no comparison groups**, so a significance test such as today's t-test will not be appropriate. Which parts of today's process could still be useful in Assignment 2? How should results from such a small sample be reported?
+   Consider using a validated instrument, careful scoring, descriptive statistics, plots, and honest plain-language reporting. With 3–5 participants, report individual scores and ranges rather than relying only on a mean — recall the "use and misuse of data" warning from the data analysis lecture about statements such as *"50% of users"* when *n* = 4.
+- Did the participant hesitate or find any items unclear or difficult to answer? What might this suggest about survey administration or data quality?
 - What would you do differently next time?
 
 ## Important Notes
