@@ -75,7 +75,7 @@ Upon successful completion, students will have the knowledge and skills to:
 |   6     |   Direct Manipulation and Immersive Environments         |   7. Direct Manipulation and Immersive Environments  |   Blending Interaction: Engineering Interactive Systems & Tools   |   5         |                                                         |
 |   7     |   Fluid Navigation                                       |   8. Fluid Navigation                                |   Games and Play                                                  |   6         |                                                         |
 |   8     |   Expressive Interfaces                                  |   9. Expressive Human and Design Languages           |   Developing Novel Devices: Hardware, Materials, and Fabrication  |   7         |                                                         |
-|   9     |   Devices                                                |   10. Devices                                        |   Interacting with Devices: Interaction Techniques & Modalities   |   8         |   Assignment 2: User Research                           |
+|   9     |   Devices                                                |   10. Devices                                        |   Interacting with Devices: Interaction Techniques & Modalities   |   8         |   Assignment 2: AI Needs Finding                           |
 |   10    |   Information Search                                     |   15. Information Search                             |   Interaction Beyond the Individual                               |   9         |                                                         |
 |   11    |   Data Visualisation                                     |   16. Data Visualisation                             |   Visualization                                                   |   10        |                                                         |
 |   12    |   Human-Centred AI                                       |   “Human-Centred AI”                                 |   Critical Computing, Sustainability, and Social Justice          |             |                                                         |
@@ -84,7 +84,7 @@ Upon successful completion, students will have the knowledge and skills to:
 
 1. Pre-class and in-class tasks (10%, 1% per class) LO: 1,2
 2. Assignment 1: Prototyping (20%) LO: 1,2
-3. Assignment 2: User Research (30%) LO: 3,4 (PG: 5)
+3. Assignment 2: AI Needs Finding (30%) LO: 3,4 (PG: 5)
 4. Final Project: Prototype Design and Research Project
   (40%) LO: 2,3,4 (PG: 5)
 

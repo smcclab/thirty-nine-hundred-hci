@@ -68,14 +68,16 @@ FALLBACK_FOLDER_PATH = "Uploaded Media 2"
 
 # source markdown (repo-relative) -> Canvas assignment name.
 #
-# The Canvas names are NOT derivable from the markdown titles ("AI Needs
-# Finding" is "Assignment 2: User Research" on Canvas; workshop N is Week N+1),
-# so the mapping is explicit. Confirmed against the live course on 2026-08-02 by
-# comparing heading sets between each built fragment and each description.
+# The Canvas names are NOT derivable from the markdown titles (workshop N is
+# Week N+1), so the mapping is explicit. Confirmed against the live course on
+# 2026-08-02 by comparing heading sets between each built fragment and each
+# description. Assignment 2 was renamed on Canvas from "Assignment 2: User
+# Research" to "Assignment 2: AI Needs Finding" on 2026-08-28, to match the
+# retitled assessment and the canvas_name Lucy matches on for mark upload.
 ASSIGNMENT_MAP = [
     ("assessments/00-pre-and-in-class-tasks.md", "Pre and In-Class Task Instructions"),
     ("assessments/01-prototyping.md", "Assignment 1: Prototyping"),
-    ("assessments/02-needs-finding.md", "Assignment 2: User Research"),
+    ("assessments/02-needs-finding.md", "Assignment 2: AI Needs Finding"),
     ("assessments/03-prototype-and-evaluation.md",
      "Final Project: Prototype Design and Research Project"),
     ("workshops/01-making.md", "Week 2: Making"),
