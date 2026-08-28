@@ -29,7 +29,7 @@ Your study documentation will include research plan, analysis, results, and conc
 2. **Quantitative Results:** present analysis of your _quantitative_ data and your findings from this data, include excerpts from data, plots, tables, or other presentation approaches to help articulate your findings.
 3. **Qualitative Results:** present analysis of your _qualitative_ data and your findings from this data, include excerpts from data, plots, tables, or other presentation approaches to help articulate your findings.
 
-You should include all collected data from your study in the `materials` folder of the GitLab template, and you may refer to it from your main document.
+You should include all collected data from your study in the `materials` folder of the GitLab template, and you may refer to it from your main document. Data should be included in **raw form** — for example, the exported survey responses (with timestamps) rather than a summary table, and interview recordings, photographed notes, or verbatim transcripts rather than paraphrased summaries.
 
 To accomplish this task, you will need a strong understanding of _data gathering_, _quantitative analysis_, and _qualitative analysis_ as discussed in weeks 5--8 of the course. Your submission must demonstrate sophisticated engagement with these concepts.
 
@@ -40,7 +40,8 @@ Your submission must:
 - clearly describe the AI use context you are studying and justify its relevance to the research question
 - include a clear study plan with justification **from HCI academic research**
 - include a clear summary of the overall conclusions derived from your data and analysis, expressed as **a set of user needs**
-- include data from 3--5 participants: **all participants must be students in COMP3900/6390! (list them in the acknowledgements section)**
+- include data from 3--5 participants: **all participants must be students in COMP3900/6390! (list them in the _Participants_ section in the format given in the template: `- u1234567 Firstname Lastname`)**
+- include your **raw collected data** and analysis scripts in the `materials` folder of your repository
 - include results based on quantitative and qualitative data and analysis techniques
 - include at least five references to external sources in ACM format
 - be written in markdown format with correct syntax and formatting
@@ -48,6 +49,17 @@ Your submission must:
 - must be uploaded to _your fork_ of the [`comp3900-2026-A2-needs-finding`](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A2-needs-finding) repository on Gitlab by the due date
 
 **N.B. to eliminate doubt: all participants in your study must be current students in COMP3900/6390. The best way to find and study your classmates is to attend all lectures and tutorials and participate in assignment planning activities.**
+
+### How participant lists are verified {#verification}
+
+Because every participant is a classmate, participation is verifiable:
+
+- A CI job in your repository checks that your _Participants_ section is correctly formatted (3--5 entries, one `- u1234567 Firstname Lastname` per line, no duplicates, and you are not your own participant).
+- After the deadline, every listed uid and name is checked against the class list, and participant lists are **cross-checked across all submissions**: since you participate in your classmates' studies while they participate in yours, your uid should also appear in other students' participant lists.
+- We **contact a random sample of listed participants** to confirm that they took part in the study and what it involved.
+- We may re-run your analyses against the raw data in your `materials` folder.
+
+Listing people who did not actually participate, or submitting data that was not collected from the listed participants, is fabrication of research data: a serious error under the _N_ category of the rubric and a potential breach of academic integrity. If recruiting participants goes wrong for you, talk to the course staff early — a smaller honest study is always worth more than a fabricated one.
 
 ## Submission Process {#submission-process}
 
@@ -67,7 +79,7 @@ Here's how to get started with the work in this assignment:
 
 3. **Find participants -- they must be current COMP3900/6390 students.** Attend all classes and find 3--5 people in your tutorial who will participate in each others' studies. Don't leave this until the last minute!
 
-4. **Collect data with your participants.** Consider using a short survey for quantitative data (e.g., frequency of AI tool use, types of tasks, perceived helpfulness ratings) and a semi-structured interview or a short diary task for qualitative data (e.g., a description of a recent experience using AI, open-ended reflections on what worked or what was missing). You will need to participate in other people's studies as well as ask them to participate in yours. (Don't make up the data.)
+4. **Collect data with your participants.** Consider using a short survey for quantitative data (e.g., frequency of AI tool use, types of tasks, perceived helpfulness ratings) and a semi-structured interview or a short diary task for qualitative data (e.g., a description of a recent experience using AI, open-ended reflections on what worked or what was missing). You will need to participate in other people's studies as well as ask them to participate in yours. Keep your data in raw form as you collect it — survey platform exports, recordings, photos of handwritten notes, verbatim transcripts — because that raw data goes in your `materials` folder. (Don't make up the data: see [How participant lists are verified](#verification).)
 
 5. **Analyse your data.** Use the quantitative and qualitative analysis techniques covered in classes. For qualitative data, reflexive thematic analysis is particularly well-suited to identifying needs and patterns across participants.
 
@@ -75,7 +87,7 @@ Here's how to get started with the work in this assignment:
 
 7. **Write up your project** in the correct format in your fork of the GitLab repository. Make sure you are using correct markdown syntax and have included all data and analysis files in your repository.
 
-8. **Acknowledge your research participants** by listing them in your _acknowledgements_ section.
+8. **List your research participants** in your _Participants_ section in the required format, and acknowledge any other help (including generative AI use) in your _acknowledgements_ section.
 
 Here's some general advice:
 
