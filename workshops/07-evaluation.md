@@ -99,7 +99,7 @@ The key ethical questions for an HCI evaluation with human participants are [@na
 
 Note that "risks" in HCI, are usually not of physical harm, but could be related to privacy of the data collected or risk of being identified as a participant. Small studies often do not benefit the researcher very much, but it has been argued that we should expect more benefits to flow to vulnerable participants [@brown-ethical-hci:2016].
 
-Informed consent for participation is a cornerstone of research on humans [@national-statement-ethical-conduct:2025]. For some kinds of HCI research, the concept of consent is complicated [@benford-ethical-implications:2015], but in your work, you may wish to obtain consent in written form, or verbally. The idea is to ensure that participants understand what the study involves and clearly agree to participate given that knowledge.
+Informed consent for participation is a cornerstone of research on humans [@national-statement-ethical-conduct:2025]. For some kinds of HCI research, the concept of consent is complicated [@benford-ethical-implications:2015], but in your work, you may wish to obtain consent in written form, or verbally. The idea is to ensure that participants understand what the study involves and clearly agree to participate given that knowledge. For Assignment 2, a natural part of this process is asking each participant to write down their uid and name for your *Participants* section (`- u1234567 Firstname Lastname`) — consenting to be named in your submission is part of what they are agreeing to, and it's how participation is verified.
 
 In pairs, discuss how your study plan for the assignment aligns with these questions:
 

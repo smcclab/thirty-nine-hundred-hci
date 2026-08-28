@@ -75,7 +75,7 @@ You will have time in the week 7 and 8 tutorials to coordinate with your group. 
 
 What to do:
 
-1. **Meet everybody in your group.** Write down their names, ANU email address and other contact details if you prefer. Keep in mind that everybody has access to ANU email and the Ed Discussions forum but some folks might not be available for messages on particular social media platforms due to their personal preferences, language, or background.
+1. **Meet everybody in your group.** Write down their names, ANU email address and other contact details if you prefer. Keep in mind that everybody has access to ANU email and the Ed Discussions forum but some folks might not be available for messages on particular social media platforms due to their personal preferences, language, or background. While you're at it, collect each group member's uid and name in the exact format the assignment's _Participants_ section requires (`- u1234567 Firstname Lastname`) — ask them to write it down for you, since you'll need it verbatim in your submission and participant lists are cross-checked across the whole class.
 2. **Discuss the assignment specification** and the 3 possible AI use contexts you identified in pre-class work. Does everybody have the same understanding of the assignment? If you are unclear on what is required, ask your tutor or write a post on the forum.
 3. **Choose your AI use context.** Everybody in the group would choose a different context to investigate so that doing all the mini studies isn't too boring. Check if it will be practical to study others' experiences in this context, i.e., are there obvious limitations that would prevent someone from having used AI tools in this way or being able to talk about it?
 
