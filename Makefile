@@ -128,13 +128,13 @@ BEAMER_PDFS  = $(patsubst $(LECTURES_DIR)/%.md,$(LECTURES_OUT)/%.pdf,$(LECTURE_M
 .PHONY: reveal
 reveal: $(LECTURES_OUT) $(REVEAL_HTMLS) images $(LECTURES_OUT)/charles_reveal_dark.css
 
-$(LECTURES_OUT)/%.html: $(LECTURES_DIR)/%.md $(REVEAL_FILTER)
+$(LECTURES_OUT)/%.html: $(LECTURES_DIR)/%.md $(REVEAL_FILTER) $(REFERENCES)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(REVEAL_OPTS) $< -o $@
 
 .PHONY: beamer
 beamer: $(LECTURES_OUT) $(BEAMER_PDFS)
 
-$(LECTURES_OUT)/%.pdf: $(LECTURES_DIR)/%.md $(BEAMER_FILTER)
+$(LECTURES_OUT)/%.pdf: $(LECTURES_DIR)/%.md $(BEAMER_FILTER) $(REFERENCES)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(BEAMER_OPTS) $< -o $@
 
 # =============================================================================
@@ -148,10 +148,10 @@ ASSESSMENTS_PDFS  = $(patsubst $(ASSESSMENTS_DIR)/%.md,$(ASSESSMENTS_OUT)/%.pdf,
 .PHONY: assessments
 assessments: $(ASSESSMENTS_OUT) $(ASSESSMENTS_HTMLS) $(ASSESSMENTS_PDFS)
 
-$(ASSESSMENTS_OUT)/%.html: $(ASSESSMENTS_DIR)/%.md
+$(ASSESSMENTS_OUT)/%.html: $(ASSESSMENTS_DIR)/%.md $(REFERENCES)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
 
-$(ASSESSMENTS_OUT)/%.pdf: $(ASSESSMENTS_DIR)/%.md
+$(ASSESSMENTS_OUT)/%.pdf: $(ASSESSMENTS_DIR)/%.md $(REFERENCES)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(PDF_OPTS) $< -o $@
 
 # =============================================================================
@@ -185,7 +185,7 @@ RESOURCES_HTMLS = $(patsubst $(RESOURCES_DIR)/%.md,$(RESOURCES_OUT)/%.html,$(RES
 .PHONY: resources
 resources: $(RESOURCES_OUT) $(RESOURCES_HTMLS)
 
-$(RESOURCES_OUT)/%.html: $(RESOURCES_DIR)/%.md
+$(RESOURCES_OUT)/%.html: $(RESOURCES_DIR)/%.md $(REFERENCES)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
 
 # =============================================================================

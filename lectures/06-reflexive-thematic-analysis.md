@@ -66,7 +66,7 @@ Conversation with family members and Amazon Alexa with markup from [@porcheron-v
 :::
 ::::::::::::::
 
-## Discourse Analysis
+## Discourse Analysis [@rogers-beyond-hci:2023]
 
 - Analysing dialogue: what is said, how words convey meaning
 - Interpreting context, psychological and social aspects of words.
@@ -74,7 +74,7 @@ Conversation with family members and Amazon Alexa with markup from [@porcheron-v
 - [**Constructivist approach:**](https://www.open.edu/openlearn/health-sports-psychology/critically-exploring-psychology/content-section-3.1) Language as a constructive tool: analyse the process of world construction
 - Identify subtle and implicit meaning between sources
 
-## Content Analysis
+## Content Analysis [@rogers-beyond-hci:2023]
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -103,12 +103,14 @@ Grounded Theory (GT) is an _old and important_ qualitative analysis technique [@
 - main idea: identify _categories_ (a kind of theme) through iterative data collection and analysis.
 - any kind of data but often ethnographic and interview data
 - analysis procedure:
-    - _open coding_: categories, properties and dimensions discovered inn data
+    - _open coding_: categories, properties and dimensions discovered in data
     - _axial coding_: systematically establishing categories/sub-categories
     - _selective coding_: refine and integrating categories
 
 - _heavier and less flexible in comparison to Reflexive Thematic Analysis_ (not suggested for first-timers)
-- @rogers-beyond-hci:2023 claim that GT "uses reflexive thematic analysis", which I guess is accurate.
+- @rogers-beyond-hci:2023 claim GT "uses reflexive thematic analysis" — don't believe your textbook.
+  GT is from 1967, "reflexive TA" was named in 2019 [@braun-reflexive-thematic-analysis:2019], and what
+  they describe is constant comparison.
 
 ## Grounded Theory Example: Idle Games
 
@@ -151,7 +153,7 @@ Grounded Theory (GT) is an _old and important_ qualitative analysis technique [@
 5. Fragmentation of design processes
 
 
-## Distributed Cognition of Teamwork (DiCoT)
+## Distributed Cognition of Teamwork (DiCoT) [@blandford-dicot:2006]
 
 - Distributed cognition unpacks how multiple people and technologies interact complete tasks and solve problems.
     - **information flow model**
@@ -236,7 +238,7 @@ By this stage, you could be excused for being a bit confused about qualitative r
 
 This may feel firmly off topic, but we need to surface some friction about _knowledge_ to properly explain the different approaches in qualitative research.
 
-- **Postivism/Post-positivism** knowledge is true by definition or provable via generalisable methods. The "post" bit accepts qualitative research but emphasise sample size and eliminating bias.
+- **Positivism/Post-positivism** knowledge is true by definition or provable via generalisable methods. The "post" bit accepts qualitative research but emphasise sample size and eliminating bias.
 - **Interpretivism:** knowledge can be socially constructed and meaning made by people
 - **Critical theory:** examine power structures and hidden inequalities
 - **Constructivism:** knowledge is created and shaped by human experience and social interaction, including with the researcher
@@ -272,9 +274,11 @@ Discuss with someone near you for 2 minutes, then let's hear some answers.
 4. theme development and review
 5. theme refining, defining and naming
 6. writing up
+
+The phase _names_ here are the 2022 ones [@braun-thematic-analysis:2022]; the table beside is the 2006 original. The process is the same, the renaming is deliberate — watch what happens to phase 3.
 :::
 ::: {.column width="50%"}
-![[@braun-thematic-analysis:2006]](img/reflexive-thematic-analysis_1_phases.jpg)
+![Table 1 of [@braun-thematic-analysis:2006]](img/reflexive-thematic-analysis_1_phases.jpg)
 :::
 ::::::::::::::
 
@@ -284,7 +288,7 @@ Discuss with someone near you for 2 minutes, then let's hear some answers.
 ::: {.column width="60%"}
 - considered poor practice to jump to _themeing_ before understanding the data.
 - familiarisation starts during data collection (thinking about the content while/directly after collecting)
-- angles for thought: key knowledge, simalarities/differences, surprises, adjustments to interview technique/script.
+- angles for thought: key knowledge, similarities/differences, surprises, adjustments to interview technique/script.
 
 ### Reading
 
@@ -352,7 +356,7 @@ A code is: _a name or label applied to a chunk of data_
 
 ## Types of codes
 
-- In vivo codes: based on the literal words of a participant [@given-in-vivo-coding:2008]
+- In vivo codes: based on the literal words of a participant [@king-in-vivo-coding:2008]
 - Researcher denoted: based on the researcher's interpretation
 - Semantic: surface level, close to in vivo but may not be exact words
 - Latent: based on deeper interpretation of data
@@ -365,9 +369,10 @@ A code is: _a name or label applied to a chunk of data_
 - Researchers argue this can help eliminate bias
 - Controls on number and type of codes, aim for consistency and repeatability
 - Often not recommended in reflexive thematic analysis
+- inter-rater reliability measures the clarity of a coding scheme, not the correctness of an analysis [@mcdonald-interrater-reliability:2019]
 :::
 ::: {.column width="40%"}
-![Example of code book entries [@decruir-gunby-codebook:2011, p.147]](img/reflexive-thematic-analysis_6_codebook.jpg)
+![Example of code book entries [@decuir-gunby-codebook:2011, p.147]](img/reflexive-thematic-analysis_6_codebook.jpg)
 :::
 ::::::::::::::
 
@@ -393,7 +398,7 @@ Use the poll everywhere link to code statements and we will see them all togethe
 
 A theme:
 
-> “A theme captures something important about the data in relation to the research question, and represents some level of patterned response or meaning within the data set” (Braun and Clarke 2006, p.82)
+> “A theme captures something important about the data in relation to the research question, and represents some level of patterned response or meaning within the data set” [@braun-thematic-analysis:2006, p. 82]
 
 How do we find them?
 
@@ -407,6 +412,8 @@ In this class:
 2. Look for patterned responses/meanings (may help to write higher level codes)
 3. _prototype_ themes that capture "something important" (may help to promote a code)
 4. Refine and question your themes and codes, not all themes are well-supported by data.
+
+@byrne-worked-thematic-analysis:2022 works through this whole process on a real data set — worth reading before the tutorial.
 :::
 ::: {.column width="40%"}
 ![A Miro board from [Yichen Wang](https://yichenwangs.github.io)'s thematic analysis (2025)](img/reflexive-thematic-analysis-yichen-wang-miro-2025.png)
@@ -419,7 +426,7 @@ In this class:
 ::: {.column width="60%"}
 Braun and Clarke _insist_ that "themes do not emerge", [@braun-thematic-analysis:2022]
 
-- themes are created by the researcher, not exacavated from the data
+- themes are created by the researcher, not excavated from the data
 - work goes into analysing data and deciding on themes that can be supported
 - when folks write "themes emerged", it's as if the themes were either there to begin with or developed themselves.
 
@@ -427,6 +434,8 @@ Braun and Clarke _insist_ that "themes do not emerge", [@braun-thematic-analysis
 :::
 ::: {.column width="40%"}
 ![Themes do not emerge is a bit of a meme.](img/themes-do-not-emerge.jpg){width=50%}
+
+@morriss-themes-do-not-emerge:2024 unpacks why the phrase persists.
 :::
 ::::::::::::::
 
@@ -468,6 +477,8 @@ There are different types of themes, and a common distinction:
 
 - Themes that categorise groups of codes: bucket themes, semantic themes, _thin_ themes
 - Themes that interpret the codes, revealing hidden information: latent themes, _thick_ themes
+
+(the same distinction as week 5: data summaries vs patterns of shared meaning [@braun-reflexive-thematic-analysis:2019])
 
 Charles (2025; i.e., these slides!) suggests that **4** is a key heuristic for assessing theme thickness. (Disclaimer: may be revised in future!)
 
@@ -648,7 +659,7 @@ Use the poll everywhere link to provide it.
 ::: {.column width="60%"}
 **Who has a question?**
 
-- I can take _cathchbox_ question up until 2:55
+- I can take _catchbox_ questions up until 2:55
 - For after class questions: meet me outside the classroom at the bar (for 30 minutes)
 - Feel free to ask about **any aspect of the course**
 - Also feel free to ask about **any aspect of computing at ANU**! I may not be able to help, but I can listen.
