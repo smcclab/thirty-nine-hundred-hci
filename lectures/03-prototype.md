@@ -258,7 +258,7 @@ manifestation of an idea [@design-thinking-bootleg:2018], e.g.:
 ![An early prototype (2018)](img/prototype-impsy-2018.jpg){width=50%}
 :::
 ::: {.column width="50%"}
-![A later prototype (2019) [@martin-empi:2020]](img/prototype-impsy-2019.jpg){width=100%}
+![A later prototype (2019) [@martin-understanding-musical-predictions:2020]](img/prototype-impsy-2019.jpg){width=100%}
 :::
 ::::::::::::::
 
