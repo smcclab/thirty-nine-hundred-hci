@@ -45,7 +45,7 @@ For grading, note that:
 
 Your post might look like this:
 
-![An example pre-class task post on the course forum](img/hci-pre-class-task.png){width=25%}
+![An example pre-class task post on the course forum](img/hci-pre-class-task.png){width=70%}
 
 ## Notes
 
