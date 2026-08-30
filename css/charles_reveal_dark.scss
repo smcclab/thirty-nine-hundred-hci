@@ -1,19 +1,12 @@
 // Default dark reveal theme for course presentations.
 @use 'sass:color';
+@use 'palette' as *;
 
 // fonts and typography
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.0/inter.min.css");
 
-/* SCSS HEX */
-$darker-charcoal: rgb(21, 39, 46);
-$charcoal: #264653ff;
-$persian-green: #2a9d8fff;
-$saffron: #e9c46aff;
-$sandy-brown: #f4a261ff;
-$burnt-sienna: #e76f51ff;
-
-$text-color: #fafafa;
+$text-color: $text-light;
 $background-color: $darker-charcoal;
 $activity-background: $persian-green;
 $questions-background: $burnt-sienna;

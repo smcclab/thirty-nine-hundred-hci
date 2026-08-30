@@ -98,7 +98,19 @@ PDF_OPTS = --metadata date="$(shell date '+%Y-%m-%d')" \
 
 # -V 'fontfamily:libertine,sourcecodepro'
 
-HTML_OPTS = -V mainfont="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+# Standalone doc pages (assessments/workshops/resources) live one level below
+# build/, so the shared stylesheet (build/style.css) is ../style.css from them.
+# Passing --css also makes pandoc drop its built-in default.html5 styles, so
+# all typography comes from style.css. The nav fragment is inserted verbatim
+# straight after <body>.
+NAV_INCLUDE = $(TEMPLATES_DIR)/nav.html
+HTML_OPTS = --css=../style.css --include-before-body=$(NAV_INCLUDE)
+
+# Shared theme for the index page and the standalone doc pages; built by the
+# rule in the CSS section below. Defined here because prerequisite lists are
+# expanded as soon as make reads a rule, so these must precede their first use.
+SITE_CSS = $(OUTPUT_DIR)/style.css
+PALETTE_SCSS = css/_palette.scss
 
 # =============================================================================
 # Top-level targets
@@ -146,9 +158,9 @@ ASSESSMENTS_HTMLS = $(patsubst $(ASSESSMENTS_DIR)/%.md,$(ASSESSMENTS_OUT)/%.html
 ASSESSMENTS_PDFS  = $(patsubst $(ASSESSMENTS_DIR)/%.md,$(ASSESSMENTS_OUT)/%.pdf,$(ASSESSMENTS_MDS))
 
 .PHONY: assessments
-assessments: $(ASSESSMENTS_OUT) $(ASSESSMENTS_HTMLS) $(ASSESSMENTS_PDFS)
+assessments: $(ASSESSMENTS_OUT) $(SITE_CSS) $(ASSESSMENTS_HTMLS) $(ASSESSMENTS_PDFS)
 
-$(ASSESSMENTS_OUT)/%.html: $(ASSESSMENTS_DIR)/%.md $(REFERENCES)
+$(ASSESSMENTS_OUT)/%.html: $(ASSESSMENTS_DIR)/%.md $(REFERENCES) $(NAV_INCLUDE)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
 
 $(ASSESSMENTS_OUT)/%.pdf: $(ASSESSMENTS_DIR)/%.md $(REFERENCES)
@@ -167,9 +179,9 @@ WORKSHOPS_STATIC      = $(wildcard $(WORKSHOPS_DIR)/*.html)
 WORKSHOPS_STATIC_OUT  = $(patsubst $(WORKSHOPS_DIR)/%.html,$(WORKSHOPS_OUT)/%.html,$(WORKSHOPS_STATIC))
 
 .PHONY: workshops
-workshops: $(WORKSHOPS_OUT) $(WORKSHOPS_HTMLS) $(WORKSHOPS_STATIC_OUT)
+workshops: $(WORKSHOPS_OUT) $(SITE_CSS) $(WORKSHOPS_HTMLS) $(WORKSHOPS_STATIC_OUT)
 
-$(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.md $(REFERENCES)
+$(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.md $(REFERENCES) $(NAV_INCLUDE)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
 
 $(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.html
@@ -183,9 +195,9 @@ RESOURCES_MDS   = $(wildcard $(RESOURCES_DIR)/*.md)
 RESOURCES_HTMLS = $(patsubst $(RESOURCES_DIR)/%.md,$(RESOURCES_OUT)/%.html,$(RESOURCES_MDS))
 
 .PHONY: resources
-resources: $(RESOURCES_OUT) $(RESOURCES_HTMLS)
+resources: $(RESOURCES_OUT) $(SITE_CSS) $(RESOURCES_HTMLS)
 
-$(RESOURCES_OUT)/%.html: $(RESOURCES_DIR)/%.md $(REFERENCES)
+$(RESOURCES_OUT)/%.html: $(RESOURCES_DIR)/%.md $(REFERENCES) $(NAV_INCLUDE)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
 
 # =============================================================================
@@ -226,8 +238,13 @@ $(OUTPUT_DIR)/$(RESOURCES_DIR)/$(IMAGE_DIR)/%: $(RESOURCES_DIR)/$(IMAGE_DIR)/%
 # CSS / Styles
 # =============================================================================
 
-%/charles_reveal_dark.css: css/charles_reveal_dark.scss
+# css/_palette.scss is the single source of truth for the course colours,
+# @use'd by both stylesheets below.
+%/charles_reveal_dark.css: css/charles_reveal_dark.scss $(PALETTE_SCSS)
 	sass --style=compressed css/charles_reveal_dark.scss $@
+
+$(SITE_CSS): css/site.scss $(PALETTE_SCSS)
+	sass --style=compressed css/site.scss $@
 
 # =============================================================================
 # Output directories
@@ -244,9 +261,9 @@ $(LECTURES_OUT) $(WORKSHOPS_OUT) $(ASSESSMENTS_OUT) $(RESOURCES_OUT):
 # =============================================================================
 
 .PHONY: index
-index: $(INDEX_HTML)
+index: $(SITE_CSS) $(INDEX_HTML)
 
-$(INDEX_HTML): $(LECTURE_MDS) $(ASSESSMENTS_MDS) $(WORKSHOPS_MDS) $(RESOURCES_MDS) $(INDEX_GENERATOR)
+$(INDEX_HTML): $(LECTURE_MDS) $(ASSESSMENTS_MDS) $(WORKSHOPS_MDS) $(RESOURCES_MDS) $(INDEX_GENERATOR) $(CONFIG)
 	python3 $(INDEX_GENERATOR) $@ $(OUTPUT_DIR)
 
 # =============================================================================

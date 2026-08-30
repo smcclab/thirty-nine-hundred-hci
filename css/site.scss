@@ -1,0 +1,162 @@
+// Site theme for the index page and the standalone assessment/workshop/
+// resource pages. Compiled to build/style.css. Follows the reader's OS
+// light/dark preference; both schemes are built from the shared course
+// palette in _palette.scss (the lecture decks use the same palette, dark-only).
+@use 'sass:color';
+@use 'palette' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// Light scheme defaults; dark overrides below. Burnt sienna fails contrast
+// on a near-white background, so links are darkened for light mode.
+:root {
+	--bg: #fdfdfd;
+	--fg: #{color.adjust($charcoal, $lightness: -8%)};
+	--heading: #{$charcoal};
+	--link: #{color.adjust($burnt-sienna, $lightness: -18%)};
+	--accent: #{$sandy-brown};
+	--muted: #{color.adjust($charcoal, $alpha: -0.35)};
+	--rule: #{color.adjust($charcoal, $alpha: -0.75)};
+	--surface: #{color.adjust($charcoal, $alpha: -0.94)};
+	--nav-bg: #{$charcoal};
+	--nav-fg: #{$text-light};
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #{$darker-charcoal};
+		--fg: #{$text-light};
+		--heading: #{$text-light};
+		--link: #{$burnt-sienna};
+		--muted: #{color.adjust($text-light, $alpha: -0.4)};
+		--rule: #{color.adjust($text-light, $alpha: -0.75)};
+		--surface: #{color.adjust($darker-charcoal, $lightness: 5%)};
+	}
+}
+
+body {
+	font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, Helvetica, Arial, sans-serif;
+	background-color: var(--bg);
+	color: var(--fg);
+	max-width: 50rem;
+	margin: 0 auto;
+	padding: 0 1rem 3rem;
+	line-height: 1.6;
+}
+
+a {
+	color: var(--link);
+	font-weight: 700;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--heading);
+	font-weight: 700;
+	line-height: 1.25;
+}
+
+// Echoes the lecture decks' h1 underline.
+h1 {
+	border-bottom: 4px solid var(--accent);
+	padding-bottom: 0.2em;
+}
+
+// Workshop pages carry a leading `# Title` (the chapter heading for
+// all_workshops.pdf; Canvas strips it at push time) that duplicates the
+// frontmatter title block. Hide an h1 only when it directly follows the
+// title block — assessment/resource content starts at ##, so this never
+// fires there.
+#title-block-header + h1 {
+	display: none;
+}
+
+img, video {
+	max-width: 100%;
+	height: auto;
+}
+
+code {
+	font-family: "Courier", monospace;
+	background-color: var(--surface);
+	padding: 0.1em 0.3em;
+	border-radius: 0.2em;
+}
+
+pre {
+	background-color: var(--surface);
+	padding: 0.6em 0.8em;
+	overflow-x: auto;
+
+	code {
+		background: none;
+		padding: 0;
+	}
+}
+
+blockquote {
+	margin: 0;
+	background-color: var(--surface);
+	border-left: 8px solid var(--accent);
+	padding: 0.5em 0.8em;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	border-bottom: 1px solid var(--rule);
+	padding: 0.3em 0.5em;
+	text-align: left;
+}
+
+// Injected by templates/nav.html on the standalone pages;
+// the index page is the destination, so it carries no nav.
+.site-nav {
+	background-color: var(--nav-bg);
+	margin: 0 -1rem 1.5rem;
+	padding: 0.5em 1rem;
+
+	a {
+		color: var(--nav-fg);
+	}
+}
+
+// Index page (emitted by generate_index.py)
+.hero {
+	img {
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-top: 1rem;
+	}
+
+	h1 {
+		margin-top: 0.5em;
+		margin-bottom: 0.2em;
+	}
+}
+
+.byline {
+	color: var(--muted);
+	font-weight: 700;
+	margin-top: 0;
+}
+
+.section-listing {
+	h2 {
+		border-bottom: 2px solid var(--accent);
+		padding-bottom: 0.1em;
+	}
+
+	ol {
+		line-height: 1.7;
+	}
+}

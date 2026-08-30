@@ -1,0 +1,13 @@
+// Shared course palette — the single source of truth for site colours.
+// Consumed by charles_reveal_dark.scss (lecture decks, always dark) and
+// site.scss (index + assessment/workshop/resource pages, light/dark).
+
+/* SCSS HEX */
+$darker-charcoal: rgb(21, 39, 46);
+$charcoal: #264653ff;
+$persian-green: #2a9d8fff;
+$saffron: #e9c46aff;
+$sandy-brown: #f4a261ff;
+$burnt-sienna: #e76f51ff;
+
+$text-light: #fafafa;

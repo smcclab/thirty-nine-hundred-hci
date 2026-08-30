@@ -2,7 +2,7 @@
 title: Personas and Scenarios
 ---
 
-# Personas and Scenarios to Evaluate Designs
+# Personas and Scenarios
 
 ![Sticky note wall from a co-design session.](img/codesign.jpg){width=80%}
 

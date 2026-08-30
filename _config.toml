@@ -2,7 +2,10 @@ title = "Human Computer Interaction"
 institution = "ANU College of Systems and Society"
 author = "Dr Charles P Martin SFHEA"
 year = "2026"
-course_image = "workshops/img/2025-hololens-wide.jpg"
+# Hero image on the index page. Path is relative to build/ and must sit under
+# a directory that `make public` still copies (resources/img/ is — the images
+# target copies it even though the resource pages themselves aren't published).
+course_image = "resources/img/2025-hololens-wide.jpg"
 description = """
 Computer systems are designed by and for people; we create computer systems to solve problems, work for us, and enhance our lives, societies and our world. Human-computer interaction is the interdisciplinary research field concerned with how people can and do use computers, how computer systems can be better designed for interaction with people, and what role computer systems can play in society, the environment, social movements, and beyond.
 
