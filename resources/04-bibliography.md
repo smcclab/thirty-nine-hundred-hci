@@ -1,7 +1,5 @@
 ---
-title: Human Computer Interaction Bibliography
-author: Charles Martin
-date: 2025
+title: Reference List
 bibliography: references.bib
 nocite: '@*'
 ...

@@ -120,7 +120,7 @@ PALETTE_SCSS = css/_palette.scss
 all: reveal beamer assessments resources workshops images index
 
 .PHONY: public
-public: reveal beamer assessments workshops images index
+public: reveal beamer assessments resources workshops images index
 
 .PHONY: html
 html: reveal assessments resources workshops images index
@@ -194,11 +194,19 @@ $(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.html
 RESOURCES_MDS   = $(wildcard $(RESOURCES_DIR)/*.md)
 RESOURCES_HTMLS = $(patsubst $(RESOURCES_DIR)/%.md,$(RESOURCES_OUT)/%.html,$(RESOURCES_MDS))
 
+# Hand-written standalone pages (e.g. interview-question-cards.html) are
+# copied verbatim rather than built with pandoc.
+RESOURCES_STATIC     = $(wildcard $(RESOURCES_DIR)/*.html)
+RESOURCES_STATIC_OUT = $(patsubst $(RESOURCES_DIR)/%.html,$(RESOURCES_OUT)/%.html,$(RESOURCES_STATIC))
+
 .PHONY: resources
-resources: $(RESOURCES_OUT) $(SITE_CSS) $(RESOURCES_HTMLS)
+resources: $(RESOURCES_OUT) $(SITE_CSS) $(RESOURCES_HTMLS) $(RESOURCES_STATIC_OUT)
 
 $(RESOURCES_OUT)/%.html: $(RESOURCES_DIR)/%.md $(REFERENCES) $(NAV_INCLUDE)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
+
+$(RESOURCES_OUT)/%.html: $(RESOURCES_DIR)/%.html
+	cp $< $@
 
 # =============================================================================
 # Images — copy from source to build

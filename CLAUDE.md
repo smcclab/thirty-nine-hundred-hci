@@ -13,7 +13,7 @@ Requires: `pandoc`, a TeX environment (MacTeX or TeX Live), `sass`, `python3`, a
 | Command | Output |
 |---|---|
 | `make all` | Everything: reveal, beamer, assessments, resources, workshops, images, index |
-| `make public` | Like `all` but excludes resources (used by CI/GitHub Actions) |
+| `make public` | Everything the published site needs (used by CI/GitHub Actions) |
 | `make html` | HTML only: reveal + assessments + workshops + resources |
 | `make reveal` | Reveal.js HTML for lectures only |
 | `make beamer` | Beamer PDF for lectures only |
@@ -33,7 +33,7 @@ sass css/charles_reveal_dark.scss build/lectures/charles_reveal_dark.css
 sass css/site.scss build/style.css
 ```
 
-The standalone doc pages get `--css=../style.css` plus a nav bar injected verbatim after `<body>` via `--include-before-body=templates/nav.html` (see `HTML_OPTS`). The nav fragment's title text duplicates `title` in `_config.toml` — keep them in sync by hand. Hand-written workshop `.html` files are copied verbatim by the Makefile `cp` rule and get neither the theme nor the nav.
+The standalone doc pages get `--css=../style.css` plus a nav bar injected verbatim after `<body>` via `--include-before-body=templates/nav.html` (see `HTML_OPTS`). The nav fragment's title text duplicates `title` in `_config.toml` — keep them in sync by hand. Hand-written `.html` files in `workshops/` and `resources/` (e.g. `resources/interview-question-cards.html`, which carries its own styling) are copied verbatim by Makefile `cp` rules and get neither the theme nor the nav.
 
 All PDFs are built with `lualatex`. Beamer slides use Noto Sans with Noto Color Emoji fallback; the print PDFs (assessments, bigfiles) use Linux Libertine O with Noto Sans as the sans font — so all three fonts must be installed. Presentations use the metropolis theme with owl color scheme at 16:9 aspect ratio. They also require `pgf`/`tikz` and `etoolbox` (both are beamer dependencies, so a standard beamer install already has them) for slide background images — see `filters/beamer-background.lua`.
 
@@ -161,7 +161,7 @@ VS Code is configured (`.vscode/settings.json`) to run `make all` on every markd
 
 ## CI / Deployment
 
-GitHub Actions (`.github/workflows/deploy.yml`) runs `make public` in the `pandoc/latex:3.10.0.0-alpine` Docker image. The `build` job runs on pushes to `main` and on pull requests; only `main` proceeds to the `deploy` job, which publishes the `build/` directory to GitHub Pages. The `public` target excludes `resources/` (those are not published).
+GitHub Actions (`.github/workflows/deploy.yml`) runs `make public` in the `pandoc/latex:3.10.0.0-alpine` Docker image. The `build` job runs on pushes to `main` and on pull requests; only `main` proceeds to the `deploy` job, which publishes the `build/` directory to GitHub Pages. The `public` target builds all content sections including `resources/` (it excluded resources until 2026-08-30).
 
 The published site is <https://smcclab.au/thirty-nine-hundred-hci/> — the `smcclab.github.io` address still works but 301-redirects to the org's custom domain.
 

@@ -74,7 +74,7 @@ As a group, look through the pre-class tasks, you tutor will check your understa
 
 ### 1: Analysing sample questions (20 minutes)
 
-You will work in small groups of 3-5 students using the [interview question card deck](https://smcclab.au/thirty-nine-hundred-hci/workshops/interview-question-cards.html) — open it on one group member's laptop or phone. Each card shows one interview question drawn at random from a deck of 100; the codes and analysis stay hidden until you reveal them.
+You will work in small groups of 3-5 students using the [interview question card deck](https://smcclab.au/thirty-nine-hundred-hci/resources/interview-question-cards.html) — open it on one group member's laptop or phone. Each card shows one interview question drawn at random from a deck of 100; the codes and analysis stay hidden until you reveal them.
 
 For each card, **before revealing**, agree as a group on:
 
