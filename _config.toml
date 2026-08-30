@@ -2,3 +2,9 @@ title = "Human Computer Interaction"
 institution = "ANU College of Systems and Society"
 author = "Dr Charles P Martin SFHEA"
 year = "2026"
+course_image = "workshops/img/2025-hololens-wide.jpg"
+description = """
+Computer systems are designed by and for people; we create computer systems to solve problems, work for us, and enhance our lives, societies and our world. Human-computer interaction is the interdisciplinary research field concerned with how people can and do use computers, how computer systems can be better designed for interaction with people, and what role computer systems can play in society, the environment, social movements, and beyond.
+
+This course will cover the central discoveries and ideas from HCI's history, as well as the theory, methods, and techniques needed to make new progress in future. You should expect to investigate new design situations, develop and prototype novel computing ideas, and evaluate and analyse computer systems in use.
+"""
