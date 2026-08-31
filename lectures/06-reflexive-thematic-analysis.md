@@ -249,10 +249,10 @@ By this stage, you could be excused for being a bit confused about qualitative r
 
 This may feel firmly off topic, but we need to surface some friction about _knowledge_ to properly explain the different approaches in qualitative research.
 
-- **Positivism/Post-positivism** an objective reality exists and can be known through systematic, generalisable methods. The "post" bit concedes observation is never perfectly objective — hence the emphasis on controlling bias.
+- **Positivism/Post-positivism** an objective reality exists and can be known through systematic, generalisable methods. The "post" bit concedes observation is never perfectly objective
 - **Interpretivism:** knowledge can be socially constructed and meaning made by people
 - **Critical theory:** examine power structures and hidden inequalities
-- **Constructivism/Constructionism:** knowledge is created and shaped by human experience and social interaction, including with the researcher ("constructionism" when the emphasis is social — Braun & Clarke's preferred term)
+- **Constructivism/Constructionism:** knowledge is created and shaped by human experience and social interaction, including with the researcher
 - **Pragmatism:** apply frameworks that work best to solve the problem (e.g., mixed methods research)
 - **New-Materialism:** _things_ can create meaning too with HCI defined by intra-action [@barad-meeting-universe:2007] of things and people
 
@@ -267,7 +267,7 @@ This may feel firmly off topic, but we need to surface some friction about _know
 ## Activity: What should this mean to you
 
 - Some aspects of HCI, e.g., "user experience" aren't well uncovered by (post-)positivist frameworks.
-- Interpretivist/Constructivist stances more popular in qualitative HCI research.
+- Interpretivist/Constructionist stances more popular in qualitative HCI research.
 - New-Materialism/Agential-realism [@barad-meeting-universe:2007] is emerging in HCI as a relevant mode of inquiry
 - _but_ this has some implications in terms of how findings are described!
 
