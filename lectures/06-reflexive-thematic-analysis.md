@@ -195,7 +195,7 @@ _much more on this shortly..._
 
 adapted from @rogers-beyond-hci:2023 table 9.6 (RTA row added — the textbook leaves it out)
 
-- Braun & Clarke call RTA a **method**, not a methodology: unlike CA or GT it comes with no built-in theoretical commitments — you bring your own epistemology [@braun-reflexive-thematic-analysis:2019] (more on that later today)
+- Braun & Clarke call RTA a **method**, not a methodology: unlike CA or GT there's no single built-in theory — you bring your own epistemology [@braun-reflexive-thematic-analysis:2019] (with some limits — more on that later today)
 
 # Interpreting and Presenting Findings {background-image="img/sear-greyson-K-ZsC7YdJ6Y-unsplash.jpg" background-size="cover" background-opacity="0.5"}
 
@@ -257,6 +257,14 @@ This may feel firmly off topic, but we need to surface some friction about _know
 - **Constructivism:** knowledge is created and shaped by human experience and social interaction, including with the researcher
 - **Pragmatism:** apply frameworks that work best to solve the problem (e.g., mixed methods research)
 - **New-Materialism:** _things_ can create meaning too with HCI defined by intra-action [@barad-meeting-universe:2007] of things and people
+
+## "Bring your own epistemology"? RTA's flexibility has limits
+
+- RTA is _theoretically flexible_: no single built-in theory — but "there's no such thing as atheoretical TA" [@braun-thematic-analysis:2022]: you choose a position and declare it
+- the flexibility is bounded: RTA lives inside the _qualitative paradigm_ — subjectivity is a resource (not "bias"), analysis can't be "objective", themes don't emerge
+- positivist-flavoured TA exists (codebooks, inter-rater reliability) — for Braun & Clarke that's a _different method_, and unacknowledged slippage is "positivism creep"
+- so the real requirement is **coherence**: make your claims, quality practices and epistemology match
+- Braun & Clarke's own lean is relativist–constructionist — _declared, not required_ [@braun-thematic-analysis:2022, p188]: the book models the positionality it asks of you
 
 ## Activity: What should this mean to you
 
