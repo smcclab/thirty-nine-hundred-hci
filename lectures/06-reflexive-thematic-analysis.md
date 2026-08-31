@@ -131,6 +131,8 @@ Grounded Theory (GT) is an _old and important_ qualitative analysis technique [@
 - Simpler approach than GT although shares some aspects
 - Distinguished more by commitment to theoretical awareness and acknowledging subjectivity than to a particular technical practice or kind of data.
 
+> Braun & Clarke call RTA a **method**, not a methodology: unlike CA or GT there's no single built-in theory; you bring your own epistemology [@braun-reflexive-thematic-analysis:2019]
+
 _much more on this shortly..._
 
 ## Systems-Based Frameworks
@@ -192,10 +194,6 @@ _much more on this shortly..._
 | **reflexive thematic analysis** (today's focus) | any qualitative data, esp. interviews | patterns of meaning across a dataset | themes constructed by the researcher | flexible, dataset-wide |
 
 :::
-
-adapted from @rogers-beyond-hci:2023 table 9.6 (RTA row added — the textbook leaves it out)
-
-- Braun & Clarke call RTA a **method**, not a methodology: unlike CA or GT there's no single built-in theory — you bring your own epistemology [@braun-reflexive-thematic-analysis:2019] (with some limits — more on that later today)
 
 # Interpreting and Presenting Findings {background-image="img/sear-greyson-K-ZsC7YdJ6Y-unsplash.jpg" background-size="cover" background-opacity="0.5"}
 
