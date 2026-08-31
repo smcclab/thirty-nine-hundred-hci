@@ -49,6 +49,16 @@ All course content should be include references to textbooks, online resources a
 
 Editing online in Github is fine for simple changes or adding content. The default `public` build only builds the lecture so nothing added to workshops, assessments, or resources will necessarily block the build.
 
+## Licence
+
+Unless otherwise noted, Copyright © Charles Martin, The Australian National University.
+
+- **Content** (lectures, assessments, workshops, resources) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), except where otherwise noted — you may reuse and adapt it with attribution.
+- **Code** (the Makefile, scripts, filters, SCSS, and templates) is licensed under the [MIT Licence](LICENSE).
+- **Third-party images and figures** in the materials remain under their own rights and are not covered by the CC BY licence.
+
+See the [LICENSE](LICENSE) file for the full text.
+
 ## Course information
 
 This information is specific for thirty-nine-hundred.

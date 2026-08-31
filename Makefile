@@ -104,7 +104,8 @@ PDF_OPTS = --metadata date="$(shell date '+%Y-%m-%d')" \
 # all typography comes from style.css. The nav fragment is inserted verbatim
 # straight after <body>.
 NAV_INCLUDE = $(TEMPLATES_DIR)/nav.html
-HTML_OPTS = --css=../style.css --include-before-body=$(NAV_INCLUDE)
+FOOTER_INCLUDE = $(TEMPLATES_DIR)/footer.html
+HTML_OPTS = --css=../style.css --include-before-body=$(NAV_INCLUDE) --include-after-body=$(FOOTER_INCLUDE)
 
 # Shared theme for the index page and the standalone doc pages; built by the
 # rule in the CSS section below. Defined here because prerequisite lists are
@@ -160,7 +161,7 @@ ASSESSMENTS_PDFS  = $(patsubst $(ASSESSMENTS_DIR)/%.md,$(ASSESSMENTS_OUT)/%.pdf,
 .PHONY: assessments
 assessments: $(ASSESSMENTS_OUT) $(SITE_CSS) $(ASSESSMENTS_HTMLS) $(ASSESSMENTS_PDFS)
 
-$(ASSESSMENTS_OUT)/%.html: $(ASSESSMENTS_DIR)/%.md $(REFERENCES) $(NAV_INCLUDE)
+$(ASSESSMENTS_OUT)/%.html: $(ASSESSMENTS_DIR)/%.md $(REFERENCES) $(NAV_INCLUDE) $(FOOTER_INCLUDE)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
 
 $(ASSESSMENTS_OUT)/%.pdf: $(ASSESSMENTS_DIR)/%.md $(REFERENCES)
@@ -181,7 +182,7 @@ WORKSHOPS_STATIC_OUT  = $(patsubst $(WORKSHOPS_DIR)/%.html,$(WORKSHOPS_OUT)/%.ht
 .PHONY: workshops
 workshops: $(WORKSHOPS_OUT) $(SITE_CSS) $(WORKSHOPS_HTMLS) $(WORKSHOPS_STATIC_OUT)
 
-$(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.md $(REFERENCES) $(NAV_INCLUDE)
+$(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.md $(REFERENCES) $(NAV_INCLUDE) $(FOOTER_INCLUDE)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
 
 $(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.html
@@ -202,7 +203,7 @@ RESOURCES_STATIC_OUT = $(patsubst $(RESOURCES_DIR)/%.html,$(RESOURCES_OUT)/%.htm
 .PHONY: resources
 resources: $(RESOURCES_OUT) $(SITE_CSS) $(RESOURCES_HTMLS) $(RESOURCES_STATIC_OUT)
 
-$(RESOURCES_OUT)/%.html: $(RESOURCES_DIR)/%.md $(REFERENCES) $(NAV_INCLUDE)
+$(RESOURCES_OUT)/%.html: $(RESOURCES_DIR)/%.md $(REFERENCES) $(NAV_INCLUDE) $(FOOTER_INCLUDE)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
 
 $(RESOURCES_OUT)/%.html: $(RESOURCES_DIR)/%.html

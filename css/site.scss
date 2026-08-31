@@ -129,6 +129,21 @@ th, td {
 	}
 }
 
+// Injected by templates/footer.html on the standalone pages (pandoc
+// --include-after-body); generate_index.py emits the same markup on the index.
+.site-footer {
+	margin-top: 3rem;
+	border-top: 1px solid var(--rule);
+	padding-top: 0.8em;
+	color: var(--muted);
+	font-size: 0.85em;
+
+	a {
+		color: var(--muted);
+		text-decoration: underline;
+	}
+}
+
 // Index page (emitted by generate_index.py)
 .hero {
 	img {

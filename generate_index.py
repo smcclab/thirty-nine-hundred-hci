@@ -65,6 +65,24 @@ def description_html(info: dict) -> str:
     return out
 
 
+def footer_html(info: dict) -> str:
+    """Copyright/licence footer. The standalone doc pages get the equivalent
+    fragment from templates/footer.html (via pandoc --include-after-body);
+    here it is built from `year` and `author` in _config.toml, so keep the
+    template's hard-coded year in sync with the toml by hand."""
+    year = escape(info.get("year", ""))
+    author = escape(info.get("author", ""))
+    out = '    <footer class="site-footer">\n'
+    out += (f'        <p>© {year} {author}, '
+            'The Australian National University.\n'
+            '        Except where otherwise noted, this work is licensed under a\n'
+            '        <a href="https://creativecommons.org/licenses/by/4.0/" '
+            'rel="license">Creative Commons Attribution 4.0 International '
+            'Licence</a>.</p>\n')
+    out += '    </footer>\n'
+    return out
+
+
 def generate_index(info: dict, base_path: Path) -> str:
     """Generate HTML index page with links to built files"""
     title = escape(info["title"])
@@ -102,6 +120,7 @@ def generate_index(info: dict, base_path: Path) -> str:
             html += html_file_li_string(html_path, base_path)
         html += f'    </ol>\n'
     html += '    </section>\n'
+    html += footer_html(info)
 
     html += """
 </body>

@@ -1,0 +1,40 @@
+Licences for this repository
+============================
+
+Course content — the lecture, assessment, workshop, and resource documents
+and the images authored for them — is © Charles Martin, The Australian
+National University, and licensed under the Creative Commons Attribution 4.0
+International Licence (CC BY 4.0), except where otherwise noted:
+<https://creativecommons.org/licenses/by/4.0/>
+
+(Under the ANU Intellectual Property Policy, staff creators own the IP in
+education materials, with a non-exclusive licence granted to the University.)
+
+Third-party images and figures that appear in the materials remain under
+their own rights and are not covered by the CC BY licence.
+
+The build system and code — the Makefile, Python scripts, Lua filters,
+SCSS, shell scripts, and HTML templates — are licensed under the MIT
+Licence:
+
+MIT License
+
+Copyright (c) 2026 Charles Martin, The Australian National University
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
