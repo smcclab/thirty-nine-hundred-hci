@@ -249,10 +249,10 @@ By this stage, you could be excused for being a bit confused about qualitative r
 
 This may feel firmly off topic, but we need to surface some friction about _knowledge_ to properly explain the different approaches in qualitative research.
 
-- **Positivism/Post-positivism** knowledge is true by definition or provable via generalisable methods. The "post" bit accepts qualitative research but emphasise sample size and eliminating bias.
+- **Positivism/Post-positivism** an objective reality exists and can be known through systematic, generalisable methods. The "post" bit concedes observation is never perfectly objective — hence the emphasis on controlling bias.
 - **Interpretivism:** knowledge can be socially constructed and meaning made by people
 - **Critical theory:** examine power structures and hidden inequalities
-- **Constructivism:** knowledge is created and shaped by human experience and social interaction, including with the researcher
+- **Constructivism/Constructionism:** knowledge is created and shaped by human experience and social interaction, including with the researcher ("constructionism" when the emphasis is social — Braun & Clarke's preferred term)
 - **Pragmatism:** apply frameworks that work best to solve the problem (e.g., mixed methods research)
 - **New-Materialism:** _things_ can create meaning too with HCI defined by intra-action [@barad-meeting-universe:2007] of things and people
 
