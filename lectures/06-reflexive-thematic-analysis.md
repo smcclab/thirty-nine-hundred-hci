@@ -32,6 +32,7 @@ assignment 2 published [on Canvas](https://canvas.anu.edu.au/courses/11488/assig
 - conversation analysis: fine granularity, examines detailed interactions in short conversation fragments
 - systems-based frameworks: coarse granularity, broad group or organisation level analysis
 - useful depending on the research goals
+- **reflexive thematic analysis (RTA) is on this menu too** — it's where most of today's lecture goes, so let's survey the alternatives first
 
 ## Conversation Analysis (CA)
 
@@ -123,6 +124,15 @@ Grounded Theory (GT) is an _old and important_ qualitative analysis technique [@
 :::
 ::::::::::::::
 
+## Reflexive Thematic Analysis
+
+- A newer qualitative approach for coding and theming: first @braun-thematic-analysis:2006, now @braun-thematic-analysis:2022
+- Has become the default in HCI and many fields accessing qualitative methods
+- Simpler approach than GT although shares some aspects
+- Distinguished more by commitment to theoretical awareness and acknowledging subjectivity than to a particular technical practice or kind of data.
+
+_much more on this shortly..._
+
 ## Systems-Based Frameworks
 
 :::::::::::::: {.columns}
@@ -179,10 +189,13 @@ Grounded Theory (GT) is an _old and important_ qualitative analysis technique [@
 | interaction analysis | video of activities | interactions between people and artefacts | how knowledge and action are used in an activity | artifact, dialogue, gesture |
 | grounded theory | empirical data of any kind | building theory from a phenomenon | theory grounded in data | varying levels |
 | systems-based frameworks | large-scale and heterogeneous data | large scale systems of people and technology | organisational insights | macro, organisational level |
+| **reflexive thematic analysis** (today's focus) | any qualitative data, esp. interviews | patterns of meaning across a dataset | themes constructed by the researcher | flexible, dataset-wide |
 
 :::
 
-adapted from @rogers-beyond-hci:2023 table 9.6
+adapted from @rogers-beyond-hci:2023 table 9.6 (RTA row added — the textbook leaves it out)
+
+- Braun & Clarke call RTA a **method**, not a methodology: unlike CA or GT it comes with no built-in theoretical commitments — you bring your own epistemology [@braun-reflexive-thematic-analysis:2019] (more on that later today)
 
 # Interpreting and Presenting Findings {background-image="img/sear-greyson-K-ZsC7YdJ6Y-unsplash.jpg" background-size="cover" background-opacity="0.5"}
 
