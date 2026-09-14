@@ -1,6 +1,7 @@
 ---
 title: Interfaces
 author: Dr Charles Martin
+description: "Interface types in HCI, from command line and GUI to touch, wearable, VR/AR and multimodal interfaces, plus research skills for finding and citing sources."
 title-slide-attributes:
     data-background-image: img/yichen-cube.jpg
     data-background-size: cover

@@ -1,6 +1,7 @@
 ---
 title: Cognitive, Social, and Emotional Interaction
 author: Dr Charles Martin
+description: "Cognitive, social and emotional aspects of interaction: cognitive frameworks such as mental models and distributed cognition, social interaction, and affective design."
 ---
 
 ## Announcements

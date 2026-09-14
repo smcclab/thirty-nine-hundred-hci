@@ -1,6 +1,7 @@
 ---
 title: Intro to Human Computer Interaction
 author: Dr Charles Martin
+description: "Introduction to Human-Computer Interaction: what HCI is, the COMP3900/COMP6390 course structure, usability, user experience, and how to improve both."
 title-slide-attributes:
     data-background-image: img/blog-hintz-eric-2018-12-10-chord-keyset-mouse.jpg
     data-background-size: cover

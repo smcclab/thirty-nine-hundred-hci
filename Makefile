@@ -26,6 +26,8 @@ REFERENCES = references.bib
 CONFIG     = _config.toml
 CONFIG_AUTHOR := $(shell python3 -c "import tomllib; f=open('$(CONFIG)','rb'); d=tomllib.load(f); print(d['author'])")
 CONFIG_YEAR   := $(shell python3 -c "import tomllib; f=open('$(CONFIG)','rb'); d=tomllib.load(f); print(d['year'])")
+CONFIG_TITLE  := $(shell python3 -c "import tomllib; f=open('$(CONFIG)','rb'); d=tomllib.load(f); print(d['title'])")
+SITE_URL      := $(shell python3 -c "import tomllib; f=open('$(CONFIG)','rb'); d=tomllib.load(f); print(d['site_url'])")
 
 INDEX_HTML      = $(OUTPUT_DIR)/index.html
 INDEX_GENERATOR = generate_index.py
@@ -49,6 +51,17 @@ PANDOC_BASE_OPTS = --slide-level 2 \
 
 PANDOC_COMMON_OPTS = --standalone $(PANDOC_BASE_OPTS)
 
+# Shared by every HTML output (doc pages and reveal decks). filters/seo-meta.lua
+# adds lang, a meta description (from `description` or the first paragraph),
+# canonical/Open Graph tags and a rel=alternate link to the .md sibling; the
+# title prefix makes every <title> "<course title> – <page title>" (generate_index.py
+# strips it again when it lists the pages).
+SEO_FILTER = $(FILTERS_DIR)/seo-meta.lua
+SEO_OPTS = --lua-filter=$(SEO_FILTER) \
+           --title-prefix="$(CONFIG_TITLE)" \
+           -M site_url="$(SITE_URL)" \
+           -M site_name="$(CONFIG_TITLE)"
+
 # `# References {.allowframebreaks}` splits itself over as many frames as it
 # needs in Beamer. Reveal.js has no equivalent, so a filter chunks the
 # bibliography into slides; without it the entries overflow off the slide.
@@ -67,7 +80,8 @@ REVEAL_OPTS = -t revealjs \
               -V hash=true \
               -V history=false \
               -V slideNumber=true \
-              --css charles_reveal_dark.css
+              --css charles_reveal_dark.css \
+              $(SEO_OPTS)
 
 # Beamer has no native equivalent of reveal.js's background-image attributes, so
 # a Lua filter translates them into TikZ background overlays. Without it the
@@ -105,7 +119,13 @@ PDF_OPTS = --metadata date="$(shell date '+%Y-%m-%d')" \
 # straight after <body>.
 NAV_INCLUDE = $(TEMPLATES_DIR)/nav.html
 FOOTER_INCLUDE = $(TEMPLATES_DIR)/footer.html
-HTML_OPTS = --css=../style.css --include-before-body=$(NAV_INCLUDE) --include-after-body=$(FOOTER_INCLUDE)
+HTML_OPTS = --css=../style.css --include-before-body=$(NAV_INCLUDE) --include-after-body=$(FOOTER_INCLUDE) $(SEO_OPTS)
+
+# Rendered markdown siblings of every HTML page (build/<section>/<name>.md):
+# GitHub-flavoured markdown with citations resolved, for LLM agents and anyone
+# who wants the text without the HTML. Listed in llms.txt and linked from each
+# page's <link rel="alternate">. --wrap=none keeps paragraphs on one line.
+MD_OPTS = -t gfm --wrap=none $(PANDOC_BASE_OPTS)
 
 # Shared theme for the index page and the standalone doc pages; built by the
 # rule in the CSS section below. Defined here because prerequisite lists are
@@ -118,13 +138,13 @@ PALETTE_SCSS = css/_palette.scss
 # =============================================================================
 
 .PHONY: all
-all: reveal beamer assessments resources workshops images index
+all: reveal beamer assessments resources workshops images markdown index
 
 .PHONY: public
-public: reveal beamer assessments resources workshops images index
+public: reveal beamer assessments resources workshops images markdown index
 
 .PHONY: html
-html: reveal assessments resources workshops images index
+html: reveal assessments resources workshops images markdown index
 
 .PHONY: clean
 clean:
@@ -141,7 +161,7 @@ BEAMER_PDFS  = $(patsubst $(LECTURES_DIR)/%.md,$(LECTURES_OUT)/%.pdf,$(LECTURE_M
 .PHONY: reveal
 reveal: $(LECTURES_OUT) $(REVEAL_HTMLS) images $(LECTURES_OUT)/charles_reveal_dark.css
 
-$(LECTURES_OUT)/%.html: $(LECTURES_DIR)/%.md $(REVEAL_FILTER) $(REFERENCES)
+$(LECTURES_OUT)/%.html: $(LECTURES_DIR)/%.md $(REVEAL_FILTER) $(SEO_FILTER) $(REFERENCES)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(REVEAL_OPTS) $< -o $@
 
 .PHONY: beamer
@@ -161,7 +181,7 @@ ASSESSMENTS_PDFS  = $(patsubst $(ASSESSMENTS_DIR)/%.md,$(ASSESSMENTS_OUT)/%.pdf,
 .PHONY: assessments
 assessments: $(ASSESSMENTS_OUT) $(SITE_CSS) $(ASSESSMENTS_HTMLS) $(ASSESSMENTS_PDFS)
 
-$(ASSESSMENTS_OUT)/%.html: $(ASSESSMENTS_DIR)/%.md $(REFERENCES) $(NAV_INCLUDE) $(FOOTER_INCLUDE)
+$(ASSESSMENTS_OUT)/%.html: $(ASSESSMENTS_DIR)/%.md $(REFERENCES) $(NAV_INCLUDE) $(FOOTER_INCLUDE) $(SEO_FILTER)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
 
 $(ASSESSMENTS_OUT)/%.pdf: $(ASSESSMENTS_DIR)/%.md $(REFERENCES)
@@ -182,7 +202,7 @@ WORKSHOPS_STATIC_OUT  = $(patsubst $(WORKSHOPS_DIR)/%.html,$(WORKSHOPS_OUT)/%.ht
 .PHONY: workshops
 workshops: $(WORKSHOPS_OUT) $(SITE_CSS) $(WORKSHOPS_HTMLS) $(WORKSHOPS_STATIC_OUT)
 
-$(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.md $(REFERENCES) $(NAV_INCLUDE) $(FOOTER_INCLUDE)
+$(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.md $(REFERENCES) $(NAV_INCLUDE) $(FOOTER_INCLUDE) $(SEO_FILTER)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
 
 $(WORKSHOPS_OUT)/%.html: $(WORKSHOPS_DIR)/%.html
@@ -203,11 +223,36 @@ RESOURCES_STATIC_OUT = $(patsubst $(RESOURCES_DIR)/%.html,$(RESOURCES_OUT)/%.htm
 .PHONY: resources
 resources: $(RESOURCES_OUT) $(SITE_CSS) $(RESOURCES_HTMLS) $(RESOURCES_STATIC_OUT)
 
-$(RESOURCES_OUT)/%.html: $(RESOURCES_DIR)/%.md $(REFERENCES) $(NAV_INCLUDE) $(FOOTER_INCLUDE)
+$(RESOURCES_OUT)/%.html: $(RESOURCES_DIR)/%.md $(REFERENCES) $(NAV_INCLUDE) $(FOOTER_INCLUDE) $(SEO_FILTER)
 	$(PANDOC) $(PANDOC_COMMON_OPTS) $(HTML_OPTS) $< -o $@
 
 $(RESOURCES_OUT)/%.html: $(RESOURCES_DIR)/%.html
 	cp $< $@
+
+# =============================================================================
+# Markdown — rendered .md sibling for every pandoc-built HTML page
+# =============================================================================
+
+LECTURES_MDS_OUT    = $(patsubst $(LECTURES_DIR)/%.md,$(LECTURES_OUT)/%.md,$(LECTURE_MDS))
+ASSESSMENTS_MDS_OUT = $(patsubst $(ASSESSMENTS_DIR)/%.md,$(ASSESSMENTS_OUT)/%.md,$(ASSESSMENTS_MDS))
+WORKSHOPS_MDS_OUT   = $(patsubst $(WORKSHOPS_DIR)/%.md,$(WORKSHOPS_OUT)/%.md,$(WORKSHOPS_MDS))
+RESOURCES_MDS_OUT   = $(patsubst $(RESOURCES_DIR)/%.md,$(RESOURCES_OUT)/%.md,$(RESOURCES_MDS))
+ALL_MDS_OUT         = $(LECTURES_MDS_OUT) $(ASSESSMENTS_MDS_OUT) $(WORKSHOPS_MDS_OUT) $(RESOURCES_MDS_OUT)
+
+.PHONY: markdown
+markdown: directories $(ALL_MDS_OUT)
+
+$(LECTURES_OUT)/%.md: $(LECTURES_DIR)/%.md $(REFERENCES)
+	$(PANDOC) $(MD_OPTS) $< -o $@
+
+$(ASSESSMENTS_OUT)/%.md: $(ASSESSMENTS_DIR)/%.md $(REFERENCES)
+	$(PANDOC) $(MD_OPTS) $< -o $@
+
+$(WORKSHOPS_OUT)/%.md: $(WORKSHOPS_DIR)/%.md $(REFERENCES)
+	$(PANDOC) $(MD_OPTS) $< -o $@
+
+$(RESOURCES_OUT)/%.md: $(RESOURCES_DIR)/%.md $(REFERENCES)
+	$(PANDOC) $(MD_OPTS) $< -o $@
 
 # =============================================================================
 # Images — copy from source to build
@@ -266,13 +311,17 @@ $(LECTURES_OUT) $(WORKSHOPS_OUT) $(ASSESSMENTS_OUT) $(RESOURCES_OUT):
 	mkdir -p $@
 
 # =============================================================================
-# Index
+# Index (+ sitemap.xml, robots.txt, llms.txt, llms-full.txt)
 # =============================================================================
+# generate_index.py writes the index page and, beside it, the crawler/agent
+# files: sitemap.xml, robots.txt, llms.txt (a link index of the .md siblings)
+# and llms-full.txt (those .md files concatenated). It needs the built HTML
+# and .md files to exist, hence the dependency on their lists.
 
 .PHONY: index
 index: $(SITE_CSS) $(INDEX_HTML)
 
-$(INDEX_HTML): $(LECTURE_MDS) $(ASSESSMENTS_MDS) $(WORKSHOPS_MDS) $(RESOURCES_MDS) $(INDEX_GENERATOR) $(CONFIG)
+$(INDEX_HTML): $(LECTURE_MDS) $(ASSESSMENTS_MDS) $(WORKSHOPS_MDS) $(RESOURCES_MDS) $(ALL_MDS_OUT) $(INDEX_GENERATOR) $(CONFIG)
 	python3 $(INDEX_GENERATOR) $@ $(OUTPUT_DIR)
 
 # =============================================================================

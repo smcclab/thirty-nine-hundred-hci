@@ -1,6 +1,7 @@
 ---
 title: Reflexivity and Thematic Analysis
 author: Dr Charles Martin
+description: "Reflexive thematic analysis: analytical frameworks, epistemology in HCI research, Braun and Clarke's approach to thematic analysis, reflexivity, and presenting findings."
 title-slide-attributes:
     data-background-image: img/reflection.jpg
     data-background-size: cover

@@ -1,6 +1,7 @@
 ---
 title: Data Gathering
 author: Dr Charles Martin
+description: "Data gathering for user research: key issues, and how to plan and run interviews, questionnaires and observations in practice."
 title-slide-attributes:
     data-background-image: img/aisee-holo-view.jpg
     data-background-size: cover

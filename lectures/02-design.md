@@ -1,6 +1,7 @@
 ---
 title: Design
 author: Dr Charles Martin
+description: "The interaction design process: design rationales, discovering requirements, and ideation techniques for moving from a problem to a usable design."
 title-slide-attributes:
     data-background-image: img/nime2024-ideating.jpg
     data-background-size: cover

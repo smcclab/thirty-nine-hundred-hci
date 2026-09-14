@@ -1,6 +1,7 @@
 ---
 title: Statistical Analysis
 author: Dr Charles Martin
+description: "Statistical analysis for HCI: hypothesis testing, t-tests, ANOVA and factorial designs in Python, with worked case studies from interaction research."
 title-slide-attributes:
     data-background-image: img/statistical-analysis_1_background.jpg
     data-background-size: cover

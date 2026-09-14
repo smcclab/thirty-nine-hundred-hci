@@ -1,6 +1,7 @@
 ---
 title: Expressive Interfaces
 author: Dr Charles Martin
+description: "Expressive interfaces: conceptualising expressive interaction through drawing, music, dance, installed and playful interactions, and human-AI creative interaction."
 title-slide-attributes:
     data-background-image: img/2024-intelligent-microfreak.jpg
     data-background-size: cover

@@ -1,6 +1,7 @@
 ---
 title: Data Analysis
 author: Dr Charles Martin
+description: "Analysing user research data: interpretation and presentation, basic quantitative analysis with pandas and seaborn, and basic qualitative analysis."
 title-slide-attributes:
     data-background-image: img/claudio-schwarz-fyeOxvYvIyY-unsplash.jpg
     data-background-size: cover

@@ -1,6 +1,7 @@
 ---
 title: Human-Centred AI
 author: Dr Charles Martin
+description: "Human-centred AI: definitions, HCAI frameworks, design metaphors, governance structures for reliable, safe and trustworthy AI, and the course wrap-up and revision."
 title-slide-attributes:
     data-background-image: img/turing-machine-1950.jpg
     data-background-size: cover

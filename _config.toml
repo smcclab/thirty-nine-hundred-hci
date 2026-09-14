@@ -2,6 +2,11 @@ title = "Human Computer Interaction"
 institution = "ANU College of Systems and Society"
 author = "Dr Charles P Martin SFHEA"
 year = "2026"
+# Public URL of the deployed site, with trailing slash. Used for canonical
+# links, Open Graph tags, sitemap.xml and llms.txt.
+site_url = "https://smcclab.au/thirty-nine-hundred-hci/"
+# ANU course codes, emitted as schema.org courseCode on the index page.
+course_codes = ["COMP3900", "COMP6390"]
 # Hero image on the index page. Path is relative to build/ and must sit under
 # a directory that `make public` still copies (resources/img/ is — the images
 # target copies it even though the resource pages themselves aren't published).

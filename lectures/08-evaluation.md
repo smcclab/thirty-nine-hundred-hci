@@ -1,6 +1,7 @@
 ---
 title: Evaluation
 author: Dr Charles Martin
+description: "Evaluation in HCI: framing research questions, types of evaluation, planning evaluation studies, and inspection methods such as heuristic evaluation."
 title-slide-attributes:
     data-background-image: img/aisee-holo-view.jpg
     data-background-size: cover

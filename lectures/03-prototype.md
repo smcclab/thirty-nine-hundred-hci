@@ -1,6 +1,7 @@
 ---
 title: Sketch and Prototype
 author: Dr Charles Martin
+description: "Sketching and prototyping in HCI: why designers sketch, kinds of prototypes and their fidelity, analysing prototypes, and a starter kit for building your own."
 title-slide-attributes:
     data-background-image: img/sketch-2010.jpg
     data-background-size: cover
