@@ -26,6 +26,7 @@ title-slide-attributes:
 - Research skills (how to use Google Scholar and cite references)
 - Overview of the diversity of interfaces in use and in research!
 - Outline key design and research considerations
+- A case study: Apple's Newton vs the Palm Pilot (who does the learning?)
 - Think about _natural_ user interfaces
 - Think about which interface is _best_ for a given application or activity
 
@@ -575,6 +576,57 @@ _Pens are great!_ We should do more with them.
 :::
 ::::::::::::::
 
+## Case Study: Newton vs Palm
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Two pen-input handhelds, three years apart, with opposite answers.
+
+- **Newton MessagePad (1993):** recognises your ordinary handwriting. The machine does the learning.
+- **Palm Pilot (1996):** Graffiti, a one-stroke alphabet from Xerox PARC's Unistrokes [@goldberg-unistrokes:1993]. The user does the learning.
+
+::: {.talk-box}
+**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ It's 1993. Which one ships? What would you *measure* first? 2 minutes.
+:::
+:::
+::: {.column width="40%"}
+![](img/newton-messagepad-100.jpg){width="46%"} ![](img/palmpilot-professional.jpg){width="40%"}
+
+Newton MessagePad 100 and PalmPilot Professional. Photos: F. Winkelnkemper (CC BY-SA 4.0), Letdorf (CC BY-SA 3.0), Wikimedia Commons.
+:::
+::::::::::::::
+
+## Newton vs Palm: What Happened
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Apple's sounds like the better idea, and it's probably what most of you just voted for.
+
+- Newton misread adult handwriting often enough to become a joke: a week of Doonesbury ("Catching on?" became "Egg freckles") [@trudeau-doonesbury-newton:1993] and the Simpsons' "Eat up Martha".
+- Later models fixed the recognition, but the reputation didn't recover and Apple killed the line in 1998.
+- Graffiti: 86% after a minute with the chart, 97% after five minutes, still 97% a week later [@mackenzie-graffiti-usability:1997].
+
+::: {.warn-box}
+**Careful:** asking nothing of the user doesn't automatically win! Five minutes of learning beat it here.
+:::
+:::
+::: {.column width="40%"}
+![Graffiti: one stroke per letter. Image: IMeowbot, Wikimedia Commons, CC BY-SA 3.0.](img/palm-graffiti-alphabet.png){width="68%"}
+:::
+::::::::::::::
+
+## Newton vs Palm: The Concept and the Test
+
+::: {.info-box}
+**Concept:** "natural" depends on what the user already knows, so it isn't a property of the interface. A bit of learning is fine if it's quick and the result is reliable. (Norman makes the same point in today's coda.)
+:::
+
+::: {.success-box}
+**The test that would have caught it:** recognition accuracy on unconstrained adult handwriting, measured *before* the ship decision, against a threshold agreed in advance. That's a usability test with one dependent variable (week 8, a bit early).
+:::
+
+Every case study from here to week 12 finishes with the evaluation that would have caught it. By week 12 you'll have a menu for your final project's evaluation plan.
+
 ## Touchscreens
 
 :::::::::::::: {.columns}
@@ -933,7 +985,7 @@ How would you choose what interface to use?
 ::: {.column width="60%"}
 A natural user interface (NUI) is designed to allow people to interact with a computer in the same way that they interact with the physical world—using their voice, hands, and bodies.
 
-- but how natural are NUIs?
+- but how natural are NUIs? (the Newton was the "natural" one)
 
 Don Norman [@Norman:2013] argues "natural" depends on a number of factors:
 
@@ -941,7 +993,7 @@ Don Norman [@Norman:2013] argues "natural" depends on a number of factors:
  - the complexity of the app or device's interface, 
  - and whether accuracy and speed are needed. 
 
-A gesture may worth a thousand words; other times a word is worth a thousand gestures. It depends on how many functions the system supports.
+A gesture may be worth a thousand words; other times a word is worth a thousand gestures. Depends how many functions the system supports.
 :::
 ::: {.column width="40%"}
 ![PhD student Sandy Ma drawing-based musical performance in AR environment. 2024.](img/interfaces_2_ar-drawing.jpg){width="100%"}

@@ -22,7 +22,7 @@ title-slide-attributes:
 - about evaluation
 - types of evaluation
 - planning evaluations
-- evaluation by inspection
+- evaluation by inspection, with a case study: the Hawaii false missile alert
 
 # Research Questions {background-image="img/kaleidico-3V8xo5Gbusk-unsplash.jpg" background-size="cover" background-opacity="0.35"}
 
@@ -582,10 +582,6 @@ Is there any way to do evaluation _without_ users?
 - **Analytics:** Understanding user demographics and tracing activities (e.g., number of clicks, duration of sessions etc.)
 - **A/B Testing:** Large number of users assigned Design A or B and compare use to test “variable of interest” (e.g., number of clicks on advertising during test period)
 
-## Heuristic Evaluations of User Interfaces (video)
-
-![Using established principles (heuristics) to evaluate ([video](https://www.youtube.com/watch?v=6Bw0n6Jvwxk))](img/09_evaluation_foundations_10.png)
-
 ## Nielsen's 10 Usability Heuristics
 
 :::::::::::::: {.columns}
@@ -605,9 +601,39 @@ Is there any way to do evaluation _without_ users?
 :::
 ::::::::::::::
 
-<!-- evaluation of VR interface: https://www.nngroup.com/articles/usability-heuristics-virtual-reality/ -->
-<!-- ![[Jakob's 10 Usability Heuristics](https://media.nngroup.com/media/articles/attachments/Heuristic_Summary1-compressed.pdf)](img/09_evaluation_foundations_11.png) -->
-<!-- ![[Usability Heuristics 5-10](https://media.nngroup.com/media/articles/attachments/Heuristic_Summary1-compressed.pdf)](img/09_evaluation_foundations_12.png) -->
+## Activity: Inspect This Interface
+
+:::::::::::::: {.columns}
+::: {.column width="42%"}
+An internal web app a state emergency agency uses to send public alerts. The officer picks a template, then confirms.
+
+::: {.push-box}
+**Do:** You're the expert evaluator. Log every violation of Nielsen's 10 you can see, numbered by heuristic. 3 minutes, then we compare lists.
+:::
+
+Decide what's wrong *before* you find out what happened.
+:::
+::: {.column width="58%"}
+![Reconstruction of the alert origination screen, from the FCC report's description [@fcc-hawaii-false-alert:2018].](img/hawaii-alert-menu.png)
+:::
+::::::::::::::
+
+## Case Study: Hawaii, 13 January 2018
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+- 8:07am, mid-drill: the officer took the drill call for a real one and sent the live template. Same prompt for drill and alert, no preview.
+- 1.4 million residents: "BALLISTIC MISSILE THREAT INBOUND TO HAWAII. SEEK IMMEDIATE SHELTER. THIS IS NOT A DRILL."
+- No correction template existed. Correction took **38 minutes** [@fcc-hawaii-false-alert:2018].
+
+::: {.success-box}
+**The test that would have caught it:** the one you just ran. Heuristics 5 and 9 fail on the face of the screen. One evaluator, one hour: the cheapest method we have.
+:::
+:::
+::: {.column width="45%"}
+![The fix, from Appendix B of the FCC report: drill relabelled, a "False Alarm" template added.](img/hawaii-menu-after-fcc.png)
+:::
+::::::::::::::
 
 ## Web Design Heuristics
 
@@ -659,12 +685,9 @@ Is there any way to do evaluation _without_ users?
 - Proper setup is critical — running an A/A test first ensures the testing infrastructure is sound, and careful design is needed to avoid misleading results, as shown in real-world examples like Microsoft Office 2007.
 :::
 ::: {.column width="40%"}
-![Original ad title for buying flowers (top) and suggested new title design (below).
-Source: Kohavi et al. (2022), Cambridge University Press](img/08_abtest.jpg){width="60%"}
+![Original ad title (top) and new title (bottom). Source: @kohavi-trustworthy-experiments:2020. Full story in week 10.](img/08_abtest.jpg){width="60%"}
 :::
 ::::::::::::::
-
-<!-- Charles: this  Kohavi et al. (2022) reference is cursed; i'll leave you to fix it. -->
 
 ## Predictive Models
 

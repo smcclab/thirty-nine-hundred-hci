@@ -209,6 +209,42 @@ The [New Interface for Musical Expression (NIME)](https://nime.org) research com
 - Augmented instruments: magnetic resonator piano (grand piano -> string instruments), pictured.
 - Novel instrument: [lady's glove](https://sonami.net/portfolio/items/ladys-glove/), magnetic AI instrument *thales* [@privato2023thales], percussive instrument [PhaseRings](https://charlesmartin.au/projects/phaserings/) [@martin2018phaserings], AR instrument *cube* [@wang-cubing-sound:2022].
 
+## Case Study: The Reactable (2003 to now)
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+Jordà's group at Pompeu Fabra made a synthesiser into a tangible tabletop: pucks, a camera underneath, projected lines showing what feeds what [@jorda2010reactable].
+
+- **Built on prior work:** tangible tabletops already existed [@ishii1997tangible], and Jordà had spent a decade on collaborative visual instruments. FMOL (1997) already made the *visualisation the instrument* [@jorda2003sonigraphical].
+- **Had a theory:** a performable instrument should be learnable by novices, deep for experts, and shared between players. The Reactable was that theory made physical.
+- **Kept going:** one instrument iterated for years and toured, with the tracking software released as open source.
+- **Then got lucky:** demos "watched millions of times on YouTube" as YouTube took off, then Björk's 2007 world tour.
+
+The visualisation working wasn't luck; it was the design goal. The scale of the hit was. (Your lecturer's retrospective: [@jorda2017sonigraphical].)
+:::
+::: {.column width="45%"}
+![The Reactable [@jorda2010reactable]. [Source: YCAM.](https://www.ycam.jp/en/archive/works/reactable/)](img/reactable.jpg){width="90%"}
+:::
+::::::::::::::
+
+## Case Study: Ocarina (2008)
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+Ge Wang had an iPhone: mic, multitouch, accelerometer. The *efficient* design is tap-a-note: instant, easy to learn, hard to get wrong.
+
+- **What he did:** blow into the mic to sound a note, cover four holes for pitch, tilt for vibrato. Harder, slower, and you will play wrong notes [@wang2014ocarina].
+- **What happened:** ten million users (with its sequel) and the App Store Hall of Fame; the rationale came out in *Computer Music Journal* six years later.
+
+::: {.warn-box}
+**Careful:** everything that made Ocarina work would count as a defect in week 8! The effort and the errors were the *point*, and that's this week's topic.
+:::
+:::
+::: {.column width="45%"}
+![Breath, four holes, tilt [@wang2014ocarina].](img/o2-hands-480.png){width="75%"}
+:::
+::::::::::::::
+
 ## PhaseRings: natural gestures on big touchscreens
 
 :::::::::::::: {.columns}
@@ -278,6 +314,43 @@ Autobiographical design [@desjardins2021firstpersontochi] to compare three inter
 ![The traditional DMI model separates a musician's input action captured by the controller, the mapping engine bridg-
 ing the input interface and sound engine [@magnusson2010designconstrain].](img/mapping-model.jpg){width="80%"}
 
+:::
+::::::::::::::
+
+## Does Anyone Still Play It?
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+The Reactable and Ocarina are the success stories. What happened to everything else?
+
+Morreale and McPherson wrote to the authors of every NIME 2010 to 2014 paper introducing an instrument; 70 of 97 replied [@morreale-design-for-longevity:2017]. Of 51 built for prolonged performance:
+
+- **47.1% not ready to perform on**
+- of those, two thirds needed more than a few hours' work, and **15.7% no longer existed at all**
+
+Top reasons: "I don't have the opportunity at the moment" (22), "I turned my attention to building other DMIs" (14).
+:::
+::: {.column width="50%"}
+![Years after the paper [@morreale-design-for-longevity:2017].](img/nime-longevity.png)
+:::
+::::::::::::::
+
+## Easy Instruments Make the Choices for You
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+McPherson, Morreale and Harrison compared instruments from NIME, HCI, and Kickstarter [@mcpherson-instruments-for-novices:2019].
+
+- **Campaigns say:** 16 of 30 pitch ease of use. Play "any sound you can imagine".
+- **Designs do:** 22 of 30 are MIDI controllers, made "easier" by limiting pitch space or quantising time, which decides in advance what you can play.
+- **Concept:** "easy" means someone else chose your constraints [@magnusson2010designconstrain].
+
+::: {.success-box}
+**The test:** longevity. Not "liked it for an hour" but "still playing it two years later". Where does your project sit on that survey in 2028?
+:::
+:::
+::: {.column width="40%"}
+![My bench. Which of these still work in 2028? (Charles, 2024)](img/2024-intelligent-microfreak.jpg)
 :::
 ::::::::::::::
 
