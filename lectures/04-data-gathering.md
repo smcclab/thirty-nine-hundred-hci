@@ -495,9 +495,9 @@ The Likert analysis question is a live argument, not settled: Kaptein, Nass & Ma
 
 - What questions should we ask on a questionnaire about ANU student's enrolment experience? If closed list options, if open write "(open question)"
 
-Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.com​/charlesmarti205), then let's have some discussion.
+Talk for 2-3 minutes and add some examples on [PollEverywhere](https://PollEv.com/charlesmarti205), then let's have some discussion.
 
-<https://PollEv.com​/charlesmarti205>
+<https://PollEv.com/charlesmarti205>
 :::
 :::
 ::: {.column width="40%"}
