@@ -123,6 +123,34 @@ So what do we do?
 :::
 ::::::::::::::
 
+## Case Study: 689,003 News Feeds (2014)
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+For one week Facebook hid some positive posts from some users' feeds, then measured the words those users wrote [@kramer-emotional-contagion:2014]. Exactly as reported:
+
+- positive words in their own posts: $B = -0.1\%$, $p < 0.001$, $d = 0.02$
+- negative words: $B = +0.04\%$, $p = 0.007$, $d = 0.001$
+
+::: {.think-box}
+**Think:** you're the reviewer. Is this a finding, or too small to mean anything? Decide before the next slide.
+:::
+:::
+::: {.column width="45%"}
+![Small effects, small $p$ values.](img/facebook-contagion-effects.png)
+:::
+::::::::::::::
+
+## 689,003 News Feeds: Is It a Finding?
+
+- **Yes, say the authors, fairly:** a minimal manipulation, and word choice is hard to move. At Facebook's scale, $d = 0.001$ is hundreds of thousands of emotional expressions a day.
+- **No, says your gut:** a tenth of one percent. Nobody would notice this in their own feed.
+- No gotcha here: it depends what decision you'd make with the number. (PNAS did publish an Expression of Concern, about consent, not statistics [@verma-expression-of-concern:2014].)
+
+::: {.success-box}
+**The rule:** report an effect size with every $p$, and decide *in advance* the smallest effect that would change what you build. Next: an effect that expert judgement missed and measurement found.
+:::
+
 ## What are degrees of freedom?
 
 Significance tests involve estimating probability distributions and a concept called **degrees of freedom (df)** representing the number of independent values that can vary in your analysis while still calculating the statistic you need.
@@ -136,6 +164,24 @@ Significance tests involve estimating probability distributions and a concept ca
 - **low df leads to higher _p_.** Fewer degrees of freedom requires a stronger test statistic to reach significance because you have less information.
 
 - **df often reported alongside your test statistic** (e.g., $t(28) = 2.45, p < 0.05$) so readers can evaluate analysis and sample constraints
+
+## Case Study: One Line of Ad Copy at Bing (2012)
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+An employee proposed longer ad headlines: pull the first line of ad text up into the title. A few days' work.
+
+- **The fork:** build it, or leave it? Program managers ranked it low. It sat for more than six months, until a different engineer noticed it was cheap to test [@kohavi-online-experiments:2017].
+- **What happened:** the A/B test showed revenue up 12%, over $100M a year in the US alone. So large it tripped the "too good to be true" alarm that normally means a bug [@kohavi-trustworthy-experiments:2020].
+
+::: {.info-box}
+**Concept:** expert judgement ranked Bing's best-ever revenue idea near the bottom. Only the A/B test found it, and the same test stops a bad idea shipping because somebody felt confident about it.
+:::
+:::
+::: {.column width="45%"}
+![Control (top) and treatment (bottom) [@kohavi-trustworthy-experiments:2020].](img/08_abtest.jpg){width="50%"}
+:::
+::::::::::::::
 
 ## A Significance Test Menu
 

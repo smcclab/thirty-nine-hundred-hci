@@ -702,3 +702,20 @@ Refined 2026-09-19 (2): week 11 rebuilt as Reactable + Ocarina + the
 framing-versus-practice corrective from McPherson, Morreale & Harrison (2019)
 and Morreale & McPherson (2017). Dilemma boxes confirmed as in-lecture
 warm-ups only, not pre-class tasks.
+
+## Implementation note (2026-09-19)
+
+Drafted into lectures 07 to 12 on the `case-studies-weeks-7-12` branch:
+3 slides in 07 (Newton vs Palm), 2 in 08 (Hawaii, replacing the heuristic
+evaluation video slot), 5 in 09 (Snapchat x2, Buzz, Replika), 3 in 10 (Facebook
+x2, Bing), 4 in 11 (Reactable, Ocarina, longevity, framing vs practice), 4 in
+12 (Air Canada x2, Google Photos, Autopilot). Every case ends on the
+evaluation that would have caught it, using the existing box classes; no new
+SCSS. Twenty-one new `references.bib` entries, DOI ones from Crossref, the
+rest checked against the primary document. Redrawn diagrams for Hawaii,
+Snapchat, Buzz, Replika, Air Canada and Google Photos; Commons photos (CC
+BY-SA) for the Newton and Palm; matplotlib charts for the Facebook effect
+sizes, Snap DAUs and the NIME longevity survey. Not done from the checklist:
+the `resources/case-studies.md` page and the final-project spec hook. The
+Sharp "Dilemma" warm-ups and the optional Robodebt contrast were left out to
+keep the segments to the minimum slides.

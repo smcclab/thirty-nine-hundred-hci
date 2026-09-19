@@ -350,6 +350,44 @@ A mental model is our internal understanding of how a system works.
 ![[What is a mental model? (NNGroup)](https://www.youtube.com/watch?v=nAgXISssAws)
 ](img/01_02_conceptualising_interaction_0.png){width=60%}
 
+## Case Study: Snapchat's Redesign (February 2018)
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+New users, and anyone over 25, found Snapchat baffling: friends' stories and publishers' content in one list.
+
+- **A:** separate friends from media. Cleaner conceptual model, and it fits everything on the slides so far today.
+- **B:** leave a structure you *know* is confusing, because 191 million people a day have memorised it.
+
+::: {.talk-box}
+**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ A or B? Who do you test it with first: new users, or people already opening it 20 times a day? 2 minutes.
+:::
+:::
+::: {.column width="45%"}
+![Navigation before and after, simplified and redrawn.](img/snapchat-redesign.png)
+:::
+::::::::::::::
+
+## Snapchat: What Happened
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+- A petition to undo it passed 1.2 million signatures [@rumsey-snapchat-petition:2018]. Snap said no.
+- Q2 2018: daily users **fell for the first time ever**, 191 to 188 million [@snap-10q-q1:2018; @snap-10q-q2:2018]. Spiegel blamed "the disruption caused by our redesign" [@constine-snapchat-q2:2018].
+
+::: {.info-box}
+**Concept:** an app you open dozens of times a day gets run from memory, not read off the screen. A better conceptual model can still be a worse interface.
+:::
+
+::: {.success-box}
+**The test:** timed habitual tasks with *existing expert users*, not just first-run tasks with new ones. Week 8's method, different participants.
+:::
+:::
+::: {.column width="45%"}
+![Snap's filing: the redesign "negatively impacted our DAUs" [@snap-10q-q2:2018].](img/snapchat-dau.png){width="85%"}
+:::
+::::::::::::::
+
 ## Gulfs of Execution and Evaluation
 
 :::::::::::::: {.columns}
@@ -501,6 +539,24 @@ supporting people in activities when they are interacting in the same physical s
 :::
 ::::::::::::::
 
+## Case Study: Google Buzz (February 2010)
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+A social network inside Gmail, and an empty social network is useless. So:
+
+- **Their fix:** auto-follow the people you email most, and publish that list on your profile. Default on.
+- **What happened:** for some people that list was an abusive ex or a therapist. The FTC charged deceptive practices; Google got a mandated privacy program (the first such order) and 20 years of audits [@ftc-google-buzz:2011].
+
+::: {.success-box}
+**The test:** show the default to a few real people with their real inboxes and ask what they'd hate to see public (week 4 methods, aimed at a *default*). Email frequency is not consent.
+:::
+:::
+::: {.column width="45%"}
+![The set-up default, redrawn. Names invented; the default was real.](img/google-buzz-default.png)
+:::
+::::::::::::::
+
 ## Social Games
 
 :::::::::::::: {.columns}
@@ -610,6 +666,25 @@ anthropomorphism is the human tendency to attribute human qualities to animals a
 :::
 ::: {.column width="40%"}
 ![The haptic creature [@yohanan-haptic-creature-assessment:2011]](img/haptic-creature-2011.png)
+:::
+::::::::::::::
+
+## Case Study: Replika (February 2023)
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+A companion chatbot. People form attachments to it, which is the whole product.
+
+- Italy's regulator ordered Replika to stop processing Italians' data. Days later, erotic role-play was off for everyone, everywhere [@cole-replika-crisis-vice:2023].
+- Nobody argues with complying. The fork is *how*: silently and overnight, or with warning and choice?
+- "Like losing a best friend." Moderators posted suicide-hotline links [@cole-replika-crisis-vice:2023; @hanson-replika-reddit:2024].
+
+::: {.warn-box}
+**Careful:** once people are attached to a system, changing it isn't just a product decision! Replika restored the feature seven weeks later, for old accounts only [@cole-replika-vice:2023].
+:::
+:::
+::: {.column width="40%"}
+![From Cole (2023) and Hanson & Bolthouse (2024).](img/replika-timeline.png){width="70%"}
 :::
 ::::::::::::::
 

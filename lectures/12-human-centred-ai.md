@@ -382,6 +382,62 @@ Science and innovation goals can come into conflict. Significant amounts of desi
 :::
 ::::::::::::::
 
+## Case Study: Air Canada's Chatbot (2022 to 2024)
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+You run an airline website. Customers ask about policies.
+
+- **A:** a chatbot that answers in its own words. Fewer clicks, plain language. Better on most week 8 measures.
+- **B:** a bot that only *finds and links* the policy page. Boring, and it makes people read.
+
+::: {.talk-box}
+**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ A or B? If A, who's responsible when it gets a policy wrong: customer, vendor, airline, or bot? 2 minutes.
+:::
+:::
+::: {.column width="50%"}
+![Two statements, one website (reconstruction).](img/air-canada-two-pages.png)
+:::
+::::::::::::::
+
+## Air Canada: What Happened
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- The bot said Jake Moffatt could claim a bereavement fare *after* flying. The page it linked to said no.
+- Air Canada's position: the chatbot is "a separate legal entity that is responsible for its own actions". The tribunal: it "is still just a part of Air Canada's website", and awarded C$812 [@moffatt-v-air-canada:2024].
+
+::: {.info-box}
+**Concept:** the *intelligent agent* metaphor lost in court to the *supertool* view. What an AI feature says for a company counts as a claim by the company.
+:::
+
+::: {.success-box}
+**The test for your project:** ask it questions you already know the answer to, and check that it links the source instead of asserting the answer itself.
+:::
+:::
+::: {.column width="40%"}
+![High automation, no human in the loop, consequential answers.](img/hcai-2D-excessive.png)
+:::
+::::::::::::::
+
+## Case Study: Google Photos (2015 to 2023)
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+In 2015 the app labelled photos of Jacky Alciné and a friend, both Black, as "gorillas".
+
+- **The fork:** fix the model, or remove the failing capability from the interface?
+- **Google:** removed the label. In 2023 the *New York Times* found "gorilla" and several other primates still absent, eight years on [@grant-hill-gorillas:2023].
+
+::: {.think-box}
+**Think:** an interface-level fix still in place after eight years: engineering honesty, or a cover-up? I genuinely don't know. Good last question for the course.
+:::
+:::
+::: {.column width="45%"}
+![Redrawn, after Grant & Hill (2023).](img/photos-no-results.png)
+:::
+::::::::::::::
+
 ## Towards supertool designs
 
 > combine intelligent agents with human-controlled tools to ensure trust, usability, and control
@@ -460,6 +516,24 @@ Teammate approach has many challenges [@klien2004ten]:
 
 ![Tesla Autopilot Crash, 2018. [Image Source](https://www.nytimes.com/2021/08/16/business/tesla-autopilot-nhtsa.html).](img/tesla-autopilot-crash.jpg){width="100%"}
 
+:::
+::::::::::::::
+
+## Case Study: Autopilot (Williston, 2016)
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+7 May 2016: a Tesla on Autopilot drove under a truck turning across its path. The driver didn't react.
+
+- NTSB: "overreliance on vehicle automation", helped by an "operational design, which permitted his prolonged disengagement from the driving task" [@ntsb-williston-tesla:2017].
+- NTSB member Christopher Hart, concurring: "adding to the problem is the moniker 'Autopilot'". The name overstates what it does, and people build their mental model from it [@shneiderman-human-centered-ai:2022].
+
+::: {.info-box}
+**Concept:** naming is an interface decision. Air Canada's bot made a claim the company had to honour; Autopilot made one the driver believed.
+:::
+:::
+::: {.column width="40%"}
+![The crash intersection [@ntsb-williston-tesla:2017].](img/ntsb-williston-figure.png)
 :::
 ::::::::::::::
 
