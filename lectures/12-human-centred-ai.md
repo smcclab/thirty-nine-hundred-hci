@@ -387,7 +387,7 @@ Science and innovation goals can come into conflict. Significant amounts of desi
 > combine intelligent agents with human-controlled tools to ensure trust, usability, and control
 
 - human-computer sybiosis explored from 60s: humans make decisions; computers handle routine tasks [@licklider1960man]
-- human-AI design debate: automation vs direct user control [@shneiderman1997maes].
+- human-AI design debate: automation vs direct user control [@shneiderman-direct-manipulation-agents:1997].
 - Maes: Advocated for proactive software agents that anticipate user needs.
 
 AI in conferences & applications:
