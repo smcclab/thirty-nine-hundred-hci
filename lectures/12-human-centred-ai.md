@@ -386,7 +386,7 @@ Science and innovation goals can come into conflict. Significant amounts of desi
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-You run an airline website. Customers ask about policies.
+You run an airline website. Customers ask about policies, how should a bot help?
 
 - **A:** a chatbot that answers in its own words. Fewer clicks, plain language. Better on most week 8 measures.
 - **B:** a bot that only *finds and links* the policy page. Boring, and it makes people read.
