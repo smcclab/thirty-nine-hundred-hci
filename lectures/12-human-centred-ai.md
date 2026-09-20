@@ -529,7 +529,7 @@ Teammate approach has many challenges [@klien2004ten]:
 - NTSB member Christopher Hart, concurring: "adding to the problem is the moniker 'Autopilot'". The name overstates what it does, and people build their mental model from it [@shneiderman-human-centered-ai:2022].
 
 ::: {.info-box}
-**Concept:** naming is an interface decision. Air Canada's bot made a claim the company had to honour; Autopilot made one the driver believed.
+**Concept:** the feature name "Autopilot" was a false affordance! (appearance of an affordance, but it didn't exist)
 :::
 :::
 ::: {.column width="40%"}
