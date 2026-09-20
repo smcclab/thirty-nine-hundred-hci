@@ -317,6 +317,22 @@ ing the input interface and sound engine [@magnusson2010designconstrain].](img/m
 :::
 ::::::::::::::
 
+## Mapping by demonstration: the Wekinator
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- The Wekinator [@fiebrink-wekinator-nime:2009] turns mapping design around: instead of _writing_ the function from gesture to sound, you **demonstrate** it. Show the system an input and the output you want, train, play, and retrain when it feels wrong.
+- Evaluation happens by playing, not by held-out accuracy. Fiebrink's CHI paper [@fiebrink-human-model-eval:2011] found practitioners judged models by how they felt under the hands, and often preferred a "worse" model. Week 8's usability numbers meet week 11's expression here.
+- The demo everyone remembers: a webcam, a coloured object or a face, a synth. That form settled in Fiebrink's teaching rather than in the early papers [@fiebrink-ml-education:2019].
+- A regression from two camera coordinates to a handful of synth parameters is the simplest expressive interface you can build this week, and the one we return to.
+:::
+::: {.column width="40%"}
+::: {.info-box}
+**Interactive machine learning** in one sentence: the human is in the training loop, and the loop is fast enough to feel like tuning an instrument.
+:::
+:::
+::::::::::::::
+
 ## Does Anyone Still Play It?
 
 :::::::::::::: {.columns}

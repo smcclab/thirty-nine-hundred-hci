@@ -25,6 +25,7 @@ title-slide-attributes:
 
 - Research skills (how to use Google Scholar and cite references)
 - Overview of the diversity of interfaces in use and in research!
+- A method for looking at any interface: _affordance analysis_ (and you'll try it on your phone)
 - Outline key design and research considerations
 - A case study: Apple's Newton vs the Palm Pilot (who does the learning?)
 - Think about _natural_ user interfaces
@@ -259,6 +260,96 @@ There are many interfaces, but only a handful of ways of _interacting_ with them
 - Holographic
 :::
 ::::::::::::::
+
+## What does an interface _offer_ you?
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+Twenty-two types is a catalogue, not an understanding. A more useful question for any interface: what does it let you do, and how do you know?
+
+- **Affordance**: a relationship between what a person can do and what a thing allows. Not a property of the interface alone [@Norman:2013].
+- **Signifier**: the perceivable cue that tells you the affordance is there. Buttons look pressable; a command line looks like nothing.
+- **Constraint**: what the interface stops you doing. For instruments, constraints are where the character comes from [@magnusson2010designconstrain].
+
+:::
+::: {.column width="45%"}
+@gaver-technology-affordances:1991 sorted affordances by whether you can perceive them:
+
+| | **possible** | **not possible** |
+|---|---|---|
+| **signified** | perceptible | _false_ |
+| **not signified** | _hidden_ | (nothing) |
+
+Hidden: the loop command nobody told you about. 
+
+False: the pad that's too small to hit.
+:::
+::::::::::::::
+
+## Affordance analysis: a method for this week
+
+Pick an interface and a task. Answer five questions:
+
+1. **Interaction type**: are you instructing, conversing, manipulating, exploring or responding? [@rogers-beyond-hci:2023]
+2. **Affords**: what does it let you do that other interfaces wouldn't?
+3. **Constrains**: what can't you do, or what is it steering you away from?
+4. **Hidden**: what's possible but not signified? (What did you only find out by being told?)
+5. **False**: what looks possible but isn't? (What did you try that didn't work?)
+
+As designers we should also ask where affordance discovery and learning lives. Is that **our** job, or the users'?
+
+This is what you'll do when choosing a platform for the final project. Need to practice on things we didn't design.
+
+## Worked example: the thing in front of me
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+Let's do it live on the lecture theatre lectern (or my phone, or the door).
+
+| Question | Answer |
+|---|---|
+| Interaction type | |
+| Affords | |
+| Constrains | |
+| Hidden | |
+| False | |
+| Who learns? | |
+
+:::
+::: {.column width="50%"}
+::: {.think-box}
+**Think:** As I go, note one thing you'd add. Affordance analysis is disagreeable: two people rarely see the same hidden affordances.
+:::
+:::
+::::::::::::::
+
+## Activity: one task, three interfaces
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+::: {.push-box}
+**Do:** The task is *tell someone you're running late*. Do it three ways on the phone in your hand:
+
+1. **Type** it in your messaging app.
+2. **Dictate** it (voice keyboard or assistant).
+3. **Choose** it: pick a canned reply, a suggested message, or an emoji from a menu, without writing anything.
+
+In pairs, run the five questions on each. Which was fastest? Which would you choose in a lecture theatre, on a bike, in a hurry, in another language?
+
+Post your most surprising *hidden* or *false* affordance to the poll. 15 minutes.
+:::
+:::
+::: {.column width="40%"}
+![PollEverywhere link: <https://pollev.com/charlesmarti205>](img/polleverywhere-charles-qr.png)
+:::
+::::::::::::::
+
+## What the activity shows
+
+- The same task is not quite the same task: each interface reshaped what "tell someone" meant (a sentence, a spoken phrase, a location).
+- Interaction type predicts a lot: instructing is fast for experts and opaque for novices; manipulating is discoverable and slow; conversing hands the learning to the system.
+- "Best" depended on context and on who you already were. We'll see a company bet everything on getting this wrong in the Newton vs Palm case study later today.
+- Now the catalogue. Every type that follows is a different bundle of affordances and constraints, and each has a slide of research and design considerations that are the answers people found to questions 2 to 5.
 
 ## Command Line Interfaces
 
@@ -661,6 +752,7 @@ Every case study from here to week 12 finishes with the evaluation that would ha
 
 - gestural interaction: moving arms, hands, position to communicate
 - track and understand gestures using cameras, sensors and machine learning
+- a webcam plus a trained mapping is an instrument: the Wekinator [@fiebrink-wekinator-nime:2009] made that a standard idea.
 - Watch David Rose's inspirations for gesture at [vimeo.com/224522900](https://vimeo.com/224522900)
 
 ### Research and Design for Touchless Interfaces
