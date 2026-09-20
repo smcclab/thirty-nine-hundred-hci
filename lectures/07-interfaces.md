@@ -635,14 +635,14 @@ Newton MessagePad 100 and PalmPilot Professional. Photos: F. Winkelnkemper (CC B
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Apple's sounds like the better idea, but it considered the failure.
+Apple's sounds like the better idea, but it's considered a failure.
 
 - Newton misread handwriting often enough to become a joke: a week of Doonesbury ("Catching on?" became "Egg freckles") [@trudeau-doonesbury-newton:1993] and the Simpsons' "Eat up Martha".
 - Later models fixed the recognition, but the reputation didn't recover and Apple killed the line in 1998.
 - Graffiti: 86% after a minute with the chart, 97% after five minutes, still 97% a week later [@mackenzie-graffiti-usability:1997].
 
 ::: {.warn-box}
-**Careful:** asking nothing of the user doesn't automatically win! Five minutes of learning beat it here.
+**Careful:** technical cleverness doesn't always win! Five minutes of learning beat it here.
 :::
 :::
 ::: {.column width="40%"}
@@ -650,17 +650,15 @@ Apple's sounds like the better idea, but it considered the failure.
 :::
 ::::::::::::::
 
-## Newton vs Palm: The Concept and the Test
+## Newton vs Palm: Concept and Test
 
 ::: {.info-box}
-**Concept:** "natural" depends on what the user already knows, so it isn't a property of the interface. A bit of learning is fine if it's quick and the result is reliable. (Norman makes the same point in today's coda.)
+**Concept:** "natural" depends on what the user already knows, so it isn't a property of the interface. A bit of learning is fine if it's quick and the result is reliable. 
 :::
 
 ::: {.success-box}
-**The test that would have caught it:** recognition accuracy on unconstrained adult handwriting, measured _before_ the ship decision, against a threshold agreed in advance. That's a usability test with one dependent variable (week 8, a bit early).
+**Test:** recognition accuracy on unconstrained handwriting measured against user acceptance. A usability test with one dependent variable.
 :::
-
-Every case study from here to week 12 finishes with the evaluation that would have caught it. By week 12 you'll have a menu for your final project's evaluation plan.
 
 ## Touchscreens
 
@@ -676,22 +674,9 @@ Every case study from here to week 12 finishes with the evaluation that would ha
 - _but_ there are limitations. How do you "undo" on an iPhone?
 :::
 ::: {.column width="40%"}
-  ![A schematic of a multitouch interface. Source: Willtron / CC BY 1.0](img/multitouch-interface.png){width="80%"}
+![A schematic of a multitouch interface. Source: Willtron / CC BY 1.0](img/multitouch-interface.png){width="80%"}
 :::
 ::::::::::::::
-
-<!--
-## Research and Design for Touchscreens
-
-- Touchscreens are widely used with new ways to interact like swiping, carousels, and virtual keyboards.
-
-- These methods can be less precise or slower than traditional keyboards and mice.
-
-- Multitouch gestures allow more control, like zooming and rotating.
-
-- Gestures can be hard to learn and don't provide physical feedback.
-
-- Visual and audio cues help make up for the lack of tactile feedback. -->
 
 ## Touchless
 
@@ -713,8 +698,7 @@ Every case study from here to week 12 finishes with the evaluation that would ha
 ::: {.column width="60%"}
 
 - vibration and forces (via actuators) to provide tactile feedback
-- can be embedded in clothing or mobile devices such as smartphones and watches.
-- gaming consoles and driving simulators use haptics to enhance realism.
+- clothing, mobile devices, gaming consoles, simulators
 - vibrotactile feedback can simulate remote physical communication, like hugs or squeezes, using actuators in clothing.
 - Haptics can also be used for skill training, such as learning musical instruments. - _"novice players responded well to vibrotactile cues, adjusting their actions accordingly."_
 :::
@@ -738,16 +722,6 @@ Every case study from here to week 12 finishes with the evaluation that would ha
 :::
 ::::::::::::::
 
-<!-- ## Research and Design for Haptic Interfaces
-
-- In gaming, smartphones, and wearables for user experience, stimulating touch, strokes, prods, or buzzes.
-- Effective in sensory-motor skill training (e.g. sports, musical instruments).
-- Vibrations on snowboarders led to faster reaction times than verbal instructions [@spelmezan2009tactile].
-- *Design consideration*: actuator placement, type and timing of touch, intensity and frequency of feedback.
-- *Continuous feedback is ineffective due to annoyance and habituation!*
-- Intermittent buzzes is more effective for grabbing attention.
-- Different buzz patterns can signal different events (e.g. light tap = rain, heavy tap = thunder); e.g., Apple iOS 16 added haptic typing. -->
-
 ## Multimodal
 
 :::::::::::::: {.columns}
@@ -757,30 +731,13 @@ Every case study from here to week 12 finishes with the evaluation that would ha
 - natural, flexible, and expressive interactions, similar the real world interaction experience [@oviatt2017handbook].
 - Common combinations: speech and gesture; eye-gaze and gesture; haptic and audio, pen input and speech [@dumas2009multimodal].
 - Speech + vision processing is the most common [@deng2004challenges]!
-
-E.g., Kinect for Xbox — combined RGB camera, depth sensor, and microphones for real-time gesture and voice recognition.
-:::
-::: {.column width="40%"}
-![Microsoft's Xbox Kinect. Source: Stephen Brashear / Invision for Microsoft / AP Images](img/xbox.png){width="90%"}
-:::
-::::::::::::::
-
-## Research and Design for Multimodal Interfaces
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-**must** recognise multiple user aspects: handwriting, speech, gestures, eye movements, and body movements.
-
-- more complex to design than single modality systems.
 - most researched interaction modes are: speech, gesture, eye-gaze tracking.
-- _What are the actual benefits of combining multiple input/output modalities?_
-- Is natural human-like interaction (e.g., talk + gesture) effective when applied to computer interaction?
 
 Design guidelines, see [@oviatt2017handbook].
 
 :::
 ::: {.column width="40%"}
-![Multimodal Mixed Reality Experience. Microsoft HoloLens 2. Source: Charles Martin. 2023.](img/hololens-mate.jpg){width="90%"}
+![Microsoft's Xbox Kinect. Source: AP Images](img/xbox.png){width="90%"}
 :::
 ::::::::::::::
 
