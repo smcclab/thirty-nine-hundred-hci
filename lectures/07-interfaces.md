@@ -202,7 +202,7 @@ Big reference libraries are part of academic work.
 **Talk:** 🙋🏽‍♀️🤷💁🏻🧠🗣️ Let's clear up some questions now if you have them!
 :::
 
-# Interface Types {background-image="img/interfaces_1_hololens.jpg" background-size="cover" background-opacity="0.35"}
+# Understanding Interfaces {background-image="img/interfaces_1_hololens.jpg" background-size="cover" background-opacity="0.35"}
 
 How would you describe a computer interface?
 
@@ -354,9 +354,28 @@ Post your most interesting _hidden_ or _false_ affordance to the poll. 15 minute
 
 - The same task is not quite the same task: each interface reshaped what "tell someone" meant (a sentence, a spoken phrase, a location).
 - Interaction type predicts a lot: instructing is fast for experts and opaque for novices; manipulating is discoverable and slow; conversing requires a system to know a lot.
-- "Best" usually depened your context and you. 
+- "Best" usually depends on your context and you.
 
 Now the catalogue of interfaces. Every type that follows is a different bundle of affordances and constraints backed by research and design considerations.
+
+## Live demo: one sound engine, three interfaces
+
+![nanojam: the same four sounds and the same sequencer behind pads, a command line, and a camera. <https://charlesmartin.au/nanojam/>](img/nanojam-interfaces.png){width="100%"}
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+Everything an interface can do is one of six commands to the same engine, so the _only_ thing that changes is the interaction.
+
+- **Pads** (manipulating): tap a sound
+- **CLI** (instructing): `loop kick x...x...x...x...`
+- **Camera** (exploring): move a hand into a region
+:::
+::: {.column width="45%"}
+::: {.think-box}
+**Think:** as each one runs, fill in the five questions. Which is fastest to a first sound? Which is fastest to a _pattern_? What is hidden, and what is false?
+:::
+:::
+::::::::::::::
 
 # The Human-Computer Interface Catalogue
 
@@ -489,17 +508,6 @@ Emerged in 1970s with computer-generated graphical simulations.
 :::
 ::::::::::::::
 
-## Activity: Thinking about AR and VR
-
-::: {.talk-box}
-**Talk:** 🙋🏽‍♀️🤷💁🏻🧠🗣️ Find someone near you, and discuss these questions:
-
-1. Have you ever tried an AR VR system? (phone, headset, audio-only, whatever)
-2. What was the experience like? Do you see it as a useful technology?
-
-Chat for 3 minutes and we'll hear a few responses.
-:::
-
 ## Website Design
 
 :::::::::::::: {.columns}
@@ -549,44 +557,37 @@ Smartphones, fitness trackers, smartwatches, large-sized tablets on the flight, 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-- machines for everyday use in the home
-- washing machines, microwaves, refrigerators, toasters, bread makers, blenders
-- connections to the internet, control by remote apps
-- do such designs help?
-- @cooper2014face suggest that appliance interfaces require the designer to view them as transient interfaces, where the interaction is short.
-- Two fundamental design principles: simplicity and visibility.
+- machines for everyday use in the home: washing machines, microwaves, fridges, toasters, blenders
+- @cooper2014face: appliance interfaces are _transient_; the interaction is short and infrequent, so nothing can depend on learning
+- two design principles: **simplicity** and **visibility**
+- compare the two knobs on the microwave with the twenty programs on the washing machine
+- internet connections and remote apps: do they help the transient use case, or add a second, hidden interface?
 :::
 ::: {.column width="40%"}
-  ![The Design of Everyday Things. @Norman:2013](img/design-of-everyday-things.jpg){width="50%"}
+  ![A two-knob microwave on a washing machine with twenty programs. [Photo by Ruben Mavarez on Unsplash](https://unsplash.com/photos/microwave-oven-stacked-on-top-of-a-washing-machine-p9RU1DWwasQ)](img/microwave-washing-machine-p9RU1DWwasQ-unsplash.jpg){width="70%"}
 :::
 ::::::::::::::
+
+## Smart Interfaces
+
+- not the future: a robot vacuum, a video doorbell and a few smart speakers that (in theory) all talk to each other is an ordinary house in 2026
+- context-aware, network-connected, often AI-driven, learning from behaviour (e.g., Nest thermostat)
+- the aim is to automate and remove people from the loop (e.g., buildings that manage their own lighting and heating)
+- over-automation frustrates: sealed windows, no manual override, an app for everything
+- **design question:** should the system _amplify_ what people do, or act _autonomously_ [@landay2019smartinterfaces]? See also human-building interaction [@alavi2019introduction].
+- affordance analysis is hard here: most of what a smart home can do is _hidden_
 
 ## Voice Interface
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-- lets users interact with apps (e.g., search engines, chatbots, or travel planners) through spoken language
-- commonly used to request information (like flight times or weather) or issue commands (e.g., playing music or selecting a movie)
-- Voice interfaces rely on command- or conversation-based interaction.
-- early speech systems earned a reputation for _mishearing_ all too often what a person said (still true?)
-:::
-::: {.column width="40%"}
-  ![Apple Siri. Source: CHEEZburger Memebase. ](img/why-so-mean-siri.jpg){width="60%"}
-:::
-::::::::::::::
-
-## Research and Design for Voice Interaction
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-What conversational mechanisms to use to structure the voice interface and how human-like they should be?
-
-- natural conversation
-- system navigation efficiency
-- synthesised voice or voice actor: male, female, neutral, dialect, and pronunciation
-
-Pros and cons of dialogue structures, error handling, and etiquette remain key for modern voice interfaces [@cohen2004voice].
+- interact through spoken language: request information (flight times, weather) or issue commands (play music, set a timer)
+- command-based or conversation-based; the system decides how human-like to pretend to be
+- design choices: natural conversation vs directed dialogue, can the user interrupt ("barge-in"), synthesised voice or actor, gender, dialect, pronunciation
+- dialogue structure, error handling and etiquette are still the core problems [@cohen2004voice]
+- early systems earned a reputation for _mishearing_ (still true?)
+- almost no perceptible affordances: how do users learn what they can say?
 :::
 ::: {.column width="40%"}
 ![Tea. Earl grey. Hot. --Captain Picard](img/tea-earlgrey-hot.jpg){width="80%"}
@@ -697,28 +698,15 @@ Apple's sounds like the better idea, but it's considered a failure.
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-- vibration and forces (via actuators) to provide tactile feedback
-- clothing, mobile devices, gaming consoles, simulators
-- vibrotactile feedback can simulate remote physical communication, like hugs or squeezes, using actuators in clothing.
-- Haptics can also be used for skill training, such as learning musical instruments. - _"novice players responded well to vibrotactile cues, adjusting their actions accordingly."_
+- vibration and forces (via actuators) give tactile feedback: phones, watches, game controllers, simulators, clothing
+- skill training: the MusicJacket nudges a violinist's bowing arm into position, and _"novice players responded well to vibrotactile cues, adjusting their actions accordingly."_
+- remote touch: actuators in clothing can simulate hugs or squeezes
+- mid-air haptics: ultrasound creates buttons and sliders that can be felt but not seen (e.g., in-car controls)
+- haptic exoskeletons: "Techno Trousers" [@rossiter2018past] that stiffen or relax to assist movement
+- perceptible to the hand, invisible to the eye: run the affordance questions on that!
 :::
 ::: {.column width="40%"}
   ![The MusicJacket with embedded actuators that nudge the player to move their arm up to be in the correct position. Source: Yvonne Rogers](img/musicjacket.png){width="50%"}
-:::
-::::::::::::::
-
-## Haptic Interfaces
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-- Ultrahaptics uses ultrasound to create 3D shapes and textures in midair that can be felt but not seen.
-- It simulates touch-based interfaces (e.g., buttons, sliders) that appear in midair.
-- In automotive interfaces to replace physical controls with invisible, tactile controls: adjust volume or change radio stations.
-- Haptic Exoskeletons: bedded into wearable exoskeletons, inspired by “Techno Trousers” from _Wallace and Gromit_ [@rossiter2018past]. - Graphene parts are used to stiffen or relax the trousers to assist movement. - Application in mobility assistance, fitness.
-:::
-::: {.column width="40%"}
-  ![Trousers with artificial muscles that use a new kind of bubble haptic feedback. Source: The Right Trousers Project](img/right-trousers.png){width="30%"}
 :::
 ::::::::::::::
 
@@ -746,37 +734,16 @@ Design guidelines, see [@oviatt2017handbook].
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-Designed for multi-user interaction, unlike typical single-user devices (PCs, laptops, phones).
+Designed for multi-user interaction by co-located groups, unlike single-user PCs, laptops and phones: large wall displays, interactive tabletops.
 
-multiple simultaneous inputs by co-located groups. E.g., large wall displays (e.g., SmartBoards); interactive tabletops for users to interact using fingertips on a shared surface.
-
-- A large shared space for group collaboration.
-- Allow simultaneous interaction, unlike working on a single PC.
-- Users can point, touch, and see the same content.
-- This creates a shared point of reference, enhancing group coordination and participation (Rogers et al., 2009).
+- everyone can point, touch, and see the same content
+- a shared point of reference improves group coordination and participation (Rogers et al., 2009)
+- used in museums and galleries; supports group-based learning [@clegg2020community]
+- software shareables (Google Docs, Miro) move the same idea to remote collaboration
+- **design issues:** display layout, balancing participation, and personal vs shared space
 :::
 ::: {.column width="40%"}
   ![Collaborative Musical Instrument Reactable [@jorda2010reactable]. (source)[https://www.ycam.jp/en/archive/works/reactable/].](img/reactable.jpg){width="80%"}
-:::
-::::::::::::::
-
-## Shareable Research Considerations
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-- tabletop systems used in museums and galleries.
-- support interactive, group-based learning [@clegg2020community].
-- some shareable interfaces are software platforms for remote collaboration.
-- Early example: [ShRedit](https://cacm.acm.org/practice/now-that-we-can-write-simultaneously-how-do-we-use-that-to-our-advantage/) (1990s) – supported shared document editing.
-- Google Docs, Microsoft Excel, Miro, Canva, etc.
-
-### Research and Design Consideration
-
-from single-device interactions (e.g.,handwriting) to cross-device collaboration; key design issues around display layout, participation, and balancing personal and shared spaces.
-:::
-::: {.column width="40%"}
-![Pompeii Exhibition at National Museum of Australia. Source: <https://www.australiangeographic.com.au/nature-wildlife/natural-disasters/2025/02/pompeii-awakens-in-canberra/>](img/pompeii-nma.jpg){width="80%"}
 :::
 ::::::::::::::
 
@@ -784,36 +751,18 @@ from single-device interactions (e.g.,handwriting) to cross-device collaboration
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Link physical objects (bricks, cubes, clay) with digital representations through embedded sensors [@ishii1997tangible; @fishkin2004taxonomy]
 
-Manipulating objects triggers digital effects like sounds, animations, or lights, either on the object or in surrounding media (e.g., Tangible Bits [@ishii1997tangible]).
-
-Some use physical models on digital surfaces (tabletops), where moving objects influences digital events (e.g., Urp for urban planning).
-
-Physical artifacts can be lifted, rearranged, and manipulated directly, distinguishing from purely screen-based or mobile interfaces.
-
+- physical objects (bricks, cubes, clay) linked to digital representations through embedded sensors [@ishii1997tangible; @fishkin2004taxonomy]
+- manipulating the object triggers sound, light or animation, on the object or around it; or objects on a tabletop drive a simulation (Urp for urban planning)
+- artefacts can be lifted, rearranged and handled directly, unlike anything on a screen
+- **the design problem is _coupling_:** how does a physical action map to a digital effect, and where does the feedback appear? [@shaer2010tangible; @ullmer2005token]
+- prototype with sticky notes and cardboard tokens first
+- history and goals: @ullmer2022weaving
 :::
 ::: {.column width="40%"}
 ![Tangible Bits. [@ishii1997tangible] ](img/tangible-bits.jpg){width="100%"}
 :::
 ::::::::::::::
-
-<!-- ## Tangible
-
-- Common technologies: RFID tags, embedded sensors, digital tabletops that detect object movement.
-- Applications include learning, design, play, collaboration (e.g., urban planning tools, Tinkersheets for warehouse logistics).
-- Allow multiple users to work together by physically moving and arranging objects in different ways.
-- Educational toolkits like SAM Labs, MicroBit, and MagicCubes help children learn STEM by linking physical actions to digital outcomes.
-- Tools like Code Jumper make programming accessible for children with visual impairments using tactile, physical code blocks [@morrison2020torino]. -->
-
-## Research and Design for Tangible Interfaces
-
-- Conceptual frameworks e.g., [@shaer2010tangible; @ullmer2005token; @fishkin2004taxonomy] identify what makes tangible interfaces unique.
-- A main design challenge is deciding how to link physical actions to digital effects - the notion of _coupling_.
-- Designers must choose the types and where digital feedback appears (e.g., on the object, beside it, or elsewhere), based on the interface's purpose. E.g., learning? entertainment?
-- Choosing the right physical artifacts (e.g., cubes, tokens)to support natural and hands-on interaction.
-- Simple materials like sticky notes or cardboard tokens can be used to link physical actions to digital responses.
-- history and goals of tangible interfaces, see: @ullmer2022weaving
 
 ## Wearables
 
@@ -865,103 +814,21 @@ Drones, once military and hobbyist tools, now serve in delivery, entertainment, 
 - Many prefer “cute pet” robots for their comforting and less unsettling nature. Interaction design also varies between human-like engagement (talking, gesturing) and traditional controls (buttons, dials).
 - Drones: Ethical concerns include privacy violations (spying on people or property without consent) and the use of drones as autonomous lethal weapons. There is ongoing debate about banning killer drones to maintain meaningful human control. -->
 
-## Brain-Computer Interfaces
+## Frontier Interfaces
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-Create a link between brain activity and external devices (e.g., cursor, robot, game controller).
+Three types where the design knowledge is still forming:
 
-Detect neural signals via electrodes in headsets placed on the scalp.
+- **Shape-changing:** physical form as input and output [@alexander2018grand]. Do moving rods beat a chart on a screen?
+- **Holographic:** the illusion of a 3D person in the room (ABBA Voyage, 2022). How do you interact with a projection, and how do you keep it from being creepy?
+- **Brain-computer:** electrodes on the scalp drive a cursor, robot or game; assistive uses (BrainGate) and playful ones (Brainball). Ethics of mind reading get sharper with implants (Neuralink).
 
-Assist or augment cognitive and motor functions—especially for people with disabilities (e.g., BrainGate lets paralyzed users type via thought).
-
-...and _entertainment_ -- e.g., Brainball, where relaxation controls a ball's movement.
-
-Aim to transfer mental states (e.g., “focused,” “relaxed”) between people via stimulation.
-
-**Ethical concerns** arise around mind reading and mental state manipulation, especially with companies like Neuralink pursuing direct brain implants.
-
-:::
-::: {.column width="40%"}
-![Source: Tim Cordell / Cartoon Stock](img/brian-computer-interface.png){width="80%"}
-:::
-::::::::::::::
-
-<!-- ## Research and Design Brain-Computer Interfaces
-
-- NextMind developed a noninvasive BCI for real-time device control using thoughts.
-- Raises ethical concerns about mental privacy: thoughts could become machine-readable and possibly shared without consent.
-- Accuracy concern: systems might misinterpret thoughts or intentions.
-- Gaming use is playful, but deep mind reading may feel invasive or socially unacceptable.
-- For assistive use, a key design challenge is how to arrange on-screen elements (e.g., letters) to ensure easy and accurate selection.
-- AI and predictive text can improve communication efficiency for users with severe motor impairments. -->
-
-## Smart Interfaces
-
-- Smart devices (phones, homes, appliances) are context-aware, often AI-powered, and network-connected, learning from user behaviour (e.g., Nest thermostat).
-- Aim is to automate tasks, improve efficiency, and reduce human error—often by removing humans from the loop (e.g., smart buildings managing lighting/heating).
-- over-automation can frustrate users, limiting control (e.g., sealed windows, restricted manual overrides).
-
-<!-- ### Research & Design Considerations
-
-- Human–Building Interaction (*new idea*) focuses on user experience in smart environments, prioritising human needs, values, and goals [@alavi2019introduction].
-- Designers must decide whether smart tech should amplify human actions or act autonomously [@landay2019smartinterfaces]. -->
-
-## Shape Changing Interfaces
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-- Use physical form changes as input/output (e.g., 3D bar charts moving rods to show data) [@alexander2018grand].
-- Enable tactile interaction beyond screens
-- Make data more relatable by embedding it in everyday contexts
-
-### Research and Design Consideration
-
-- Do they improve data understanding and engagement?
-- Are they better than 2D/3D digital charts for health monitoring?
-- Size of rod grids; number of cubes for easy learning and recognition.
+More on each in the [interface considerations page](https://smcclab.au/thirty-nine-hundred-hci/resources/06-interface-considerations.html).
 :::
 ::: {.column width="40%"}
   ![inFORM: A shape-changing interface that uses a series of motor-controlled pins to render digital content in the form of 3D rods; developed by MIT Media Group. Source: <http://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM%20Collection/4676>](img/inform-mit.png){width="80%"}
-:::
-::::::::::::::
-
-## Holographic Interfaces
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-- Create the illusion of a 3D person being present through taking advantage of the human perceptual system.
-- The projection and display technology have achieved some convincing results (e.g., ABBA Voyage in London).
-
-### Research and Design Consideration
-
-- A lot research conducted in the tech industry exploringhow to represent people in virtual spaces in ways that feel natural, comfortable, engaging, and not creepy.
-- Design considerations include hologram size and how users can interact and communicate with projections in their space.
-
-:::
-::: {.column width="40%"}
-![ABBA Voyage holographic show. 2022. Source: The Guardian.](img/abba-voyage.jpg){width="100%"}
-:::
-::::::::::::::
-
-## Activity: Choosing an Interface
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-::: {.talk-box}
-**Talk:** 🙋🏽‍♀️🤷💁🏻🧠🗣️ Imagine you are developing a new interface for the classic game "connect four"
-
-1. what interface what would you choose?
-2. how do you think it would evaluate in terms of usability and user experience?
-
-Chat for 3 minutes with someone next to you then let's hear some ideas.
-:::
-:::
-::: {.column width="40%"}
-![The classic game, COnnect Four. [By Jonathan Kellenberg, Flickr, CC BY 2.0](https://commons.wikimedia.org/w/index.php?curid=521287)](img/connect-four.jpg)
 :::
 ::::::::::::::
 
@@ -994,15 +861,20 @@ A gesture may be worth a thousand words; other times a word is worth a thousand 
 
 ## Which Interface?
 
-- is multimedia better than tangible interfaces for learning?
-- Is voice effective as a command-based interface?
-- Is a multimodal interface more effective than a single media interface?
-- Are wearable interfaces better than mobile interfaces for helping people find information in foreign cities?
-- How does VR differ from AR, and which is the ultimate interface for playing games? etc.
+Is voice better than touch? Is tangible better than a screen? Is VR the ultimate interface for games?
 
-It depends!
+**It depends!** You already know on what: you ran the five questions on _tell someone you're running late_ and got three different answers from one phone.
 
-...the interplay of a number of factors, including type of task, the people using the system, context, reliability, social acceptability, privacy, ethical, and location concerns.
+- **task:** which one was fastest for you? Would the answer change for a longer message?
+- **people:** who has to learn it, and what they already know
+- **context:** in a lecture theatre, on a bike, in a hurry, in another language
+- **plus** reliability, social acceptability, privacy, ethics, and location
+
+Affordance analysis tells you what an interface _offers_ and to whom. It does not tell you which one is _better_.
+
+::: {.info-box}
+**Next week:** which is the better one, and how would we know?
+:::
 
 <!-- boilerplate ending -->
 
