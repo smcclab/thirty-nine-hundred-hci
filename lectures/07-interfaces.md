@@ -369,7 +369,7 @@ Now the catalogue of interfaces. Every type that follows is a different bundle o
 - largely superceded, but useful for complex software (e.g., CAD), scripting, coding
 - 1980 research investigated command interfaces' optimisation: 
   - form of the commands (e.g., abbreviations, familiar names)
-  - syntax (e.g., how to combine commands), and organisation [@scneiderman1992designing].
+  - syntax (e.g., how to combine commands), and organisation [@shneiderman-designing-ui:1992].
   - findings showed no universal optimal methods on command naming!
 
 ::: {.info-box}
