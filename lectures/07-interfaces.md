@@ -282,7 +282,7 @@ There are many interfaces, but only a handful of ways of _interacting_ with them
 Back in 1980s, much research investigated command interfaces' optimisation:
 
 - form of the commands such as the use of abbreviations, full names, and familiar names;
-- syntax (e.g., how best to combine different commands), and organisation (e.g., how to structure options), are examples of some of the main areas that have been investigated [@scneiderman1992designing].
+- syntax (e.g., how best to combine different commands), and organisation (e.g., how to structure options), are examples of some of the main areas that have been investigated [@shneiderman-designing-ui:1992].
 - Findings showed no universal optimal methods on command naming!
 
 ::: {.info-box}
