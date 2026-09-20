@@ -171,17 +171,42 @@ from the start: a **CSV download** button, and a **summary line** the
 participant can paste into an Ed thread. A tutor-collected pilot dataset
 must exist before week 9.
 
-Timing: `performance.now()` for everything; note in the deck that Web Audio
-output latency on phones makes `asynchrony_ms` comparable within device
-only.
+Timing: **superseded — see `docs/timing.md` in the nanojam repo**, which is
+also the week-10 codebook. Two corrections to the line above. "Use
+`performance.now()` for everything" is not possible: the cue and the metronome
+are scheduled on the audio clock, so the app samples a clock pair per trial and
+logs it rather than subtracting the two clocks. And "comparable within device"
+is too generous — the constant holds only within device x AudioContext instance
+x output route x camera-on/off, because opening `getUserMedia` on iOS changes
+the audio route and therefore the latency, mid-session.
+
+The row set is also wider than the list above: reaction time and movement time
+are separated (with a home position on each interface, or Fitts' law is being
+fitted to reaction time plus movement time), and every row carries validity
+flags rather than being silently dropped.
 
 ## Stack and repo
 
-- Single static `index.html` plus `engine.js`, `interfaces/{pads,cli,camera}.js`,
-  `logger.js`, `params.js`. No build step; ES modules over `<script type="module">`.
-- Tone.js and MediaPipe Hands from CDN; pin versions.
-- p5.js is optional. Use it for the pads and camera overlay if it speeds
-  things up; plain canvas is fine.
+*Settled 2026-09-20, built at `github.com/cpmpercussion/nanojam`.* The "no build
+step" line below was the original intention; it lost to wanting the project to
+be clean to work in day to day, and students needing node is an accepted cost
+(nobody needs node to *use* the deployed build).
+
+- **Vite + npm.** `npm install && npm run dev`. Four Vite features are
+  load-bearing rather than incidental: `import.meta.glob` builds the interface
+  registry, so adding an interface is dropping a file; `import.meta.hot`
+  re-mounts the edited interface while the AudioContext and Transport keep
+  running; `define` bakes the git SHA into every logged row; `base` is
+  `/nanojam/` for Pages.
+- **Tone.js** for the engine. Note `Tone.now()` adds the context lookahead, so
+  interactive triggers must use `Tone.immediate()` or every hit lands 100 ms
+  behind the finger.
+- **NexusUI** for the parameter panel and the step grid. It is UMD-only, which
+  is easier under a bundler than it would have been on the CDN path.
+- **MediaPipe Tasks Vision** for hand tracking, lazily imported and code-split,
+  with its wasm from a pinned CDN — the one place the original CDN plan
+  survives. A brightness-blob tracker is the automatic fallback.
+- Plain-DOM modules for the interfaces; no framework. p5.js not needed.
 - Own public GitHub repo (not the course content repo), deployed on GitHub
   Pages, MIT licence. Students may fork it.
 - Must work on iOS Safari and Android Chrome over eduroam. Audio needs a
@@ -221,8 +246,20 @@ server other than the Sheet endpoint.
 ## Open questions
 
 - Is the camera regions layer a fair "selection" comparison, or is dwell
-  time doing all the work? Pilot it before deciding whether camera is a
-  study condition or a demo.
+  time doing all the work? **Leaning "demo", on four grounds found while
+  building it.** (1) Dwell is not a constant that can be subtracted: an
+  overshoot-and-re-enter restarts it, so the penalty is distributed and
+  correlates with the skill being measured. (2) A region entry can happen *en
+  route* to somewhere else, so camera has a false-positive mode with no
+  analogue in pads or CLI, and those false positives cluster on regions
+  between start and target. (3) Smoothing is an experimenter-controlled lag
+  that the other conditions do not have. (4) Region area is fixed by the
+  frame, so width and distance cannot be varied without changing `divisions`,
+  which changes the recall load at the same time — the factors are confounded
+  by construction. The build logs both entry time and dwell completion, so the
+  call can still be made after the pilot. Setting `studyCondition: false` on
+  the module is a one-line change.
 - Does the pattern view count as a pads condition or its own interface?
-  Probably its own; decide before the counterbalancing is written.
+  **Decided: neither — it is not a study condition at all** (`studyCondition:
+  false`). It is a pattern editor, not a selection task.
 - FM presets by hand or borrow a set from a known chip emulation?
