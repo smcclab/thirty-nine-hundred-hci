@@ -3,21 +3,17 @@ title: Interfaces
 author: Dr Charles Martin
 description: "Interface types in HCI, from command line and GUI to touch, wearable, VR/AR and multimodal interfaces, plus research skills for finding and citing sources."
 title-slide-attributes:
-    data-background-image: img/yichen-cube.jpg
-    data-background-size: cover
+  data-background-image: img/yichen-cube.jpg
+  data-background-size: cover
 ---
 
 ## Announcements
 
-<!--  data-background-image: img/caustic-interface.jpg
- -->
-<!-- ![AR musical instrument cube. Yichen Wang. 2022.](img/yichen-cube.jpg){width=80%}
- -->
-
-- Assignment 2 template and rubric updated
-- Next two tutorials include assignment support baked into the activities.
+- **Assignment 2** is due in two weeks!
+- Next **two tutorials** include assignment support baked into the activities.
 - Still processing a few queries related to Assignment 1, should be finished soon.
-- Final project will be released soon. Likely to involve thinking about alternative _interfaces_ so this is an important lecture!
+- New **FAQ page** on the course website.
+- **Final project** involves thinking about alternative _interfaces_ so this is an important lecture!
 
 **Who has a question about assignment 2?**
 
@@ -37,17 +33,19 @@ title-slide-attributes:
 
 - Assignments in this class require you to make independent choices
 - Your choices should be backed by a source of knowledge, e.g.,
-    - _what_ abilities does a particular animal have?
-    - _what_ research plan makes sense for particular interface?
-    - _why_ do human-AI interfaces have usability problems?
+  - _what_ abilities does a particular animal have?
+  - _what_ research plan makes sense for particular interface?
+  - _why_ do human-AI interfaces have usability problems?
 
-In scholarly writing, we need to **support** every statement we make. Support can be: either (1) a citation to a scholarly source _or_ (2) evidence from a study. 
+In scholarly writing, we need to **support** every statement we make.
+Support can be: either (1) a citation to a scholarly source _or_ (2) evidence from a study.
 **Where do you find these sources?**
 
 ## Google Scholar
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+
 - search engine for scholarly sources
 - add more search terms to get more specific
 - you can use the "time" selector on the left column to find recent work
@@ -57,6 +55,7 @@ In scholarly writing, we need to **support** every statement we make. Support ca
 
 - Google Scholar indexes anything that _looks_ like scholarly research (e.g., any PDFs on a website in a conference/journal format). Need to use critical thinking to decide whether sources are good quality or not.
 - Google Scholar can give you a formatted citation but it may not have all information (e.g., URL, DOI)
+
 :::
 :::
 ::: {.column width="40%"}
@@ -68,18 +67,22 @@ In scholarly writing, we need to **support** every statement we make. Support ca
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+
 - ACM Digital Library archives proceedings of ACM conferences and journals.
 - not as good at searching, but will show you only peer-reviewed works
 
 ::: {.warn-box}
 **Careful:**
 
-- Works best on-campus or via `virtual.anu.edu.au` so that you can access all papers.
 - CHI and ACM are centres of HCI research, but there are other non-ACM venues that could be missed.
+- ACM DL is open access, some other publishers may require `virtual.anu.edu.au` to access papers.
+
 :::
 :::
 ::: {.column width="40%"}
+
 ![Finding sources with ACM Digital Library](img/sources-acm-dl.png)
+
 :::
 ::::::::::::::
 
@@ -109,13 +112,16 @@ Write your reference list as a **numbered Markdown list**, and end every entry w
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
+
 - metadata for a reference can be used with any citation format
 - academics often use special tools for storing reference metadata
 - computer scientists tend to use `BibTeX` format
 - `BibTeX` is part of the venerable (`La`)[`TeX` ecosystem originally developed by CS luminary Donald Knuth](https://en.wikipedia.org/wiki/TeX) in the late 70s
 - in LaTeX you can select citation format (e.g., ACM, IEEE, Chicago, Harvard, APA)
+
 :::
 ::: {.column width="50%"}
+
 ```
 @inproceedings{adiwangsa-charades:2025,
 author = {Adiwangsa, Michelle and Bransky, Karla and Wood, Erika and Sweetser, Penny},
@@ -133,6 +139,7 @@ numpages = {6}
 ```
 
 The metadata entry for @adiwangsa-charades:2025 which is cited using `[@adiwangsa-charades:2025]` in this Markdown document. In LaTeX you would cite it like this: `\cite{adiwangsa-charades:2025}`.
+
 :::
 ::::::::::::::
 
@@ -147,6 +154,7 @@ Big reference libraries are part of academic work.
 - Charles uses [BibDesk](https://bibdesk.sourceforge.io) to manage the big file, but usually just VSCode for smaller bibtex libraries.
 - Other popular reference managers are Zotero, Mendeley and Endnote.
 - Opinion time: Bibdesk is nice because the database is just a text file.
+
 :::
 ::: {.column width="50%"}
 ![References listed in Bibdesk](img/bibdesk.png)
@@ -157,12 +165,13 @@ Big reference libraries are part of academic work.
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+
 - Not expecting you to use BibTeX (yet)
 - Expecting you to list references in "ACM format".
 - ACM format is inspired by APA referencing
-    - supports both numerical [1, 2] and author-date (Martin, 2020) referencing.
-    - includes _full_ names of authors and publication details for clarity
-    - includes DOI as a full URI
+  - supports both numerical [1, 2] and author-date (Martin, 2020) referencing.
+  - includes _full_ names of authors and publication details for clarity
+  - includes DOI as a full URI
 - [ACM page](https://www.acm.org/publications/authors/reference-formatting) plain text examples for references to different types of source
 - [CSL version](https://github.com/citation-style-language/styles/blob/master/association-for-computing-machinery.csl) (Citation Style Langauge)
 - [BST version](https://github.com/borisveytsman/acmart/blob/primary/ACM-Reference-Format.bst) (BibTeX Style)
@@ -181,7 +190,7 @@ Big reference libraries are part of academic work.
 5. all references in your list should be cited in text
 6. you have actually read references and that they are relevant to your work
 7. at least two references should be _scholarly_ (so not a medium article) and _external_ (so not course lecture notes or textbook)
-8. expectation: ✨✨_perfection_✨✨
+8. expectation: ✨✨*perfection*✨✨
 
 ## Who has a question about referencing and finding sources?
 
@@ -193,13 +202,11 @@ Big reference libraries are part of academic work.
 **Talk:** 🙋🏽‍♀️🤷💁🏻🧠🗣️ Let's clear up some questions now if you have them!
 :::
 
-_I commit to finding ways to help you do this better!_
-
 # Interface Types {background-image="img/interfaces_1_hololens.jpg" background-size="cover" background-opacity="0.35"}
 
 How would you describe a computer interface?
 
-> graphical, command, speech, ambient, intelligent, tangible, touch free, natural, etc.
+graphical, command, speech, ambient, intelligent, tangible, touch free, natural, etc.
 
 Focus of interface can change:
 
@@ -207,8 +214,6 @@ Focus of interface can change:
 - **interaction style** used e.g., command, graphical or multimedia
 - **input/output device** e.g., pen-based, speech-based, or gesture-based
 - **platform** e.g., tablet, mobile, PC, or wearable
-
-<!-- now with ML algorithms that are intended to recognise faces, objects, and the like 🤖! -->
 
 ## Interaction Types
 
@@ -234,6 +239,7 @@ There are many interfaces, but only a handful of ways of _interacting_ with them
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
+
 - Command Line
 - Graphical
 - Multimedia
@@ -265,28 +271,28 @@ There are many interfaces, but only a handful of ways of _interacting_ with them
 
 :::::::::::::: {.columns}
 ::: {.column width="55%"}
-Twenty-two types is a catalogue, not an understanding. A more useful question for any interface: what does it let you do, and how do you know?
+What are the commonalities of these interfaces? What do they let you do, and how do you know?
 
-- **Affordance**: a relationship between what a person can do and what a thing allows. Not a property of the interface alone [@Norman:2013].
-- **Signifier**: the perceivable cue that tells you the affordance is there. Buttons look pressable; a command line looks like nothing.
-- **Constraint**: what the interface stops you doing. For instruments, constraints are where the character comes from [@magnusson2010designconstrain].
+- **Affordance**: a relationship between what a person can do and what a thing allows (not _just_ of the interface) [@Norman:2013].
+- **Signifier**: the perceivable cue that tells you the affordance is there. Buttons look pressable. A command prompt invites typing. 
+- **Constraint**: what the interface stops you doing. Constraints can provide character [@magnusson2010designconstrain] or a specific experience.
 
 :::
 ::: {.column width="45%"}
-@gaver-technology-affordances:1991 sorted affordances by whether you can perceive them:
+@gaver-technology-affordances:1991 organised affordances by whether you can perceive them:
 
-| | **possible** | **not possible** |
-|---|---|---|
-| **signified** | perceptible | _false_ |
-| **not signified** | _hidden_ | (nothing) |
+|                   | **possible** | **not possible** |
+| ----------------- | ------------ | ---------------- |
+| **signified**     | perceptible  | _false_          |
+| **not signified** | _hidden_     | (nothing)        |
 
-Hidden: the loop command nobody told you about. 
+Hidden: A shortcut you discover.
 
-False: the pad that's too small to hit.
+False: A button that's too small to hit.
 :::
 ::::::::::::::
 
-## Affordance analysis: a method for this week
+## Affordance analysis
 
 Pick an interface and a task. Answer five questions:
 
@@ -294,31 +300,31 @@ Pick an interface and a task. Answer five questions:
 2. **Affords**: what does it let you do that other interfaces wouldn't?
 3. **Constrains**: what can't you do, or what is it steering you away from?
 4. **Hidden**: what's possible but not signified? (What did you only find out by being told?)
-5. **False**: what looks possible but isn't? (What did you try that didn't work?)
+5. **False**: what looks possible but isn't? (Things you tried that didn't work?)
 
-As designers we should also ask where affordance discovery and learning lives. Is that **our** job, or the users'?
+Are users responsible for learning and finding affordances, or is the designers job to show them?
 
-This is what you'll do when choosing a platform for the final project. Need to practice on things we didn't design.
+This analysis helps us answer "what is the best way for an interface to work?"
 
 ## Worked example: the thing in front of me
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-Let's do it live on the lecture theatre lectern (or my phone, or the door).
+Let's do it live on something easy... 
 
-| Question | Answer |
-|---|---|
-| Interaction type | |
-| Affords | |
-| Constrains | |
-| Hidden | |
-| False | |
-| Who learns? | |
+| Question         | Answer |
+| ---------------- | ------ |
+| Interaction type |        |
+| Affords          |        |
+| Constrains       |        |
+| Hidden           |        |
+| False            |        |
+| Who learns?      |        |
 
 :::
 ::: {.column width="50%"}
 ::: {.think-box}
-**Think:** As I go, note one thing you'd add. Affordance analysis is disagreeable: two people rarely see the same hidden affordances.
+**Think:** As I go, think of something you might add to my analysis.  
 :::
 :::
 ::::::::::::::
@@ -328,7 +334,7 @@ Let's do it live on the lecture theatre lectern (or my phone, or the door).
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 ::: {.push-box}
-**Do:** The task is *tell someone you're running late*. Do it three ways on the phone in your hand:
+**Do:** The task is _tell someone you're running late_. Do it three ways on the phone in your hand:
 
 1. **Type** it in your messaging app.
 2. **Dictate** it (voice keyboard or assistant).
@@ -336,7 +342,7 @@ Let's do it live on the lecture theatre lectern (or my phone, or the door).
 
 In pairs, run the five questions on each. Which was fastest? Which would you choose in a lecture theatre, on a bike, in a hurry, in another language?
 
-Post your most surprising *hidden* or *false* affordance to the poll. 15 minutes.
+Post your most interesting _hidden_ or _false_ affordance to the poll. 15 minutes.
 :::
 :::
 ::: {.column width="40%"}
@@ -347,99 +353,75 @@ Post your most surprising *hidden* or *false* affordance to the poll. 15 minutes
 ## What the activity shows
 
 - The same task is not quite the same task: each interface reshaped what "tell someone" meant (a sentence, a spoken phrase, a location).
-- Interaction type predicts a lot: instructing is fast for experts and opaque for novices; manipulating is discoverable and slow; conversing hands the learning to the system.
-- "Best" depended on context and on who you already were. We'll see a company bet everything on getting this wrong in the Newton vs Palm case study later today.
-- Now the catalogue. Every type that follows is a different bundle of affordances and constraints, and each has a slide of research and design considerations that are the answers people found to questions 2 to 5.
+- Interaction type predicts a lot: instructing is fast for experts and opaque for novices; manipulating is discoverable and slow; conversing requires a system to know a lot.
+- "Best" usually depened your context and you. 
+
+Now the catalogue of interfaces. Every type that follows is a different bundle of affordances and constraints backed by research and design considerations.
+
+# The Human-Computer Interface Catalogue
 
 ## Command Line Interfaces
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 
-- Type in commands (e.g., `ls`)
-- pressing certain combinations of keys (e.g., `Ctrl + V`)
-- fixed from the keyboard (e.g., `delete`, `enter`, `esc`) or user-defined
-- largely superseded by graphical interfaces such as menus, icons, predictable text commands 
-- still useful for complex software (e.g., CAD), scripting batch operations, coding
-- _is chatGPT a CLI?_
-  
+- Type in commands (e.g., `ls`) or key combos (e.g., `:q!`)
+- largely superceded, but useful for complex software (e.g., CAD), scripting, coding
+- 1980 research investigated command interfaces' optimisation: 
+  - form of the commands (e.g., abbreviations, familiar names)
+  - syntax (e.g., how to combine commands), and organisation [@scneiderman1992designing].
+  - findings showed no universal optimal methods on command naming!
+
+::: {.info-box}
+**Design principle:** naming the commands should be as _consistent_ as possible!
+:::
+
 :::
 ::: {.column width="50%"}
 ![Charles editing a lecture in neovim (`:w`)](img/charles-neovim.png){width=100%}
 :::
 ::::::::::::::
 
-## Research and Design for CLIs
-
-Back in 1980s, much research investigated command interfaces' optimisation:
-
-- form of the commands such as the use of abbreviations, full names, and familiar names;
-- syntax (e.g., how best to combine different commands), and organisation (e.g., how to structure options), are examples of some of the main areas that have been investigated [@scneiderman1992designing].
-- Findings showed no universal optimal methods on command naming!
-
-::: {.info-box}
-**Design principle:** labeling/naming the commands should be chosen to be as *consistent* as possible!
-:::
-
 ## Graphical User Interfaces
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 
-- Information represented within a graphical interface 
+- Information represented within a graphical interface
 - use of color, typography, and imagery [@mullet1996designing]
-- interface features abbreviated as WIMP
-    - Windows
-    <!-- lecture notes for charles -->
-    <!-- overcome physical display constraints; enable concurrent task operations. -->
-    - Icons
-     <!-- objects as part of desktop metaphor; easier to learn and remember. -->
-    - Menus
-     <!-- support navigation; different styles such as flat lists, drop-down, pop-up, contextual, etc. -->
-    - Pointer
-  
+- interface features abbreviated as WIMP (Windows, Icons, Menus, Pointer)
+- window management
+  - enabling movement between windows and displays without distraction
+  - keyboard shortcuts and task bars design; auto-fill in online forms
+- consistent menu design and icon libraries
+
 :::
 ::: {.column width="50%"}
 ![Apple's first GUI: Lisa. Source: The Lisa: Apple's Most Influential Failure, Computer History Museum.](img/Lisa-desktop-screen.jpg){width=90%}
 :::
 ::::::::::::::
 
-## Research and Design for GUIs
-
-- window management
-    - enabling fluid movement and rapid attention shifts between windows and displays without distraction
-    - e.g., keyboard shortcuts and task bars design; auto-fill in online forms
-- menu design consideration: decide which terms to use for menu options
-- consistent icon libraries for developer: e.g., [fontawesome.com](fontawesome.com) or [thenounproject.com](thenounproject.com)
-
 ## Multimedia
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-A single interface combines different media such as graphics, text, video, sound, and links them together with various forms of interactivity. E.g., Wikipedia.
+One interface combines different media (graphics, text, video, sound...) linked via interactivity
 
 - better information presentation.
-- facilitate rapid access to multiple representations of information.
+- developed for training, educational, and entertainment purposes.
 
-:::
-::: {.column width="50%"}
-![multimedia learning app for tablets. Source: KidsDiscover “Roman Empire for iPad”](img/multimedia-learning-app-example.png
-){width=80%}
-:::
-::::::::::::::
-
-## Multimedia
-
-- developed for training, educational, and entertainment purposes. 
-- To what extent do multimedia interfaces improve learning and play?
-- What happens when users have unlimited access to diverse media and simulations?
-
-### Research and Design Considerations
+### Research and Design 
 
 - How to encourage interaction with all aspects?
 - provide a diversity of hands-on interactivities and simulations
-- employ dynalinking, where changes in one window directly update another [@rogers1996search].
+- dynalinking, where changes in one window directly update another [@rogers1996search].
 - how to best combine multiple media to support different kinds of tasks?
+
+:::
+::: {.column width="50%"}
+![multimedia learning app for tablets. Source: KidsDiscover “Roman Empire for iPad”](img/multimedia-learning-app-example.png){width=80%}
+:::
+::::::::::::::
 
 ## Augmented and Virtual Reality
 
@@ -451,38 +433,35 @@ Interfaces can sit on a spectrum between fully virtual and fully real interactio
 - Augmented reality usually closer to "real" reality.
 - eXtended reality (XR) is a more recent term.
 
-Has often seemed like a great idea, but hasn't cracked mainstream yet (or has it??)
+### Early AR
+
+- blending of digital content with the physical world to create an enhanced real-world experience
+- 1960s: Ivan Sutherland's development of the first head-mounted three-dimensional display
+
 :::
 ::: {.column width="40%"}
 ![The reality-virtuality continuum](img/reallity-virtuality-continuum.jpg)
+
+
+![First augmented reality head-mounted display [@sutherland1967ar].](img/wk11-ivan-sutherland-headset.jpg){width=80%}
 :::
 ::::::::::::::
 
 ## Augmented Reality
 
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-- blending of digital content with the physical world to create an enhanced real-world experience
-- 1960s: Ivan Sutherland's development of the first head-mounted three-dimensional display
-:::
-::: {.column width="50%"}
-![First augmented reality head-mounted display system. Source: [@sutherland1967ar].](img/wk11-ivan-sutherland-headset.jpg){width=80%}
-:::
-::::::::::::::
-
-## Augmented Reality
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+
 - AR systems have evolved significantly, particularly displays and interaction models [@speicher2019mixed;@billinghurst-2015-ar-survey]
 - displays: see-through, screen-based, projection-based.
 - "spatial Computing", another way of thinking about it, defined by @greenwold-2003-spatial-computing
-    -  *“human interaction with a machine in which the machine retains and manipulates referents to real objects and spaces."*
--  emphasising not only the augmentation of reality but also the *meaningful* interaction between digital and physical elements.
+  - _“human interaction with a machine in which the machine retains and manipulates referents to real objects and spaces."_
+- emphasising not only the augmentation of reality but also the _meaningful_ interaction between digital and physical elements.
 :::
 ::: {.column width="40%"}
-![AR smartphone game Pokémon Go.](img/pokemon-go.jpg){width=80%}
+  ![AR smartphone game Pokémon Go.](img/pokemon-go.jpg){width=80%}
 
-![AR musical instrument (Yichen Wang, 2022).](img/yichen-cube.jpg){width=80%}
+![AR musical instrument [@wang-mobility-space:2023].](img/yichen-cube.jpg){width=80%}
 :::
 ::::::::::::::
 
@@ -492,32 +471,21 @@ Has often seemed like a great idea, but hasn't cracked mainstream yet (or has it
 ::: {.column width="60%"}
 Emerged in 1970s with computer-generated graphical simulations.
 
-**Goal**: to create user experiences that feel real when interacting with an artificial environment. 
+**Goal**: to create user experiences that feel real when interacting with an artificial environment.
 
-- stereoscopically displayed image.
-- interact with objects through input devices such a joystick within the field of vision.
-- higher level of fidelity compared to other graphical interfaces, provides immersion.
-- different viewpoints: first-person perspective, third-person perspective, etc.
+- stereoscopically displayed immersive image.
+- variety of input devices
+- used for: 
+  - training (e.g., pilots, medicine, first responders).
+  - treatment (e.g, mental health)
+  - **entertainment**.
 
 :::
 ::: {.column width="40%"}
-![Avatars for the “We Wait” VR experience [@steed-we-wait:2018] (CC-BY 4.0)](img/vr-example.png){width=80%}
-:::
-::::::::::::::
+![Avatars for the “We Wait” VR experience [@steed-we-wait:2018]](img/vr-example.png){width=75%}
 
-## Research and Design for Virtual Reality
+![iFire Networked Visualisation System. [UNSW, 2025](https://www.unsw.edu.au/research/icinema/our-research/projects/ifire)](img/2024-06-ifire-networked-visualisation-system.png){width="75%"}
 
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-- learning and training for specific skills.
-    - driving, pilot training, surgery, medicine, complex/confronting environments.
-    - build up skills with lower costs and low risk.
-- navigation for accessibility, treatment (e.g, mental health)
-- **entertainment**.
-- virtual body to enhance the feeling of presence; reduce cybersickness; support natural user experience; the level of realism to target, etc.
-:::
-::: {.column width="40%"}
-![iFire Networked Visualisation System. [UNSW Center for Interactive Cinema Research, 2025](https://www.unsw.edu.au/research/icinema/our-research/projects/ifire)](img/2024-06-ifire-networked-visualisation-system.png){width="100%"}
 :::
 ::::::::::::::
 
@@ -535,33 +503,22 @@ Chat for 3 minutes and we'll hear a few responses.
 ## Website Design
 
 :::::::::::::: {.columns}
-::: {.column width="60%"}
+::: {.column width="50%"}
 
-- early websites were largely text-based, with hyperlinks to different places or pages of text.  
-    - *"how best to structure information at the interface level to enable users to navigate and access it easily and quickly?"*
+- early websites mainly text-based with hyperlinks (_"how to navigate quickly and easily?"_)
 - shift from information usability to aesthetics and visual design.
+- breadcrumb nav a key element: helps navigate without losing track
+- designs for phones, touch, smaller displays and _infinite scrolling_.
+- core questions proposed by Keith Instone: _"Where am I? What's here? Where can I go?"_ [@veen2000art]
 
-> Much of the content on a web page is not read. Web designers are “thinking great literature” (or at least “product brochure”), while the viewer's reality is much closer to a “billboard going by at 60 miles an hour” [@krug2014don].
+> Much of the content on a web page is not read... the viewer's reality is... a “billboard going by at 60 miles an hour” [@krug2014don].
+
 :::
-::: {.column width="40%"}
+::: {.column width="50%"}
 ![[Web Design history (source)](https://lionsheaddesigns.com/Web-Design.html)](img/designhistory.jpg){width="50%"}
-:::
-::::::::::::::
 
-## Website Design
+![A breadcrumb trail](img/bread-crummb.png){width="100%"}
 
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-- web development involves multiple technologies
-- CSS, HTML, JavaScript, node.js, Python, etc.
-- breadcrumb navigation (key interface element): "way finding" to navigate without losing track
-- design for smartphone or table interaction modality, for smaller-sized displays and for *infinite scrolling*.
-- three core questions proposed by Keith Instone: *"Where am I? What's here? Where can I go?"* [@veen2000art]
-:::
-::: {.column width="40%"}
-![Web Development [tools](https://vocal.media/education/web-development-tools)](img/web-dev-pl.png){width="70%"}
-
-![A breadcrumb trail on the Best Buy website showing [three choices made by the user to get to Smart Lights (source)](https://www.bestbuy.ca)](img/bread-crummb.png){width="100%"}
 :::
 ::::::::::::::
 
@@ -571,10 +528,13 @@ Chat for 3 minutes and we'll hear a few responses.
 ::: {.column width="60%"}
 Smartphones, fitness trackers, smartwatches, large-sized tablets on the flight, educational tablets, etc.
 
-- embedded sensors, such as accelerometer for movement detection, thermometer for temperature measurement, bio/fitness sensors.
-- new affordances led to novel and creative apps e.g.,
-    - [Ocarina](https://ccrma.stanford.edu/~ge/ocarina/) [@wang2014ocarina]
-    - contextual information access: scanning QR codes
+- embedded sensors: movement, GPS, bio/fitness sensors.
+- affordances led to novel and creative apps e.g.,
+  - [Ocarina](https://ccrma.stanford.edu/~ge/ocarina/) [@wang2014ocarina]
+  - contextual information access: scanning QR codes
+- careful design of limited screen and control space
+- touch target size crucial for touch small touch screens
+- guidelines exist mobile interface design, e.g., [@babich2018mobileux].
 
 :::
 ::: {.column width="40%"}
@@ -584,26 +544,20 @@ Smartphones, fitness trackers, smartwatches, large-sized tablets on the flight, 
 :::
 ::::::::::::::
 
-## Research and Design: Mobile Interfaces
-
-- careful design of limited screen and control space, including the selection, placement, and software integration of hardware controls.
-- ensuring touch targets like buttons and icons are large enough for accurate use by all finger sizes.
-- other guidelines exist providing advice on how to design interfaces for mobile devices, e.g., [@babich2018mobileux].
-
-
 ## Appliances
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+
 - machines for everyday use in the home
 - washing machines, microwaves, refrigerators, toasters, bread makers, blenders
 - connections to the internet, control by remote apps
 - do such designs help?
 - @cooper2014face suggest that appliance interfaces require the designer to view them as transient interfaces, where the interaction is short.
-- Two fundamental design principles: simplicity and visibility. 
+- Two fundamental design principles: simplicity and visibility.
 :::
 ::: {.column width="40%"}
-![The Design of Everyday Things. @Norman:2013](img/design-of-everyday-things.jpg){width="50%"}
+  ![The Design of Everyday Things. @Norman:2013](img/design-of-everyday-things.jpg){width="50%"}
 :::
 ::::::::::::::
 
@@ -615,23 +569,12 @@ Smartphones, fitness trackers, smartwatches, large-sized tablets on the flight, 
 - lets users interact with apps (e.g., search engines, chatbots, or travel planners) through spoken language
 - commonly used to request information (like flight times or weather) or issue commands (e.g., playing music or selecting a movie)
 - Voice interfaces rely on command- or conversation-based interaction.
-- early speech systems earned a reputation for *mishearing* all too often what a person said (still true?)
+- early speech systems earned a reputation for _mishearing_ all too often what a person said (still true?)
 :::
 ::: {.column width="40%"}
-![Apple Siri. Source: CHEEZburger Memebase. ](img/why-so-mean-siri.jpg){width="60%"}
+  ![Apple Siri. Source: CHEEZburger Memebase. ](img/why-so-mean-siri.jpg){width="60%"}
 :::
 ::::::::::::::
-
-## Applications for Voice Interfaces
-
-- Dictation (e.g., Otter.io, Dragon), faster than typing, accessibility.
-- Call routing: Automate customer service; saves costs; needs human fallback when needed.
-- Barge-in feature: Lets users interrupt system prompts to speed up interactions.
-- Directed dialogue: System asks specific questions; user gives limited responses.
-- Flexible input risks: Users may give too much info; guided prompts help keep input manageable.
-- Mobile speech apps: Used for voice search, translation (e.g., Siri, Google Translate); enables real-time multilingual conversations.
-- Voice assistants: Amazon's Alexa and Google Home offer interactive skills; promote shared family use and entertainment.
-- Current limits: Struggles with kids' speech, group speaker recognition, and requires name activation.
 
 ## Research and Design for Voice Interaction
 
@@ -640,8 +583,8 @@ Smartphones, fitness trackers, smartwatches, large-sized tablets on the flight, 
 What conversational mechanisms to use to structure the voice interface and how human-like they should be?
 
 - natural conversation
-- system navigation efficiency 
-- synthesised voice or voice actor: male, female, neutral, dialect, and pronunciation 
+- system navigation efficiency
+- synthesised voice or voice actor: male, female, neutral, dialect, and pronunciation
 
 Pros and cons of dialogue structures, error handling, and etiquette remain key for modern voice interfaces [@cohen2004voice].
 :::
@@ -654,6 +597,7 @@ Pros and cons of dialogue structures, error handling, and etiquette remain key f
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+
 - light pens, styluses, or scanners for drawing and writing
 - write, draw, select, and move objects on a page or tablet.
 - very early use in [CRT displays with lightpen](https://en.wikipedia.org/wiki/Fairlight_CMI)!
@@ -673,11 +617,11 @@ _Pens are great!_ We should do more with them.
 ::: {.column width="60%"}
 Two pen-input handhelds, three years apart, with opposite answers.
 
-- **Newton MessagePad (1993):** recognises your ordinary handwriting. The machine does the learning.
-- **Palm Pilot (1996):** Graffiti, a one-stroke alphabet from Xerox PARC's Unistrokes [@goldberg-unistrokes:1993]. The user does the learning.
+- **Newton MessagePad (1993):** recognises your ordinary handwriting. The machine learns your style.
+- **Palm Pilot (1996):** Graffiti, a one-stroke alphabet from Xerox PARC's Unistrokes [@goldberg-unistrokes:1993]. The user learns a new alphabet.
 
 ::: {.talk-box}
-**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ It's 1993. Which one ships? What would you *measure* first? 2 minutes.
+**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ It's 1993. Which design would you go with? What would usability and user experience look like? (2 minutes).
 :::
 :::
 ::: {.column width="40%"}
@@ -691,9 +635,9 @@ Newton MessagePad 100 and PalmPilot Professional. Photos: F. Winkelnkemper (CC B
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Apple's sounds like the better idea, and it's probably what most of you just voted for.
+Apple's sounds like the better idea, but it considered the failure.
 
-- Newton misread adult handwriting often enough to become a joke: a week of Doonesbury ("Catching on?" became "Egg freckles") [@trudeau-doonesbury-newton:1993] and the Simpsons' "Eat up Martha".
+- Newton misread handwriting often enough to become a joke: a week of Doonesbury ("Catching on?" became "Egg freckles") [@trudeau-doonesbury-newton:1993] and the Simpsons' "Eat up Martha".
 - Later models fixed the recognition, but the reputation didn't recover and Apple killed the line in 1998.
 - Graffiti: 86% after a minute with the chart, 97% after five minutes, still 97% a week later [@mackenzie-graffiti-usability:1997].
 
@@ -713,7 +657,7 @@ Apple's sounds like the better idea, and it's probably what most of you just vot
 :::
 
 ::: {.success-box}
-**The test that would have caught it:** recognition accuracy on unconstrained adult handwriting, measured *before* the ship decision, against a threshold agreed in advance. That's a usability test with one dependent variable (week 8, a bit early).
+**The test that would have caught it:** recognition accuracy on unconstrained adult handwriting, measured _before_ the ship decision, against a threshold agreed in advance. That's a usability test with one dependent variable (week 8, a bit early).
 :::
 
 Every case study from here to week 12 finishes with the evaluation that would have caught it. By week 12 you'll have a menu for your final project's evaluation plan.
@@ -722,6 +666,7 @@ Every case study from here to week 12 finishes with the evaluation that would ha
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+
 - common in kiosks, ATMs, checkouts, phones, tablets, computers.
 - Now weird to find a _non_ touchscreen.
 - **Single-touch** respond to single taps.
@@ -731,11 +676,11 @@ Every case study from here to week 12 finishes with the evaluation that would ha
 - _but_ there are limitations. How do you "undo" on an iPhone?
 :::
 ::: {.column width="40%"}
-![A schematic of a multitouch interface. Source: Willtron / CC BY 1.0](img/multitouch-interface.png){width="80%"}
+  ![A schematic of a multitouch interface. Source: Willtron / CC BY 1.0](img/multitouch-interface.png){width="80%"}
 :::
 ::::::::::::::
 
-<!-- 
+<!--
 ## Research and Design for Touchscreens
 
 - Touchscreens are widely used with new ways to interact like swiping, carousels, and virtual keyboards.
@@ -760,21 +705,21 @@ Every case study from here to week 12 finishes with the evaluation that would ha
 - **Gesture recognition challenge:** Systems must detect when a gesture starts and ends, and distinguish intentional gestures (e.g., pointing) from unconscious movements (e.g., hand waving).
 - **Gestures as output:** Gestures can also be visualised, such as through avatars mirroring user movements in real time.
 - **3D sensing:** Devices with depth cameras (e.g., smartphones, laptops, smart speakers) can capture and respond to gestures in 3D space.
-- *Design consideration*: How realistic the avatar or mirrored representation must be for users to feel it's believable and connected to their own gestures?
+- _Design consideration_: How realistic the avatar or mirrored representation must be for users to feel it's believable and connected to their own gestures?
 
 ## Haptic Interfaces
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+
 - vibration and forces (via actuators) to provide tactile feedback
 - can be embedded in clothing or mobile devices such as smartphones and watches.
 - gaming consoles and driving simulators use haptics to enhance realism.
 - vibrotactile feedback can simulate remote physical communication, like hugs or squeezes, using actuators in clothing.
-- Haptics can also be used for skill training, such as learning musical instruments.
-    - *"novice players responded well to vibrotactile cues, adjusting their actions accordingly."*
+- Haptics can also be used for skill training, such as learning musical instruments. - _"novice players responded well to vibrotactile cues, adjusting their actions accordingly."_
 :::
 ::: {.column width="40%"}
-![The MusicJacket with embedded actuators that nudge the player to move their arm up to be in the correct position. Source: Yvonne Rogers](img/musicjacket.png){width="50%"}
+  ![The MusicJacket with embedded actuators that nudge the player to move their arm up to be in the correct position. Source: Yvonne Rogers](img/musicjacket.png){width="50%"}
 :::
 ::::::::::::::
 
@@ -782,15 +727,14 @@ Every case study from here to week 12 finishes with the evaluation that would ha
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
--  Ultrahaptics uses ultrasound to create 3D shapes and textures in midair that can be felt but not seen.
+
+- Ultrahaptics uses ultrasound to create 3D shapes and textures in midair that can be felt but not seen.
 - It simulates touch-based interfaces (e.g., buttons, sliders) that appear in midair.
 - In automotive interfaces to replace physical controls with invisible, tactile controls: adjust volume or change radio stations.
-- Haptic Exoskeletons: bedded into wearable exoskeletons, inspired by “Techno Trousers” from *Wallace and Gromit* [@rossiter2018past].
-    - Graphene parts are used to stiffen or relax the trousers to assist movement.
-    - Application in mobility assistance, fitness.
+- Haptic Exoskeletons: bedded into wearable exoskeletons, inspired by “Techno Trousers” from _Wallace and Gromit_ [@rossiter2018past]. - Graphene parts are used to stiffen or relax the trousers to assist movement. - Application in mobility assistance, fitness.
 :::
 ::: {.column width="40%"}
-![Trousers with artificial muscles that use a new kind of bubble haptic feedback. Source: The Right Trousers Project](img/right-trousers.png){width="30%"}
+  ![Trousers with artificial muscles that use a new kind of bubble haptic feedback. Source: The Right Trousers Project](img/right-trousers.png){width="30%"}
 :::
 ::::::::::::::
 
@@ -809,7 +753,7 @@ Every case study from here to week 12 finishes with the evaluation that would ha
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-- multiple input/output modalities (e.g., touch, sight, sound, speech) to enhance user interaction [@bouchet2004icare]; 
+- multiple input/output modalities (e.g., touch, sight, sound, speech) to enhance user interaction [@bouchet2004icare];
 - natural, flexible, and expressive interactions, similar the real world interaction experience [@oviatt2017handbook].
 - Common combinations: speech and gesture; eye-gaze and gesture; haptic and audio, pen input and speech [@dumas2009multimodal].
 - Speech + vision processing is the most common [@deng2004challenges]!
@@ -829,7 +773,7 @@ E.g., Kinect for Xbox — combined RGB camera, depth sensor, and microphones for
 
 - more complex to design than single modality systems.
 - most researched interaction modes are: speech, gesture, eye-gaze tracking.
-- *What are the actual benefits of combining multiple input/output modalities?*
+- _What are the actual benefits of combining multiple input/output modalities?_
 - Is natural human-like interaction (e.g., talk + gesture) effective when applied to computer interaction?
 
 Design guidelines, see [@oviatt2017handbook].
@@ -855,7 +799,7 @@ multiple simultaneous inputs by co-located groups. E.g., large wall displays (e.
 - This creates a shared point of reference, enhancing group coordination and participation (Rogers et al., 2009).
 :::
 ::: {.column width="40%"}
-![Collaborative Musical Instrument Reactable [@jorda2010reactable]. (source)[https://www.ycam.jp/en/archive/works/reactable/].](img/reactable.jpg){width="80%"}
+  ![Collaborative Musical Instrument Reactable [@jorda2010reactable]. (source)[https://www.ycam.jp/en/archive/works/reactable/].](img/reactable.jpg){width="80%"}
 :::
 ::::::::::::::
 
@@ -879,19 +823,17 @@ from single-device interactions (e.g.,handwriting) to cross-device collaboration
 :::
 ::::::::::::::
 
-
 ## Tangible
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Link physical objects (bricks, cubes, clay) with digital representations through embedded sensors [@ishii1997tangible; @fishkin2004taxonomy] 
+Link physical objects (bricks, cubes, clay) with digital representations through embedded sensors [@ishii1997tangible; @fishkin2004taxonomy]
 
 Manipulating objects triggers digital effects like sounds, animations, or lights, either on the object or in surrounding media (e.g., Tangible Bits [@ishii1997tangible]).
 
 Some use physical models on digital surfaces (tabletops), where moving objects influences digital events (e.g., Urp for urban planning).
 
 Physical artifacts can be lifted, rearranged, and manipulated directly, distinguishing from purely screen-based or mobile interfaces.
-
 
 :::
 ::: {.column width="40%"}
@@ -910,7 +852,7 @@ Physical artifacts can be lifted, rearranged, and manipulated directly, distingu
 ## Research and Design for Tangible Interfaces
 
 - Conceptual frameworks e.g., [@shaer2010tangible; @ullmer2005token; @fishkin2004taxonomy] identify what makes tangible interfaces unique.
-- A main design challenge is deciding how to link physical actions to digital effects - the notion of *coupling*.
+- A main design challenge is deciding how to link physical actions to digital effects - the notion of _coupling_.
 - Designers must choose the types and where digital feedback appears (e.g., on the object, beside it, or elsewhere), based on the interface's purpose. E.g., learning? entertainment?
 - Choosing the right physical artifacts (e.g., cubes, tokens)to support natural and hands-on interaction.
 - Simple materials like sticky notes or cardboard tokens can be used to link physical actions to digital responses.
@@ -961,8 +903,8 @@ Drones, once military and hobbyist tools, now serve in delivery, entertainment, 
 
 <!-- ## Research and Design with Robots and Drones
 
-- Robots: Ethical questions arise around designing robots with human- or animal-like traits. 
-- Should they mimic humans emotionally and physically, or clearly appear as machines with functional roles? 
+- Robots: Ethical questions arise around designing robots with human- or animal-like traits.
+- Should they mimic humans emotionally and physically, or clearly appear as machines with functional roles?
 - Many prefer “cute pet” robots for their comforting and less unsettling nature. Interaction design also varies between human-like engagement (talking, gesturing) and traditional controls (buttons, dials).
 - Drones: Ethical concerns include privacy violations (spying on people or property without consent) and the use of drones as autonomous lethal weapons. There is ongoing debate about banning killer drones to maintain meaningful human control. -->
 
@@ -977,7 +919,7 @@ Detect neural signals via electrodes in headsets placed on the scalp.
 
 Assist or augment cognitive and motor functions—especially for people with disabilities (e.g., BrainGate lets paralyzed users type via thought).
 
-...and *entertainment* -- e.g., Brainball, where relaxation controls a ball's movement.
+...and _entertainment_ -- e.g., Brainball, where relaxation controls a ball's movement.
 
 Aim to transfer mental states (e.g., “focused,” “relaxed”) between people via stimulation.
 
@@ -1013,6 +955,7 @@ Aim to transfer mental states (e.g., “focused,” “relaxed”) between peopl
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+
 - Use physical form changes as input/output (e.g., 3D bar charts moving rods to show data) [@alexander2018grand].
 - Enable tactile interaction beyond screens
 - Make data more relatable by embedding it in everyday contexts
@@ -1024,7 +967,7 @@ Aim to transfer mental states (e.g., “focused,” “relaxed”) between peopl
 - Size of rod grids; number of cubes for easy learning and recognition.
 :::
 ::: {.column width="40%"}
-![inFORM: A shape-changing interface that uses a series of motor-controlled pins to render digital content in the form of 3D rods; developed by MIT Media Group. Source: <http://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM%20Collection/4676>](img/inform-mit.png){width="80%"}
+  ![inFORM: A shape-changing interface that uses a series of motor-controlled pins to render digital content in the form of 3D rods; developed by MIT Media Group. Source: <http://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM%20Collection/4676>](img/inform-mit.png){width="80%"}
 :::
 ::::::::::::::
 
@@ -1033,12 +976,12 @@ Aim to transfer mental states (e.g., “focused,” “relaxed”) between peopl
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-- Create the illusion of a 3D person being present through taking advantage of the human perceptual system. 
-- The projection and display technology have achieved some convincing results (e.g., ABBA Voyage in London). 
+- Create the illusion of a 3D person being present through taking advantage of the human perceptual system.
+- The projection and display technology have achieved some convincing results (e.g., ABBA Voyage in London).
 
 ### Research and Design Consideration
 
--  A lot research conducted in the tech industry exploringhow to represent people in virtual spaces in ways that feel natural, comfortable, engaging, and not creepy.
+- A lot research conducted in the tech industry exploringhow to represent people in virtual spaces in ways that feel natural, comfortable, engaging, and not creepy.
 - Design considerations include hologram size and how users can interact and communicate with projections in their space.
 
 :::
@@ -1081,9 +1024,9 @@ A natural user interface (NUI) is designed to allow people to interact with a co
 
 Don Norman [@Norman:2013] argues "natural" depends on a number of factors:
 
- - how much learning is required, 
- - the complexity of the app or device's interface, 
- - and whether accuracy and speed are needed. 
+- how much learning is required,
+- the complexity of the app or device's interface,
+- and whether accuracy and speed are needed.
 
 A gesture may be worth a thousand words; other times a word is worth a thousand gestures. Depends how many functions the system supports.
 :::
@@ -1094,19 +1037,17 @@ A gesture may be worth a thousand words; other times a word is worth a thousand 
 
 ## Which Interface?
 
-- is multimedia better than tangible interfaces for learning? 
-- Is voice effective as a command-based interface? 
-- Is a multimodal interface more effective than a single media interface? 
+- is multimedia better than tangible interfaces for learning?
+- Is voice effective as a command-based interface?
+- Is a multimodal interface more effective than a single media interface?
 - Are wearable interfaces better than mobile interfaces for helping people find information in foreign cities?
--  How does VR differ from AR, and which is the ultimate interface for playing games?  etc.
+- How does VR differ from AR, and which is the ultimate interface for playing games? etc.
 
-It depends! 
+It depends!
 
 ...the interplay of a number of factors, including type of task, the people using the system, context, reliability, social acceptability, privacy, ethical, and location concerns.
 
-
 <!-- boilerplate ending -->
-
 
 ## Questions: Who has a question?
 
