@@ -215,9 +215,11 @@ Big reference libraries are part of academic work.
 
 # Understanding Interfaces {background-image="img/interfaces_1_hololens.jpg" background-size="cover" background-opacity="0.35"}
 
+## Describing Interfaces
+
 How would you describe a computer interface?
 
-graphical, command, speech, ambient, intelligent, tangible, touch free, natural, etc.
+> graphical, command, speech, ambient, intelligent, tangible, touch free, natural, etc.
 
 Focus of interface can change:
 
@@ -232,11 +234,11 @@ Focus of interface can change:
 ::: {.column width="40%"}
 There are many interfaces, but only a handful of ways of _interacting_ with them [@rogers-beyond-hci:2023]:
 
-- Instructing
-- Conversing
-- Manipulating
-- Exploring
-- Responding
+- Instructing: issue commands
+- Conversing: having a dialogue
+- Manipulating: acting on objects
+- Exploring: moving through a space
+- Responding: being addressed by the system
 
 :::
 ::: {.column width="60%"}
@@ -305,7 +307,7 @@ False: A button that's too small to hit.
 
 ## Affordance analysis
 
-Pick an interface and a task. Answer five questions:
+Pick an interface and a task. Analyse in terms of affordances:
 
 1. **Interaction type**: are you instructing, conversing, manipulating, exploring or responding? [@rogers-beyond-hci:2023]
 2. **Affords**: what does it let you do that other interfaces wouldn't?
