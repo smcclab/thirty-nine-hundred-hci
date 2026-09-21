@@ -1,7 +1,8 @@
 ---
 title: Interfaces
 author: Dr Charles Martin
-description: "Interface types in HCI, from command line and GUI to touch, wearable, VR/AR and multimodal interfaces, plus research skills for finding and citing sources."
+fontsize: 9pt
+description: "Affordance analysis as a method for looking at any interface (Norman, Gaver, interaction types), tried live on a phone, then a catalogue of interface types from command line and GUI to touch, voice, AR/VR, tangible and wearable, the Newton vs Palm case study, and research skills for finding and citing sources."
 title-slide-attributes:
   data-background-image: img/yichen-cube.jpg
   data-background-size: cover
@@ -101,7 +102,10 @@ Write your reference list as a **numbered Markdown list**, and end every entry w
 ```markdown
 ### References
 
-1. Kazuhiro Wada, Masaya Tsunokake, and Shigeki Matsubara. 2025. Citation-Worthy Detection of URL Citations in Scholarly Papers. Proceedings of the 24th ACM/IEEE Joint Conference on Digital Libraries. Association for Computing Machinery, New York, NY, USA, Article 28, 1–5. <https://doi.org/10.1145/3677389.3702570>
+1. Kazuhiro Wada, Masaya Tsunokake, and Shigeki Matsubara. 2025. Citation-Worthy
+   Detection of URL Citations in Scholarly Papers. Proceedings of the 24th ACM/IEEE
+   Joint Conference on Digital Libraries. Association for Computing Machinery,
+   New York, NY, USA, Article 28, 1–5. <https://doi.org/10.1145/3677389.3702570>
 ```
 
 ::: {.warn-box}
@@ -110,8 +114,8 @@ Write your reference list as a **numbered Markdown list**, and end every entry w
 
 ## Metadata vs citation format
 
-:::::::::::::: {.columns}
-::: {.column width="50%"}
+::::::::::::: {.columns}
+::: {.column width="42%"}
 
 - metadata for a reference can be used with any citation format
 - academics often use special tools for storing reference metadata
@@ -120,25 +124,32 @@ Write your reference list as a **numbered Markdown list**, and end every entry w
 - in LaTeX you can select citation format (e.g., ACM, IEEE, Chicago, Harvard, APA)
 
 :::
-::: {.column width="50%"}
+::: {.column width="58%"}
 
 ```
 @inproceedings{adiwangsa-charades:2025,
-author = {Adiwangsa, Michelle and Bransky, Karla and Wood, Erika and Sweetser, Penny},
-title = {A Game of ChARades: Using Role-Playing and Mimicry with and without Tangible Objects to Ideate Immersive Augmented Reality Experiences},
-year = {2025},
-isbn = {9798400714863},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3715668.3736382},
-abstract = {Using tangible objects for immersive augmented reality (AR) experiences offers various benefits, such as providing a physical means of interacting with virtual objects and enhancing the functionality of everyday objects. However, designing AR experiences with tangible objects presents unique challenges, particularly due to the diverse physical properties that can influence user interactions. In this provocation, we explore effective approaches for ideating such AR experiences, by designing two exergames intended for AR head-mounted displays (HMDs). We found that role-playing and mimicry, both with and without tangible objects, provide valuable benefits in the design of such experiences. Building on this insight, we introduce ChARades, an iterative and playful gamestorming technique that incorporates role-playing and mimicry in both forms, to ideate immersive AR experiences involving tangible objects.},
-booktitle = {Companion Publication of the 2025 ACM Designing Interactive Systems Conference},
-pages = {440–445},
-numpages = {6}
+  author = {Adiwangsa, Michelle and Bransky,
+    Karla and Wood, Erika and Sweetser, Penny},
+  title = {A Game of ChARades: Using Role-Playing
+    and Mimicry with and without Tangible Objects
+    to Ideate Immersive Augmented Reality
+    Experiences},
+  year = {2025},
+  isbn = {9798400714863},
+  publisher = {Association for Computing
+    Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3715668.3736382},
+  abstract = {Using tangible objects for
+    immersive augmented reality (AR) ...},
+  booktitle = {Companion Publication of the 2025
+    ACM Designing Interactive Systems Conference},
+  pages = {440–445},
+  numpages = {6}
 }
 ```
 
-The metadata entry for @adiwangsa-charades:2025 which is cited using `[@adiwangsa-charades:2025]` in this Markdown document. In LaTeX you would cite it like this: `\cite{adiwangsa-charades:2025}`.
+The entry for @adiwangsa-charades:2025, cited as `[@adiwangsa-charades:2025]` in Markdown or `\cite{adiwangsa-charades:2025}` in LaTeX.
 
 :::
 ::::::::::::::
@@ -173,7 +184,7 @@ Big reference libraries are part of academic work.
   - includes _full_ names of authors and publication details for clarity
   - includes DOI as a full URI
 - [ACM page](https://www.acm.org/publications/authors/reference-formatting) plain text examples for references to different types of source
-- [CSL version](https://github.com/citation-style-language/styles/blob/master/association-for-computing-machinery.csl) (Citation Style Langauge)
+- [CSL version](https://github.com/citation-style-language/styles/blob/master/association-for-computing-machinery.csl) (Citation Style Language)
 - [BST version](https://github.com/borisveytsman/acmart/blob/primary/ACM-Reference-Format.bst) (BibTeX Style)
 :::
 ::: {.column width="40%"}
@@ -271,20 +282,20 @@ There are many interfaces, but only a handful of ways of _interacting_ with them
 
 :::::::::::::: {.columns}
 ::: {.column width="55%"}
-What are the commonalities of these interfaces? What do they let you do, and how do you know?
+What do these interfaces let you do, and how do you know?
 
-- **Affordance**: a relationship between what a person can do and what a thing allows (not _just_ of the interface) [@Norman:2013].
-- **Signifier**: the perceivable cue that tells you the affordance is there. Buttons look pressable. A command prompt invites typing. 
-- **Constraint**: what the interface stops you doing. Constraints can provide character [@magnusson2010designconstrain] or a specific experience.
+- **Affordance**: a relationship between what a person can do and what a thing allows (not _just_ a property of the interface) [@Norman:2013].
+- **Signifier**: the perceivable cue that the affordance is there. Buttons look pressable. A prompt invites typing.
+- **Constraint**: what the interface stops you doing. Constraints can give character [@magnusson2010designconstrain].
 
 :::
 ::: {.column width="45%"}
 @gaver-technology-affordances:1991 organised affordances by whether you can perceive them:
 
-|                   | **possible** | **not possible** |
-| ----------------- | ------------ | ---------------- |
-| **signified**     | perceptible  | _false_          |
-| **not signified** | _hidden_     | (nothing)        |
+|                   | **can do**  | **can't do** |
+| ----------------- | ----------- | ------------ |
+| **signified**     | perceptible | _false_      |
+| **not signified** | _hidden_    | (nothing)    |
 
 Hidden: A shortcut you discover.
 
@@ -302,7 +313,7 @@ Pick an interface and a task. Answer five questions:
 4. **Hidden**: what's possible but not signified? (What did you only find out by being told?)
 5. **False**: what looks possible but isn't? (Things you tried that didn't work?)
 
-Are users responsible for learning and finding affordances, or is the designers job to show them?
+Are users responsible for learning and finding affordances, or is it the designer's job to show them?
 
 This analysis helps us answer "what is the best way for an interface to work?"
 
@@ -328,6 +339,19 @@ Let's do it live on something easy...
 :::
 :::
 ::::::::::::::
+
+::: notes
+Floor for the live fill, object: the lectern (touchscreen control panel + microphone + slide clicker).
+
+- Interaction type: instructing (press a labelled button: "Projector on", "Mute"), with a bit of manipulating (volume slider).
+- Affords: switching sources, mic level, lights, a dozen room states from one place without moving. One-handed while talking.
+- Constrains: fixed menu of room states; can't do anything the AV team didn't pre-program. Can't take it with me. Volume in steps not continuous.
+- Hidden: long-press or a hidden "advanced" page; that the clicker also has a blank-screen button; that the mic mutes itself when docked. All things told to me by a tech, not discovered.
+- False: on-screen buttons that look pressable but are greyed out / do nothing when no source connected; a "help" button that calls no one after 5pm.
+- Who learns? The lecturer, every new room, with no manual. Contrast: the AV team learned once and encoded it.
+
+Fallbacks: the lecture-theatre door (push plate vs pull handle, Norman's classic) or my phone lock screen (swipe up, camera shortcut hidden, notification you can't act on = false).
+:::
 
 ## Activity: one task, three interfaces
 
@@ -360,14 +384,14 @@ Now the catalogue of interfaces. Every type that follows is a different bundle o
 
 ## Live demo: one sound engine, three interfaces
 
-![nanojam: the same four sounds and the same sequencer behind pads, a command line, and a camera. <https://charlesmartin.au/nanojam/>](img/nanojam-interfaces.png){width="100%"}
+![nanojam: the same four sounds and the same sequencer behind pads, a command line, and a camera. <https://charlesmartin.au/nanojam/>](img/nanojam-interfaces.png){width="55%"}
 
 :::::::::::::: {.columns}
 ::: {.column width="55%"}
-Everything an interface can do is one of six commands to the same engine, so the _only_ thing that changes is the interaction.
+Every interface sends one of six commands to the same engine, so the _only_ thing that changes is the interaction.
 
 - **Pads** (manipulating): tap a sound
-- **CLI** (instructing): `loop kick x...x...x...x...`
+- **CLI** (instructing): `loop kick x...x...`
 - **Camera** (exploring): move a hand into a region
 :::
 ::: {.column width="45%"}
@@ -385,11 +409,8 @@ Everything an interface can do is one of six commands to the same engine, so the
 ::: {.column width="50%"}
 
 - Type in commands (e.g., `ls`) or key combos (e.g., `:q!`)
-- largely superceded, but useful for complex software (e.g., CAD), scripting, coding
-- 1980 research investigated command interfaces' optimisation: 
-  - form of the commands (e.g., abbreviations, familiar names)
-  - syntax (e.g., how to combine commands), and organisation [@shneiderman-designing-ui:1992].
-  - findings showed no universal optimal methods on command naming!
+- largely superseded, but useful for complex software (e.g., CAD), scripting, coding
+- 1980s research on command form (abbreviations, familiar names), syntax and organisation found no universal optimum for naming [@shneiderman-designing-ui:1992]
 
 ::: {.info-box}
 **Design principle:** naming the commands should be as _consistent_ as possible!
@@ -426,15 +447,9 @@ Everything an interface can do is one of six commands to the same engine, so the
 ::: {.column width="50%"}
 One interface combines different media (graphics, text, video, sound...) linked via interactivity
 
-- better information presentation.
-- developed for training, educational, and entertainment purposes.
-
-### Research and Design 
-
-- How to encourage interaction with all aspects?
-- provide a diversity of hands-on interactivities and simulations
-- dynalinking, where changes in one window directly update another [@rogers1996search].
-- how to best combine multiple media to support different kinds of tasks?
+- better information presentation; developed for training, education and entertainment
+- _dynalinking_: changes in one window directly update another [@rogers1996search]
+- design question: how do you get people to interact with _all_ of the media, not just the video?
 
 :::
 ::: {.column width="50%"}
@@ -501,9 +516,9 @@ Emerged in 1970s with computer-generated graphical simulations.
 
 :::
 ::: {.column width="40%"}
-![Avatars for the “We Wait” VR experience [@steed-we-wait:2018]](img/vr-example.png){width=75%}
+![Avatars for the “We Wait” VR experience [@steed-we-wait:2018]](img/vr-example.png){width=60%}
 
-![iFire Networked Visualisation System. [UNSW, 2025](https://www.unsw.edu.au/research/icinema/our-research/projects/ifire)](img/2024-06-ifire-networked-visualisation-system.png){width="75%"}
+![iFire Networked Visualisation System. [UNSW, 2025](https://www.unsw.edu.au/research/icinema/our-research/projects/ifire)](img/2024-06-ifire-networked-visualisation-system.png){width="55%"}
 
 :::
 ::::::::::::::
@@ -513,19 +528,17 @@ Emerged in 1970s with computer-generated graphical simulations.
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 
-- early websites mainly text-based with hyperlinks (_"how to navigate quickly and easily?"_)
-- shift from information usability to aesthetics and visual design.
-- breadcrumb nav a key element: helps navigate without losing track
-- designs for phones, touch, smaller displays and _infinite scrolling_.
-- core questions proposed by Keith Instone: _"Where am I? What's here? Where can I go?"_ [@veen2000art]
-
-> Much of the content on a web page is not read... the viewer's reality is... a “billboard going by at 60 miles an hour” [@krug2014don].
+- early websites: text and hyperlinks; then a shift to aesthetics and visual design
+- breadcrumb nav: navigate without losing track
+- now designed for phones, touch and _infinite scrolling_
+- Keith Instone's core questions: _"Where am I? What's here? Where can I go?"_ [@veen2000art]
+- most content is not read: _"a billboard going by at 60 miles an hour"_ [@krug2014don]
 
 :::
 ::: {.column width="50%"}
-![[Web Design history (source)](https://lionsheaddesigns.com/Web-Design.html)](img/designhistory.jpg){width="50%"}
+![[Web Design history (source)](https://lionsheaddesigns.com/Web-Design.html)](img/designhistory.jpg){width="30%"}
 
-![A breadcrumb trail](img/bread-crummb.png){width="100%"}
+![A breadcrumb trail](img/bread-crummb.png){width="80%"}
 
 :::
 ::::::::::::::
@@ -564,7 +577,7 @@ Smartphones, fitness trackers, smartwatches, large-sized tablets on the flight, 
 - internet connections and remote apps: do they help the transient use case, or add a second, hidden interface?
 :::
 ::: {.column width="40%"}
-  ![A two-knob microwave on a washing machine with twenty programs. [Photo by Ruben Mavarez on Unsplash](https://unsplash.com/photos/microwave-oven-stacked-on-top-of-a-washing-machine-p9RU1DWwasQ)](img/microwave-washing-machine-p9RU1DWwasQ-unsplash.jpg){width="70%"}
+  ![A two-knob microwave on a washing machine with twenty programs. [Photo by Ruben Mavarez on Unsplash](https://unsplash.com/photos/microwave-oven-stacked-on-top-of-a-washing-machine-p9RU1DWwasQ)](img/microwave-washing-machine-p9RU1DWwasQ-unsplash.jpg){width="52%"}
 :::
 ::::::::::::::
 
@@ -686,12 +699,7 @@ Apple's sounds like the better idea, but it's considered a failure.
 - a webcam plus a trained mapping is an instrument: the Wekinator [@fiebrink-wekinator-nime:2009] made that a standard idea.
 - Watch David Rose's inspirations for gesture at [vimeo.com/224522900](https://vimeo.com/224522900)
 
-### Research and Design for Touchless Interfaces
-
-- **Gesture recognition challenge:** Systems must detect when a gesture starts and ends, and distinguish intentional gestures (e.g., pointing) from unconscious movements (e.g., hand waving).
-- **Gestures as output:** Gestures can also be visualised, such as through avatars mirroring user movements in real time.
-- **3D sensing:** Devices with depth cameras (e.g., smartphones, laptops, smart speakers) can capture and respond to gestures in 3D space.
-- _Design consideration_: How realistic the avatar or mirrored representation must be for users to feel it's believable and connected to their own gestures?
+- **the recognition challenge:** when does a gesture start and end, and was that a gesture or a wave to a friend? Almost every affordance is _hidden_ until someone shows you.
 
 ## Haptic Interfaces
 
@@ -737,13 +745,13 @@ Design guidelines, see [@oviatt2017handbook].
 Designed for multi-user interaction by co-located groups, unlike single-user PCs, laptops and phones: large wall displays, interactive tabletops.
 
 - everyone can point, touch, and see the same content
-- a shared point of reference improves group coordination and participation (Rogers et al., 2009)
+- a shared point of reference improves group coordination and participation [@rogers-beyond-hci:2023]
 - used in museums and galleries; supports group-based learning [@clegg2020community]
 - software shareables (Google Docs, Miro) move the same idea to remote collaboration
 - **design issues:** display layout, balancing participation, and personal vs shared space
 :::
 ::: {.column width="40%"}
-  ![Collaborative Musical Instrument Reactable [@jorda2010reactable]. (source)[https://www.ycam.jp/en/archive/works/reactable/].](img/reactable.jpg){width="80%"}
+  ![Collaborative Musical Instrument Reactable [@jorda2010reactable]. [(source)](https://www.ycam.jp/en/archive/works/reactable/).](img/reactable.jpg){width="80%"}
 :::
 ::::::::::::::
 
@@ -852,7 +860,7 @@ Don Norman [@Norman:2013] argues "natural" depends on a number of factors:
 - the complexity of the app or device's interface,
 - and whether accuracy and speed are needed.
 
-A gesture may be worth a thousand words; other times a word is worth a thousand gestures. Depends how many functions the system supports.
+A gesture may be worth a thousand words; other times a word is worth a thousand gestures.
 :::
 ::: {.column width="40%"}
 ![PhD student Sandy Ma drawing-based musical performance in AR environment. 2024.](img/interfaces_2_ar-drawing.jpg){width="100%"}
@@ -884,7 +892,7 @@ Affordance analysis tells you what an interface _offers_ and to whom. It does no
 ::: {.column width="60%"}
 **Who has a question?**
 
-- I can take _cathchbox_ question up until 2:55
+- I can take _catchbox_ question up until 2:55
 - For after class questions: meet me outside the classroom at the bar (for 30 minutes)
 - Feel free to ask about **any aspect of the course**
 - Also feel free to ask about **any aspect of computing at ANU**! I may not be able to help, but I can listen.

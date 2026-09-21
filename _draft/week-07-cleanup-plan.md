@@ -72,3 +72,13 @@ week 7 (Mon 21 Sep onward). State as of commit `e4f42c8`.
   demo before leaning on that claim in week 11.
 - Decide whether the week 9 study collects in one lecture or over a window;
   Monday 5 Oct (week 9) is ACT Labour Day.
+
+## Status 2026-09-21 (morning of the lecture)
+
+Items 1–3 and 6–7 done. Deck is 47 content slides. Worked-example floor is in
+`::: notes` on that slide (object: the lectern; fallbacks: door, phone lock
+screen). Deck now sets `fontsize: 9pt` in its frontmatter so the Beamer PDF
+stops spilling off the bottom of ~14 frames; every reveal slide was checked
+for vertical overflow in headless Chrome and every PDF page for text past the
+bottom/right edge. Item 5 (Poll Everywhere open-response question) is manual
+and still to do before class.
