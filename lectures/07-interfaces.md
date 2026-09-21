@@ -384,26 +384,7 @@ Post your most interesting _hidden_ or _false_ affordance to the poll. 15 minute
 
 Now the catalogue of interfaces. Every type that follows is a different bundle of affordances and constraints backed by research and design considerations.
 
-## Live demo: one sound engine, three interfaces
-
-![nanojam: the same four sounds and the same sequencer behind pads, a command line, and a camera. <https://charlesmartin.au/nanojam/>](img/nanojam-interfaces.png){width="55%"}
-
-:::::::::::::: {.columns}
-::: {.column width="55%"}
-Every interface sends one of six commands to the same engine, so the _only_ thing that changes is the interaction.
-
-- **Pads** (manipulating): tap a sound
-- **CLI** (instructing): `loop kick x...x...`
-- **Camera** (exploring): move a hand into a region
-:::
-::: {.column width="45%"}
-::: {.think-box}
-**Think:** as each one runs, fill in the five questions. Which is fastest to a first sound? Which is fastest to a _pattern_? What is hidden, and what is false?
-:::
-:::
-::::::::::::::
-
-# The Human-Computer Interface Catalogue
+# The Human-Computer Interface Catalogue {background-image="img/2026-nime-visi-sophtar.jpg" background-size="cover" background-opacity="0.5"}
 
 ## Command Line Interfaces
 
@@ -561,7 +542,7 @@ Smartphones, fitness trackers, smartwatches, large-sized tablets on the flight, 
 
 :::
 ::: {.column width="40%"}
-![Mobile Devices. Source: StockCake.](img/tech-gadget-array-stockcake.jpg){width="80%"}
+![Photo: [Eirik Solheim](https://unsplash.com/photos/assorted-color-phone-lot-mWTOR3Rx8l8)](img/eirik-solheim-mWTOR3Rx8l8-unsplash.jpg){width="80%"}
 
 ![Ocarina, Ge Wang. 2014.](img/o2-hands-480.png){width="80%"}
 :::
@@ -658,7 +639,7 @@ Apple's sounds like the better idea, but it's considered a failure.
 - Graffiti: 86% after a minute with the chart, 97% after five minutes, still 97% a week later [@mackenzie-graffiti-usability:1997].
 
 ::: {.warn-box}
-**Careful:** technical cleverness doesn't always win! Five minutes of learning beat it here.
+**Careful:** technical cleverness doesn't always win!
 :::
 :::
 ::: {.column width="40%"}
@@ -666,7 +647,7 @@ Apple's sounds like the better idea, but it's considered a failure.
 :::
 ::::::::::::::
 
-## Newton vs Palm: Concept and Test
+<!-- ## Newton vs Palm: Concept and Test
 
 ::: {.info-box}
 **Concept:** "natural" depends on what the user already knows, so it isn't a property of the interface. A bit of learning is fine if it's quick and the result is reliable. 
@@ -674,7 +655,7 @@ Apple's sounds like the better idea, but it's considered a failure.
 
 ::: {.success-box}
 **Test:** recognition accuracy on unconstrained handwriting measured against user acceptance. A usability test with one dependent variable.
-:::
+::: -->
 
 ## Touchscreens
 
@@ -842,7 +823,7 @@ More on each in the [interface considerations page](https://smcclab.au/thirty-ni
 :::
 ::::::::::::::
 
-# Coda {background-image="img/tech-gadget-array-stockcake.jpg" background-size="cover" background-opacity="0.4"}
+# Coda {background-image="img/aisee-holo-view.jpg" background-size="cover" background-opacity="0.4"}
 
 What makes these interfaces good or bad?
 
@@ -865,7 +846,7 @@ Don Norman [@Norman:2013] argues "natural" depends on a number of factors:
 A gesture may be worth a thousand words; other times a word is worth a thousand gestures.
 :::
 ::: {.column width="40%"}
-![PhD student Sandy Ma drawing-based musical performance in AR environment. 2024.](img/interfaces_2_ar-drawing.jpg){width="100%"}
+![PhD student Sandy Ma drawing-based musical performance in AR environment, from _Unspoken_ [@wang-ma-unspoken:2024].](img/interfaces_2_ar-drawing.jpg){width="100%"}
 :::
 ::::::::::::::
 
@@ -873,7 +854,7 @@ A gesture may be worth a thousand words; other times a word is worth a thousand 
 
 Is voice better than touch? Is tangible better than a screen? Is VR the ultimate interface for games?
 
-**It depends!** You already know on what: you ran the five questions on _tell someone you're running late_ and got three different answers from one phone.
+**It depends!** Different approaches to _telling someone you're running late_ produce different answers.
 
 - **task:** which one was fastest for you? Would the answer change for a longer message?
 - **people:** who has to learn it, and what they already know
@@ -885,6 +866,25 @@ Affordance analysis tells you what an interface _offers_ and to whom. It does no
 ::: {.info-box}
 **Next week:** which is the better one, and how would we know?
 :::
+
+## Live demo: a music app with three interfaces
+
+![nanojam: the same sounds with pads, a command line, and a camera. <https://charlesmartin.au/nanojam/>](img/nanojam-interfaces.png){width="55%"}
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+Every interface sends one of six commands to the same engine, so the _only_ thing that changes is the interaction.
+
+- **Pads** (manipulating): tap a sound
+- **CLI** (instructing): `loop kick x...x...`
+- **Camera** (exploring): move a hand into a region
+:::
+::: {.column width="45%"}
+::: {.think-box}
+**Think:** as each one runs, fill in the five questions. Which is fastest to a first sound? Which is fastest to a _pattern_? What is hidden, and what is false?
+:::
+:::
+::::::::::::::
 
 <!-- boilerplate ending -->
 
