@@ -22,7 +22,7 @@ title-slide-attributes:
 
 - Research skills (how to use Google Scholar and cite references)
 - Overview of the diversity of interfaces in use and in research!
-- A method for looking at any interface: _affordance analysis_ (and you'll try it on your phone)
+- A method for looking at any interface: _affordance analysis_ 
 - Outline key design and research considerations
 - A case study: Apple's Newton vs the Palm Pilot (who does the learning?)
 - Think about _natural_ user interfaces
@@ -314,8 +314,7 @@ Pick an interface and a task. Analyse in terms of affordances:
 3. **Constrains**: what can't you do, or what is it steering you away from?
 4. **Hidden**: what's possible but not signified? (What did you only find out by being told?)
 5. **False**: what looks possible but isn't? (Things you tried that didn't work?)
-
-Are users responsible for learning and finding affordances, or is it the designer's job to show them?
+6. **Learning**: what does the user have to know or learn to use it, and how much of that does the design carry for them? (Knowledge in the world, or in the head? [@Norman:2013])
 
 This analysis helps us answer "what is the best way for an interface to work?"
 
@@ -332,7 +331,7 @@ Let's do it live on something easy...
 | Constrains       |        |
 | Hidden           |        |
 | False            |        |
-| Who learns?      |        |
+| Learning         |        |
 
 :::
 ::: {.column width="50%"}
@@ -350,7 +349,7 @@ Floor for the live fill, object: the lectern (touchscreen control panel + microp
 - Constrains: fixed menu of room states; can't do anything the AV team didn't pre-program. Can't take it with me. Volume in steps not continuous.
 - Hidden: long-press or a hidden "advanced" page; that the clicker also has a blank-screen button; that the mic mutes itself when docked. All things told to me by a tech, not discovered.
 - False: on-screen buttons that look pressable but are greyed out / do nothing when no source connected; a "help" button that calls no one after 5pm.
-- Who learns? The lecturer, every new room, with no manual. Contrast: the AV team learned once and encoded it.
+- Learning: the lecturer, every new room, with no manual. Labelled buttons carry some of it; the hidden page carries none. Contrast: the AV team learned once and encoded it.
 
 Fallbacks: the lecture-theatre door (push plate vs pull handle, Norman's classic) or my phone lock screen (swipe up, camera shortcut hidden, notification you can't act on = false).
 :::
@@ -366,7 +365,7 @@ Fallbacks: the lecture-theatre door (push plate vs pull handle, Norman's classic
 2. **Dictate** it (voice keyboard or assistant).
 3. **Choose** it: pick a canned reply, a suggested message, or an emoji from a menu, without writing anything.
 
-In pairs, run the five questions on each. Which was fastest? Which would you choose in a lecture theatre, on a bike, in a hurry, in another language?
+In pairs, run the six questions on each. Which was fastest? Which would you choose in a lecture theatre, on a bike, in a hurry, in another language?
 
 Post your most interesting _hidden_ or _false_ affordance to the poll. 15 minutes.
 :::
@@ -423,6 +422,21 @@ Now the catalogue of interfaces. Every type that follows is a different bundle o
 ![Apple's first GUI: Lisa. Source: The Lisa: Apple's Most Influential Failure, Computer History Museum.](img/Lisa-desktop-screen.jpg){width=90%}
 :::
 ::::::::::::::
+
+## Menus or buttons? The questions inside one GUI
+
+GUIs often have multiple approaches to the same task in one app. E.g., how do you _delete an email_?
+
+|                | **Swipe the message**   | **Long-press menu**          | **Toolbar button**          |
+| -------------- | ----------------------- | ---------------------------- | --------------------------- |
+| **Type**       | manipulating            | instructing                  | instructing                 |
+| **Affords**    | fast, one-handed        | many actions in one place    | one tap, always there       |
+| **Constrains** | one action per swipe    | stop, read, tap again        | screen space per action     |
+| **Hidden**     | the gesture itself      | that long-press does anything | little                     |
+| **False**      | swiping a header row    | greyed-out items             | live-looking, none selected |
+| **Learning**   | in the head: shown once | in the world: listed each time | in the world: none        |
+
+No general answer: a button for the one action everyone does, a menu for the many that few do, a gesture for whoever does it all day. Which is _better_ for your users is a question for a study.
 
 ## Multimedia
 
@@ -647,15 +661,19 @@ Apple's sounds like the better idea, but it's considered a failure.
 :::
 ::::::::::::::
 
-<!-- ## Newton vs Palm: Concept and Test
+## Newton vs Palm: what analysis says, what a study says
 
 ::: {.info-box}
-**Concept:** "natural" depends on what the user already knows, so it isn't a property of the interface. A bit of learning is fine if it's quick and the result is reliable. 
+**Affordance analysis:** Newton affords your own handwriting, constrains nothing, and asks you to learn nothing. Palm constrains you to one alphabet and makes you learn it. On these six questions the Newton is the "natural" one, and it would win.
 :::
 
 ::: {.success-box}
-**Test:** recognition accuracy on unconstrained handwriting measured against user acceptance. A usability test with one dependent variable.
-::: -->
+**Evaluation:** @mackenzie-graffiti-usability:1997 measured Graffiti: accuracy after one minute, five minutes, and a week. Newton's recognition was a public joke. A little learning that is quick and reliable beat no learning that is unreliable.
+:::
+
+::: {.warn-box}
+**The lesson for "which interface is best?":** analysis tells you what each option offers and to whom. Only a study tells you which one is better. More next week!
+:::
 
 ## Touchscreens
 
@@ -881,7 +899,7 @@ Every interface sends one of six commands to the same engine, so the _only_ thin
 :::
 ::: {.column width="45%"}
 ::: {.think-box}
-**Think:** as each one runs, fill in the five questions. Which is fastest to a first sound? Which is fastest to a _pattern_? What is hidden, and what is false?
+**Think:** as each one runs, fill in the six questions. Which is fastest to a first sound? Which is fastest to a _pattern_? What is hidden, and what is false?
 :::
 :::
 ::::::::::::::
