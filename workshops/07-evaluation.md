@@ -38,8 +38,9 @@ Remember, for your study plan you need to collect quantitative and qualitative d
 ## Plan for the Class
 
 0.  Discuss pre-class tasks (10 mins)
-1.  Plan your evaluation (50 mins)
-2.  Meet with your group to discuss evaluation (30 mins)
+1.  Plan an evaluation (30 mins)
+2.  Consider ethics (20 mins)
+3.  Meet with your group to plan your needs-finding study (30 mins)
 
 ## In-Class Tasks
 
@@ -59,13 +60,13 @@ As a class, discuss the following questions:
 
 ### 1. Planning an evaluation (30 mins)
 
-This section of the tutorial is dedicated to articulating an evaluation plan. You can choose to discuss your study plan from the pre-class task, or choose another type of user interface to evaluate.
+This section of the tutorial is about articulating an evaluation plan, which is a different kind of study from the needs-finding you're doing for Assignment 2: instead of asking what people need, an evaluation asks how well a particular interface meets a need. As a group, pick **one** AI tool to evaluate. This could be a tool from one of your Assignment 2 use contexts (e.g., ChatGPT for study planning, Copilot for coding), or any other AI interface your group uses regularly.
 
-In groups, spend 10 minutes discussing each of the following aspects of an evaluation plan. Use a sticky note for each aspect. Make sure that everybody in your group has completed a stick note for each aspect!
+In groups, spend 10 minutes discussing each of the following aspects of an evaluation plan. Use a sticky note for each aspect. Make sure that everybody in your group has completed a sticky note for each aspect!
 
 #### Evaluation Goal
 
-Consider the goal of your evaluation and a task that your might ask users to complete.
+Consider the goal of your evaluation and a task that you might ask users to complete.
 
 - Choose a particular feature of your chosen AI interface that you wish to evaluate, that can facilitate a task for the user to complete.
 - Choose one user experience AND one usability evaluation goal to focus on.
@@ -78,7 +79,6 @@ Now it's time to consider your data collection. Recall that we are expecting bot
 - How will you collect your data? Why have you chosen these methods?
 - Write up your means of data gathering. Consider what data you are trying to gather and how it contributes to your evaluation goal.
 - What kind of data will you be collecting? Will this involve identifiable information from participants?
-- What analysis methods will you use on your data? Why are these appropriate within your research context.
 
 #### Analysis Methods
 
@@ -111,7 +111,7 @@ Summarise your ethical considerations in 4-5 sentences and post it on the forum.
 
 ### Research cluster meeting (30 mins)
 
-The last 30 minutes of this workshop is dedicated to meeting with your group and working out the logistics of completing your evaluations.
+The last 30 minutes of this workshop is dedicated to meeting with your group and working out the logistics of completing your needs-finding studies.
 
 As a group you should:
 
