@@ -440,7 +440,7 @@ How can we test for joy? Is this compatible with the usability goals?
 
 Rogers/Sharp/Preece illustrate user experience as surrounding usability.
 
-![Usability goals within user experience goals, after @rogers-beyond-hci:2023](img/usability-ux-goals.svg){alt="Diagram: six usability goals (efficient, effective and safe to use; easy to remember how to use; easy to learn; good utility) in an inner circle, surrounded by a ring of user experience goals (fun, emotionally fulfilling, rewarding, helpful, supportive of creativity, motivating, aesthetically pleasing, entertaining, enjoyable, satisfying)" width=35%}
+![Usability goals within user experience goals, after @rogers-beyond-hci:2023](img/usability-ux-goals.svg){alt="Diagram: six usability goals (efficient, effective and safe to use; easy to remember how to use; easy to learn; good utility) in an inner circle, surrounded by a ring of user experience goals (fun, emotionally fulfilling, rewarding, helpful, supportive of creativity, motivating, aesthetically pleasing, entertaining, enjoyable, satisfying)" width=45%}
 
 ## Thinking about Technology as Experience
 
