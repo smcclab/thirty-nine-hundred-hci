@@ -317,7 +317,7 @@ Some practical goals that can be tested:
 This version from: [@rogers-beyond-hci:2023]
 :::
 ::: {.column width="40%"}
-![@Raffaele:2016, illustrating @rogers-beyond-hci:2023](img/intro-to-hci_1_usability.png){width=100%}
+![Usability goals within user experience goals, after @rogers-beyond-hci:2023](img/usability-ux-goals.svg){alt="Diagram: six usability goals (efficient, effective and safe to use; easy to remember how to use; easy to learn; good utility) in an inner circle, surrounded by a ring of user experience goals (fun, emotionally fulfilling, rewarding, helpful, supportive of creativity, motivating, aesthetically pleasing, entertaining, enjoyable, satisfying)" width=100%}
 :::
 ::::::::::::::
 
@@ -438,9 +438,9 @@ How can we test for joy? Is this compatible with the usability goals?
 
 ## Usability vs User Experience
 
-Rogers/Sharpe/Preece illustrate user experience as surrounding usability.
+Rogers/Sharp/Preece illustrate user experience as surrounding usability.
 
-![@Raffaele:2016, illustrating @rogers-beyond-hci:2023](img/intro-to-hci_1_usability.png){width=35%}
+![Usability goals within user experience goals, after @rogers-beyond-hci:2023](img/usability-ux-goals.svg){alt="Diagram: six usability goals (efficient, effective and safe to use; easy to remember how to use; easy to learn; good utility) in an inner circle, surrounded by a ring of user experience goals (fun, emotionally fulfilling, rewarding, helpful, supportive of creativity, motivating, aesthetically pleasing, entertaining, enjoyable, satisfying)" width=35%}
 
 ## Thinking about Technology as Experience
 
