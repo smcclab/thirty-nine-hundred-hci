@@ -40,7 +40,7 @@ jobs:
 
     steps:
       - name: Install Alpine Dependencies
-        run: apk add --no-cache bash git python3 py3-pip py3-yaml make
+        run: apk add --no-cache bash git python3 py3-pip py3-yaml make rsvg-convert
 
       - name: Checkout Repository
         uses: actions/checkout@v7

@@ -8,7 +8,7 @@ This repository contains course materials (lectures, workshops, assessments, res
 
 ## Build Commands
 
-Requires: `pandoc`, a TeX environment (MacTeX or TeX Live), `sass`, `python3`, and `make`.
+Requires: `pandoc`, a TeX environment (MacTeX or TeX Live), `sass`, `python3`, `make`, and `rsvg-convert` (librsvg — pandoc uses it to turn SVG images into PDF for Beamer; LaTeX cannot include an SVG, so a lecture with one fails to build without it).
 
 | Command | Output |
 |---|---|
@@ -54,6 +54,7 @@ All PDFs are built with `lualatex`. Beamer slides use Noto Sans with Noto Color 
 - Each content directory has its own `img/` subdirectory — images **cannot be shared across directories**
 - `references.bib` — Shared BibTeX references (APA citation style via `apa.csl`)
 - `_config.toml` — Course metadata used by `generate_index.py`: title, institution, author, year, plus `course_image` (index hero image; path relative to `build/`, must sit under a directory `make public` still copies) and `description` (multi-line — readable only via `tomllib`, never Makefile `$(shell)` extraction)
+- `figures/` — Diagrams redrawn as vector art so slides can cite the idea (`after @key`) rather than reproduce a published figure. Each `figures/X.py` writes `figures/X.svg` with live, editable text; `make figures` (local only, outside `all`/`public`) regenerates it and writes `lectures/img/X.svg` with the text outlined in Noto Sans, the Beamer font. The outlined copy is the one lectures reference and is committed, so the build and CI need no fonts to render it. Outlining matters because TeX Live's Noto is invisible to fontconfig: a live-text SVG would come out in Verdana or whatever the CI image falls back to
 - `_draft/` — Experimental/unused materials, not included in any build target
 - `course-entry/` — Scraped ANU Programs & Courses entries (COMP3900/COMP6390) and an accreditation-handbook summary; reference material only, not built. The learning outcomes, week-by-week schedule, and assessment weightings also live in `README.md`
 

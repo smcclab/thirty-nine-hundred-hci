@@ -224,7 +224,7 @@ Examples:
 - **Children's talking toy designers:** Whether six-year-olds enjoy the voice, feel of the soft toy, and can use safely
 :::
 ::: {.column width="40%"}
-![Preece in @Raffaele:2016](img/evaluation_1_measure.png){width=100%}
+![Usability goals within user experience goals, after @rogers-beyond-hci:2023](img/usability-ux-goals.svg){alt="Diagram: six usability goals (efficient, effective and safe to use; easy to remember how to use; easy to learn; good utility) in an inner circle, surrounded by a ring of user experience goals (fun, emotionally fulfilling, rewarding, helpful, supportive of creativity, motivating, aesthetically pleasing, entertaining, enjoyable, satisfying)" width=100%}
 :::
 ::::::::::::::
 

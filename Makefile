@@ -361,6 +361,29 @@ $(ALL_WORKSHOPS_MD): $(WORKSHOPS_MDS)
 	cat $^ > $@
 
 # =============================================================================
+# Figures — redrawn diagrams (figures/*.py → figures/*.svg → lectures/img/*.svg)
+# =============================================================================
+# Local only, and deliberately outside `all` and `public`: the outlined SVGs in
+# lectures/img/ are committed. Each script writes an SVG with live text; this
+# converts the text to outlines in Noto Sans (the Beamer font) so the figure
+# renders identically in the browser and in the PDF, where pandoc converts it
+# with rsvg-convert and no fonts are needed. The Noto that TeX Live ships is not
+# indexed by fontconfig, so a throwaway config points rsvg-convert at it.
+FIGURE_SCRIPTS := $(wildcard figures/*.py)
+FIGURE_FONTS_CONF = $(OUTPUT_DIR)/figures/fonts.conf
+
+.PHONY: figures
+figures:
+	mkdir -p $(OUTPUT_DIR)/figures
+	printf '<?xml version="1.0"?>\n<fontconfig><dir>%s</dir><cachedir>%s</cachedir></fontconfig>\n' \
+	  "$(dir $(shell kpsewhich NotoSans-Regular.ttf))" "$(abspath $(OUTPUT_DIR)/figures/cache)" > $(FIGURE_FONTS_CONF)
+	for script in $(FIGURE_SCRIPTS); do \
+	  python3 $$script && \
+	  FONTCONFIG_FILE=$(abspath $(FIGURE_FONTS_CONF)) rsvg-convert -f svg \
+	    -o lectures/img/$$(basename $$script .py).svg $${script%.py}.svg || exit 1; \
+	done
+
+# =============================================================================
 # Canvas — push built content to the ANU Canvas course (canvas/ tooling)
 # =============================================================================
 # Requires a Canvas API token (CANVAS_TOKEN env var or ~/.config/canvas/anu-token).

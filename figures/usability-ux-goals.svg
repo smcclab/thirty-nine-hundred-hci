@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1056" width="1000" height="1056" font-family="Noto Sans">
+  <title>Usability goals nested inside user experience goals</title>
+  <text font-size="36" font-weight="700" fill="#e9c46a" text-anchor="middle"><tspan x="500.0" y="39.0">User experience goals</tspan></text>
+  <circle cx="500" cy="560" r="490" fill="#e9c46a" fill-opacity="0.10" stroke="#e9c46a" stroke-width="4"/>
+  <circle cx="500" cy="560" r="292" fill="#2a9d8f" fill-opacity="0.22" stroke="#2a9d8f" stroke-width="4"/>
+  <circle cx="500" cy="560" r="104" fill="#2a9d8f"/>
+  <text font-size="32" font-weight="700" fill="#15272e" text-anchor="middle"><tspan x="500.0" y="552.3">Usability</tspan><tspan x="500.0" y="590.7">goals</tspan></text>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="500.0" y="353.3">Efficient</tspan><tspan x="500.0" y="386.9">to use</tspan></text>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="673.2" y="453.3">Effective</tspan><tspan x="673.2" y="486.9">to use</tspan></text>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="673.2" y="653.3">Safe</tspan><tspan x="673.2" y="686.9">to use</tspan></text>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="500.0" y="736.5">Easy to</tspan><tspan x="500.0" y="770.1">remember</tspan><tspan x="500.0" y="803.7">how to use</tspan></text>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="326.8" y="653.3">Easy to</tspan><tspan x="326.8" y="686.9">learn</tspan></text>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="326.8" y="453.3">Good</tspan><tspan x="326.8" y="486.9">utility</tspan></text>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="500.0" y="178.1">Fun</tspan></text>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="730.4" y="236.1">Emotionally</tspan><tspan x="730.4" y="269.7">fulfilling</tspan></text>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="872.8" y="448.9">Rewarding</tspan></text>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="872.8" y="691.2">Helpful</tspan></text>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="730.4" y="870.4">Supportive of</tspan><tspan x="730.4" y="904.0">creativity</tspan></text>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="500.0" y="962.1">Motivating</tspan></text>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="269.6" y="870.4">Aesthetically</tspan><tspan x="269.6" y="904.0">pleasing</tspan></text>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="127.2" y="691.2">Entertaining</tspan></text>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="127.2" y="448.9">Enjoyable</tspan></text>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="269.6" y="252.9">Satisfying</tspan></text>
+</svg>
