@@ -82,15 +82,24 @@ Expression and creativity let us get _inside_ the process of an interaction. Peo
 
 ## Artists as Power Users
 
-Artists are "creative power users" (Linda Candy in @shneiderman-creativity-support-tools:2007).
+Week 8 said to raise a research question until it "covers many people". So why study a handful of experts? Because the chain runs the other way:
 
-Artists show us the **boundaries** of human-computer interaction
+1. **Artist spec is the hardest spec.** "There are three levels of design: standard spec, military spec and artist spec... the third, artist spec, is the hardest (and most important)" [@buxton-artists-luthier:1997]. Artists push a tool until it breaks.
+2. **So artists are "creative power users"** (Linda Candy in @shneiderman-creativity-support-tools:2007): lead users who show us the **boundaries** of an interaction.
+3. **Findings at the boundary transfer.** What an expert needs from a mapping or an instrument tells us what creativity support tools need for "everyday creativity" [@edmonds-art-of-interaction:2018].
 
-Studying interactive art gives us insight into the **potential** of creativity support tools in the hands of **experts**.
+The sample is narrow on purpose. The claim is about what the **interface** can support, not about the population of artists. A tool that meets artist spec meets standard spec; the reverse does not hold.
 
-This translates into findings about "everyday creativity" [@edmonds-art-of-interaction:2018]
+## Research Questions for Expressive Interfaces
 
-> there are three levels of design: standard spec, military spec and artist spec... the third, artist spec, is the hardest (and most important) [@buxton-artists-luthier:1997]
+Week 8's rules still apply. Here is how an expressive-interface RQ meets them:
+
+- **Which gap?** Usually a **capability gap** ("what are we not able to *do* yet?") rather than a knowledge gap [@hornbaek-intro-hci:2025, section 45.2]. Capability findings transfer as design principles, not as statistics about a population.
+- **Level of abstraction.** Ask about the *interaction*, not the artist. "What gesture-to-sound mappings let a performer control timbre in improvisation?" affects everyone who builds a mapping. "Why doesn't Atau Tanaka like my patch?" affects one person.
+- **Refutable.** The performer can find the mapping unplayable, or prefer the "worse" model [@fiebrink-human-model-eval:2011], or abandon the instrument entirely [@morreale-design-for-longevity:2017]. If your question can't come out that way, it isn't a question.
+- **Scope.** On week 8's pros and cons this is the uncontrolled side. You trade generalised results for insight at the boundary. Say so in your discussion rather than hoping nobody asks.
+
+Why this work matters: the boundary is where the next everyday interface comes from. Lanier was improvising on virtual instruments with a glove in 1992 (opening slide); consumer VR took another twenty-five years to catch up.
 
 ## What is an expressive interaction?
 
