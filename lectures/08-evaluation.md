@@ -729,16 +729,16 @@ Then compare: what did the inspection find that the user never hit? What did the
 :::
 ::::::::::::::
 
-## A/B Testing    
+## A/B Testing
 
 :::::::::::::: {.columns}
-::: {.column width="60%"}
-- Large-scale, online controlled experiment used to compare two designs (A = control, B = new design) by measuring user behavior (e.g., click rates), often without users knowing they are part of a study.
-- Between-participants design, randomly assigning users to different versions and analyzing outcomes statistically to determine if observed differences are due to the design and not chance.
-- Proper setup is critical — running an A/A test first ensures the testing infrastructure is sound, and careful design is needed to avoid misleading results, as shown in real-world examples like Microsoft Office 2007.
+::: {.column width="65%"}
+- An online controlled experiment: users randomly get A (control) or B (new design), usually without knowing. Between-participants, at web scale; week 10 has the statistics.
+- **A/A test first:** same page to both groups, so any difference is a setup bug. Office Online's failed because only the treatment was redirected; the delay alone cost page views [@kohavi-online-experimentation-microsoft:2009].
+- **Or don't test, and find out later:** Office Online swapped a yes/no feedback question for five stars, lost 80% of responses, and took eight months to notice.
 :::
-::: {.column width="40%"}
-![Original ad title (top) and new title (bottom). Source: @kohavi-trustworthy-experiments:2020. Full story in week 10.](img/08_abtest.jpg){width="60%"}
+::: {.column width="35%"}
+![Original ad title (top) and new title (bottom). Source: @kohavi-trustworthy-experiments:2020. Full story in week 10.](img/08_abtest.jpg){width="70%"}
 :::
 ::::::::::::::
 
