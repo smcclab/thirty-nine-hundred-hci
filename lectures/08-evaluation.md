@@ -738,7 +738,7 @@ Then compare: what did the inspection find that the user never hit? What did the
 - **Or don't test, and find out later:** Office Online swapped a yes/no feedback question for five stars, lost 80% of responses, and took eight months to notice.
 :::
 ::: {.column width="35%"}
-![Original ad title (top) and new title (bottom). Source: @kohavi-trustworthy-experiments:2020. Full story in week 10.](img/08_abtest.jpg){width="70%"}
+![Bing search ad: control (top) and treatment with a second line of ad text moved into the title (bottom) [@kohavi-trustworthy-experiments:2020]. More in week 10.](img/08_abtest.jpg){width="70%"}
 :::
 ::::::::::::::
 
