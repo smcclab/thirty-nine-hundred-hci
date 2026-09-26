@@ -19,10 +19,11 @@ title-slide-attributes:
 ## Plan for the class
 
 - research questions
-- about evaluation
+- about evaluation: from a question to a yardstick
 - types of evaluation
 - planning evaluations
 - evaluation by inspection, with a case study: the Hawaii false missile alert
+- activity: two ways to evaluate nanojam
 
 # Research Questions {background-image="img/kaleidico-3V8xo5Gbusk-unsplash.jpg" background-size="cover" background-opacity="0.35"}
 
@@ -173,6 +174,14 @@ Use the poll everywhere link to suggest research questions and vote on the best 
 
 # About Evaluation {background-image="img/microjam-evaluation.jpg" background-size="cover" background-opacity="0.4"}
 
+Where we are in the course, following @rogers-beyond-hci:2023:
+
+- **Week 4:** how to collect data (interviews, questionnaires, observation, think-aloud, logs)
+- **Weeks 5 and 6:** how to analyse it
+- **This week:** how to design the *study* --- which setting, which kind of study, which variables, and whether you need users in the room at all
+
+Same collection and analysis techniques as needs-finding. What changes is that now there is an artefact, and a question about it.
+
 ## What is evaluation?
 
 :::::::::::::: {.columns}
@@ -268,17 +277,53 @@ Depends on your evaluation goal!
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Evaluation serves different purposes at different stages of the design process
+*When* you evaluate changes what the evaluation is for [@rogers-beyond-hci:2023, section 14.2]:
 
 - **Formative evaluation:** 
-    - Assessing whether a product continues to meet users' needs during a design process 
-    - Early or late stages
+    - during design, checking the product still meets users' needs
+    - from early sketches to a nearly finished design
+    - feeds the next iteration
 - **Summative evaluation:** 
-    - Assessing whether a finished product is successful
-    - Feeds into an iterative design process
+    - assessing whether a finished product is successful
+    - against a target: a usability goal, a baseline, a standard
+
+For the final project you will almost certainly be doing a **formative** evaluation of a prototype.
 :::
 ::: {.column width="40%"}
 ![Formative vs Summative Evaluation [NNGroup on YouTube](https://www.youtube.com/watch?v=730UiP7dZeo)](img/09_evaluation_foundations_4.png)
+:::
+::::::::::::::
+
+## Overview: from a goal to a yardstick to a study
+
+Set the **yardstick** (what counts as "good") first, and the kind of study follows [@hornbaek-intro-hci:2025, table 40.2].
+
+::: {.small-table}
+| Yardstick | The system should... | Kind of study |
+|---|---|---|
+| No critical usability problems | not make users err, get lost, or give up | think-aloud study |
+| Comply with guidelines | match known traits of good systems | heuristic evaluation |
+| Meet usability goals | hit quantitative targets | summative usability test |
+| Compare favourably to X | beat a baseline on some measure | experiment |
+| Compatibility with user practices | be adopted into everyday life | field study |
+:::
+
+No data-collection column: that was week 4. The yardstick picks the study; the study picks the techniques.
+
+## Example: three questions about one app
+
+:::::::::::::: {.columns}
+::: {.column width="65%"}
+nanojam (week 7): three questions, three yardsticks, three studies.
+
+1. *Can a first-time user make a repeating pattern in the command line without help?* **No critical usability problems.** Think-aloud in the lab, six people, log where they stall.
+2. *Is the pads interface faster to a first pattern than the command line?* **Compare favourably to X.** Experiment, same participants on both, counterbalanced, time to first pattern.
+3. *Does anyone keep using it after the lecture?* **Compatibility with user practices.** Deployment, usage logs, follow-up interview.
+
+Each is the right study for *its* question.
+:::
+::: {.column width="35%"}
+![nanojam's pads interface.](img/nanojam-pads.png){width="100%"}
 :::
 ::::::::::::::
 
@@ -295,10 +340,11 @@ A controlled evaluation setting is not the normal place for using a technology o
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 - **Measures:** numbers or time (e.g., tasks completed, errors made, time taken)
-- **Methods:** mixture of methods (e.g., think aloud, observation, interviews, questionnaires, data logging and analytics)
-- **Data:** variety of data depending on the methods (e.g., video, audio, facial expressions, key presses, verbal feedback)
+- **Techniques:** combined from week 4: think-aloud during set tasks, a questionnaire afterwards (SUS, NASA-TLX), then a short interview
+- **Data:** variety of data depending on the techniques (e.g., video, audio, facial expressions, key presses, verbal feedback)
 - **Settings:** lab + observation room, mobile usability kit, university classroom
 - **Number of participants:** 5-12 baseline but more is better
+- **What is new this week:** the *tasks* are set by you, and the *setting* is controlled by you
 
 :::
 ::: {.column width="40%"}
@@ -336,11 +382,11 @@ Helps to establish [ecological validity](https://www.interaction-design.org/lite
 - Goals:
     - Understanding how people interact with technologies in “messy worlds”, how technologies will be integrated into contexts
     - Studying use of existing technologies and impacts of introducing new ones
-- Methods: Emphasis on qualitative methods rather than statistical measures e.g., Observations, interviews, diaries, interaction logging
+- Techniques: mostly qualitative (observation, interviews, diaries, interaction logging) rather than set tasks and timings
 - Duration: No fixed length- can be seconds, months, years
 - Paying attention to: Use situations, problems/errors, distractions, patterns of behaviours
 - How does your presence and involvement shape engagement? Observation vs participant observation
-- Findings: Used for creating thematic analysis, vignettes, narratives, critical incident analysis etc.
+- Findings: thematic analysis, vignettes, narratives, critical incident analysis (weeks 5 and 6)
 
 ## Field Studies Example
 
@@ -457,18 +503,20 @@ We don't go deeply into research ethics in this course but the four issues above
 :::
 ::::::::::::::
 
-## Labs and Equipment
+## Prepare what you need before the first participant arrives
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-- tables, chairs
-- places for participants and researchers
-- Instructions to participants
-- Details, equipment for completing tasks
-- Data collection equipment: video, audio recording 
-- In-person / Remote
-- Zoom (e.g., COVID), online studies
+The plan is a document. This is the checklist for the room (or the Zoom call).
+
+- a place for the participant and for you: tables, chairs, power
+- the prototype, working, in the state the tasks assume
+- printed instructions and task list, so everyone hears the same thing
+- data capture ready and tested: video, audio, screen, logs
+- consent form and information sheet, signed *before* recording
+
+Then **pilot** it (week 4). Most study failures are "the laptop died" or "we didn't press record".
 :::
 ::: {.column width="40%"}
 ![Yichen Wang's human-AI musical collaboration research study setup at School of Music.](img/evaluation_11_study-setup.jpg){width="100%"}
@@ -495,19 +543,19 @@ We don't go deeply into research ethics in this course but the four issues above
 :::
 ::::::::::::::
 
-## Hypothesis Testing
+## From a research question to a hypothesis
 
-E.g.:
+A hypothesis is a **prediction**: it says what you will change, what you will measure, and which way the result will go.
 
-> A blue backround in the user interface leads to faster task completion.
+> RQ: *Is the pads interface faster to a first pattern than the command line?*
+>
+> H1: *Participants reach a first repeating pattern faster with pads than with the command line.*
 
-- Examine the relationship between variables (independent vs. dependent)
-- Null and alternative hypotheses guide testing
-- Careful experimental design is essential
+- The RQ allows more than one answer. The hypothesis picks one and dares the data to disagree.
+- A hypothesis can only be dismissed, never proven: null and alternative guide the test.
+- Dismissing one needs a controlled design and significance testing (week 10).
 
-Hypotheses must be falsifiable and can only be dismissed! (A bit different from the more general "research questions").
-
-To dismiss or support a hypothesis we generally need significance testing and quantitative methods.
+Not every RQ should become a hypothesis. nanojam questions 1 and 3 are better off without one.
 
 ## Experiment Design
 
@@ -579,8 +627,11 @@ Is there any way to do evaluation _without_ users?
 - Inspection methods – expert role plays user
 - **Heuristic evaluation:** Researchers evaluate whether aspects design adhere to established usability principles (see over)
 - **Cognitive walkthroughs:** Simulating user reasoning and problem solving at each step in an interaction sequence (evidence, availability, accessibility of correct action)
-- **Analytics:** Understanding user demographics and tracing activities (e.g., number of clicks, duration of sessions etc.)
-- **A/B Testing:** Large number of users assigned Design A or B and compare use to test “variable of interest” (e.g., number of clicks on advertising during test period)
+
+Two more ways to evaluate with **nobody in the room**, covered after the case study:
+
+- **Predictive models:** compute the user's performance instead of measuring it (Fitts' law)
+- **A/B testing:** thousands of real users, none of whom know they are in a study. Not "without users" so much as without *recruiting* them.
 
 ## Nielsen's 10 Usability Heuristics
 
@@ -622,12 +673,11 @@ Decide what's wrong *before* you find out what happened.
 
 :::::::::::::: {.columns}
 ::: {.column width="55%"}
-- 8:07am, mid-drill: the officer took the drill call for a real one and sent the live template. Same prompt for drill and alert, no preview.
-- 1.4 million residents: "BALLISTIC MISSILE THREAT INBOUND TO HAWAII. SEEK IMMEDIATE SHELTER. THIS IS NOT A DRILL."
-- No correction template existed. Correction took **38 minutes** [@fcc-hawaii-false-alert:2018].
+- 8:07am, mid-drill: the officer took the drill call for a real one and sent the live template. Same prompt for both, no preview.
+- "THIS IS NOT A DRILL" reached 1.4 million phones. No correction template existed; the correction took **38 minutes** [@fcc-hawaii-false-alert:2018].
 
 ::: {.success-box}
-**The test that would have caught it:** the one you just ran. Heuristics 5 and 9 fail on the face of the screen. One evaluator, one hour: the cheapest method we have.
+**The test that would have caught it:** the one you just ran. Heuristics 5 and 9, one evaluator, one hour.
 :::
 :::
 ::: {.column width="45%"}
@@ -635,23 +685,15 @@ Decide what's wrong *before* you find out what happened.
 :::
 ::::::::::::::
 
-## Web Design Heuristics
+## Cheapest first, never cheapest only
 
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-@budd-web-design:2007 introduces further heuristics focussed on web, here's some from the [list](https://andybudd.com/archives/2007/01/heuristics_for_modern_web_application_de):
-
-- **Clarity:** Make the system as clear, concise and meaningful as possible for the intended audience.
-- **Minimise unneccessary complexity and cognitive load:** Make the system as simple as possible for people to accomplish their tasks.
-- **Provide context:** Interfaces should provide people with a sense of context in time and space
-- **Promote a pleasurable and positive experience:** people should be treated with respect and the design should be aesthetically pleasing and promote a pleasurable and rewarding experience
-
-
+::: {.warn-box}
+Inspection has a high false-negative rate, and different evaluators find markedly different problems. It "should not be trusted for complex or safety-critical systems" [@hornbaek-intro-hci:2025, section 40.3].
 :::
-::: {.column width="40%"}
-![Evaluating a website. Image: [nngroup (link)](https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/)](img/evaluation-nngroup-heuristic.jpg)
-:::
-::::::::::::::
+
+Hawaii's alert system *was* safety-critical. The heuristic pass finds the problems on the face of the screen; it does not find the ones that only appear when a tired officer is mid-drill at 8am.
+
+In Hornbæk's full yardstick table, "comply with guidelines" maps to one method. "Safety" is the row marked *multiple*.
 
 ## Shneiderman's Eight Golden Rules of Design
 
@@ -664,15 +706,26 @@ Decide what's wrong *before* you find out what happened.
 7. Keep users in control
 8. Reduce short-term memory load
 
-## Analytics: Evaluation at Scale
+## Activity: Two ways to evaluate nanojam
 
 :::::::::::::: {.columns}
-::: {.column width="50%"}
-![](img/evaluation_8_analytics_a.png)
-
+::: {.column width="55%"}
+::: {.push-box}
+**Do (3 minutes):** open <https://charlesmartin.au/nanojam/#ui.interface=cli> on your own device. You are the expert evaluator. Log every violation of Nielsen's 10 you can find in the command line interface, numbered by heuristic.
 :::
-::: {.column width="50%"}
-![](img/evaluation_9_analytics_b.png)
+
+::: {.talk-box}
+**Watch (3 minutes):** one volunteer, projected, thinks aloud (week 4) while trying to make a repeating pattern on the **pads** interface, no help from me.
+:::
+
+Then compare: what did the inspection find that the user never hit? What did the user hit that no heuristic covers?
+:::
+::: {.column width="45%"}
+![Two studies, one app, ten minutes.](img/nanojam-interfaces.png){width="100%"}
+
+::: {.think-box}
+**Think:** which of the three research questions from earlier does each of these studies actually answer?
+:::
 :::
 ::::::::::::::
 
@@ -710,6 +763,8 @@ Fitts' Law [@fitts1954information]:
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+The last yardstick in the table, **compatibility with user practices**, can only be measured after the thing is out in the world. A whole literature asks what "success" means then:
+
 - Adoption/Appropriation/Design-in-use [@ehn-participation:2008]
 - Technology acceptance [@davis1989perceived]
 - Non-use [@satchell-beyond-user:2009]
