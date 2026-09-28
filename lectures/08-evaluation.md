@@ -113,8 +113,6 @@ Nearly every HCI problem has precursors. Finding them is your job, not an option
 
 ## Research Question Bingo
 
-<!-- Could try a dual spinning wheel research question writing task: https://spinthewheel.io/wheels/wlzQX7r6A5GpkW4MExxW -->
-
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 **Interfaces:**
@@ -153,7 +151,7 @@ Nearly every HCI problem has precursors. Finding them is your job, not an option
 ::: {.push-box}
 **Do:** Let's write a research question!
 
-> Together, let's [Spin the wheels](https://spinthewheel.io/wheels/6QtocP77prRkdHZ66s0hcz0xJmU9MA==) to decide on a broad area and a problem.
+> Together, let's [Spin the wheels](https://smcclab.au/thirty-nine-hundred-hci/resources/research-question-wheels.html) to decide on a broad area and a problem.
 
 Then, decide on a "justification" and write a research question. Remember that the RQ should include the broad area, the problem, and the justification.
 

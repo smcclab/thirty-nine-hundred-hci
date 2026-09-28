@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Human Computer Interaction – Research Question Wheels</title>
+<meta name="description" content="Two spinning wheels that pair a random interface technology with a random problem to solve, as a prompt for writing an HCI research question in class.">
+<link rel="canonical" href="https://smcclab.au/thirty-nine-hundred-hci/resources/research-question-wheels.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Research Question Wheels">
+<meta property="og:site_name" content="Human Computer Interaction">
+<style>
+  /* Colours from css/_palette.scss (the course palette). */
+  :root {
+    --charcoal: #264653;
+    --darker-charcoal: #15272e;
+    --green: #2a9d8f;
+    --saffron: #e9c46a;
+    --sandy: #f4a261;
+    --sienna: #e76f51;
+    --ground: #fafafa;
+    --panel: #ffffff;
+    --ink: #15272e;
+    --ink-soft: #4f6069;
+    --edge: #d5dde0;
+    --result-bg: #fff7e3;
+    --pointer: #15272e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #15272e;
+      --panel: #264653;
+      --ink: #fafafa;
+      --ink-soft: #b9c7cc;
+      --edge: #3a5866;
+      --result-bg: #1d3640;
+      --pointer: #fafafa;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #15272e;
+    --panel: #264653;
+    --ink: #fafafa;
+    --ink-soft: #b9c7cc;
+    --edge: #3a5866;
+    --result-bg: #1d3640;
+    --pointer: #fafafa;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: "Noto Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .site-nav {
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid var(--edge);
+    font-size: 0.95rem;
+  }
+  .site-nav a { color: var(--green); text-decoration: none; font-weight: 600; }
+  .site-nav a:hover { text-decoration: underline; }
+
+  main {
+    flex: 1;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1rem 16px 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  h1 {
+    font-size: clamp(1.5rem, 3vw, 2.4rem);
+    margin: 0.5rem 0 0;
+    text-align: center;
+  }
+  .lede {
+    margin: 0;
+    color: var(--ink-soft);
+    text-align: center;
+    max-width: 60ch;
+  }
+
+  .wheels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+  }
+  .wheel-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: min(560px, 100%);
+  }
+  .wheel-box h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .wheel-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1;
+  }
+  .wheel-wrap canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  }
+  /* Pointer at the top of each wheel, pointing down into it. */
+  .pointer {
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 40px solid var(--pointer);
+    filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.4));
+    transform-origin: 50% 0;
+    z-index: 2;
+  }
+  .pointer.tick { animation: ticker 90ms ease-out; }
+  @keyframes ticker {
+    0%   { transform: translateX(-50%) rotate(0deg); }
+    40%  { transform: translateX(-50%) rotate(-14deg); }
+    100% { transform: translateX(-50%) rotate(0deg); }
+  }
+
+  .controls {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  button.spin {
+    font: inherit;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 0.7em 2.2em;
+    border: none;
+    border-radius: 999px;
+    background: var(--sienna);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 4px 0 #b9503a, 0 8px 20px rgba(0, 0, 0, 0.25);
+    transition: transform 0.08s, box-shadow 0.08s, opacity 0.2s;
+  }
+  button.spin:hover:not(:disabled) { background: #f07d5f; }
+  button.spin:active:not(:disabled) {
+    transform: translateY(4px);
+    box-shadow: 0 0 0 #b9503a, 0 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  button.spin:disabled { opacity: 0.6; cursor: wait; }
+  button.spin:focus-visible { outline: 3px solid var(--saffron); outline-offset: 3px; }
+
+  .result {
+    width: min(900px, 100%);
+    background: var(--result-bg);
+    border: 2px solid var(--saffron);
+    border-radius: 14px;
+    padding: 1rem 1.25rem;
+    text-align: center;
+    min-height: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.3rem;
+    transition: transform 0.25s;
+  }
+  .result.pop { animation: pop 0.5s cubic-bezier(0.2, 1.6, 0.4, 1); }
+  @keyframes pop {
+    0%   { transform: scale(0.94); }
+    60%  { transform: scale(1.03); }
+    100% { transform: scale(1); }
+  }
+  .result .label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-soft);
+  }
+  .result .text {
+    font-size: clamp(1.3rem, 2.6vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  .result .text .part { color: var(--green); }
+  .result .text .part.b { color: var(--sienna); }
+  .result .hint {
+    font-size: 0.95rem;
+    color: var(--ink-soft);
+  }
+
+  #confetti {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  footer.site-footer {
+    margin-top: 2rem;
+    padding: 0.8em 1rem 1.5em;
+    border-top: 1px solid var(--edge);
+    color: var(--ink-soft);
+    font-size: 0.85em;
+    text-align: center;
+  }
+  footer.site-footer a { color: var(--ink-soft); }
+
+  @media (prefers-reduced-motion: reduce) {
+    .pointer.tick, .result.pop { animation: none; }
+  }
+</style>
+</head>
+<body>
+<nav class="site-nav"><a href="../index.html">Human Computer Interaction</a></nav>
+<main>
+  <h1>Research Question Wheels</h1>
+  <p class="lede">One click spins both wheels. Take the interface and the problem you land on, add a justification, and write a research question.</p>
+
+  <div class="wheels">
+    <div class="wheel-box">
+      <h2>Interface</h2>
+      <div class="wheel-wrap">
+        <div class="pointer" id="pointer-a"></div>
+        <canvas id="wheel-a" role="img" aria-label="Wheel of interface technologies"></canvas>
+      </div>
+    </div>
+    <div class="wheel-box">
+      <h2>Problem to solve</h2>
+      <div class="wheel-wrap">
+        <div class="pointer" id="pointer-b"></div>
+        <canvas id="wheel-b" role="img" aria-label="Wheel of problems to solve"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button class="spin" id="spin">Spin the wheels</button>
+  </div>
+
+  <div class="result" id="result" aria-live="polite">
+    <div class="label">Your prompt</div>
+    <div class="text" id="result-text">Press <em>Spin the wheels</em> to get started.</div>
+    <div class="hint" id="result-hint"></div>
+  </div>
+</main>
+
+<canvas id="confetti"></canvas>
+
+<!-- This page is copied verbatim by the Makefile, so the shared footer
+     (templates/footer.html) isn't injected — keep this copy in sync. -->
+<footer class="site-footer">
+  <p>© 2026 Charles Martin, The Australian National University.
+  Except where otherwise noted, this work is licensed under a
+  <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative
+  Commons Attribution 4.0 International Licence</a>.</p>
+</footer>
+
+<script>
+// Lists mirror the "Research Question Bingo" slide in lectures/08-evaluation.md.
+const INTERFACES = [
+  "haptic feedback gloves", "AR/VR headset", "e-textile clothing",
+  "voice assistant", "gesture recognition", "smart headphones",
+  "ambient light display", "wearable plants", "eye-tracking interface",
+  "multi-touch table",
+];
+const PROBLEMS = [
+  "family meal planning", "language learning while commuting",
+  "caring for houseplants", "focus during remote work",
+  "medication schedules", "teaching kids about conservation",
+  "organising hobby collections", "non-verbal communication",
+  "practicing music in small spaces", "tracking community events",
+];
+
+const PALETTE = ["#2a9d8f", "#e9c46a", "#f4a261", "#e76f51", "#264653"];
+const SEGMENT_INK = { "#2a9d8f": "#fff", "#e9c46a": "#15272e", "#f4a261": "#15272e", "#e76f51": "#fff", "#264653": "#fff" };
+
+class Wheel {
+  constructor(canvasId, pointerId, items) {
+    this.canvas = document.getElementById(canvasId);
+    this.pointer = document.getElementById(pointerId);
+    this.items = items;
+    this.n = items.length;
+    this.angle = 0;          // current rotation in radians
+    this.lastSeg = -1;
+    this.ctx = this.canvas.getContext("2d");
+    this.resize();
+    window.addEventListener("resize", () => this.resize());
+  }
+
+  resize() {
+    const dpr = window.devicePixelRatio || 1;
+    const size = this.canvas.clientWidth || 500;
+    this.canvas.width = size * dpr;
+    this.canvas.height = size * dpr;
+    this.ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    this.size = size;
+    this.draw();
+  }
+
+  draw() {
+    const ctx = this.ctx, s = this.size, r = s / 2, cx = r, cy = r;
+    const seg = (2 * Math.PI) / this.n;
+    ctx.clearRect(0, 0, s, s);
+    ctx.save();
+    ctx.translate(cx, cy);
+    ctx.rotate(this.angle);
+    for (let i = 0; i < this.n; i++) {
+      // Choose colours so neighbours never match, including the wrap-around.
+      let colour = PALETTE[i % PALETTE.length];
+      if (i === this.n - 1 && colour === PALETTE[0]) colour = PALETTE[1];
+      const start = i * seg - Math.PI / 2, end = start + seg;
+      ctx.beginPath();
+      ctx.moveTo(0, 0);
+      ctx.arc(0, 0, r - 4, start, end);
+      ctx.closePath();
+      ctx.fillStyle = colour;
+      ctx.fill();
+      ctx.strokeStyle = "rgba(255,255,255,0.75)";
+      ctx.lineWidth = 2;
+      ctx.stroke();
+
+      // Label, radial, wrapped to at most two lines. Segments on the left
+      // half are flipped so the text reads left-to-right, never upside down.
+      ctx.save();
+      const mid = start + seg / 2;
+      ctx.rotate(mid);
+      ctx.textBaseline = "middle";
+      ctx.fillStyle = SEGMENT_INK[colour] || "#fff";
+      const fontPx = Math.max(11, s * 0.03);
+      ctx.font = `600 ${fontPx}px "Noto Sans", system-ui, sans-serif`;
+      const maxW = r * 0.62;
+      const lines = wrap(ctx, this.items[i], maxW);
+      const onLeft = ((mid + this.angle) % (2 * Math.PI) + 2 * Math.PI) % (2 * Math.PI) > Math.PI / 2
+                  && ((mid + this.angle) % (2 * Math.PI) + 2 * Math.PI) % (2 * Math.PI) < 3 * Math.PI / 2;
+      if (onLeft) { ctx.rotate(Math.PI); ctx.textAlign = "left"; }
+      else ctx.textAlign = "right";
+      const x = onLeft ? -(r - 18) : r - 18;
+      const lh = fontPx * 1.15;
+      lines.forEach((ln, k) => ctx.fillText(ln, x, (k - (lines.length - 1) / 2) * lh));
+      ctx.restore();
+    }
+    ctx.restore();
+
+    // Hub
+    ctx.beginPath();
+    ctx.arc(cx, cy, s * 0.05, 0, 2 * Math.PI);
+    ctx.fillStyle = "#fafafa";
+    ctx.fill();
+    ctx.strokeStyle = "#15272e";
+    ctx.lineWidth = 3;
+    ctx.stroke();
+    // Rim
+    ctx.beginPath();
+    ctx.arc(cx, cy, r - 3, 0, 2 * Math.PI);
+    ctx.strokeStyle = "#15272e";
+    ctx.lineWidth = 5;
+    ctx.stroke();
+  }
+
+  // Which segment sits under the pointer (top, 12 o'clock) at this angle?
+  segmentAt(angle) {
+    const seg = (2 * Math.PI) / this.n;
+    // Segment i occupies [i*seg, (i+1)*seg) measured clockwise from the top,
+    // rotated by `angle`. The pointer is at 0, so find i with rotation undone.
+    const a = ((-angle) % (2 * Math.PI) + 2 * Math.PI) % (2 * Math.PI);
+    return Math.floor(a / seg) % this.n;
+  }
+
+  // Angle that puts segment i under the pointer, with a random offset inside it.
+  targetAngleFor(i) {
+    const seg = (2 * Math.PI) / this.n;
+    const within = seg * (0.15 + 0.7 * Math.random());
+    return -(i * seg + within);
+  }
+
+  /** Spin to land on item index `target`; resolves with the item text. */
+  spin(target, duration, extraTurns) {
+    const from = this.angle;
+    // Normalise so the wheel always goes forward (clockwise) several turns.
+    const base = this.targetAngleFor(target);
+    let to = base;
+    while (to < from + extraTurns * 2 * Math.PI) to += 2 * Math.PI;
+    const t0 = performance.now();
+    return new Promise(resolve => {
+      const step = now => {
+        const t = Math.min(1, (now - t0) / duration);
+        const e = 1 - Math.pow(1 - t, 3.2);   // ease-out cubic-ish
+        this.angle = from + (to - from) * e;
+        const s = this.segmentAt(this.angle);
+        if (s !== this.lastSeg) {
+          this.lastSeg = s;
+          this.tick();
+        }
+        this.draw();
+        if (t < 1) requestAnimationFrame(step);
+        else resolve(this.items[this.segmentAt(this.angle)]);
+      };
+      requestAnimationFrame(step);
+    });
+  }
+
+  tick() {
+    this.pointer.classList.remove("tick");
+    void this.pointer.offsetWidth;  // restart the animation
+    this.pointer.classList.add("tick");
+    click();
+  }
+}
+
+// Greedy word wrap into at most two lines; the second line is truncated
+// with an ellipsis if it still won't fit.
+function wrap(ctx, text, maxW) {
+  if (ctx.measureText(text).width <= maxW) return [text];
+  const words = text.split(" ");
+  let first = "";
+  for (const w of words) {
+    const cand = first ? first + " " + w : w;
+    if (ctx.measureText(cand).width > maxW && first) break;
+    first = cand;
+  }
+  let rest = words.slice(first.split(" ").length).join(" ");
+  while (rest.length > 3 && ctx.measureText(rest + "…").width > maxW) rest = rest.slice(0, -1) + "…";
+  return rest ? [first, rest.replace(/…+$/, "…")] : [first];
+}
+
+// ---- Tiny click sound via WebAudio (optional; silent if blocked) ----
+let audio = null;
+function click() {
+  try {
+    if (!audio) audio = new (window.AudioContext || window.webkitAudioContext)();
+    const t = audio.currentTime;
+    const osc = audio.createOscillator();
+    const gain = audio.createGain();
+    osc.type = "square";
+    osc.frequency.setValueAtTime(1800, t);
+    osc.frequency.exponentialRampToValueAtTime(600, t + 0.03);
+    gain.gain.setValueAtTime(0.04, t);
+    gain.gain.exponentialRampToValueAtTime(0.0001, t + 0.04);
+    osc.connect(gain).connect(audio.destination);
+    osc.start(t);
+    osc.stop(t + 0.05);
+  } catch (e) { /* no audio, no problem */ }
+}
+
+// ---- Confetti ----
+const confettiCanvas = document.getElementById("confetti");
+const cctx = confettiCanvas.getContext("2d");
+let pieces = [];
+let confettiRunning = false;
+function sizeConfetti() {
+  confettiCanvas.width = window.innerWidth;
+  confettiCanvas.height = window.innerHeight;
+}
+window.addEventListener("resize", sizeConfetti);
+sizeConfetti();
+
+function burst(x, y, count) {
+  for (let i = 0; i < count; i++) {
+    const a = Math.random() * 2 * Math.PI;
+    const v = 6 + Math.random() * 10;
+    pieces.push({
+      x, y,
+      vx: Math.cos(a) * v, vy: Math.sin(a) * v - 6,
+      w: 6 + Math.random() * 8, h: 4 + Math.random() * 6,
+      rot: Math.random() * Math.PI, vr: (Math.random() - 0.5) * 0.4,
+      colour: PALETTE[Math.floor(Math.random() * PALETTE.length)],
+      life: 120 + Math.random() * 60,
+    });
+  }
+  if (!confettiRunning) { confettiRunning = true; requestAnimationFrame(animateConfetti); }
+}
+function animateConfetti() {
+  cctx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);
+  pieces = pieces.filter(p => p.life > 0 && p.y < confettiCanvas.height + 20);
+  for (const p of pieces) {
+    p.vy += 0.25; p.vx *= 0.99;
+    p.x += p.vx; p.y += p.vy; p.rot += p.vr; p.life--;
+    cctx.save();
+    cctx.translate(p.x, p.y);
+    cctx.rotate(p.rot);
+    cctx.globalAlpha = Math.min(1, p.life / 40);
+    cctx.fillStyle = p.colour;
+    cctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+    cctx.restore();
+  }
+  if (pieces.length) requestAnimationFrame(animateConfetti);
+  else { confettiRunning = false; cctx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height); }
+}
+function celebrate() {
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const r = document.getElementById("result").getBoundingClientRect();
+  burst(r.left + r.width * 0.2, r.top + r.height / 2, 70);
+  burst(r.left + r.width * 0.8, r.top + r.height / 2, 70);
+  setTimeout(() => burst(r.left + r.width / 2, r.top, 90), 180);
+}
+
+// ---- Wire it up ----
+const wheelA = new Wheel("wheel-a", "pointer-a", INTERFACES);
+const wheelB = new Wheel("wheel-b", "pointer-b", PROBLEMS);
+const btn = document.getElementById("spin");
+const result = document.getElementById("result");
+const resultText = document.getElementById("result-text");
+const resultHint = document.getElementById("result-hint");
+
+btn.addEventListener("click", async () => {
+  btn.disabled = true;
+  result.classList.remove("pop");
+  resultText.textContent = "Spinning…";
+  resultHint.textContent = "";
+  const a = Math.floor(Math.random() * INTERFACES.length);
+  const b = Math.floor(Math.random() * PROBLEMS.length);
+  const [ia, pb] = await Promise.all([
+    wheelA.spin(a, 4200 + Math.random() * 600, 4),
+    wheelB.spin(b, 5200 + Math.random() * 800, 5),
+  ]);
+  resultText.innerHTML =
+    `<span class="part a">${escapeHtml(ia)}</span> for <span class="part b">${escapeHtml(pb)}</span>`;
+  resultHint.textContent = "Now add a justification and write the research question.";
+  void result.offsetWidth;
+  result.classList.add("pop");
+  celebrate();
+  btn.disabled = false;
+  btn.textContent = "Spin again";
+});
+
+function escapeHtml(s) {
+  return s.replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+// Space bar spins too, handy at the lectern.
+document.addEventListener("keydown", e => {
+  if (e.code === "Space" && !btn.disabled && document.activeElement.tagName !== "BUTTON") {
+    e.preventDefault();
+    btn.click();
+  }
+});
+</script>
+</body>
+</html>
