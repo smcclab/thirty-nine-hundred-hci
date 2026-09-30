@@ -94,6 +94,7 @@ Here's some general advice:
 - Don't forget to ask for help or advice on the course forum: [Edstem discussions](https://edstem.org/au/courses/37143/discussion)
 - Generative AI is not banned in this course, but submitted assignments are expected to be primarily your own work. Any use of generative AI must be explained in your _Acknowledgements_ section including the scope to which it is applied. Use of generative AI without appropriate explanation and referencing comes under the _N_ category in the marking rubric.
 - You may use generative AI to help with aspects of data analysis (see lectures!) but you are responsible for the output and whether findings are justified or not; we may re-run analyses to check your data.
+- **Tip: video and audio recordings.** Keep each recording less than 100MB, which is ok for a regular git push. Please do not use Git LFS. If a recording is larger, compress it (for example, export at a lower resolution or bitrate) **before you commit it**, since git keeps earlier versions and re-uploading a smaller file won't shrink your repository. If you can't get it small enough, upload an accurate verbatim transcript and some representative still images instead; we will still count this as raw data.
 
 ## Marking Rubric {#rubric}
 
