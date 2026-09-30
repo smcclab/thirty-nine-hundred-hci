@@ -79,6 +79,11 @@ jobs:
           # nothing on the published site to show it went stale. So try the
           # redirector twice (it re-rolls the mirror each time), then fall back to
           # named mirrors that track tlnet closely.
+          #
+          # tlmgr install can exit 0 even when a package download failed
+          # ("downloading did not succeed" for noto.tar.xz on 2026-09-30), which
+          # then surfaces much later as fontspec not finding "Noto Sans". So the
+          # loop also requires the font file to be present before it accepts a mirror.
           REPOS="https://mirror.ctan.org/systems/texlive/tlnet
           https://mirror.ctan.org/systems/texlive/tlnet
           https://mirror.aarnet.edu.au/pub/CTAN/systems/texlive/tlnet
@@ -106,7 +111,8 @@ jobs:
             echo "::group::tlmgr via $repo"
             if tlmgr option repository "$repo" \
               && tlmgr update --self \
-              && tlmgr install $PACKAGES; then
+              && tlmgr install $PACKAGES \
+              && kpsewhich NotoSans-Regular.ttf; then
               installed="$repo"
             fi
             echo "::endgroup::"
