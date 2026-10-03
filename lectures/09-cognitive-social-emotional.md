@@ -6,9 +6,9 @@ description: "Cognitive, social and emotional aspects of interaction: cognitive 
 
 ## Announcements
 
-- Assignment 2 Due today!
-- Next week lecture is on Friday (???)
-- Course now shifts to support final project.
+- Assignment 2 is done, final project is out!
+- "Statistical Analysis" lecture is a stream/pre-record.
+- Course now shifts to support your final project which combines skills from A1 and A2.
 
 ## Plan for the class
 
@@ -25,7 +25,7 @@ description: "Cognitive, social and emotional aspects of interaction: cognitive 
 - report on the results
 
 ::: {.info-box}
-**Note:** the primary submission document is a 5-minute recorded presentation.
+**Note:** the primary submission document is a 5-minute recorded presentation! (make it good!)
 :::
 
 ## Final Project Research Challenge
