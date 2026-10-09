@@ -6,7 +6,7 @@ description: "Cognitive, social and emotional aspects of interaction: cognitive 
 
 ## Announcements
 
-- Assignment 2 is done, final project is out!
+- Assignment 2 is being marked , final project is out!
 - "Statistical Analysis" lecture is a stream/pre-record.
 - Course now shifts to support your final project which combines skills from A1 and A2.
 
@@ -19,7 +19,7 @@ description: "Cognitive, social and emotional aspects of interaction: cognitive 
 
 # Final Project Details {background-image="img/2020-ar-interaction.jpg" background-size="cover" background-opacity="0.35"}
 
-- a complete design and evaluation process for a prototype interactive system.
+- a complete design and evaluation process for a prototype interactive system
 - design a prototype in response to a real-world problem
 - evaluate this system using HCI research methods
 - report on the results
@@ -38,7 +38,7 @@ description: "Cognitive, social and emotional aspects of interaction: cognitive 
 
 ## Final Project Specification
 
-- include documentation of a testable prototype, research question, evaluation plan, data collection, data analysis, and articulation of findings
+- include documentation of a **testable** prototype, research question, evaluation plan, data collection, data analysis, and articulation of findings
 - include a **video recording** of a presentation which follows the provided headings: `project-presentation.mp4`
 - include documentation in `project-documentation.md` which follows the provided headings (**N.B.:** this text may be a transcript of your spoken presentation with references and images, it may also be a slightly different text.)
 
@@ -58,11 +58,13 @@ Your presentation and documentation will have the following sections:
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
+
 - clear and concise covering the section headings above
 - understandable audio **spoken by you**
 - must include **video of your face** while presenting in the presentation
 - must include at least 5 but no more than 10 slides
 - title slides, personal introductions, tables of contents, reference slides are **not required** (waste of time!)
+
 :::
 ::: {.column width="50%"}
 Suggested recording method: [Microsoft Powerpoint's built-in recording tool](https://support.microsoft.com/en-au/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33)
@@ -74,6 +76,10 @@ Suggested recording method: [Microsoft Powerpoint's built-in recording tool](htt
 ::::::::::::::
 
 ## Questions on the Final Project
+
+We will talk more about the final project each week.
+
+Next week, I'll demonstrate recording a presentation in powerpoint.
 
 ::: {.talk-box}
 **Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ Who has a question about the final project? (Or anything else?)
@@ -659,7 +665,7 @@ persuasive design uses interface techniques to change user behavior and thinking
 anthropomorphism is the human tendency to attribute human qualities to animals and objects, widely applied in technology design
 
 - applied in software designs, as well as hardware such as robots
-- e.g., _"ChatGPT"_ vs _"Claude"_. 
+- e.g., _"ChatGPT"_ vs _"Claude"_.
 - personalized first-person interaction ("Hi Charles!") proves more engaging than impersonal third-person commands
 - robot dolls incorporate sensors, speech recognition, and servos
 - should robots be hard (Sony AIBO) or soft designs that enhance emotional connection through touch? (e.g., haptic creature, @yohanan-haptic-creature:2008)
