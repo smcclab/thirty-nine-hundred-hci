@@ -1,13 +1,18 @@
 ---
 title: Cognitive, Social, and Emotional Interaction
 author: Dr Charles Martin
-description: "Cognitive, social and emotional aspects of interaction: cognitive frameworks such as mental models and distributed cognition, social interaction, and affective design."
+fontsize: 9pt
+description: "Cognitive, social and emotional aspects of interaction: attention, memory and the other cognitive processes, mental models and the gulfs of execution and evaluation, social and emotional design, with case studies of the Snapchat redesign, Google Buzz and Replika and a live recognition-versus-recall demo on nanojam."
+title-slide-attributes:
+    data-background-image: img/2025-nime-remote-performance.jpg
+    data-background-size: cover
 ---
 
 ## Announcements
 
-- Assignment 2 is being marked , final project is out!
-- "Statistical Analysis" lecture is a stream/pre-record.
+- Assignment 2 is being marked. The final project is out, and [the repo is ready to fork](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A3-final-project).
+- We lost a Monday to Labour Day, so the "Statistical Analysis" lecture will be a recording on Canvas (details on Ed).
+- This week's tutorial is _Prototyping for Evaluation_: start thinking about what your final project prototype needs to be testable.
 - Course now shifts to support your final project which combines skills from A1 and A2.
 
 ## Plan for the class
@@ -42,6 +47,10 @@ description: "Cognitive, social and emotional aspects of interaction: cognitive 
 - include a **video recording** of a presentation which follows the provided headings: `project-presentation.mp4`
 - include documentation in `project-documentation.md` which follows the provided headings (**N.B.:** this text may be a transcript of your spoken presentation with references and images, it may also be a slightly different text.)
 
+::: {.warn-box}
+**Due Thursday 5 November, 23:59 AEDT.** The video must be no longer than **330 seconds** (5 minutes plus 10%; the CI job rejects anything longer). Participants **must be current COMP3900/6390 students**: find 3--5 people in your tutorial now and take part in each other's studies.
+:::
+
 ## Final Project Sections
 
 Your presentation and documentation will have the following sections:
@@ -52,7 +61,7 @@ Your presentation and documentation will have the following sections:
 
 3. **Research Data, Analysis and Findings**: N.B. you can choose to collect either qualitative, quantitative, or both
 
-4. **COMP6390 Only---Positionality Statement**: critically reflect on your presence and influence within the technology design process in a [statement of positionality](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/06-reflexive-thematic-analysis.html#/reflexivity).
+4. **COMP6390 Only---Positionality Statement**: critically reflect on your presence and influence within the technology design process in a [statement of positionality](https://smcclab.au/thirty-nine-hundred-hci/lectures/06-reflexive-thematic-analysis.html#/reflexivity).
 
 ## Video Presentation
 
@@ -67,7 +76,7 @@ Your presentation and documentation will have the following sections:
 
 :::
 ::: {.column width="50%"}
-Suggested recording method: [Microsoft Powerpoint's built-in recording tool](https://support.microsoft.com/en-au/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33)
+Suggested recording method: [Microsoft Powerpoint's built-in recording tool](https://support.microsoft.com/en-au/office/record-a-slide-show-with-narration-and-slide-timings-0b9502c6-5f6c-40ae-b1e7-e47d8741161c#OfficeVersion=2013%2C_2016&officeversion=newer_versions)
 
 ::: {.error-box}
 **Not allowed:** no genAI or text-to-speech for the video presentation!
@@ -79,7 +88,7 @@ Suggested recording method: [Microsoft Powerpoint's built-in recording tool](htt
 
 We will talk more about the final project each week.
 
-Next week, I'll demonstrate recording a presentation in powerpoint.
+In the Expressive Interfaces lecture (19 October) I'll demonstrate recording a presentation in PowerPoint.
 
 ::: {.talk-box}
 **Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ Who has a question about the final project? (Or anything else?)
@@ -253,7 +262,7 @@ accumulation of skills and knowledge through memory [@rogers-beyond-hci:2023 p.1
 Learning theory concept: "zone of proximal development"---we should get users into that state!
 :::
 ::: {.column width="40%"}
-![How do we encourage exploration and embed guidance into systems! Games are awesome at this. (Image: Philippe Bout on Unsplash)](img/philippe-bout-93W0xn4961g-unsplash.jpg)
+![How do we encourage exploration and embed guidance into systems? Games are awesome at this. (Image: Philippe Bout on Unsplash)](img/philippe-bout-93W0xn4961g-unsplash.jpg)
 :::
 ::::::::::::::
 
@@ -340,37 +349,32 @@ Learning theory concept: "zone of proximal development"---we should get users in
 ::: {.column width="60%"}
 A mental model is our internal understanding of how a system works.
 
-- used to reason about unfamiliar technology or troubleshoot problems
-- develop through experience; often incomplete or incorrect
-- common errors from misapplying logic of a system: thermostat/oven vs. water tap
-- poor mental models lead to difficulty identifying problems and explaining system behavior
-- interfaces can help through clear instructions, contextual help, and appropriate metaphors
+- used to reason about unfamiliar technology and to troubleshoot
+- built from experience; often incomplete or wrong (thermostat as a tap: "turn it up more to heat faster")
+- a poor model makes problems hard to spot and behaviour hard to explain
+- interfaces help with clear instructions, contextual help and apt metaphors
+- three minutes more: [What is a mental model? (NNGroup video)](https://www.youtube.com/watch?v=nAgXISssAws)
 :::
 ::: {.column width="40%"}
 ![[Mental Models (nngroup)](https://www.nngroup.com/articles/mental-models/)](img/mental-models-nngroup.jpg){width=80%}
 :::
 ::::::::::::::
 
-## Video: What is a mental model?
-
-![[What is a mental model? (NNGroup)](https://www.youtube.com/watch?v=nAgXISssAws)
-](img/01_02_conceptualising_interaction_0.png){width=60%}
-
 ## Case Study: Snapchat's Redesign (February 2018)
 
 :::::::::::::: {.columns}
-::: {.column width="55%"}
-New users, and anyone over 25, found Snapchat baffling: friends' stories and publishers' content in one list.
+::: {.column width="45%"}
+Everything sat behind unlabelled swipes. Spiegel: "difficult to understand or hard to use" [@snap-q3-2017-call:2017]. New users, and anyone over 25, couldn't find things. 191 million people a day had the gestures by heart.
 
-- **A:** separate friends from media. Cleaner conceptual model, and it fits everything on the slides so far today.
-- **B:** leave a structure you *know* is confusing, because 191 million people a day have memorised it.
+- **A:** reorganise. Friends left, media right, friends' stories in algorithmic order. A cleaner conceptual model.
+- **B:** leave a structure you *know* is confusing, because 191 million people have memorised it.
 
 ::: {.talk-box}
-**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ A or B? Who do you test it with first: new users, or people already opening it 20 times a day? 2 minutes.
+**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ A or B? Who do you test with first: new users, or people opening it 20 times a day? 2 minutes.
 :::
 :::
-::: {.column width="45%"}
-![Navigation before and after, simplified and redrawn.](img/snapchat-redesign.png)
+::: {.column width="55%"}
+![Hidden gestures before and after, redrawn from press descriptions.](img/snapchat-gestures.svg){alt="Two phones, each showing only the camera. Dashed arrows mark four invisible swipes. Before 2018: swipe right to Chat, left to Stories (friends then publishers), up to Memories, down to Profile. After: the same swipes, but left now reaches Friends (messages and stories in algorithmic order) and right reaches Discover (publishers, celebrities, Snap Map)." width="100%"}
 :::
 ::::::::::::::
 
@@ -413,11 +417,10 @@ influential early HCI framework describing gaps between user and interface [@nor
 
 ## Information Processing
 
-- **Mind as information processor**: (1980s metaphor) mind processes information through ordered stages (input, processing, output) involving mental representations like images, models, and rules
-- **Human processor model**: conceptualized cognition as series of perceptual, cognitive, and motor processors to predict user interaction times with computers (Card et al., 1983)
-- **Reaction time predictions**: The information processing approach enabled hypotheses about user response times and cognitive bottlenecks when overloaded with information
-- **Shift to external cognition**: Modern HCI focuses on understanding cognitive activities in context, analyzing how environmental structures support cognition and reduce cognitive load
-- **Cognitive load measurement**: Mental effort required for learning is assessed through methods like NASA-TLX survey, which measures mental demand, physical demand, temporal demand, performance, effort, and frustration
+- **mind as information processor** (1980s metaphor): input, processing, output, over mental representations such as images, models and rules
+- **model human processor** [@card-psychology-hci:1983]: perceptual, cognitive and motor processors with measured cycle times, so a task's time can be *predicted* before anyone uses the interface
+- the approach gave HCI reaction-time hypotheses and the idea of a cognitive bottleneck; modern HCI mostly moved on to cognition *in context* (next two slides)
+- its survivor is **cognitive load**, measured with the NASA-TLX questionnaire: mental, physical and temporal demand, performance, effort, frustration. Usable in your final project.
 
 ## Distributed Cognition
 
@@ -700,7 +703,7 @@ A companion chatbot. People form attachments to it, which is the whole product.
 ::: {.column width="60%"}
 **Who has a question?**
 
-- I can take _cathchbox_ question up until 2:55
+- I can take _catchbox_ questions up until 2:55
 - For after class questions: meet me outside the classroom at the bar (for 30 minutes)
 - Feel free to ask about **any aspect of the course**
 - Also feel free to ask about **any aspect of computing at ANU**! I may not be able to help, but I can listen.

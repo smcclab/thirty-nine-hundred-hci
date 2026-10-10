@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1720 1000" width="1720" height="1000" font-family="Noto Sans">
+  <title>Snapchat's hidden gesture navigation before and after the 2018 redesign</title>
+  <defs><marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#b8c4c8"/></marker></defs>
+  <text font-size="34" font-weight="700" fill="#fafafa" text-anchor="middle"><tspan x="410.0" y="72.2">Before (2017)</tspan></text>
+  <rect x="300.0" y="300.0" width="220" height="400" rx="30" fill="#15272e" stroke="#fafafa" stroke-width="4"/>
+  <rect x="312.0" y="312.0" width="196" height="376" rx="20" fill="#264653"/>
+  <circle cx="370" cy="430" r="22" fill="#e9c46a" fill-opacity="0.5"/>
+  <path d="M312.0 560 L360 490 L420 550 L470 510 L508.0 580 L508.0 668.0 L312.0 668.0 Z" fill="#2a9d8f" fill-opacity="0.35"/>
+  <circle cx="410" cy="650.0" r="26" fill="none" stroke="#fafafa" stroke-width="5"/>
+  <text font-size="20" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="410.0" y="289.2">camera</tspan></text>
+  <line x1="294.0" y1="500" x2="240.0" y2="500" stroke="#2a9d8f" stroke-width="3" stroke-dasharray="8 8" marker-end="url(#head)"/>
+  <text font-size="20" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="267.0" y="483.2">swipe right</tspan></text>
+  <rect x="10.0" y="435.0" width="230" height="130" rx="12" fill="#2a9d8f" fill-opacity="0.14" stroke="#2a9d8f" stroke-width="3"/>
+  <text x="125.0" y="478.6" font-size="24" font-weight="700" fill="#2a9d8f" text-anchor="middle">Chat</text>
+  <text x="125.0" y="508.6" font-size="24" font-weight="400" fill="#fafafa" text-anchor="middle">messages,</text>
+  <text x="125.0" y="538.6" font-size="24" font-weight="400" fill="#fafafa" text-anchor="middle">newest first</text>
+  <line x1="526.0" y1="500" x2="580.0" y2="500" stroke="#2a9d8f" stroke-width="3" stroke-dasharray="8 8" marker-end="url(#head)"/>
+  <text font-size="20" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="553.0" y="483.2">swipe left</tspan></text>
+  <rect x="580.0" y="420.0" width="230" height="160" rx="12" fill="#2a9d8f" fill-opacity="0.14" stroke="#2a9d8f" stroke-width="3"/>
+  <text x="695.0" y="463.6" font-size="24" font-weight="700" fill="#2a9d8f" text-anchor="middle">Stories</text>
+  <text x="695.0" y="493.6" font-size="24" font-weight="400" fill="#fafafa" text-anchor="middle">friends, newest first;</text>
+  <text x="695.0" y="523.6" font-size="24" font-weight="400" fill="#fafafa" text-anchor="middle">then Discover:</text>
+  <text x="695.0" y="553.6" font-size="24" font-weight="400" fill="#fafafa" text-anchor="middle">publishers</text>
+  <line x1="410" y1="706.0" x2="410" y2="760.0" stroke="#2a9d8f" stroke-width="3" stroke-dasharray="8 8" marker-end="url(#head)"/>
+  <text font-size="20" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="502.0" y="743.2">swipe down</tspan></text>
+  <rect x="300.0" y="768.0" width="220" height="84" rx="12" fill="#2a9d8f" fill-opacity="0.14" stroke="#2a9d8f" stroke-width="3"/>
+  <text x="410.0" y="803.6" font-size="24" font-weight="700" fill="#2a9d8f" text-anchor="middle">Profile</text>
+  <text x="410.0" y="833.6" font-size="24" font-weight="400" fill="#fafafa" text-anchor="middle">settings, friends</text>
+  <line x1="410" y1="264.0" x2="410" y2="210.0" stroke="#2a9d8f" stroke-width="3" stroke-dasharray="8 8" marker-end="url(#head)"/>
+  <text font-size="20" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="492.0" y="245.2">swipe up</tspan></text>
+  <rect x="300.0" y="123.0" width="220" height="84" rx="12" fill="#2a9d8f" fill-opacity="0.14" stroke="#2a9d8f" stroke-width="3"/>
+  <text x="410.0" y="158.6" font-size="24" font-weight="700" fill="#2a9d8f" text-anchor="middle">Memories</text>
+  <text x="410.0" y="188.6" font-size="24" font-weight="400" fill="#fafafa" text-anchor="middle">saved snaps</text>
+  <text font-size="24" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="410.0" y="913.6">Nothing on screen says</tspan><tspan x="410.0" y="943.6">any of this exists.</tspan></text>
+  <text font-size="34" font-weight="700" fill="#fafafa" text-anchor="middle"><tspan x="1310.0" y="72.2">After (Feb 2018)</tspan></text>
+  <rect x="1200.0" y="300.0" width="220" height="400" rx="30" fill="#15272e" stroke="#fafafa" stroke-width="4"/>
+  <rect x="1212.0" y="312.0" width="196" height="376" rx="20" fill="#264653"/>
+  <circle cx="1270" cy="430" r="22" fill="#e9c46a" fill-opacity="0.5"/>
+  <path d="M1212.0 560 L1260 490 L1320 550 L1370 510 L1408.0 580 L1408.0 668.0 L1212.0 668.0 Z" fill="#2a9d8f" fill-opacity="0.35"/>
+  <circle cx="1310" cy="650.0" r="26" fill="none" stroke="#fafafa" stroke-width="5"/>
+  <text font-size="20" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="1310.0" y="289.2">camera</tspan></text>
+  <line x1="1194.0" y1="500" x2="1140.0" y2="500" stroke="#e9c46a" stroke-width="3" stroke-dasharray="8 8" marker-end="url(#head)"/>
+  <text font-size="20" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="1167.0" y="483.2">swipe right</tspan></text>
+  <rect x="910.0" y="405.0" width="230" height="190" rx="12" fill="#e9c46a" fill-opacity="0.14" stroke="#e9c46a" stroke-width="3"/>
+  <text x="1025.0" y="448.6" font-size="24" font-weight="700" fill="#e9c46a" text-anchor="middle">Friends</text>
+  <text x="1025.0" y="478.6" font-size="24" font-weight="400" fill="#fafafa" text-anchor="middle">messages and</text>
+  <text x="1025.0" y="508.6" font-size="24" font-weight="400" fill="#fafafa" text-anchor="middle">friends' stories, in</text>
+  <text x="1025.0" y="538.6" font-size="24" font-weight="400" fill="#fafafa" text-anchor="middle">an order chosen</text>
+  <text x="1025.0" y="568.6" font-size="24" font-weight="400" fill="#fafafa" text-anchor="middle">by an algorithm</text>
+  <line x1="1426.0" y1="500" x2="1480.0" y2="500" stroke="#e9c46a" stroke-width="3" stroke-dasharray="8 8" marker-end="url(#head)"/>
+  <text font-size="20" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="1453.0" y="483.2">swipe left</tspan></text>
+  <rect x="1480.0" y="420.0" width="230" height="160" rx="12" fill="#e9c46a" fill-opacity="0.14" stroke="#e9c46a" stroke-width="3"/>
+  <text x="1595.0" y="463.6" font-size="24" font-weight="700" fill="#e9c46a" text-anchor="middle">Discover</text>
+  <text x="1595.0" y="493.6" font-size="24" font-weight="400" fill="#fafafa" text-anchor="middle">publishers,</text>
+  <text x="1595.0" y="523.6" font-size="24" font-weight="400" fill="#fafafa" text-anchor="middle">celebrities,</text>
+  <text x="1595.0" y="553.6" font-size="24" font-weight="400" fill="#fafafa" text-anchor="middle">Snap Map</text>
+  <line x1="1310" y1="706.0" x2="1310" y2="760.0" stroke="#2a9d8f" stroke-width="3" stroke-dasharray="8 8" marker-end="url(#head)"/>
+  <text font-size="20" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="1402.0" y="743.2">swipe down</tspan></text>
+  <rect x="1200.0" y="768.0" width="220" height="84" rx="12" fill="#2a9d8f" fill-opacity="0.14" stroke="#2a9d8f" stroke-width="3"/>
+  <text x="1310.0" y="803.6" font-size="24" font-weight="700" fill="#2a9d8f" text-anchor="middle">Profile</text>
+  <text x="1310.0" y="833.6" font-size="24" font-weight="400" fill="#fafafa" text-anchor="middle">settings, friends</text>
+  <line x1="1310" y1="264.0" x2="1310" y2="210.0" stroke="#2a9d8f" stroke-width="3" stroke-dasharray="8 8" marker-end="url(#head)"/>
+  <text font-size="20" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="1392.0" y="245.2">swipe up</tspan></text>
+  <rect x="1200.0" y="123.0" width="220" height="84" rx="12" fill="#2a9d8f" fill-opacity="0.14" stroke="#2a9d8f" stroke-width="3"/>
+  <text x="1310.0" y="158.6" font-size="24" font-weight="700" fill="#2a9d8f" text-anchor="middle">Memories</text>
+  <text x="1310.0" y="188.6" font-size="24" font-weight="400" fill="#fafafa" text-anchor="middle">saved snaps</text>
+  <text font-size="24" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="1310.0" y="913.6">Same hidden gestures.</tspan><tspan x="1310.0" y="943.6">The destinations moved.</tspan></text>
+  <line x1="860" y1="110" x2="860" y2="890" stroke="#b8c4c8" stroke-width="2" stroke-dasharray="4 10"/>
+</svg>

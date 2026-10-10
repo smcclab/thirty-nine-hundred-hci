@@ -11,8 +11,7 @@
     ]
   },
   "liveServer.settings.root": "/build",
-  "python-envs.defaultEnvManager": "ms-python.python:pyenv",
-  "python-envs.pythonProjects": [],
+  "python-envs.defaultEnvManager": "ms-python.python:system",
   "cSpell.words": [
     "Adiwangsa",
     "AEST",

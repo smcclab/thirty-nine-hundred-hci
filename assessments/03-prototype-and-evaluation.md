@@ -64,7 +64,7 @@ You must record a 5-minute presentation that articulates your work in the format
 - must include at least 5 but no more than 10 slides
 - title slides, personal introductions, tables of contents, reference slides are not required (waste of time!)
 
-The easiest way to create a five-minute presentation would be to use Microsoft Powerpoint, and record the presentation using the built in recording tool. Instructions for [recording the presentation are here (link)](https://support.microsoft.com/en-au/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33). Microsoft 365 applications [are provided to all ANU students](https://services.anu.edu.au/information-technology/software-systems/microsoft-office-365).
+The easiest way to create a five-minute presentation would be to use Microsoft Powerpoint, and record the presentation using the built in recording tool. Instructions for [recording the presentation are here (link)](https://support.microsoft.com/en-au/office/record-a-slide-show-with-narration-and-slide-timings-0b9502c6-5f6c-40ae-b1e7-e47d8741161c#OfficeVersion=2013%2C_2016&officeversion=newer_versions). Microsoft 365 applications [are provided to all ANU students](https://services.anu.edu.au/information-technology/software-systems/microsoft-office-365).
 
 **Important:** Note that you **must not** use generative AI or text-to-speech software to create or record your presentation. It must be you presenting your research and you must be identifiable in the video recording.
 
@@ -99,7 +99,7 @@ Here's how to get started with the work in this assignment:
 
 8. Write up your project in the correct format in your fork of the gitlab repository. Make sure you are using correct markdown syntax and have included all data and analysis files in your repository.
 
-9. Create and record a presentation following the instructions above. Ensure that the presentation video is in `.mp4` format, and is less than 330 seconds. Make sure that you record your own voice and include video of your face in the presentation video. You can [do this using Microsoft Powerpoint](https://support.microsoft.com/en-au/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33) (ANU-provided software). Upload your recorded presentation as `project-presentation.mp4` in your fork of the project repository.
+9. Create and record a presentation following the instructions above. Ensure that the presentation video is in `.mp4` format, and is less than 330 seconds. Make sure that you record your own voice and include video of your face in the presentation video. You can [do this using Microsoft Powerpoint](https://support.microsoft.com/en-au/office/record-a-slide-show-with-narration-and-slide-timings-0b9502c6-5f6c-40ae-b1e7-e47d8741161c#OfficeVersion=2013%2C_2016&officeversion=newer_versions) (ANU-provided software). Upload your recorded presentation as `project-presentation.mp4` in your fork of the project repository.
 
 10. Acknowledge your research participants by listing them in your _Acknowledgements_ section.
 
