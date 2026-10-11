@@ -11,7 +11,7 @@ title-slide-attributes:
 ## Announcements
 
 - Assignment 2 is being marked. The final project is out, and [the repo is ready to fork](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A3-final-project).
-- We lost a Monday to Labour Day, so the "Statistical Analysis" lecture will be a recording on Canvas (details on Ed).
+- Last Monday was a public holiday, so the "Statistical Analysis" lecture will be a recording  (details on Ed).
 - This week's tutorial is _Prototyping for Evaluation_: start thinking about what your final project prototype needs to be testable.
 - There's a new workshop for week 12: _Positionality_
 - Course now shifts to support your final project which combines skills from A1 and A2.
@@ -37,11 +37,13 @@ title-slide-attributes:
 
 ## Final Project Research Challenge
 
-> **Sustainable living through technology**: You woke up this morning, checked your email, and found that you have a new job---_ANU Student Lead for Sustainable Living_! 
+> **Sustainable living through technology**: You woke up this morning, checked your email, and found that you have a new job---_ANU Student Lead for Sustainable Living_!
 
-> Your challenge is to help university students adopt sustainable behaviours in their everyday lives guided by the [UN Sustainable Development Goals (SDG)](https://sdgs.un.org/goals) which call for urgent action on climate change, responsible consumption, and sustainable communities. 
+> Your challenge is to help university students adopt sustainable behaviours in their everyday lives guided by the [UN Sustainable Development Goals (SDG)](https://sdgs.un.org/goals) which call for urgent action on climate change, responsible consumption, and sustainable communities.
 
-> You will need to _choose a focus_ (e.g., energy use, waste reduction, transportation, consumption), _prototype_ and _evaluate_ an interface to make sustainable living more accessible, engaging or effective. Your system should involve a level of non-standard interaction, either through unusual use of standard computer IO hardware, or a novel interface. 
+> You will need to _choose a focus_ (e.g., energy use, waste reduction, transportation, consumption), _prototype_ and _evaluate_ an interface to make sustainable living more accessible, engaging or effective. Your system should involve a level of _non-standard interaction_, either through unusual use of standard computer IO hardware, or a novel interface.
+
+(what is _non-standard interaction_?)
 
 ## Final Project Specification
 
@@ -65,6 +67,8 @@ Your presentation and documentation will have the following sections:
 
 4. **COMP6390 Only---Positionality Statement**: critically reflect on your presence and influence within the technology design process in a [statement of positionality](https://smcclab.au/thirty-nine-hundred-hci/lectures/06-reflexive-thematic-analysis.html#/reflexivity).
 
+Just these sections! Really!
+
 ## Video Presentation
 
 :::::::::::::: {.columns}
@@ -86,35 +90,39 @@ Suggested recording method: [Microsoft Powerpoint's built-in recording tool](htt
 :::
 ::::::::::::::
 
-## What the video could look like
+## What should my video look like?
 
-![One slide from a demo final-project video: the section heading, the research question, your prototype, and your face. (Lorem ipsum stands in for your text.)](img/comp3900-final-project-demo-slide.jpg){alt="A presentation slide titled Research Question, Plan, and Conclusions. Left: a short instruction paragraph, the line My research question is, and three bullets for problem, solution and why this matters, with placeholder text. Right: a photo of a guitar pedal and a Roland drum machine on a stand under blue light. Bottom right: a circular webcam video of Charles speaking." width="75%"}
+![Example slide recorded in PowerPoint. We'll try this in a demo!](img/comp3900-final-project-demo-slide.jpg){alt="A presentation slide titled Research Question, Plan, and Conclusions. Left: a short instruction paragraph, the line My research question is, and three bullets for problem, solution and why this matters, with placeholder text. Right: a photo of a guitar pedal and a Roland drum machine on a stand under blue light. Bottom right: a circular webcam video of Charles speaking." width="70%"}
 
 ## Questions on the Final Project
 
 We will talk more about the final project each week.
 
-In the Expressive Interfaces lecture (19 October) I'll demonstrate recording a presentation in PowerPoint.
+Next week: I'll demonstrate recording a presentation in PowerPoint.
 
 ::: {.talk-box}
 **Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ Who has a question about the final project? (Or anything else?)
 :::
 
-# The goals, and the why {background-image="img/luke-jones-DHR8LQRY-fU-unsplash.jpg" background-size="cover" background-opacity="0.35"}
+# The "why" behind user experience {background-image="img/luke-jones-DHR8LQRY-fU-unsplash.jpg" background-size="cover" background-opacity="0.35"}
 
-Week 1 named the goals. Week 8 showed how to measure them. This week is about **why** people experience an interface the way they do.
+At the start of this course we discussed goals for our systems: usability and user experience.
+
+We found ways to measure them and design for them?
+
+This week is about **why** people experience an interface the way they do and how this shows up in HCI research and practice.
 
 ## Why does an interface feel the way it does?
 
 :::::::::::::: {.columns}
 ::: {.column width="55%"}
-"Easy", "frustrating", "fun", "lonely", "creepy": the words people use about technology come from what their brains and bodies do with it.
+"Easy", "frustrating", "fun", "lonely", "creepy" relate to how users' brains and bodies do with technology.
 
-- **Cognitive:** what a brain can notice, hold, remember and figure out
-- **Social:** people are never alone with a device; they are being someone in front of others
-- **Emotional:** feeling arrives first and colours every later judgement
+- **Cognitive:** what a brain can notice, remember and figure out
+- **Social:** how our experience with technology connects with our social existence
+- **Emotional:** feeling are fast and deep, and affect every aspect of our experience.
 
-Each topic today: an experience you've had, research that explains it, what to design, and what it means for your final project.
+For each of these aspects, we will talk about how they show up in everyday experience, research that explains it, what to design, and what it might means for your final project.
 :::
 ::: {.column width="45%"}
 ![Week 1: usability goals inside user experience goals, after @rogers-beyond-hci:2023](img/usability-ux-goals.svg){alt="Diagram: six usability goals in an inner circle surrounded by a ring of user experience goals such as fun, motivating, emotionally fulfilling and aesthetically pleasing" width="72%"}
@@ -125,6 +133,8 @@ Each topic today: an experience you've had, research that explains it, what to d
 
 Why does an interface feel *easy* or *hard*? Because of what a brain can notice, hold and remember, and the way an interface works with or against that.
 
+
+<!-- TODO - rewrite this one just as a talkthrough demo in Nanojam. Make the image bigger (it's three interfaces side by side and should just be full width). -->
 ## Demo: cognition you can feel
 
 :::::::::::::: {.columns}
@@ -162,23 +172,23 @@ Two modes [@kahneman-fast-slow-thinking:2011]:
 - **Experiential** (fast): 2 + 2 =
 - **Reflective** (slow): 312 x 56 =
 
-Six processes to design for [@eysenck-brysbaert:2023]: attention, perception, memory, learning, reading/speaking/listening, and problem solving/decision making.
+Six processes we could design for: attention, perception, memory, learning, reading/speaking/listening, and problem solving/decision making. [@eysenck-brysbaert:2023]
 :::
 ::: {.column width="45%"}
 ![(Photo by Mathilda Khoo on Unsplash)](img/mathilda-khoo-HLA3TAFQuQs-unsplash.jpg){width="60%"}
 :::
 ::::::::::::::
 
-## Attention: why interruptions cost more than they look
+## Attention: interruptions cost more than they look
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Attention is *selection*. Switching spends it, and the lost thread has to be rebuilt.
+Attention is *selection*. Context switching costs us time.
 
-- **You've felt it:** a notification lands mid-sentence and the sentence is gone.
+- **Everyday distractions:** a notification lands and you forget what you were doing..
 - **Research:** the same motel data, structured, was found in 3.2 s vs 5.5 s [@rogers-beyond-hci:2023, p. 104]. Smartwatch wearers fitted glances into pauses in conversation, and still felt the pull of "trying to not listen to your watch" [@pizza-smartwatch-in-vivo:2016].
 - **Design:** salient *when* needed (colour, motion, order, space); no clutter; support leaving and returning.
-- **Your project:** a sustainability prompt competes with the whole phone. When must it *not* appear?
+- **Your project:** pings or interruptions competes with life. When must they *not* appear?
 :::
 ::: {.column width="40%"}
 ![Structured and unstructured information text [@rogers-beyond-hci:2023]](img/structuring-information.jpg){width="42%"}
@@ -189,34 +199,35 @@ Attention is *selection*. Switching spends it, and the lost thread has to be reb
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-A target unique in one feature (colour, shape, size, motion) is found in under 100 ms without searching; a *combination* of features has to be checked item by item [@treisman-feature-integration:1980].
+A target unique in one feature (colour, shape, size, motion) is found quickly without searching; a *combination* of features has to be checked item by item [@treisman-feature-integration:1980].
 
-- **You've felt it:** a red icon among many coloured ones is invisible; among grey ones it shouts.
+- **Everyday clutter:** a red icon among many coloured ones is invisible.
 - **Research:** grouping speeds up menu search, but only with a few large groups [@brumby-visual-grouping-menus:2015].
 - **Design:** distinguishable icons; white space to group; colour sparingly, with contrast; earcons that differ in rhythm, not just pitch; haptics for user-initiated actions.
-- **Your project:** what is the *one* thing a glance at your prototype should carry?
+- **Your project:** what is the *one* thing a glance at your prototype communicates?
 :::
 ::: {.column width="40%"}
 ![Layout of music controls in AR changes what is perceived [@wang-cubing-sound:2022]](img/2022-cubing-sound-designs.jpg){width="100%"}
 :::
 ::::::::::::::
 
-## Memory: why recognition beats recall
+## Memory: recognition beats recall
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-You just watched it: pointing at a pad beats remembering a command.
+Think back to the demo: Pointing at a pad beats remembering a command.
 
-- **The myth:** "7 ± 2" [@miller-magical-number-seven:1956] is about items held after one presentation, not menu length. Menus are *scanned*, so 30 items can be fine [@rogers-beyond-hci:2023, box 4.2]. Working memory is closer to 3 to 5 chunks anyway [@cowan-magical-mystery-four:2010].
+- **The myth:** "7 ± 2" [@miller-magical-number-seven:1956] was items recalled after one presentation, not menu length. Menus are *scanned*, so 30 items can be fine [@rogers-beyond-hci:2023, box 4.2].
 - **Research:** gestures people defined themselves were recalled up to 44% better than designer-defined ones [@nacenta-memorability-gestures:2013]. People remembered less about museum objects they had photographed [@henkel-point-and-shoot:2014]. The less confident we feel, the more we offload to devices, whatever our memory is actually like [@gilbert-intention-offloading:2022].
 - **Design:** recognition over recall; short procedures; consistency; let people label things.
 :::
 ::: {.column width="40%"}
+<!-- TODO replace this image, it sucks. I guess teh thing was something like "remembering a family recipe" as it's a ladle of stew. just looks a bit like a cookbook. -->
 ![Photo by Piotr Miazga on Unsplash](img/piotr-miazga-xOZXquhp7RA-unsplash.jpg){width="45%"}
 :::
 ::::::::::::::
 
-## Learning: why nobody reads the manual
+## Learning: nobody reads the manual
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
@@ -233,35 +244,41 @@ Intentional learning is hard work; incidental learning (faces, routes, where the
 :::
 ::::::::::::::
 
-## Deciding: why people stick with what they know
+## Deciding: people stick with what they know
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 Reflective cognition is slow and expensive, so everyday decisions run on fast heuristics.
 
-- **Research:** shoppers buy the brands they know and spend seconds per choice; information for a greener or healthier choice has to arrive *at the shelf*, in the moment, or it loses [@todd-nudging-trolley:2011].
-- **Your project, exactly:** a sustainable choice competes with a habit. Where and when does your interface put its information?
+- **Research:** shoppers buy the brands they know and spend seconds per choice; information for a greener or healthier choice has to arrive *at the shelf*, in the moment, to count [@todd-nudging-trolley:2011].
 - **Design:** help people improve, not just complete; simple memorable functions; let people configure.
 - **Reading, speaking, listening** differ too: reading is faster, listening is less effort, writing persists, speech vanishes. Speech menus of 3 or 4; text that can be enlarged.
+- **Your project:** a sustainable choice competes with habits. Where and when does your interface put its information?
 :::
 ::: {.column width="40%"}
+<!-- These images don't make sense for this slide now -->
 ![Source: [Design Boom](https://www.designboom.com/technology/blind-maps-for-iphone-interactive-braille-interface/)](img/02_theory_and_concepts_12.png){width="45%"}
 :::
 ::::::::::::::
 
 # Cognitive Frameworks {background-image="img/luke-jones-DHR8LQRY-fU-unsplash.jpg" background-size="cover" background-opacity="0.35"}
 
-Ways of explaining the *why* that HCI has built up: mental models, the gulfs, information processing, distributed and external cognition, embodied interaction.
+Ways of explaining the *why* that HCI has built up:
+
+- mental models
+- the gulfs
+- information processing
+- distributed and external cognition
+- embodied interaction
 
 ## Conceptual models and mental models
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-The designer's **conceptual model** (metaphors, concepts, mappings) is expressed through the interface; the user builds their own **mental model** from what they see, and it is often wrong.
+The designer's **conceptual model** (metaphors, concepts, mappings) is expressed through the interface; the user builds their own **mental model** from what they see, and it can be wrong.
 
-- **You've done it:** turned the thermostat to maximum to heat the room *faster*. Most people hold a "valve theory" (more is more) that fits a tap, not a switch [@kempton-home-heat-control:1986]. Pressing the lift button twice is the same move. A third of users are confused by programmable thermostats [@hornbaek-intro-hci:2025, p. 742].
+- **Have you ever** turned the thermostat to maximum to heat the room *faster*? Most people hold a "valve theory" (more is more) that fits a tap, not a switch [@kempton-home-heat-control:1986]. Similarly, pressing the lift button twice. A third of users are confused by programmable thermostats [@hornbaek-intro-hci:2025, p. 742].
 - Mental models are "incomplete, easily confusable, and based on inappropriate analogies and superstition". Design helps with apt metaphors, visible state and contextual help.
-- Three minutes more: [What is a mental model? (NNGroup)](https://www.youtube.com/watch?v=nAgXISssAws)
 :::
 ::: {.column width="40%"}
 ![[Mental Models (nngroup)](https://www.nngroup.com/articles/mental-models/)](img/mental-models-nngroup.jpg){width="80%"}
@@ -275,13 +292,13 @@ Demo callback: ask what the command line volunteer thought `loop` did. That is a
 
 :::::::::::::: {.columns}
 ::: {.column width="45%"}
-Everything sat behind unlabelled swipes. Spiegel: "difficult to understand or hard to use" [@snap-q3-2017-call:2017]. New users, and anyone over 25, couldn't find things. 191 million people a day had the gestures by heart.
+Snapchats interface is unlabelled swipes. Spiegel: "difficult to understand or hard to use" [@snap-q3-2017-call:2017]. New users, and anyone over 25, couldn't find things. However, 191 million people a day learned the gestures.
 
 - **A:** reorganise. Friends left, media right, friends' stories in algorithmic order. A cleaner conceptual model.
 - **B:** leave a structure you *know* is confusing, because 191 million people have memorised it.
 
 ::: {.talk-box}
-**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ A or B? Who do you test with first: new users, or people opening it 20 times a day? 2 minutes.
+**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ A or B?
 :::
 :::
 ::: {.column width="55%"}
@@ -289,6 +306,7 @@ Everything sat behind unlabelled swipes. Spiegel: "difficult to understand or ha
 :::
 ::::::::::::::
 
+<!-- TODO how does this bear on recognition vs recall? isn't the early version recall? ok I think I can just explain this. -->
 ## Snapchat: What Happened
 
 :::::::::::::: {.columns}
@@ -318,29 +336,35 @@ Two gaps between a person and a system [@norman-cognitive-engineering:1986]:
 - gulf of [execution](https://www.nngroup.com/articles/two-ux-gulfs-evaluation-execution/): I know what I want; which control does it?
 - gulf of [evaluation](https://www.nngroup.com/articles/two-ux-gulfs-evaluation-execution/): I did something; what state is it in now?
 
-**You've felt it:** setting a smart thermostat and perceiving no immediate effect [@hornbaek-intro-hci:2025, p. 312]. In the demo: a wrong command, and the command line said *nothing*.
+**Everyday execution:** changing the time on an oven after daylight saving starts.
 
-**Design:** the job is to narrow both gulfs so less thinking is needed. The framework gives us words for *where* a mismatch is.
+**Everyday evaluation:** setting a smart thermostat and perceiving no immediate effect [@hornbaek-intro-hci:2025, p. 312]. 
+
+**Design:** the job is to narrow both gulfs so less thinking is needed.
 :::
 ::: {.column width="50%"}
 ![Problem with switches: how do you know what happens when you switch it!](img/cognitive-social-emotional_3_switches.png)
 :::
 ::::::::::::::
 
+<!-- The explanation about the slowness here is a bit contested. Hornbaek says recall, others mostly say parallel processing. -->
 ## Information processing and cognitive load
 
 - **mind as information processor** (1980s metaphor): input, processing, output, over mental representations such as images, models and rules
 - **model human processor** [@card-psychology-hci:1983]: perceptual, cognitive and motor processors with measured cycle times, so a task's time can be *predicted* before anyone uses the interface
-- **Project Ernestine:** a new telephone-operator workstation with fewer keystrokes was predicted to be *slower*, because it moved work from recognition to recall. Field data agreed [@gray-project-ernestine:1993]. Efficiency on paper lost to memory in the head.
-- modern HCI mostly moved on to cognition *in context* (next slide); the survivor is **cognitive load**, measured with the NASA-TLX questionnaire: mental, physical and temporal demand, performance, effort, frustration [@hart-nasa-tlx:1988]. Usable in your final project.
+- E.g., **Project Ernestine:** a new telephone-operator workstation with *fewer* keystrokes was predicted to be *slower*, because it moved work from recognition to recall. Field data agreed [@hornbaek-intro-hci:2025, p. 105]. Efficiency on paper lost to memory in the head.
+
+Modern HCI mostly moved on to cognition *in context*.
+
+We still discuss **cognitive load**, measured with the NASA-TLX questionnaire: mental, physical and temporal demand, performance, effort, frustration [@hart-nasa-tlx:1988].
 
 ## Cognition outside the head
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-**Distributed cognition:** the unit of analysis is people *plus* artefacts. A cockpit "remembers" its approach speeds in bugs on the airspeed dial and a card, not in either pilot's head; redesigns must preserve that shared, redundant memory [@hutchins-cockpit-remembers:1995].
+**Distributed cognition:** the unit of analysis is people *plus* artefacts. A cockpit "remembers" data via the airspeed dial and a card, not just in pilot's heads; redesigns must preserve that shared, redundant memory [@hutchins-cockpit-remembers:1995].
 
-**External cognition:** we think *with* representations. Expert Tetris players rotate a piece on screen to see whether it fits rather than imagining it, because recognising is faster than simulating [@kirsh-epistemic-action:1994]. Offloading (the shopping list), computational offloading (21 × 19 on paper vs XXI × XVIIII), annotating, tracing (Scrabble tiles).
+**External cognition:** we think *with* representations. Expert Tetris players rotate a piece on screen to see whether it fits rather than imagining it, because recognising is faster than simulating [@kirsh-epistemic-action:1994]. Offloading (the shopping list), computational offloading (21 × 19 on paper vs XXI × XIX), annotating, tracing (Scrabble tiles).
 
 **Design:** ask what the environment is already remembering and computing for people, and don't take it away.
 :::
@@ -351,29 +375,30 @@ Two gaps between a person and a system [@norman-cognitive-engineering:1986]:
 
 ## Embodied Interaction
 
-our bodies and experiences shape how we perceive, feel, and think [@hornecker2005design; @kirsh-embodied-cognition:2013]
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+**Embodied cognition:** we think *with* our bodies, not just with representations. Remember  dancers who learned better by marking: gesture, posture and movement are part of thinking, not just its output [@kirsh-embodied-cognition:2013].
 
-- artifacts indicate usage through coupling to the world (e.g., an open book on the desk as a task reminder)
-- sensorimotor experiences enable abstract thinking (inside-outside, up-down concepts)
-- the body mediates interaction with technology and shapes emotional responses
-- movement is instrumental in thought and in spatial thinking
-- abbreviated actions (marking) are more effective than full simulation for learning skills
+**Embodied interaction:** the physical shape of an interface shapes behaviour. Where people stand at a planning table, what they can reach, and how many can touch it at once decide who participates and how [@hornecker2005design].
 
-::: {.info-box}
-**Week 11:** expressive interfaces are embodied interaction taken seriously: the body as the interface, not a pointer.
+**Design:** ask what people's bodies are doing while they use your interface, and whether it uses that or works against it.
 :::
+::: {.column width="40%"}
+![Sensing movement and touch to create music: Atau Tanaka performing in 2010 [@tanaka-mapping-out-instruments:2010].](img/virtuoso-atau2010.jpg)
+:::
+::::::::::::::
 
 ## For your final project: the cognitive lens
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Your brief asks for *non-standard interaction*. Everything above says why that is risky, and how to tell if it worked.
+The brief asks for *non-standard interaction*. That's a risky ask!
 
 - **Recognition or recall?** Does your prototype show the options, or expect people to remember a gesture, a command, a meaning?
 - **Gulf of evaluation:** after a participant acts, can they *see* that it worked? (The silent command line.)
 - **Mental model:** at the end, ask "how do you think it works?" and compare to your conceptual model.
-- **Load:** NASA-TLX is six questions and takes two minutes [@hart-nasa-tlx:1988].
-- **Testable** means these can go wrong in front of you (this week's tutorial).
+- **Load:** NASA-TLX is six questions, takes two minutes [@hart-nasa-tlx:1988].
+- **Testable** means seeing things go wrong in front of you (this week's tutorial).
 :::
 ::: {.column width="40%"}
 ::: {.success-box}
@@ -384,7 +409,11 @@ Your brief asks for *non-standard interaction*. Everything above says why that i
 
 # Social Interaction {background-image="img/aaron-blanco-tejedor-aocUkMcxeqI-unsplash.jpg" background-size="cover" background-opacity="0.4"}
 
-Why does an interface feel *connecting*, *awkward* or *creepy*? Because people are never just using a device; they are being someone in front of others. Social media, video calls, group chats and muted microphones all rewired everyday social life, and each one changed what a conversation can be.
+Why does an interface feel *connecting*, *awkward* or *creepy*? 
+
+Because people are never just using a device; they are using it in a social existence.
+
+Social media, video calls, group chats and muted microphones all rewired everyday social life.
 
 ## Activity: Social human computer interactions
 
@@ -407,9 +436,9 @@ Why does an interface feel *connecting*, *awkward* or *creepy*? Because people a
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Your answers are about what each channel *lets you be*: a voice that can be interrupted, or text that can be edited and ignored.
+Your answers are about the social meanings of these channels.
 
-- **Research:** people prefer texting because it is easier and controllable [@rogers-beyond-hci:2023, p. 139]. A phone merely lying on the table reduced the closeness and trust two strangers felt in a ten-minute conversation [@przybylski-phone-presence:2013]. In a cooperation game, trust built almost as well over video and audio as face-to-face, but more slowly and more fragile; text was worst [@bos-trust-channels:2002].
+- **Research:** people prefer texting because it is easier and controllable [@rogers-beyond-hci:2023, p. 139]. A phone lying on the table reduced the closeness and trust two strangers felt in a ten-minute conversation [@przybylski-phone-presence:2013]. In a cooperation game, trust built almost as well over video and audio as face-to-face, but more slowly and more fragile; text was worst [@bos-trust-channels:2002].
 - **Design:** a channel is a bundle of social affordances. Choosing one for your users is choosing what kind of relationship they can have.
 :::
 ::: {.column width="40%"}
