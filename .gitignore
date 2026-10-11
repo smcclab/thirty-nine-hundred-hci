@@ -201,3 +201,4 @@ cython_debug/
 # Canvas API tokens (should live in ~/.config/canvas/, never here)
 canvas/*token*
 *.canvas-token
+.claude/worktrees/
