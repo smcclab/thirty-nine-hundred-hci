@@ -13,6 +13,7 @@ title-slide-attributes:
 - Assignment 2 is being marked. The final project is out, and [the repo is ready to fork](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A3-final-project).
 - We lost a Monday to Labour Day, so the "Statistical Analysis" lecture will be a recording on Canvas (details on Ed).
 - This week's tutorial is _Prototyping for Evaluation_: start thinking about what your final project prototype needs to be testable.
+- There's a new workshop for week 12: _Positionality_
 - Course now shifts to support your final project which combines skills from A1 and A2.
 
 ## Plan for the class
