@@ -90,6 +90,7 @@ ASSIGNMENT_MAP = [
     ("workshops/08-research-design.md", "Week 9: Research Design"),
     ("workshops/09-prototyping-2.md", "Week 10: More Prototyping"),
     ("workshops/10-analysis-2.md", "Week 11: From Theme to Implication"),
+    ("workshops/11-positionality.md", "Week 12: Positionality"),
 ]
 
 # Australian eastern time, for checking the markdown due date against Canvas.
