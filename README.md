@@ -88,11 +88,11 @@ Upon successful completion, students will have the knowledge and skills to:
 |   9     |   Devices                                                |   10. Devices                                        |   Interacting with Devices: Interaction Techniques & Modalities   |   8         |   Assignment 2: AI Needs Finding                           |
 |   10    |   Information Search                                     |   15. Information Search                             |   Interaction Beyond the Individual                               |   9         |                                                         |
 |   11    |   Data Visualisation                                     |   16. Data Visualisation                             |   Visualization                                                   |   10        |                                                         |
-|   12    |   Human-Centred AI                                       |   “Human-Centred AI”                                 |   Critical Computing, Sustainability, and Social Justice          |             |                                                         |
+|   12    |   Human-Centred AI                                       |   “Human-Centred AI”                                 |   Critical Computing, Sustainability, and Social Justice          |   11        |                                                         |
 |   13    |                                                          |                                                      |                                                                   |             |   Final Project: Prototype Design and Research Project  |
 ### Assessments
 
-1. Pre-class and in-class tasks (10%, 1% per class) LO: 1,2
+1. Pre-class and in-class tasks (10%, 1% per class, best 10 of 11) LO: 1,2
 2. Assignment 1: Prototyping (20%) LO: 1,2
 3. Assignment 2: AI Needs Finding (30%) LO: 3,4 (PG: 5)
 4. Final Project: Prototype Design and Research Project

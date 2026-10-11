@@ -150,8 +150,6 @@ As a group you should:
 - Discuss your evaluation plans. What kinds of data will you collect? Remember that you don't have to do **both** quantitative **and** qualitative analysis but can choose the types or combinations that make most sense for this assessment.
 - Discuss the time and place that you might meet for further meetings or to complete evaluations.
 
-Remember that every tutorial in the course is followed by a 30 minute drop-in --- this means the room is booked and free to use for this course! In week 12, the whole tutorial class is just drop-in consultation so you have the complete session to do your final project.
-
 ## Resources
 
 - Tuvalu project by Peter Bennetts [link](https://peterbennetts.com/project/view/project/tuvalu-1998-present)
