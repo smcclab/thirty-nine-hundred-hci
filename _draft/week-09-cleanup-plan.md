@@ -186,3 +186,24 @@ figure replaced by `figures/snapchat-gestures.py`: two phones showing only
 the camera, dashed arrows for the four hidden swipes, destinations before
 and after, with the changed ones in saffron. Old `snapchat-redesign.png`
 removed with `git rm`. Both outputs rebuilt and checked.
+
+## Status 2026-10-11 (Sunday)
+
+Content sections rewritten around one question, "why does an interface
+feel the way it does?": a framing slide reusing week 1's usability/UX
+goals figure, a five-minute nanojam demo slide (pads vs hidden-label CLI,
+URLs in the speaker notes), each process slide merged with its design
+implications and rebuilt as experience / research / design / your project,
+Distributed and External cognition merged, "Being Social" and "Emotions
+and Behaviour" folded into their section slides, three "for your final
+project" slides (one per lens) and a closing three-lenses table. The four
+case studies are untouched apart from a one-line "Why:" each. The example
+final-project video slide (`comp3900-final-project-demo-slide.jpg`) sits
+after "Video Presentation". 47 slides. 33 new entries in `references.bib`,
+all from Crossref/DOI metadata (CHI and classic psychology papers surfaced
+by mining Sharp et al. 2023 ch. 4-6 and Hornbæk et al. 2025). Both outputs
+built; PDF scanned for text past the page edge (none); HTML slides measured
+in Chrome at 1920x1080, all within the height of the pre-existing case-study
+slides. Not committed; not pushed to Canvas. Newly orphaned images:
+`02_theory_and_concepts_13.jpg`, `cognitive-social-emotional_{4,5,6}_*`,
+`denise-jans-*`, `milan-degraeve-*`, `chris-montgomery-*`, `philippe-bout-*`.

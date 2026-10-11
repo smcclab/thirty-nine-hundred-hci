@@ -2,7 +2,7 @@
 title: Cognitive, Social, and Emotional Interaction
 author: Dr Charles Martin
 fontsize: 9pt
-description: "Cognitive, social and emotional aspects of interaction: attention, memory and the other cognitive processes, mental models and the gulfs of execution and evaluation, social and emotional design, with case studies of the Snapchat redesign, Google Buzz and Replika and a live recognition-versus-recall demo on nanojam."
+description: "Why people experience interfaces the way they do: cognitive, social and emotional explanations for usability and user experience. Attention, perception, memory and learning, mental models and the gulfs of execution and evaluation, conversation and co-presence, emotional design and persuasive technology, each tied to everyday experiences, CHI research and the final project, with case studies of the Snapchat redesign, Google Buzz and Replika and a live recognition-versus-recall demo on nanojam."
 title-slide-attributes:
     data-background-image: img/2025-nime-remote-performance.jpg
     data-background-size: cover
@@ -19,9 +19,10 @@ title-slide-attributes:
 ## Plan for the class
 
 1. Final Project Details
-2. Cognitive Aspects of Interaction
-3. Social Interaction
-4. Emotional Interaction
+2. The goals, and the why
+3. Cognitive Aspects of Interaction
+4. Social Interaction
+5. Emotional Interaction
 
 # Final Project Details {background-image="img/2020-ar-interaction.jpg" background-size="cover" background-opacity="0.35"}
 
@@ -85,6 +86,10 @@ Suggested recording method: [Microsoft Powerpoint's built-in recording tool](htt
 :::
 ::::::::::::::
 
+## What the video could look like
+
+![One slide from a demo final-project video: the section heading, the research question, your prototype, and your face. (Lorem ipsum stands in for your text.)](img/comp3900-final-project-demo-slide.jpg){alt="A presentation slide titled Research Question, Plan, and Conclusions. Left: a short instruction paragraph, the line My research question is, and three bullets for problem, solution and why this matters, with placeholder text. Right: a photo of a guitar pedal and a Roland drum machine on a stand under blue light. Bottom right: a circular webcam video of Charles speaking." width="75%"}
+
 ## Questions on the Final Project
 
 We will talk more about the final project each week.
@@ -95,272 +100,177 @@ In the Expressive Interfaces lecture (19 October) I'll demonstrate recording a p
 **Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ Who has a question about the final project? (Or anything else?)
 :::
 
+# The goals, and the why {background-image="img/luke-jones-DHR8LQRY-fU-unsplash.jpg" background-size="cover" background-opacity="0.35"}
+
+Week 1 named the goals. Week 8 showed how to measure them. This week is about **why** people experience an interface the way they do.
+
+## Why does an interface feel the way it does?
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+"Easy", "frustrating", "fun", "lonely", "creepy": the words people use about technology come from what their brains and bodies do with it.
+
+- **Cognitive:** what a brain can notice, hold, remember and figure out
+- **Social:** people are never alone with a device; they are being someone in front of others
+- **Emotional:** feeling arrives first and colours every later judgement
+
+Each topic today: an experience you've had, research that explains it, what to design, and what it means for your final project.
+:::
+::: {.column width="45%"}
+![Week 1: usability goals inside user experience goals, after @rogers-beyond-hci:2023](img/usability-ux-goals.svg){alt="Diagram: six usability goals in an inner circle surrounded by a ring of user experience goals such as fun, motivating, emotionally fulfilling and aesthetically pleasing" width="72%"}
+:::
+::::::::::::::
+
 # Cognitive Aspects {background-image="img/stefano-bucciarelli-59HOF9zHKNs-unsplash.jpg" background-size="cover" background-opacity="0.35"}
 
-The way we think affects how we act and interact in our life.
+Why does an interface feel *easy* or *hard*? Because of what a brain can notice, hold and remember, and the way an interface works with or against that.
 
-We can design systems to cope well with human cognition to fit well with our capacity for remembering, deciding, perceiving, and attending.
+## Demo: cognition you can feel
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+Two volunteers, same cued round on nanojam, projected. Same sounds, same engine, only the interaction differs.
+
+1. **Pads**: the cue flashes, tap the matching pad.
+2. **Command line, sound names hidden**: the cue plays, type the command for it (`kick`, `snare`, `hat`, `clap`).
+
+::: {.think-box}
+**Watch for:** who finishes first; what happens on the command line after a wrong command; and what the typist *thinks* each command does.
+:::
+:::
+::: {.column width="45%"}
+![nanojam (week 7): pads, command line, camera. <https://charlesmartin.au/nanojam/>](img/nanojam-interfaces.png){width="100%"}
+:::
+::::::::::::::
+
+::: notes
+URLs: pads `https://charlesmartin.au/nanojam/#ui.interface=pads`; CLI with recall condition `https://charlesmartin.au/nanojam/#ui.interface=cli&cli.hiddenLabels=true`. Open the panel and start the cued round on each. Nothing is logged.
+
+Have the CLI volunteer type `loop kick x...x...` once before the round so the room sees a command that works, then start. If a wrong command is typed, point out that the interface stays silent (gulf of evaluation, later). Ask the typist afterwards: what did you think `loop` did? (mental models, later).
+
+If nobody volunteers, talk through the week 8 screenshot: recognition (pads) vs recall (CLI) is the whole point.
+:::
 
 ## Cognition
 
 :::::::::::::: {.columns}
-::: {.column width="50%"}
-A definition from Oxford English Dictionary:
+::: {.column width="55%"}
+> The action or faculty of knowing taken in its widest sense, including sensation, perception, conception, etc., as distinguished from feeling and volition... (OED)
 
-> The action or faculty of knowing taken in its widest sense, including sensation, perception, conception, etc., as distinguished from feeling and volition...
+Two modes [@kahneman-fast-slow-thinking:2011]:
+
+- **Experiential** (fast): 2 + 2 =
+- **Reflective** (slow): 312 x 56 =
+
+Six processes to design for [@eysenck-brysbaert:2023]: attention, perception, memory, learning, reading/speaking/listening, and problem solving/decision making.
 :::
-::: {.column width="50%"}
-![(Photo by Mathilda Khoo on Unsplash)](img/mathilda-khoo-HLA3TAFQuQs-unsplash.jpg){width=50%}
-:::
-::::::::::::::
-
-## Cognitive processes
-
-Cognitive processes can change depending on the problem:
-
-- **Experiential Cognition**: 2 + 2 =
-- **Reflective Cognition**: 312 x 56 =
-
-A famous frame for this difference is "fast and slow thinking" [@kahneman-fast-slow-thinking:2011].
-
-## What are cognitive processes?
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-1. Attention
-2. Perception
-3. Memory
-4. Learning
-5. Reading, speaking, listening
-6. Problem solving, planning, reasoning, decision making
-
-[@eysenck-brysbaert:2023]
-:::
-::: {.column width="40%"}
-![(Photo by Luke Jones on Unsplash)](img/luke-jones-DHR8LQRY-fU-unsplash.jpg){width=50%}
+::: {.column width="45%"}
+![(Photo by Mathilda Khoo on Unsplash)](img/mathilda-khoo-HLA3TAFQuQs-unsplash.jpg){width="60%"}
 :::
 ::::::::::::::
 
-## Attention
+## Attention: why interruptions cost more than they look
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Selecting things to focus on, relevant to our needs,  from possibilities.
+Attention is *selection*. Switching spends it, and the lost thread has to be rebuilt.
 
-- clear goals (directed searching vs browsing)
-- information presentation (structure and layout in the interface)
-- multitasking and attention
-  - depends on individuals and context
-  - relevance of distractions
-  - effort to task switch
-  - designing to support effective multitasking
+- **You've felt it:** a notification lands mid-sentence and the sentence is gone.
+- **Research:** the same motel data, structured, was found in 3.2 s vs 5.5 s [@rogers-beyond-hci:2023, p. 104]. Smartwatch wearers fitted glances into pauses in conversation, and still felt the pull of "trying to not listen to your watch" [@pizza-smartwatch-in-vivo:2016].
+- **Design:** salient *when* needed (colour, motion, order, space); no clutter; support leaving and returning.
+- **Your project:** a sustainability prompt competes with the whole phone. When must it *not* appear?
 :::
 ::: {.column width="40%"}
-![Structured and Unstructured information text [@rogers-beyond-hci:2023]](img/structuring-information.jpg){width=50%}
+![Structured and unstructured information text [@rogers-beyond-hci:2023]](img/structuring-information.jpg){width="42%"}
 :::
 ::::::::::::::
 
-## Design Implications for Attention
+## Perception: why one thing pops out and ten things don't
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- consider context to make information salient when required
-- techniques: animation, colour, ordering, spacing
-- avoid cluttered visual interfaces
-- support switching and returning (but how?)
+A target unique in one feature (colour, shape, size, motion) is found in under 100 ms without searching; a *combination* of features has to be checked item by item [@treisman-feature-integration:1980].
+
+- **You've felt it:** a red icon among many coloured ones is invisible; among grey ones it shouts.
+- **Research:** grouping speeds up menu search, but only with a few large groups [@brumby-visual-grouping-menus:2015].
+- **Design:** distinguishable icons; white space to group; colour sparingly, with contrast; earcons that differ in rhythm, not just pitch; haptics for user-initiated actions.
+- **Your project:** what is the *one* thing a glance at your prototype should carry?
 :::
 ::: {.column width="40%"}
-![Some interfaces need to be very careful about attention... (Photo by milan degraeve on Unsplash)](img/milan-degraeve-89sXVIkgYnI-unsplash.jpg)
+![Layout of music controls in AR changes what is perceived [@wang-cubing-sound:2022]](img/2022-cubing-sound-designs.jpg){width="100%"}
 :::
 ::::::::::::::
 
-## Perception
+## Memory: why recognition beats recall
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- how we sense information and transform it into experience
-- proprioception: Awareness of position and movement of body through muscles and joints
-- vision dominant for sighted folks
-- followed by hearing and touch
-- important to present information so that it can be readily perceived
+You just watched it: pointing at a pad beats remembering a command.
+
+- **The myth:** "7 ± 2" [@miller-magical-number-seven:1956] is about items held after one presentation, not menu length. Menus are *scanned*, so 30 items can be fine [@rogers-beyond-hci:2023, box 4.2]. Working memory is closer to 3 to 5 chunks anyway [@cowan-magical-mystery-four:2010].
+- **Research:** gestures people defined themselves were recalled up to 44% better than designer-defined ones [@nacenta-memorability-gestures:2013]. People remembered less about museum objects they had photographed [@henkel-point-and-shoot:2014]. The less confident we feel, the more we offload to devices, whatever our memory is actually like [@gilbert-intention-offloading:2022].
+- **Design:** recognition over recall; short procedures; consistency; let people label things.
 :::
 ::: {.column width="40%"}
-![How does our perception influence design? (image: Mathilda Khoo on Unsplash)](img/mathilda-khoo-HLA3TAFQuQs-unsplash.jpg){width=80%}
+![Photo by Piotr Miazga on Unsplash](img/piotr-miazga-xOZXquhp7RA-unsplash.jpg){width="45%"}
 :::
 ::::::::::::::
 
-## Design Implications for Perception
+## Learning: why nobody reads the manual
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- design icons and graphics to be distinguished
-- white space and separators to group information
-- sounds (earcons!) can help distinguish information
-- colour contrast is important for perception (and accessibility)
-- haptic feedback: use carefully, perhaps in response to user initiated actions
+Intentional learning is hard work; incidental learning (faces, routes, where the button was) is nearly free. People prefer to learn by *doing*, which only works if doing is safe [@rogers-beyond-hci:2023, p. 119].
+
+- **Research:** cooking in a sensor-equipped French kitchen taught the language incidentally [@hooper-french-kitchen:2012]; VR situates language learning in a culture [@cheng-language-culture:2017]. Dancers learn by *marking* (abbreviated moves), which beat full run-throughs [@kirsh-embodied-cognition:2013].
+- **Design:** invite exploration, make mistakes cheap (undo), constrain early and loosen later: the "zone of proximal development".
+- **Your project:** your participants get one session. What can they learn by doing in five minutes?
 :::
 ::: {.column width="40%"}
-![The layout of music controls in AR affects perception [@wang-cubing-sound:2022]](img/2022-cubing-sound-designs.jpg){width=100%}
+![[@hooper-french-kitchen:2012]](img/cognitive-social-emotional_1_learning_a.jpg){width="45%"}
+
+![[@cheng-language-culture:2017]](img/cognitive-social-emotional_2_learning_b.jpg){width="45%"}
 :::
 ::::::::::::::
 
-## Memory
+## Deciding: why people stick with what they know
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- brain filters what to remember and what to forget to avoid overload – but not always in the way we want to!
-- filtering into memory – depends on encoding process (e.g., active vs passive learning) and context (e.g., seeing someone in a different context)
-- people are better at **recognition** than recall
-- relying on technology rather than memory (e.g., car navigation system, “let's ask Claude..”)
-- personal information management
-- remembering passwords and multifactor authentication
+Reflective cognition is slow and expensive, so everyday decisions run on fast heuristics.
+
+- **Research:** shoppers buy the brands they know and spend seconds per choice; information for a greener or healthier choice has to arrive *at the shelf*, in the moment, or it loses [@todd-nudging-trolley:2011].
+- **Your project, exactly:** a sustainable choice competes with a habit. Where and when does your interface put its information?
+- **Design:** help people improve, not just complete; simple memorable functions; let people configure.
+- **Reading, speaking, listening** differ too: reading is faster, listening is less effort, writing persists, speech vanishes. Speech menus of 3 or 4; text that can be enlarged.
 :::
 ::: {.column width="40%"}
-![Photo by Piotr Miazga on Unsplash](img/piotr-miazga-xOZXquhp7RA-unsplash.jpg){width=50%}
-:::
-::::::::::::::
-
-## Design Implications for Memory
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-- avoid long and complex procedures for carrying out tasks
-- design interfaces for **recognition** rather than recall (familiar patterns and consistency)
-- provide ways to label digital information for identification
-:::
-::: {.column width="40%"}
-![This is a bad pun, but memory cards are hard to recognise! File management systems help us to use recognition rather than recall to sort stored data. (Image: Denise Jans on Unsplash)](img/denise-jans-d9aVAvr5NVo-unsplash.jpg)
-:::
-::::::::::::::
-
-## Learning
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-accumulation of skills and knowledge through memory [@rogers-beyond-hci:2023 p.119]
-
-- incidental learning vs intentional learning
-- learning by reading vs learning by doing
-- learning through collaboration
-- micro-learning
-- multimodal learning through new and emerging technologies e.g., augmented reality and virtual reality
-:::
-::: {.column width="40%"}
-![[@hooper-french-kitchen:2012]](img/cognitive-social-emotional_1_learning_a.jpg){width=50%}
-
-![[@cheng-language-culture:2017]](img/cognitive-social-emotional_2_learning_b.jpg){width=50%}
-:::
-::::::::::::::
-
-## Design Implications for Learning
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-- design to encourage exploration
-- design constraints and guide users to appropriate actions
-
-Learning theory concept: "zone of proximal development"---we should get users into that state!
-:::
-::: {.column width="40%"}
-![How do we encourage exploration and embed guidance into systems? Games are awesome at this. (Image: Philippe Bout on Unsplash)](img/philippe-bout-93W0xn4961g-unsplash.jpg)
-:::
-::::::::::::::
-
-## Reading, Speaking, Listening
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-- communication skills
-- meaning the same across modes
-- writing is permanent, speaking is transient
-- reading quicker than listening
-- listening less cognitive effort than reading
-- some more grammatical than others
-- interactive books, speech technologies, natural language processing, tactile interfaces, assistive technologies
-:::
-::: {.column width="40%"}
-![Our experience of the same information changes depending on the context, reading a book, chatting with a friend, listening to a meeting (Image: Chris Montgomery on Unsplash)](img/chris-montgomery-smgTvepind4-unsplash.jpg)
-:::
-::::::::::::::
-
-## Design Implications for Communication
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-- keep length of speech menus to minimum (less than 3-4 options)
-- extra intonation on artificial speech
-- provide options for making text large
-:::
-::: {.column width="40%"}
-![Source: [Design Boom](https://www.designboom.com/technology/blind-maps-for-iphone-interactive-braille-interface/)](img/02_theory_and_concepts_12.png){width=50%}
-
-![Photo by [Nicolas J Leclercq](https://unsplash.com/@nicolasjleclercq)](img/02_theory_and_concepts_13.jpg){width=50%}
-:::
-::::::::::::::
-
-## Problem Solving, Planning, Reasoning, Decision Making
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-- Involve “reflective cognition” in relation to actions, choices, consequences
-- How do you make purchasing decisions? What role does technology play?
-
-:::
-::: {.column width="40%"}
-### Design Implications
-
-- Provide information and help for users to improve their performance.
-- Use simple and memorable functions for rapid decision making.
-- Let users set their own configuration and options.
+![Source: [Design Boom](https://www.designboom.com/technology/blind-maps-for-iphone-interactive-braille-interface/)](img/02_theory_and_concepts_12.png){width="45%"}
 :::
 ::::::::::::::
 
 # Cognitive Frameworks {background-image="img/luke-jones-DHR8LQRY-fU-unsplash.jpg" background-size="cover" background-opacity="0.35"}
 
-- **Conceptual models** (the designer's side) and **mental models** (the user's side)
-- **Gulfs of Execution and Evaluation**
-- **Information Processing**
-- **Distributed Cognition**
-- **External Cognition**
-- **Embodied Interaction**
+Ways of explaining the *why* that HCI has built up: mental models, the gulfs, information processing, distributed and external cognition, embodied interaction.
 
-## Conceptual Models
+## Conceptual models and mental models
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
+The designer's **conceptual model** (metaphors, concepts, mappings) is expressed through the interface; the user builds their own **mental model** from what they see, and it is often wrong.
 
-- **Model:** a simplified description of a system or process
-- **Conceptual model:** high-level description of how a system is organized and operates
-- Includes:
-  - Metaphors, analogies
-  - Concepts and their relationships
-  - Mappings
-- This is the _designer's_ model, expressed through the interface — the user builds their own _mental_ model from it
-
+- **You've done it:** turned the thermostat to maximum to heat the room *faster*. Most people hold a "valve theory" (more is more) that fits a tap, not a switch [@kempton-home-heat-control:1986]. Pressing the lift button twice is the same move. A third of users are confused by programmable thermostats [@hornbaek-intro-hci:2025, p. 742].
+- Mental models are "incomplete, easily confusable, and based on inappropriate analogies and superstition". Design helps with apt metaphors, visible state and contextual help.
+- Three minutes more: [What is a mental model? (NNGroup)](https://www.youtube.com/watch?v=nAgXISssAws)
 :::
 ::: {.column width="40%"}
-![[Understanding conceptual models](https://uxdesign.cc/understanding-mental-and-conceptual-models-in-product-design-7d69de3cae26)](img/01_02_conceptualising_interaction_1.png)
+![[Mental Models (nngroup)](https://www.nngroup.com/articles/mental-models/)](img/mental-models-nngroup.jpg){width="80%"}
 :::
 ::::::::::::::
 
-## Mental Models
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-A mental model is our internal understanding of how a system works.
-
-- used to reason about unfamiliar technology and to troubleshoot
-- built from experience; often incomplete or wrong (thermostat as a tap: "turn it up more to heat faster")
-- a poor model makes problems hard to spot and behaviour hard to explain
-- interfaces help with clear instructions, contextual help and apt metaphors
-- three minutes more: [What is a mental model? (NNGroup video)](https://www.youtube.com/watch?v=nAgXISssAws)
+::: notes
+Demo callback: ask what the command line volunteer thought `loop` did. That is a mental model being built from one observation.
 :::
-::: {.column width="40%"}
-![[Mental Models (nngroup)](https://www.nngroup.com/articles/mental-models/)](img/mental-models-nngroup.jpg){width=80%}
-:::
-::::::::::::::
-
 ## Case Study: Snapchat's Redesign (February 2018)
 
 :::::::::::::: {.columns}
@@ -387,7 +297,7 @@ Everything sat behind unlabelled swipes. Spiegel: "difficult to understand or ha
 - Q2 2018: daily users **fell for the first time ever**, 191 to 188 million [@snap-10q-q1:2018; @snap-10q-q2:2018]. Spiegel blamed "the disruption caused by our redesign" [@constine-snapchat-q2:2018].
 
 ::: {.info-box}
-**Concept:** an app you open dozens of times a day gets run from memory, not read off the screen. A better conceptual model can still be a worse interface.
+**Why:** an app you open dozens of times a day gets run from memory, not read off the screen. A better conceptual model can still be a worse interface.
 :::
 
 ::: {.success-box}
@@ -403,71 +313,78 @@ Everything sat behind unlabelled swipes. Spiegel: "difficult to understand or ha
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-influential early HCI framework describing gaps between user and interface [@norman-cognitive-engineering:1986]
+Two gaps between a person and a system [@norman-cognitive-engineering:1986]:
 
-- gulf of [evaluation](https://www.nngroup.com/articles/two-ux-gulfs-evaluation-execution/): understanding state
-- gulf of [execution](https://www.nngroup.com/articles/two-ux-gulfs-evaluation-execution/): understanding controls
-- design challenge is bridging these gulfs to reduce cognitive effort
-- framework explores mappings between system design and user understanding
-- provides discourse for identifying mismatches in user-system interaction
+- gulf of [execution](https://www.nngroup.com/articles/two-ux-gulfs-evaluation-execution/): I know what I want; which control does it?
+- gulf of [evaluation](https://www.nngroup.com/articles/two-ux-gulfs-evaluation-execution/): I did something; what state is it in now?
+
+**You've felt it:** setting a smart thermostat and perceiving no immediate effect [@hornbaek-intro-hci:2025, p. 312]. In the demo: a wrong command, and the command line said *nothing*.
+
+**Design:** the job is to narrow both gulfs so less thinking is needed. The framework gives us words for *where* a mismatch is.
 :::
 ::: {.column width="50%"}
 ![Problem with switches: how do you know what happens when you switch it!](img/cognitive-social-emotional_3_switches.png)
 :::
 ::::::::::::::
 
-## Information Processing
+## Information processing and cognitive load
 
 - **mind as information processor** (1980s metaphor): input, processing, output, over mental representations such as images, models and rules
 - **model human processor** [@card-psychology-hci:1983]: perceptual, cognitive and motor processors with measured cycle times, so a task's time can be *predicted* before anyone uses the interface
-- the approach gave HCI reaction-time hypotheses and the idea of a cognitive bottleneck; modern HCI mostly moved on to cognition *in context* (next two slides)
-- its survivor is **cognitive load**, measured with the NASA-TLX questionnaire: mental, physical and temporal demand, performance, effort, frustration. Usable in your final project.
+- **Project Ernestine:** a new telephone-operator workstation with fewer keystrokes was predicted to be *slower*, because it moved work from recognition to recall. Field data agreed [@gray-project-ernestine:1993]. Efficiency on paper lost to memory in the head.
+- modern HCI mostly moved on to cognition *in context* (next slide); the survivor is **cognitive load**, measured with the NASA-TLX questionnaire: mental, physical and temporal demand, performance, effort, frustration [@hart-nasa-tlx:1988]. Usable in your final project.
 
-## Distributed Cognition
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-- interactions between multiple people and artefacts
-- event-driven, systems as the unit of analysis, collective behaviours
-- information flows and transformations through the system
-- different levels of granularity
-- analysis addresses problem solving, communication (verbal and non-verbal), coordination mechanisms, accessing and sharing knowledge
-- analysis can inform design implications and decision-making in designing to support distributed cognition
-:::
-::: {.column width="40%"}
-![Image: @rogers-beyond-hci:2023 p.128](img/cognitive-social-emotional_7_distributed.png)
-:::
-::::::::::::::
-
-## External Cognition
+## Cognition outside the head
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- internal representations (in the head) and external representations (artefacts in the world) and how they interact
-- combined with tools (e.g., pens, calculators, spreadsheets) to support cognitive activities
-- the cognitive processes involved when we interact with different external representations
-- cognitive offloading, computational offloading, annotating and cognitive tracing
+**Distributed cognition:** the unit of analysis is people *plus* artefacts. A cockpit "remembers" its approach speeds in bugs on the airspeed dial and a card, not in either pilot's head; redesigns must preserve that shared, redundant memory [@hutchins-cockpit-remembers:1995].
+
+**External cognition:** we think *with* representations. Expert Tetris players rotate a piece on screen to see whether it fits rather than imagining it, because recognising is faster than simulating [@kirsh-epistemic-action:1994]. Offloading (the shopping list), computational offloading (21 × 19 on paper vs XXI × XVIIII), annotating, tracing (Scrabble tiles).
+
+**Design:** ask what the environment is already remembering and computing for people, and don't take it away.
 :::
 ::: {.column width="40%"}
-![Cognitive Offloading](img/cognitive-social-emotional_5_offloading.jpg){width=30%}
-
-![Computational Offloading](img/cognitive-social-emotional_6_computational.jpg){width=30%}
-
-![Cognitive Tracing](img/cognitive-social-emotional_4_tracing.jpg){width=30%}
+![A cockpit as a cognitive system [@rogers-beyond-hci:2023, p. 128]](img/cognitive-social-emotional_7_distributed.png){width="85%"}
 :::
 ::::::::::::::
 
 ## Embodied Interaction
 
-our bodies and experiences shape how we perceive, feel, and think [@hornecker2005design]
+our bodies and experiences shape how we perceive, feel, and think [@hornecker2005design; @kirsh-embodied-cognition:2013]
 
-- artifacts indicate usage through coupling to the world (e.g., open book as task reminder)
+- artifacts indicate usage through coupling to the world (e.g., an open book on the desk as a task reminder)
 - sensorimotor experiences enable abstract thinking (inside-outside, up-down concepts)
-- body mediates interactions with technology and shapes emotional responses
-- movement instrumental in thought evolution and spatial thinking development
-- abbreviated actions more effective than full simulation for learning skills
+- the body mediates interaction with technology and shapes emotional responses
+- movement is instrumental in thought and in spatial thinking
+- abbreviated actions (marking) are more effective than full simulation for learning skills
+
+::: {.info-box}
+**Week 11:** expressive interfaces are embodied interaction taken seriously: the body as the interface, not a pointer.
+:::
+
+## For your final project: the cognitive lens
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Your brief asks for *non-standard interaction*. Everything above says why that is risky, and how to tell if it worked.
+
+- **Recognition or recall?** Does your prototype show the options, or expect people to remember a gesture, a command, a meaning?
+- **Gulf of evaluation:** after a participant acts, can they *see* that it worked? (The silent command line.)
+- **Mental model:** at the end, ask "how do you think it works?" and compare to your conceptual model.
+- **Load:** NASA-TLX is six questions and takes two minutes [@hart-nasa-tlx:1988].
+- **Testable** means these can go wrong in front of you (this week's tutorial).
+:::
+::: {.column width="40%"}
+::: {.success-box}
+**Research question seed:** *Can a first-time user [do the task] with [your interface] without instructions, and what do they believe it is doing?*
+:::
+:::
+::::::::::::::
 
 # Social Interaction {background-image="img/aaron-blanco-tejedor-aocUkMcxeqI-unsplash.jpg" background-size="cover" background-opacity="0.4"}
+
+Why does an interface feel *connecting*, *awkward* or *creepy*? Because people are never just using a device; they are being someone in front of others. Social media, video calls, group chats and muted microphones all rewired everyday social life, and each one changed what a conversation can be.
 
 ## Activity: Social human computer interactions
 
@@ -486,69 +403,67 @@ our bodies and experiences shape how we perceive, feel, and think [@hornecker200
 :::
 ::::::::::::::
 
-## Being Social
-
-fundamental part of everyday life; how does technology mediate this?
-
-- social media transformed how people connect across time and space
-- COVID-19 accelerated videoconferencing adoption (and highlighted limitations)
-- excessive phone use raises wellbeing concerns
-- digital etiquette (muting, virtual hand-raising, emoji reactions)
-- social coordination shifted to texting; added complexity!
-
-## Face-to-Face Conversations
-
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-conversation may seem effortless but is a skilled collaborative achievement. how do these unfold?
-
-- turn-taking rules: speaker chooses next, someone else starts, or current speaker continues [@sacks-simplest-systematics:1978]
-- adjacency pairs: first utterance sets expectation for response
-- repair mechanisms: repetition, gestures, and clarifications
-- nonverbal cues coordinate conversation flow
-- interfaces that emulate human conversational patterns are a long term goal! recent progress with AI.
-:::
-::: {.column width="50%"}
-![Conversation is a key human capability that can be used in HCI (Photo by Aarón Blanco Tejedor on Unsplash)](img/aaron-blanco-tejedor-aocUkMcxeqI-unsplash.jpg)
-:::
-::::::::::::::
-
-## Remote Conversations
+## Why we pick a channel
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- **video conferencing:** early research (1980s-90s) showed people spoke louder, took longer turns, interrupted less
-- mainstream adoption via Skype, FaceTime, then Zoom/Teams
-- virtual 2D spaces (e.g., Gather.Town) aim to recreate social presence and community
-- **telepresence** creates perception of being present in a physical location while actually elsewhere
-- **telepresence** through robots, rooms, virtual reality, games
-- **social presence:** the feeling of _being there_ in a virtual space
-- features of interaction design can establish a sense of presence and facilitate remote conversation
+Your answers are about what each channel *lets you be*: a voice that can be interrupted, or text that can be edited and ignored.
+
+- **Research:** people prefer texting because it is easier and controllable [@rogers-beyond-hci:2023, p. 139]. A phone merely lying on the table reduced the closeness and trust two strangers felt in a ten-minute conversation [@przybylski-phone-presence:2013]. In a cooperation game, trust built almost as well over video and audio as face-to-face, but more slowly and more fragile; text was worst [@bos-trust-channels:2002].
+- **Design:** a channel is a bundle of social affordances. Choosing one for your users is choosing what kind of relationship they can have.
 :::
 ::: {.column width="40%"}
+![Conversation is a skilled collaborative achievement (Photo by Aarón Blanco Tejedor on Unsplash)](img/aaron-blanco-tejedor-aocUkMcxeqI-unsplash.jpg)
+:::
+::::::::::::::
+
+## Conversation
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+Conversation feels effortless and is a skilled, rule-governed achievement [@sacks-simplest-systematics:1978]:
+
+- **turn-taking:** the speaker picks the next, someone self-selects, or the speaker continues
+- **adjacency pairs:** a question sets up an answer; a greeting, a greeting
+- **repair:** "huh?", repetition, gesture
+- nonverbal cues do the coordination
+
+**Research:** a step tracker that *enforced* turn-taking (you can't log a walk until your partner has) got households talking about their activity, because it borrowed a conversational rule [@rooksby-pass-the-ball:2015]. Chatbots try to join this system and mostly break repair.
+:::
+::: {.column width="45%"}
 ![Telepresence in music at NIME2025 with a live pianist and two remote musicians (Photo by Charles)](img/2025-nime-remote-performance.jpg)
 :::
 ::::::::::::::
 
-## Co-Presence
+## Remote conversations and presence
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-supporting people in activities when they are interacting in the same physical space
-
-- supporting effective collaboration
-- hand gestures, body language, use of objects
-- awareness: knowing what is going on around you, functioning as “close-knit teams”
-- shareable interfaces: whiteboards, touch screens
-- social translucence: enabling participants and activities to be visible
+- **VideoWindow** (1990) joined two coffee lounges 50 miles apart with a wall-sized video link: much like face-to-face, except people spoke louder and kept talking about the video system [@fish-videowindow:1990].
+- Over video people take longer turns and interrupt less, because the cues for a smooth hand-over are missing [@oconaill-video-conversations:1993].
+- **Zoom fatigue:** close-up gaze, seeing yourself, sitting still, and the load of reading cues through a camera [@bailenson-zoom-fatigue:2021].
+- **Social presence** is the feeling of *being there with someone*; telepresence robots, VR and Journey design for it with very little bandwidth.
+- **Design:** every missing cue (gaze, timing, a shared table) is something the interface must give back or do without.
 :::
 ::: {.column width="40%"}
-![The Reflect Table: Pierre Dillenbourg in @rogers-beyond-hci:2023 p.55](img/cognitive-social-emotional_8_co-presence.png){width=50%}
-
-![musical instrument holograms to aid collaboration [@wang2025seeingsound]](img/aisee-holo-view.jpg){width=50%}
+![[Journey (2011)](https://www.gamespot.com/articles/journey-co-op-impressions/1100-6297312/): co-op with almost no communication possible and little gameplay gain beyond the feeling of shared experience.](img/journey-game-coop.jpg){width="75%"}
 :::
 ::::::::::::::
 
+## Co-presence: designing for people in the same room
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- **Research:** around a tabletop with physical tokens, group participation was more equal than with touch alone, and the *quietest* people contributed most [@rogers-equal-opportunities:2009]. The Reflect table lit up each speaker's share of the talk: the talkative talked less, the quiet did not talk more, and people who didn't care about equal turns got annoyed [@rogers-beyond-hci:2023, p. 164].
+- **Why:** awareness of what others are doing is what lets a group coordinate; **social translucence** makes activity visible, so social rules can do their work [@erickson-social-translucence:2000].
+- **Design:** shareable surfaces, visible activity, and feedback that adds to the content rather than scolding the person.
+:::
+::: {.column width="40%"}
+![The Reflect Table: Pierre Dillenbourg in @rogers-beyond-hci:2023 p.55](img/cognitive-social-emotional_8_co-presence.png){width="50%"}
+
+![Musical instrument holograms to aid collaboration [@wang2025seeingsound]](img/aisee-holo-view.jpg){width="50%"}
+:::
+::::::::::::::
 ## Case Study: Google Buzz (February 2010)
 
 :::::::::::::: {.columns}
@@ -559,7 +474,7 @@ A social network inside Gmail, and an empty social network is useless. So:
 - **What happened:** for some people that list was an abusive ex or a therapist. The FTC charged deceptive practices; Google got a mandated privacy program (the first such order) and 20 years of audits [@ftc-google-buzz:2011].
 
 ::: {.success-box}
-**The test:** show the default to a few real people with their real inboxes and ask what they'd hate to see public (week 4 methods, aimed at a *default*). Email frequency is not consent.
+**The test:** show the default to a few real people with their real inboxes and ask what they'd hate to see public (week 4 methods, aimed at a *default*). **Why:** who you email is not who you want to be *seen* with. Email frequency is not consent.
 :::
 :::
 ::: {.column width="45%"}
@@ -567,123 +482,114 @@ A social network inside Gmail, and an empty social network is useless. So:
 :::
 ::::::::::::::
 
-## Social Games
+## For your final project: the social lens
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-games designed to facilitate social interaction between two or more players who are aware of each other's presence and actions
+Sustainable behaviour is social behaviour: bins, kitchens, cars and laundries are shared.
 
-- can be cooperative or competitive, played with or without technology (board games, video games, online platforms)
-- three heuristics: synchronous vs asynchronous interaction, symmetrical vs asymmetrical relationships, strong vs weak social ties [@ricchetti-social-games:2022]
-- unconventional approaches, e.g. Journey (shared exploration)
-- communities through live streaming (Twitch) foster social bonds
+- **Research:** households shown their energy use against the neighbourhood average cut back if they were above it, and *increased* if below. Adding a smiley or sad face fixed the boomerang [@schultz-power-social-norms:2007]. A chalked street graph of a Brighton street's electricity use got neighbours talking and cut use by 15% [@rogers-beyond-hci:2023, p. 190].
+- **Design:** comparison motivates, but only with a norm attached; making behaviour visible to others is powerful and (Google Buzz) dangerous.
+- **Your study is a social situation too.** Your participants are classmates. They will be kind. Ask for problems, not opinions, and watch what they do.
 :::
 ::: {.column width="40%"}
-![[Journey (2011)](https://www.gamespot.com/articles/journey-co-op-impressions/1100-6297312/) had an unconventional coop mode with almost no communication possible and little gameplay gain except the feeling of shared experience.](img/journey-game-coop.jpg)
+::: {.success-box}
+**Research question seed:** *Does showing [behaviour] alongside [a peer norm] change what people say they will do, and how do they feel about being seen?*
+:::
 :::
 ::::::::::::::
 
 # Emotional Interaction {background-image="img/02_theory_and_concepts_49.jpg" background-size="cover" background-opacity="0.4"}
 
-How do our emotions manifest in interaction?
+Why do people love or hate a thing before they have really used it? Because feeling arrives first, fast and automatic, and colours every judgement made afterwards. Emotions show in faces, bodies and voices; interfaces can provoke them, read them, and be designed for them.
 
-Can designing for emotions help us in our tasks, or help us manage them?
+## Feeling comes first
 
-## Emotions and Behaviour
-
-- emotions affect behavior but relationship is complex and context-dependent
-- emotional interaction design considers what makes users feel happy, sad, anxious or motivated
-- users express emotions through facial expressions, body language and tone of voice
-- automatic emotions happen rapidly while conscious emotions develop slowly
-- interfaces can detect emotional states but decisions needed on appropriate responses
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- **Research:** people's visual-appeal ratings of web pages after **50 ms** matched their ratings after 500 ms [@lindgaard-fifty-milliseconds:2006]. ATM layouts that looked better were rated more *usable*, before and after use, regardless of how usable they actually were [@tractinsky-beautiful-usable:2000].
+- **Why it matters:** positive affect makes people more creative, quicker to decide, and more forgiving of small problems; stress and anxiety narrow attention and shorten patience [@norman-emotional-design:2005]. Things used under stress need far more care.
+- **You've felt it:** the app you forgave because it was beautiful; the one you abandoned after one ugly error.
+- **Design:** aesthetics is not decoration on top of usability; it changes how usability is experienced.
+:::
+::: {.column width="40%"}
+![Windows Blue Screen of Death: a feeling, delivered.](img/cognitive-social-emotional_11_bsod.png){width="80%"}
+:::
+::::::::::::::
 
 ## A Model of Emotional Design
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-Understanding emotions assists with design. Positive and negative emotional states have different effects on creativity and tolerance [@norman-emotional-design:2005]
+@ortony2012affect model of emotional design, as used by @norman-emotional-design:2005:
 
-@ortony2012affect model of emotional design:
+- **visceral:** look, feel, sound. The 50 ms judgement.
+- **behavioural:** use. This is usability, felt as competence or frustration.
+- **reflective:** meaning, personal value, culture. The story you tell about owning it.
 
-- visceral: look, feel, sound
-- behavioural: use (usability)
-- reflective: meaning, personal value, culture
+An interface can win on one level and lose on another: Snapchat's redesign was arguably better at the behavioural level for new users and a reflective betrayal for existing ones.
 :::
 ::: {.column width="40%"}
-![[@ortony2012affect]](img/cognitive-social-emotional_9_emotional-design.png){width=100%}
+![[@ortony2012affect]](img/cognitive-social-emotional_9_emotional-design.png){width="100%"}
 :::
 ::::::::::::::
 
-## Expressive Interfaces and Emotional Design
+## Expressive and annoying interfaces
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- design features that seek to create an emotional connection with users or elicit emotional responses in users
-- expressivity through animation, sonification, vibrotactile feedback (e.g., mobile phone or watch buzzing)
-- aesthetics affects perceptions of usability and pleasure of use
-- annoying interfaces elicit negative responses 
+- expressivity through animation, sonification, vibrotactile feedback (the watch buzz)
+- **Research:** people are more forgiving when a computer apologises, and respond to flattery and politeness from software as they would from a person [@nass-computers-social-actors:1994]. Clippy failed because it interrupted at the wrong moments and was too human for what it could do [@rogers-beyond-hci:2023, p. 180].
+- **Design:** express only what you can back up; appear occasionally; be careful with faces, names and gender.
+
+::: {.info-box}
+**Week 11:** expressive interfaces (music, drawing, dance): what happens when the *point* of the interaction is the feeling.
+:::
 :::
 ::: {.column width="40%"}
-![Duolingo Reminders](img/cognitive-social-emotional_10_duolingo.png){width=50%}
-
-![Windows Blue Screen of Death](img/cognitive-social-emotional_11_bsod.png){width=50%}
+![Duolingo reminders: expressive, and for some people, annoying.](img/cognitive-social-emotional_10_duolingo.png){width="55%"}
 :::
 ::::::::::::::
 
-## Affective Computing and Emotional AI
+## Persuasive technology and eco-feedback
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- computers recognising and expressing emotions ([Rosalind Picard: Affective Computing, Engineering Emotion](https://www.youtube.com/watch?v=_86GQiEOjp4))
-- measuring of feelings using facial expressions, voice, and physiological data
-- sensing technologies: cameras, biosensors, speech analysis, motion capture, accelerometer sensors
-- typical ML task classify emotions (anger, joy, sadness) as percentages from facial markers
-- mood tracking apps: help manage emotions, moods, and mental health
+Behaviour needs motivation, ability and a trigger at the same moment [@fogg-behavior-model:2009]. Playful triggers: [piano stairs](https://youtu.be/2lXh2n0aPyw), [echoing bins](https://youtu.be/cbEKAwCoCKw).
+
+- **UbiFit Garden:** a wallpaper garden that grew with your inferred exercise kept people active in a field trial [@consolvo-ubifit-garden:2008]
+- **Eco-feedback:** daily feedback beats monthly bills, and *how* it is shown matters: a pointing finger is "in your face", abstract art is ignored [@froehlich-eco-feedback:2010]
+- 23 nudges catalogued in HCI; transparency separates a nudge from a dark pattern [@caraban-23-ways-nudge:2019]
+
+::: {.warn-box}
+**This is your brief.** Which mechanism does your prototype use, and how will you know it *worked*?
+:::
 :::
 ::: {.column width="40%"}
-![Analysing emotion from a camera image.](img/cognitive-social-emotional_12_emotion-camera.png)
+![The world's deepest bin (2009) sounds like dropping rubbish into a deep hole.](img/worlds-deepest-bin.png){width="55%"}
 :::
 ::::::::::::::
 
-## Persuasive Technologies
+## Affective computing, mood and anthropomorphism
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-persuasive design uses interface techniques to change user behavior and thinking
-
-- pop-ups, recommendations, prompts, and one-click purchasing
-- playful interventions ([piano stairs](https://youtu.be/2lXh2n0aPyw), [echoing bins](https://youtu.be/cbEKAwCoCKw))
-- fitness trackers use dashboards, leaderboards, and social comparison for motivation
-- social norms influence consumption - households adjust behavior based on neighborhood comparisons
-- effective persuasion balances being noticeable without being intrusive or overly abstract
+- **Affective computing** ([Rosalind Picard](https://www.youtube.com/watch?v=_86GQiEOjp4)): sensing emotion from faces, voice, skin and motion; typical ML task is classifying anger, joy, sadness as percentages
+- **Research:** Echo asked people to rate their happiness and later re-presented those moments; the reflection itself improved well-being [@isaacs-echoes-past:2013]
+- **Anthropomorphism:** we treat computers as social actors with almost no prompting [@nass-computers-social-actors:1994]: "Hi Charles!" engages more than "User 24"; a soft breathing creature invites touch [@yohanan-haptic-creature-assessment:2011]
+- **Design:** every human-like cue raises expectations the system then has to meet
 :::
 ::: {.column width="40%"}
-![The world's deepest bin (2009) a playful bin that sounds like dropping an rubbish in a deep hole.](img/worlds-deepest-bin.png)
+![Analysing emotion from a camera image.](img/cognitive-social-emotional_12_emotion-camera.png){width="50%"}
+
+![The haptic creature [@yohanan-haptic-creature-assessment:2011]](img/haptic-creature-2011.png){width="50%"}
 :::
 ::::::::::::::
-
-## Anthropomorphism
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-anthropomorphism is the human tendency to attribute human qualities to animals and objects, widely applied in technology design
-
-- applied in software designs, as well as hardware such as robots
-- e.g., _"ChatGPT"_ vs _"Claude"_.
-- personalized first-person interaction ("Hi Charles!") proves more engaging than impersonal third-person commands
-- robot dolls incorporate sensors, speech recognition, and servos
-- should robots be hard (Sony AIBO) or soft designs that enhance emotional connection through touch? (e.g., haptic creature, @yohanan-haptic-creature:2008)
-:::
-::: {.column width="40%"}
-![The haptic creature [@yohanan-haptic-creature-assessment:2011]](img/haptic-creature-2011.png)
-:::
-::::::::::::::
-
 ## Case Study: Replika (February 2023)
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-A companion chatbot. People form attachments to it, which is the whole product.
+A companion chatbot. People form attachments to it, which is the whole product. **Why:** anthropomorphism works, and the company then owned that attachment.
 
 - Italy's regulator ordered Replika to stop processing Italians' data. Days later, erotic role-play was off for everyone, everywhere [@cole-replika-crisis-vice:2023].
 - Nobody argues with complying. The fork is *how*: silently and overnight, or with warning and choice?
@@ -697,6 +603,34 @@ A companion chatbot. People form attachments to it, which is the whole product.
 ![From Cole (2023) and Hanson & Bolthouse (2024).](img/replika-timeline.png){width="70%"}
 :::
 ::::::::::::::
+
+## For your final project: the emotional lens
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- **What should it make people feel?** Decide at the visceral, behavioural and reflective levels before you build. Guilt is on week 1's *undesirable* list; motivation is on the desirable one.
+- **Research:** memory of an experience is set by its peak and its end, not its average; changing the end of a task changed which version people preferred [@cockburn-peak-end:2015]. Ask right after, and ask what they *remember*.
+- **Positive affect cuts both ways:** a friendly participant forgives rough edges, which makes them happy and your data soft. Ask for the worst moment as well as the best.
+- **Ethics:** attachment is a design outcome (Replika). Don't build a feeling you can't take responsibility for.
+:::
+::: {.column width="40%"}
+::: {.success-box}
+**Research question seed:** *How do people describe the experience of [your interaction], and does it change their stated intention to [sustainable behaviour]?*
+:::
+:::
+::::::::::::::
+
+## Three lenses, one question
+
+Why does an interface feel the way it does?
+
+| Lens | Because... | Felt as | Case | Ask your participants |
+|---|---|---|---|---|
+| **Cognitive** | brains hold only so much | easy, confusing, effortful | Snapchat | What do you think it is doing? |
+| **Social** | people act in front of others | connecting, awkward, exposed | Google Buzz | Who would see this? How does that feel? |
+| **Emotional** | feeling comes first | delightful, annoying, attached | Replika | Best moment? Worst moment? |
+
+Usability tells you *that* something is hard; this week is about *why*, which is what turns a finding into a design change.
 
 ## Questions: Who has a question?
 
