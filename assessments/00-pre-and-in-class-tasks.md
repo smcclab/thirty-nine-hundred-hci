@@ -6,13 +6,13 @@ author: Dr Charles Martin
 ## Outline
 
 - **Due date**: due at the start of _your_ tutorial
-- **Mark weighting**: 1% per tutorial (total of 10%)
+- **Mark weighting**: 1% per tutorial, best 10 of 11 tutorials (total of 10%)
 - **Submission**: submit your pre-lab tasks on [Edstem discussions](https://edstem.org/au/courses/37143/discussion)
 - **Policies**: late submissions not accepted without an extension
 
 ## Description
 
-_Pre-class_ and _In-class_ tasks are due in each tutorial. There are 10 tutorials in this course and one set of pre- and in-class tasks associated with each one.
+_Pre-class_ and _In-class_ tasks are due in each tutorial. There are 11 tutorials in this course and one set of pre- and in-class tasks associated with each one. Your best 10 tutorial marks count, so one tutorial can be missed without penalty.
 
 The pre-class task includes a weekly post on the course forum (100-200 words) which will be discussed and developed during class.
 
@@ -64,4 +64,4 @@ The Pre- and Post-Tutorial Tasks are worth 1 mark in each tutorial. The mark wil
 - 0.75: attended and completed both tasks with at least one at a very good or excellent standard.
 - 1.0: attended and completed both tasks to a very good or excellent standard.
 
-As there are 10 tutorials, the pre- and post-class tasks are worth a total of 10% of your final course grade.
+There are 11 tutorials and your best 10 marks count, so the pre- and in-class tasks are worth a total of 10% of your final course grade.

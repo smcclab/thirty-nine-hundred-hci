@@ -15,6 +15,8 @@ title-slide-attributes:
 - Remember: main deliverable in the assignment is your presentation video `project-presentation.mp4`
 - Demo at end of lecture on [recording a video in Powerpoint](https://support.microsoft.com/en-au/office/record-a-slide-show-with-narration-and-slide-timings-0b9502c6-5f6c-40ae-b1e7-e47d8741161c#OfficeVersion=2013%2C_2016&officeversion=newer_versions).
 
+<!-- TODO: add a section on first-person methods in HCI (autoethnography, autobiographical design, soma design) using @desjardins-first-person-methods:2021 and @hook-first-person-soma:2018 (both now in references.bib). Fits naturally here as the researcher-as-practitioner angle on expressive interfaces, and the week 12 positionality workshop points students at these readings as an extension. -->
+
 ## Plan for the class
 
 - conceptualising expressive interactions

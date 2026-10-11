@@ -12,8 +12,8 @@ title-slide-attributes:
 - final project specification available
 - final project repo not available yet
 - assignment 2: marks out next week.
-- week 11: last "tutorial"
-- week 12: drop ins (same time) to help with your final project.
+- week 11: analysis tutorial
+- week 12: new positionality tutorial (best 10 of 11 tutorial marks count), drop-in after as usual
 - weather is getting nice! go outside! (watch this lecture outside!)
 
 ## Plan for the class
