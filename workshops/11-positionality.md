@@ -7,7 +7,7 @@ author: Dr Charles Martin
 
 ![Reflexivity means looking back at you (the researcher), your decisions and methods, and acknowledging how they are linked.](img/reflection.jpg){alt="A reflection of the clouds in windows." width=80%}
 
-This tutorial is about you, the researcher, and how your decisions and actions connect to what happens in your final project. 
+This tutorial is about you, the researcher, and how your decisions and actions connect to what happens in your final project.
 Every HCI project is a sequence of research decisions: what to prototype, who to recruit, what methods to use, and what results might be called a finding. These decisions don't happen automatically, they are made by someone with a particular training, history, body, and set of relationships, and that someone is the instrument through which the project's knowledge is produced. _Positionality_ is the practice of owning those decisions and communicating how your position shaped them. Olmos-Vega and colleagues wrote that reflexivity "should go beyond disclosing each investigator's background and training; it should include descriptions of how the researcher's prior experiences and motivations might influence the decisions made throughout the project" [@olmos-vega-reflexivity-qualitative-research:2023].
 
 For COMP6390 students this tutorial prepares you to develop the positionality statement in the [final project](https://smcclab.au/thirty-nine-hundred-hci/assessments/03-prototype-and-evaluation.html), which is marked on how  you connect your background and presence to decisions in your research. For COMP3900 students these skills will help you to evaluate your findings critically and would prepare you for any further study or projects in HCI.
