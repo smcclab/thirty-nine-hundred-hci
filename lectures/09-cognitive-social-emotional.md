@@ -503,7 +503,7 @@ A social network inside Gmail, and an empty social network is useless. So:
 - **What happened:** for some people that list was an abusive ex or a therapist. The FTC charged deceptive practices; Google got a mandated privacy program (the first such order) and 20 years of audits [@ftc-google-buzz:2011].
 
 ::: {.success-box}
-**The test:** show the default to a few real people with their real inboxes and ask what they'd hate to see public (week 4 methods, aimed at a *default*). **Why:** who you email is not who you want to be *seen* with. Email frequency is not consent.
+**A test:** show the default to a few real people with their real inboxes and ask what they'd hate to see public. More generally, ask: "what's the worst that could happen?"
 :::
 :::
 ::: {.column width="45%"}
@@ -530,7 +530,13 @@ Sustainable behaviour is social behaviour: bins, kitchens, cars and laundries ar
 
 # Emotional Interaction {background-image="img/02_theory_and_concepts_49.jpg" background-size="cover" background-opacity="0.4"}
 
-Why do people love or hate a thing before they have really used it? Because feeling arrives first, fast and automatic, and colours every judgement made afterwards. Emotions show in faces, bodies and voices; interfaces can provoke them, read them, and be designed for them.
+Why do people love or hate a thing before they have really used it? B
+
+- Feelings arrive first, quickly and automatically.
+- Feelings colour judgments made afterwards.
+- Emotions show in faces, bodies and voices. 
+
+Interfaces can provoke emotions, read them, and be designed for them.
 
 ## Feeling comes first
 
@@ -538,11 +544,11 @@ Why do people love or hate a thing before they have really used it? Because feel
 ::: {.column width="60%"}
 - **Research:** people's visual-appeal ratings of web pages after **50 ms** matched their ratings after 500 ms [@lindgaard-fifty-milliseconds:2006]. ATM layouts that looked better were rated more *usable*, before and after use, regardless of how usable they actually were [@tractinsky-beautiful-usable:2000].
 - **Why it matters:** positive affect makes people more creative, quicker to decide, and more forgiving of small problems; stress and anxiety narrow attention and shorten patience [@norman-emotional-design:2005]. Things used under stress need far more care.
-- **You've felt it:** the app you forgave because it was beautiful; the one you abandoned after one ugly error.
+- **You've felt it:** the app you forgave because it was beautiful; the one you abandoned after one ugly screen.
 - **Design:** aesthetics is not decoration on top of usability; it changes how usability is experienced.
 :::
 ::: {.column width="40%"}
-![Windows Blue Screen of Death: a feeling, delivered.](img/cognitive-social-emotional_11_bsod.png){width="80%"}
+![Windows Blue Screen of Death: a feeling in one screen.](img/cognitive-social-emotional_11_bsod.png){width="80%"}
 :::
 ::::::::::::::
 
@@ -568,15 +574,13 @@ An interface can win on one level and lose on another: Snapchat's redesign was a
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 - expressivity through animation, sonification, vibrotactile feedback (the watch buzz)
-- **Research:** people are more forgiving when a computer apologises, and respond to flattery and politeness from software as they would from a person [@nass-computers-social-actors:1994]. Clippy failed because it interrupted at the wrong moments and was too human for what it could do [@rogers-beyond-hci:2023, p. 180].
+- **Research:** people are more forgiving when a computer apologises, and respond to flattery and politeness from software as they would from a person [@nass-computers-social-actors:1994]. 
+- Clippy failed because it interrupted at the wrong moments and was too human for what it could do [@rogers-beyond-hci:2023, p. 180].
 - **Design:** express only what you can back up; appear occasionally; be careful with faces, names and gender.
 
-::: {.info-box}
-**Week 11:** expressive interfaces (music, drawing, dance): what happens when the *point* of the interaction is the feeling.
-:::
 :::
 ::: {.column width="40%"}
-![Duolingo reminders: expressive, and for some people, annoying.](img/cognitive-social-emotional_10_duolingo.png){width="55%"}
+![Duolingo reminders: expressive, a bit manipulative, and for some people, annoying.](img/cognitive-social-emotional_10_duolingo.png){width="80%"}
 :::
 ::::::::::::::
 
@@ -595,7 +599,7 @@ Behaviour needs motivation, ability and a trigger at the same moment [@fogg-beha
 :::
 :::
 ::: {.column width="40%"}
-![The world's deepest bin (2009) sounds like dropping rubbish into a deep hole.](img/worlds-deepest-bin.png){width="55%"}
+![The world's deepest bin (2009) sounds like dropping rubbish into a deep hole.](img/worlds-deepest-bin.png){width="100%"}
 :::
 ::::::::::::::
 
