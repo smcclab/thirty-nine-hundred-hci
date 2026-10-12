@@ -11,7 +11,7 @@ author: Dr Charles Martin
 - **Mark weighting**: 20%
 - **Submission**: submit your assignment according to the [instructions below](#submission-process)
 - **Policies**: Late submission is not permitted for this assessment. This is an individual assessment task.
-- **Gitlab Template Repository**: [`comp3900-2026-A1-prototyping` repo (link)](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A1-prototyping)
+- **Gitlab Template Repository**: [`comp3900-2026-A1-prototyping` repo (link)](https://gitlab.comp.anu.edu.au/comp3900/2026/comp3900-2026-A1-prototyping)
 
 ## Description {#description}
 
@@ -48,7 +48,7 @@ Your submission must:
 - include at least two references to external sources in ACM format
 - be a maximum of 1500 words + 10% acceptable buffer (i.e., no more than 1650 words), and at least 400 words. Acknowledgements, the reference list, commented text, numbers and other non-alphabet characters, and code blocks do not count towards the total; captions and tables do count.
 - image and media files go in the `materials/` folder of your fork.
-- must be uploaded to _your fork_ of the [`comp3900-2026-A1-prototyping`](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A1-prototyping) repository on Gitlab by the due date.
+- must be uploaded to _your fork_ of the [`comp3900-2026-A1-prototyping`](https://gitlab.comp.anu.edu.au/comp3900/2026/comp3900-2026-A1-prototyping) repository on Gitlab by the due date.
 
 ## Submission Process {#submission-process}
 

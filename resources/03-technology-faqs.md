@@ -11,7 +11,7 @@ You may find the resources on this page helpful, and if you have any further iss
 
 ## GitLab {#gitlab}
 
-- ANU Teaching GitLab Server: <https://gitlab.cecs.anu.edu.au>
+- ANU Teaching GitLab Server: <https://gitlab.comp.anu.edu.au>
 - Missing Manual for ANU GitLab and Git: <https://comp.anu.edu.au/docs/gitlab/>
 
 ### Tips
@@ -22,7 +22,7 @@ You may find the resources on this page helpful, and if you have any further iss
 
 ### Tips
 
-- To see expected formatting, look at Charles' example repo: <https://gitlab.cecs.anu.edu.au/u4110680/comp3900-2025-prototyping>
+- To see expected formatting, look at Charles' example repo: <https://gitlab.comp.anu.edu.au/u4110680/comp3900-2025-prototyping>
 - Use empty lines around headings, lists, and code blocks
 - Use empty lines between images
 - Use descriptive alt text/caption for images.

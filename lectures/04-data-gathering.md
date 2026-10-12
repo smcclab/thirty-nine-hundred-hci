@@ -9,7 +9,7 @@ title-slide-attributes:
 
 ## Announcements
 
-- template for assignment 1 is [available](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A1-prototyping)
+- template for assignment 1 is [available](https://gitlab.comp.anu.edu.au/comp3900/2026/comp3900-2026-A1-prototyping)
 - assignment 1 [due **Monday 24 August, 23:59 on GitLab**](https://canvas.anu.edu.au/courses/2781/assignments/11544)
 - assignment 2 specification will be properly available after the A1 is in, [you can see the draft already on Canvas](https://smcclab.au/thirty-nine-hundred-hci/assessments/02-needs-finding.html)
 - keep attending labs, if issues, apply for an [extension (see course policies on Canvas)](https://canvas.anu.edu.au/courses/2781/pages/policies)
