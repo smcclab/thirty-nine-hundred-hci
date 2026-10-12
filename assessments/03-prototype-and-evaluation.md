@@ -11,7 +11,7 @@ author: Dr Charles Martin
 - **Mark weighting**: 40%
 - **Submission**: submit your assignment according to the [instructions below](#submission-process)
 - **Policies**: Late submission is not permitted for this assessment. This is an individual assessment task.
-- **Gitlab Template Repository**: <https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A3-final-project>
+- **Gitlab Template Repository**: <https://gitlab.comp.anu.edu.au/comp3900/2026/comp3900-2026-A3-final-project>
 
 ## Description {#description}
 
@@ -52,7 +52,20 @@ You will also include a written version of your presentation with the same headi
   - include at least five references to external sources in ACM format
   - be written in markdown format meeting our standards
   - be a maximum of 1800 words + 10% acceptable buffer (i.e., no more than 1980 words)
-- must be uploaded to _your fork_ of the [`comp3900-2026-A3-final-project`](https://gitlab.cecs.anu.edu.au/comp3900/2026/comp3900-2026-A3-final-project) repository on Gitlab by the due date
+  - list your 3--5 participants in the _Participants_ section in the format given in the template: `- u1234567 Firstname Lastname` (**all participants must be current COMP3900/6390 students**)
+- include your **raw collected data** and analysis scripts in the `materials` folder of your repository: for example, exported survey or questionnaire responses (with timestamps), session recordings, photographed notes, or verbatim transcripts, rather than summaries
+- must be uploaded to _your fork_ of the [`comp3900-2026-A3-final-project`](https://gitlab.comp.anu.edu.au/comp3900/2026/comp3900-2026-A3-final-project) repository on Gitlab by the due date
+
+### How participant lists are verified {#verification}
+
+Because every participant is a classmate, participation is verifiable:
+
+- A CI job in your repository checks that your _Participants_ section is correctly formatted (3--5 entries, one `- u1234567 Firstname Lastname` per line, no duplicates, and you are not your own participant).
+- After the deadline, every listed uid and name is checked against the class list, and participant lists are **cross-checked across all submissions**: since you participate in your classmates' studies while they participate in yours, your uid should also appear in other students' participant lists.
+- We **contact a random sample of listed participants** to confirm that they took part in the study and what it involved.
+- We may re-run your analyses against the raw data in your `materials` folder.
+
+Listing people who did not actually participate, or submitting data that was not collected from the listed participants, is fabrication of research data: a serious error under the _N_ category of the rubric and a potential breach of academic integrity. If recruiting participants goes wrong for you, talk to the course staff early: a smaller honest study is always worth more than a fabricated one.
 
 ### Presentation Video Format and Style
 
@@ -65,6 +78,8 @@ You must record a 5-minute presentation that articulates your work in the format
 - title slides, personal introductions, tables of contents, reference slides are not required (waste of time!)
 
 The easiest way to create a five-minute presentation would be to use Microsoft Powerpoint, and record the presentation using the built in recording tool. Instructions for [recording the presentation are here (link)](https://support.microsoft.com/en-au/office/record-a-slide-show-with-narration-and-slide-timings-0b9502c6-5f6c-40ae-b1e7-e47d8741161c#OfficeVersion=2013%2C_2016&officeversion=newer_versions). Microsoft 365 applications [are provided to all ANU students](https://services.anu.edu.au/information-technology/software-systems/microsoft-office-365).
+
+**Video file size:** your video file must be **under 100MB** so it can be pushed to GitLab normally (please don't use Git LFS). Export from PowerPoint at **Full HD (1080p)** and check the file size. If it is under 100MB, no further action is needed. If it is 100MB or more, re-encode it to H.264 at 2000 kbps with 128 kbps AAC audio using [HandBrake](https://handbrake.fr) or [ffmpeg](https://ffmpeg.org), which gives about 88MB for a 330-second video. Step-by-step instructions are in the template repository's README. Check the size **before you commit**: git keeps every committed version, so committing a smaller file later won't shrink your repository. The same 100MB limit applies to any recordings in your `materials` folder.
 
 **Important:** Note that you **must not** use generative AI or text-to-speech software to create or record your presentation. It must be you presenting your research and you must be identifiable in the video recording.
 
@@ -89,9 +104,9 @@ Here's how to get started with the work in this assignment:
 
 3. Create an [evaluation plan](https://smcclab.github.io/thirty-nine-hundred-hci/lectures/08-evaluation.html#/developing-an-evaluation-plan).  Make sure your study plan is realistic.
 
-4. Find participants -- **they must be current COMP3900/6390 students**. Attend all classes and find 3--5 people in your tutorial who will participate in each others' studies. Don't leave this until the last minute!
+4. Find participants -- **they must be current COMP3900/6390 students**. Attend all classes and find 3--5 people in your tutorial who will participate in each others' studies. When you do, collect each person's uid and name in the exact format the _Participants_ section requires (`- u1234567 Firstname Lastname`). Don't leave this until the last minute!
 
-5. Collect data with your participants. You could do this during a drop-in session. You will need to participate in other people's studies as well ask them to participate in yours. (don't make up the data).
+5. Collect data with your participants. You could do this during a drop-in session. You will need to participate in other people's studies as well ask them to participate in yours. Keep your data in raw form as you collect it, because that raw data goes in your `materials` folder. (Don't make up the data: see [How participant lists are verified](#verification).)
 
 6. Analyse your data. Use the analysis techniques covered in classes. Remember that you do not need to collect both quantitative and qualitative data in this assessment and can choose what data and analyses to perform depending on your design choices and interests.
 
@@ -101,7 +116,7 @@ Here's how to get started with the work in this assignment:
 
 9. Create and record a presentation following the instructions above. Ensure that the presentation video is in `.mp4` format, and is less than 330 seconds. Make sure that you record your own voice and include video of your face in the presentation video. You can [do this using Microsoft Powerpoint](https://support.microsoft.com/en-au/office/record-a-slide-show-with-narration-and-slide-timings-0b9502c6-5f6c-40ae-b1e7-e47d8741161c#OfficeVersion=2013%2C_2016&officeversion=newer_versions) (ANU-provided software). Upload your recorded presentation as `project-presentation.mp4` in your fork of the project repository.
 
-10. Acknowledge your research participants by listing them in your _Acknowledgements_ section.
+10. List your research participants in your _Participants_ section in the required format, and acknowledge any other help (including generative AI use) in your _Acknowledgements_ section.
 
 Here's some general advice:
 
