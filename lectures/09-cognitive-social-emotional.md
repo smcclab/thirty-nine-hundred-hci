@@ -131,34 +131,27 @@ For each of these aspects, we will talk about how they show up in everyday exper
 
 # Cognitive Aspects {background-image="img/stefano-bucciarelli-59HOF9zHKNs-unsplash.jpg" background-size="cover" background-opacity="0.35"}
 
-Why does an interface feel *easy* or *hard*? Because of what a brain can notice, hold and remember, and the way an interface works with or against that.
+Why does an interface feel *easy* or *hard*? 
 
+- Because of the way our brain works!
+- Things we notice, remember, attend to...
+- and the way an interface works with or against our cognitive capabilities.
 
-<!-- TODO - rewrite this one just as a talkthrough demo in Nanojam. Make the image bigger (it's three interfaces side by side and should just be full width). -->
 ## Demo: cognition you can feel
 
-:::::::::::::: {.columns}
-::: {.column width="55%"}
-Two volunteers, same cued round on nanojam, projected. Same sounds, same engine, only the interaction differs.
-
-1. **Pads**: the cue flashes, tap the matching pad.
-2. **Command line, sound names hidden**: the cue plays, type the command for it (`kick`, `snare`, `hat`, `clap`).
+![nanojam (week 7): same sounds, same engine, only the interaction differs. <https://charlesmartin.au/nanojam/>](img/nanojam-interfaces.png){width="100%"}
 
 ::: {.think-box}
-**Watch for:** who finishes first; what happens on the command line after a wrong command; and what the typist *thinks* each command does.
+**Watch for:** which interface I play without thinking, what I have to *remember* on the command line, and what happens when I get a command wrong.
 :::
-:::
-::: {.column width="45%"}
-![nanojam (week 7): pads, command line, camera. <https://charlesmartin.au/nanojam/>](img/nanojam-interfaces.png){width="100%"}
-:::
-::::::::::::::
 
 ::: notes
-URLs: pads `https://charlesmartin.au/nanojam/#ui.interface=pads`; CLI with recall condition `https://charlesmartin.au/nanojam/#ui.interface=cli&cli.hiddenLabels=true`. Open the panel and start the cued round on each. Nothing is logged.
+Talkthrough, driven from the lectern. URLs: pads `https://charlesmartin.au/nanojam/#ui.interface=pads`; CLI with sound names hidden `https://charlesmartin.au/nanojam/#ui.interface=cli&cli.hiddenLabels=true`. Nothing is logged.
 
-Have the CLI volunteer type `loop kick x...x...` once before the round so the room sees a command that works, then start. If a wrong command is typed, point out that the interface stays silent (gulf of evaluation, later). Ask the typist afterwards: what did you think `loop` did? (mental models, later).
-
-If nobody volunteers, talk through the week 8 screenshot: recognition (pads) vs recall (CLI) is the whole point.
+1. Pads: tap kick, snare, hat. Everything you can do is on screen; you just point at it (recognition).
+2. CLI, names hidden: type `loop kick x...x...` and `start`. Now ask the room what the snare is called. You have to *remember* the vocabulary (recall).
+3. Mistype a command (e.g. `play kik`) and point at what the interface does and doesn't tell you (gulf of evaluation, later).
+4. Ask the room: from that one command, what do you think `loop` does? (mental models, later).
 :::
 
 ## Cognition
@@ -222,8 +215,7 @@ Think back to the demo: Pointing at a pad beats remembering a command.
 - **Design:** recognition over recall; short procedures; consistency; let people label things.
 :::
 ::: {.column width="40%"}
-<!-- TODO replace this image, it sucks. I guess teh thing was something like "remembering a family recipe" as it's a ladle of stew. just looks a bit like a cookbook. -->
-![Photo by Piotr Miazga on Unsplash](img/piotr-miazga-xOZXquhp7RA-unsplash.jpg){width="45%"}
+![Photo by Annie Hatuanh on Unsplash](img/annie-hatuanh-mcqf1obI9cI-unsplash.jpg){alt="A gallery visitor, seen from behind, photographs the title wall of an exhibition on her phone" width="50%"}
 :::
 ::::::::::::::
 
@@ -233,7 +225,7 @@ Think back to the demo: Pointing at a pad beats remembering a command.
 ::: {.column width="60%"}
 Intentional learning is hard work; incidental learning (faces, routes, where the button was) is nearly free. People prefer to learn by *doing*, which only works if doing is safe [@rogers-beyond-hci:2023, p. 119].
 
-- **Research:** cooking in a sensor-equipped French kitchen taught the language incidentally [@hooper-french-kitchen:2012]; VR situates language learning in a culture [@cheng-language-culture:2017]. Dancers learn by *marking* (abbreviated moves), which beat full run-throughs [@kirsh-embodied-cognition:2013].
+- **Research:** in a sensor-equipped French-speaking kitchen requested help beat  prompts [@hooper-french-kitchen:2012]; VR taught Japanese learners when to bow  [@cheng-language-culture:2017]. Dancers learn by *marking* (abbreviated moves), which beat full run-throughs [@kirsh-embodied-cognition:2013].
 - **Design:** invite exploration, make mistakes cheap (undo), constrain early and loosen later: the "zone of proximal development".
 - **Your project:** your participants get one session. What can they learn by doing in five minutes?
 :::
@@ -256,8 +248,7 @@ Reflective cognition is slow and expensive, so everyday decisions run on fast he
 - **Your project:** a sustainable choice competes with habits. Where and when does your interface put its information?
 :::
 ::: {.column width="40%"}
-<!-- These images don't make sense for this slide now -->
-![Source: [Design Boom](https://www.designboom.com/technology/blind-maps-for-iphone-interactive-braille-interface/)](img/02_theory_and_concepts_12.png){width="45%"}
+![Photo by Melanie Lim on Unsplash](img/melanie-lim-246b6c6IeC0-unsplash.jpg){alt="A masked shopper reaches into a densely stocked supermarket shelf under a Healthy living sign" width="50%"}
 :::
 ::::::::::::::
 
@@ -306,7 +297,6 @@ Snapchats interface is unlabelled swipes. Spiegel: "difficult to understand or h
 :::
 ::::::::::::::
 
-<!-- TODO how does this bear on recognition vs recall? isn't the early version recall? ok I think I can just explain this. -->
 ## Snapchat: What Happened
 
 :::::::::::::: {.columns}
@@ -319,13 +309,17 @@ Snapchats interface is unlabelled swipes. Spiegel: "difficult to understand or h
 :::
 
 ::: {.success-box}
-**The test:** timed habitual tasks with *existing expert users*, not just first-run tasks with new ones. Week 8's method, different participants.
+**The test:** timed habitual tasks with *existing expert users*, not just first-run tasks with new ones.
 :::
 :::
 ::: {.column width="45%"}
 ![Snap's filing: the redesign "negatively impacted our DAUs" [@snap-10q-q2:2018].](img/snapchat-dau.png){width="85%"}
 :::
 ::::::::::::::
+
+::: notes
+Recognition vs recall: both versions are recall. The swipes are unlabelled before and after, so the redesign never moved anything onto the screen. That recall was what made the old app hard for new users (Spiegel's "hard to use"). For experts, recall that has been practised hundreds of times a day becomes automatic, so it is fast. The redesign kept the gestures but changed where they lead, so experts' recalled mappings were now wrong. They had to relearn, and a confusing-but-memorised interface beat a clearer one they had to learn. Compare Project Ernestine (a few slides on): the cost of moving work into memory is invisible on paper.
+:::
 
 ## Gulfs of Execution and Evaluation
 
@@ -530,7 +524,7 @@ Sustainable behaviour is social behaviour: bins, kitchens, cars and laundries ar
 
 # Emotional Interaction {background-image="img/02_theory_and_concepts_49.jpg" background-size="cover" background-opacity="0.4"}
 
-Why do people love or hate a thing before they have really used it? B
+Why do people love or hate a thing before they have really used it?
 
 - Feelings arrive first, quickly and automatically.
 - Feelings colour judgments made afterwards.
