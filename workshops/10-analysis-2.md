@@ -7,7 +7,7 @@ author: Anneysha Sarkar and Tanisha Sharma
 
 ![Creating research that will be ready for big conference stages!](img/conference-hall.jpg){alt="A wide photo of a conference hall with hundreds of people watching a talk." width=80%}
 
-In this tutorial, we will bring together and extend our understanding of qualitative and quantitative analysis using multimedia analysis, inter-rater reliability rating, and triangulation techniques.
+In this tutorial, we will revisit and extend our understanding of Reflexive Thematic Analysis by analysing video interviews, developing and refining themes, and reflecting on how our assumptions and perspectives shape the interpretation of qualitative data in HCI research.
 
 ## Pre-Class Task: Observing Experiences with Technology
 
@@ -85,7 +85,7 @@ Write down a brief response. You will revisit it later in the tutorial. Next, re
 
 | Observation or excerpt (with timestamp) | Initial code | Why did you assign this code? |
 |---|---|---|
-| | | |
+|...|...|...|
 
 ### Step 2 (Group): Compare interpretations across interviews (10 minutes)
 
@@ -100,7 +100,7 @@ Use the table below to organise your discussion. You do not need to reach agreem
 
 | Related observations and codes | What connects or distinguishes them? | What might this suggest about people's relationships with technology? |
 |---|---|---|
-| | | |
+|...|...|...|
 
 ### Step 3 (Group): Construct a candidate theme (10 minutes)
 
@@ -187,7 +187,7 @@ Today's tutorial is a simplified exercise in RTA. Each student has closely exami
 
 ## After Class: Research cluster meeting 
 
-While we didn't have time to organise one during this lab, you should organise a time with your research cluster (or forming new ones -- ask your peers during the tutorial! - if you want) and sharing some plans for your final projects. It’s ok if you haven’t completely decided on your final projects yet; this meeting is to understand and discuss ideas.
+While we didn't have time to organise one during this lab, you should organise a time with your research cluster (or forming new ones - ask your peers during the tutorial! - if you want) and sharing some plans for your final projects. It’s ok if you haven’t completely decided on your final projects yet; this meeting is to understand and discuss ideas.
 
 As a group you should:
 
