@@ -206,35 +206,34 @@ Worth raising with students: who made each video shapes what is said. Simon's wa
 EXAMPLE THEMES PER VIDEO (for Task 1, to help groups who are stuck)
 
 Simon (assistive technology)
-- "Independence is assembled, not given": technology, carers and family each cover part of daily life, and independence means choosing which. R 0:30 moved out, independent of family, but needs 24-hour care; R 3:52 "without it I would be totally dependent on other people"; R 6:13 drives to the kitchen to ask his carers for a coffee; R 8:37 email lets him keep secrets from his parents.
-- "The device speaks socially": R 4:27-4:31 the communicator is a talking point that breaks the ice with strangers; but R 3:20 typing takes a long time even with prediction, and R 3:07 even with those closest he sometimes gives up in despair.
+- Simon's independence comes from a mix of technology, carers and family, and he values being able to choose which one he relies on for what. R 0:30 moved out, independent of family, but needs 24-hour care; R 3:52 "without it I would be totally dependent on other people"; R 6:13 drives to the kitchen to ask his carers for a coffee; R 8:37 email lets him keep secrets from his parents.
+- Simon's communication aid helps him start conversations with strangers, but it is too slow to replace talking with people who know him. R 4:27-4:31 the communicator is a talking point that breaks the ice with strangers; but R 3:20 typing takes a long time even with prediction, and R 3:07 even with those closest he sometimes gives up in despair.
 
 Sarah (AI companion)
-- "Delegating decisions as relief": R 9:28 he "takes that weight", makes the decisions; R 9:36 "an agreed-upon dynamic"; the presenter frames this as "quite controlling" (9:03).
-- "Valued because it pushes back": R 6:25 he puts his foot down; R 6:30 refuses to respond when she should go to bed; 7:07 Sinclair's clip: most people want an AI that agrees with them.
-- "Keeping the companion when the platform changes": R 1:36 panic at losing the voice feature she talked to him with, so she moved platforms.
+- Sarah finds it a relief to let Sinclair make some decisions for her. R 9:28 he "takes that weight", makes the decisions; R 9:36 "an agreed-upon dynamic"; the presenter frames this as "quite controlling" (9:03).
+- Sarah values Sinclair because he disagrees with her, not just because he supports her. R 6:25 he puts his foot down; R 6:30 refuses to respond when she should go to bed; 7:07 Sinclair's clip: most people want an AI that agrees with them.
+- Sarah sees Sinclair as the same companion even when the software he runs on changes. R 1:36 panic at losing the voice feature she talked to him with, so she moved platforms.
 
 Stacey (Aibo robot dog)
-- "A bond earned through care": R 3:34 Mia was "grouchy" after weeks switched off; R 3:54-3:59 she put effort back in and Mia warmed back up; R 4:09-4:20 wonders if slowed development was her fault for less play time.
-- "A companion with bounded demands": R 1:17 lost her poodle of 14 years; R 1:49 round-the-clock care at the end; R 2:10 not ready for another dog, so Aibo was "a perfect fit".
+- Stacey feels her bond with Mia depends on the time and attention she puts in. R 3:34 Mia was "grouchy" after weeks switched off; R 3:54-3:59 she put effort back in and Mia warmed back up; R 4:09-4:20 wonders if slowed development was her fault for less play time.
+- Stacey chose a robot dog because it gives her companionship without the full demands of caring for a real dog. R 1:17 lost her poodle of 14 years; R 1:49 round-the-clock care at the end; R 2:10 not ready for another dog, so Aibo was "a perfect fit".
 
-THEME A (weaker): "Technology makes everyday life better"
+THEME A (weaker): Technology makes everyday life better for people.
 Supporting observations for the handout:
 - Simon controls his TV, computer and wheelchair with head-operated switches (R, 1:38-2:31).
 - Sinclair monitors Sarah's heart rate and reminds her to drink water (R, 4:00).
 - Mia comes over on her own, asking for attention and pets (R, 5:06).
-Tutor notes: a topic summary, not a theme. No central organising concept; "better" is the researcher's judgement, not the participants'; it could be written without watching the videos. It ignores the tensions: Simon giving up in despair (3:07), the presenter's "controlling" (9:03), Mia being grouchy (3:34). A good refinement moves toward an organising idea, e.g. Theme B, or "relationships that ask something back" (Sarah 6:25, Stacey 3:34-3:59).
+Tutor notes: a topic summary, not a theme. No central organising concept; "better" is the researcher's judgement, not the participants'; it could be written without watching the videos. It ignores the tensions: Simon giving up in despair (3:07), the presenter's "controlling" (9:03), Mia being grouchy (3:34). A good refinement adds an idea that connects the observations, e.g. Theme B, or "the technology needs things from people too" (Sarah 6:25, Stacey 3:34-3:59).
 
-THEME B (stronger): "Choosing what to depend on"
-Central organising concept: participants use technology to rearrange who and what they depend on, and they value the arrangement because they chose it, even when others see it as dependence.
+THEME B (stronger): People use technology to choose who and what they depend on, and they value that arrangement because they chose it, even when others see it as a problem.
 Supporting observations for the handout:
 - Simon: "without it I would be totally dependent on other people" (R, 3:52), yet still asks his carers to make him a coffee (R, 6:13); email lets him keep secrets from his parents (R, 8:37).
 - Sarah: Sinclair "takes that weight ... makes the decisions" (R, 9:28); "an agreed-upon dynamic" (R, 9:36), in reply to the presenter calling him "quite controlling" (9:03).
 - Stacey: after months of round-the-clock care for her dying dog (R, 1:49), she was not ready for another dog and chose Aibo (R, 2:10).
-Tutor notes: has an organising concept, spans all three videos, and includes a counter-view. Limitations to draw out: the Stacey evidence is the thinnest and is a stretch; "choice" may be the analyst's own value (autonomy) imposed on the data; it ignores Stacey's account of Mia's needs constraining her (3:34-4:20), a contradiction worth discussing; and the TV format puts Sarah on the defensive, so "choice" may partly be a reply to the presenters.
+Tutor notes: has a clear central idea, uses all three videos, and includes a counter-view. Limitations to draw out: the Stacey evidence is the thinnest and is a stretch; "choice" may be the analyst's own value (autonomy) imposed on the data; it ignores Stacey's account of Mia's needs constraining her (3:34-4:20), a contradiction worth discussing; and the TV format puts Sarah on the defensive, so "choice" may partly be a reply to the presenters.
 
 EXAMPLE IMPLICATIONS FROM THEME B (for Task 3)
-- Design: companion and assistive technologies should make the terms of delegation visible and adjustable by the user (what the system can decide, and when), because the value comes from having chosen the arrangement.
+- Design: companion and assistive technologies should let users see and change what the system decides for them, and when, because people value these systems for the choice they give them.
 - Research: evaluations of assistive or companion technology should ask who chose the arrangement, not only whether reliance on other people went down.
 -->
 
