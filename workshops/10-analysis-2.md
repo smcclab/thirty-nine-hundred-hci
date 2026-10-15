@@ -197,8 +197,6 @@ As a group you should:
 - Discuss your evaluation plans. What kinds of data will you collect? Remember that you don't have to do **both** quantitative **and** qualitative analysis but can choose the types or combinations that make most sense for this assessment.
 - Discuss the time and place that you might meet for further meetings or to complete evaluations.
 
-## References
-
 <!-- TUTOR NOTES: example themes for the three videos, and Theme A / Theme B for Task 2.
 
 Drafted from the YouTube auto-captions (2026-10-15). Timestamps are caption cue times, accurate to a few seconds. Only spoken content has been checked: Simon's video has unspoken demonstrations at 1:03-1:38, 5:00-6:08 and 7:25-8:21, and Stacey's video is a music montage from about 6:30 to the end. Watch those before relying on any visual (O) observations.
@@ -239,3 +237,5 @@ EXAMPLE IMPLICATIONS FROM THEME B (for Task 3)
 - Design: companion and assistive technologies should make the terms of delegation visible and adjustable by the user (what the system can decide, and when), because the value comes from having chosen the arrangement.
 - Research: evaluations of assistive or companion technology should ask who chose the arrangement, not only whether reliance on other people went down.
 -->
+
+## References
