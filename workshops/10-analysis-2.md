@@ -7,7 +7,7 @@ author: Anneysha Sarkar and Tanisha Sharma
 
 ![Creating research that will be ready for big conference stages!](img/conference-hall.jpg){alt="A wide photo of a conference hall with hundreds of people watching a talk." width=80%}
 
-In this tutorial, we will revisit and extend our understanding of Reflexive Thematic Analysis by analysing video interviews, developing and refining themes, and reflecting on how our assumptions and perspectives shape the interpretation of qualitative data in HCI research.
+In this tutorial, we will revisit and extend our understanding of Reflexive Thematic Analysis by analysing video interviews, developing and refining themes, and reflecting on how our assumptions and perspectives shape the interpretation of qualitative data in HCI research. We will then go one step further, from themes to *implications*: what a theme means for the people who design, study or live with technology.
 
 ## Pre-Class Task: Observing Experiences with Technology
 
@@ -56,13 +56,14 @@ Bring your full observational notes to the tutorial. You will use them to develo
 ## Plan for the Class
 
 0. Introduction and review (5 mins)
-1. Reflecting on our themes (20 mins)
-2. Critiquing and refining themes (50 mins)
-3. Reflecting on good RTA synthesis (15 mins)
+1. From observations to themes (25 mins)
+2. Critiquing and refining themes (25 mins)
+3. Beyond the theme: implications (25 mins)
+4. Reflection (10 mins)
 
 ## In-Class Tasks
 
-## Research Question
+### Research Question
 
 Throughout this tutorial, we will explore the following research question:
 
@@ -70,11 +71,11 @@ Throughout this tutorial, we will explore the following research question:
 
 As a group, you will use observational notes from your pre-class tasks. Although these interviews explore different technologies, they may reveal related experiences, meanings and tensions. Your task is to explore these connections through Reflexive Thematic Analysis (RTA). Remember that RTA is an iterative and interpretive process. Researchers actively construct codes and themes through their engagement with qualitative data. Different researchers may develop different, well-supported interpretations of the same material.
 
-## Task 1: From Observations to Themes (30 minutes)
+### Task 1: From Observations to Themes (25 mins)
 
 In this task, you will use your pre-class observational notes to develop initial codes, identify patterns across interviews and construct a candidate theme.
 
-### Step 1 (Individual): Reflect on your initial assumptions and develop initial codes (10 minutes)
+#### Step 1 (Individual): Reflect on your initial assumptions and develop initial codes (10 mins)
 
 Before beginning your analysis, consider:
 
@@ -87,9 +88,9 @@ Write down a brief response. You will revisit it later in the tutorial. Next, re
 |---|---|---|
 |...|...|...|
 
-### Step 2 (Group): Compare interpretations across interviews (10 minutes)
+#### Step 2 (Group): Compare interpretations across interviews (8 mins)
 
-Form groups of 4-5 students. Your group members do not need to have watched the same video. Each member should briefly introduce the video that they watched and share two or three interesting observations and corresponding codes. As a group, discuss:
+Form groups of 4–5 students. Your group members do not need to have watched the same video. Each member should briefly introduce the video that they watched and share two or three interesting observations and corresponding codes. As a group, discuss:
 
 1. What similarities or differences can you identify across the participants' experiences?
 2. Are there underlying meanings or ideas that connect observations from different interviews?
@@ -102,7 +103,7 @@ Use the table below to organise your discussion. You do not need to reach agreem
 |---|---|---|
 |...|...|...|
 
-### Step 3 (Group): Construct a candidate theme (10 minutes)
+#### Step 3 (Group): Construct a candidate theme (7 mins)
 
 Using your group discussion, develop one candidate theme that addresses the research question. A theme captures a pattern of shared meaning organised around a central organising concept. It should go beyond describing a topic and offer an interpretation of the participants' experiences.
 
@@ -115,20 +116,13 @@ As a group, identify:
 
 _Tip: You do not need to include every observation or every interview in your theme. Consider whether the evidence supports the connections you are making._
 
-Finally, discuss:
+Keep your candidate theme available for the next two tasks.
 
-- How did your group's different perspectives influence the theme you developed?
-- What experiences or interpretations might your theme overlook?
-- What additional evidence would you need to strengthen your interpretation?
-
-Keep your candidate theme available for the next task.
-
-
-## Task 2: Critiquing and Refining Themes (40 minutes)
+### Task 2: Critiquing and Refining Themes (25 mins)
 
 Developing themes is an iterative process. In this task, you will evaluate two tutor-prepared candidate themes that address the same research question and draw on observations from the three interviews.
 
-### Step 1 (Group): Critique two candidate themes (10 minutes)
+#### Step 1 (Group): Critique two candidate themes (10 mins)
 
 Your tutor will provide two candidate themes, Theme A and Theme B, along with supporting observations from the interviews.
 
@@ -141,9 +135,9 @@ In your group, examine both themes and centre your discussions around the follow
 | Strengths | | |
 | Limitations or alternative interpretations | | |
 
-### Step 2 (Group): Refine the weaker theme (15 minutes)
+#### Step 2 (Group): Refine the weaker theme (10 mins)
 
-Using your evaluation, work together to improve the theme that you identified as weak. You may revise its name, central organising concept, clarify supporting evidence or analytical interpretation. Draw on the tutor-provided observations and your group's pre-class notes where relevant.
+Using your evaluation, work together to improve the theme that you identified as weaker. You may revise its name and central organising concept, or clarify its supporting evidence or analytical interpretation. Draw on the tutor-provided observations and your group's pre-class notes where relevant.
 
 Some prompts for you to consider:
 
@@ -153,46 +147,54 @@ Some prompts for you to consider:
 - Are there differences or contradictions that complicate your theme?
 - How might another researcher interpret the same observations differently?
 
-### Step 3 (Group): Present and compare interpretations (10 minutes)
+#### Step 3 (Group): Revisit your original theme (5 mins)
 
-Each group will briefly present its revised theme to the class. Explain what you changed about the theme and why, and how your supporting observations informed the revised interpretation.
+Return to the candidate theme you developed in Task 1. Based on what you have learnt from critiquing and refining the tutor-prepared themes, make one change that strengthens it, and note why you made that change. Has your understanding of the interviews, or of your own assumptions, changed?
 
-### Step 4 (Group): Revisit your original theme (5 minutes)
+### Task 3: Beyond the Theme: Implications (25 mins)
 
-Return to the candidate theme you developed in Task 1. Based on what you have learnt from critiquing and refining the tutor-prepared themes:
+A theme tells your reader *what is going on* in your data. A research project also has to answer *so what?* That answer is an **implication**: the interpreted insight you want readers to take away, and what it means for the people who design, study, or live with technology. Themes are the output of your analysis; implications are your contribution to HCI.
 
-1. Identify one change you would make to strengthen your original theme.
-2. Explain why you would make this change.
-3. Consider whether your understanding of the interviews or your own assumptions has changed.
+An implication goes beyond a theme by saying **who** should do or think something differently, and **what**. It might be for design, but it can also be for research or practice [@dourish-implications:2006]. For example, from the kind of data some of you collected in Assignment 2:
 
-## Task 3: Reflecting on Reflexive Thematic Analysis (20 minutes)
+- **Theme:** students happily accept AI explanations for low-stakes study, but become skeptical and seek a second source when marks are on the line.
+- **Weak implication:** designers should make AI study tools more trustworthy. (This could have been written without any data.)
+- **Stronger implication:** AI study tools could show sources and confidence when a student is preparing for an assessment, rather than in every interaction. (This follows from what the theme specifically says.)
 
-In this final task, you will reflect on how your analytical decisions and perspectives influenced the codes and themes you developed.
+#### Step 1 (Group): Write an implication (15 mins)
 
-### Individual reflection (10 minutes)
+Take your refined theme from Task 2 and write **one** implication in two or three sentences. Then check it:
+
+- Does it say something the theme doesn't, or just restate it?
+- Could you have written it without the data?
+
+#### Step 2 (Class): Share (10 mins)
+
+Each group shares its theme and implication. As a class, discuss which implications went furthest beyond their theme, and what they added.
+
+If you want to see how published papers make this move (usually in their *Discussion* sections), look at @deng-logic-bonbon:2022 (pp. 11–16), @karim-internet-shutdown:2025 (pp. 3–5), @choi-tonal-cognition:2024 (pp. 221–224) or @adiwangsa-exercising:2024 (pp. 5–8).
+
+### Task 4: Reflection (10 mins)
 
 Create a short Ed post (approximately 100–150 words) responding to the following questions:
 
-1. How did analysing different technologies help you identify broader patterns of meaning?
-2. Why is reflexivity important when interpreting people's experiences with technology?
-3. Why might researchers develop different themes from the same qualitative dataset?
+1. Why might researchers develop different themes from the same qualitative dataset, and why does reflexivity matter when they do?
+2. What did you have to add to get from your theme to your implication?
 
 Use examples from your analysis where possible.
 
-### Class discussion (10 minutes)
+Today's tutorial is a simplified exercise in RTA. Each student has closely examined one interview, and your group has explored connections across a small collection of observations. In a full RTA study, researchers engage with the entire dataset repeatedly, revisiting and refining codes and developing themes through continuous analysis. If your final project includes qualitative data, you will follow a similar process, and you should present implications arising from your themes, not just the themes themselves (see Phase 6 in the [Reflexive Thematic Analysis lecture](https://smcclab.au/thirty-nine-hundred-hci/lectures/06-reflexive-thematic-analysis.html#/phase-6-write-up-a-report)). The same applies to quantitative results: a significant difference is a finding; what it means for your design is the implication. As you work through your analysis, refer to the [Week 7 workshop](https://smcclab.au/thirty-nine-hundred-hci/workshops/06-thematic-analysis.html) and the Ed posts you and your peers contributed today, as these may help you reflect on different interpretations and analytical decisions.
 
-Your tutor will go around the class, getting some of you to answer one of the three questions from the above individual reflection task. 
+## After Class: Research Cluster Meeting
 
-Today's tutorial is a simplified exercise in RTA. Each student has closely examined one interview, and your group has explored connections across a small collection of observations. In a full RTA study, researchers engage with the entire dataset repeatedly, revisiting and refining codes and developing themes through continuous analysis. For Assignment 3, you will apply a similar process across multiple interviews. As you work through your analysis, refer to the [Reflexivity and TA lecture notes](https://smcclab.au/thirty-nine-hundred-hci/lectures/06-reflexive-thematic-analysis.html#/title-slide) and [Workshop Week 7](https://smcclab.au/thirty-nine-hundred-hci/workshops/06-thematic-analysis.html) materials, and consider how your assumptions and perspectives shape the themes you develop. Remember to revisit the Week 11 InClassTasks Ed posts that you and your peers contributed to, as these may help you reflect on different interpretations and analytical decisions.
-
-## After Class: Research cluster meeting 
-
-While we didn't have time to organise one during this lab, you should organise a time with your research cluster (or forming new ones - ask your peers during the tutorial! - if you want) and sharing some plans for your final projects. It’s ok if you haven’t completely decided on your final projects yet; this meeting is to understand and discuss ideas.
+Organise a time to meet with your research cluster (or form a new one; ask your peers during the tutorial!) and share plans for your final projects. It's ok if you haven't completely decided on your final project yet; this meeting is to understand and discuss ideas.
 
 As a group you should:
 
 - Discuss the final project specification and requirements. What parts of the project do you think will be interesting or fun?
 - Discuss your research questions, or which aspects of the theme jump out to you as particularly interesting.
 - Discuss your plans for prototyping. What prototyping methods will you choose? This is a good chance to ask your tutor about prototyping techniques or write a forum question if you are confused.
-- Discuss your evaluation plans. What kinds of data will you collect? Remember that you don’t have to do both quantitative and qualitative analysis but can choose the types or combinations that make most sense for this assessment.
+- Discuss your evaluation plans. What kinds of data will you collect? Remember that you don't have to do **both** quantitative **and** qualitative analysis but can choose the types or combinations that make most sense for this assessment.
 - Discuss the time and place that you might meet for further meetings or to complete evaluations.
+
+## References
