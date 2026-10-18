@@ -75,21 +75,28 @@ Upon successful completion, students will have the knowledge and skills to:
 
 ### Course Schedule
 
-|   Week  |   Topic Title                                            |   Schneiderman (6th ed)                              |   CHI Subcommittee                                                |   Tutorial  |   Assessment                                            |
-|---------|----------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------------------|-------------|---------------------------------------------------------|
-|   1     |   Introduction to HCI, Usability of Interactive Systems  |   1. Usability of Interactive Systems                |   User Experience and Usability                                   |             |                                                         |
-|   2     |   Design                                                 |   4. Design                                          |   Design                                                          |   1         |                                                         |
-|   3     |   Guidelines, Principles and Theories                    |   3. Guidelines, Principles and Theories             |   Computational Interaction                                       |   2         |                                                         |
-|   4     |   Universal Usability                                    |   2. Universal Usability                             |   Accessibility and Aging                                         |   3         |                                                         |
-|   5     |   Evaluation and the User Experience                     |   5. Evaluation and the User Experience              |   Understanding People                                            |   4         |   Assignment 1: Prototyping                             |
-|   6     |   Direct Manipulation and Immersive Environments         |   7. Direct Manipulation and Immersive Environments  |   Blending Interaction: Engineering Interactive Systems & Tools   |   5         |                                                         |
-|   7     |   Fluid Navigation                                       |   8. Fluid Navigation                                |   Games and Play                                                  |   6         |                                                         |
-|   8     |   Expressive Interfaces                                  |   9. Expressive Human and Design Languages           |   Developing Novel Devices: Hardware, Materials, and Fabrication  |   7         |                                                         |
-|   9     |   Devices                                                |   10. Devices                                        |   Interacting with Devices: Interaction Techniques & Modalities   |   8         |   Assignment 2: AI Needs Finding                           |
-|   10    |   Information Search                                     |   15. Information Search                             |   Interaction Beyond the Individual                               |   9         |                                                         |
-|   11    |   Data Visualisation                                     |   16. Data Visualisation                             |   Visualization                                                   |   10        |                                                         |
-|   12    |   Human-Centred AI                                       |   “Human-Centred AI”                                 |   Critical Computing, Sustainability, and Social Justice          |   11        |                                                         |
-|   13    |                                                          |                                                      |                                                                   |             |   Final Project: Prototype Design and Research Project  |
+Lectures and workshops as built from this repository. Workshop *N* runs in the
+tutorials of week *N+1* (there is no workshop in week 1), and the mid-semester
+teaching break falls between weeks 6 and 7.
+
+| Week | Week beginning | Lecture | Workshop | Assessment |
+|------|----------------|---------|----------|------------|
+| 1  | 2026-07-27 | 1. Intro to Human Computer Interaction        |                                   |                                                        |
+| 2  | 2026-08-03 | 2. Design                                      | 1. Making                         |                                                        |
+| 3  | 2026-08-10 | 3. Sketch and Prototype                        | 2. Personas and Scenarios         |                                                        |
+| 4  | 2026-08-17 | 4. Data Gathering                              | 3. Prototyping                    |                                                        |
+| 5  | 2026-08-24 | 5. Data Analysis                               | 4. Interviews                     | Assignment 1: Prototyping due Mon 2026-08-24           |
+| 6  | 2026-08-31 | 6. Reflexivity and Thematic Analysis           | 5. Surveys                        |                                                        |
+| 7  | 2026-09-21 | 7. Interfaces                                  | 6. Thematic Analysis              |                                                        |
+| 8  | 2026-09-28 | 8. Evaluation                                  | 7. Planning Evaluations           |                                                        |
+| 9  | 2026-10-05 | 9. Cognitive, Social, and Emotional Interaction | 8. Research Design               | Assignment 2: AI Needs Finding due Tue 2026-10-06      |
+| 10 | 2026-10-12 | 10. Statistical Analysis                       | 9. Prototyping for Evaluation     |                                                        |
+| 11 | 2026-10-19 | 11. Expressive Interfaces                      | 10. From Theme to Implication     |                                                        |
+| 12 | 2026-10-26 | 12. Human-Centred AI                           | 11. Positionality                 |                                                        |
+| 13 | 2026-11-02 |                                                |                                   | Final Project: Prototype Design and Research Project due Thu 2026-11-05 |
+
+Pre- and in-class tasks are due at the start of each tutorial from week 2 onwards.
+
 ### Assessments
 
 1. Pre-class and in-class tasks (10%, 1% per class, best 10 of 11) LO: 1,2

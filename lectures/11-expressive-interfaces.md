@@ -98,14 +98,12 @@ The sample is narrow on purpose. The claim is about what the **interface** can s
 
 ## Research Questions for Expressive Interfaces
 
-Week 8's rules still apply. Here is how an expressive-interface RQ meets them:
-
-- **Which gap?** Usually a **capability gap** ("what are we not able to *do* yet?") rather than a knowledge gap [@hornbaek-intro-hci:2025, section 45.2]. Capability findings transfer as design principles, not as statistics about a population.
-- **Level of abstraction.** Ask about the *interaction*, not the artist. "What gesture-to-sound mappings let a performer control timbre in improvisation?" affects everyone who builds a mapping. "Why doesn't Atau Tanaka like my patch?" affects one person.
+- **Which gap?** Usually a **capability gap** ("what are we not able to *do* yet?") rather than a knowledge gap [@hornbaek-intro-hci:2025, section 45.2].
+- **Level of abstraction.** Ask about the *interaction*, not the artist. "What gesture-to-sound mappings let a performer control timbre in improvisation?" affects everyone who builds a mapping.
 - **Refutable.** The performer can find the mapping unplayable, or prefer the "worse" model [@fiebrink-human-model-eval:2011], or abandon the instrument entirely [@morreale-design-for-longevity:2017]. If your question can't come out that way, it isn't a question.
-- **Scope.** On week 8's pros and cons this is the uncontrolled side. You trade generalised results for insight at the boundary. Say so in your discussion rather than hoping nobody asks.
+- **Scope.** On week 8's pros and cons this is the uncontrolled side. You trade generalised results for insight at the boundary. Say so in your discussion.
 
-Why this work matters: the boundary is where the next everyday interface comes from. Lanier was improvising on virtual instruments with a glove in 1992 (opening slide); consumer VR took another twenty-five years to catch up.
+Why this work matters: the boundary is where the next everyday interface comes from. Lanier was improvising on virtual instruments with a glove in 1992; consumer VR took another 25 years.
 
 ## What is an expressive interaction?
 
@@ -224,15 +222,16 @@ The [New Interface for Musical Expression (NIME)](https://nime.org) research com
 ::: {.column width="55%"}
 Jordà's group at Pompeu Fabra made a synthesiser into a tangible tabletop: pucks, a camera underneath, projected lines showing what feeds what [@jorda2010reactable].
 
-- **Built on prior work:** tangible tabletops already existed [@ishii1997tangible], and Jordà had spent a decade on collaborative visual instruments. FMOL (1997) already made the *visualisation the instrument* [@jorda2003sonigraphical].
-- **Had a theory:** a performable instrument should be learnable by novices, deep for experts, and shared between players. The Reactable was that theory made physical.
-- **Kept going:** one instrument iterated for years and toured, with the tracking software released as open source.
-- **Then got lucky:** demos "watched millions of times on YouTube" as YouTube took off, then Björk's 2007 world tour.
+- **Prior work:** tangible tabletops [@ishii1997tangible] and a decade on collaborative visual instruments [@jorda2003sonigraphical].
+- **Had a theory:** learnable by novices, deep for experts, and shared between players
+- **Kept going:** iterated for years and toured, with the tracking software released as open source.
+- **Then got lucky:** demos "watched millions of times" as YouTube took off, Björk's 2007 world tour.
 
-The visualisation working wasn't luck; it was the design goal. The scale of the hit was. (Jordà's retrospective, with an expert commentary by your lecturer: [@jorda2017sonigraphical].)
 :::
 ::: {.column width="45%"}
 ![The Reactable [@jorda2010reactable]. [Source: YCAM.](https://www.ycam.jp/en/archive/works/reactable/)](img/reactable.jpg){width="90%"}
+
+Jordà's retrospective, with an expert commentary by your lecturer: [@jorda2017sonigraphical].
 :::
 ::::::::::::::
 
@@ -329,10 +328,11 @@ Autobiographical design [@desjardins-first-person-methods:2021] to compare three
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- The Wekinator [@fiebrink-wekinator-nime:2009] turns mapping design around: instead of _writing_ the function from gesture to sound, you **demonstrate** it. Show the system an input and the output you want, train, play, and retrain when it feels wrong.
-- Evaluation happens by playing, not by held-out accuracy. Fiebrink's CHI paper [@fiebrink-human-model-eval:2011] found practitioners judged models by how they felt under the hands, and often preferred a "worse" model. Week 8's usability numbers meet week 11's expression here.
-- The demo everyone remembers: a webcam, a coloured object or a face, a synth. That form settled in Fiebrink's teaching rather than in the early papers [@fiebrink-ml-education:2019].
-- A regression from two camera coordinates to a handful of synth parameters is the simplest expressive interface you can build this week, and the one we return to.
+
+- The Wekinator [@fiebrink-wekinator-nime:2009] turns mapping to demonstration. Show the system an input and the output you want, train, play, and retrain when it feels wrong.
+- Evaluation by playing. Fiebrink's CHI paper [@fiebrink-human-model-eval:2011] found practitioners judged models by how they felt under the hands, and often preferred a "worse" model. 
+- The demo: a webcam, a coloured object or a face, a synth. From Fiebrink's teaching rather than in the early papers [@fiebrink-ml-education:2019].
+- A regression from two camera coordinates to some synth params is simple to implement in 2026.
 :::
 ::: {.column width="40%"}
 ::: {.info-box}
@@ -558,7 +558,7 @@ Cobbie system [@lin2020cocreativerobots]
 
 - **Mapping is the interaction.** Gesture, sensor, model, output: every step is designable [@baalman2022composing].
 - **Artist spec is the hardest spec.** Experts show us the boundary, and boundary findings transfer [@buxton-artists-luthier:1997].
-- **Effort can be the point.** Ocarina's breath and the Broncomatic's bucking would be defects in week 8.
+- **Effort can be the point.** Ocarina's breath and the Broncomatic's bucking could be defects but actually make the design work.
 - **Evaluate by playing.** People judge mappings by feel, and may prefer the "worse" model [@fiebrink-human-model-eval:2011].
 - **The real test is longevity.** Nearly half of new instruments are unplayable a few years on [@morreale-design-for-longevity:2017].
 - **AI partners ask:** who has the initiative? That's next week.
@@ -573,8 +573,9 @@ Cobbie system [@lin2020cocreativerobots]
 ::: {.column width="50%"}
 For the final project you need to record and upload a presentation video. The specification is:
 
-- must be no longer than 5.5 minutes (330 seconds)
-- must be no larger than 1920 x 1080 pixels.
+- must be no longer than 5 minutes + 10% (300 + 30 seconds)
+- must be no larger than 1920 x 1080 pixels
+- must be no larger than 100MB
 - must be narrated with your voice
 - must show video of you speaking
 
