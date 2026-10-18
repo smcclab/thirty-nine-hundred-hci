@@ -9,13 +9,15 @@ title-slide-attributes:
 
 ## Announcements
 
-- User Research marks and feedback out later this week (goal is Wednesday)
-- [Gitlab Template now available for final project](https://gitlab.comp.anu.edu.au/comp3900/2026/comp3900-2026-A3-final-project)
+- User Research marks and feedback out later this week
+- [Gitlab Template available for final project](https://gitlab.comp.anu.edu.au/comp3900/2026/comp3900-2026-A3-final-project)
 - Final project due: **2026-11-05 23:59 AEDT**
 - Remember: main deliverable in the assignment is your presentation video `project-presentation.mp4`
 - Demo at end of lecture on [recording a video in Powerpoint](https://support.microsoft.com/en-au/office/record-a-slide-show-with-narration-and-slide-timings-0b9502c6-5f6c-40ae-b1e7-e47d8741161c#OfficeVersion=2013%2C_2016&officeversion=newer_versions).
 
-<!-- TODO: add a section on first-person methods in HCI (autoethnography, autobiographical design, soma design) using @desjardins-first-person-methods:2021 and @hook-first-person-soma:2018 (both now in references.bib). Fits naturally here as the researcher-as-practitioner angle on expressive interfaces, and the week 12 positionality workshop points students at these readings as an extension. -->
+<!-- TODO: add a section on first-person methods in HCI (autoethnography, autobiographical design, soma design) using @desjardins-first-person-methods:2021 and @hook-first-person-soma:2018 (both now in references.bib). Fits naturally here as the researcher-as-practitioner angle on expressive interfaces, and the week 12 positionality workshop (workshop 11) points students at these readings as an extension. -->
+
+<!-- TODO: make a new powerpoint deck in the style of the assignment based on the EMPI musical predictions evaluation paper -->
 
 ## Plan for the class
 
@@ -26,6 +28,8 @@ title-slide-attributes:
 - installed interactions
 - playful interactions
 - human-AI creative interactions
+- takeaways
+- recording your project video in PowerPoint
 
 # Conceptualising Expressive Interactions
 
@@ -112,7 +116,7 @@ Mapping sensed **gestures** to an expressive output that is fed back to the user
 
 - **gestures:** the use of motions by the limbs or body as a means of expression
 - can be unintentional, control, or ancillary gestures
-- from non-human actors (e.g.,the movement of a leaves on a branch of a tree)
+- from non-human actors (e.g., the movement of leaves on a branch of a tree)
 - *"any sort of motion, that may be understood as an expression of something"*
 
 The interaction itself is expressive, and the output is an expression as well. We consult Composing Interactions [@baalman2022composing] as a resource.
@@ -155,12 +159,6 @@ how is output from one connected to input? what happens in each step?
 :::
 ::::::::::::::
 
-<!-- ## Why are we talking about this?
-
-- expression is a complex HCI design and research problem
-- not _just_ for creative applications, expressive interaction is applicable in other devices
-- expressive interactions -->
-
 # Drawing Interaction {background-image="img/2018-microjam.jpg" background-size="cover" background-opacity="0.4"}
 
 ## Surface Drawing System
@@ -183,7 +181,7 @@ Drawing with hands, moving, scaling, erasing (a pair of kitchen tongs) [@schkoln
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-- [AirPens: Musical Doodling](https://nime2025.org/proceedings/166.html) 
+- AirPens: Musical Doodling [@frame-airpens-doodling:2025], an installation at NIME 2025.
 - Make music with mark-making.
 - Use IMU sensors to convert movement into sound; explore different mappings between movement and sound.
 
@@ -216,7 +214,7 @@ App for making short (5s) musical performances with a sketch ([video](https://yo
 The [New Interface for Musical Expression (NIME)](https://nime.org) research community.
 
 - Research into musical instrument design that explores how technological innovation can enable new musical expression, enhance performer control and intimacy, and shape the musician-instrument relationship.
-- Digital Musical Instruments(DMIs): digital piano, drum pad.
+- Digital Musical Instruments (DMIs): digital piano, drum pad.
 - Augmented instruments: magnetic resonator piano (grand piano -> string instruments), pictured.
 - Novel instrument: [lady's glove](https://sonami.net/portfolio/items/ladys-glove/), magnetic AI instrument *thales* [@privato2023thales], percussive instrument [PhaseRings](https://charlesmartin.au/projects/phaserings/) [@martin2018phaserings], AR instrument *cube* [@wang-cubing-sound:2022].
 
@@ -231,7 +229,7 @@ Jordà's group at Pompeu Fabra made a synthesiser into a tangible tabletop: puck
 - **Kept going:** one instrument iterated for years and toured, with the tracking software released as open source.
 - **Then got lucky:** demos "watched millions of times on YouTube" as YouTube took off, then Björk's 2007 world tour.
 
-The visualisation working wasn't luck; it was the design goal. The scale of the hit was. (Your lecturer's retrospective: [@jorda2017sonigraphical].)
+The visualisation working wasn't luck; it was the design goal. The scale of the hit was. (Jordà's retrospective, with an expert commentary by your lecturer: [@jorda2017sonigraphical].)
 :::
 ::: {.column width="45%"}
 ![The Reactable [@jorda2010reactable]. [Source: YCAM.](https://www.ycam.jp/en/archive/works/reactable/)](img/reactable.jpg){width="90%"}
@@ -264,7 +262,7 @@ How can we perform music on big touchscreens?
 
 - Rather than re-implement music production apps, looked at natural gestures in long-term artistic practice.
 - Lots of apps from 2011--2014 and lots of performances e.g., @martin-phaserings:2016
-- Initially, sought to understand how percussionists would touchscreens [@martin-exploring-percussive-gesture:2014]
+- Initially, sought to understand how percussionists would play touchscreens [@martin-exploring-percussive-gesture:2014]
 - Then explored networked connections in ensemble performance [@martin-tracking-ensemble-performance:2015]
 - Then compared how networked ensembles supported by the interface [@martin-intelligent-agents:2016]
 :::
@@ -280,7 +278,7 @@ How can we perform music on big touchscreens?
 
 - When is a Guitar not a Guitar? [@harrison2018guitar]: novel instruments and controllers resemble traditional instruments.
 - Four designs examining variation in form (held vs tabletop) and interaction (strings vs touch sensor)
-- **Guitarists** prefer technical familiarity of stringed instrument (guitarists)
+- **Guitarists** prefer the technical familiarity of a stringed instrument
 - **Non-musicians** prefer touch-interface: ease of use, cultural load of the guitar form
 
 :::
@@ -296,16 +294,16 @@ How can we perform music on big touchscreens?
 ::: {.column width="60%"}
 _cube_ system: authentic design for a head-mounted AR musical instrument [@wang-cubing-sound:2022]
 
-Autobiographical design [@desjardins2021firstpersontochi] to compare three interfaces candidates
+Autobiographical design [@desjardins-first-person-methods:2021] to compare three interface candidates
 
 1. **Physical interface:** slow accurate manipulation due to hand tracking.
 2. **Spatial interaction:** emerged from bodily movement allowing ease of use.
 3. **Flexible freehand interaction:** allow multiple notes to be played simultaneously, taking advantage of the full-hand tracking affordance in the AR headset.
 :::
 ::: {.column width="40%"}
-![](img/p1-label.jpg){width="80%"}
-![](img/p2-label.jpg){width="80%"}
-![](img/p3.jpg){width="80%"}
+![](img/p1-label.jpg){width="80%" alt="Physical interface: a translucent cube in AR holding synthesiser sliders for two oscillators, a VCA, an ADSR envelope and a filter, operated by a tracked hand."}
+![](img/p2-label.jpg){width="80%" alt="Spatial interaction: two oscillator cubes; moving one vertically changes pitch, horizontally changes LFO pulse width, and resizing changes volume."}
+![](img/p3.jpg){width="80%" alt="Flexible freehand interaction: a ring of coloured note cubes played with the fingertips of both hands at once."}
 :::
 ::::::::::::::
 
@@ -316,14 +314,13 @@ Autobiographical design [@desjardins2021firstpersontochi] to compare three inter
 
 - **Traditional approach:** decompose input actions, sound production and feedback [@wessel2002problems;@mirandawanderley2006dmi].
 - **New sounds, music, and experiences:** expanded control over timbre and texture, richer and more diverse musical experience [@wessel2002problems;@magnusson2010designconstrain].
-- **Control intimacy:** mediated gesture and sound relation [@wessel2002problems], a limit on machine-centre approach[@pigrem2018we].
+- **Control intimacy:** mediated gesture and sound relation [@wessel2002problems], a limit of the machine-centred approach [@pigrem2018we].
 - **Current research:** finding better frameworks. Performer and instrument engage in a mutually influential relationship during the design process [@mcpherson2024mappingnew].
 
 :::
 ::: {.column width="40%"}
 
-![The traditional DMI model separates a musician's input action captured by the controller, the mapping engine bridg-
-ing the input interface and sound engine [@magnusson2010designconstrain].](img/mapping-model.jpg){width="80%"}
+![The traditional DMI model separates a musician's input action captured by the controller, the mapping engine bridging the input interface and sound engine [@magnusson2010designconstrain].](img/mapping-model.jpg){width="80%"}
 
 :::
 ::::::::::::::
@@ -413,7 +410,7 @@ Putting expressive interactions into public places. Pictured: [Bellyhorn](https:
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-[Dinosaur Choir: Adult Corythosaurus](https://nime2025.org/assets/preprints/nime2025_music_preprint_270.pdf)
+Dinosaur Choir: Adult Corythosaurus [@brown-dinosaur-choir:2025]
 
 - Singing dinosaur skull musical instruments.
 - Experience dinosaur vocalisation: imagine dinosaur vocal anatomy from a bird syrinx, (vocal structure open question in paleontology)
@@ -495,7 +492,7 @@ It's fun to make the world more fun.
 
 # Human-AI Creative Interaction {background-image="img/2023-autolume-performances.png" background-size="cover" background-opacity="0.4"}
 
-Interest incorporating AI into creative interaction since computing began.
+There has been interest in incorporating AI into creative interaction since computing began.
 
 Recent work often focuses on current genAI breakthroughs, e.g. [Autolume visual generator system](https://www.metacreation.net/projects/autolume-automating-live-music-visualisation-technical-report?rq=autolume) and [Reprising Elements performance (2023)](https://arshiasobhan.com/works/reprising-elements) --- pictured.
 
@@ -532,7 +529,7 @@ Cobbie system [@lin2020cocreativerobots]
 
 :::
 ::: {.column width="50%"}
-![](img/cobbie-system.png){width="100%"}
+![](img/cobbie-system.png){width="100%" alt="Co-creating with Cobbie: a user sketches on paper, the robot generates an idea from the sketch, draws it on the paper, and the user continues from the robot's lines."}
 :::
 ::::::::::::::
 
@@ -550,18 +547,31 @@ Cobbie system [@lin2020cocreativerobots]
 :::
 ::: {.column width="40%"}
 
-![](img/ai-holographic-dancer.jpg){width="90%"}
+![](img/ai-holographic-dancer.jpg){width="90%" alt="A dancer on a dark stage improvising beside a large projected mannequin-like AI dance partner."}
 
-![](img/ai-holographic-dancer-2.jpg){width="90%"}
+![](img/ai-holographic-dancer-2.jpg){width="90%" alt="Three renderings of the AI dance partner: a green mannequin dancing with two people, a sparkling purple figure, and a glowing gradient figure."}
 
 :::
 ::::::::::::::
+
+# Takeaways
+
+- **Mapping is the interaction.** Gesture, sensor, model, output: every step is designable [@baalman2022composing].
+- **Artist spec is the hardest spec.** Experts show us the boundary, and boundary findings transfer [@buxton-artists-luthier:1997].
+- **Effort can be the point.** Ocarina's breath and the Broncomatic's bucking would be defects in week 8.
+- **Evaluate by playing.** People judge mappings by feel, and may prefer the "worse" model [@fiebrink-human-model-eval:2011].
+- **The real test is longevity.** Nearly half of new instruments are unplayable a few years on [@morreale-design-for-longevity:2017].
+- **AI partners ask:** who has the initiative? That's next week.
+
+::: {.think-box}
+**Think:** which of these would your final project's evaluation let you claim?
+:::
 
 # Recording a video in Powerpoint
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-For the final project you need to record an upload a presentation video. The specification is:
+For the final project you need to record and upload a presentation video. The specification is:
 
 - must be no longer than 5.5 minutes (330 seconds)
 - must be no larger than 1920 x 1080 pixels.
@@ -584,7 +594,7 @@ For the final project you need to record an upload a presentation video. The spe
 ::: {.column width="60%"}
 **Who has a question?**
 
-- I can take _cathchbox_ question up until 2:55
+- I can take _catchbox_ question up until 2:55
 - For after class questions: meet me outside the classroom at the bar (for 30 minutes)
 - Feel free to ask about **any aspect of the course**
 - Also feel free to ask about **any aspect of computing at ANU**! I may not be able to help, but I can listen.
