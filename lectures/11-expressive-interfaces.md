@@ -146,21 +146,21 @@ The interaction itself is expressive, and the output is an expression as well. W
 ## Mapping from Gesture to Output
 
 :::::::::::::: {.columns}
-::: {.column width="60%"}
+::: {.column width="50%"}
 Why is mapping an important consideration?
 
 > Considering a performer performing making gestures on a stage, which gestures effect changes in the output medium of sound, which can be heard by the performer and audience in the real, physical environment.
 
 :::
-::: {.column width="40%"}
-![The connection between a gesture in the environment to output media [@baalman2022composing].](img/mapping.jpg){width="80%"}
+::: {.column width="50%"}
+![The question of mapping: the connection between a gesture in the environment and the output media, redrawn after @baalman2022composing.](img/mapping-question.svg){alt="Two tinted circles joined by a loop. Environment on the left holds performer, audience and other factors; media on the right holds video, audio, light, mechatronics and other media. Mapping sits between them." width="100%"}
 :::
 ::::::::::::::
 
 ## Steps in Mappings
 
 :::::::::::::: {.columns}
-::: {.column width="60%"}
+::: {.column width="50%"}
 
 @baalman2022composing expands the mapping process into a cycle.
 
@@ -171,8 +171,8 @@ Why is mapping an important consideration?
 
 how is output from one connected to input? what happens in each step?
 :::
-::: {.column width="40%"}
-![Steps in the mapping process [@baalman2022composing]](img/step-in-mapping.jpg){width="90%"}
+::: {.column width="50%"}
+![Steps in the mapping process, redrawn after @baalman2022composing.](img/mapping-steps.svg){alt="Seven stages around a loop: gesture, sensor, electronic circuits, computational model, output model, output media, and the performer's perception, which leads back to the next gesture." width="100%"}
 :::
 ::::::::::::::
 

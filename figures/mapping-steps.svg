@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1040" width="1400" height="1040" font-family="Noto Sans">
+  <title>Steps in the mapping process: gesture, sensor, electronic circuits, computational model, output model, output media, perception</title>
+  <defs><marker id="head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#b8c4c8"/></marker></defs>
+  <path d="M344.4 396.1 A380 380 0 0 1 373.6 335.4" fill="none" stroke="#b8c4c8" stroke-width="5" marker-end="url(#head)"/>
+  <path d="M582.9 168.5 A380 380 0 0 1 648.6 153.5" fill="none" stroke="#b8c4c8" stroke-width="5" marker-end="url(#head)"/>
+  <path d="M909.6 213.1 A380 380 0 0 1 962.3 255.1" fill="none" stroke="#b8c4c8" stroke-width="5" marker-end="url(#head)"/>
+  <path d="M1078.5 496.3 A380 380 0 0 1 1078.5 563.7" fill="none" stroke="#b8c4c8" stroke-width="5" marker-end="url(#head)"/>
+  <path d="M962.3 804.9 A380 380 0 0 1 909.6 846.9" fill="none" stroke="#b8c4c8" stroke-width="5" marker-end="url(#head)"/>
+  <path d="M648.6 906.5 A380 380 0 0 1 582.9 891.5" fill="none" stroke="#b8c4c8" stroke-width="5" marker-end="url(#head)"/>
+  <path d="M373.6 724.6 A380 380 0 0 1 344.4 663.9" fill="none" stroke="#b8c4c8" stroke-width="5" stroke-dasharray="4 10" marker-end="url(#head)"/>
+  <polygon points="320.0,389.6 453.38,614.24 186.62,614.24" fill="#2a9d8f" fill-opacity="0.18" stroke="#2a9d8f" stroke-width="4"/>
+  <text font-size="36" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="320.0" y="557.0">Gesture</tspan></text>
+  <circle cx="463.0738752936812" cy="232.9040366621487" r="108" fill="#2a9d8f" fill-opacity="0.18" stroke="#2a9d8f" stroke-width="4"/>
+  <text font-size="36" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="463.1" y="245.9">Sensor</tspan></text>
+  <rect x="676.5579549033994" y="51.52739337090702" width="216" height="216" rx="8" fill="#e9c46a" fill-opacity="0.18" stroke="#e9c46a" stroke-width="4"/>
+  <text font-size="33" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="784.6" y="150.8">Electronic</tspan><tspan x="784.6" y="192.0">circuits</tspan></text>
+  <rect x="934.3681698029193" y="257.12417913532784" width="216" height="216" rx="8" fill="#e9c46a" fill-opacity="0.18" stroke="#e9c46a" stroke-width="4" stroke-dasharray="14 10"/>
+  <text font-size="30" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="1042.4" y="357.2">Computational</tspan><tspan x="1042.4" y="394.7">model</tspan></text>
+  <rect x="934.3681698029193" y="586.875820864672" width="216" height="216" rx="8" fill="#e76f51" fill-opacity="0.18" stroke="#e76f51" stroke-width="4" stroke-dasharray="14 10"/>
+  <text font-size="33" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="1042.4" y="686.1">Output</tspan><tspan x="1042.4" y="727.4">model</tspan></text>
+  <polygon points="784.5579549033996,760.072606629093 917.9379549033996,984.712606629093 651.1779549033996,984.712606629093" fill="#e76f51" fill-opacity="0.18" stroke="#e76f51" stroke-width="4" stroke-dasharray="4 8"/>
+  <text font-size="33" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="784.6" y="905.7">Output</tspan><tspan x="784.6" y="947.0">media</tspan></text>
+  <circle cx="463.07387529368134" cy="827.0959633378513" r="108" fill="#2a9d8f" fill-opacity="0.18" stroke="#2a9d8f" stroke-width="4" stroke-dasharray="4 8"/>
+  <text font-size="30" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="463.1" y="819.1">Performer</tspan><tspan x="463.1" y="856.6">(perception)</tspan></text>
+  <text font-size="44" font-weight="700" fill="#b8c4c8" text-anchor="middle"><tspan x="700.0" y="518.3">the mapping</tspan><tspan x="700.0" y="573.3">loop</tspan></text>
+</svg>

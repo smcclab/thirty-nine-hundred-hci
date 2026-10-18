@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 960" width="1600" height="960" font-family="Noto Sans">
+  <title>The question of mapping: the environment, the output media, and the loop between them</title>
+  <defs><marker id="head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#b8c4c8"/></marker></defs>
+  <circle cx="360" cy="500" r="320" fill="#2a9d8f" fill-opacity="0.18" stroke="#2a9d8f" stroke-width="4"/>
+  <text font-size="48" font-weight="700" fill="#2a9d8f" text-anchor="middle"><tspan x="360.0" y="163.3">Environment</tspan></text>
+  <circle cx="260" cy="370" r="120" fill="#15272e" fill-opacity="0.85" stroke="#2a9d8f" stroke-width="3"/>
+  <text font-size="34" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="260.0" y="382.2">Performer</tspan></text>
+  <circle cx="250" cy="625" r="120" fill="#15272e" fill-opacity="0.85" stroke="#2a9d8f" stroke-width="3"/>
+  <text font-size="34" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="250.0" y="637.2">Audience</tspan></text>
+  <circle cx="500" cy="510" r="115" fill="#15272e" fill-opacity="0.85" stroke="#2a9d8f" stroke-width="3"/>
+  <text font-size="34" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="500.0" y="501.0">Other</tspan><tspan x="500.0" y="543.5">factors</tspan></text>
+  <circle cx="1240" cy="500" r="320" fill="#e9c46a" fill-opacity="0.18" stroke="#e9c46a" stroke-width="4"/>
+  <text font-size="48" font-weight="700" fill="#e9c46a" text-anchor="middle"><tspan x="1240.0" y="163.3">Media</tspan></text>
+  <circle cx="1120" cy="340" r="95" fill="#15272e" fill-opacity="0.85" stroke="#e9c46a" stroke-width="3"/>
+  <text font-size="34" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="1120.0" y="352.2">Video</tspan></text>
+  <circle cx="1340" cy="340" r="95" fill="#15272e" fill-opacity="0.85" stroke="#e9c46a" stroke-width="3"/>
+  <text font-size="34" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="1340.0" y="352.2">Audio</tspan></text>
+  <circle cx="1430" cy="550" r="85" fill="#15272e" fill-opacity="0.85" stroke="#e9c46a" stroke-width="3"/>
+  <text font-size="34" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="1430.0" y="562.2">Light</tspan></text>
+  <circle cx="1120" cy="540" r="130" fill="#15272e" fill-opacity="0.85" stroke="#e9c46a" stroke-width="3"/>
+  <text font-size="34" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="1120.0" y="552.2">Mechatronics</tspan></text>
+  <circle cx="1310" cy="690" r="95" fill="#15272e" fill-opacity="0.85" stroke="#e9c46a" stroke-width="3"/>
+  <text font-size="34" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="1310.0" y="681.0">Other</tspan><tspan x="1310.0" y="723.5">media</tspan></text>
+  <path d="M585 265 Q 800 20 1015 265" fill="none" stroke="#b8c4c8" stroke-width="5" marker-end="url(#head)"/>
+  <path d="M1015 735 Q 800 980 585 735" fill="none" stroke="#b8c4c8" stroke-width="5" marker-end="url(#head)"/>
+  <text font-size="60" font-weight="700" fill="#e76f51" text-anchor="middle"><tspan x="800.0" y="491.6">Mapping</tspan></text>
+  <text font-size="34" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="800.0" y="561.0">gesture</tspan><tspan x="800.0" y="603.5">→ output</tspan></text>
+</svg>
