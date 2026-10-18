@@ -15,8 +15,6 @@ title-slide-attributes:
 - Remember: main deliverable in the assignment is your presentation video `project-presentation.mp4`
 - Demo at end of lecture on [recording a video in Powerpoint](https://support.microsoft.com/en-au/office/record-a-slide-show-with-narration-and-slide-timings-0b9502c6-5f6c-40ae-b1e7-e47d8741161c#OfficeVersion=2013%2C_2016&officeversion=newer_versions).
 
-<!-- TODO: add a section on first-person methods in HCI (autoethnography, autobiographical design, soma design) using @desjardins-first-person-methods:2021 and @hook-first-person-soma:2018 (both now in references.bib). Fits naturally here as the researcher-as-practitioner angle on expressive interfaces, and the week 12 positionality workshop (workshop 11) points students at these readings as an extension. -->
-
 <!-- TODO: make a new powerpoint deck in the style of the assignment based on the EMPI musical predictions evaluation paper -->
 
 ## Plan for the class
@@ -104,6 +102,27 @@ The sample is narrow on purpose. The claim is about what the **interface** can s
 - **Scope.** On week 8's pros and cons this is the uncontrolled side. You trade generalised results for insight at the boundary. Say so in your discussion.
 
 Why this work matters: the boundary is where the next everyday interface comes from. Lanier was improvising on virtual instruments with a glove in 1992; consumer VR took another 25 years.
+
+## When the Artist is You: First-Person Methods
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+Much expressive-interface research is people studying their own practice. HCI calls these **first-person methods**: "qualitative research approaches that turn to the researcher as the subject of inquiry" [@desjardins-first-person-methods:2021].
+
+- **Autoethnography:** your own experience of a phenomenon is the data, written with reflexivity and a personal voice.
+- **Autobiographical design:** build a system for yourself as a user with a genuine need, then refine it through your own use over time.
+- **Soma design:** the designer's lived, moving body is the design material. "There is no short-cut, no simplified wireframes" [@hook-first-person-soma:2018].
+:::
+::: {.column width="40%"}
+::: {.info-box}
+PhaseRings came from your lecturer's own practice; the *cube* AR instrument (coming up) used autobiographical design.
+:::
+
+::: {.warn-box}
+**Careful:** first-person is not "I liked it". The editors ask for authenticity, ethics and rigour: documentation, sustained use, and saying plainly what a sample of one can claim. It shows what is *possible*, not what is *typical*.
+:::
+:::
+::::::::::::::
 
 ## What is an expressive interaction?
 
