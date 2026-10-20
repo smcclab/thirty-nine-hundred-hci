@@ -49,3 +49,23 @@ Alternatives to consider for 2027:
   between students actually show.
 - Keep the 2026 data-integrity additions (Participants section, raw data in
   `materials/`, spot-check contacts) whatever form the task takes.
+
+### In-class tasks (10%, 2026) — evidence from Canvas, 20 Oct 2026
+
+Marks for weeks 2–9 (eight 1-point tasks, 184 active students, week 9 final
+with missing grades zeroed):
+
+- Weekly means 0.66–0.89; full marks 64–86% of the class each week; partial
+  credit under 10% in every week — the marks are effectively **binary**
+  (did it / didn't), so the component measures participation, not quality.
+- Per-student totals (max 8): mean 6.31, median 7, SD 1.99, quartiles
+  5.75 / 7 / 8. Sixty students on 8, fifty on 7 (60% of class in top two
+  bins); long thin tail with 22 students at 3 or below.
+- Week 9 (due 9 Oct, in the A2 crunch) dropped to 64% full / 33% zero — the
+  1-point task loses whenever it collides with a major deadline.
+
+Implications for a 20% in-class component: the current scheme would only
+spread the disengaged tail further; to discriminate among the top 60% the
+weekly research tasks need graded criteria (which is where the "better
+support" and tutor marking load must be designed together). Higher stakes
+should also reduce the deadline-collision triage seen in week 9.
