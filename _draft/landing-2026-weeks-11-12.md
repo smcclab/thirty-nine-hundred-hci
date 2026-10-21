@@ -119,8 +119,9 @@ needs to be finished by the end of week 11.
 - [ ] A3 marking setup in lucy: `marking.yml` for `final`, MOSS base
       `cd8343a` (already set), marker fork sharing after 5 Nov, A3 participant
       spot-check after 5 Nov.
-- [ ] Ed: pin a "final project FAQ" thread (video size, participants format,
-      CI failures) before week 12 since there will be no tutorials after it.
+- [x] Ed: pinned "final project FAQ" thread #1639 (13 Oct); submission
+      logistics block drafted 21 Oct from the 2025 forum, mirrored in
+      `resources/07-assessment-faqs.md`.
 
 ## 5. After semester (note for 2027, don't do now)
 
