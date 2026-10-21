@@ -50,6 +50,20 @@ Alternatives to consider for 2027:
 - Keep the 2026 data-integrity additions (Participants section, raw data in
   `materials/`, spot-check contacts) whatever form the task takes.
 
+### A3 final project: say "in person, participant operates the prototype" outright
+
+*Added 21 Oct 2026, from Ed #1874.*
+
+A student asked whether a remote "evaluation" via an online form showing the
+prototype would do, and whether participants could compare initial concepts
+instead of testing a built prototype. Both route around the point of the
+task. The 2026 spec only implies the answer (testable-prototype footnote,
+photo/video of the prototype in use). For 2027, state in the spec that the
+evaluation is expected to be in person with each participant actually
+operating the prototype, that a survey about a design is not an evaluation of
+an interaction, and that concept-comparison is A1-style ideation, not the A3
+evaluation.
+
 ### In-class tasks (10%, 2026) — evidence from Canvas, 20 Oct 2026
 
 Marks for weeks 2–9 (eight 1-point tasks, 184 active students, week 9 final
