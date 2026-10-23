@@ -109,7 +109,7 @@ needs to be finished by the end of week 11.
 - [ ] Tutorial marks entered for all 11 workshops (lecture 12's first slide
       claims they are; make it true before saying it).
 - [ ] SELT: confirm the 2026 open dates (the slide has "(??)").
-- [ ] **Course stats slide in lecture 12 is 2025's** (330 → ~295 students,
+- [x] (23 Oct) **Course stats slide in lecture 12 is 2025's** (330 → ~295 students,
       565 slides, >370 commits, 3K Ed threads). Regenerate for 2026: student
       count from lucy `data/students.csv`, commit count
       (`git log --since=2026-06-01 | grep -c ^commit`), slide/word/image

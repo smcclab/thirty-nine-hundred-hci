@@ -9,9 +9,10 @@ title-slide-attributes:
 
 ## Announcements
 
-- all tutorial marks have been entered.
-- congrats to those (107) legends who **maxed** out 100% on tutorials!
-- [SELT](https://services.anu.edu.au/learning-teaching/education-data/student-experience-of-learning-teaching-selt/information-for-students) should be open this Week (??) --- fill in your SELT!
+- tutorial marks: best 10 of 11 workshops count; all marks entered.
+- congrats to the legends who **maxed** out 100% on tutorials!
+- [SELT](https://services.anu.edu.au/learning-teaching/education-data/student-experience-of-learning-teaching-selt/information-for-students) is open --- fill in your SELT!
+<!-- TODO before delivery: confirm all 11 tutorial marks are entered and count the 100%ers (2025: 107); confirm SELT 2026 open dates. -->
 
 ::: {.info-box}
 **Note:** your SELT is a gift to future students, and gives me confidence to advocate for good practice!
@@ -25,7 +26,7 @@ title-slide-attributes:
 - let's look at the forking numbers for the [assignment repo](https://gitlab.comp.anu.edu.au/comp3900/2026/comp3900-2026-A3-final-project)
 
 ::: {.warn-box}
-**Deadline:** one week left for your final project.
+**Deadline:** Thursday 5 November, 23:59. About a week left for your final project.
 :::
 
 ## Plan for the class
@@ -34,12 +35,12 @@ title-slide-attributes:
 ::: {.column width="60%"}
 
 - a few notes wrapping up the course
-- human-centred AI --- research and design challenge for the future [@shneiderman-human-centered-ai:2022]
-  - basically covering the content of this book, available for free via library and online.
-- revision on key ideas
+- **human-centred AI** [@shneiderman-human-centered-ai:2022]: a framework written in 2021, *before* ChatGPT, agents, and agentic coding.
+- today we test that framework against what actually happened: what held, what broke, what it couldn't see.
+- what this means for *your* final project (an A3 checklist, not a revision lecture)
 :::
 ::: {.column width="40%"}
-![Today we will (try) to cover *all* of @shneiderman-human-centered-ai:2022](img/hcai-cover.png){width=70%}
+![The 2021 position: @shneiderman-human-centered-ai:2022, free via the library.](img/hcai-cover.png){width=70%}
 :::
 ::::::::::::::
 
@@ -48,19 +49,18 @@ title-slide-attributes:
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-- Max of 330 students (down to ~295) --- **biggest ever HCI class at ANU**.
-- Git Commits: >370
-- Slides: 565 slides, 38185 words, 386 images
-- Tutorials: 10 new tutorials, 11283 words
-- Forum:
-  - 3K threads, 363 answers, 858 comments.
-  - 185K views, biggest viewer viewed 7035 threads (???) (I only viewed 4095!)
-  - Charles answered 180+ questions
+- ~190 students at peak, 184 now (109 COMP3900, 75 COMP6390) --- a bit smaller than 2025's record 330.
+- Git commits this semester: 155
+- Slides: 603 slides, 47K words, 353 images. Tutorials: 11 workshops, 18K words.
+- Forum (Ed, to 23 Oct): ~2K threads (1,820 are pre-class task posts), 139 answers, 984 comments, 330 hearts.
+  - 108K views; the biggest viewer looked at 4,906 threads (I only viewed 1,994!)
+  - Charles answered 110 questions and left 74 comments.
 
-Takeaway: we wrote the equiv of a PhD thesis (~50K words) this semester---yikes! 😦
+Takeaway: slides and tutorials alone are ~65K words, more than a PhD thesis (~50K). Yikes! 😦
 :::
 ::: {.column width="40%"}
 ![Github Insights on HCI this year...](img/hci-commits.jpg)
+<!-- TODO: hci-commits.jpg is the 2025 insights screenshot; regenerate from github.com/smcclab/thirty-nine-hundred-hci/pulse or graphs/commit-activity -->
 :::
 ::::::::::::::
 
@@ -666,338 +666,40 @@ What was this course about again?
 
 ![A map of concepts in our HCI course with loose-ish connections.](img/hci-concept-map.png)
 
-## stakeholders and perspectives
+## Your final project: a checklist from the course
 
-| | designer | programmer | business manager | researcher |
-| --- | --- | --- | --- | --- |
-| **concepts and knowledge** | "what concepts are the basis for my decisions?" | "which parts of software are exposed to user?" | "what heuristics will ensure success?" | "can established knowledge be challenged?" |
-| **designing interactions** | "what processes should I follow?" | "how will requirements be established?" | "how can I iterate or pivot to success?" | "how can I find solutions to my research problem?" |
-| **evaluating interactions** | "how do I know the user's needs?" | "how can I test user success and experience?" | "what signals tell me if users will buy?" | "how to balance detailed and valid knowledge?" |
+Every week of this course maps onto a line of the A3 rubric. Check your project against each one before Thursday 5 November.
 
-Researcher has a hard job here... needs to be a designer, programmer, and business manager where the market is intellectual as well as financial.
+| Course week | What a marker looks for in A3 |
+| --- | --- |
+| 1--2 Design, needs finding | **Needs to design:** every design decision traces back to a finding (yours from A2, or from the literature). Research question precise and justified. |
+| 3 Prototyping | **Fidelity matches the question.** The prototype is the thing being evaluated, not a demo of your coding. Interaction clearly shown in the video. |
+| 4 Data gathering | Methods chosen for the question, not for convenience. Real participants, listed in `## Participants`, verified by CI. |
+| 8 Evaluation | **A plan:** goal, participants, setting, data, method, ethics and consent, analysis, outputs. In-person, hands-on with your prototype. |
 
-## HCI history: The "wave" theory
+## Your final project: a checklist from the course (cont.)
 
-- First wave: Human Factors in Computing (1980-1992) [@chignell-evolution-hci:2023]
-  - Optimising/measuring efficiency, cognitive psychology approach, studying individual users. Lab setting.
-- Second wave: Cognitive revolution — mind and computer coupled (1992-2006) [@kaptelinin-postcognitivist-hci:2003]
-  - Optimise interactions, hypothesis testing, affordances, activity theory, user-centred design. Work environments.
-- Third wave: Situated perspectives [@boedker-third-wave:2015] (2006-)
-  - Consumer tech, participation and sharing, pervasive computing, AR, tangible interaction, home environments,
-- Fourth wave: Entanglement HCI [@frauenberger-entanglement-hci:2019] (2019-)
-  - Computer and humans entangled in society: focus on values, accessibility, diversity, policy, law, ethics, individuals' and society's responsibilities
+| Course week | What a marker looks for in A3 |
+| --- | --- |
+| 5, 10 Quantitative | **Descriptive statistics first.** A significance test only if you have a hypothesis and enough data; report the test, the effect, and the plot. |
+| 6 Thematic analysis | **Themes, not buckets.** A theme says something; a topic just sorts. Show your coding, not just the result. |
+| 9 Cognitive, social, emotional | Claims about *why* users behaved as they did are grounded in the data, not in your intentions. |
+| 11 Expressive interfaces | If it's a creative or expressive system, evaluate the experience, not just task success. |
+| 12 Human-centred AI (today) | **If your prototype uses AI:** say what type and level of automation it is, and how the user can preview, stop, and check what it did. |
 
-## Usability Goals (Interaction Design, Beyond HCI)
-
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-
-- Effective to use (effectiveness)
-- Efficient to use (efficiency)
-- Safe to use (safety)
-- Having good utility (utility)
-- Easy to learn (learnability)
-- Easy to remember how to use (memorability)
-
-This version from: [@rogers-beyond-hci:2023]
-:::
-::: {.column width="40%"}
-![Usability goals within user experience goals, after @rogers-beyond-hci:2023](img/usability-ux-goals.svg){alt="Diagram: six usability goals (efficient, effective and safe to use; easy to remember how to use; easy to learn; good utility) in an inner circle, surrounded by a ring of user experience goals (fun, emotionally fulfilling, rewarding, helpful, supportive of creativity, motivating, aesthetically pleasing, entertaining, enjoyable, satisfying)" width=100%}
-:::
-::::::::::::::
-
-## Design Stages
-
-:::::::::::::: {.columns}
-::: {.column width="40%"}
-
-1. *Discover*: understand the problem and the people affected
-2. *Define*: define the problem clearly so that it can be addressed
-3. *Develop*: create ideas, prototypes, sketches, etc, that might address the problem
-4. *Deliver*: test potential solutions to find promising directions, and iterate
-
-:::
-::: {.column width="60%"}
-![The double diamond model of design [adapted from @double-diamond-model]](img/hci-design-double-diamond.png){width=100%}
-:::
-::::::::::::::
-
-## What is a sketch?
+## Your final project: the format rules
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-- quick
-- timely
-- inexpensive
-- disposable
-- plentiful
-- clear vocabulary
-- distinct gesture
-- minimal detail
-- appropriate degree of refinement
-- suggest and explore rather than confirm
-
-(@buxton-sketching:2007, p.111-113)
+- **Video is the primary document for marking.** Aim for 5:00; hard max 5:30 (330 s). 1080p `.mp4`, H.264/H.265, **under 100 MB**, named `project-presentation.mp4`. Check the size *before* you commit.
+- **You, on camera, narrating.** Face clear and identifiable; no TTS or generative-AI voice or avatar.
+- **Claims proportional to evidence.** A study with six participants supports "we observed", not "we proved".
+- **Raw data and materials in the repo**, CI green, participants section complete.
+- The full spec and rubric: [A3: Prototype and Evaluation](../assessments/03-prototype-and-evaluation.html)
 :::
 ::: {.column width="40%"}
-![Sketching a stage in 2010](img/sketch-2010.jpg){width=80%}
-:::
-::::::::::::::
-
-## What is a prototype
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-- *"primitive form"*
-- the form that comes before... something.
-- in this context:
-  - a *testable* form
-  - a form we can *experience*
-- enables evaluation and iteration
-- *primitive*: should be somehow rough or limited
-:::
-::: {.column width="40%"}
-![A prototype AI musical instrument.](img/impsy-micro.jpg)
-:::
-::::::::::::::
-
-## Data Gathering: Interviews and Questionnaires
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-- **Interview techniques:** structured, semi-structured, open
-- **Questionnaires:** closed, open, rating scale questions
-- **Established questionnaires:** Software Usability Survey (SUS), NASA Task Load Index (TLX), Creativity Support Index (CSI)
-- **DIY questionnaires** can be tricky to do well!
-- All useful, but need to be justified
-- Require different types of analysis, both can involve quantitative and qualitative.
-
-:::
-::: {.column width="40%"}
-![Photo by Nguyen Dang Hoang Nhu on Unsplash](img/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.jpg)
-:::
-::::::::::::::
-
-## Basic Quantitative Analysis
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-- **descriptive statistics**
-    - minimum, maximum
-    - lower and upper quartile
-    - median and mean
-    - number of data points (count)
-- **plot distribution**
-    - **scatter plot:** see all the data! good for checking outliers and comparing aspects of data
-    - **boxplot:** useful to compare distributions clearly **charles approved plot!**
-
-These approaches may be enough to make clear research findings!
-:::
-::: {.column width="40%"}
-
-| stat  | interactive activities |
-|-------|------------------------|
-| min   | 1                      |
-| 25%   | 2                      |
-| 50%   | 3                      |
-| 75%   | 4                      |
-| max   | 5                      |
-
-![Box plots of the data](img/fake_data_boxplot.png){width=70%}
-:::
-::::::::::::::
-
-## Basic Qualitative Analysis: Thematic Analysis
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-Lots of qualitative techniques but our focus is (Reflexive) Thematic Analysis (RTA) [@braun-thematic-analysis:2022], a well-known and accessible methodology.
-
-1. familiarise with the data
-2. coding (short labels, multiple rounds)
-3. generating initial themes (higher level than codes)
-4. developing, reviewing, and refining themes
-
-Your themes become the findings of your qualitative analysis.
-:::
-::: {.column width="40%"}
-![A Miro board from [Yichen Wang](https://yichenwangs.github.io)'s thematic analysis (2025)](img/reflexive-thematic-analysis-yichen-wang-miro-2025.png)
-:::
-::::::::::::::
-
-## Thin vs thick themes
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-There are different types of themes, and a common distinction:
-
-- Themes that categorise groups of codes: bucket themes, semantic themes, *thin* themes
-- Themes that interpret the codes, revealing hidden information: latent themes, *thick* themes
-
-Charles (2025; i.e., these slides!) suggests that **4** is a key heuristic for assessing theme thickness. (Disclaimer: may be revised in future!)
-
-:::
-::: {.column width="40%"}
-Number of words heuristic:
-
-> If your theme is <4 words, it *might* be a bit thin.
-
-Number of themes heuristic:
-
-> If you are proposing >4 themes, they *might* be a bit thin.
-
-Source: Charles, 2025. 😬
-:::
-::::::::::::::
-
-## 45 years of interface types
-
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-
-- Command Line
-- Graphical
-- Multimedia
-- Virtual reality
-- Web
-- Mobile
-- Appliance
-- Voice
-- Pen
-- Touch
-- Touchless
-
-:::
-::: {.column width="50%"}
-
-- Haptic
-- Multimodal
-- Shareable
-- Tangible
-- Augmented reality
-- Wearables
-- Robots and drones
-- Brain-computer
-- Smart
-- Shape-changing
-- Holographic
-
-:::
-::::::::::::::
-
-## Cognitive, Social, Emotional Interaction
-
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-Cognitive Processes [@eysenck-brysbaert:2023]:
-
-1. Attention
-2. Perception
-3. Memory
-4. Learning
-5. Reading, speaking, listening
-6. Problem solving, planning, reasoning, decision making
-
-:::
-::: {.column width="50%"}
-Social and Emotional aspects
-
-- conversation (face-to-face vs remote)
-- co-presence
-- Emotions and behaviour relate
-- Models of emotional design
-- Affective Computing and Emotional AI
-- Persuasive Technologies
-- Anthropomorphism
-
-:::
-::::::::::::::
-
-## Developing an evaluation plan
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-- Evaluation Goal/Aims
-- Participants
-- Setting
-- Data to collect
-- Methods
-- Ethical Considerations and Consent
-- Data capture, recording, storage
-- Analysis method
-- Output(s) of evaluation process
-
-:::
-::: {.column width="40%"}
-![How to evaluate this app?](img/2018-microjam.jpg)
-:::
-::::::::::::::
-
-## Statistical Analysis and Signficance Testing?
-
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-
-- going beyond descriptive statistics...
-- **significance testing:** quantifying differences in mean
-    - $t$-tests: for comparing two means
-    - ANOVA: for comparing 3+ means, incl. repeated measures
-    - non-parametric alternatives: Mann-Whitney $U$, Wilcoxon signed ranks
-    - $\chi^2$ test: comparing categorical data
-- correlation analysis
-- regression
-
-:::
-::: {.column width="50%"}
-One-way ANOVA:
-
-```python
-from scipy.stats import f_oneway
-import statsmodels.api as sm
-from statsmodels.formula.api import ols
-
-# group by 'independent' column and compare dependent column
-groups = [group['dependent'].values for _, group in df.groupby('independent')]
-f_stat, p_value = f_oneway(*groups)
-
-# create a Model from a formula and dataframe and run anova on that
-model = ols('dependent ~ C(independent)', data=df).fit()
-anova_table = sm.stats.anova_lm(model, typ=2)
-```
-
-Factorial ANOVA:
-
-```python
-# factorial anova: example effects of two independent variables and their interaction
-# model: tempo ~ key + mode + key:mode
-model = ols('dep ~ C(ind_1) + C(ind_2) + C(ind_1):C(ind_2)', data=df).fit()
-anova_table = sm.stats.anova_lm(model, typ=2)
-```
-
-:::
-::::::::::::::
-
-## What is an expressive interaction?
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-Mapping sensed **gestures** to an expressive output that is fed back to the user.
-
-- **gestures:** the use of motions by the limbs or body as a means of expression
-- can be unintentional, control, or ancillary gestures
-- from non-human actors (e.g.,the movement of a leaves on a branch of a tree)
-- *"any sort of motion, that may be understood as an expression of something"*
-
-The interaction itself is expressive, and the output is an expression as well. We consult Composing Interactions [@baalman2022composing] as a resource.
-:::
-::: {.column width="40%"}
-![Sensing movement and touch to create music, Atau Tanaka performing in 2010 [@tanaka-mapping-out-instruments:2010] ](img/virtuoso-atau2010.jpg)
+![How to evaluate this app? Same questions for your prototype.](img/2018-microjam.jpg)
 :::
 ::::::::::::::
 

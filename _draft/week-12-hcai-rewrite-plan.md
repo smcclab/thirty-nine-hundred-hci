@@ -67,6 +67,22 @@ incomplete, and that can be demonstrated, not just asserted.
 | §45.5 (pp. 788–9) | Thought experiments; "the perfect AI partner… you would have no autonomy left" | **Closing think-box** before the wrap |
 | §45.6 (p. 789) | ACM code; Bunge: engineers "cannot… disclaim all responsibility" | Pairs with the governance slide and the Air Canada verdict |
 
+## Progress
+
+- [x] **23 Oct: mechanical pass done** (commit on `main`): 2026 course stats
+      slide (students from lucy, commits from git, slide/word/image counts
+      from `count_slides.sh`, Ed numbers from the discussion-analytics CSV
+      export); "Plan for the class" reframed as the stress test;
+      announcements updated; revision block cut from 18 slides to a
+      3-slide A3 checklist plus concept map and key challenges. Deck is 48
+      slides. Still open on those slides: regenerate `img/hci-commits.jpg`
+      (2025 screenshot), confirm tutorial marks entered and SELT dates
+      (TODO comments in the source).
+- [ ] Core rewrite: opening frame, levels and types, ironies, blocks A–D.
+- [ ] Scorecard activity.
+- [ ] Demos (nanojam agent mode not started; source location unknown).
+- [ ] References for blocks A–D into `references.bib`.
+
 ## Slide-by-slide verdict on the current deck
 
 Legend: **Keep** (as is or light edit) · **Reframe** (keep content, change its
@@ -76,7 +92,7 @@ job) · **Compress** · **Cut** · **New**.
 | --- | --- | --- |
 | Announcements, Final Project | Keep | Update counts/dates (see landing doc) |
 | Plan for the class | Reframe | "Today we will (try) to cover *all* of Shneiderman" → "Today we test a 2021 framework against 2026" |
-| Course stats | Keep | **Regenerate for 2026**, currently 2025 numbers |
+| Course stats | Done 23 Oct | 2026 numbers in; commits screenshot still 2025's |
 | What is HCAI? / HCAI | Keep, compress | One slide. The definition holds up. |
 | Why is this important? | Reframe | "CLI (chatGPT)… confusing magical tools (agentic coding)" was written as a 2025 aside; make it the lecture's thesis |
 | How is HCAI different (process/product, supertools) | Keep | The process/product split is still the best part of the book |
@@ -104,7 +120,7 @@ job) · **Compress** · **Cut** · **New**.
 | Governing Structure (Bryson quote, 4 levels) | Keep, update | Add EU AI Act via `rozgonyi-2026-ethics-eu-ai-regulation.pdf` (already in biblio); one line on Australia's position (verify current status before stating) |
 | Traditional AI vs HCAI table | Keep | Good closing contrast |
 | Takeaways | Rewrite | Around "what held / what broke / what to do in your project" |
-| Revision: waves, usability goals, design stages, sketch, prototype, data gathering, quant, RTA, thin/thick themes, interface types, CSE, eval plan, stats, expressive, research challenges | **Cut to 3–4 slides** | Keep concept map + "Key challenges of HCI research"; add an A3 checklist (below) |
+| Revision: waves, usability goals, design stages, sketch, prototype, data gathering, quant, RTA, thin/thick themes, interface types, CSE, eval plan, stats, expressive, research challenges | Done 23 Oct | Cut to concept map + 3 A3-checklist slides + "Key challenges of HCI research" |
 | So long, and thanks for all the fish | Keep | |
 
 Net: roughly 61 → ~45 slides, with two activities and two demos added and
