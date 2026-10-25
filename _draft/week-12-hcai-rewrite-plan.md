@@ -112,6 +112,16 @@ incomplete, and that can be demonstrated, not just asserted.
       AIBO photo also dropped (no home for it). Both outputs rebuilt and
       checked for overflow (63 PDF pages).
 - [x] Scorecard *activity*: pairs talk-box slide before the scorecard reveal.
+- [x] **26 Oct: section pass.** Block labels (A, B1, D2...) stripped from
+      headings, the guidelines table and the scorecard's evidence column.
+      Four content H1s now: *What is HCAI* (the whole 2021 position: definition,
+      robots, metaphors, HAL, tele-bots, everywhere, governance, five claims);
+      *HCAI frameworks* (levels, types, centaurs, ironies, 2D, guidelines);
+      *Ideas that HCAI didn't predict in 2021* (text box → anthropomorphism →
+      sycophancy → Air Canada → agents → prompt injection → Autopilot →
+      perception gap → skill → design responses); *What held, what broke*
+      (your scorecard, my scorecard, takeaways); then the wrap-up. Design
+      Metaphors and Governing Structure demoted from H1 to H2. 46 slides.
 - [ ] Demos (nanojam agent mode not started; source is `~/src/hci/nanojam`,
       which already has `api.js`/`logger.js` hooks commented for it).
 - [x] References for blocks A–D into `references.bib` (25 Oct): 22 entries,

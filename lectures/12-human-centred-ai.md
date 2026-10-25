@@ -96,7 +96,7 @@ Both sides later agreed on *mixed initiative*: the system may act, but the human
 :::
 ::::::::::::::
 
-# What is Human-Centered AI (HCAI)?
+# What is Human-Centered AI (HCAI)? {background-image="img/hal-9000.jpg" background-size="cover" background-opacity="0.3"}
 
 ![Map of @shneiderman-human-centered-ai:2022 view of Human-Centered AI](img/shneiderman-what-is-hcai.png){width=50%}
 
@@ -145,6 +145,90 @@ AI reporting runs on two tropes, and both are *people*, not systems:
 ![No white robots (Photo by Maximalfocus on Unsplash)](img/maximalfocus-eZWGK5sIiBM-unsplash.jpg){width=70%}
 :::
 ::::::::::::::
+
+## Design metaphors: science goals and innovation goals
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Metaphors clarify design ideas ("bicycles for the mind"). @shneiderman-human-centered-ai:2022 sorts AI work by its goal:
+
+- **science goal:** understand and reproduce intelligent behaviour in a machine (general-purpose robots, self-driving cars, reading x-rays)
+- **innovation goal:** amplify human abilities in a context of use (Teams and Zoom rather than "collaboration devices"; a delivery robot tuned for one street)
+
+The goals conflict: turning a scientific result into a product takes a lot of design.
+:::
+::: {.column width="40%"}
+
+![Pepper is good for demos, but what context of use does it support? Photo by Owen Beard on Unsplash.](img/owen-beard-K21Dn4OVxNw-unsplash.jpg){width="50%"}
+:::
+::::::::::::::
+
+## Intelligent Agents and Supertools
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+- early computers were labeled "thinking machines" and "electronic brains".
+- @martin1933myth argues that such myths slowed workplace acceptance and created unrealistic expectations
+- @turing1950computing asked "Can Machines Think?"
+    - Envisioned machines competing with humans in intellectual fields
+- debate: a deceptive metaphor rather than a meaningful test [@natale2021deceitful]
+- pop culture influence of powerful thinking machines and robots
+
+:::
+::: {.column width="40%"}
+![HAL 9000 in movie "2001: A Space Odyssey." [Image Source](https://www.indiewire.com/features/general/douglas-rain-dead-hal-9000-2001-a-space-odyssey-stanley-kubrick-cast-1202019828/)](img/hal-9000.jpg){width="100%"}
+:::
+::::::::::::::
+
+## Teammates and tele-bots
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Two metaphors for the machine's role:
+
+- **Teammate:** model human-robot interaction on human-human interaction. @klien2004ten list the problems: unmet expectations, false beliefs about autonomy and responsibility, misleading emotional attachment.
+- **Tele-bot:** high automation, but a human operator stays accountable and in control (remote surgery, the DaVinci system). Design for what machines do better, give responsive controls, and let users fix, personalise and feed back.
+:::
+::: {.column width="40%"}
+
+![The DaVinci surgical robot is a successful telebot application](img/hcai-davinci.png)
+
+::: {.think-box}
+**Think:** is agentic coding AI a telebot or a teammate?
+:::
+:::
+::::::::::::::
+
+## Interactive AI is already everywhere
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+@hornbaek-intro-hci:2025 [§20.3]: interactive AI is already ubiquitous, and users do not notice.
+
+The successful household robot is the washing machine. Then the dishwasher, the pool cleaner, the thermostat: sensors, automation and machine learning, with no face, no name and no conversation.
+
+The design problem the book does name: no standard controls across devices.
+:::
+::: {.column width="40%"}
+
+![The promise of active appliances](img/aiper-pool-cleaner-ajMFp3Nu7yA-unsplash.jpg)
+:::
+::::::::::::::
+
+## Governing structure
+
+> What we need to govern is the human application of technology, and what we need to oversee are the human processes of development, testing, operation, and monitoring. [@bryson2020artificial]
+
+Four levels, from the inside out:
+
+1. **Reliable** systems from software engineering teams: verification, validation, technical audit trails.
+2. A **safety** culture in organisations: report failures and near misses, review them.
+3. **Trustworthy** certification by independent industry oversight, insurance, audit.
+4. Regulation by government agencies.
 
 ## Testing the five claims of HCAI in 2021 {.shrink}
 ```{=latex}
@@ -296,6 +380,28 @@ The **H-metaphor** (H for horse) is the positive version [@hornbaek-intro-hci:20
 :::
 ::::::::::::::
 
+## Case Study: Autopilot (Williston, 2016)
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+7 May 2016: a Tesla on Autopilot drove under a truck turning across its path. The driver didn't react.
+
+- NTSB: "overreliance on vehicle automation", helped by an "operational design, which permitted his prolonged disengagement from the driving task" [@ntsb-williston-tesla:2017].
+- NTSB member Christopher Hart, concurring: "adding to the problem is the moniker 'Autopilot'". The name overstates what it does, and people build their mental model from it [@shneiderman-human-centered-ai:2022].
+
+::: {.info-box}
+**Concept:** the feature name "Autopilot" was a false affordance! (appearance of an affordance, but it didn't exist)
+:::
+:::
+::: {.column width="40%"}
+![The crash intersection [@ntsb-williston-tesla:2017].](img/ntsb-williston-figure.png){width=80%}
+
+::: {.think-box}
+**Think:** 🤔 if "Autopilot" was a false affordance, what does "Copilot" promise? What does "agent" promise?
+:::
+:::
+::::::::::::::
+
 ## Two Dimensional HCAI Framework
 
 :::::::::::::: {.columns}
@@ -348,7 +454,7 @@ Shneiderman, famous for the *Eight Golden Rules for Design* proposes a new set!
 | **2. Preview first, select and initiate, then manage execution** | a preview of all steps, choose a plan, then manage it (navigation, parking, cameras) | **plan mode** in agentic coding: the agent proposes, you approve, permission prompts as it runs |
 | **3. Steer by way of interactive control panels** | sliders, joysticks, gestures; expressive mappings from simple controls to complex outcomes | we got a text box. The panel came back as a *config file*: custom instructions, `CLAUDE.md`, memory |
 | **4. Capture history and audit trails** | cars and planes log everything, so can apps; the privacy cost | transcripts, diffs and logs **held**; so did the privacy cost |
-| **7. Prevent adversarial attacks** | vandals attacking the system from outside; security, governance and design | the adversary is now *inside the data* the agent reads (block D) |
+| **7. Prevent adversarial attacks** | vandals attacking the system from outside; security, governance and design | the adversary is now *inside the data* the agent reads |
 
 ::::
 
@@ -357,14 +463,14 @@ Shneiderman, famous for the *Eight Golden Rules for Design* proposes a new set!
 - *be cautious when outcomes are consequential* (LLMs still manage this poorly); 
 - *incident reporting accelerates refinement* (every product is now instrumented and improved from real use, at a pace the book never imagined).
 
-# Ideas that HCAI didn't predict in 2021
+# Ideas that HCAI didn't predict in 2021 {background-image="img/milan-degraeve-89sXVIkgYnI-unsplash.jpg" background-size="cover" background-opacity="0.4"}
 
 - The interface is a conversation.
 - Anthropomorphism is the product.
-- Reliance happened at scale.
 - Agents act for hours on a delegated goal.
+- Reliance happened at scale.
 
-## A. The text box and the gulf of envisioning {.shrink}
+## The text box and the gulf of envisioning {.shrink}
 ```{=latex}
 \footnotesize
 ```
@@ -394,43 +500,7 @@ And the gulf of evaluation is wider: *checking* fluent, dense output becomes the
 :::
 ::::::::::::::
 
-# Design Metaphors {background-image="img/hal-9000.jpg" background-size="cover" background-opacity="0.35"}
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-Metaphors clarify design ideas ("bicycles for the mind"). @shneiderman-human-centered-ai:2022 sorts AI work by its goal:
-
-- **science goal:** understand and reproduce intelligent behaviour in a machine (general-purpose robots, self-driving cars, reading x-rays)
-- **innovation goal:** amplify human abilities in a context of use (Teams and Zoom rather than "collaboration devices"; a delivery robot tuned for one street)
-
-The goals conflict: turning a scientific result into a product takes a lot of design.
-:::
-::: {.column width="40%"}
-
-![Pepper is good for demos, but what context of use does it support? Photo by Owen Beard on Unsplash.](img/owen-beard-K21Dn4OVxNw-unsplash.jpg){width="50%"}
-:::
-::::::::::::::
-
-## Intelligent Agents and Supertools
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-- early computers were labeled "thinking machines" and "electronic brains".
-- @martin1933myth argues that such myths slowed workplace acceptance and created unrealistic expectations
-- @turing1950computing asked "Can Machines Think?"
-    - Envisioned machines competing with humans in intellectual fields
-- debate: a deceptive metaphor rather than a meaningful test [@natale2021deceitful]
-- pop culture influence of powerful thinking machines and robots
-
-:::
-::: {.column width="40%"}
-![HAL 9000 in movie "2001: A Space Odyssey." [Image Source](https://www.indiewire.com/features/general/douglas-rain-dead-hal-9000-2001-a-space-odyssey-stanley-kubrick-cast-1202019828/)](img/hal-9000.jpg){width="100%"}
-:::
-::::::::::::::
-
-## B1. Anthropomorphism won the market {.shrink}
+## Anthropomorphism won the market {.shrink}
 ```{=latex}
 \footnotesize
 ```
@@ -456,7 +526,7 @@ Verdict on claim 4: **held as a prediction, broke as a practice.**
 :::
 ::::::::::::::
 
-## B2. Sycophancy and persuasion {.shrink}
+## Sycophancy and persuasion {.shrink}
 ```{=latex}
 \footnotesize
 ```
@@ -517,27 +587,7 @@ You run an airline website. Customers ask about policies, how should a bot help?
 :::
 ::::::::::::::
 
-## Teammates and tele-bots
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-Two metaphors for the machine's role:
-
-- **Teammate:** model human-robot interaction on human-human interaction. @klien2004ten list the problems: unmet expectations, false beliefs about autonomy and responsibility, misleading emotional attachment.
-- **Tele-bot:** high automation, but a human operator stays accountable and in control (remote surgery, the DaVinci system). Design for what machines do better, give responsive controls, and let users fix, personalise and feed back.
-:::
-::: {.column width="40%"}
-
-![The DaVinci surgical robot is a successful telebot application](img/hcai-davinci.png)
-
-::: {.think-box}
-**Think:** is agentic coding AI a telebot or a teammate?
-:::
-:::
-::::::::::::::
-
-## D1. Maes's agent is now a product {.shrink}
+## Maes's agent is now a product {.shrink}
 ```{=latex}
 \footnotesize
 ```
@@ -568,7 +618,7 @@ Verdict on claim 1 (supertool, not agent): **the products went agent; the court 
 :::
 ::::::::::::::
 
-## D2. Prompt injection: the adversary is in the data {.shrink}
+## Prompt injection: the adversary is in the data {.shrink}
 ```{=latex}
 \footnotesize
 ```
@@ -593,29 +643,7 @@ An agent that reads the web, your email and your files to act for you has a new 
 :::
 ::::::::::::::
 
-## Case Study: Autopilot (Williston, 2016)
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-7 May 2016: a Tesla on Autopilot drove under a truck turning across its path. The driver didn't react.
-
-- NTSB: "overreliance on vehicle automation", helped by an "operational design, which permitted his prolonged disengagement from the driving task" [@ntsb-williston-tesla:2017].
-- NTSB member Christopher Hart, concurring: "adding to the problem is the moniker 'Autopilot'". The name overstates what it does, and people build their mental model from it [@shneiderman-human-centered-ai:2022].
-
-::: {.info-box}
-**Concept:** the feature name "Autopilot" was a false affordance! (appearance of an affordance, but it didn't exist)
-:::
-:::
-::: {.column width="40%"}
-![The crash intersection [@ntsb-williston-tesla:2017].](img/ntsb-williston-figure.png){width=80%}
-
-::: {.think-box}
-**Think:** 🤔 if "Autopilot" was a false affordance, what does "Copilot" promise? What does "agent" promise?
-:::
-:::
-::::::::::::::
-
-## C2. The perception gap: survey or stopwatch? {.shrink}
+## The perception gap: survey or stopwatch? {.shrink}
 ```{=latex}
 \footnotesize
 ```
@@ -645,7 +673,7 @@ Weeks 8 and 10 in one slide: self-report and measurement are different instrumen
 :::
 ::::::::::::::
 
-## C3. Skill, learning and the jagged frontier {.shrink}
+## Skill, learning and the jagged frontier {.shrink}
 ```{=latex}
 \footnotesize
 ```
@@ -668,7 +696,7 @@ The gains are real but uneven, and the cost lands on learning.
 **Concept:** claim 2 promised high automation *and* high control. The combination has to be designed. It does not come free.
 :::
 
-## C4. Design responses with evidence {.shrink}
+## Design responses with evidence {.shrink}
 ```{=latex}
 \footnotesize
 ```
@@ -691,33 +719,9 @@ Plus the two the older theory gave us: show the **source** (Air Canada) and keep
 **For your A3:** if your prototype uses AI, say which type and level of automation it is, and show how the user can *preview*, *stop* and *check* it.
 :::
 
-## Interactive AI is already everywhere
+# What held, what broke, what was blindsided {background-image="img/aibo.jpg" background-size="cover" background-opacity="0.35"}
 
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-@hornbaek-intro-hci:2025 [§20.3]: interactive AI is already ubiquitous, and users do not notice.
-
-The successful household robot is the washing machine. Then the dishwasher, the pool cleaner, the thermostat: sensors, automation and machine learning, with no face, no name and no conversation.
-
-The design problem the book does name: no standard controls across devices.
-:::
-::: {.column width="40%"}
-
-![The promise of active appliances](img/aiper-pool-cleaner-ajMFp3Nu7yA-unsplash.jpg)
-:::
-::::::::::::::
-
-# Governing Structure
-
-> What we need to govern is the human application of technology, and what we need to oversee are the human processes of development, testing, operation, and monitoring. [@bryson2020artificial]
-
-Four levels, from the inside out:
-
-1. **Reliable** systems from software engineering teams: verification, validation, technical audit trails.
-2. A **safety** culture in organisations: report failures and near misses, review them.
-3. **Trustworthy** certification by independent industry oversight, insurance, audit.
-4. Regulation by government agencies.
+Back to the five claims, and to the 1997 debate.
 
 ## Your scorecard
 
@@ -731,16 +735,16 @@ Four levels, from the inside out:
 4. **No anthropomorphism.**
 5. **Process before product.**
 
-## Scorecard: what held, what broke, what was blindsided {.shrink}
+## My scorecard {.shrink}
 
 :::: {.small-table}
 
-| 2021 claim | 2026 verdict | where |
+| 2021 claim | 2026 verdict | evidence |
 | --- | --- | --- |
-| 1. Supertool, not agent | **split**: the products went agent, the court went supertool | D1, Air Canada |
-| 2. Two dimensions: automation *and* control | **open**: the combination has to be designed, and is often worse than either alone | C3 |
-| 3. Eight guidelines | preview first and audit trails **held** (plan modes, transcripts, diffs); control panels **broke**; adversarial attacks **blindsided** | A1, D2 |
-| 4. No anthropomorphism | **right, and ignored** | B1, B2 |
+| 1. Supertool, not agent | **split**: the products went agent, the court went supertool | agents; Air Canada |
+| 2. Two dimensions: automation *and* control | **open**: the combination has to be designed, and is often worse than either alone | skill and productivity |
+| 3. Eight guidelines | preview first and audit trails **held** (plan modes, transcripts, diffs); control panels **broke**; adversarial attacks **blindsided** | text box; prompt injection |
+| 4. No anthropomorphism | **right, and ignored** | anthropomorphism; sycophancy |
 | 5. Process before product | **held**: the failures are products that skipped the needs study | Air Canada, Google Photos |
 
 ::::
@@ -760,16 +764,16 @@ Alan Kay (designed the first windowed UI at Xerox PARC) said:
 
 so go do that!
 
-# Course Wrap-up and Revision
+# Course Wrap-up and Revision {background-image="img/sky-and-sea.jpg" background-size="cover" background-opacity="0.4"}
 
 What was this course about again?
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![from this...](img/blog-hintz-eric-2018-12-10-chord-keyset-mouse.jpg){width=100%}
+![from this...](img/blog-hintz-eric-2018-12-10-chord-keyset-mouse.jpg){width=80%}
 :::
 ::: {.column width="50%"}
-![to this...](img/hci-in-2022.jpg)
+![to this...](img/hci-in-2022.jpg){width=80%}
 :::
 ::::::::::::::
 
