@@ -78,10 +78,30 @@ incomplete, and that can be demonstrated, not just asserted.
       slides. Still open on those slides: regenerate `img/hci-commits.jpg`
       (2025 screenshot), confirm tutorial marks entered and SELT dates
       (TODO comments in the source).
-- [ ] Core rewrite: opening frame, levels and types, ironies, blocks A–D.
-- [ ] Scorecard activity.
-- [ ] Demos (nanojam agent mode not started; source location unknown).
-- [ ] References for blocks A–D into `references.bib`.
+- [x] **25 Oct: core rewrite, additive pass** (uncommitted on `main`): 18 new
+      slides inserted next to the existing slide each one argues with, nothing
+      cut or moved. Added: 1997 debate opener; "five claims to test" bridge;
+      Parasuraman *types*; H-metaphor; Bainbridge ironies; section slide +
+      A1–A2 (text box, gulf of envisioning); B1–B2 (anthropomorphism,
+      sycophancy/persuasion) before Air Canada; D1–D2 (Maes's agent as product
+      with Feng's user roles, prompt injection) after Designs for Tele-bots;
+      C1–C4 (ironies restated, METR perception gap, skill/productivity,
+      design responses) after the Autopilot case; "what held / what broke"
+      scorecard before Takeaways. Deck is 62 slides, ~6,800 words, 81 PDF
+      pages. All new slides checked for overflow in headless Chrome at
+      1920x1080. Hornbæk quotes and page numbers verified against the OUP PDF;
+      Shneiderman 2022 confirmed to contain zero "GPT"/"language model".
+      **Compress pass still to do** (verdict table below): the 2021-position
+      section is now 8 slides; "Towards supertool designs" duplicates the new
+      opener; blocks run A, B, D, C because the Autopilot slide sits where it
+      does; old Takeaways overlaps the new scorecard slide.
+- [ ] Scorecard *activity* (the slide exists; the pairs exercise does not).
+- [ ] Demos (nanojam agent mode not started; source is `~/src/hci/nanojam`,
+      which already has `api.js`/`logger.js` hooks commented for it).
+- [x] References for blocks A–D into `references.bib` (25 Oct): 22 entries,
+      16 from Crossref by DOI, 5 arXiv `@misc` with a preprint note, 1 Medium
+      post (`shneiderman-muller-ai-anthropomorphism:2023`). Not yet copied to
+      `hci-biblio/biblio.bib`, and no PDFs saved.
 
 ## Slide-by-slide verdict on the current deck
 
