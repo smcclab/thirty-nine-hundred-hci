@@ -95,7 +95,23 @@ incomplete, and that can be demonstrated, not just asserted.
       section is now 8 slides; "Towards supertool designs" duplicates the new
       opener; blocks run A, B, D, C because the Autopilot slide sits where it
       does; old Takeaways overlaps the new scorecard slide.
-- [ ] Scorecard *activity* (the slide exists; the pairs exercise does not).
+- [x] **25 Oct, later: compress pass** (uncommitted): 62 → 45 slides after
+      Charles's review. Cut: Why important, HCAI Structure, Why start with a
+      framework, Reliable/Safe/Trustworthy, Towards supertool designs, Assured
+      Autonomy, C1 (folded into the ironies slide and the Autopilot think-box),
+      Control centres (photo kept on D2), Social Robots, Trad-vs-HCAI table.
+      Merged: HCAI + How different; White Robot + People and Computers (Honda
+      photo kept); Reverse centaurs + H-metaphor; the three guideline detail
+      slides → one "four guidelines under test" table carrying Charles's 2026
+      glosses; A1 + A2; Design Metaphors + Science vs Innovation; Teammates +
+      Tele-bots. Rewritten: B1 around "ignored because it worked"; C3 and C4
+      as tables; Governance without the diagram; Takeaways around held / broke /
+      blindsided. Added: "Your scorecard" pairs talk-box before the reveal.
+      Google Photos moved to the end as the closing think. Diagrams dropped:
+      governance, reliable/safe/trustworthy, two-goals, wheel of emotions;
+      AIBO photo also dropped (no home for it). Both outputs rebuilt and
+      checked for overflow (63 PDF pages).
+- [x] Scorecard *activity*: pairs talk-box slide before the scorecard reveal.
 - [ ] Demos (nanojam agent mode not started; source is `~/src/hci/nanojam`,
       which already has `api.js`/`logger.js` hooks commented for it).
 - [x] References for blocks A–D into `references.bib` (25 Oct): 22 entries,
