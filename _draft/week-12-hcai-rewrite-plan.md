@@ -129,6 +129,39 @@ incomplete, and that can be demonstrated, not just asserted.
       post (`shneiderman-muller-ai-anthropomorphism:2023`). Not yet copied to
       `hci-biblio/biblio.bib`, and no PDFs saved.
 
+## Status, 26 Oct (morning of the lecture)
+
+**Deck:** `lectures/12-human-centred-ai.md`, 46 slides, ~5,200 words, 21 images;
+builds clean to HTML and a 63-page PDF, every slide checked for overflow in
+both. Five H1 sections, all with full-bleed backgrounds: Opening (no H1) ·
+*What is HCAI* (HAL) · *HCAI frameworks* (Seoul) · *Ideas that HCAI didn't
+predict in 2021* (night dashboard) · *What held, what broke, what was
+blindsided* (AIBO) · *Course Wrap-up* (coast). Autopilot sits in frameworks
+after the ironies slide, since it is the book's own case. Block labels gone.
+
+**Uncommitted:** this file and the deck in `thirty-nine-hundred-hci` (on top of
+Charles's commit `c4f3109`, "intermediate work on week 12", which holds the
+additive pass and the 22 bib entries). In `hci-biblio`: 21 PDFs filed and
+`biblio.bib` extended, `check-biblio.sh` passing, not committed.
+
+**Before class:** regenerate `img/hci-commits.jpg` (TODO comment in source,
+still the 2025 screenshot); read the merged slides once more in your own voice;
+commit both repos; `make canvas-lectures` if the PDF should be on Canvas.
+
+**Block E added, 26 Oct:** three slides at the end of the *didn't predict*
+section (HCI research got wrapped too · Five tests for a wrapper paper · The
+twist: nobody can define "wrapper"), with the A3 talk-box. 49 slides, 67 PDF
+pages. Pang, Felix Navarro, Greenberg & Buxton and Olsen fetched from Crossref
+into `references.bib` and `hci-biblio` (PDFs filed); Arawjo is a `@misc` in
+both, fileless in the biblio with a note. The plan's earlier claim that block E
+was already in `biblio.bib` was wrong.
+
+**Deliberately left for 2027:** nanojam agent-mode demo (hooks exist in
+`~/src/hci/nanojam/src/api.js` and `logger.js`); agentic-coding live moment
+(optional tomorrow, no build needed); block E (LLM-wrapper critique, refs
+already in `hci-biblio`); own-work case (Choi et al. 2025); Becker/METR and
+Mitchell et al. framing notes are in `%` comments in `references.bib`.
+
 ## Slide-by-slide verdict on the current deck
 
 Legend: **Keep** (as is or light edit) · **Reframe** (keep content, change its

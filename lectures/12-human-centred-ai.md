@@ -719,6 +719,85 @@ Plus the two the older theory gave us: show the **source** (Air Canada) and keep
 **For your A3:** if your prototype uses AI, say which type and level of automation it is, and show how the user can *preview*, *stop* and *check* it.
 :::
 
+# HCAI as research: the wrapper problem {background-image="img/tech-gadget-array-stockcake.jpg" background-size="cover" background-opacity="0.35"}
+
+The book's *process before product* claim, applied to the papers about it.
+
+## HCI research got wrapped too {.shrink}
+```{=latex}
+\footnotesize
+```
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+The book did not predict that the field studying HCAI would itself be rebuilt around one component.
+
+@pang-llmification-chi:2025 reviewed every CHI paper from 2020--24 that engages with LLMs (153 papers):
+
+- about **63%** use the LLM as the *engine* of a system
+- the models are overwhelmingly closed GPT-family, and the choice of model is mostly unjustified
+- **40%** of the prompting papers do not release their prompts
+
+Their question for reviewers: *is it a system contribution, if the implementation is straightforward given what LLMs can do?*
+:::
+::: {.column width="40%"}
+
+::: {.info-box}
+**Concept:** in a system diagram the LLM is one box. A paper whose contribution is that box is a *wrapper paper*. The term circulates in reviews; it has no agreed definition.
+:::
+
+Remember *faster and preferred* (week 8)? The weak usability study stood in for the contribution then, too [@greenberg-usability-evaluation-harmful:2008; @olsen-evaluating-ui-systems:2007].
+:::
+::::::::::::::
+
+## Five tests for a wrapper paper {.shrink}
+```{=latex}
+\footnotesize
+```
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+@arawjo-llm-wrapper-papers:2024, reviewing for CHI 2024, found about half his pile were "LLMs applied to X", where the novelty was that nobody had done X yet. His tests for getting past wrapper status:
+
+1. real engagement with prior work on X, not just on LLMs
+2. a reason for an LLM over a non-AI approach
+3. design or architecture *iteration*: the system changed because of what you learned
+4. a contribution beyond "we applied an LLM"
+5. a study beyond a Likert usability test or a contrived ablation
+:::
+::: {.column width="40%"}
+
+::: {.talk-box}
+**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ Is your A3 prototype a wrapper? Run it through the five tests. Which one does it fail, and what would fix it? 3 minutes.
+:::
+
+Tests 1 and 5 are this course: needs-finding first, evaluation that fits the question.
+:::
+::::::::::::::
+
+## The twist: nobody can define "wrapper"
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+@felixnavarro-reporting-llm-systems:2026 interviewed 18 authors of LLM-system papers:
+
+- almost all had met the word "wrapper", always in a rejection
+- no one could define it consistently
+- in one set of reviews, the label alone decided the outcome
+
+A critique that began as a standard became a reviewer's shortcut.
+:::
+::: {.column width="40%"}
+
+::: {.info-box}
+**Concept:** the wrapper critique and HCAI's *process before product* are the same claim: the contribution is the understanding of people and context, and the model is a component. Judge the paper on the first, not the second.
+:::
+:::
+::::::::::::::
+
 # What held, what broke, what was blindsided {background-image="img/aibo.jpg" background-size="cover" background-opacity="0.35"}
 
 Back to the five claims, and to the 1997 debate.
