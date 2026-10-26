@@ -92,7 +92,7 @@ At CHI '97 Ben Shneiderman debated Pattie Maes [@shneiderman-direct-manipulation
 **Think:** 🤔 read Maes's three properties as a 2026 product sheet: memory, background tasks, agents that run for hours. Who won the debate? We come back to this at the end.
 :::
 
-Both sides later agreed on *mixed initiative*: the system may act, but the human can always take over.
+Both sides later agreed on *mixed initiative* [@horvitz-mixed-initiative-interfaces:1999; @hornbaek-intro-hci:2025, pp. 318--320]: the system weighs its uncertainty about your goal against the cost of interrupting you, then *acts*, *asks*, or *waits*. You can always take over.
 :::
 ::::::::::::::
 
@@ -114,10 +114,11 @@ Values first: rights, justice, dignity. Goals: self-efficacy, creativity, social
 :::
 ::: {.column width="40%"}
 
-Supertools you already own: a digital camera, a navigation app.
+<!-- shneiderman considered supertools rather simple by the standard of, e.g., a phone with claude. -->
+Supertools you already own: a digital camera, a navigation app - Shneiderman was thinking about quite focussed tools as examples.
 
 ::: {.info-box}
-**Concept:** HCAI judges a system by what people can do with it, not by what the model scores.
+**Concept:** HCAI judges a system by what people can do with it, not ML model benchmarks.
 :::
 :::
 ::::::::::::::
@@ -130,7 +131,7 @@ Supertools you already own: a digital camera, a navigation app.
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-AI reporting runs on two tropes, and both are *people*, not systems:
+AI reporting has two tropes, both *people*:
 
 - the **white robot** (techno-utopian): naive but noble, could turn evil
 - the **terminator** (techno-dystopian): evil, could be redeemed
@@ -154,7 +155,7 @@ AI reporting runs on two tropes, and both are *people*, not systems:
 Metaphors clarify design ideas ("bicycles for the mind"). @shneiderman-human-centered-ai:2022 sorts AI work by its goal:
 
 - **science goal:** understand and reproduce intelligent behaviour in a machine (general-purpose robots, self-driving cars, reading x-rays)
-- **innovation goal:** amplify human abilities in a context of use (Teams and Zoom rather than "collaboration devices"; a delivery robot tuned for one street)
+- **innovation goal:** amplify human abilities in a context of use (Teams and Zoom rather than "collaboration devices"; a local delivery robot)
 
 The goals conflict: turning a scientific result into a product takes a lot of design.
 :::
@@ -174,7 +175,7 @@ The goals conflict: turning a scientific result into a product takes a lot of de
 - @turing1950computing asked "Can Machines Think?"
     - Envisioned machines competing with humans in intellectual fields
 - debate: a deceptive metaphor rather than a meaningful test [@natale2021deceitful]
-- pop culture influence of powerful thinking machines and robots
+- pop culture influence of powerful thinking machines and robots --- now it's "superintelligence (SI)"
 
 :::
 ::: {.column width="40%"}
@@ -209,9 +210,15 @@ Two metaphors for the machine's role:
 
 @hornbaek-intro-hci:2025 [§20.3]: interactive AI is already ubiquitous, and users do not notice.
 
-The successful household robot is the washing machine. Then the dishwasher, the pool cleaner, the thermostat: sensors, automation and machine learning, with no face, no name and no conversation.
+- washing machine
+- dishwasher
+- pool cleaner
+- thermostat
+- robot vacuum
 
-The design problem the book does name: no standard controls across devices.
+Sensors, actuatores, levels of automation and machine learning. No face, no name and no conversation.
+
+A perennial design problem here: no standard controls.
 :::
 ::: {.column width="40%"}
 
@@ -237,7 +244,7 @@ Four levels, from the inside out:
 
 @shneiderman-human-centered-ai:2022 predates ChatGPT and it doesn't mention LLMs. Does it still make sense?
 
-Five claims from the book that we test today against what shipped in 2023--26:
+Five claims from the book that we consider today against reality in 2023--26:
 
 1. **Supertool, not agent.** AI should amplify people. Thinking-machine metaphors mislead.
 2. **Two dimensions.** High automation and high human control can coexist.
@@ -351,7 +358,7 @@ The **H-metaphor** (H for horse) is the positive version [@hornbaek-intro-hci:20
 - both need a model of the other
 
 ::: {.think-box}
-**Think:** 🤔 in Claude/chattie/qwen can you tighten the rein? A reverse centaur is a rein that only goes one way.
+**Think:** 🤔 in Claude/chattie/qwen can you tighten the rein?
 :::
 :::
 ::::::::::::::
@@ -415,7 +422,7 @@ The **H-metaphor** (H for horse) is the positive version [@hornbaek-intro-hci:20
 
 :::
 ::: {.column width="50%"}
-![Mapping systems and locating dangers, redrawn after @shneiderman-human-centered-ai:2022.](img/hcai-2d-framework.svg){alt="A two-by-two grid of human control against computer automation. Bicycle and piano sit at high human control; elevator and camera at high on both; pacemaker and airbag at high automation; music box and landmine low on both. Bands of excessive human control and excessive automation run along the top and right edges."}
+![Mapping systems and locating dangers.](img/hcai-2d-framework.svg){alt="A two-by-two grid of human control against computer automation. Bicycle and piano sit at high human control; elevator and camera at high on both; pacemaker and airbag at high automation; music box and landmine low on both. Bands of excessive human control and excessive automation run along the top and right edges."}
 :::
 ::::::::::::::
 
@@ -452,15 +459,15 @@ Shneiderman, famous for the *Eight Golden Rules for Design* proposes a new set!
 | guideline | HCAI (~2021) | 2026 |
 |:-------------------------------|:-----------------------------------------------|:-----------------------------------------------|
 | **2. Preview first, select and initiate, then manage execution** | a preview of all steps, choose a plan, then manage it (navigation, parking, cameras) | **plan mode** in agentic coding: the agent proposes, you approve, permission prompts as it runs |
-| **3. Steer by way of interactive control panels** | sliders, joysticks, gestures; expressive mappings from simple controls to complex outcomes | we got a text box. The panel came back as a *config file*: custom instructions, `CLAUDE.md`, memory |
+| **3. Steer by way of interactive control panels** | sliders, joysticks, gestures; expressive mappings from simple controls to complex outcomes | a text box with a *config file*: custom instructions, `CLAUDE.md`, memory |
 | **4. Capture history and audit trails** | cars and planes log everything, so can apps; the privacy cost | transcripts, diffs and logs **held**; so did the privacy cost |
-| **7. Prevent adversarial attacks** | vandals attacking the system from outside; security, governance and design | the adversary is now *inside the data* the agent reads |
+| **7. Prevent adversarial attacks** | vandals attacking the system from outside; security, governance and design | adversaries *inside the data* the agent reads |
 
 ::::
 
 - *overview first* (visualisation); 
 - *human-to-human communication* (the buzz around Claude Code is power users sharing tips); 
-- *be cautious when outcomes are consequential* (LLMs still manage this poorly); 
+- *be cautious when outcomes are consequential* (LLMs still bad at this); 
 - *incident reporting accelerates refinement* (every product is now instrumented and improved from real use, at a pace the book never imagined).
 
 # Ideas that HCAI didn't predict in 2021 {background-image="img/milan-degraeve-89sXVIkgYnI-unsplash.jpg" background-size="cover" background-opacity="0.4"}
@@ -478,9 +485,9 @@ Shneiderman, famous for the *Eight Golden Rules for Design* proposes a new set!
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-Guideline 3 asked for control panels; we got an empty text box. Every option is available and none is visible.
+Guideline 3 asked for control panels and **we got an empty text box.**
 
-We have covered Norman's gulfs of **execution** and **evaluation**. @subramonyam-gulf-of-envisioning:2024 add one *before* them: you must **envision** what to ask for, and that fails in three ways:
+We have covered Norman's gulfs of **execution** and **evaluation**. @subramonyam-gulf-of-envisioning:2024 add a gulf of **envisioning** what to ask for:
 
 - **capability gap:** you don't know what the model can do
 - **instruction gap:** you know what you want, but not how to say it so the model does it [@zamfirescu-why-johnny-cant-prompt:2023; @liu-prompt-guidelines-text-to-image:2022]
@@ -491,7 +498,9 @@ And the gulf of evaluation is wider: *checking* fluent, dense output becomes the
 ::: {.column width="40%"}
 
 ::: {.info-box}
-**Concept:** the hard part moved *earlier* than execution, into forming the intention. Examples, templates and previews are the design opportunity. Verdict on guideline 3: **broke**.
+**Concept:** the hard part moved *earlier* than execution, into forming the intention. 
+
+Examples, templates and previews are the design opportunity. Guideline 3 is **broken!**.
 :::
 
 ::: {.talk-box}
@@ -500,7 +509,7 @@ And the gulf of evaluation is wider: *checking* fluent, dense output becomes the
 :::
 ::::::::::::::
 
-## Anthropomorphism won the market {.shrink}
+## Anthropomorphism is a market success {.shrink}
 ```{=latex}
 \footnotesize
 ```
@@ -512,17 +521,19 @@ Claim 4 said don't build systems that pretend to be people. The dominant 2023--2
 
 The warning was ignored *because it worked*:
 
-- LLMs worked better than any previous attempt, and conversation drives them better than any other interface idea (no control panel for Claude). The agentic loop doubles down: a persona that goes away, does things, and reports back.
+- LLMs worked very convincingly, and conversation drives them better than any other interface idea (no control panel for Claude). The agentic loop doubles down with personas that go away, do things, and report back.
 - Shneiderman's own reaction, after GPT-4 said "I": design so the user is never confused about what they are talking to [@shneiderman-muller-ai-anthropomorphism:2023]
 - the better mental model: the model is not *a* character, it **role-plays** one [@shanahan-role-play-llms:2023]
 :::
 ::: {.column width="40%"}
 
 ::: {.info-box}
-**Concept:** the book's warning was right but ignored. The question for your project is not "is it anthropomorphic?" but "which human cues did we *choose* to add, and what do they make people assume?"
+**Concept:** the book's warning was right but ignored. 
+
+A question for your "anthropomorphic" projects could be "which human cues did we *choose* to add, and what do they make people assume?"
 :::
 
-Verdict on claim 4: **held as a prediction, broke as a practice.**
+Verdict on claim 4: **right but ignored in practice.**
 :::
 ::::::::::::::
 
@@ -541,10 +552,12 @@ Two measured side effects of training a model on human approval:
 :::
 ::: {.column width="40%"}
 
-Week 9 covered *persuasive technology* as something designers do on purpose. This is persuasion as a side effect of a training objective.
+Week 9 covered *persuasive technology* as something designers do on purpose. 
+
+This is persuasion as a side effect of a training objective.
 
 ::: {.think-box}
-**Think:** 🤔 a chatbot that answers "in its own words" (next slide, option A) is anthropomorphic, agreeable and fluent. Which of the three caused the Air Canada problem?
+**Think:** 🤔 chatbots are anthropomorphic, agreeable and fluent. Will they _always_ have sycophancy problems?
 :::
 :::
 ::::::::::::::
@@ -559,7 +572,7 @@ You run an airline website. Customers ask about policies, how should a bot help?
 - **B:** a bot that only *finds and links* the policy page. Boring, and it makes people read.
 
 ::: {.talk-box}
-**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ A or B? If A, who's responsible when it gets a policy wrong: customer, vendor, airline, or bot? 2 minutes.
+**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ A or B? If A, who's responsible when it gets a policy wrong: customer, vendor, airline, or bot?
 :::
 :::
 ::: {.column width="50%"}
@@ -592,7 +605,6 @@ You run an airline website. Customers ask about policies, how should a bot help?
 \footnotesize
 ```
 
-
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
@@ -605,16 +617,18 @@ Back to 1997. Maes's three properties are shipping features in 2026:
 | long-lived | agents that run for hours on a delegated goal |
 
 The metaphor Shneiderman argued against also won the naming war: the noun is *agent*, the adjective *agentic*.
+
+Horvitz's *act, ask or wait* also shipped (coarsly): the agent runs for a whole turn, hands back at a permission prompt or a question, and you interrupt with a keypress.
 :::
 ::: {.column width="40%"}
 @feng-levels-autonomy-ai-agents:2025 (‡) describe autonomy by the **user's role**, not the machine's level: **operator**, **collaborator**, **consultant**, **approver**, **observer**.
 
-
 ::: {.talk-box}
-**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ Pick one AI tool you use. Which of the five roles are *you* in? Does the tool let you move between roles, or is the role fixed? 2 minutes.
+**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ Pick one AI tool you use. Which of the five roles are *you* in? Does the tool let you move between roles, or is the role fixed?
 :::
 
-Verdict on claim 1 (supertool, not agent): **the products went agent; the court (Air Canada) went supertool.**
+<!-- I don't like the framing "the courts went with..." - one court in one case, a long time ago. it's fair to say that legal and social risks of agents haven't been resolved. -->
+Verdict on claim 1 (supertool, not agent): **the products went agent, but with legal and social risks**
 :::
 ::::::::::::::
 
@@ -648,7 +662,7 @@ An agent that reads the web, your email and your files to act for you has a new 
 \footnotesize
 ```
 
-<!-- this just seems out of date. It's not clear that this would hold up in 2026. -->
+<!-- this just seems out of date. It's not clear that this would hold up in 2026. does it? provide more context. -->
 
 :::::::::::::: {.columns}
 ::: {.column width="55%"}
@@ -666,7 +680,7 @@ One study, a small sample, early-2025 tools. Treat it as early evidence.
 ::: {.column width="45%"}
 
 ::: {.talk-box}
-**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ You evaluated your own prototype for A3. If your participants *felt* faster and your stopwatch said slower, which would you report, and how? 3 minutes.
+**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ You evaluated your own prototype for A3. If your participants *felt* faster and your stopwatch said slower, which would you report, and how?
 :::
 
 Weeks 8 and 10 in one slide: self-report and measurement are different instruments, and here they disagree by about 40 points.
@@ -693,7 +707,9 @@ The gains are real but uneven, and the cost lands on learning.
 ::::
 
 ::: {.info-box}
-**Concept:** claim 2 promised high automation *and* high control. The combination has to be designed. It does not come free.
+**Concept:** claim 2 promised high automation *and* high control. The combination has to be designed.
+
+It so far has not shown up automatically. Lots of opportunity here on the applied side.
 :::
 
 ## Design responses with evidence {.shrink}
@@ -713,13 +729,13 @@ What reduces over-reliance? Three findings you can use in a design:
 
 ::::
 
-Plus the two the older theory gave us: show the **source** (Air Canada) and keep the human **in practice** (Bainbridge).
+Plus the two older theories gave us: show the **source** (Air Canada) and keep the human **in practice** (Bainbridge).
 
 ::: {.success-box}
 **For your A3:** if your prototype uses AI, say which type and level of automation it is, and show how the user can *preview*, *stop* and *check* it.
 :::
 
-# HCAI as research: the wrapper problem {background-image="img/tech-gadget-array-stockcake.jpg" background-size="cover" background-opacity="0.35"}
+# HCAI as research: the wrapper problem {background-image="img/julia-kadel-YmULswIbc3I-unsplash.jpg" background-size="cover" background-opacity="0.35"}
 
 The book's *process before product* claim, applied to the papers about it.
 
@@ -733,7 +749,9 @@ The book's *process before product* claim, applied to the papers about it.
 
 The book did not predict that the field studying HCAI would itself be rebuilt around one component.
 
-@pang-llmification-chi:2025 reviewed every CHI paper from 2020--24 that engages with LLMs (153 papers):
+<!-- was this review on EVERY CHI paper with LLMs? seems kind of a low number. it may be a subset. -->
+
+@pang-llmification-chi:2025 reviewed CHI papers from 2020--24 that engages with LLMs (153 papers):
 
 - about **63%** use the LLM as the *engine* of a system
 - the models are overwhelmingly closed GPT-family, and the choice of model is mostly unjustified
@@ -770,7 +788,7 @@ Remember *faster and preferred* (week 8)? The weak usability study stood in for 
 ::: {.column width="40%"}
 
 ::: {.talk-box}
-**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ Is your A3 prototype a wrapper? Run it through the five tests. Which one does it fail, and what would fix it? 3 minutes.
+**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ Is your A3 prototype a wrapper? Run it through the five tests. Which one does it fail, and what would fix it?
 :::
 
 Tests 1 and 5 are this course: needs-finding first, evaluation that fits the question.
@@ -805,7 +823,7 @@ Back to the five claims, and to the 1997 debate.
 ## Your scorecard
 
 ::: {.talk-box}
-**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ In pairs, pick one of the five claims. Did it **hold**, **break**, or was the book **blindsided**? One piece of evidence, from today or from a tool you use. 3 minutes, then I show mine.
+**Talk:** 🙋🏽‍♀️🤷💁🏻🗣️ In pairs, pick one of the five claims. Did it **hold**, **break**, or was the book **blindsided**? One piece of evidence, from today or from a tool you use.
 :::
 
 1. **Supertool, not agent.**
@@ -820,19 +838,46 @@ Back to the five claims, and to the 1997 debate.
 
 | 2021 claim | 2026 verdict | evidence |
 | --- | --- | --- |
-| 1. Supertool, not agent | **split**: the products went agent, the court went supertool | agents; Air Canada |
-| 2. Two dimensions: automation *and* control | **open**: the combination has to be designed, and is often worse than either alone | skill and productivity |
+| 1. Supertool, not agent | **split**: the products went agent, but problems not resolved | agents; Air Canada; Medicare hack |
+| 2. Two dimensions: automation *and* control | **open**: the combination has to be designed | skill and productivity |
 | 3. Eight guidelines | preview first and audit trails **held** (plan modes, transcripts, diffs); control panels **broke**; adversarial attacks **blindsided** | text box; prompt injection |
-| 4. No anthropomorphism | **right, and ignored** | anthropomorphism; sycophancy |
-| 5. Process before product | **held**: the failures are products that skipped the needs study | Air Canada, Google Photos |
+| 4. No anthropomorphism | **right, but ignored**: the persona is what makes the sycophancy credible | anthropomorphism; sycophancy; social acceptance |
+| 5. Process before product | **held**: the failures are products that skipped the needs study | Air Canada, LLM Wrapper paper |
 
 ::::
 
-And the 1997 debate? **Maes won the market. Shneiderman won in court.** The older theory, Bainbridge and Parasuraman, predicted most of what went wrong.
+And the 1997 debate? **Maes won the market. Shneiderman still arguing!** The older theory, Bainbridge and Parasuraman, predicted most of what went wrong.
+
+## Are supertools dead, then? {.shrink}
+```{=latex}
+\footnotesize
+```
+
+:::::::::::::: {.columns}
+::: {.column width="55%"}
+
+In the market today, agents dominate. The supertool ideas are still valid, and they are not only for chat.
+
+**IMPSY** [@martin-opening-design-space:2026; @martin-impsy-platform:2026]: a small neural net in a MIDI plug that plays *with* you.
+
+- mixed initiative, but interleaved: control changes hands every 0.1 s, not every turn
+- no conversation, no prompt: you steer by playing
+- trained on your own data, on your own laptop
+- you take over by doing the thing the tool is for
+
+Shneiderman's test holds: predictable, controllable, and the human stays responsible. A supertool can be intelligent; it just does not need to be a persona.
+
+:::
+::: {.column width="45%"}
+
+![IMPSY on a Raspberry Pi, driving a Roland S-1 in performance.](img/impsy-s-1-square.jpg){alt="A Raspberry Pi in a black case sits in front of a small Roland S-1 synthesiser on a stage table, lit blue."}
+
+:::
+::::::::::::::
 
 ## Takeaways from Human-Centred AI
 
-- **What held:** process before product; preview first and audit trails; the warning against anthropomorphism, as a prediction.
+- **What held:** process before product; preview first and audit trails; the warning against anthropomorphism, right but ignored.
 - **What broke:** control panels; one autonomy level per system; the hope that high automation plus high control comes for free.
 - **What was blindsided:** the adversary inside the data; a product that is anthropomorphic by design and sycophantic by training.
 - **For your A3:** if it uses AI, say which type and level, and show how the user can preview, stop and check it.
@@ -907,24 +952,6 @@ Every week of this course maps onto a line of the A3 rubric. Check your project 
 Conclusion: HCI research is kinda hard!
 
 [^everybody_hci]: everybody to some value of people we know about
-
-## Case Study: Google Photos (2015 to 2023)
-
-:::::::::::::: {.columns}
-::: {.column width="55%"}
-In 2015 the app labelled photos of Jacky Alciné and a friend, both Black, as "gorillas".
-
-- **The fork:** fix the model, or remove the failing capability from the interface?
-- **Google:** removed the label. In 2023 the *New York Times* found "gorilla" and several other primates still absent, eight years on [@grant-hill-gorillas:2023].
-
-::: {.think-box}
-**Think:** an interface-level fix still in place after eight years: engineering honesty, or a cover-up?
-:::
-:::
-::: {.column width="45%"}
-![Redrawn, after Grant & Hill (2023).](img/photos-no-results.png)
-:::
-::::::::::::::
 
 ## So long, and thanks for the all the fish
 
