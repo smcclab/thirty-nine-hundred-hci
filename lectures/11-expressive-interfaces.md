@@ -15,8 +15,6 @@ title-slide-attributes:
 - Remember: main deliverable in the assignment is your presentation video `project-presentation.mp4`
 - Demo at end of lecture on [recording a video in Powerpoint](https://support.microsoft.com/en-au/office/record-a-slide-show-with-narration-and-slide-timings-0b9502c6-5f6c-40ae-b1e7-e47d8741161c#OfficeVersion=2013%2C_2016&officeversion=newer_versions).
 
-<!-- TODO: make a new powerpoint deck in the style of the assignment based on the EMPI musical predictions evaluation paper -->
-
 ## Plan for the class
 
 - conceptualising expressive interactions

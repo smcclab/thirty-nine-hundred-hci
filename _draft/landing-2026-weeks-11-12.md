@@ -69,9 +69,9 @@ Proposed replacement (two slides, ~8 min including the live demo):
 
 ### Decide and close
 
-- [ ] The `TODO` on first-person methods (Desjardins 2021, Höök 2018). Too
-      late for 2026. **Recommend leaving it as a TODO for 2027**; the week 12
-      positionality workshop already points at the readings.
+- [x] The `TODO` on first-person methods (Desjardins 2021, Höök 2018):
+      done, lecture 11 now has a "When the Artist is You: First-Person
+      Methods" section.
 - [ ] Human-AI creative section (Autolume, Cobbie, holographic dancer): keep
       as is, but **add one forward-pointer line**: "next week we ask what
       happens when the AI isn't a performance partner but the thing you
@@ -127,7 +127,9 @@ needs to be finished by the end of week 11.
 
 - Workshops/lecture balance audit items still open: lectures 2–3 overlong,
   stats lecture placed after A2.
-- First-person methods section for lecture 11.
+- ~~First-person methods section for lecture 11.~~ Done in 2026.
+- EMPI-paper demo deck for the recording demo: made in 2026, kept outside
+  this repo.
 - Decide whether lecture 12's HCAI material should become a full week
   earlier in the course (agentic AI as the implementation layer; see
   `comp3900-scope-boundaries`), rather than living in the last lecture.
