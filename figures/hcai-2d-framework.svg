@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 1150" width="1300" height="1150" font-family="Noto Sans">
+  <title>Two-dimensional HCAI framework: human control against computer automation, with reliable, safe and trustworthy systems high on both, and excessive human control or excessive automation as failure bands</title>
+  <defs><linearGradient id="field" x1="0" x2="1" y1="1" y2="0"><stop offset="0" stop-color="#b8c4c8" stop-opacity="0.25"/><stop offset="0.55" stop-color="#2a9d8f" stop-opacity="0.45"/><stop offset="1" stop-color="#2a9d8f" stop-opacity="0.75"/></linearGradient></defs>
+  <path d="M200 180 V110 H1230 V1000 H1160 V180 Z" fill="#e76f51" fill-opacity="0.28" stroke="#e76f51" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="200" y="180" width="960" height="820" fill="url(#field)" stroke="#b8c4c8" stroke-width="3"/>
+  <text font-size="34" font-weight="700" fill="#fafafa" text-anchor="middle"><tspan x="680.0" y="157.2">Excessive Human Control</tspan></text>
+  <text font-size="34" font-weight="700" fill="#fafafa" text-anchor="middle" transform="translate(1195.0 590.0) rotate(90)">Excessive Automation</text>
+  <rect x="222.0" y="202.0" width="449.0" height="379.0" rx="36" fill="none" stroke="#fafafa" stroke-opacity="0.7" stroke-width="4"/>
+  <rect x="689.0" y="202.0" width="449.0" height="379.0" rx="36" fill="none" stroke="#fafafa" stroke-opacity="0.7" stroke-width="4"/>
+  <rect x="222.0" y="599.0" width="449.0" height="379.0" rx="36" fill="none" stroke="#fafafa" stroke-opacity="0.7" stroke-width="4"/>
+  <rect x="689.0" y="599.0" width="449.0" height="379.0" rx="36" fill="none" stroke="#fafafa" stroke-opacity="0.7" stroke-width="4"/>
+  <text font-size="36" font-weight="700" fill="#fafafa" text-anchor="start"><tspan x="256.0" y="265.0">Human Mastery</tspan></text>
+  <text font-size="32" font-weight="400" fill="#fafafa" text-anchor="start"><tspan x="256.0" y="328.5">Bicycle</tspan><tspan x="256.0" y="368.5">Piano</tspan></text>
+  <text font-size="36" font-weight="700" fill="#fafafa" text-anchor="end"><tspan x="1104.0" y="262.5">Reliable, Safe</tspan><tspan x="1104.0" y="307.5">&amp; Trustworthy</tspan></text>
+  <text font-size="32" font-weight="400" fill="#fafafa" text-anchor="end"><tspan x="1104.0" y="368.5">Elevator</tspan><tspan x="1104.0" y="408.5">Camera</tspan></text>
+  <text font-size="32" font-weight="400" fill="#fafafa" text-anchor="start"><tspan x="256.0" y="864.5">Music box</tspan><tspan x="256.0" y="904.5">Landmine</tspan></text>
+  <text font-size="32" font-weight="400" fill="#fafafa" text-anchor="end"><tspan x="1104.0" y="844.5">Pacemaker</tspan><tspan x="1104.0" y="884.5">Airbag</tspan></text>
+  <text font-size="36" font-weight="700" fill="#fafafa" text-anchor="end"><tspan x="1104.0" y="949.0">Computer Control</tspan></text>
+  <text font-size="32" font-weight="400" fill="#b8c4c8" text-anchor="end"><tspan x="140.0" y="203.5">High</tspan></text>
+  <text font-size="32" font-weight="400" fill="#b8c4c8" text-anchor="end"><tspan x="140.0" y="999.5">Low</tspan></text>
+  <text font-size="38" font-weight="700" fill="#fafafa" text-anchor="middle" transform="translate(70 590.0) rotate(-90)">Human Control</text>
+  <text font-size="32" font-weight="400" fill="#b8c4c8" text-anchor="start"><tspan x="210.0" y="1061.5">Low</tspan></text>
+  <text font-size="32" font-weight="400" fill="#b8c4c8" text-anchor="end"><tspan x="1150.0" y="1061.5">High</tspan></text>
+  <text font-size="38" font-weight="700" fill="#fafafa" text-anchor="middle"><tspan x="680.0" y="1063.7">Computer Automation</tspan></text>
+  <text font-size="42" font-weight="700" fill="#fafafa" text-anchor="middle"><tspan x="680.0" y="70.1">Human-Centered AI</tspan></text>
+</svg>

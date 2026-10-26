@@ -98,7 +98,7 @@ Both sides later agreed on *mixed initiative*: the system may act, but the human
 
 # What is Human-Centered AI (HCAI)? {background-image="img/hal-9000.jpg" background-size="cover" background-opacity="0.3"}
 
-![Map of @shneiderman-human-centered-ai:2022 view of Human-Centered AI](img/shneiderman-what-is-hcai.png){width=50%}
+![Map of the @shneiderman-human-centered-ai:2022 view of Human-Centered AI, redrawn after figure 1.2.](img/hcai-overview.svg){alt="Human values, individual goals and design aspirations stacked on three ideas: the HCAI framework, design metaphors and governance structures. Stakeholders are bracketed on the left; malicious actors, bias and flawed software press in as threats from the right." width=70%}
 
 ## HCAI: process and product
 
@@ -406,7 +406,7 @@ The **H-metaphor** (H for horse) is the positive version [@hornbaek-intro-hci:20
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![The 1D spectrum.](img/hcai-1D-framework.png)
+![The 1D spectrum, redrawn after @shneiderman-human-centered-ai:2022.](img/hcai-1d-spectrum.svg){alt="A single slider from human control on the left to computer automation on the right."}
 
 - existing 1D framework poses an unhelpful zero-sum tradeoff in automation
 - **problem:** full automation seems like the only goal
@@ -415,7 +415,7 @@ The **H-metaphor** (H for horse) is the positive version [@hornbaek-intro-hci:20
 
 :::
 ::: {.column width="50%"}
-![Mapping systems and locating dangers](img/hcai-2D-excessive.png)
+![Mapping systems and locating dangers, redrawn after @shneiderman-human-centered-ai:2022.](img/hcai-2d-framework.svg){alt="A two-by-two grid of human control against computer automation. Bicycle and piano sit at high human control; elevator and camera at high on both; pacemaker and airbag at high automation; music box and landmine low on both. Bands of excessive human control and excessive automation run along the top and right edges."}
 :::
 ::::::::::::::
 
@@ -583,7 +583,7 @@ You run an airline website. Customers ask about policies, how should a bot help?
 :::
 :::
 ::: {.column width="40%"}
-![High automation, no human in the loop, consequential answers.](img/hcai-2D-excessive.png)
+![High automation, no human in the loop, consequential answers.](img/hcai-2d-framework.svg){alt="The two-dimensional HCAI framework again, with the excessive automation band on the right edge."}
 :::
 ::::::::::::::
 

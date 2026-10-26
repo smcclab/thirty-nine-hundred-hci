@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1760 860" width="1760" height="860" font-family="Noto Sans">
+  <title>Human-Centered AI: human values, individual goals and design aspirations, supported by the HCAI framework, design metaphors and governance structures, with stakeholders on one side and threats on the other</title>
+  <rect x="520.0" y="110" width="560" height="110" rx="55.0" fill="#2a9d8f" fill-opacity="0.18" stroke="#2a9d8f" stroke-width="4"/>
+  <text font-size="38" font-weight="700" fill="#fafafa" text-anchor="middle"><tspan x="800.0" y="159.7">Human Values</tspan></text>
+  <text font-size="27" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="800.0" y="195.7">Rights, Justice &amp; Dignity</tspan></text>
+  <rect x="400.0" y="242" width="800" height="110" rx="22" fill="#e9c46a" fill-opacity="0.18" stroke="#e9c46a" stroke-width="4"/>
+  <text font-size="38" font-weight="700" fill="#fafafa" text-anchor="middle"><tspan x="800.0" y="291.7">Individual Goals</tspan></text>
+  <text font-size="27" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="800.0" y="327.7">Self-efficacy, Creativity, Responsibility &amp; Social Connections</tspan></text>
+  <rect x="390.0" y="374" width="820" height="150" rx="22" fill="#f4a261" fill-opacity="0.18" stroke="#f4a261" stroke-width="4"/>
+  <text font-size="38" font-weight="700" fill="#fafafa" text-anchor="middle"><tspan x="800.0" y="423.7">Design Aspirations</tspan></text>
+  <text font-size="27" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="800.0" y="460.8">Reliable, Safe &amp; Trustworthy</tspan><tspan x="800.0" y="494.6">Team, Organization, Industry &amp; Government</tspan></text>
+  <rect x="389.0" y="546" width="262" height="270" rx="20" fill="#2a9d8f" fill-opacity="0.25" stroke="#2a9d8f" stroke-width="6"/>
+  <text font-size="40" font-weight="700" fill="#fafafa" text-anchor="middle"><tspan x="520.0" y="645.4">HCAI</tspan><tspan x="520.0" y="695.4">Framework</tspan></text>
+  <text font-size="30" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="520.0" y="766.8">(Part 2)</tspan></text>
+  <rect x="669.0" y="546" width="262" height="270" rx="20" fill="#e9c46a" fill-opacity="0.25" stroke="#e9c46a" stroke-width="6"/>
+  <text font-size="40" font-weight="700" fill="#fafafa" text-anchor="middle"><tspan x="800.0" y="645.4">Design</tspan><tspan x="800.0" y="695.4">Metaphors</tspan></text>
+  <text font-size="30" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="800.0" y="766.8">(Part 3)</tspan></text>
+  <rect x="949.0" y="546" width="262" height="270" rx="20" fill="#e76f51" fill-opacity="0.25" stroke="#e76f51" stroke-width="6"/>
+  <text font-size="40" font-weight="700" fill="#fafafa" text-anchor="middle"><tspan x="1080.0" y="645.4">Governance</tspan><tspan x="1080.0" y="695.4">Structures</tspan></text>
+  <text font-size="30" font-weight="400" fill="#b8c4c8" text-anchor="middle"><tspan x="1080.0" y="766.8">(Part 4)</tspan></text>
+  <ellipse cx="250" cy="180.6" rx="118" ry="62.6" fill="#2a9d8f" fill-opacity="0.18" stroke="#2a9d8f" stroke-width="4"/>
+  <text font-size="29" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="250.0" y="191.0">Researchers</tspan></text>
+  <ellipse cx="250" cy="321.8" rx="118" ry="62.6" fill="#2a9d8f" fill-opacity="0.18" stroke="#2a9d8f" stroke-width="4"/>
+  <text font-size="29" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="250.0" y="332.2">Developers</tspan></text>
+  <ellipse cx="250" cy="463.0" rx="118" ry="62.6" fill="#2a9d8f" fill-opacity="0.18" stroke="#2a9d8f" stroke-width="4"/>
+  <text font-size="29" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="250.0" y="473.4">Business leaders</tspan></text>
+  <ellipse cx="250" cy="604.2" rx="118" ry="62.6" fill="#2a9d8f" fill-opacity="0.18" stroke="#2a9d8f" stroke-width="4"/>
+  <text font-size="29" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="250.0" y="614.6">Policy-makers</tspan></text>
+  <ellipse cx="250" cy="745.4" rx="118" ry="62.6" fill="#2a9d8f" fill-opacity="0.18" stroke="#2a9d8f" stroke-width="4"/>
+  <text font-size="29" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="250.0" y="755.8">Users</tspan></text>
+  <path d="M160 110 Q100 110 100 170 V756 Q100 816 160 816" fill="none" stroke="#2a9d8f" stroke-width="6"/>
+  <text font-size="40" font-weight="700" fill="#2a9d8f" text-anchor="middle" transform="translate(60 463.0) rotate(-90)">Stakeholders</text>
+  <polygon points="1280,259.3 1370,159.3 1370,205.3 1570,205.3 1570,313.3 1370,313.3 1370,359.3" fill="#e76f51" fill-opacity="0.22" stroke="#e76f51" stroke-width="4" stroke-linejoin="round"/>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="1480.0" y="251.9">Malicious</tspan><tspan x="1480.0" y="286.9">actors</tspan></text>
+  <polygon points="1280,478.0 1370,378.0 1370,424.0 1570,424.0 1570,532.0 1370,532.0 1370,578.0" fill="#e76f51" fill-opacity="0.22" stroke="#e76f51" stroke-width="4" stroke-linejoin="round"/>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="1480.0" y="488.1">Bias</tspan></text>
+  <polygon points="1280,696.7 1370,596.7 1370,642.7 1570,642.7 1570,750.7 1370,750.7 1370,796.7" fill="#e76f51" fill-opacity="0.22" stroke="#e76f51" stroke-width="4" stroke-linejoin="round"/>
+  <text font-size="28" font-weight="400" fill="#fafafa" text-anchor="middle"><tspan x="1480.0" y="689.2">Flawed</tspan><tspan x="1480.0" y="724.2">software</tspan></text>
+  <rect x="1570" y="150" width="80" height="656" rx="16" fill="#e76f51" fill-opacity="0.22" stroke="#e76f51" stroke-width="4"/>
+  <text font-size="40" font-weight="700" fill="#e76f51" text-anchor="middle" transform="translate(1690 478.0) rotate(-90)">Threats</text>
+  <text font-size="42" font-weight="700" fill="#fafafa" text-anchor="middle"><tspan x="800.0" y="65.1">Human-Centered AI</tspan></text>
+</svg>
